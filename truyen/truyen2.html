@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tổng Tài</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="topbar">
+    Thiên Đế Trọng Sinh
+  </div>
+
+  <div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="" data-marker="0" data-marker-label="00:00">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Hoàng Hậu Mù Mặt</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">00:00</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">00:00</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc tiếp nếu bạn từ Facebook sang</a>
+</div>
+
+<div id="story">
+    <!-- NỘI DUNG TRUYỆN -->
+    <div id="story">
+Ánh sáng chiếu xuống nửa khuôn mặt...
+
+Nàng đang nằm trên giường lớn...
+
+“Người đâu rồi?”
+    </div>
+
+  </div>
+
+  <!-- POPUP -->
+  <div class="modal" id="modal">
+
+    <div class="box">
+
+      <h3>🔓 Mở khóa nội dung</h3>
+
+      <p>
+        Mời bạn CLICK vào liên kết bên dưới và <br><br>
+        Mở Ứng Dụng Shopee để mở khóa toàn bộ truyện!
+      </p>
+
+      <a 
+        class="btn"
+        href="https://s.shopee.vn/xxx"
+        target="_blank"
+        id="unlockBtn"
+      >
+        👉 Mở Shopee
+      </a>
+
+      <div class="note">
+        Quảng cáo chỉ xuất hiện 1 lần/ngày, mong bạn ủng hộ!
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

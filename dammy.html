@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Truyện Đam Mỹ</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- MENU -->
+<header class="topbar">
+  <a href="index.html">Trang chủ</a>
+  <a href="ngontinh.html">Ngôn tình</a>
+  <a href="dammy.html">Đam mỹ</a>
+  <a href="cotrang.html">Cổ trang</a>
+</header>
+
+<!-- TITLE -->
+<h2 style="
+  text-align:center;
+  color:#ff5722;
+  margin:15px;
+">
+  Truyện Đam Mỹ
+</h2>
+
+<!-- LIST -->
+<div class="container" id="list"></div>
+
+<!-- DATA -->
+<script src="data.js"></script>
+
+<script>
+
+const list = document.getElementById("list");
+
+function render(data){
+
+  list.innerHTML = "";
+
+  // lọc truyện đam mỹ
+  const dammy =
+    data.filter(item => item.type === "dammy");
+
+  // id lớn nhất lên đầu
+  dammy
+    .sort((a,b) => b.id - a.id)
+
+    .forEach(item => {
+
+      list.innerHTML += `
+
+        <a class="book"
+           href="detail.html?id=${item.id}">
+
+          <img src="${item.image}"
+               alt="${item.title}">
+
+          <h2>${item.title}</h2>
+
+        </a>
+
+      `;
+
+    });
+
+}
+
+render(stories);
+
+</script>
+
+</body>
+</html>

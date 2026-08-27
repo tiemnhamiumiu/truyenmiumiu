@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lưới Tình Kẻ Điên</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+  <a href="../cotrang.html">Cổ trang</a>
+</header>
+
+<div class="topbar">
+  Lưới Tình Kẻ Điên
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="" data-marker="0" data-marker-label="00:00">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Hoàng Hậu Mù Mặt</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">00:00</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">00:00</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc tiếp nếu bạn từ Facebook sang</a>
+</div>
+
+<div id="story">
+    Tôi vốn là một Omega kém cỏi sống ở khu ổ chuột. Nửa tháng trước, tôi bất ngờ bị mất trí nhớ, chỉ có thể mưu sinh bằng nghề đánh thuê ở sàn đấu quyền Anh ngầm. Vì liên tục bị chóng mặt và nôn khan suốt mấy ngày liền, tôi đành phải đến bệnh viện kiểm tra và đau lòng tiêu tốn một khoản tiền lớn. Vài ngày sau, tôi nhận được điện thoại từ bệnh viện yêu cầu phải đến một chuyến.
+
+Bác sĩ nhẹ nhàng đẩy tờ kết quả đến trước mặt tôi rồi bảo: “Kết quả đã có, xin chúc mừng, cậu mang thai rồi.”
+
+Tôi chỉ biết đứng hình mất năm giây: “?”
+
+Mặc dù tôi biết rõ mình là một Omega đã được đánh dấu, nhưng tôi thích sống một mình và đã quen với việc độc lập. Tôi chẳng hề quan tâm xem Alpha đã đánh dấu mình là ai, và lại càng không thể ngờ rằng trước khi mất trí nhớ, tôi lại có thể mang thai một đứa bé ngoài ý muốn thế này.
+
+Bác sĩ đẩy gọng kính lên, theo thông lệ hỏi tôi: “Trong hai tháng đầu, cậu có tập luyện những bài tập mạnh nào không?”
+
+Tôi bị hỏi mà trong lòng có chút chột dạ, liền lý nhí: “Đã đánh bảy, tám trận quyền Anh ở sàn đấu, có tính không?”
+
+Bác sĩ đang ghi chép đột nhiên dừng bút hỏi lại: “… Hả?”
+
+Nhận ra mức độ nghiêm trọng của vấn đề, bác sĩ lập tức trở nên vô cùng nghiêm nghị: “Alpha của cậu đâu rồi? Sao lại để Omega đang mang thai nhà mình đi đánh quyền ở bên ngoài như vậy chứ? Coi 《Quy tắc Bảo vệ Omega》 là đồ trang trí đấy à?”
+
+Bác sĩ kiên quyết kê cho tôi một đống thuốc dưỡng thai đắt đỏ. Nhìn số dư trong thẻ ngân hàng cứ thế bốc hơi, tôi đau lòng thầm mắng tên Alpha vô trách nhiệm đó cả trăm lần trong lòng.
+
+Rời khỏi bệnh viện, tôi lấy ra một chiếc danh thiếp mạ vàng từ túi áo sơ mi rồi soi dưới ánh sáng để nhìn cho kỹ. Mặt trước danh thiếp có ghi đại danh của đại gia giới Kinh thành là Bạc Tư Yếm, mặt sau là một dãy số viết tay liền mạch, và ở góc dưới còn để lại một chữ “Love” viết hoa bay bổng nhưng có chút run rẩy. Trên danh thiếp vẫn còn vương vấn mùi Pheromone chiếm hữu mạnh mẽ của Alpha, chỉ một chút Pheromone thoang thoảng này cũng đủ để xoa dịu đi sự khó chịu trong thai kỳ của tôi. Đây chính là thứ mà tôi đã nắm chặt trong tay trước khi mất trí nhớ, là kỷ vật duy nhất tôi giữ lại được, và cũng rất có thể anh ta chính là cha của đứa bé trong bụng tôi.
+
+Danh tiếng của Bạc Tư Yếm vốn rất lẫy lừng trong giới Kinh thành, ngay cả một đứa ở khu ổ chuột như tôi cũng từng nghe nói đôi chút. Tương truyền rằng anh ta là người lạnh lùng, cấm dục, không bao giờ gần gũi với ai và hoàn toàn không có bất kỳ tin đồn tình ái nào cả. Nhưng nhìn đứa bé trên tờ siêu âm và số tiền tiết kiệm ít ỏi đến đáng thương của mình, tôi đã do dự rất lâu, cuối cùng vẫn quyết định bấm số điện thoại kia.
+
+Điện thoại nhanh chóng được bắt máy, nhưng người ở đầu dây bên kia lại không lập tức lên tiếng. Khi tôi tưởng rằng đối phương chỉ vô tình lỡ tay bấm nhận cuộc gọi, tôi lại nghe thấy tiếng thở nhẹ nhàng nhưng đầy nén nhịn của họ.
+
+Tôi hơi căng thẳng lên tiếng hỏi: “Có phải là ngài Bạc Tư Yếm không?”
+
+Giọng nói bên kia vang lên trầm khàn, nhưng bất ngờ là lại rất dễ nghe: “Là tôi.”
+
+“……Có một chuyện, tôi muốn nói với anh.” Sợ anh ta tưởng mình là kẻ lừa đảo rồi cúp máy, tôi liền nhanh chóng nói tuồn tuột: “Tôi có thai, có thể là của anh, anh xem thử xem anh có thời gian không, có lẽ chúng ta có thể ngồi lại nói chuyện một chút.”
+
+Giọng nói bên kia lần này im lặng lâu hơn hẳn. Mãi một lúc sau, tôi mới nghe thấy tiếng dập tắt điếu thuốc từ đầu dây bên kia.
+
+“Bây giờ em đang ở đâu?”
+
+Tôi liếc nhìn bên vệ đường rồi đọc tên một hộp đêm nổi tiếng gần đó.
+
+Giọng của Bạc Tư Yếm vẫn nhạt nhòa như trước: “Em đứng yên đó, tôi đến đón.”
+
+Điện thoại ngay sau đó phát ra tiếng “tút tút”, đối phương đã cúp máy mất rồi. Xem ra Bạc Tư Yếm này có vẻ dễ nói chuyện hơn rất nhiều so với những gì tôi tưởng tượng. Thực ra, ban đầu tôi tìm Bạc Tư Yếm chỉ để đòi một ít tiền nuôi con, nếu anh ta có thể chịu phí dinh dưỡng thì càng tốt.
+
+Tôi xoa xoa đứa nhỏ không nghe lời trong bụng, nghĩ thầm trong đầu rằng khó khăn lắm mới gặp được một người chất phác như vậy, hay là mình có thể dựa vào đó để đưa ra thêm một chút yêu cầu nữa nhỉ?
+
+Bạc Tư Yếm đến nhanh một cách bất ngờ, không lâu sau đó đã có một chiếc Rolls-Royce sang chảnh dừng ngay trước mặt tôi. Kính xe được hạ xuống, Bạc Tư Yếm lộ ra nửa bên gương mặt quý tộc đầy vẻ cấm dục, đôi môi mỏng khẽ mím lại toát ra chút cảm giác lạnh lùng và chán đời. Anh ta không thèm nhìn tôi mà chỉ nói vào tai nghe: “Ừ, hủy lệnh truy nã đi, người tôi đã tìm thấy rồi.”
+
+Thấy anh ta vẫn đang bận làm việc, tôi lại không muốn đứng bên đường một cách khó xử nên đành tự mình mở cửa lên xe trước. Lúc này tôi đã hoàn toàn xác nhận anh ta chính là người cha còn lại của con tôi rồi. Bởi vì ngay từ khi anh ta xuất hiện, tôi đã ngửi thấy từ người anh ta mùi Pheromone hòa hợp 100% với mình. Có lẽ Alpha bên cạnh đã có ý thức giải phóng ra một lượng lớn Pheromone xoa dịu, nên sự khó chịu của tôi đã giảm bớt đi đáng kể.
+
+Còn Bạc Tư Yếm thì từ lúc tôi lên xe đến giờ cứ nhắm mắt dưỡng thần, hoàn toàn không có ý định nói chuyện với tôi. Không thể kiềm chế được nữa, tôi liền khẽ than thở: “……Sao anh không chịu trách nhiệm với tôi và con của tôi?”
+
+Bạc Tư Yếm mở mắt ra nhìn tôi: “Cái gì?”
+
+Nhắc đến chuyện này là tôi lại thấy tức giận, dù không biết trong thời gian mất trí nhớ tôi và anh ta đã xảy ra chuyện gì, nhưng tôi rất ghét kiểu Alpha hưởng thụ xong rồi xỏ quần bỏ đi, bỏ mặc tất cả mọi thứ như thế.
+
+Tôi gắt lên: “Đây dù sao cũng là con của anh, anh đúng là buông tay không quản thật đấy.”
+
+Bạc Tư Yếm do dự một chút rồi hỏi lại: “……Em có thai?”
+
+Wow, hóa ra lúc nãy nghe điện thoại anh ta căn bản là không nghe thấy tôi nói gì sao? Vậy thì anh ta lao đến đây nhanh như vậy để làm cái gì không biết?
+
+Thấy tôi giận dữ đập thẳng tờ giấy khám thai lên mặt mình, Bạc Tư Yếm bỗng sửng sốt, mãi một lúc lâu sau mới hoàn hồn lại được rồi bảo: “Em cứ ở lại đây, tôi sẽ chịu trách nhiệm.”
+
+Cách nói chuyện của Bạc Tư Yếm giống như một người cha lớn tuổi, vô cùng ôn hòa nhã nhặn. Điều này khiến tôi tự nhiên buông bỏ đi sự phòng bị trong lòng.
+
+Tôi liền ra điều kiện: “Bạc Tư Yếm, tôi có thể đến chỗ anh để sinh con, nhưng trước đó, tôi muốn cùng anh ước pháp tam chương. Thứ nhất, anh phải cung cấp cho tôi mỗi ngày một lượng Pheromone của Alpha đúng giờ đúng lượng, đây là tôi thay mặt đứa nhỏ của anh để đòi; thứ hai, tôi không quen sống chung với người khác, trước khi tôi rời đi anh không được mang Omega khác về nhà; thứ ba, anh phải đảm bảo cho tôi sự tự do tuyệt đối trước và sau khi mang thai, tôi muốn ăn gì làm gì, sau khi sinh con tôi đi hay ở đều do tôi quyết định.”
+
+Điều kiện tôi đưa ra có thể nói là khá khắt khe. Bạc Tư Yếm khoanh chân suy nghĩ một chút, nhưng rất nhanh sau đó đã gật đầu đồng ý.
+
+Anh ta bảo: “Được. Còn gì nữa không?”
+
+Sao lại dễ nói chuyện như vậy nhỉ? Tôi liếc nhìn anh ta một cái rồi bảo: “Tạm thời… không còn nữa.”
+
+Bạc Tư Yếm giơ tay vẫy vẫy tôi: “Lại đây.”
+
+Tôi vừa mới dịch chuyển người một chút thì đã bị anh ta kéo ôm chầm lấy, ngã ịch vào lòng anh ta. Chưa kịp lên tiếng phản kháng, Bạc Tư Yếm đột nhiên cúi đầu cắn mạnh vào tuyến thể sau cổ đang lộ ra của tôi. Đôi mắt anh ta đỏ ngầu đầy nén chịu, trông hoàn toàn khác biệt với vị Bạc tiên sinh ôn hòa nhã nhặn lúc trước.
+
+Tôi bị dọa đến mức mất cả giọng: “Bạc, Bạc Tư Yếm…”
+
+Anh ta cắn không sâu, rất nhanh đã buông tôi ra rồi bảo: “Xin lỗi, hơi mất kiểm soát… Dấu ấn trên người em nhạt rồi, tôi không thích lắm.”
+
+Bạc Tư Yếm nắm lấy cổ tay tôi rồi nói tiếp: “Sẽ không có lần sau nữa.”
+
+Đối với một Omega đã bị đánh dấu vĩnh viễn như tôi thì việc bị đánh dấu lần hai không hề đau đớn, ngược lại nó còn là một cách để tăng thêm tình thú. Dường như đây chỉ là nhu cầu tình dục hợp lý của Alpha mà thôi, nếu tôi vì thế mà tức giận rồi bắt nạt một Alpha chất phác như anh ta thì cũng quá không nhân đạo rồi.
+
+Tôi cắn môi dưới, tỏ ra rộng lượng nói: “Không sao, chỉ cắn một cái thôi mà, tôi không yếu đuối đến vậy đâu.”
+
+Bỏ qua tình tiết nhỏ lần đó thì Bạc Tư Yếm đúng là một bạn đời Alpha rất hợp cách. Mỗi ngày anh ta đều tự mình đến phòng tôi để giải phóng Pheromone xoa dịu. Anh ta còn tự mình học theo bác sĩ những kiến thức chăm sóc Omega mang thai, thậm chí là xin nghỉ phép ở công ty để dành thời gian dẫn tôi ra ngoài chơi nhằm thư giãn tâm trạng. Dù tôi có nghe bác sĩ nói rằng Bạc Tư Yếm bị chứng cuồng loạn rất nặng, nhưng anh ta đúng như lời đã hứa, chưa từng một lần nào mất kiểm soát trước mặt tôi cả. Ban đầu tôi còn hơi áy náy vì anh ta đối xử với mình tốt như vậy, nhưng nghĩ lại thì tôi đang mang thai con của anh ta mà, anh ta đối xử tốt với tôi là điều đương nhiên thôi. Hơn nữa, ngay cả bản thân anh ta cũng từng nói rằng em mang thai con của anh, nên em muốn gì cũng được.
+
+Khi Bạc Tư Yếm đang làm việc trong phòng sách, tôi chạy đến tìm anh ta thì mới phát hiện anh ta đang kết nối cuộc họp từ xa. Anh ta lập tức tắt cuộc họp đi, rồi tự nhiên bế tôi đặt lên đùi mình. Động tác kia thuần thục như thể đã làm vô số lần rồi vậy, anh ta hỏi: “Có chuyện gì vậy?”
+
+Tôi đương nhiên là than thở với anh ta: “Con của anh quấy rầy em.”
+
+Bạc Tư Yếm tính tình tốt không phải lối, anh ta vừa giải phóng Pheromone vừa nhẹ nhàng xoa xoa bụng tôi rồi khẽ hỏi: “Còn đau không?”
+
+Tôi lười biếng rúc trong lòng anh ta ừ hử: “Bạc Tư Yếm, sao anh đối xử với em tốt như vậy. Em sắp bị anh nuôi thành chim hoàng yến mất rồi, ngày càng không thể rời xa anh được nữa.”
+
+Alpha phía sau cất giọng nói còn dịu dàng hơn cả Pheromone của anh ta, một giọng nói có thể khiến người ta dễ dàng chìm đắm: “Vậy thì hãy ở lại mãi mãi, được không?”
+
+Nghe thấy lời anh ta nói, tôi bỗng lặng thinh không động đậy. Từ mãi mãi này đối với tôi vẫn còn quá lâu dài. Tôi chỉ mượn cớ đứa con để ở nhà họ Bạc ăn uống chùa mà thôi, từ đầu đã không hề nghĩ đến việc sẽ chiếm đoạt cả đời của Bạc Tư Yếm. Tôi nhất thời suy nghĩ rất nhiều chuyện. Bởi vì khi mang thai vốn dĩ người ta sẽ không nhạy cảm lắm với Pheromone, nên tôi hoàn toàn không chú ý đến việc chỉ vì mình không kịp thời trả lời câu hỏi của anh ta, mà ánh mắt của người phía sau rơi xuống người tôi đã càng trở nên u ám và sâu thẳm hơn. Pheromone của Alpha lan tỏa trong không khí đặc đến mức có thể nhỏ thành nước, gần như muốn nuốt chửng lấy người ta vậy.
+
+Người giúp việc vô tình làm đổ ly sữa tôi thường uống, cô ấy nhất thời hoảng sợ cuống cuồng: “Tiểu phu nhân, tôi không cố ý, tôi…”
+
+Chỉ một ly sữa thôi mà, tôi vốn là người dễ nói chuyện nên đã bảo cô ấy lui xuống. Mấy ngày liền Bạc Tư Yếm vì công việc bận rộn nên không về nhà.
+
+Buổi tối hôm đó, tôi nằm mơ. Trong mơ có một người đàn ông không rõ khuôn mặt đang nắm chặt lấy eo tôi, hơi thở của anh ta phả lên tuyến thể bị cắn nát một cách thô bạo của tôi, anh ta vừa bệnh hoạn vừa thành kính hôn lên hình xăm hoa bên hông tôi. Tôi giống như một món đồ chơi bị chơi đến hỏng hóc, chỉ có thể nghe thấy người đó lặp đi lặp lại lời thì thầm anh yêu em trong nước mắt.
+
+Tôi bị dọa đến mức toát mồ hôi lạnh rồi giật mình tỉnh giấc. Bên cạnh tôi không có một ai cả, chỉ có ánh đèn camera màu đỏ trên tường đang nhấp nháy liên tục như đang truyền tải một tín hiệu nào đó. Tôi thu mình lại trong chăn đệm, trên đó vẫn còn vương mùi Pheromone Alpha của Bạc Tư Yếm, nhưng bấy nhiêu vẫn không thể khiến tôi cảm thấy yên ổn được. Trong lúc mơ màng ngủ say, dường như có một bàn tay rộng lớn đang vuốt ve lên khuôn mặt tôi, nhiệt độ xung quanh cũng như đang dần trở nên bồn chồn hẳn lên. Tôi vô thức áp mặt vào tay anh ta cọ cọ, ngửi mùi hương quen thuộc rồi nhíu mày ngủ tiếp.
+
+Lúc thức dậy, tôi hốt hoảng phát hiện trên cổ mình lại xuất hiện thêm một vết hồng đầy ám ảnh. Trông nó không giống vết muỗi đốt chút nào, mà nhìn giống như là…… Tôi vội vàng dùng cổ áo sơ mi che kín lại. Không hiểu sao trong lòng tôi lại dấy lên cảm giác tội lỗi, nghĩ rằng tuyệt đối không thể để cho Bạc Tư Yếm nhìn thấy dấu vết này được.
+
+Đến bữa sáng, tôi vẫn không thấy bóng dáng Bạc Tư Yếm đâu, nhưng lại thấy có rất nhiều bác sĩ đang ra vào nhà họ Bạc. Tôi tò mò kéo một bác sĩ lại hỏi thì mới biết được chuyện. Mấy ngày nay Bạc Tư Yếm căn bản không hề đi làm, mà là vì anh ta đang trong thời kỳ nhạy cảm, lại kèm theo chứng cuồng loạn bộc phát nên chỉ có thể tự nhốt mình trong phòng và đeo dụng cụ cắn.
+
+Khi tôi từ xa nhìn thấy Bạc Tư Yếm, tôi đã hoàn toàn giật mình trước sự chật vật của anh ta. Cánh tay trắng ngần của anh ta giờ đây đầy rẫy những vết cắn, vì phải đeo dụng cụ cắn nên phần lớn thời gian anh ta chỉ có thể ngửa đầu lên, yết hầu khó nhọc lăn tửng nhịp. Đáy lòng tôi đột nhiên trào dâng một sự thương xót khôn nguôi.
+
+Tôi khẽ gọi: “Bạc Tư Yếm…”
+
+Anh ta là một bệnh nhân mắc chứng cuồng loạn, cần phải có rất nhiều rất nhiều tình cảm nồng nhiệt thì mới có thể chữa lành được. Còn tôi cũng là một bệnh nhân rối loạn cảm xúc, dù đối phương có nhiều bao nhiêu tình cảm nồng nhiệt đi chăng nữa thì tôi cũng không thể cảm nhận được tình yêu của người khác. Hai con người cô độc trong mùa đông giá rét luôn không thể kìm lòng được mà muốn sưởi ấm cho nhau.
+
+Tôi bất chấp sự ngăn cản của các bác sĩ để đi đến trước mặt anh ta, cố gắng tỏa ra một chút Pheromone Omega của mình, nhưng chút Pheromone ít ỏi này đối với Bạc Tư Yếm mà nói thì rõ ràng chỉ như muối bỏ bể.
+
+Anh ta khó chịu nghiến chặt răng muốn đuổi tôi đi: “Đừng ở lại đây, đi ra ngoài đi, sẽ làm tổn thương em đấy.”
+
+Bạc Tư Yếm với tư cách là một Alpha thì sự tự chủ lúc này không được tốt lắm, chỉ cần Omega mà anh ta đã đánh dấu đứng ở đây là anh ta đã có thể khiến dụng cụ cắn lắc lư, phát ra những tiếng kêu kim loại xoắn lại một cách kịch liệt. Tôi vốn không phải là người thích xen vào chuyện của người khác, nhưng tôi lại không muốn nhìn thấy Bạc Tư Yếm gặp chuyện chẳng lành. Dù sao thì sau này tôi còn trông cậy vào việc anh ta nuôi con mà.
+
+Tôi nhón chân lên, thử hôn môi anh ta qua lớp dụng cụ cắn rồi bảo: “Cơ thể anh nói anh muốn em ở lại, phải không?”
+
+Hơi thở của Bạc Tư Yếm đột nhiên ngưng đọng lại trong giây lát. Anh ta cúi mắt nhìn xuống đầy lạnh lùng, một tay ôm chặt lấy eo tôi khiến tôi gần như không đứng vững nổi.
+
+Anh ta khàn giọng đáp: “Ừ… nó muốn.”
+
+Anh ta nắm lấy tay tôi, dẫn dắt đặt lên chỗ nặng nề dưới bụng mình rồi nói tiếp: “…Nỏ muốn em giúp anh chỗ này, dùng tay cũng được.”
+
+Kích thước của Bạc Tư Yếm lớn đến mức khiến bàn tay tôi nắm không xuể. Anh ta khẽ cười một tiếng, sau đó ghé sát tai tôi nói nhỏ: “Hai tay.”
+
+Tai tôi bỗng chốc bốc cháy đỏ rực, tôi thẹn thùng: “Em không giúp anh nữa.”
+
+Tôi quay người muốn bỏ chạy, nhưng còn chưa kịp bước đi thì anh ta đã gần như không thể đợi thêm được nữa mà cắn lấy môi tôi, lật nhào tôi nằm rạp xuống đất. Cơ thể tôi bị anh ta khống chế chặt chẽ dưới thân, khiến tôi lập tức hoảng hốt tột độ.
+
+Tôi hét lên: “Bạc Tư Yếm, con còn ở đây, anh không được làm càn…”
+
+Lúc này Bạc Tư Yếm giống như một kẻ điên cuồng chán đời, đôi mắt thất thần cúi xuống nhìn tôi. Giọng nói của anh ta gần như là một tiếng thở dài: “Chà, thật phiền phức.”
+
+Anh ta cắn mạnh vào sau cổ tôi, đầu ngón tay có vết chai cũng tự nhiên đặt lên bụng tôi. Giọng điệu bình thản của anh ta tự nhiên lộ ra vẻ cực kỳ chán đời: “…Vậy thì để nó chết đi.”
+
+Giọng của Bạc Tư Yếm lúc đó rất khó nghe, tôi nhất thời không nghe rõ xem anh ta đang nói cái gì, chỉ có thể cố sức đỡ lấy cơ thể quá mạnh mẽ đối với mình.
+
+Tôi hỏi lại: “Bạc Tư Yếm, anh nói gì cơ…”
+
+Bạc Tư Yếm không lập tức trả lời tôi, cũng không hề động đậy thêm nữa. Anh ta chỉ vục mặt ngửi sâu vào sau cổ tôi. Rất lâu rất lâu sau đó, cho đến khi ánh mắt đỏ sẫm của anh ta dần dần tan biến đi hoàn toàn.
+
+“Không có gì.” Anh ta mang theo sự hối lỗi ngập tràn, nhẹ nhàng hôn đi những giọt nước mắt vì bị dọa sợ của tôi rồi bảo: “Anh nói là có con ở đây, anh sẽ cẩn thận.”
+
+Alpha thật sự rất xấu xa. Một chút lòng xót xa, thương cảm bộc phát của tôi đã bị anh ta lợi dụng triệt để, triệt để đến mức khiến cho cả cơ thể tôi mềm nhũn, rệu rã hết cả ra.
+
+Cái thời kỳ nhạy cảm chết tiệt của Bạc Tư Yếm đã bắt nạt tôi quá đáng lắm rồi, anh ta phải dỗ dành, cưng nựng hết lời, tốn biết bao nhiêu công sức thì mới có thể khiến tôi nguôi ngoai cơn giận. Chỉ là anh ta dỗ được đứa lớn là tôi, nhưng lại hoàn toàn bó tay bất lực với đứa nhỏ trong bụng.
+
+Thế là tôi được nước lấn tới, cứ ngồi chễm chệ trên chiếc ghế sofa êm ái của anh ta, ung dung dựa vào danh nghĩa con của anh ta để bắt đầu ra lệnh, sai vặt.
+
+Tôi hất hàm bảo: “Bạc Tư Yếm, con của anh bảo là nó muốn ăn tào phớ ở phía nam thành, nhớ dặn người ta thêm hành thêm gừng và tuyệt đối không được thêm xì dầu đâu đấy.”
+
+“Con của anh lại bảo là muốn uống canh vịt quay ở phía bắc thành, mua nửa con thôi, bảo họ quét ít dầu thôi cho đỡ ngấy.”
+
+“Con của anh còn muốn gọi mấy anh mẫu nam… phi phi phi, ý tôi là nó muốn gọi trà sữa.”
+
+Ấy thế mà Bạc Tư Yếm chưa từng một lần tỏ thái độ than phiền hay cảm thấy phiền phức, bất cứ việc gì tôi nói ra, anh ta đều lầm lũi tự tay đi làm cho bằng được.
+
+Mấy người giúp việc trong nhà thấy thế còn lén lút đưa ra chủ ý, hết lời khuyên tôi nên tìm cách mà giữ chân Bạc Tư Yếm lại cho chặt. Dù sao thì với gia thế và thân phận khủng của Bạc Tư Yếm, anh ta muốn tìm một Omega tương đương về môn đăng hộ đối, lại còn trẻ trung xinh đẹp thì dễ như trở bàn tay.
+
+Nhưng cái hội này làm sao mà biết được, tôi đây chỉ muốn mượn Bạc Tư Yếm để làm cái máy đẻ, có được đứa con rồi thì sau này tôi muốn làm gì thì làm, tha hồ tự do tự tại. Tôi và Bạc Tư Yếm vốn dĩ ngay từ đầu đã không phải là người cùng một thế giới, cho nên việc tranh thủ chiếm hết mọi lợi ích ở thời điểm bây giờ mới chính là chân lý tối cao.
+
+Không ngờ mới trôi qua vài ngày, mọi chuyện lại diễn ra đúng như những gì người giúp việc đã lo liệu. Hôm đó khi Bạc Tư Yếm đi làm về, tôi vô tình phát hiện trên ống tay áo vest của anh ta có dính một vết son môi nhỏ.
+
+Tôi còn chưa kịp mở mồm ra hạch sách, tra hỏi thì Bạc Tư Yếm đã vô cùng tự giác mà thật thà báo cáo với tôi: “Là một Omega đã kết hôn, lúc nãy ở công ty không cẩn thận nên mới va quệt vào tay tôi.”
+
+Tôi nghĩ thầm trong đầu, anh tự dưng đi giải thích mấy cái chuyện này với tôi để làm cái gì không biết. Tôi vốn là kẻ vô tâm vô phế, lười biếng ngáp dài một cái rõ to rồi tiếp tục rúc sâu vào lòng anh ta. Tôi hoàn toàn không có một chút hứng thú nào để nghe anh ta phân trần, giải thích, cho đến khi tai tôi bắt gặp câu nói tiếp theo của Bạc Tư Yếm.
+
+Anh ta nhỏ giọng bảo: “…Là anh không tốt, đã không quan tâm chu đáo đến cảm nhận của em, nếu em có muốn đòi hỏi bất cứ thứ gì…”
+
+Nghe thấy thế, tôi lập tức ngước mắt lên, ánh mắt long lanh đầy vẻ mong đợi nhìn chằm chằm vào anh ta: “Thật sao? Vậy mấy hôm trước em có dùng máy tính của anh để chơi game bắn súng, mà nó cứ bị lag lag thế nào ấy. Bây giờ em có thể đòi đổi một cái card màn hình xịn hơn, tốt hơn được không?”
+
+Bạc Tư Yếm bỗng dưng im bặt: “…”
+
+Thực ra Bạc Tư Yếm hoàn toàn có thể đáp ứng vô điều kiện mọi yêu cầu tai quái của tôi trong những chuyện sinh hoạt thường ngày như thế này. Nhưng cái điều kiện duy nhất mà anh ta bắt tôi phải thực hiện chính là không được tháo chiếc kính toàn phần được lắp đặt trong phòng tắm ra. Anh ta giải thích là sợ tôi bị trượt chân trong lúc tắm rửa, rồi sẽ làm tổn thương đến vị thái tử nhỏ quý giá đang nằm trong bụng.
+
+Ở đây một thời gian lâu, có bị thương hay không thì tôi chưa từng thấy, nhưng có một điều chắc chắn là lần nào tôi từ phòng tắm bước ra, phần dưới của Bạc Tư Yếm đều rất lịch sự, nghiêm chỉnh mà đứng lên chào hỏi tôi. Thật sự là quá mức lịch sự luôn ấy.
+
+Mà cái cảnh tượng sống động dưới thân của ai đó lại hoàn toàn trái ngược, tỉ lệ nghịch với bộ trang phục chỉnh tề ở phần trên của kẻ đó. Bộ đồ ngủ trên người Bạc Tư Yếm luôn là kiểu dáng rộng rãi, thùng thình. Trên ngực anh ta tùy tiện cởi mở vài chiếc cúc áo, lộ ra bờ xương quai xanh quyến rũ cùng vài giọt nước còn đọng lại đang khẽ chảy xuống, trông gợi cảm đến mức cực điểm.
+
+Đúng lúc đó, chính chủ lại cứ như một kẻ ngây thơ hoàn toàn không biết gì về sức hút của bản thân. Thấy tôi cứ đứng hình không nói năng gì, anh ta khẽ bật cười thành tiếng.
+
+Anh ta trêu: “Sao thế, hôm nay con không quấy rầy em nữa à? Có cần anh xoa bụng cho em không?”
+
+Có lẽ vì ánh mắt của anh ta lúc đó trông quá đỗi chân thành và trong sạch, nên tôi nhất thời cũng không thể phân biệt nổi cái người này là thật sự thuần khiết hay là đang giả vờ thuần khiết để lừa tôi nữa.
+
+Bị anh ta nhìn chằm chằm bằng ánh mắt như thiêu như đốt ấy, tôi xấu hổ đến mức đỏ hết cả mặt, nhanh chóng đi đến bên cạnh anh ta rồi leo tót lên giường. Tôi chui tọt cả người vào trong chăn, da mặt ở dưới chăn nóng bừng lên đến mức cảm giác như sắp chảy cả máu đến nơi.
+
+Sau đó tôi lại rụt rè thò mặt ra liếc nhìn anh ta một cái, tiện tay giật lấy cuốn sách mà anh ta đang cầm ngược rồi lật ngược lại cho đúng chiều. Bạc Tư Yếm thấy vậy thì khẽ dựa lại gần, cả cơ thể tôi lập tức bị bao phủ hoàn toàn dưới cái bóng lớn của một Alpha trội.
+
+Đốt ngón tay to lớn của anh ta tự nhiên đặt lên bụng tôi, bắt đầu theo thông lệ mỗi ngày mà giải phóng ra một lượng Pheromone xoa dịu dịu nhẹ của Alpha. Nhưng hôm nay trôi qua rất lâu rồi mà anh ta vẫn cứ giữ nguyên tư thế đó, không có một ý định nào là sẽ đứng dậy rời đi.
+
+Tôi khẽ gọi: “Bạc Tư Yếm…”
+
+Tôi gọi anh ta một tiếng nhưng không thấy có lời đáp lại, tôi đành phải lật người sang để nhìn anh ta cho rõ. Không ngờ đập vào mắt tôi lại là cảnh Bạc Tư Yếm đã ngủ say sưa từ lúc nào không hay. Dưới đôi mắt thường ngày luôn mệt mỏi và lãnh đạm kia là hơi thở nhẹ nhàng, đều đặn đang dâng lên.
+
+Ủa, cái tên này anh ta ngủ thật rồi sao? Tôi nhẹ nhàng tháo chiếc kính cận của anh ta ra, bất ngờ đối diện với khuôn mặt phóng đại cùng đôi lông mày đẹp đẽ đang hơi nhíu lại của anh ta.
+
+Mặc dù trước đó, tôi đã phải tự sa sầm, nhiều lần nghiêm túc nhắc nhở bản thân mình rằng người đàn ông này chỉ vì đứa con trong bụng nên mới đối xử tốt với tôi như vậy, còn tôi cũng chỉ vì đứa con nên mới chấp nhận ở lại bên cạnh anh ta. Nhưng vào chính ngay khoảnh khắc này, tôi lại đột nhiên nảy sinh ra một ham muốn mãnh liệt, muốn biết giữa tôi và Bạc Tư Yếm rốt cuộc là có mối quan hệ sâu xa như thế nào.
+
+Cái anh chàng Bạc Tư Yếm này ấy à, tôi đưa ngón tay ra khẽ vẽ theo đường viền môi mỏng góc cạnh của anh ta, bất giác nghĩ thầm trong đầu rằng có lẽ tôi đã bị Bạc Tư Yếm nuông chiều đến mức hư hỏng mất rồi, nên đầu óc mới nảy sinh ra mấy cái tâm tư không đúng đắn thế này. Tôi có lẽ là một Omega rất xấu xa, vừa không muốn chịu trách nhiệm, lại vừa muốn nhân lúc trời tối tăm nhập nhẹm để làm chuyện xấu.
+
+Tôi nhìn chằm chằm vào cái cổ trắng trẻo đến mức gần như trong suốt của anh ta một lúc rất lâu, sau đó bỗng dưng cúi đầu cắn mạnh lên đó một cái, để lại một vết cắn nhạt vương chút dấu vết đầy vẻ e thẹn. Trong khoảnh khắc ngắn ngủi này, cái quyền được đánh dấu người Alpha này tạm thời thuộc về tôi.
+
+Có lẽ vì lần đầu làm việc xấu xa nên trong lòng tôi cứ bồn chồn không yên. Sáng hôm sau khi thức dậy, tôi phát hiện trên người Bạc Tư Yếm lại không hề có một vết cắn hay dấu vết nào của ngày hôm qua để lại cả. Ngược lại, trên người tôi không biết từ đâu lại xuất hiện chi chít rất nhiều vết đỏ kỳ lạ. Tôi có dùng tăm bông chà xát mạnh thế nào cũng không mất đi, thậm chí có mặc quần áo kín đáo vào cũng không tài nào che giấu nổi.
+
+Nhưng rất may mắn là Bạc Tư Yếm không hề nói gì, anh ta cũng dễ dàng tin vào cái lý do dối trá mà tôi đưa ra là do dạo này trong phòng có nhiều muỗi quá. Trước khi tôi bắt đầu buồn ngủ và muốn đi ngủ tiếp, anh ta còn bảo tôi vén áo lên để anh ta tự tay thoa thuốc cho.
+
+Đến khi tôi tỉnh dậy một lần nữa thì Bạc Tư Yếm đã đi làm từ lâu rồi. Trong phòng chỉ còn lại mùi hương Pheromone lạnh lùng, quen thuộc của Alpha đang lan tỏa đậm đặc trong không khí.
+
+Người giúp việc lại đúng giờ mang vào cho tôi một ly sữa ấm. Vừa nhâm nhi uống sữa, tôi vừa giả vờ bâng quơ hỏi người giúp việc một cách tình cờ: “Chị này, chị có biết trước đây tôi và Bạc Tư Yếm có mối quan hệ gì với nhau không?”
+
+Người giúp việc nhìn tôi đầy vẻ trìu mến, cười nói: “Cậu vốn dĩ từ trước đến nay luôn là Omega duy nhất của ngài Bạc mà.”
+
+Tôi khẽ cúi mắt xuống, những ngón tay đang cầm ly sữa cũng không tự chủ được mà cứ xoa xoa liên tục vào thành ly: “Vậy, vậy tại sao tôi lại xuất hiện và sống ở khu ổ chuột cơ chứ?”
+
+Câu trả lời của người giúp việc tuôn ra một cách trơn tru, hoàn toàn không có một kẽ hở nào: “Đó là vì trước đây có người xấu đã bắt cóc cậu, rồi nhẫn tâm bỏ rơi cậu ở cái nơi rách nát đó đấy ạ.”
+
+Sợ tôi vẫn còn nghi ngờ không tin, người giúp việc lại nhanh nhảu bổ sung thêm một câu: “Dù trước đây cậu chỉ là người tình của ngài Bạc thôi, nhưng cậu và ngài ấy vốn dĩ rất tâm đầu ý hợp với nhau. Tiểu phu nhân ơi, bây giờ cậu không phải vẫn đang nghĩ ngợi lung tung rằng ngài ấy chỉ thích mỗi đứa bé thôi đấy chứ?”
+
+Vì bản thân hiện tại hoàn toàn không có bất kỳ một mảnh ký ức nào của quá khứ, tôi cũng không biết liệu mình có lý hay là không. Chỉ là sau khi nghe chị ấy nói như vậy, tôi đành phải im lặng một hồi rồi lý nhí: “Tôi…”
+
+Tôi và Bạc Tư Yếm thật sự đã từng rất tâm đầu ý hợp với nhau sao? Vậy nếu như chỉ vì tôi bị mất trí nhớ mà sau khi mang thai vẫn cứ luôn tỏ thái độ né tránh, lạnh nhạt với anh ấy, vậy thì anh ấy chắc là phải đau lòng và tổn thương biết bao nhiêu.
+
+“Hai người đang nói chuyện gì mà vui vẻ vậy?”
+
+Tôi giật mình ngẩng đầu lên thì thấy Bạc Tư Yếm đã từ bên ngoài bước vào, trên tay anh ta còn đang xách theo một túi lớn đựng toàn đồ ăn canh nước nóng hổi.
+
+Anh ta bảo: “Tào phớ ở phía nam, vịt quay ở phía bắc của em đây… Còn muốn ăn thêm cái gì nữa không, để tôi bảo đầu bếp làm luôn cho em.”
+
+Bạc Tư Yếm vừa mới đặt túi đồ ăn xuống bàn, tôi đã không kìm chế được lòng mình mà lao thẳng vào người anh ta, kiễng chân lên hôn mạnh lên đôi môi hơi lành lạnh của anh ta một cái.
+
+Thân hình cao lớn, đứng thẳng tắp của Bạc Tư Yếm bỗng chốc cứng đờ ra trong giây lát, rồi theo phản xạ tự nhiên mà đưa tay ôm chặt lấy eo tôi.
+
+Anh ta lo lắng hỏi: “Sao thế này? Có ai ở nhà bắt nạt em rồi à?”
+
+Tôi cúi gục đầu vào hõm cổ anh ta, tham lam hít hà lấy mùi Pheromone dạt dào của anh ta rồi bảo: “Chỉ là đột nhiên em cảm thấy không nỡ giao anh cho bất kỳ người Omega nào khác nữa thôi.”
+
+Bạc Tư Yếm hơi nheo mắt lại, anh ta nắm lấy bàn tay tôi rồi áp mạnh lên khối cơ bụng săn chắc của mình, cất giọng khàn khàn: “Đừng giao anh cho người khác, em vốn dĩ ngay từ đầu đã là của anh rồi.”
+
+Anh ta cẩn thận đặt tôi ngồi xuống ghế, rồi rảo bước đi lấy cho tôi một chiếc chăn mỏng để đắp cho đỡ lạnh. Nhìn bóng lưng anh ta khuất dần sau cánh cửa, tôi quay đầu nhìn ra ngoài và thấy một bông hoa nhỏ đang nở rộ rực rỡ bên ngoài cửa sổ.
+
+Có một khoảng thời gian ngắn trong thai kỳ, tôi bỗng dưng cực kỳ mê ăn đất, một cái sở thích vô cùng quái đản. Để ngăn chặn tôi ăn những thứ kỳ lạ độc hại đó, Bạc Tư Yếm đã tìm đủ mọi dụng cụ đào đất về, trực tiếp dạy tôi cách trồng hoa tại nhà để giết thời gian. Không biết từ lúc nào mà những bông hoa do chính tay chúng tôi vun trồng này cũng đã đến ngày nở rộ.
+
+Tôi cúi mắt xuống, bàn tay nhẹ nhàng xoa xoa lên chiếc bụng hơi nhô lên của mình. Đứa bé mấy tháng tuổi trong bụng lúc này như có cử động nhẹ, nó đang cố gắng đạp đạp để đáp lại động tác vuốt ve của tôi.
+
+Tôi lẩm bẩm một mình, giọng điệu cũng không tự chủ được mà trở nên dịu dàng xuống hẳn: “Con yêu ơi, hình như bố đã biết cái cảm giác thực sự của việc thích một người là như thế nào rồi.”
+
+Tôi bắt đầu lên mạng để tìm kiếm những tài liệu và thông tin liên quan đến căn bệnh chứng rối loạn lưỡng cực. Không tìm thì thôi, tìm rồi mới khiến tôi hoàn toàn chết lặng tại chỗ. Không phải chứ, bây giờ các trang mạng xã hội lớn đều làm việc lười biếng đến mức như vậy sao? Họ dám lấy thẳng Bạc Tư Yếm ra làm tiêu chuẩn tham khảo sống cho cái chứng rối loạn lưỡng cực này luôn à.
+
+But may mắn là họ cũng không phải hoàn toàn viết bừa viết bãi không có căn cứ. Tôi chăm chú ngồi ghi chép lại từng chút từng chút một, chăm chú đến mức ngay cả khi trời tối mịt từ lúc nào tôi cũng không hề phát hiện ra.
+
+Cho đến khi người giúp việc đi vào nói với tôi là Bạc Tư Yếm đã đi làm về rồi, tôi mới giật mình buông bút xuống, gần như là chạy bay xuống lầu rồi lao thẳng vào lòng anh ta.
+
+Trên người Bạc Tư Yếm vẫn còn phảng phất chút hơi thở mệt mỏi, rệu rã sau một ngày dài làm việc căng thẳng. Nhưng theo thói quen, anh ta vẫn lập tức đưa tay đỡ lấy rồi ôm chặt lấy eo tôi: “Cẩn thận một chút chứ.”
+
+Tôi hào hứng bảo: “Anh xem này.”
+
+Anh theo hướng ngón tay tôi đang chỉ mà nhìn ra ngoài cửa sổ kính. Những chùm pháo hoa xinh đẹp, rực rỡ sắc màu lần lượt bay vút lên không trung, nổ tung làm sáng rực cả một góc trời đêm. Tôi ngước lên nhìn anh, nở một nụ cười thật tươi.
+
+Tôi hỏi: “Món quà nhỏ này em tặng anh đấy, anh có thích không?”
+
+“Rất thích.” Bạc Tư Yếm cất giọng trầm ấm quen thuộc, khẽ cúi đầu hôn nhẹ lên trán tôi rồi nói tiếp: “Đã từ rất lâu rồi không có một ai tặng quà cho tôi cả.”
+
+Pháo hoa đêm hôm đó thật sự là đặc biệt đẹp đẽ. Khi Bạc Tư Yếm đang chăm chú nhìn ngắm những chùm pháo hoa sáng rực kia, tôi đứng ở bên cạnh anh ta, khẽ thì thầm một câu thật nhỏ: “Bạc Tư Yếm, em thật sự, rất thích anh.”
+
+Cái sự thích này của tôi, hoàn toàn không liên quan gì đến sự hấp dẫn của Pheromone, cũng chẳng liên quan gì đến sự tồn tại của đứa bé trong bụng cả. Chỉ đơn giản là vì bản thân em, đơn thuần là thích con người anh mà thôi.
+
+Có lẽ là do gió ở ban công lúc này thổi quá lớn, tiếng gió đã lấn át hoàn toàn tiếng thì thầm của tôi, nên Bạc Tư Yếm không hề có phản ứng gì hay trả lời lại. Tôi nhất thời có chút hơi thất vọng và hụt hẫng, nhưng nghĩ đi nghĩ lại thì thấy cũng không sao cả. Sau này thời gian còn dài, tôi còn sẽ nói với anh ta rất nhiều, rất nhiều câu thích anh nữa, rồi anh ta kiểu gì cũng sẽ nghe thấy thôi.
+
+Tôi không nhịn được mà thò cái đầu nhỏ ra từ trong chiếc áo khoác ấm áp của anh ta, lén lút rướn người lên thơm một cái rõ kêu lên mặt anh ta. Còn chưa kịp rụt người về thì đã bị Bạc Tư Yếm nhanh tay ấn gáy, giữ chặt đầu tôi lại để hôn trả lại một cách cuồng nhiệt.
+
+Tôi chỉ kịp ú ớ kêu lên hai tiếng, rồi mọi sự giãy giụa kháng cự sau đó đều trở nên vô ích. Tôi đành phải ngoan ngoãn ngửa đầu lên, đối diện với đôi mắt đang hơi đỏ lên của anh ta, hoàn toàn để cho anh ta chủ đạo và dẫn dắt nhịp thở của mình trong suốt nụ hôn sâu ấy. Điều duy nhất tôi có thể làm lúc này chính là đưa hai tay ôm chặt lấy eo anh ta, mượn cơ thể anh ta làm điểm tựa duy nhất cho cái thân hình đang nhũn ra của mình.
+
+Cuối cùng khi nụ hôn kết thúc, tôi nghe thấy Bạc Tư Yếm khẽ khàn giọng nói bên tai tôi: “Đây là chính em đã nói là thích anh đấy nhé… Tuyệt đối đừng bao giờ nghĩ đến chuyện rời xa anh, nếu không, đến cuối cùng, anh cũng không biết bản thân mình sẽ phát điên lên đến mức nào đâu.”
+
+Một mình ở nhà họ Bạc dưỡng thai mãi thì cũng quá mức nhàm chán và tẻ nhạt rồi. Thế là tôi liền đánh bạo gọi điện thoại cho ông chủ của võ quán ngày trước, bảo là muốn đến đó để xem một trận đấu quyền anh cho khuây khỏa.
+
+Vốn dĩ đã quen tự lập, không quen cái kiểu đi đâu cũng có người hầu hạ cung phụng nên tôi đã lén lút một mình chạy thẳng đến võ quán. Ông chủ võ quán vừa nhìn thấy cái bụng đã hơi nhô lên của tôi thì liền cạn lời, lặng lẽ dập tắt điếu thuốc đang hút dở trên tay xuống.
+
+Anh ta trầm mặc nhìn tôi một lúc rất lâu, mãi mới khó khăn lắm mới thốt ra được câu đầu tiên: “Em đang mang thai mà lại chạy đến đây để xem cái cảnh tượng đấm đá đẫm máu như thế này, liệu có ổn không đấy?”
+
+Tôi nghĩ trong bụng có gì mà không được chứ, hồi mới mang bầu tôi còn vác cái bụng này lên sàn đấu đấm nhau huỳnh huỵch nữa kìa. Nhưng tôi có cho tiền cũng không dám ho he nửa lời nói ra cái sự thật kinh hoàng đó. Nói câu này ra, tôi sợ là mình sẽ bị ông chủ võ quán thẳng tay liệt ngay vào danh sách đen vĩnh viễn mất.
+
+Rất nhanh sau đó, ông chủ võ quán lại tò mò hỏi câu thứ hai: “Mà cái tên Alpha nhà em đâu rồi? Anh ta lại không quản em để em chạy rông thế này à?”
+
+Tôi lườm anh ta một cái rõ dài, rồi rất bình tĩnh đáp: “Em lén trốn ra ngoài chơi đấy chứ. Nếu mà Alpha nhà em biết em bén mảng đến cái chỗ này, chắc chắn là anh ấy sẽ nổi trận lôi đình cho mà xem.”
+
+Đây hoàn toàn là sự thật, Bạc Tư Yếm bình thường có thể nuông chiều, cho phép tôi đi chơi đủ mọi nơi mọi chốn trên đời. Nhưng cái điều kiện tiên quyết duy nhất là phải do đích thân anh ta dẫn tôi đi, và một điều kiện đi kèm khác là cái nơi đó không được xuất hiện quá nhiều đàn ông cơ bắp cuồn cuộn.
+
+Ông chủ võ quán nghe xong thì tỏ ra vô cùng khó hiểu: “Em đang mang thai giọt máu của anh ta cơ mà, em việc gì phải sợ anh ta đến mức ấy chứ?”
+
+Có lẽ là vì đang mang thai nên tâm lý tôi dễ bị nhạy cảm và suy nghĩ nhiều, tôi khẽ cúi đầu xuống gặm nhấm nỗi niềm riêng.
+
+Tôi nhỏ giọng bảo: “Nhưng mà, hình như anh ấy cũng không thích đứa bé này cho lắm.”
+
+Tôi hoàn toàn có thể cảm nhận được điều đó, mỗi lần Bạc Tư Yếm ngồi nghe bác sĩ dặn dò hay cặm cụi ghi chép những lưu ý về việc chăm sóc Omega mang thai, thái độ của anh ta thường rất hờ hững và lạnh nhạt. Nhưng đối với cá nhân tôi thì anh ta lại có cầu tất ứng, cưng chiều hết mực, chỉ có những lúc vô cùng hiếm hoi anh ta mới thèm để ý đến sự tồn tại của đứa nhỏ. Tôi nhất thời thật sự khó lòng mà thấu hiểu được trong cái đầu của anh ta đang nghĩ cái gì nữa.
+
+Tôi ngẩng mắt lên liếc nhìn tình hình thi đấu gay cấn trên võ đài, tiện tay nghịch mấy cái chip đặt cược, kết quả là hình như tôi lại đặt cược thua sạch sành sanh nữa rồi. Quả nhiên là cái số của tôi vẫn không thích hợp với việc kiếm tiền bằng mấy cái trò đỏ đen này. Tôi vẫn là thích hợp hơn với việc đi làm lao động chân tay kiếm tiền lương thiện, hoặc là làm một kẻ ăn không ngồi rồi lười biếng chờ tiền tài tự động tìm đến tận cửa thì tốt hơn.
+
+Đúng lúc này, ở phía cửa ra vào đằng kia bỗng dưng rộ lên những tiếng ồn ào, náo nhiệt, đám đông đang vây xem xung quanh cũng tự động dạt ra, né sang hai bên để nhường đường.
+
+Thậm chí có người còn kích động hét to lên: “Ngài Bạc tới…”
+
+Tôi lập tức phóng mắt nhìn theo thì liền thấy Bạc Tư Yếm đang mặc một chiếc áo khoác dáng dài bó sát màu xám đen, sải bước đi vào. Bộ trang phục thẳng tắp, sang trọng ấy càng làm tôn lên vòng eo gợi cảm và cuốn hút của anh ta, trên tay anh ta còn đeo một đôi găng tay bằng nhung đen chứng tỏ anh ta vừa từ một phòng hội nghị chỉ huy cấp cao nào đó bước ra, chiếc huy hiệu cài trên vai lấp lánh ánh kim trong màn đêm mờ ảo của võ quán. Cái khí chất vương giả bẩm sinh của cái người này ấy mà, dù có quăng anh ta vào bất cứ xó xỉnh nào thì người khác cũng có thể ngay lập tức nhận ra anh ta giữa đám đông.
+
+Anh ta thẳng tiến bước đến trước mặt tôi, khẽ cúi mắt xuống nhìn tôi bằng một ánh mắt hoàn toàn lạnh băng, không cảm xúc. Mọi người có mặt trong võ quán lúc này đều đồng loạt ngoái đầu lại nhìn, tò mò muốn xem xem rốt cuộc là kẻ nào to gan lớn mật, dám đắc tội với vị đại gia giới Kinh thành đang lừng lẫy một phương này.
+
+Biết mình có lỗi vì đã trốn đi chơi, tôi liền chột dạ nhón chân lên, chủ động hôn một cái lên môi Bạc Tư Yếm để dỗ dành. Nhưng anh ta vẫn đứng im như phao, không nhúc nhích mảy may, thậm chí còn không thèm đưa tay ra ôm lấy tôi như mọi khi nữa. Tôi lập tức nhận ra ngay là anh ta đang thật sự tức giận rồi.
+
+Thế là tôi vội vàng kéo tay anh ta, bướng bỉnh dắt anh ta đến thẳng trước mặt ông chủ võ quán để giới thiệu.
+
+Tôi dõng dạc bảo: “Giới thiệu với anh một chút, đây chính là bạn trai của em.”
+
+Bạc Tư Yếm nghe xong thì vẫn chọn cách im lặng, không nói một lời nào. Tôi chỉ có thể tội nghiệp kéo kéo vạt áo của anh ta, nhỏ giọng muốn giải thích: “Em thề là em chỉ ra ngoài này để đi dạo giải khuây một chút thôi, thật đấy, em không có lừa anh đâu mà.”
+
+Tôi càng nói thì trong lòng lại càng thêm cuống quýt, định mở miệng nói tiếp để dỗ dành anh ta thì…
+
+Ngón tay to lớn của Bạc Tư Yếm bỗng gạt phắt bàn tay đang níu áo của tôi ra, rồi từ từ cúi mắt xuống, nhẹ nhàng đưa tay chọc chọc vào cái bụng bầu của tôi.
+
+Anh ta nhàn nhạt bảo: “Gấp gáp cái gì chứ? Bất cứ những gì em nói, anh đều tin em mà.”
+
+Tôi vô tình nhìn về phía sau lưng của Bạc Tư Yếm thì thấy tay anh ta dường như đang cầm theo một thứ đồ vật gì đó bằng bạc sáng loáng.
+
+Tôi tò mò thò cái đầu ra để ngó nghiêng xem thử: “Cái thứ lấp lánh kia là cái gì vậy anh?”
+
+Chẳng lẽ lại là nhẫn cầu hôn sao? Nhưng mà với cái chỉ số EQ thấp đến đáng thương của Bạc Tư Yếm, liệu anh ta có thể tinh tế mà nghĩ đến chuyện lãng mạn này không nhỉ?
+
+Thấy tôi cứ nghiêng đầu qua một bên, ánh mắt tràn ngập sự nghi ngờ và tò mò nhìn mình, Bạc Tư Yếm cuối cùng cũng có động tác tiếp theo. Anh ta dứt khoát đưa một bàn tay lên che kín mắt tôi lại, rồi tiện tay ném thẳng cái đồ vật bằng bạc đó cho người thuộc hạ đang đứng ở bên cạnh.
+
+Anh ta nhỏ giọng dỗ: “Không có gì đâu, em không cần phải xem làm gì cả… Cái món đồ này anh thấy nó chế tác vẫn chưa đủ chắc chắn, để lần sau anh tìm cái khác tốt hơn để tặng cho em.”
+
+Kể từ sau cái ngày hôm đó trở đi, Bạc Tư Yếm dường như có một bí mật to lớn nào đó luôn cố tình giấu giếm không cho tôi biết. Trông anh ta có vẻ như đang âm thầm chuẩn bị để làm một chuyện gì đó rất lớn lao, ngày nào cũng bận rộn từ sáng sớm tinh mơ cho đến tận đêm muộn mới về. Có lẽ chỉ là do tôi đang mang thai nên đầu óc mới hay suy nghĩ lung tung, nhạy cảm quá mức mà thôi.
+
+Nhưng cuối cùng tôi vẫn không tài nào nhịn nổi cái sự tò mò của mình, nhân lúc anh ta không có ở nhà, tôi đã lén lút mò vào phòng sách để lục lọi bàn làm việc của anh ta xem có manh mối gì không. Cái bàn làm việc ở nhà của anh ta vốn dĩ lúc nào cũng được sắp xếp một cách vô cùng ngăn nắp, gọn gàng, ngay cả các loại tài liệu sổ sách quan trọng cũng chẳng để lại mấy cái.
+
+Đúng lúc tôi chuẩn bị chấp nhận từ bỏ để đi ra tay không, ánh mắt tôi vô tình va phải một chiếc két sắt nhỏ được đặt ngay bên cạnh bàn làm việc.
+
+Tôi lập tức nhận ra mình từng nhìn thấy chiếc két sắt này rồi, chính là cái hôm anh ta lặn lội đến võ quán ngầm để tìm tôi. Anh ta đã cẩn thận cất giấu cái thứ đồ vật màu bạc lấp lánh đó vào trong chiếc két sắt này.
+
+Sự tò mò trong lòng nổi lên, tôi liền tiến lại gần rồi nghịch ngợm thử mở chiếc két sắt xem sao. Tôi đã thử nhập mấy cái mốc thông tin quan trọng liên quan đến Bạc Tư Yếm nhưng đều nhận về cái kết sai bét nhè. Không phải ngày tháng năm sinh, không phải số điện thoại cá nhân, và cũng chẳng phải là những chữ cái viết tắt tên của anh ta.
+
+Mấy cái mốc đó đều không đúng, vậy thì cái mật mã chết tiệt này rốt cuộc là cái gì được nhỉ? Tôi chợt nhớ lại cái ngày đầu tiên gặp mặt Bạc Tư Yếm mà bản thân đã tò mò gặng hỏi người giúp việc.
+
+Đầu vừa kịp nảy số là đôi bàn tay đã nhanh hơn cả não bộ mà bấm ngay dãy số đó vào bảng điều khiển. Chiếc két sắt ngay lập tức phát ra một tiếng rắc thanh thúy rồi tự động mở ra.
+
+Tôi vui vẻ cong môi, tự đắc nghĩ thầm trong đầu rằng mình biết ngay mà, Bạc Tư Yếm chắc chắn là không thể ngờ được rằng tôi lại thông minh và nhạy bén đến mức như vậy.
+
+Nhưng cái nụ cười tự mãn của tôi chưa kịp duy trì được ba giây thì đôi bàn tay tôi đã đột ngột khựng lại ngay giữa không trung. Vào chính khoảnh khắc định mệnh này, tôi bàng hoàng nhìn thấy một chiếc xích được làm bằng bạc nguyên chất, đang nằm chễm chệ bên trong chiếc két sắt nhỏ.
+
+Trong một cái chớp mắt ngắn ngủi, tất cả những ký ức kinh hoàng của quá khứ bỗng chốc ùa về, hiển hiện rõ mồn một ngay trước mắt tôi. Sợi xích bạc quen thuộc đến mức thấu xương thấu tủy này, chính là thứ đồ vật được anh ta đặt làm riêng để dành cho tôi.
+
+Cái sợi xích bạc lạnh lẽo ấy đã từng vô số lần quấn chặt quanh mắt cá chân của tôi không biết bao nhiêu là vòng.
+
+Tôi đã nhìn thấy một Bạc Tư Yếm hoàn toàn khác biệt, khác xa với những gì mà nhận thức hiện tại của tôi hằng lầm tưởng. Tôi nhớ lại hình ảnh của một Bạc Tư Yếm cuồng nhiệt trong những lần hai đứa ân ái, một Bạc Tư Yếm hoàn toàn bị mất đi sự kiểm soát mà trở nên điên cuồng tột độ.
+
+Anh ta chính là kẻ chỉ biết điên cuồng lao vào cắn lấy tuyến dịch của tôi trong bóng tối tăm mịt mù, rồi cứ lặp đi lặp lại từng lời nói dịu dàng rằng anh yêu em. Nhưng rõ ràng là vào cái lúc đó, tôi đã khóc lóc thảm thiết đến mức mất đi cả sự kiểm soát mà anh ta vẫn nhất quyết không chịu dừng lại.
+
+Anh ta luôn chấp nhất với việc dùng bạo lực để hành hạ cho thân thể tôi đến mức mệt mỏi, hỏng hóc, rồi sau đó lại cuống cuồng dùng những loại dược liệu quý giá, đắt đỏ nhất trên đời để bồi bổ, phục hồi lại cho tôi.
+
+Cái hành vi chiếm hữu đến mức bệnh hoạn này thì có được coi là yêu hay là không, tôi thật sự không biết và cũng chẳng hiểu nổi cái khái niệm yêu của anh ta là gì. Về việc thế nào mới thực sự là yêu, một kẻ mất trí nhớ và mang đầy tổn thương như tôi càng không có cái quyền để lên tiếng phát ngôn.
+
+Nhưng nếu như cái sự giam cầm, hành hạ này thực sự là tình yêu trong truyền thuyết, vậy thì tại sao anh ta lại nhẫn tâm lừa dối tôi hết lần này đến lần khác như vậy.
+
+Trong lúc đầu óc tôi đang quay cuồng, mơ hồ vì cú sốc tâm lý, sợi xích bạc trên tay tôi vô tình rơi tuột xuống sàn đất, phát ra một tiếng vang lạnh lẽo, chói tai. Đúng lúc đó, tai tôi chợt bắt gặp tiếng bước chân dồn dập đang tiến lại gần từ phía sau lưng.
+
+Tôi thảng thốt quay đầu lại nhìn Bạc Tư Yếm, vừa vặn bắt gặp ánh mắt vốn dĩ từ trước đến nay của anh ta luôn duy trì được sự trấn định tự nhiên, luôn nắm chắc phần thắng trong tay, vậy mà giờ đây lại đang thoáng hiện lên một chút hoảng loạn, sợ hãi.
+
+Tôi cắn chặt môi, đưa hai tay lên theo bản năng để che chở, bảo vệ lấy chiếc bụng đã hơi nhô lên của mình.
+
+Tôi kiên quyết bảo: “Bạc Tư Yếm, xin anh hãy thả em đi.”
+
+Bạc Tư Yếm nghe thấy vậy thì không nói một lời nào, anh ta chỉ đứng trân trân tại chỗ rồi nhìn chằm chằm vào tôi. Bầu không khí trong phòng sách bỗng chốc trở nên căng thẳng, ngạt thở đến mức cực điểm, nhưng có lẽ là vì Bạc Tư Yếm đã chủ động nhượng bộ nên tôi thậm chí còn không cảm nhận được cái áp lực khí trường quá mạnh mẽ phát ra từ anh ta nữa.
+
+Tôi căng thẳng đến mức nắm chặt hai bàn tay lại thành nắm đấm, cố lấy hết sự dũng cảm của mình để lên tiếng.
+
+Tôi gằn giọng bảo: “Bạc Tư Yếm, cho dù anh có dùng bạo lực để trói em lại, có cưỡng ép để có được thể xác của em và đứa bé này đi chăng nữa, thì em vẫn sẽ không bao giờ yêu anh, mãi mãi không bao giờ yêu anh đâu.”
+
+Sau khi thốt ra xong cái câu nói phũ phàng này, mồ hôi lạnh trên người tôi gần như là đã tuôn ra ướt đẫm cả áo. Tôi tin chắc rằng với tính cách chiếm hữu của mình, Bạc Tư Yếm sẽ thẳng tay lao đến trói nghiến tôi lại, hoặc là tống giam tôi vào một căn phòng kín thần bí chứa đầy camera giám sát.
+
+Bởi vì trong cái mảnh ký ức vừa mới khôi phục của tôi, nơi đó chính là một cơn ác mộng kinh hoàng đủ sức để nuốt chửng lấy toàn bộ cuộc đời tôi. Nhưng cái điều khiến tôi hoàn toàn không ngờ tới chính là việc Bạc Tư Yếm chỉ khẽ nghiêng người sang một bên né đường.
+
+Anh ta nhỏ giọng bảo: “Em đi đi.”
+
+Không thể tin nổi là anh ta lại có thể dễ dàng buông tha, cho phép tôi rời đi một cách đơn giản như vậy. Tôi không có một chút lưu luyến nào nữa, lập tức nhấc chân bước thẳng ra phía bên ngoài.
+
+Nhưng vào cái khoảnh khắc lướt qua người anh ta, mũi tôi bỗng ngửi thấy một mùi thuốc đắng nghét nồng nặc đang vương vấn trên người anh ta. Bây giờ anh ta đang bị bệnh tật hành hạ sao?
+
+Tôi tự giễu nghĩ rằng mình đại khái là một loại người rất rẻ tiền, rõ ràng là bản thân cũng đang mang một thân thể tàn tạ, tan nát, vậy mà trong lòng luôn không kiềm chế được mà cứ nghĩ đến chuyện của anh ta. Tôi chỉ có thể tìm lý do để tự an ủi bản thân mình rằng anh ta chấp nhận buông tay nói như vậy đều là vì nghĩ cho đứa bé trong bụng mà thôi.
+
+Trước khi bước ra khỏi cửa, tai tôi còn loáng thoáng nghe thấy tiếng anh ta đang đau khổ lẩm bẩm một mình: “Anh chỉ muốn tốt hơn cho em mà thôi.”
+
+Bước chân của tôi không hề có một sự dừng lại nào, tôi thẳng tay đóng sầm cửa nhà họ Bạc lại một tiếng rầm rõ to.
+
+Tôi quyết định không trở về cái khu ổ chuột rách nát ngày trước nữa, nhưng bản thân hiện tại cũng chẳng có một nơi nào khác để mà đi. Thế là tôi đành phải tìm đến xin tạm trú ở nhà của người bạn thân thiết mà mình từng quen biết trước đây để dưỡng thai qua ngày.
+
+Cái số của tôi ngay từ lúc sinh ra đã chẳng có một ai yêu thương, cưng nựng, nên đầu óc tôi vốn dĩ không thể hiểu nổi cái khái niệm yêu là cái thá gì trên đời. Sau này lớn lên lại không may mắc phải cái chứng mất cảm xúc, rồi lại va phải một gã đàn ông có tính cách lạnh lùng đến tận xương tủy như Bạc Tư Yếm, nên tôi lại càng không hiểu yêu là gì.
+
+Ban đầu tôi vốn dĩ còn ngây thơ dự định là sẽ đợi cho đứa bé này được sinh ra đời, nó sẽ có được sự yêu thương chu đáo từ cả hai người cha, đại khái là nó sẽ không phải đi vào cái vết xe đổ đầy bất hạnh ngày trước của tôi nữa. Nhưng bây giờ cái ý nghĩ tốt đẹp này, cũng theo cái sự việc tôi và Bạc Tư Yếm đường ai nấy đi mà hoàn toàn tan biến, trở thành một trò ảo tưởng hão huyền.
+
+Người bạn thân nhìn thấy bộ dạng tàn tạ của tôi thì tỏ ra vô cùng thương xót, cậu ta nhẹ nhàng đưa tay vuốt ve mái tóc hơi rối bời của tôi.
+
+Cậu ta thốt lên: “Đứa bé đáng thương của tôi ơi, vậy là cậu trốn chạy thất bại, bị tên điên cuồng cố chấp đó bắt về rồi sao?”
+
+Tôi chỉ biết lầm lũi chui tọt vào trong chăn, vô thức gật gật đầu đồng ý.
+
+Những ngày tháng sau đó, tôi đều cố ý tìm mọi cách để né tránh tất cả những chủ đề hay câu chuyện có liên quan đến cái tên Bạc Tư Yếm. Nhưng trên thực tế, ngay cả trên các trang tin tức thời sự lớn cũng hoàn toàn không xuất hiện bất kỳ một bài đăng nào liên quan đến hành tung của Bạc Tư Yếm nữa cả.
+
+Cứ thế chịu đựng cho đến tận ngày thứ ba, tôi cuối cùng cũng không kìm nén được lòng mình mà bấm số điện thoại quen thuộc của Bạc Tư Yếm. Nhưng cái người bắt máy ở đầu dây bên kia lại không phải là anh ta, mà là vị bác sĩ tư nhân luôn túc trực ở bên cạnh anh ta.
+
+Tôi ngơ ngác không hiểu chuyện gì, chỉ nghe thấy vị bác sĩ ở đầu dây bên kia thở dài nói: “Tiểu phu nhân chắc là nên biết rõ, đối với một bệnh nhân mắc chứng rối loạn lưỡng cực giai đoạn nghiêm trọng như ngài Bạc, việc anh ấy vừa phải chấp nhận dùng những liệu trình điều trị cấp tính cực đoan để chữa trị cho cái chứng rối loạn lưỡng cực của mình vì sợ bản thân sẽ mất kiểm soát mà làm tổn thương đến người mình yêu, lại vừa phải tự tay từng chút một hướng dẫn cho một người yêu từ nhỏ đã mắc chứng mất cảm xúc nhận ra được cái sự thích của mình là một việc làm vô cùng khó khăn và đau đớn đến nhường nào.”
+
+Giọng điệu của vị bác sĩ ở đầu dây bên kia vẫn vô cùng ôn hòa, chậm rãi nói tiếp: “Tiểu phu nhân ơi, cái chứng mất cảm xúc trên người cậu thực ra trong lần đi khám thai trước đã được điều trị chữa khỏi hoàn toàn rồi. Tất cả những cảm xúc, tâm tư của cậu ở thời điểm bây giờ đều là những suy nghĩ chân thật nhất của bản thân cậu, cậu hoàn toàn có quyền tự mình đưa ra lựa chọn cho hạnh phúc của cuộc đời mình.”
+
+Hóa ra sự thật không phải là tôi bị cả thế giới này tàn nhẫn bỏ rơi. Mà là vì từ trước đến nay luôn có một người đàn ông, rõ ràng là chính bản thân anh ấy cũng đang không ổn một chút nào, tâm thần đang đứng trên bờ vực sụp đổ, nhưng anh ấy vẫn cứ luôn cố gắng hết sức mình để dạy cho tôi cách yêu một người là như thế nào.
+
+Vào cái thời điểm đó, tôi giống như một khúc gỗ mục rỗng không có trái tim, đối với sự quan tâm của anh ấy thì chỉ biết nảy sinh ra sự sợ hãi, trốn chạy. Nhưng bây giờ, cái vùng sa mạc cằn cỗi, héo úa trong lòng tôi bỗng chốc mọc ra xương thịt máu huyết, rồi tự mình nở rộ ra một đóa hoa tươi tốt.
+
+Trong lòng tôi lúc này không chỉ đơn thuần là có sự sợ hãi nữa, mà bây giờ nó đã bắt đầu nảy sinh ra thêm rất nhiều những thứ cảm xúc khác lạ khó tả. Tôi trở nên bối rối và hoang mang chưa từng có, lồng ngực bỗng chốc nhói đau vô cùng, sớm biết cái việc học cách yêu một người lại mang đến sự đau lòng khôn nguôi như thế này, vậy thì chi bằng ngay từ đầu cứ chọn cách không muốn biết yêu là gì nữa cho xong, còn hơn là cứ phải làm một chú chim sẻ nhỏ ngốc nghếch bị giam cầm trong chiếc lồng vàng.
+
+Sau khi trôi qua ba ngày dài dặc, tôi cuối cùng cũng đã có cơ hội được một lần nữa gặp lại Bạc Tư Yếm. Anh ta hoàn toàn không nhìn thấy sự xuất hiện của tôi, chỉ biết ngồi im như một cỗ máy đã bị tê liệt để ký vào tờ đơn chấp nhận tiếp tục điều trị.
+
+Tôi không kìm được lòng mình liền lao thẳng tới, thô bạo giật phắt lấy cây bút trên tay anh ta rồi ném văng ra chỗ khác. Bạc Tư Yếm ngước đầu lên nhìn tôi bằng một ánh mắt vô cùng sửng sốt, đồng thời lúc đó tôi cũng cúi đầu nhìn xuống và bàng hoàng nhìn thấy những vết lỗ kim tiêm chi chít, dày đặc đang hiện lên trên cánh tay gầy gò của anh ta.
+
+Vị bác sĩ đứng bên cạnh liền lên tiếng than thở rằng bản thân đã nhiều lần hết lời khuyên can anh ấy nên lựa chọn phương pháp điều trị bảo tồn nhẹ nhàng, nhưng anh ấy một lần cũng nhất quyết không chịu nghe theo. Anh ấy cứ luôn miệng nói rằng bản thân đang vô cùng vội vã, muốn mau chóng chữa khỏi bệnh để có thể chạy về phía người yêu của chính mình với một diện mạo hoàn hảo và tốt đẹp nhất.
+
+Tôi nghẹn ngào hét lên: “Bạc Tư Yếm, anh đúng là một đồ điên nặng rồi.”
+
+Nước mắt tôi lập tức trào ra như mưa, không tài nào kìm nén lại được nữa. Sao trên đời này lại có thể tồn tại một cái người đàn ông xấu xa đến mức như vậy chứ? Anh cố ý làm ra cái bộ dạng tàn tạ, đáng thương này là để ép cho tôi phải cảm thấy đau lòng, xót xa có phải không.
+
+Bạc Tư Yếm nhất thời rơi vào trạng thái hoảng hốt, cuống cuồng đưa tay lên để lau đi những giọt nước mắt cho tôi.
+
+Anh ta luống cuống dỗ dành: “Em đừng rơi nước mắt nữa mà, anh vốn dĩ là một Alpha trội, anh là người không sợ đau đớn nhất trên đời này, mấy cái vết tiêm này một chút cũng không đau đớn gì đâu…”
+
+Anh ta vội vàng ôm chặt tôi vào lòng, ra sức giải phóng ra lượng lớn Pheromone xoa dịu quen thuộc, vụng về tìm lời an ủi tôi.
+
+Anh ta nhỏ giọng bảo: “Anh biết chứ, cho dù em không có tình cảm hay yêu anh đi chăng nữa, thì anh vẫn muốn dùng hết toàn bộ khả năng của bản thân mình để yêu thương em. Anh là người đã từng lỡ làm tổn thương em một lần vì sự điên cuồng của mình, lần này anh thật sự không muốn làm tổn thương đến em nữa đâu… Ừm.”
+
+Bạc Tư Yếm còn chưa kịp nói hết cái câu phân trần của mình thì tôi đã chủ động rướn người lên, ác độc cắn mạnh lên đôi môi của anh ta một cái rõ đau. Tôi cắn rất sâu, chỉ muốn hôn cho cái tên Alpha xấu xa, ích kỷ này đến mức cả đời này cũng không thể thốt nên lời được nữa thì mới thôi.
+
+Tôi vốn là một kẻ không giỏi trong việc nói ra những lời yêu đương đường mật, nhưng vào chính lúc này, tôi muốn cho Bạc Tư Yếm cũng phải biết được một điều chân thật. Đó là cái người mà anh ấy thầm thích bấy lâu nay, giờ đây cũng đang mang trong mình rất nhiều, rất nhiều những thứ cảm xúc mãnh liệt, và người đó cũng sẽ thích anh ấy rất nhiều.
+
+Sau khi nụ hôn sâu kết thúc, tôi mới hổn hển thở dốc, cố tình làm ra vẻ vô cùng hung dữ để đe dọa anh ta.
+
+Tôi gắt lên: “Anh chính là người đàn ông của em, em mới không thèm rời đi đâu cả, còn lâu em mới thèm nhường anh để làm cái bia đỡ đạn tạo điều kiện cho mấy người Omega khác nhé.”
+
+Đây cũng chính là cái bài học sâu sắc mà Bạc Tư Yếm đã cất công dạy cho tôi, thích một người chính là sự kiên nhẫn, là sự chiếm hữu độc quyền. Đó là cái sự dịu dàng độc nhất vô nhị mà bản thân chỉ muốn dành riêng cho một người duy nhất mà thôi.
+
+Đúng lúc này, từ phía bên ngoài phòng bệnh bỗng có một người thuộc hạ hớt hải xông vào, anh ta thở không ra hơi, cuống cuồng báo cáo với Bạc Tư Yếm.
+
+Anh ta hét lớn: “Ngài Bạc ơi không xong rồi, tiểu phu nhân bỗng nhiên biến mất… mất tích rồi, hả?”
+
+Tôi vừa mới ngẩng đầu lên, mới kịp phát ra một âm tiết: “Cái gì cơ?”
+
+Thì Bạc Tư Yếm đã nhanh tay đan chặt các ngón tay của mình vào tay tôi, rồi cuồng nhiệt hôn trả lại không cho tôi có cơ hội nói năng gì thêm nữa.
+
+Anh ta khẽ cười bảo: “Em vốn dĩ từ trước đến nay cũng không có cửa để thoát khỏi lòng bàn tay của anh đâu.”
+
+Tôi chấp nhận ở lại bên cạnh Bạc Tư Yếm, bầu bạn cùng anh ta cho đến khi cái chứng bệnh rối loạn lưỡng cực chết tiệt của anh ta tạm thời thuyên giảm và ổn định trở lại. Vài ngày sau khi anh ta thuận lợi làm thủ tục xuất viện, đứa bé của tôi và anh ta cũng đã bình an chào đời.
+
+Theo như kết quả giám định y khoa từ phía bệnh viện, đứa nhỏ này trong tương lai sẽ là một Omega nam có thể trạng giống hệt như tôi. Nó chắc chắn là sẽ gặp được một người Alpha đích thực biết yêu thương, cưng chiều nó suốt cả cuộc đời, nó nhất định là sẽ có được một cuộc sống hạnh phúc hơn tôi rất nhiều. Chỉ là về cái gã Alpha xui xẻo nào đó sẽ cưới nó sau này ấy mà…
+
+Tôi khẽ liếc mắt nhìn sang cái người cha Alpha đang ngồi bên cạnh, cái kẻ mà bề ngoài luôn bày ra một bộ dạng lạnh lùng, nghiêm túc, nhưng thực chất bên trong lại là một kẻ không đáng tin đến mức từng đâm sầm mặt vào tường mấy lần liền kia, tôi thầm nghĩ trong bụng rằng có lẽ cuộc sống sau này của gã Alpha tội nghiệp đó sẽ không được êm đềm cho lắm đâu.
+
+Sau khi tự tay cho đứa bé bú xong xuôi ở nhà, tôi mới vô tình phát hiện ra Bạc Tư Yếm đã đứng trân trân ở đó từ lúc nào không hay. Một gã Alpha rõ ràng là đang trong cái thời kỳ nhạy cảm vô cùng thèm khát, vậy mà lúc này lại có thể giả vờ như một người quân tử chính trực, đoan trang đến thế cơ chứ.
+
+Mãi cho đến khi người giúp việc bế đứa nhỏ đi sang phòng khác, anh ta mới chịu từ bỏ cái bộ dạng cứng đờ kia rồi lầm lũi leo lên giường nằm xuống ngay bên cạnh tôi.
+
+Tôi khẽ hít một hơi sâu, rồi đưa tay ra chọc chọc vào người anh ta để trêu chọc. Ấy thế mà Bạc Tư Yếm vẫn nằm im như một khúc gỗ, hoàn toàn không có một chút nhúc nhích nào.
+
+Thật sự là không có một chút phản ứng gì luôn sao? Chuyện này không thể nào xảy ra được chứ nhỉ? Chẳng lẽ cái việc đi phẫu thuật chữa trị chứng rối loạn lưỡng cực kia, lại thật sự mang lại cái tác dụng phụ khiến cho Bạc Tư Yếm bị liệt luôn rồi sao?
+
+Bạc Tư Yếm cất cái giọng trầm khàn, đầy nén nhịn của mình lên để trấn an tôi: “Nếu như em cảm thấy sợ hãi, thì anh thề là anh sẽ không động vào người em đâu.”
+
+Nghe xong cái câu nói ngốc nghếch đó, tôi bỗng chốc tức giận vô cùng, liền dứt khoát xoay người đè nghiến Bạc Tư Yếm xuống phía dưới thân mình, rồi chủ động nắm lấy bàn tay anh ta để vén cái vạt áo của mình lên.
+
+Tôi hậm hực bảo: “Bạc Tư Yếm, cái đầu anh không nhìn ra được cái gì sao? Rõ ràng là em đang cố tình quyến rũ anh cơ mà.”
+
+Bạc Tư Yếm giống như vừa mới phát hiện ra một vùng chân trời mới đầy mới lạ, hơi thở của anh ta lập tức trở nên dồn dập và gấp gáp hẳn lên: “…”
+
+Kết quả là đến nửa đêm mịt mùng, khuôn mặt tôi đã đỏ bừng lên vì xấu hổ và mệt mỏi, tôi tức giận đưa chân đá thẳng cái tên Alpha thuộc cái kiểu người được voi đòi tiên này xuống khỏi giường. Nhưng cái tên này lúc đó lại giống như có một lớp chất keo dính siêu cấp nào đó đang gắn chặt vào người vậy, tôi có dùng hết sức bình sinh để đá thế nào thì anh ta cũng nhất quyết không chịu xuống.
+
+Tôi chỉ biết ấm ức rên rỉ: “… Ừm, Bạc Tư Yếm, anh đúng là một đồ đại ác nhân mà!”
+
+Tôi tự sỉ vả bản thân mình rằng thật sự là không nên mủi lòng mà cho cái gã đàn ông này ăn mặn sớm như thế này làm gì. Một khi đã được nếm mùi ăn mặn một lần, cái gã này kiểu gì cũng sẽ tìm cách để leo thang đòi hỏi thêm cho mà xem. Tuyệt đối, tôi thề là tuyệt đối sẽ không có cái lần sau như thế này nữa đâu.
+</div>
+
+
+
+</div>
+
+<!-- POPUP -->
+  <div id="unlock-box">
+
+    <!-- BƯỚC 1 - SHOPEE -->
+    <div class="unlock-step" id="step1Box">
+
+      <div class="step-label">
+        BƯỚC 1 / 2
+      </div>
+
+      <h3>
+        🛍️ Mời Quý độc giả
+      </h3>
+
+      <p class="invite-text">
+        <b>CLICK vào LIÊN KẾT HOẶC ẢNH bên dưới</b>
+      </p>
+
+      <p class="open-app">
+        MỞ ỨNG DỤNG
+        <strong>SHOPEE</strong>
+      </p>
+
+      <a
+        id="step1Url"
+        class="visible-url"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      ></a>
+
+      <a
+        id="step1Link"
+        class="product-card"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div class="product-image-wrap">
+          <img
+            id="step1Image"
+            class="product-image"
+            alt=""
+          >
+        </div>
+
+        <div class="product-info">
+
+          <div
+            id="step1Name"
+            class="product-name"
+          ></div>
+
+          <div
+            id="step1Desc"
+            class="product-desc"
+          ></div>
+
+          <div class="product-link">
+            👉 XEM SẢN PHẨM
+          </div>
+
+        </div>
+
+      </a>
+
+      <div class="return-note">
+        ↩️ Sau khi mở Shopee,
+        hãy quay trở lại trang này.
+      </div>
+
+    </div>
+
+
+    <!-- BƯỚC 2 - SHOPEEFOOD -->
+    <div
+      class="unlock-step"
+      id="step2Box"
+      style="display:none;"
+    >
+
+      <div class="step-label">
+        BƯỚC 2 / 2
+      </div>
+
+      <h3>
+        🍜 Mời Quý độc giả
+      </h3>
+
+      <p class="invite-text">
+        <b>CLICK vào LIÊN KẾT HOẶC ẢNH bên dưới</b>
+      </p>
+
+      <p class="open-app">
+        MỞ ỨNG DỤNG
+        <strong>SHOPEEFOOD</strong>
+      </p>
+
+      <a
+        id="step2Url"
+        class="visible-url"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      ></a>
+
+      <a
+        id="step2Link"
+        class="product-card"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div class="product-image-wrap">
+          <img
+            id="step2Image"
+            class="product-image"
+            alt=""
+          >
+        </div>
+
+        <div class="product-info">
+
+          <div
+            id="step2Name"
+            class="product-name"
+          ></div>
+
+          <div
+            id="step2Desc"
+            class="product-desc"
+          ></div>
+
+          <div class="product-link food-link">
+            👉 XEM MÓN NGON
+          </div>
+
+        </div>
+
+      </a>
+
+      <div class="return-note">
+        ↩️ Sau đó quay trở lại trang truyện.
+      </div>
+
+    </div>
+
+
+    <div class="thanks">
+      Tiệm Nhà Miu Miu xin chân thành cảm ơn! 💗
+    </div>
+
+  </div>
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="../codetruyen/qcshopee.js"></script>
+  <script src="../codetruyen/qcspf.js"></script>
+  <script src="../codetruyen/script.js"></script>
+  <script src="../codetruyen/audio.js"></script>
+
+</body>
+</html>

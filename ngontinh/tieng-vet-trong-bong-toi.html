@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiếng Vẹt Trong Bóng Tối</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+  <a href="../cotrang.html">Cổ trang</a>
+</header>
+
+<div class="topbar">
+  Tiếng Vẹt Trong Bóng Tối
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="" data-marker="0" data-marker-label="00:00">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Hoàng Hậu Mù Mặt</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">00:00</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">00:00</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc tiếp nếu bạn từ Facebook sang</a>
+</div>
+
+<div id="story">
+    Tôi thấy một con vẹt ở cửa hàng thú cưng.
+Ông chủ nói với tôi nó biết nói, lấy quả táo trêu chọc nó.
+Con vẹt dùng mỏ nhận lấy quả táo, ăn hai miếng rồi ném vào lồng, mở miệng nói:
+"Ăn cơm thôi. Ăn cơm thôi."
+
+Tôi thấy thú vị nên mua nó về nhà, muốn dạy nó nói.
+Không ngờ dạy mấy ngày rồi mà nó chẳng học được câu nào, chỉ lầm bầm một mình.
+Thỉnh thoảng nó hát ru, còn nói được mấy từ "Ống khói nhỏ", "Chai xanh", "Lon sắt nhỏ", "Giường sofa".
+Đôi khi cũng nói những câu kỳ quái, như "Mẹ béo", "Mẹ đỏ" gì đó.
+Còn có câu "Đừng nhúng tay" mà tôi mãi không nghe rõ.
+
+Tôi không biết tại sao ông chủ lại dạy vẹt nói những câu kỳ quái này, nghe chẳng có logic gì cả. Theo tôi, vẹt nên học những câu thông dụng hàng ngày như "Dậy thôi", "Đi ra ngoài thôi" mới đúng.
+
+Tôi kể chuyện này cho một người bạn, mỗi khi gặp vấn đề, tôi luôn nghĩ đến cô ấy đầu tiên.
+Quả nhiên, bạn tôi xem kỹ video tôi quay, im lặng một lúc lâu.
+"Nó nói không phải 'Đừng nhúng tay', mà là 'Đừng giết tôi'.
+"Con vẹt này có thể đến từ một gia đình ngược đãi trẻ em."
+
+Nghe bạn tôi nói, tôi thấy khó tin.
+"Sao có thể, nó chỉ là một con vẹt thôi mà.
+"Cậu chắc chắn nó nói là 'Đừng giết tôi' chứ?
+"Cho dù là vậy, cũng có thể là học được từ tivi thôi. Sao lại liên quan đến ngược đãi trẻ em được?"
+
+Bạn tôi nghiêm mặt, lấy ra một cuốn sổ.
+"Không, không đơn giản như vậy đâu.
+"Con vẹt này còn nói những gì nữa, kể cho tớ càng chi tiết càng tốt."
+
+Vì ngày nào về nhà tôi cũng trêu nó nên những gì nó nói tôi đều nhớ gần hết.
+"Ừm... nó nói 'Ống khói nhỏ', 'Chai xanh', 'Giường sofa', cậu đều nghe thấy rồi, còn có câu 'Đừng giết tôi' nữa?"
+"Còn 'Lon sắt nhỏ' nữa, đúng không. Còn nói gì nữa?"
+"Nó còn hát ru, nói 'Ăn cơm thôi', hay nói 'Mẹ đỏ', thỉnh thoảng còn nói 'Mẹ béo', 'Mẹ gầy', 'Mẹ đen'..."
+
+"Sao lại có nhiều mẹ thế?" Bạn tôi ngạc nhiên.
+"Tớ cũng thấy lạ, nên mới hỏi cậu mà. Nó còn nói '10 giờ rồi ăn cơm thôi', '7 giờ rồi ăn cơm thôi', 'Con 8 tuổi rồi', các kiểu nữa."
+
+"Những câu này thì bình thường, còn câu lạ nào nữa không?" Bạn tôi ghi vào sổ.
+"Tạm thời chỉ có vậy." Tôi trả lời, "Cậu vẫn chưa nói cho tớ biết, tại sao lại nghĩ đến chuyện ngược đãi trẻ em?"
+
+"Cậu vừa nói, mấy hôm nay cậu dạy nó nói nhưng nó chẳng học được câu nào đúng không?" Bạn tôi hỏi ngược lại.
+Tôi gật đầu.
+"Loài vẹt học nói rất phụ thuộc vào môi trường. Trước hết cần lặp lại rất nhiều lần, thứ hai là một khi đã quen với giọng điệu của chủ cũ thì rất khó phản ứng với giọng nói mới."
+
+"Ừm... có thể nói đơn giản hơn một chút không." Tôi nhíu mày.
+"Tức là, những câu cậu nghe thấy, đều là những câu đã được lặp lại rất nhiều lần trước đó.
+"Kể cả câu 'Đừng giết tôi', lý do nghe không rõ là vì nó bắt chước giọng điệu của chủ cũ."
+
+"Giọng điệu, giọng điệu gì?"
+"Còn không hiểu sao, là giọng khóc." Bạn tôi nói từng chữ một.
+
+Đúng lúc này, con vẹt bên cạnh như hiểu được chúng tôi đang nói gì, vặn vẹo cổ, kéo dài giọng nói:
+"Đừng... giết... tôi..."
+
+Nghe mà tôi nổi da gà.
+"Khoan đã... đây chỉ là suy đoán của cậu, chỉ dựa vào điểm này mà nói là ngược đãi trẻ em thì có phần khiên cưỡng quá."
+
+Bạn tôi lắc đầu:
+"Không chỉ dựa vào điểm này.
+"Trong video nó còn nói 'Ống khói nhỏ', 'Chai xanh', 'Giường sofa' nữa đúng không."
+"Đúng, nhưng điều này chứng minh được gì?"
+"Nó luôn nói liền mấy từ này, chứng tỏ chủ của nó khi dạy nó nói cũng dạy liền mạch như vậy."
+"Có lẽ vậy, nhưng điều này đại diện cho cái gì?"
+"Thử đặt mình vào vị trí của một đứa trẻ, mấy từ này có ý nghĩa gì."
+
+Tôi nhắm mắt nghĩ, tìm mãi không ra mối liên hệ giữa chúng, chỉ là mấy từ đơn giản thôi mà.
+"Bây giờ nhà nào còn thấy ống khói nữa, 'Ống khói nhỏ' có phải chỉ điếu thuốc đang cháy không?"
+"Đây chỉ là một giả thuyết."
+
+Bạn tôi tiếp tục nói:
+"Nhưng nếu 'Chai xanh' là chỉ chai bia, 'Giường sofa' là chỉ ngủ trên sofa thì sao?
+"Vậy là hợp lý rồi đúng không, một người đàn ông suốt ngày hút thuốc, uống rượu, say xỉn rồi ngủ trên sofa.
+"Đừng quên, vẹt học nói cần phải lặp lại rất nhiều lần, tức là, đây chính là cảnh tượng thường ngày trong nhà của chủ cũ."
+
+Tôi sững người, câu "Đừng giết tôi" với giọng điệu kỳ lạ cứ văng vẳng trong đầu.
+Chẳng lẽ ở nhà, đứa trẻ cũng không ngừng lặp lại câu này.
+
+Lời bạn tôi nói khiến tôi ngẩn người ra một lúc lâu.
+Một người đàn ông suốt ngày hút thuốc, uống rượu, say xỉn rồi đánh con, ngủ trên sofa?
+Con vẹt bị bán đi rồi, vậy chủ của nó đâu? Nó có thể chỉ mới 8 tuổi.
+Tôi không dám nghĩ tiếp.
+
+Bạn tôi thấy tôi lo lắng, vội vàng an ủi.
+"Đừng nghĩ theo hướng xấu, có lẽ không tệ đến thế. Đừng quên, trong nhà còn có mẹ của đứa trẻ."
+
+Lời bạn tôi nhắc nhở tôi. Đúng rồi, đứa trẻ còn có mẹ, chỉ là giai đoạn hiện tại, có thể vợ chồng họ đang ngủ riêng.
+"Đúng rồi, còn bài hát ru nữa!"
+Tôi vội vàng nói:
+"Tớ ghi âm lại cho cậu nghe!
+"Điều này có phải chứng minh mẹ của đứa trẻ rất yêu thương nó, mỗi tối đều hát ru cho con ngủ không?"
+"Rất có thể là vậy." Bạn tôi gật đầu.
+"Nhưng, như vậy có phải hơi kỳ lạ không?" Tôi nói, "Một người mẹ mỗi tối đều hát ru cho con ngủ, một người cha nghiện rượu đánh con ngủ sofa, gia đình như vậy còn tồn tại được sao?"
+"Có lẽ không còn tồn tại nữa." Bạn tôi trả lời, "Vì vậy con vẹt mới bị bán đi."
+"Không còn tồn tại nữa... Ý cậu là..."
+
+Ba chữ "Đừng giết tôi" lại hiện lên trong đầu.
+"Đừng suy diễn lung tung, không thể kết luận vội vàng, hơn nữa còn một điểm chưa rõ."
+"Cái gì?"
+"'Mẹ đỏ', 'Mẹ béo', 'Mẹ gầy', 'Mẹ đen', là có ý gì? Mấy từ này rất kỳ lạ, có lẽ là điểm mấu chốt."
+
+Tôi cũng không hiểu, con vẹt phát âm mấy từ này rất rõ ràng, tuyệt đối không nghe nhầm.
+Đứa trẻ này tại sao lại có nhiều cách gọi mẹ như vậy, điều này đại diện cho cái gì?
+"Hay là đi hỏi ông chủ cửa hàng thú cưng xem sao?" Bạn tôi gợi ý.
+"Biết đâu, ông ấy còn nhớ người bán con vẹt.
+Còn nữa, tất cả những gì con vẹt nói, đều quay lại cho tớ nghe. Đừng bỏ sót manh mối nào."
+
+Tôi gật đầu lia lịa.
+Việc bạn tôi nghĩ ra những điều này, tôi không thấy lạ. Tôi biết quá khứ của cô ấy.
+Có lẽ khi nghe con vẹt nói, cô ấy đã nghĩ đến bản thân mình năm xưa.
+Vì vậy cô ấy mới rời khỏi thành phố có cha mẹ mình.
+
+Tôi tìm một chiếc điện thoại, hướng về con vẹt, cố gắng trêu chọc nó nói nhiều hơn.
+Sự việc đến nước này, tôi không thể không coi trọng chuyện này nữa.
+
+Sáng sớm hôm sau, tôi đến cửa hàng thú cưng.
+Vừa nhắc đến chuyện con vẹt, ông chủ tưởng tôi đến trả hàng, vội vàng xua tay.
+Tôi giải thích mãi không được, quay người lấy mấy túi thức ăn cho chim đặt lên quầy thu ngân.
+"Không phải trả hàng, tôi dạy mãi mà nó không học nói, tôi muốn hỏi xem ông có biết chủ cũ của nó không, muốn hỏi cách dạy nó nói."
+
+Ông chủ lúc này mới tươi cười.
+"Ồ, cô hỏi chuyện này à, là một người phụ nữ mang con vẹt đến cửa hàng hỏi tôi có mua không, tôi thấy con chim này khá tốt nên nhận."
+"Trông như thế nào, ông có quen cô ấy không?" Tôi hỏi.
+"Không quen." Ông chủ lắc đầu.
+"Mặc quần áo màu gì, béo hay gầy?" Tôi hơi sốt ruột.
+"Cô hỏi những điều này làm gì?" Ông chủ cảnh giác, "Không phải cô muốn hỏi cách dạy vẹt nói sao, tôi đây có tài liệu bán cho cô..."
+
+Tôi xua tay, quay đầu nhìn camera trên quầy.
+"Tôi muốn tìm chủ cũ của nó, xem camera nhà ông được không?"
+"Tất nhiên là không được." Ông chủ sa sầm mặt.
+"Tôi sẽ gọi ngay cho cục quản lý thị trường, con vẹt ông bán cho tôi không có giấy chứng nhận kiểm dịch, bây giờ tôi thấy đầu rất đau." Tôi lấy điện thoại ra.
+
+Mặt ông chủ đỏ tía một hồi, miễn cưỡng nhường máy tính cho tôi.
+Trong camera, tôi thấy người phụ nữ đó dừng xe điện, cầm lồng chim bước vào cửa hàng.
+Như ông chủ nói, tóc dài, đeo khẩu trang, không nhìn rõ mặt, mặc một chiếc váy liền màu đỏ.
+Tôi dùng điện thoại quay lại, ông chủ định nói gì đó nhưng cuối cùng lại thôi.
+Tìm thấy rồi, đây chính là... mẹ đỏ.
+
+Tôi gửi ảnh cho bạn tôi.
+"Người phụ nữ này trông rất lạ." Tôi nói, "Nhưng lại không nói rõ được lạ ở chỗ nào."
+"Là trông không đủ dịu dàng đúng không, không phải kiểu người sẽ hát ru cho con ngủ." Bạn tôi trả lời.
+"Có lý..."
+"Tuy nói người không thể nhìn mặt mà bắt hình dong, nhưng dù sao tướng mạo cũng do tâm sinh." Bạn tôi trầm ngâm một chút, "Tớ nhìn người luôn rất chuẩn, hy vọng chỉ là cảm giác nhầm lẫn thôi."
+"Dù sao thì, 'Mẹ đỏ' cũng có thể giải thích được rồi." Tôi chỉ vào chiếc váy liền trên người phụ nữ.
+
+"Thật sự giải thích như vậy sao, gọi mẹ bằng màu sắc quần áo, có phải hơi kỳ lạ không? Chẳng lẽ nói, cô ta ngày nào cũng mặc chiếc váy liền này? Nên mới để lại ấn tượng như vậy cho đứa trẻ?"
+"Nhưng còn có thể giải thích thế nào nữa? Cửa hàng thú cưng không tìm được thông tin gì khác." Tôi gãi đầu, đột nhiên nghĩ đến trong điện thoại đã ghi âm được rất nhiều giọng nói của con vẹt, bao gồm cả bài hát ru mà người phụ nữ hát.
+
+Tôi tìm đoạn video đã cắt ra, gửi cho bạn tôi.
+Giọng hát nhẹ nhàng truyền ra từ loa, tuy là thông qua miệng con vẹt, nhưng không che giấu được giọng điệu đặc trưng của người mẹ. Tôi nhắm mắt lắng nghe, không thể nào liên hệ được sự ngược đãi với giọng hát này.
+
+Bạn tôi nghe mấy lần, hỏi camera trong cửa hàng có ghi âm được giọng nói của người phụ nữ không.
+"Chó trong cửa hàng sủa quá, chẳng nghe thấy gì cả." Tôi thở dài.
+"Hơn nữa ông chủ nói, người phụ nữ đó không nói gì mấy, cũng không mặc cả, ở trong cửa hàng chỉ khoảng 1 phút."
+"Xem ra là muốn bán nhanh đi." Bạn tôi nói, "Nhưng tại sao lại như vậy?"
+"Chắc chắn là ly hôn rồi, không muốn dây dưa nhiều." Tôi đáp, chợt nghĩ lại, lại có một vấn đề.
+"Cậu nói xem, một gia đình ngược đãi trẻ em, còn mua cho con loại thú cưng đắt tiền này, có phải không hợp lý không?"
+"Điều này rất bình thường." Bạn tôi giải thích, "Con người có hai mặt, một số phụ huynh sau khi đánh con, lập tức mua đồ cho con để bù đắp, bản chất là trong lòng cảm thấy áy náy với hành vi của mình, mua đồ chỉ để an ủi bản thân thôi."
+"Vậy con vẹt này, là mẹ mua hay bố mua?" Tôi hỏi.
+"Mẹ." Bạn tôi trả lời chắc chắn.
+"Loại phụ huynh này có tính chiếm hữu rất mạnh, người bán tám chín phần mười chính là người mua."
+"Vậy chẳng phải là nói... người mẹ này cũng..." Tôi che miệng.
+"Không, cô ta có thể chỉ áy náy vì không bảo vệ được con thôi, nhưng cũng đừng nghĩ quá ngây thơ, người mẹ này trong gia đình, chưa chắc đã đơn thuần đóng vai nạn nhân, tớ luôn cảm thấy thiếu sót điều gì đó."
+
+"Mẹ đỏ... mẹ..." Tôi nhìn chằm chằm người phụ nữ trong video, lẩm bẩm lặp lại.
+Con vẹt trên giá nghe thấy lời tôi nói, như bị kích thích, vỗ cánh loạn xạ, mở miệng kêu:
+"Mẹ lại đến rồi, chim nhỏ hót, mẹ lại đến rồi, chim nhỏ hót."
+
+Kỳ lạ là, giọng nói này lại mang theo âm điệu khóc nức nở.
+Tôi và bạn tôi nhìn nhau, dự cảm chẳng lành dâng lên trong lòng.
+"Tại sao đứa trẻ lại khóc? Mẹ đến, lẽ ra phải vui mừng mới chứ?"
+Bạn tôi không trả lời, tôi đoán được tâm trạng của cô ấy.
+"Phải nhanh chóng tìm được gia đình này." Bạn tôi trầm giọng, "Chuyện không ổn rồi, phải mau cứu đứa trẻ đó."
+
+Tôi đơn giản sắp xếp lại những manh mối hiện có trong tay.
+Con vẹt đến từ một gia đình ba người. (Con vẹt khi ăn táo cắn một miếng rồi bỏ xuống, đợi được đút tiếp, liên tục đút là đặc điểm cho ăn của trẻ con.)
+Bố hút thuốc, uống rượu, thường ngủ trên sofa.
+Mẹ biết hát ru cho con ngủ, có một chiếc váy liền màu đỏ.
+Đứa trẻ nghi ngờ bị ngược đãi, thường khóc nói "Đừng giết tôi", người bạo hành rất có thể là bố, nhưng căn cứ vào câu "Mẹ lại đến rồi" phán đoán, đứa trẻ dường như cũng sợ mẹ.
+
+Bạn tôi suy nghĩ một chút, bổ sung thêm chi tiết:
+Đứa trẻ 8 tuổi hoặc trên 8 tuổi. (Con vẹt từng nói "Con 8 tuổi rồi".)
+"Mẹ đỏ", "Mẹ béo", "Mẹ gầy", "Mẹ đen" ý nghĩa không rõ, hiện tại chỉ có "Mẹ đỏ" có thể giải thích bằng chiếc váy liền màu đỏ. ("Mẹ đỏ" xuất hiện với tần suất cao nhất.)
+Mẹ rất có thể là người mua con vẹt, cũng là người bán nó đi, lý do không rõ. (Ly hôn?)
+Gia đình này một ngày chỉ ăn hai bữa.
+
+"Khoan đã, một ngày ăn hai bữa là sao cậu biết?" Tôi ngắt lời bạn tôi.
+"Con vẹt từng nói '10 giờ rồi ăn cơm thôi', '7 giờ rồi ăn cơm thôi' đúng không?
+"Sẽ ăn cơm vào hai thời điểm này, bữa đầu tiên là bữa sáng muộn, bữa thứ hai là bữa tối. Thói quen sinh hoạt rất kém." Bạn tôi nói.
+"Cậu giỏi thật đấy." Tôi thán phục, "Nhưng manh mối này có ích gì không?"
+"Chỉ có chút manh mối này, có ích hay không cứ ghi lại đã." Bạn tôi có vẻ hơi sốt ruột.
+
+"Bây giờ quan trọng nhất là tìm được người phụ nữ đó, làm rõ 'Mẹ béo', 'Mẹ gầy', 'Mẹ đen' là có ý gì, tớ dự cảm giải được manh mối này, toàn bộ sự việc sẽ rõ ràng."
+
+Tôi hỏi bạn tôi có nên báo cảnh sát không.
+"Báo cảnh sát thì làm được gì, bây giờ chúng ta chỉ có một con chim, còn lại đều là suy đoán thôi."
+
+Manh mối chỉ có vậy, chúng tôi dường như rơi vào ngõ cụt.
+Tôi cảm thấy bất lực, một đứa trẻ có thể đang chịu khổ, nhưng biển người mênh mông, muốn tìm một người nói dễ hơn làm.
+"Đừng lo, tớ nghĩ lại xem, nhất định sẽ có cách." Bạn tôi an ủi.
+Bốn giờ sáng, tôi bị đánh thức bởi tiếng chuông điện thoại réo rắt.
+Là bạn tôi gọi.
+"Có manh mối rồi! Nhìn chiếc xe này!" Giọng bạn tôi không giấu nổi sự kích động, trên mặt còn nguyên lớp trang điểm chưa tẩy đi.
+
+Tôi vội vàng nhìn màn hình, bạn tôi đang nói đến chiếc xe điện mà người phụ nữ kia đi đến cửa hàng thú cưng, camera chỉ quay được nửa dưới của xe, chỉ thấy hai bánh xe.
+"Tớ... chẳng nhìn ra gì cả."
+"Trọng điểm không phải ở đây! Người phụ nữ đó đi chiếc xe này đến cửa hàng, nhưng khi cô ta ra ngoài, chiếc xe này lại biến mất!
+Đây là xe đạp công cộng!"
+
+Tôi vẫn không hiểu, xe đạp công cộng thì sao chứ? Chứng tỏ nơi người phụ nữ đó ở cách cửa hàng thú cưng không xa? Nhưng phạm vi này vẫn quá lớn.
+"Chỉ cần biết xe được đạp từ đâu đến cửa hàng thú cưng, chẳng phải là có thể khoanh vùng vị trí của cô ta sao?"
+"Nhưng làm sao cậu biết..."
+"Tớ vừa gọi điện cho tất cả những người phụ trách khu vực của các hãng xe đạp công cộng." Bạn tôi ho khan một tiếng ngượng ngùng.
+"Tớ bịa đại một địa chỉ, nói với họ hôm đó khoảng mấy giờ, tớ đạp xe từ đó đến cửa hàng thú cưng, kết quả cứ hiển thị trả xe thất bại, bị trừ phí dịch vụ, nếu không giải quyết tớ sẽ gọi điện thoại đường dây nóng của thị trưởng để khiếu nại. Cậu đoán xem kết quả thế nào."
+"Cậu... tìm được địa chỉ rồi?"
+"Chính xác! Vừa rồi, người phụ trách của hãng xe đạp màu vàng nói với tớ, hôm đó đúng là có một chiếc xe được đạp từ Khu dân cư Thiên Thụy đến cửa hàng thú cưng, nhưng bên họ hiển thị trả xe thành công, vì chiếc xe ngay sau đó lại được một người khác đạp đi.
+Tuy cách này hơi ngốc, nhưng cuối cùng..." Bạn tôi thở dài.
+
+"Mau đi tìm đứa trẻ đó."
+"Hiểu rồi, nhìn cậu còn chưa tẩy trang, đi ngủ trước đi, chuyện tìm người cứ để tớ lo."
+"Cậu... đừng nghĩ nhiều quá..." Tôi nói.
+Bạn tôi cười gượng gật đầu, vẻ mặt đầy mệt mỏi.
+Tôi nhìn con vẹt đứng một chân trên giá, đầu rúc vào cánh, thấy mắt cay cay.
+
+Hôm sau, chưa đến 6 giờ, tôi đã ngồi canh chéo bên đường khu dân cư Thiên Thụy.
+Thật lòng mà nói, nếu người phụ nữ đó thay quần áo, tôi không chắc mình có nhận ra được không.
+Nhưng đây là manh mối duy nhất của chúng tôi, tôi phải đợi.
+Nhưng tôi đã theo dõi từ sáng đến tối suốt 2 ngày mà vẫn không thấy bóng dáng người phụ nữ đó.
+"Liệu có phải cô ta lái xe ra vào không nhỉ?" Tôi hơi nản lòng.
+"Đừng nản, cách này tuy vụng về nhưng nhất định sẽ có tác dụng. Tin tớ đi."
+
+Quả nhiên, vào buổi trưa ngày thứ 3, tôi nhìn thấy bóng dáng quen thuộc đó, mặc chiếc váy liền màu đỏ, tay xách túi rác, đang đi về phía thùng rác ở cổng khu dân cư.
+Không kìm nén được sự kích động trong lòng, tôi nhảy dựng lên chạy sang bên kia đường.
+Một tiếng phanh xe chói tai vang lên, một chiếc xe tải nhỏ dừng gấp cách tôi nửa mét.
+Tài xế hạ cửa kính xuống, chửi rủa tôi xối xả.
+Trong lúc tôi sững sờ, người phụ nữ đã vứt rác xong, quay người đi về.
+Tôi vội vàng xin lỗi rồi muốn đuổi theo, nhưng tài xế đó lại nhảy xuống xe, không chịu buông tha mà túm lấy tôi.
+Tôi trơ mắt nhìn người phụ nữ đó rẽ vào một góc rồi biến mất.
+Nỗ lực 3 ngày dường như đổ xuống sông xuống biển trong khoảnh khắc này, tôi quay đầu lại nhìn tài xế đó với ánh mắt hình viên đạn.
+Tên đó cũng thuộc dạng bắt nạt kẻ yếu, thấy tôi như vậy, hắn ta chửi thêm vài câu rồi lên xe bỏ chạy.
+
+Tôi ngồi phịch xuống vệ đường, gọi điện cho bạn, cuối cùng không nhịn được mà khóc òa lên.
+"Không sao đâu, không sao đâu." Bạn tôi liên tục an ủi.
+"Ít nhất cũng chứng minh những suy đoán của chúng ta là đúng, vẫn còn cơ hội."
+"Nhưng đứa trẻ đó... cứ nghĩ đến nó là tớ..." Tôi khóc không ngừng được.
+"Chúng ta có thể cứu nó, tin tớ đi." Bạn tôi nói, "Trước tiên hãy xem trong túi rác có gì."
+
+Tôi chạy đến lật thùng rác, xé túi ra, bên trong toàn là chai rượu, đầu lọc thuốc lá và hộp đồ ăn mang về.
+"Không sai được, cứ tiếp tục đợi."
+Tôi trở lại vị trí ban đầu, mắt nhìn chằm chằm vào phía đối diện.
+
+Tối hôm đó, mọi chuyện đã thay đổi.
+Một chiếc taxi dừng lại ở cổng khu dân cư, người phụ nữ mặc chiếc váy liền quen thuộc bước xuống xe, tay xách túi, đi vào trong khu.
+Người phụ nữ đó đã ra ngoài lúc nào mà tôi lại không nhìn thấy?
+Không kịp nghĩ nhiều, tôi vội vàng nhảy lên đuổi theo.
+Để tránh bị nghi ngờ, tôi không dám chạy, khi bước nhanh vào khu dân cư, người phụ nữ đã đến cửa căn hộ và bấm chuông, một tay liên tục kéo chiếc váy liền trên người.
+Cánh cửa "cạch" một tiếng mở ra, người phụ nữ bước vào, cánh cửa lại "ầm" một tiếng đóng lại.
+"Không sao, tôi đã tìm thấy cô rồi!" Tôi đứng dưới lầu, ngẩng đầu nhìn đèn cảm ứng trong hành lang.
+
+Đèn sáng lên từng tầng một, sáng đến tận tầng 4, dừng lại một lúc rồi tắt.
+Tôi liên lạc với bạn, hỏi cô ấy bước tiếp theo nên làm gì.
+Bạn tôi xem đoạn video tôi quay, cau mày rất sâu.
+"Cậu vừa nói, người phụ nữ đó xuống từ taxi, nhưng cậu không thấy cô ta ra ngoài?" Bạn tôi hỏi.
+"Ừm... có lẽ tớ không để ý."
+"Có lẽ vậy..."
+"Bây giờ điều đó còn quan trọng nữa sao? Chúng ta đã tìm thấy cô ta rồi mà." Tôi hơi nóng ruột.
+"Tớ không biết... và tớ phát hiện ra một vấn đề kỳ lạ."
+"Vấn đề gì?"
+"Chiếc váy của người phụ nữ này, chính là người vừa lên lầu đó, trông có vẻ không vừa, quá chật phải không, nên lúc nãy cô ta mới phải dùng tay kéo.
+Nhưng người phụ nữ sáng nay ra ngoài vứt rác thì không hề cho người ta cảm giác quần áo không vừa vặn."
+
+"Cậu có phải đang nghĩ nhiều quá không? Đó có thể chỉ là một hành động theo thói quen thôi mà." Tôi không hiểu tại sao bây giờ bạn tôi lại bắt đầu do dự.
+"Không... càng lúc này càng không được vội vàng." Giọng bạn tôi trở nên bình tĩnh lạ thường.
+"Đừng quên câu nói của con vẹt, câu mà chúng ta vẫn chưa hiểu."
+"Mẹ Đỏ, Mẹ Béo, Mẹ Gầy, Mẹ Đen..." Tôi lẩm bẩm.
+"Đúng vậy, điều tớ muốn nói là, hai người phụ nữ mặc váy liền màu đỏ mà chúng ta thấy hôm nay, có thực sự là cùng một người không?" Bạn tôi nhìn chằm chằm vào mắt tôi.
+
+Đầu óc tôi hơi rối bời.
+"Ý cậu là, có nhiều người phụ nữ khác nhau mặc cùng một bộ quần áo ra vào một ngôi nhà, nhưng điều này làm sao có thể giải thích được?"
+"Chỉ là cảm giác của tớ." Bạn tôi trầm ngâm một lúc, "Quả thực khó giải thích."
+
+Không biết phải làm sao, tôi đi lang thang dưới lầu nửa tiếng, đúng lúc một cô lao công đẩy xe đi về phía này.
+"Trước tiên hãy tìm hiểu tình hình." Bạn tôi dặn dò tôi vài câu.
+Tôi tiến lên chặn cô lao công lại, kìm nén cảm xúc hỗn loạn, cố gắng nở một nụ cười.
+"Chào cô, cháu đến thuê nhà, căn hộ ở tầng 4 tòa nhà này." Tôi chỉ vào cửa tòa nhà.
+"Anh ấy nói gia đình họ sắp chuyển đi, nhưng cháu vừa gọi điện cho anh ấy thì không ai nghe máy, cháu đợi ở đây cả buổi rồi, cô có biết tình hình nhà anh ấy không ạ?"
+
+Cô lao công trông rất hiền lành, nhìn là biết người thật thà, tôi thấy hơi áy náy, giờ nói dối lại tự nhiên đến thế.
+"Nhà ở tầng 4 á?" Cô lao công ngẩn người, "Cháu chắc chắn không tìm nhầm chỗ chứ?"
+Tôi lấy điện thoại ra giả vờ xem địa chỉ. Nói chắc chắn không sai, khu dân cư Thiên Thụy, tòa 2, tầng 4.
+
+"Nhà đó làm gì có đàn ông?" Cô lao công xua tay.
+"Không có đàn ông?" Tôi vội vàng nói, "Nhà anh ấy không phải là vợ chồng sao, còn có một đứa con khoảng bảy, tám tuổi nữa?"
+"Ôi chao, chắc chắn là nhầm rồi, nhà đó cũng không có trẻ con." Cô lao công vừa nói vừa đi về phía trước, "Chỉ có một người phụ nữ sống ở đó thôi."
+
+"Không thể nào!" Tôi nhận ra giọng điệu của mình không đúng, vội vàng nói, "Cô chắc chứ, cháu nghe thấy tiếng con nhà anh ấy nói chuyện mà."
+"Ôi, tôi làm việc ở đây mấy năm rồi, nhà nào trên lầu này tôi đều quen, nhà ai có con bao nhiêu tuổi tôi đều biết, chưa bao giờ thấy nhà đó có trẻ con. Cô gái à, khuyên cháu đừng thuê nhà của nhà này, người phụ nữ đó..." Cô lao công nhíu mày.
+"Người phụ nữ đó làm sao ạ?"
+"Tôi thấy cô ta không giống người tốt." Cô lao công cười gượng, "Không phải tôi thích nói xấu người khác, nhưng trông cô ta có vẻ không có công việc đàng hoàng, suốt ngày tối đến lại gọi taxi đi ra ngoài. Có lần tôi tan ca muộn gặp cô ta một lần, thấy trang điểm lòe loẹt... Haiz, cô gái thuê nhà thì vẫn nên cẩn thận thì hơn."
+
+Không có đàn ông? Không có trẻ con?
+Tin tức bất ngờ ập đến khiến tôi choáng váng, tôi ậm ừ đáp lại, không biết nói gì. Vừa nói chuyện, tôi đã đi cùng cô đến văn phòng ban quản lý.
+"Cháu xem! Vừa nói đã đến." Cô lao công chỉ ra ngoài cửa sổ.
+
+Không biết từ lúc nào người phụ nữ đó đã đi đến cổng khu dân cư, một chiếc taxi đang đợi bên ngoài, có vẻ đã liên lạc trước.
+Người phụ nữ vẫn xách túi, lên xe rồi đi mất.
+Camera vẫn đang quay, tôi giơ điện thoại lên cho bạn xem.
+"Không đúng."
+Bạn tôi nói, "Có thể ngay từ đầu chúng ta đã đi nhầm hướng.
+Chúng ta vẫn luôn mặc định rằng, người hút thuốc uống rượu là đàn ông, nhưng nếu không phải thì sao?
+Trong những lời con vẹt nói, chưa từng nhắc đến bố.
+Còn nữa, lúc nãy cô lao công nói không thấy trẻ con?
+Chúng ta chắc chắn có một đứa trẻ 8 tuổi đúng không, trước đây tôi luôn cảm thấy thiếu một manh mối, đó là thời gian ăn cơm!
+Một đứa trẻ 8 tuổi thì cũng phải đi học rồi chứ, một đứa trẻ đi học bình thường, tuyệt đối sẽ không ăn cơm ở nhà lúc 10 giờ.
+Đứa trẻ đó bị nhốt trong nhà! Vì vậy không ai nhìn thấy nó!"
+
+"Từ đầu đến cuối là người mẹ... giam cầm đứa trẻ?" Tôi lạnh toát cả người.
+"Người phụ nữ vừa ra ngoài tóc ướt, cậu có thấy không?" Giọng bạn tôi trầm xuống vài độ.
+"Cái gì... ý cậu là gì?"
+"Tớ không biết, bây giờ trong lòng tớ rất rối." Bạn tôi nói, "Trong xe dọn vệ sinh có một cái móc, lấy nó đi."
+"Dùng để làm gì?" Nhân lúc cô lao công quay đi, tôi lặng lẽ lấy cái móc rồi ra ngoài.
+"Xông vào, nhất định phải vào trong." Bạn tôi nói từng chữ.
+"Đừng sợ, có tớ đây."
+
+"Mở cửa ra vào hành lang rất đơn giản.
+Cứ bấm chuông một nhà bất kỳ, nói là cậu ở trên tầng này, quên mang chìa khóa là được."
+
+Tôi làm theo lời bạn tôi nói, quả nhiên cửa mở ra, tôi thuận lợi đi đến cửa căn hộ ở tầng 4.
+"Bây giờ làm sao, cạy cửa à?" Tay tôi cầm móc ướt đẫm mồ hôi.
+"Nghĩ gì vậy, thế cả tòa nhà đều nghe thấy mất.
+Làm thế này, bẻ cong cái móc." Bạn tôi lấy một tờ giấy vẽ cho tôi xem.
+
+Tôi làm theo lời bạn tôi, bẻ cái móc thành hình chữ L, phần dài hơn là phần cong của móc.
+"Đã từng thấy công ty mở khóa mở loại cửa chống trộm kiểu cũ này như thế nào chưa?"
+"Hình như có chút ấn tượng..." Tôi cố gắng suy nghĩ.
+"Cậu quên rồi."
+
+Bạn tôi thở dài:
+"Hồi nhỏ bố mẹ bỏ tớ ở ngoài hành lang rồi đi chơi, hôm đó trời rất lạnh, lạnh không chịu nổi, gọi công ty mở khóa đến mở cửa, quên rồi à? Dùng đầu móc cạy con mắt mèo ra!"
+
+Tôi dùng móc cạy con mắt mèo ra, đút đầu móc vào khe hở giữa con mắt mèo và cửa, dùng sức cạy một cái, vỏ nhựa của con mắt mèo rơi xuống đất.
+"Đẩy phần còn lại vào trong nhà!"
+
+Tôi như người thông lò, đẩy mạnh cái móc vào vị trí con mắt mèo, phần còn lại của con mắt mèo không chịu nổi một kích, rơi vào trong nhà.
+"Thò móc vào trong, dùng phần dài hơn kéo tay nắm cửa!"
+
+Tôi làm theo, cả người nằm úp trên cửa, cảm nhận vị trí của cái móc bên trong cửa.
+Khi cảm thấy móc được thứ gì đó, tôi thầm cầu nguyện, dùng sức kéo một cái.
+Cửa "cạch" một tiếng mở ra.
+
+Trong nhà ban ngày mà kéo rèm, rất tối.
+Ghế sô pha và bàn là những đồ nội thất duy nhất trong phòng khách.
+Trên sàn có đầu lọc t.h.u.ố.c lá và lon bia bị dẫm bẹp, chắc chắn là nhà này rồi.
+Mùi t.h.u.ố.c lá và mùi rượu bị giam cầm hòa quyện vào nhau, tỏa ra mùi vị không thể cứu vãn nổi.
+
+"Nhanh tìm đứa trẻ." Giọng bạn tôi run lên.
+Cửa một phòng ngủ có dán tranh vẽ bằng bính âm, tôi tiến lên vặn tay nắm cửa, không vặn được.
+"Đồ súc sinh, nhốt đứa trẻ lại rồi."
+
+Chưa đợi bạn tôi lên tiếng, tôi đã đạp cửa xông vào.
+
+Một đứa trẻ trông chỉ khoảng bảy, tám tuổi co rúm trong góc tường, ôm đầu run rẩy, tóc dài đến vai, nhưng nhìn quần áo nó mặc thì là con trai.
+"Mẹ... đừng g.i.ế.c con... đừng g.i.ế.c con..." Đứa trẻ không nói thành tiếng, khóc nức nở.
+
+Cùng một câu nói đã nghe con vẹt lặp lại nhiều lần, nhưng khi tận tai nghe đứa trẻ khóc lóc nói ra, tôi cứ như chính mình đang khóc vậy.
+"Không sao rồi... không sao rồi... Tôi không phải mẹ em." Tôi tiến lên muốn ôm nó.
+
+Nó chỉ ôm ch.h.ặ.t đ.ầ.u bằng hai tay, run lên bần bật trong vòng tay tôi.
+"Chúng tôi đã tìm thấy con vẹt của em rồi, đi theo chúng tôi, chúng tôi đưa em đi tìm vẹt nhé?" Bạn tôi nhẹ nhàng nói.
+
+Đứa trẻ run lên như bị điện giật, từ từ ngẩng đầu lên, đôi mắt đầy hoảng sợ, và một tia... hy vọng.
+Bạn tôi hát bài hát ru con đó, cơ thể đứa trẻ trong vòng tay tôi mềm nhũn ra.
+
+Tôi bế đứa trẻ đang yếu ớt lên, đứng dậy định đi ra ngoài, vô tình liếc nhìn ra ngoài cửa sổ.
+Bên ngoài cửa sổ phòng ngủ là ban công, bóng dáng mặc váy liền màu đỏ đang đứng ở đó.
+
+Trong một khoảnh khắc, tôi cứng đờ người tại chỗ không thể cử động, bóng dáng đó cũng không động đậy, chỉ hơi lắc lư.
+"Là quần áo đang phơi, cái trên cùng đó là... tóc giả." Bạn tôi nói.
+"Chúng ta đã sai rồi, trong nhà này, còn có một người nữa."
+
+"Mẹ của nó... không phải vừa ra ngoài sao?" Tôi không dám động đậy.
+"Không... sáng nay chúng ta không thấy người phụ nữ ra ngoài, nhưng cô ta lại bắt taxi đến khu dân cư.
+Người vừa ra ngoài, là người phụ nữ bắt taxi đó.
+Người vứt rác mà chúng ta nhìn thấy lần đầu tiên, hắn ta... vẫn còn trong nhà, và... là đàn ông."
+
+"Tên đàn ông đó, giả trang thành phụ nữ ra ngoài?" Tôi thấy buồn nôn.
+"E rằng không chỉ giả dạng phụ nữ ở bên ngoài, ở nhà, hắn ta cũng đeo tóc giả, mặc quần áo phụ nữ.
+Còn nhớ không? Đứa trẻ chưa bao giờ gọi bố, chúng ta đã đoán sai, không phải trong nhà không có bố, mà là bố đã giả dạng thành mẹ..."
+
+"Không đúng, không đúng." Tôi nói, "Quần áo phụ nữ được phơi trên ban công, ở nhà hắn ta không có..."
+"Hắn ta vừa cởi ra." Bạn tôi ngắt lời tôi, "Người phụ nữ vừa đi tóc ướt, hiểu không?"
+"Có thể hắn ta đang ngủ, chưa tỉnh dậy." Bạn tôi hạ giọng, "Tớ có cách, cậu lặng lẽ đi đi."
+
+Tôi nuốt nước bọt, vừa định bước chân.
+Một cánh tay đàn ông xuất hiện trong cửa sổ, đưa tay kéo chiếc váy liền xuống.
+Lại một bàn tay nữa, kéo tóc giả xuống.
+Nửa khuôn mặt thò ra từ mép cửa sổ, tóc rối che trán, để lộ đôi mắt điên cuồng.
+
+Tôi đột nhiên hiểu ra điều gì không đúng ở người phụ nữ trong camera giám sát, đôi mắt phía trên khẩu trang, rõ ràng là của đàn ông.
+"Chạy mau!" Bạn tôi hét lớn
+
+Tôi lao ra khỏi cửa phòng ngủ, nhưng đã quá muộn.
+Tiếng bước chân gấp gáp vang lên từ phía sau, một bàn tay túm tóc tôi, tôi ôm đứa trẻ ngã xuống đất.
+Cổ họng tôi như bị bóp nghẹt, một khuôn mặt méo mó hướng về phía tôi, hơi thở nặng nhọc lẫn mùi hôi thối phả vào mặt.
+Đầu tôi sưng lên như sắp nổ tung, trước mắt tối sầm lại.
+
+Trong cơn tuyệt vọng, tôi quơ tay loạn xạ, sờ thấy cái móc sắt ở cửa phòng ngủ.
+Tôi kéo cái móc lại, hàm răng vàng của người đàn ông ở ngay trước mắt, tôi đút đầu móc vào miệng hắn ta, giật mạnh một cái.
+Người đàn ông hét lên như heo bị chọc tiết, áp lực trên cổ biến mất, tôi dùng hết sức đẩy hắn ta ra, chạy đến bên đứa trẻ, ôm nó lại lao ra ngoài.
+
+Khoảnh khắc bế đứa trẻ lên, tôi bật khóc, không phải vì suýt bị bóp cổ.
+Mà vì đứa trẻ trong vòng tay cũng dang tay ôm chặt lấy tôi.
+Vừa nãy bị ngã một cái như vậy, nó cũng không dám khóc.
+
+Tôi lao ra cửa, xoay tay nắm rồi mở toang, chạy thẳng vào hành lang.
+"Tớ đã đưa em ấy ra rồi... đưa ra rồi..." Tôi thầm nghĩ.
+
+Bỗng một luồng gió rít mạnh sau gáy, tiếp theo là một tiếng động trầm đục. Mắt tôi tối sầm lại.
+Một cái gạt tàn rơi xuống chân, vỡ tan thành từng mảnh thủy tinh.
+Thôi rồi... Một đôi bàn tay túm lấy chân tôi, kéo lê tôi vào trong nhà.
+Tôi dùng chút sức lực cuối cùng bám chặt ngưỡng cửa, nhưng vẫn bị kéo vào từng chút một.
+
+Trong khoảnh khắc ngất lịm đi, tôi nghe thấy tiếng bước chân vội vã từ dưới lầu vọng lên.
+
+Tôi tỉnh dậy trên giường bệnh, đầu quấn băng trắng.
+"May mà có tớ, không thì lần này cậu tiêu đời rồi."
+"Muốn bảo vệ đến nhà trong vòng hai phút thì cứ gọi điện bảo nhà cậu đang cháy. Sao, hiệu quả chứ?" Bạn tôi cười.
+"Cậu đúng là đem mạng sống của tớ ra đùa giỡn." Tôi cười khổ.
+"Cậu dũng cảm lắm, tớ cứ tưởng cậu không dám xông vào chứ. Cậu không sợ à?" Bạn tôi hỏi.
+"Cậu không sợ thì tớ cũng không sợ." Tôi đáp.
+
+"Báo cáo điều tra của cảnh sát ra rồi, muốn nghe không?"
+"Tất nhiên."
+
+"Tên đó ly hôn vợ cách đây hai năm, vợ không mang theo con. Từ đó hắn ta trở nên bất thường, bắt đầu nghiện rượu, còn ăn mặc giống hệt vợ mình."
+"Đội tóc giả, mặc váy liền của vợ?" Tôi hỏi.
+"Đúng vậy, hơn nữa còn bắt con gọi hắn là mẹ, cứ như làm vậy thì vợ hắn sẽ vẫn ở nhà."
+"Nói tiếp đi." Tôi cảm thấy trong lòng bức bối.
+"Sau đó, hắn ta bắt đầu gọi gái mại dâm đến nhà, còn yêu cầu họ mặc quần áo của vợ hắn trước. Đó chính là lý do tại sao đứa trẻ nói có rất nhiều mẹ..."
+
+Tôi choáng váng.
+"Tinh thần của đứa bé... còn bình thường không?"
+"Bị giam cầm 2 năm, không giao tiếp với ai, e là sẽ bị ảnh hưởng. Đáng lẽ ra chúng ta nên nhận ra sớm hơn, lời nói của đứa trẻ quá đơn giản và trẻ con, chỉ lặp lại những người và đồ vật nhìn thấy, không thành câu, không phù hợp với lứa tuổi."
+
+"Người mặc áo đỏ là Mẹ Đỏ, người mặc áo hơi chật là Mẹ Béo, còn Mẹ Trắng và Mẹ Đen..."
+"Đều đã tìm thấy. Trong mắt đứa trẻ, đó chỉ là những người phụ nữ có làn da trắng hơn và đen hơn một chút mà thôi."
+
+Tôi ngây người nhìn trần nhà, hồi lâu không nói gì.
+"Con vẹt... là do mẹ ruột của đứa trẻ gửi đến. Cô ấy đã dạy con vẹt hát một bài hát ru." Bạn tôi nói.
+"Coi như là một sự bù đắp?" Tôi cười khan, nghe thật khó nghe.
+"Tớ không biết... Có lẽ, trong lòng đứa trẻ hiểu rõ, người phụ nữ biết hát kia mới là mẹ của nó, nên mỗi khi những người phụ nữ đó đến, đứa trẻ mới nói câu đó."
+
+"Mẹ lại đến rồi... Chim nhỏ hát..." Tôi tưởng tượng cảnh đứa trẻ co rúm trong góc, nói chuyện với con vẹt.
+"Tại sao lại bán con vẹt?"
+"Hắn ta không đi làm, những thứ gì có thể bán được để lấy tiền hắn đều bán hết rồi. May mà con vẹt đến tay chúng ta, nếu không..."
+Tôi im lặng không nói.
+"Sao lại thế được, nó chỉ là một con vẹt thôi mà."
+
+"Cậu nói xem, sau này lớn lên, đứa trẻ đó sẽ trở thành người như thế nào? Nó sẽ tha thứ cho cha mẹ của mình chứ?" Tôi khẽ hỏi.
+"Cậu nói xem, sau này lớn lên, đứa trẻ đó sẽ trở thành người như thế nào? Nó sẽ tha thứ cho cha mẹ của mình chứ?" Bạn tôi lặp lại.
+
+Cánh cửa phòng bệnh mở ra, một bác sĩ mặc áo blouse trắng bước vào.
+"Cô tỉnh rồi à? Vừa nãy ở ngoài tôi nghe thấy có tiếng nói chuyện, cô đang nói chuyện với ai vậy?" Bác sĩ cười hỏi.
+"Không... không có gì..." Tôi nằm một mình trên giường, hai tay trống không.
+
+"Đừng nói cho họ biết." Một giọng nói vang lên.
+"Tất nhiên." Tôi đáp.
+
+Bạn tôi vừa là tôi, lại vừa không phải là tôi. Cô ấy là người mà tôi luôn muốn trở thành.
+Mỗi khi gặp vấn đề, cô ấy luôn nói chuyện với tôi trong lòng.
+Tôi tưởng tượng cảnh cô ấy chạy đến một thành phố không có cha mẹ và sống thật tốt một mình.
+Tôi là người đã kiểm tra manh mối lúc bốn giờ sáng, cô ấy luôn ở bên cạnh tôi.
+Tôi là cô bé bị nhốt ngoài cửa vào mùa đông, co ro trong hành lang, làm sao tôi có thể quên được.
+Số điện thoại của bảo vệ vẫn còn lưu trong điện thoại tôi, chính cô ấy đã nhắc nhở tôi.
+Không có cô ấy, tôi không thể sống nổi.
+
+"Cô chỉ bị thương nhẹ thôi, cô ổn chứ? Sao lại ngẩn người ra vậy?" Bác sĩ vẫy tay trước mặt tôi.
+"Chắc chắn cô muốn gặp một người." Bác sĩ tránh sang một bên, cậu bé đứng ở cửa.
+"Chào em, còn nhớ tụi chị không?" Tôi cười vẫy tay.
+Cậu bé rụt rè giơ một tay lên chào tôi.
+"Chào chị, chào chị." Tôi nghe vài tiếng nói ngộ nghĩnh.
+Trong tay cậu bé cầm một chiếc lồng, bên trong có một con vẹt màu xanh ngọc bích.
+</div>
+
+</div>
+
+<!-- POPUP -->
+  <div id="unlock-box">
+
+    <!-- BƯỚC 1 - SHOPEE -->
+    <div class="unlock-step" id="step1Box">
+
+      <div class="step-label">
+        BƯỚC 1 / 2
+      </div>
+
+      <h3>
+        🛍️ Mời Quý độc giả
+      </h3>
+
+      <p class="invite-text">
+        <b>CLICK vào LIÊN KẾT HOẶC ẢNH bên dưới</b>
+      </p>
+
+      <p class="open-app">
+        MỞ ỨNG DỤNG
+        <strong>SHOPEE</strong>
+      </p>
+
+      <a
+        id="step1Url"
+        class="visible-url"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      ></a>
+
+      <a
+        id="step1Link"
+        class="product-card"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div class="product-image-wrap">
+          <img
+            id="step1Image"
+            class="product-image"
+            alt=""
+          >
+        </div>
+
+        <div class="product-info">
+
+          <div
+            id="step1Name"
+            class="product-name"
+          ></div>
+
+          <div
+            id="step1Desc"
+            class="product-desc"
+          ></div>
+
+          <div class="product-link">
+            👉 XEM SẢN PHẨM
+          </div>
+
+        </div>
+
+      </a>
+
+      <div class="return-note">
+        ↩️ Sau khi mở Shopee,
+        hãy quay trở lại trang này.
+      </div>
+
+    </div>
+
+
+    <!-- BƯỚC 2 - SHOPEEFOOD -->
+    <div
+      class="unlock-step"
+      id="step2Box"
+      style="display:none;"
+    >
+
+      <div class="step-label">
+        BƯỚC 2 / 2
+      </div>
+
+      <h3>
+        🍜 Mời Quý độc giả
+      </h3>
+
+      <p class="invite-text">
+        <b>CLICK vào LIÊN KẾT HOẶC ẢNH bên dưới</b>
+      </p>
+
+      <p class="open-app">
+        MỞ ỨNG DỤNG
+        <strong>SHOPEEFOOD</strong>
+      </p>
+
+      <a
+        id="step2Url"
+        class="visible-url"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      ></a>
+
+      <a
+        id="step2Link"
+        class="product-card"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div class="product-image-wrap">
+          <img
+            id="step2Image"
+            class="product-image"
+            alt=""
+          >
+        </div>
+
+        <div class="product-info">
+
+          <div
+            id="step2Name"
+            class="product-name"
+          ></div>
+
+          <div
+            id="step2Desc"
+            class="product-desc"
+          ></div>
+
+          <div class="product-link food-link">
+            👉 XEM MÓN NGON
+          </div>
+
+        </div>
+
+      </a>
+
+      <div class="return-note">
+        ↩️ Sau đó quay trở lại trang truyện.
+      </div>
+
+    </div>
+
+
+    <div class="thanks">
+      Tiệm Nhà Miu Miu xin chân thành cảm ơn! 💗
+    </div>
+
+  </div>
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="../codetruyen/qcshopee.js"></script>
+  <script src="../codetruyen/qcspf.js"></script>
+  <script src="../codetruyen/script.js"></script>
+  <script src="../codetruyen/audio.js"></script>
+
+</body>
+</html>

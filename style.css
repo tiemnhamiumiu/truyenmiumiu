@@ -1,0 +1,264 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#111;
+  color:white;
+}
+
+/* ===== HEADER ===== */
+header{
+  background:#1b1b1b;
+  padding:20px;
+  text-align:center;
+}
+
+header h1{
+  color:#ff5722;
+}
+
+/* ===== TOP MENU ===== */
+.topbar{
+  background:#1b1b1b;
+  padding:15px;
+  position:sticky;
+  top:0;
+  z-index:10;
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:8px;
+}
+
+.topbar a{
+  color:white;
+  text-decoration:none;
+  padding:8px 12px;
+  border-radius:8px;
+  background:#2a2a2a;
+  font-size:14px;
+}
+
+.topbar a:hover{
+  background:#ff5722;
+}
+
+/* ===== SEARCH ===== */
+.search-box{
+  text-align:center;
+  margin:20px;
+}
+
+.search-box input{
+  width:90%;
+  max-width:500px;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  outline:none;
+  font-size:16px;
+}
+
+/* ===== GRID: 6 TRUYỆN / HÀNG ===== */
+.container{
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+  gap:15px;
+  padding:15px;
+}
+
+/* ===== CARD TRUYỆN ===== */
+.book{
+  background:#1e1e1e;
+  border-radius:12px;
+  overflow:hidden;
+  transition:0.2s;
+  display:block;
+  text-decoration:none;
+  color:white;
+}
+
+.book:hover{
+  transform:scale(1.03);
+}
+
+.book img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  display:block;
+}
+
+.book h2{
+  padding:10px;
+  font-size:15px;
+  line-height:1.4;
+  word-break:break-word;
+}
+
+/* ===== STORY ===== */
+#story{
+  white-space:pre-line;
+  background:#151515;
+  padding:20px;
+  border-radius:12px;
+  font-size:17px;
+  line-height:1.9;
+  color:#eaeaea;
+  text-align:justify;
+  word-break:break-word;
+  max-width:800px;
+  margin:auto;
+  box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* tablet */
+@media (max-width: 1200px){
+  .container{
+    grid-template-columns:repeat(4, 1fr);
+  }
+}
+
+/* tablet nhỏ */
+@media (max-width: 768px){
+  .container{
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
+
+/* điện thoại */
+@media (max-width: 500px){
+  .container{
+    grid-template-columns:repeat(2, 1fr);
+  }
+
+  .book img{
+    height:180px;
+  }
+}.detail{
+  max-width:1000px;
+  margin:auto;
+  padding:30px;
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.detail img{
+  width:250px;
+  border-radius:12px;
+}
+
+.info{
+  flex:1;
+}
+
+.info h1{
+  margin-bottom:20px;
+  color:#ff5722;
+}
+
+.read-btn{
+  display:inline-block;
+  margin-top:20px;
+  background:#ff5722;
+  color:white;
+  padding:12px 20px;
+  border-radius:10px;
+  text-decoration:none;
+}.book-link{
+  text-decoration:none;
+  color:white;
+  display:block;
+}/* DETAIL PAGE */
+
+.detail-page{
+  max-width:1000px;
+  margin:auto;
+  padding:30px;
+}
+
+.detail-card{
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+  background:#151515;
+  padding:25px;
+  border-radius:20px;
+}
+
+.detail-img{
+  width:280px;
+  border-radius:15px;
+  object-fit:cover;
+}
+
+.detail-info{
+  flex:1;
+}
+
+.detail-info h1{
+  margin-top:0;
+  color:#ff5722;
+}
+
+.tag{
+  display:inline-block;
+  background:#ff5722;
+  color:white;
+  padding:8px 15px;
+  border-radius:30px;
+  margin:15px 0;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.tag:hover{
+  opacity:0.8;
+  transform:scale(1.05);
+}
+
+.desc{
+  color:#ddd;
+  line-height:1.9;
+
+  white-space:pre-line;
+
+  max-height:220px;
+
+  overflow-y:auto;
+
+  padding-right:10px;
+}.desc::-webkit-scrollbar{
+  width:6px;
+}
+
+.desc::-webkit-scrollbar-thumb{
+  background:#ff5722;
+  border-radius:20px;
+}
+
+.unlock-info{
+  margin-top:25px;
+  background:#222;
+  padding:15px;
+  border-radius:12px;
+}
+
+.read-btn{
+  display:inline-block;
+  margin-top:20px;
+  background:#ff5722;
+  color:white;
+  padding:14px 25px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:bold;
+}

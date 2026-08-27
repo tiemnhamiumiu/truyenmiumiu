@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xé Nát Âm Mưu Mẫu Thân</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+  <a href="../cotrang.html">Cổ trang</a>
+</header>
+
+<div class="topbar">
+  Xé Nát Âm Mưu Mẫu Thân
+</div>
+  <div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="" data-marker="0" data-marker-label="00:00">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Hoàng Hậu Mù Mặt</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">00:00</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">00:00</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc tiếp nếu bạn từ Facebook sang</a>
+</div>
+
+<div id="story">
+    <div id="lockedContent">
+
+      <div class="audio-card" id="audioCard" data-audio="" data-marker="0" data-marker-label="00:00">
+
+        <div class="audio-header">
+          <div class="audio-icon">🎧</div>
+
+          <div class="audio-title">
+            <div class="audio-name">Hoàng Hậu Mù Mặt</div>
+            <div class="audio-subtitle">Nghe truyện bằng audio</div>
+          </div>
+        </div>
+
+        <div id="storyAudio" aria-hidden="true">
+          <div id="youtubePlayer"></div>
+        </div>
+
+        <div class="audio-progress-wrap">
+
+          <div id="audioTimeBubble" class="audio-time-bubble">
+            00:00
+          </div>
+
+          <input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+
+        </div>
+
+        <div class="audio-time">
+          <span id="currentTime">00:00</span>
+          <span id="duration">00:00</span>
+        </div>
+
+        <div class="audio-main-controls">
+
+          <button id="back10Btn" class="audio-control-btn" type="button">
+            ↶ <span>10s</span>
+          </button>
+
+          <button id="playPauseBtn" class="audio-play" type="button">
+            ▶
+          </button>
+
+          <button id="forward10Btn" class="audio-control-btn" type="button">
+            <span>10s</span> ↷
+          </button>
+
+        </div>
+
+        <div class="audio-speed">
+
+          <span class="speed-title">Tốc độ</span>
+
+          <button class="speed-btn active" data-speed="1" type="button">1x</button>
+
+          <button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+
+          <button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+
+          <button class="speed-btn" data-speed="2" type="button">2x</button>
+
+        </div>
+
+        <div class="audio-marker">
+
+          <div class="marker-info">
+
+            <div class="marker-icon">📍</div>
+
+            <div>
+              <div class="marker-title">Mốc nghe</div>
+
+              <div class="marker-description">
+                Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook
+              </div>
+            </div>
+
+          </div>
+
+          <button id="markerBtn" class="marker-btn" type="button">
+            ▶
+            <span id="markerTime">00:00</span>
+          </button>
+
+        </div>
+
+      </div>
+
+      <div id="facebook-read" class="facebook-read">
+        <a href="#facebook-point" class="fb-btn">
+          👉 Nhấn vào đây để đọc tiếp nếu bạn từ Facebook sang
+        </a>
+      </div>
+
+    Suốt mười năm làm thê tử của Thẩm Thanh, dù hắn có lạnh nhạt, cay nghiệt với ta thế nào, ta vẫn tận tâm tròn bổn phận của một người vợ.
+
+Chỉ bởi, mạng của ta là do hắn cứu.
+
+Năm đó, ta tới nhà bằng hữu dự tiệc, tiểu nhi của nàng tròn một tuổi, họ mời bằng hữu quyến hữu đến chúc mừng.
+
+Không ngờ lại gặp phải hỏa hoạn.
+
+Lửa bùng lên dữ dội, chẳng mấy chốc đã lan khắp cả phủ, nữ quyến bị kẹt trong Tây sảnh.
+
+Điều tồi tệ hơn nữa là xà nhà do lửa thiêu rơi xuống, không may đè trúng chân của ta.
+
+Ta không thể vùng vẫy thoát ra, các phu nhân hoảng loạn bỏ chạy khỏi nơi nguy hiểm, ta nghĩ mình sắp phải bỏ mạng tại đây.
+
+Không ngờ, Thẩm Thanh lao vào, giúp ta nhấc xà nhà lên và cứu ta ra ngoài.
+
+Từ đó, cả đời đều truyền tụng rằng mạng thứ hai của ta là nhờ Thẩm Thanh, hắn đã liều mình cứu ta.
+
+Còn ta, để báo đáp ơn cứu mạng, ta chọn gả cho hắn.
+
+Quả là một câu chuyện cảm động.
+
+Khi đó, ta chỉ nghe rằng một nữ tử tên Chu Doanh đã mất mạng trong trận hỏa hoạn.
+
+Nàng là con của một tiểu thất, vốn không được chú ý, hôm đó những người dự tiệc hầu như chẳng ai nhớ đến nàng.
+
+Chỉ khi phu nhân chủ nhà hốt hoảng kiểm tra người, mới phát hiện ra nàng đã mất mặt, tìm kiếm khắp nơi, cuối cùng phát hiện thi thể trong thư phòng chỉ còn vài khung giá sách bằng đồng do lửa thiêu rụi.
+
+Ngọc bội và trang sức trên thi thể dùng để xác định thân phận của chủ nhân.
+
+Chỉ mãi khi thành thân mới biết chuyện, Thẩm Thanh và Chu Doanh từng có một đoạn tình cảm.
+
+Thẩm Thanh luôn muốn cưới Chu Doanh, nhưng thân phận của Chu Doanh không xứng với Thẩm Thanh, gia đình không đồng ý, hai người đành ước định rằng, sau khi Thẩm Thanh cưới chính thất, sẽ đưa Chu Doanh vào làm quý thiếp.
+
+Cũng coi như trọn tình nghĩa đôi bên.
+
+Nào ngờ, đôi tình nhân vốn dĩ nên kết tóc se duyên lại trở thành âm dương cách biệt.
+
+Sau khi thành thân, mỗi khi nghĩ đến chuyện xưa, Thẩm Thanh đều vô cùng hối hận, u sầu suốt một thời gian dài.
+
+Những trưởng bối trong nhà họ Thẩm vốn trước đây khinh thường thân phận của Chu Doanh, giờ cũng bắt đầu nhớ nhung những điều tốt đẹp về nàng.
+
+Người sống sao có thể so với người đã khuất, huống chi, khi chân của ta bị xà nhà đè trúng, ta đã để lại sẹo.
+
+Nhà họ Thẩm cho rằng với khuyết điểm như ta mà Thẩm Thanh vẫn lấy ta là sự nhân từ lớn nhất, dù sao, mạng của ta vẫn là do Thẩm Thanh cứu.
+
+Điều này ai cũng công nhận, nên dù nhà họ Thẩm có làm khó dễ đến đâu, ta cũng đều nhẫn nhịn, vì ta đến đây để báo ơn, những điều này ta đáng phải chịu.
+
+Sau đó, Thẩm Thanh cho lập bài vị cho Chu Doanh với danh nghĩa bình thê.
+
+Hắn nói rằng hắn sống, sống là sống cho Chu Doanh, bởi mạng của ta là đổi lấy từ mạng của Chu Doanh. Nếu ta sống không tốt, kẻ phụ lòng nhất chính là Chu Doanh.
+
+Điều này ai cũng công nhận, ân cứu mạng của ta chỉ là Thẩm Thanh, còn Chu Doanh, chẳng có bất kỳ quan hệ nào với nàng. Nàng không phải do ta hại chết, cũng không phải vì cứu ta mà chết.
+
+Con đường làm quan của Thẩm Thanh tuy thuận lợi, nhưng hắn luôn không vui, ít nhất là khi ở bên ta, hắn không vui, luôn hoài niệm về Chu Doanh.
+
+Vì thế, hắn chọn thêm mấy phòng thiếp thất có dung mạo và tính cách giống Chu Doanh cho ta.
+
+Ta đối xử rất tốt với những người thiếp thất đó, vì Thẩm Thanh thích họ, nên ta cũng thích họ.
+
+Sau đó, những người thiếp thất đó đều sinh con, ta nhận hết bọn trẻ làm tên mình, đưa lên gia phả, trở thành con đích.
+
+Ngày đó, một người thiếp thất nữa trở dạ, ta cùng Thẩm Thanh vội vã đội mưa đến thăm nàng.
+
+Khi đến đình nghỉ bên hồ trong hậu viện, ta gặp hắn, khi đó trời càng mưa nặng hạt.
+
+Ta trượt chân, trong cơn hoảng loạn vô tình kéo Thẩm Thanh theo, cả hai không đứng vững, cùng lăn xuống sườn dốc, rơi xuống hồ nước.
+
+Khi ta mở mắt tỉnh lại lần nữa, ta trọng sinh trở về mười năm trước, đúng vào thời điểm xảy ra trận hỏa hoạn đó.
+
+Thẩm Thanh lúc đó không màng gì khác, chỉ từ ngoài cửa xông thẳng vào thư phòng.
+
+Ta nhẹ nhàng thở ra, cả người đều cảm thấy nhẹ nhõm.
+
+Ta dồn hết sức đẩy thanh xà nhà ra khỏi người, gắng gượng bò ra ngoài. Đến khi ta cuối cùng bò ra khỏi cửa, ta mới phát hiện, hắn đã kéo Chu Doanh đến nơi an toàn.
+
+Lúc đó, ta mới nhận ra rằng, hóa ra ta không cần Thẩm Thanh cứu, ta cũng có thể sống.
+
+Và Thẩm Thanh cuối cùng cũng có thể bù đắp cho tiếc nuối ở kiếp trước, cứu sống Chu Doanh.
+
+Mối tình đã mất lại càng thêm quý giá, Thẩm Thanh thậm chí đón Chu Doanh về Thẩm phủ để dưỡng thương, và kiên quyết muốn cưới nàng làm vợ.
+
+Mọi người đều bàn tán chuyện Thẩm Thanh và Chu Doanh lén lút qua lại. Có kẻ khen ngợi hai người vượt qua thế tục, tình thâm tựa vàng, cũng có kẻ khinh bỉ họ không biết liêm sỉ, còn có kẻ ghen tỵ với thân phận hèn mọn của Chu Doanh mà vẫn được trưởng tử nhà họ Thẩm yêu thương.
+
+Những chuyện đó, tất cả đều chẳng liên quan gì đến ta.
+
+Ta ôm một bát gà hầm đương quy nóng hổi, thỏa mãn uống vài ngụm.
+
+Sau khi trọng sinh, ta đã ăn hết mười tám con gà, gà kho, gà nướng, gà hầm, gà luộc, ngày nào cũng không rời gà.
+
+Do Thẩm lão gia không thích ăn gà, nên kiếp trước khi gả vào nhà họ Thẩm, mười năm ta không từng được ăn một miếng thịt gà.
+
+Ta vốn nghĩ đời này sẽ không còn dính dáng gì tới nhà họ Thẩm nữa.
+
+Ai ngờ, hôm nay mẫu thân lại hớn hở tới tìm ta.
+
+"An An, con còn nhớ Thẩm công tử, Thẩm Thanh chăng?"
+
+Ta suýt chút nữa đánh rơi chén gà hầm trong tay.
+
+"Không nhớ." Ta bình tĩnh đáp lại.
+
+"Sao con lại quên được chứ? Năm ngoái, tháng Chạp thưởng mai, phu nhân nhà họ Trần còn cố ý dò hỏi, muốn làm mối cho Thẩm công tử với con đó."
+
+Lại còn có chuyện này ư? Ta thực sự cạn lời.
+
+Kinh thành mỗi năm vào mùa đông đều tổ chức mấy buổi thưởng mai, thực chất chỉ là lấy cớ thưởng mai mà tụ tập nam thanh nữ tú đến tuổi kết hôn để cho họ ngắm nghía lẫn nhau.
+
+Ta vốn ít đi, thực sự không rõ tại thưởng mai viên đã xảy ra những chuyện gì.
+
+"Hồi đó ta vốn cũng có ý định với Thẩm công tử, tính chờ qua năm, hai nhà sẽ đổi bát tự, hợp tuổi để kết hôn."
+
+"Ban đầu đã bàn xong xuôi cả rồi, nào ngờ, nhà họ Thẩm không gửi hồi âm nữa."
+
+Trong lòng ta bỗng nổi lên sóng to gió lớn, nghĩa là, cho dù Thẩm Thanh có cứu ta, nhà họ Thẩm vốn dĩ cũng không có ý định đến Lương phủ để cầu hôn sao?
+
+Chỉ là Thẩm Thanh khi đó cứ khăng khăng muốn cưới Chu Doanh, khiến nhà họ Thẩm ngăn cản hắn, trì hoãn việc cầu hôn.
+
+Về sau hai bên mới thỏa thuận, chờ Thẩm Thanh cưới chính thê, sẽ đưa Chu Doanh vào cửa làm thiếp.
+
+Ta đặt bát canh gà xuống: "Có lẽ nhà họ Thẩm cũng cảm thấy ta không xứng với nhà họ Lương chúng ta, nên mới từ bỏ ý định đó."
+
+Nhà họ Thẩm tuy là hào môn thế gia, nhưng đến đời Thẩm phụ đã dần sa sút.
+
+Mà nhà họ Lương chúng ta đang thời hưng thịnh, trong nhà không thiếu các chú bác làm quan trong triều, phụ thân cũng đã thăng chức đến Lại bộ Thị lang.
+
+Mẫu thân tỏ vẻ không vui: "Lương An, con khi nào thì trở nên cay nghiệt, thực dụng như thế? Nhị gia nhà họ Thẩm đã phong làm tướng quân trấn thủ biên cương, lấy thân tuẫn quốc, con bây giờ nói vinh hoa phú quý đều là mạng của người ta đổi lấy, là nhà họ Lương không xứng với nhà họ Thẩm, chứ không phải là nhà họ Thẩm trèo cao nhà họ Lương đâu!"
+
+Mẫu thân nói, viền mắt đã đỏ hoe.
+
+Cớ sao lại kích động đến thế? Ta lập tức câm miệng, không dám nói thêm lời nào.
+
+Mẫu thân bình ổn cảm xúc, tiếp tục nói: "Hôm nay, nhà họ Thẩm đã sai người đến cầu hôn, còn mang cho ta chuẩn bát tự của con, chỉ chờ ngày lành tháng tốt để đem sang hợp với bát tự của công tử nhà họ Thẩm. Nếu không có vấn đề gì, hôn sự này có thể định xuống rồi."
+
+Ta đang uống ngụm canh liền phun hết ra ngoài.
+
+"Nương, chuyện này phụ thân đã biết chưa?" Ta hỏi.
+
+Mẫu thân điềm nhiên đáp: "Ông ấy bận lo chính sự, không hề để tâm đến những chuyện lông gà vỏ tỏi như thế này."
+
+Ta há hốc mồm, hôn nhân đại sự của ta từ lúc nào trở thành chuyện lông gà vỏ tỏi thế nhỉ? Hôn nhân của con cái thế gia xưa nay luôn ảnh hưởng đến đại cục.
+
+"Nương, chuyện này vẫn nên bàn với phụ thân thì hơn. Chưa nói đến chuyện khác, gần đây bên ngoài đồn thổi không ít, rằng công tử nhà họ Thẩm đã có người trong lòng, định chung sống với một cô nương nào đó, nếu thật sự là như vậy, mà người ta còn đến nhà họ Lương chúng ta cầu hôn, thì tính là gì đây?"
+
+Mẫu thân không bận tâm: "Chẳng qua cũng chỉ là những chuyện đồn thổi vô căn cứ, cho dù có thật, nữ tử hèn kém đó cũng không đáng lên mặt bàn, người mà họ định cưới làm chính thê vẫn là con, nên mới đến nhà chúng ta cầu hôn."
+
+Thật muốn tách đầu nương ra xem trong đó chứa gì!
+
+Kiếp trước, Thẩm Thanh đối với ta là ân cứu mạng, phụ thân vốn định dùng chút bạc hoặc nâng đỡ Thẩm Thanh trên quan lộ để tỏ lòng cảm kích.
+
+Cũng chính mẫu thân cực lực chủ trương để ta lấy hắn báo đáp, còn không ngừng thuyết phục ta, rằng Thẩm Thanh phong độ tuấn tú, nhân cách cao thượng, nhà họ Thẩm là một dòng họ thanh liêm, lại có một vị tướng quân vì nước mà hy sinh, gả vào gia đình như thế là phúc đức tu mấy kiếp mới có được.
+
+Khi đó, tuổi ta mới lớn, lòng dạ đơn thuần, lại khó tránh khỏi động lòng.
+
+Về sau gả vào nhà họ Thẩm, ta mới phát hiện Thẩm Thanh không hề là người như vậy, ta cũng từng cầu cứu mẫu tộc, tỏ ý muốn hòa ly.
+
+Không ngờ mẫu thân mắng ta, bảo rằng đã vào nhà họ Thẩm thì sống chết cũng phải ở đó, mạng của ta hiện giờ là do Thẩm Thanh cứu, cả đời này cũng không trả hết ơn.
+
+Khi đó, phụ thân đã lâm bệnh nặng, ta tuyệt vọng và bất lực vô cùng.
+
+Thật đáng tiếc, qua mười năm trui rèn, ta không còn là cô nương chỉ cần mở miệng liền đỏ mặt hổ thẹn nữa.
+
+Ta khẽ cười khúc khích: "Mẫu thân thật biết đùa, Thẩm công tử lúc khi cưới vợ cứ khắp nơi trêu hoa ghẹo nguyệt, khiến lời đồn lan xa, những cô nương đàng hoàng nào ai nguyện ý gả cho hắn, nhà họ Thẩm còn dám đến nhà họ Lương chúng ta cầu hôn ư."
+
+"Chuyện này quả là buồn cười, con sẽ kể với phụ thân và các thúc bá, để họ cũng được một phen thấy vui."
+
+Vừa nói, ta đã đứng dậy đi ra ngoài, bước chân nhanh nhẹn, không để ý đến mẫu thân ở phía sau đang giận đến giậm chân.
+
+Tất nhiên lúc đó phụ thân không ở phủ, ta trốn vào rừng trúc tĩnh tâm suy nghĩ về chuyện này.
+
+Thẩm Thanh là người tái sinh, hắn rõ ràng không yêu ta, tại sao hắn lại không ngăn cản gia đình hắn đến cầu hôn, tại sao không giữ lấy Chu Doanh của hắn để sống cả đời là tình nhân, tại sao lại muốn buông tha cho ta?
+
+Chẳng qua là vì nhà họ Thẩm vẫn coi thường Chu Doanh xuất thân nhỏ bé, muốn cưới một tiểu thư nhà cao cửa rộng làm chính thê.
+
+Chẳng qua là muốn giống như kiếp trước, lợi dụng sự hỗ trợ của phụ thân ta để thăng tiến quan lộ.
+
+Chẳng qua là muốn ta tiếp tục về nhà họ Thẩm làm trâu làm ngựa.
+
+Ta nghiến răng đến nỗi cắn nát cả hàm, chiếc khăn lụa trong tay ta muốn vặn đến chỉ còn mảnh vụn.
+
+Buổi tối, khi phụ thân về phủ, ta liền kể cho ông nghe chuyện nhà họ Thẩm đến cầu hôn.
+
+Ông cũng mắng mẫu thân là việc làm hồ đồ.
+
+"Nhà họ Thẩm tuy danh giá hiển hách, nhưng Thẩm công tử đến nay chưa có chút thành tựu nào, hơn nữa còn có nhiều lời đồn đại xấu xa, thế nào mà thể coi là lương nhân được? An An nói không sai, người ta đến cầu hôn với nhà chúng ta quả thật là một trò cười."
+
+Mẫu thân không chịu: "Công tử nhà họ Thẩm sao không phải là lương nhân chứ, ai mà không từng phong lưu khi còn trẻ, huống hồ nhị thúc của hắn đã hy sinh vì nước ngoài chiến trường, hậu duệ của anh hùng như thế chẳng lẽ chúng ta không nên giúp đỡ hay sao?"
+
+Giúp đỡ thế nào? Dùng hôn sự của ta, dùng cả cuộc đời của ta ư?
+
+Ta và phụ thân nhìn nhau, đều vô cùng cạn lời.
+
+"Nàng nói đúng, nàng nhắc như vậy, chúng ta trong triều có thể chiếu cố thêm cho nhà họ Thẩm, còn chuyện hôn sự của An An, chúng ta sẽ tự mình tính toán lại."
+
+Phụ thân chặn lời của mẫu thân, bà đành thôi không nói nữa.
+
+Không phải vì đời này tái sinh mà một việc không thay đổi, cái chân vốn bị bỏng của ta đã được chữa trị lành lặn như thường, không để lại sẹo nào.
+
+Ta vui mừng bày tỏ lòng cảm tạ với đại phu, cảm ơn ông vì y thuật cao minh.
+
+Đại phu cười một cách kỳ lạ: "Vết thương này vốn không nông, chỉ cần bôi cao trị bỏng đúng cách, chỉ một thời gian dài sẽ lành lặn như thường."
+
+Vậy tại sao đời trước lại để lại một vết sẹo lớn như thế?
+
+Vì vết sẹo đó, Thẩm Thanh không ít lần chê bai ta, thậm chí còn đem chuyện đó so sánh với mẫu thân hắn.
+
+Thẩm phu nhân luôn coi đó là một khuyết điểm lớn, nói ta không thể làm chính thê của gia đình thế gia thật là không may mắn lắm, chẳng xứng với Thẩm Thanh.
+
+Lòng nghi ngờ dâng lên, ta hỏi: "Vậy trong trường hợp nào thì vết thương mới để lại sẹo?"
+
+Đại phu đơn giản nói, lơ đãng bảo: "Chỉ cần nghe theo những phương thuốc dân gian vô căn cứ, dùng tro than hoặc bột gỗ thoa lên vết thương, thì tuyệt đối sẽ để lại sẹo."
+
+Ta như bị sét đánh ngang tai.
+
+Kiếp trước, khi ta bị Thẩm Thanh cứu, mẫu thân đã khuyên ta lấy hắn báo đáp, rồi tìm tro bôi lên vết thương của ta, nói rằng đó là phương thuốc bí truyền trị bỏng.
+
+Sau đó, vết thương đóng vảy để lại sẹo, mẫu thân nói, nếu để lại sẹo thì khó lòng gả vào gia đình quyền quý, Thẩm gia chịu cưới ta, đối với ta mà nói là mối nhân duyên duy nhất rồi.
+
+Ta lấy Thẩm Thanh, ngoài ân cứu mạng của hắn, vết sẹo đó cũng khiến ta tự ti vô cùng, cuối cùng chấp nhận hôn sự đó.
+
+Nay nghĩ lại, mẫu thân xuất thân danh môn, trong phủ còn có phủ y, từ nhỏ tai nghe mắt thấy, làm thể nào bà có thể tin những phương thuốc dân gian đó là đáng tin.
+
+Trừ khi bà đã sớm quyết ý để ta gả vào Thẩm gia, như vậy, cho dù gia thế của ta có cao hơn Thẩm Thanh, nhưng vì khiếm khuyết trên cơ thể, ta cũng không thể hạ mình gả cho ai khác.
+
+Rốt cuộc là vì sao? Vì sao mẫu thân cố chấp muốn ta gả vào Thẩm gia đến thế? Dù cho ta sống không bằng chết trong Thẩm gia, bà cũng không cho ta hòa ly trở về nhà, chỉ buộc ta cam tâm tình nguyện làm dâu nhà họ Thẩm.
+
+Lúc đó, lòng ta đã chết với Thẩm Thanh, cũng không còn cầu cứu nhà mẫu tộc nữa, liền cách một thời gian lại đưa thêm người vào phòng Thẩm Thanh.
+
+Không phải hắn muốn hiền thê lương mẫu sao? Nhiều tiểu thiếp như vậy đủ để Thẩm Thanh vui vẻ rồi chứ? Còn chuyện hắn không tiết chế dục vọng, làm kiệt quệ sức khỏe bản thân, thì chẳng phải là việc mà người vợ già như ta có thể can thiệp được.
+
+Mẫu thân khi biết chuyện, phá lệ chủ động đến tìm ta, nhưng không phải để an ủi, mà là xối xả mắng nhiếc ta.
+
+Bà mắng ta vô dụng, không giữ được lòng Thẩm Thanh, lại còn trách ta nạp thiếp cho Thẩm Thanh, không giữ được tình cảm một đời một kiếp một đôi.
+<div id="facebook-point"></div>
+Cứ như thể ta làm gì đắc tội với bà, khiến bà mắng ta không còn chỗ dung thân.
+
+Ta cảm thấy bà thật khó hiểu, trong lòng âm thầm đảo mắt khinh thường bà.
+
+*****
+
+Mẫu thân thấy ta không đáp lại, lại nói thêm một câu gì đó, dường như rất quan trọng, nhưng tiếc là lúc đó ta đang tính toán xem nên đến kỹ viện tìm ai có gương mặt giống Chu Doanh, tốt nhất là mang bệnh để đưa cho Thẩm Thanh, nên chẳng nhớ nổi bà đã nói gì.
+
+Quá khứ hiện về trong đầu, ta lạnh toát cả người, cái lạnh này không phải vì mười năm địa ngục như trước kia, mà là vì người thân nhất của mình đang toan tính hại mình.
+
+Thanh minh sắp đến, mẫu thân bảo ta cùng bà lên Bắc Sơn dạo xuân, nói rằng ở chân núi có quán trọ, có loại bánh thanh đoàn nổi tiếng gần xa.
+
+Ta vui vẻ đồng ý.
+
+Dọc đường đi, hai mẹ con trò chuyện rôm rả, dường như không từng có mâu thuẫn gì về chuyện Thẩm gia cầu hôn.
+
+Khi xe ngựa đến chân núi, ta đề nghị ghé quán trọ để thưởng thức bánh thanh đoàn, mẫu thân lại giục ta leo núi ngay.
+
+Trong lòng ta càng lạnh, càng khẳng định chuyến đi này có điều khuất tất.
+
+Vì thời tiết ấm áp, người đến Bắc Sơn dạo xuân không ít, dọc đường cũng gặp vài vị phu nhân tiểu thư quen biết rủ đi cùng, đều bị mẫu thân khéo léo từ chối.
+
+Khi đến ngã rẽ, mẫu thân chỉ vào con đường nhỏ vắng vẻ và yên tĩnh, phía đó có rừng đào, hiện giờ hoa đào đang nở, vô cùng đẹp mắt.
+
+Ta hỏi: "Nếu đẹp như vậy, tại sao đường về phía đó lại ít người thế?"
+
+Mẫu thân ấp úng: "Có lẽ nhiều người chưa đến thôi."
+
+Ta không hỏi thêm, chỉ đi theo phía sau mẫu thân, bên cạnh còn có nha hoàn và bà vú, tổng cộng sáu người.
+
+Con đường nhỏ quanh co, lối đi u tịch.
+
+Sắc mặt mẫu thân dần trở nên căng thẳng, còn ta thì vẫn điềm nhiên.
+
+Bỗng nhiên, từ phía bụi cây bên cạnh nhảy ra hai tên đại hán bịt mặt, tay cầm dao sắc, chặn đường chúng ta.
+
+"Không được động đậy, cướp của đây!" Bọn cướp dường như cũng vô cùng căng thẳng, giọng nói lắp bắp.
+
+Ta khẽ nhếch môi, cười lạnh: "Các ngươi cướp tiền, cướp sắc hay là cướp mạng đây?"
+
+Thấy ta không sợ, hai tên cướp càng phần lúng túng, một tên chỉ mũi dao sắc vào ta: "Ngoan ngoãn, không thì lấy mạng ngươi!"
+
+Mẫu thân lập tức ôm chặt lấy ta, liên tục van xin bọn cướp: "Đừng làm hại tính mạng của nhi nữ ta, con bé mới mười sáu tuổi, nếu nó có mệnh hệ gì, ta cũng không sống nổi nữa."
+
+Lời vừa dứt, chợt ta thấy tiếng quát mắng từ bên cạnh: "Lũ cướp to gan, giữa ban ngày ban mặt mà dám cướp đoạt dân nữ."
+
+Một bóng người cầm kiếm từ bên cạnh lao tới.
+
+Ta nhìn kỹ, không phải Thẩm Thanh thì là ai?
+
+Hắn gật đầu với ta một cái: "Các nàng đừng sợ, có ta ở đây."
+
+Nhìn bộ dạng của hắn, ta bỗng cảm thấy buồn nôn, lòng dạ cuộn lên, miệng khô khan ho vài tiếng.
+
+Mẫu thân tưởng ta sợ hãi, liền vỗ nhẹ vào lưng ta an ủi: "Đừng sợ, đừng sợ, là công tử nhà họ Thẩm, hắn đến cứu chúng ta đấy."
+
+Ta gạt tay mẫu thân ra, ngẩng đầu gọi lớn về phía sau: "Còn không mau ra đây, bắt lấy bọn cướp, tiền công gấp đôi, thưởng thêm mỗi người mười lượng bạc."
+
+Lời nói dứt, mười hán tử to lớn từ phía sau hùng hổ đi ra, lao tới áp chế hai tên cướp.
+
+Ta chỉ tay về phía Thẩm Thanh: "Cả hắn nữa! Họ là một bọn đấy."
+
+Thẩm Thanh còn chưa kịp hiểu chuyện gì xảy ra thì đã bị trói gô lại như bánh chưng.
+
+Mẫu thân kinh ngạc đến mức nửa ngày mới thốt lên: "Chuyện này là thế nào? Họ là ai?"
+
+Họ là những phu khuân vác mà ta đã bỏ tiền thuê sẵn từ dưới chân núi, ai nấy đều cao to lực lưỡng.
+
+Ta nói rằng vì đi cùng trưởng bối lên núi dạo xuân, ta sợ trong núi có rắn rết côn trùng, nên mới thuê người theo bảo vệ.
+
+Ta sợ họ làm phiền hứng thú thưởng ngoạn của mẫu thân, nên bảo họ chỉ có thể đi theo từ xa, tuyệt đối không để mẫu thân phát hiện.
+
+Những phu khuân vác này đều là dân làng quanh vùng, nhà cửa con cái của họ cũng ở gần đây, quen mặt rõ ràng, không lo họ trở mặt, hơn nữa giá cả cũng rất phải chăng.
+
+Ta vốn nghĩ chỉ gặp côn trùng hoặc rắn rết, không ngờ lại gặp bọn cướp đường, tự thấy bản thân thật hời.
+
+"Áp giải bọn chúng hết thảy đến quan phủ!" Ta lạnh lùng nói.
+
+Mẫu thân bỗng hoảng hốt: "Không thể đưa đến quan phủ, không thể đưa đến quan phủ! Đưa đến quan phủ sẽ hủy hoại danh tiết của con!"
+
+"Xin mẫu thân yên tâm, ở đây có mười mấy người đều có thể làm chứng rằng lũ cướp này một là chưa động đến con, hai là không làm gì bất chính, sao có thể hủy hoại danh tiết của con chứ?"
+
+Nghe ta nói xong, những phu khuân vác liên tục đồng thanh: "Xin tiểu thư yên tâm, chúng tôi đều sẽ làm chứng."
+
+"Không được, không thể!" Mẫu thân thấy mấy người sắp áp giải đi, liền vội vàng ngăn lại.
+
+"Lên công đường nhất định sẽ ảnh hưởng đến con, không tránh khỏi việc người đời xì xào bàn tán, đến lúc đó sợ rằng cả cha con cũng sẽ bị liên lụy."
+
+Ta giả vờ suy nghĩ: "Nói cũng đúng."
+
+Thật ra ta cũng chẳng định đưa mấy người này lên công đường, nếu tra ra kẻ đứng sau, e rằng nhà họ Lương chúng ta sẽ trở thành đề tài bàn tán trong khắp kinh thành.
+
+"Nhưng cứ thế mà tha cho họ thì chẳng phải quá dễ dàng sao."
+
+Ta nhìn bọn cướp với ánh mắt sắc bén: "Vậy thì đánh chúng một trận thật đau, tốt nhất là đánh gãy tay chân, để cho chúng không thể làm điều ác nữa."
+
+Mẫu thân lúc này mới thở phào nhẹ nhõm, sắc mặt liền chuyển trắng bệch: "Dạy dỗ chút là đủ, đánh gãy tay chân thì thôi, dù gì họ cũng chưa làm gì chúng ta."
+
+Bên cạnh, Thẩm Thanh đang bị trói đang gắng sức giãy giụa: "Lương An, là ta, ta là Thẩm Thanh đây!"
+
+Ta liếc mắt nhìn hắn một cái: "Thẩm Thanh hay Thẩm Lục gì đó ta không quan tâm! Đánh, đánh mạnh cho ta!"
+
+Nắm đấm của đám hán tử như thủy triều ập xuống ba người, tiếng kêu la thảm thiết vang lên khiến ta cảm thấy vô cùng sảng khoái.
+
+Khi trở về phủ, ta thậm chí còn huýt sáo.
+
+Mẫu thân vì quá cảm lạnh, nằm trên giường nhiều ngày liền.
+
+Bà không cho ta chăm bệnh, thậm chí cả việc thỉnh an cũng miễn, nói là để tĩnh dưỡng, thực chất chỉ là không muốn gặp ta.
+
+Như ta càng muốn, liền gửi thiệp mời cho bằng hữu thân thiết là Trương Ỷ.
+
+Nhà nàng vì sự cố cháy nhà trước kia mà tạm thời dọn đến Tây Uyển, mới chuyển về lại vài ngày trước khi nhà đã sửa chữa xong.
+
+Vì nàng đã trở về, ta tất nhiên phải đến thăm hỏi.
+
+Kiếp trước, ta còn chưa có cơ hội gặp lại nàng, không lâu sau khi ta gả vào nhà họ Thẩm không bao lâu, nàng đã theo phụ mẫu đi sứ Tây Vực, cắt đứt hoàn toàn liên lạc với ta.
+
+"An An, thật lòng xin lỗi, ta đã để ngươi gặp hoảng sợ rồi." Trương Ỷ gặp ta, vô cùng áy náy.
+
+Ta lắc đầu, mỉm cười: "Cũng may là không có gì nguy hiểm. Đúng rồi, vụ cháy nhà năm đó ngươi có tìm được nguyên nhân không?"
+
+Trương Ỷ nghiêm túc, hạ giọng nói: "Sau khi cha ta điều tra, quả thật phát hiện ra vài điểm đáng ngờ. Chỉ là vì không ai bị thương vong nên chuyện đó cũng không truy cứu thêm."
+
+Ta lập tức trở nên hứng thú: "Nói cho ta thử xem."
+
+Trương Ỷ kể, lúc khi xảy ra vụ việc, gia đinh khi kiểm tra nguồn gốc ngọn lửa đã phát hiện khá nhiều vụn gỗ ở chân tường phía Tây và xung quanh còn vương vãi tro than.
+
+"Trước khi xảy ra việc, sảnh Tây đã được sơn một lớp sơn mới, thợ sơn nhà khi sơn đã mài dũa các xà nhà và cột trụ, nên có thể đám vụn gỗ đó là do thợ không cẩn thận để sót lại, chứ không hẳn là ai đó cố ý."
+
+"Còn về tro than, khi đó để chúc mừng sinh nhật tròn một tuổi của tiểu đệ, phủ đã chuẩn bị rất nhiều pháo hoa và pháo đốt, có thể là hạ nhân khi lấy pháo đã làm vỡ bao pháo, khiến tro rơi vãi khắp nơi."
+
+"À, lửa vốn không đến nỗi bùng to như vậy, nhưng đúng lúc đó trời lại trở lạnh, lớp sơn trên xà nhà chưa khô hẳn, gặp lửa liền bén ngay."
+
+Nghe xong lời của Trương Ỷ, ta không khỏi cau mày: Sao nhiều trùng hợp đến thế được chứ?
+
+"Vậy còn tiểu thư nhà họ Chu là sao? Sao nàng lại ở trong thư phòng? Ta nhớ nhà họ Chu chẳng qua là gia đình nhỏ bé, chức vị của họ cũng chỉ là quan nhỏ thất phẩm, chẳng có mối liên hệ gì với nhà ngươi, theo lý không thể nào mời họ tham gia tiệc mà?"
+
+"Phu nhân nhà họ Chu cứ theo Tần Nhị phu nhân, ngươi biết đấy, Tần Nhị phu nhân là bạn thích của đại tẩu ta, phu nhân nhà họ Chu cứ lân la kết thân với Tần Nhị phu nhân, đoán chừng là nhờ bà ta xin giúp, muốn mượn cơ hội đó để kết giao mối quan hệ."
+
+"Còn về việc tiểu thư nhà họ Chu vì sao lại ở trong một gian thư phòng, chúng ta cũng không rõ. Vốn dĩ muốn hỏi nàng ta đôi lời, nhưng mãi khi Thẩm công tử cứu nàng ra, nàng đã ở luôn nhà họ Thẩm, ngay cả người nhà họ Chu cũng không thể gặp được."
+
+"Ai da, ngươi xem, nhà họ Thẩm làm việc cũng thật là không biết quy củ, chẳng qua là nhà họ Chu không có danh tiếng, luôn ý muốn kết giao với quyền quý, chứ nếu đổi lại là nhà nào thanh danh cao quý, công tử nhà họ Thẩm làm việc lỗ mãng như vậy, chắc chắn sẽ không yên thân!"
+
+Trong lòng ta lẩm nhẩm: Tần Nhị phu nhân.
+
+Ta nhớ đời trước, khi ta xuất giá, Tần Nhị phu nhân cũng đến để tặng quà cưới. Lúc đó, ta mới biết bà là bằng hữu thân thiết của mẫu thân ta thời còn trẻ.
+
+Do theo chồng nhậm chức nơi xa từ sớm, mãi đến hai năm gần đây bà mới trở về kinh thành và nối lại mối quan hệ với mẫu thân ta.
+
+Giữa kinh thành, việc các phu nhân quyền quý qua lại với nhau không có gì lạ, nhưng việc loanh quanh kết nối mẫu thân ta với Chu Doanh thì thật là kỳ lạ.
+
+Chia tay Trương Ỷ, ta dặn nàng dù đi Tây Vực cũng phải thường xuyên liên lạc với ta.
+
+Trương Ỷ cười: "Cha ta hôm nay mới định xong nhiệm vụ đi, mà ngươi đã biết tin rồi, tai của ngươi quả là nhanh nhạy đấy."
+
+Ta đùa vài câu cho qua chuyện, đang định đi thì Trương Ỷ gọi lại.
+
+"Đúng rồi, Xuyên trù nương mà mẫu thân ngươi giới thiệu thật sự rất giỏi, nhờ đó mà buổi tiệc của nhà ta giữ được ít thể diện, mẫu thân ta vẫn luôn muốn đến tận nơi cảm tạ mẫu thân ngươi."
+
+Trong lòng ta bỗng dâng lên cảm giác bất an, liền hỏi: "Ngươi nói đến Xuyên trù nương, có phải là vị đầu bếp tổ tiên từng làm việc trong Ngự Thiện Phòng đó không?"
+
+Trương Ỷ đáp: "Chính là bà ấy."
+
+Là bà ấy? Xuyên trù nương vốn là đầu bếp trong phủ ngoại tổ ta, lúc khi ngoại tổ ta dọn đến Cựu Đô, bà ta cũng theo mà ở lại đây.
+
+Mọi yến tiệc lớn nhỏ trong nhà ta đều do Xuyên trù nương lo liệu.
+
+Đời trước, khi ta gả vào nhà họ Thẩm, mẫu thân sợ ta không chăm sóc tốt cho Thẩm Thanh, còn đặc biệt nhờ Xuyên trù nương dạy bảo ta một chút.
+
+Mẫu thân dặn dò ta rằng mọi việc đều phải tự tay làm, nấu ăn bằng chính đôi tay mình, như vậy mới được coi là một người vợ đảm đang.
+
+Thế nhưng, suốt đời mẫu thân không từng bước vào bếp, không từng nấu cho cha ta một bát canh.
+
+Ngồi trong xe ngựa, ta nhắm mắt gõ nhẹ lên đùi, trong đầu hiện lên vô số mảnh ghép, nhìn vẻ không liên quan nhưng lại toát lên sự kết nối ở khắp mọi nơi.
+
+Có vẻ như có điều gì đó quan trọng mà ta đã bỏ qua. Ta đang cố gắng nhớ lại thì xe ngựa bỗng dừng lại đột ngột.
+
+"Có chuyện gì thế?" Ta bảo nha hoàn đi xem.
+
+Nha hoàn bước ra ngoài xem xét, quay về nói: "Là công tử nhà họ Thẩm, Thẩm Thanh chặn xe, nói là có điều muốn nói với tiểu thư."
+
+Sắc mặt ta lập tức lạnh xuống, chẳng lẽ hắn vẫn chưa bị đánh đủ?
+
+Hôm đó, những phu khuân vác cuối cùng vẫn nương tay, không đánh gãy tay chân bọn họ.
+
+Ta vốn không muốn gặp Thẩm Thanh, nhưng nghĩ đến việc hắn chặn xe giữa đường thế này sẽ gây ra lời ra tiếng vào, nên đành nén sự chán ghét mà bước xuống xe.
+
+Trên mặt Thẩm Thanh vẫn còn vết bầm, thấy ta xuống xe, hắn tỏ vẻ kiêu ngạo nói với ta: "Lương An, rốt cuộc ngươi còn muốn loạn đến bao giờ? Nếu ngươi còn tiếp tục gây sự, ta sẽ không cưới ngươi nữa!"
+
+Ta nhíu mày, hắn thật là da mặt quá dày!
+
+"Thẩm công tử, ngươi trúng phải loại gió độc gì mà lại năng hồ đồ như vậy? Ngươi cưới ta? Ngươi cũng xứng sao? Nhà ngươi có cân nhắc không? Không biết bản thân nặng bao nhiêu sao?"
+
+Thẩm Thanh sững sờ, không thể tin nổi mà nhìn ta, ngay sau đó sắc mặt hắn trở nên u ám: "Ngươi đang giận dỗi ta vì ta đã đưa Doanh Doanh về nhà họ Thẩm, đúng không? Ngươi yên tâm, vị trí chính thê vẫn là của ngươi, thể diện đáng có nhà họ Thẩm sẽ không thiếu cho ngươi."
+
+Ta lắc đầu, hắn đúng là hết thuốc chữa.
+
+"Thẩm Thanh, hôm nay ngươi vô cớ chặn xe ta giữa đường, còn buông lời bẩn thỉu, sỉ nhục danh tiết của ta. Ta sẽ về bảo cha ta, các thúc bá, gia trưởng cùng gia tộc họ Lương liên thủ tố cáo nhà họ Thẩm các ngươi. Ngươi cứ đợi đó mà xem!"
+
+Nói xong, ta quay đầu bước lên xe ngựa, bỏ mặc Thẩm Thanh đứng đó ngơ ngác: "Ngươi tại sao lại như thế..."
+
+Ta của trước kia đây sao?
+
+Những năm đầu mới gả vào nhà họ Thẩm, ta luôn giữ lễ nghĩa, hiếu thuận với phụ mẫu của chồng. Dù Thẩm Thanh đối với ta lạnh lùng như sắt đá, ta vẫn một lòng tận tâm, tự tay làm hết mọi việc.
+
+Vì ân cứu mạng, cha ta cũng nâng đỡ Thẩm Thanh, giúp hắn thuận lợi trên quan trường.
+
+Sau đó, khi cha ta bệnh tật và từ quan, ta không còn thể giúp đỡ hắn trên con đường sự nghiệp, nhà họ Thẩm liền bắt đầu hành hạ ta tàn nhẫn hơn.
+
+Những việc như quỳ hằng giờ giữa trời tuyết để thỉnh an cha mẹ chồng là chuyện thường ngày.
+
+Muội muội Thẩm Thanh thích ăn cá tươi, giữa mùa đông rét mướt bắt ta xuống sông phá băng bắt cá cũng chẳng có gì hiếm.
+
+Mẹ chồng sợ lạnh, lại cho rằng lò sưởi nóng quá khó chịu, bèn bắt ta dùng tay trần đặt lên lò sưởi cho nóng, rồi lấy đôi tay đó sưởi chân cho bà.
+
+Đôi tay đầy vết thương do nứt nẻ vì giá rét, đặt lên lò sưởi nóng bỏng, vừa đau rát vừa ngứa ngáy, nhưng ta vẫn nhẫn nhịn năm này qua năm khác.
+
+Cha chồng thích ăn bánh gạo nếp do chính tay ta chiên, mỗi lần chiên phải làm cho vỏ ngoài nứt ra, và mỗi lần chiên cũng đến mười mấy cái. Dầu nóng bắn tung tóe khắp mặt và tay ta.
+
+Thực ra, cha chồng cũng chẳng thực sự thích ăn, ông chỉ cắn một miếng, phần còn lại đem cho chó ăn.
+
+Mỗi bữa ăn, ta đứng bên cạnh phục vụ cho cả nhà ăn xong, sau đó mới được ăn phần còn sót lại.
+
+Nhìn ta ăn thức ăn thừa, cha chồng lại nói: "Vẫn là tốt cho ngươi, năm đó nếu không phải Thẩm Thanh cứu mạng, ngươi làm gì còn cái phúc được ăn cơm thừa canh cặn thế này."
+
+Lời nói đó như nghẹn lại trong cổ họng ta.
+
+Năm thứ năm khi thành hôn, cha ta qua đời, ta về nhà để tang.
+
+Ta khóc, khóc không ngừng.
+
+Thế nhưng mẫu thân ta vẫn khuyên nhủ: "Con hãy mau chóng trở về nhà họ Thẩm đi, Thẩm Thanh còn đang đợi ở nhà. Con nhất định phải đối xử tốt với Thẩm Thanh và gia đình hắn, để báo đáp ân cứu mạng."
+
+Ta nghẹn ngào hỏi: "Ân cứu mạng, chỉ là ân cứu mạng. Nếu con không báo đáp thì sẽ thế nào?"
+
+Mẫu thân nghiến răng nói: "Nếu con không báo đáp, thì khi chết sẽ xuống địa ngục!"
+
+Thì ta chỉ là xuống địa ngục thôi! Ta bỗng ngừng khóc, lau khô nước mắt.
+
+Từ đó, ta bắt đầu không ngừng nạp thiếp cho Thẩm Thanh, mỗi khi hắn bất lực, ta còn tìm mua ít phương thuốc bí truyền cho hắn, là mua từ người Hồ.
+
+Mẹ chồng sợ lạnh, sợ rét, ta tự bỏ tiền mua cua tươi từ thương nhân, lấy phần tim cua băm nhuyễn, trộn vào yến sào mà bà dùng mỗi ngày, chăm sóc bà thật chu đáo.
+
+Cha chồng thích ăn bánh gạo chiên, ta thay đổi công thức, thêm mỡ lợn, đường trắng và vừng, khiến bánh trở nên thơm ngon vô cùng. Mỗi ngày, cha chồng ăn hết mấy cái.
+
+Ta còn học từ Xuyên trù nương cách làm các món nổi danh như thịt chân giò trong suốt, thịt Đông Pha, thịt kho dưa cải, mỗi ngày ta đổi món ăn khác nhau, dâng lên mâm cơm.
+
+Đến tận khi ta tái sinh, Thẩm Thanh đã là kẻ bề ngoài mạnh mẽ nhưng bên trong yếu ớt. Mẹ chồng ta, bệnh tim ngày càng nặng, lại mắc chứng hen suyễn nghiêm trọng, chỉ đi vài bước đã thở dốc, đến cả chuyện đi lại cũng khó khăn.
+
+Còn cha chồng, sớm đã có dấu hiệu của đột quỵ, nói năng lắp bắp, mặt mày đờ đẫn.
+
+Dù ta đã lén uống canh tránh thai nên không có con, nhưng trên danh nghĩa của ta vẫn thiếu con cái dòng chính.
+
+Nếu cha mẹ chồng và Thẩm Thanh đều không còn, ta sẽ có thể đường đường chính chính làm chủ nhà.
+
+Tiếc rằng tính toán không bằng trời tính, cuối cùng ta cũng đợi được ngày ấy thì ta tái sinh.
+
+Vậy thì, đời này khác đời trước chỗ nào? Ta vốn không phải là kẻ thiện lương gì, ta chính là kẻ đáng xuống địa ngục!
+
+Khi về đến nhà, ta lập tức thực hiện lời hứa, tìm đến cha, các thúc bá và gia trưởng, kể hết mọi việc Thẩm Thanh đã làm hôm nay, cầu xin họ đòi lại công bằng.
+
+Mọi người đều hết sức phẫn nộ.
+
+"Thẩm Thanh xuất thân danh môn mà lại thiếu giáo dưỡng như vậy, nhà họ Thẩm sa sút cũng không phải không có lý do."
+
+"Thật là vô lý, Thẩm Thanh hành động như thế chẳng những xúc phạm đến tiểu thư, mà còn muốn hủy hoại danh tiếng của nàng. Cực kỳ đáng hận."
+
+"Ngày mai lên triều, ta nhất định sẽ dâng sớ buộc tội nhà họ Thẩm."
+
+Không ai trách mắng ta, ngược lại ai cũng đều vì ta mà đòi lại công bằng. Có gia đình bảo vệ thật là cảm giác quá bao.
+
+Kiếp trước, ta cũng từng tìm đến gia đình nhờ giúp đỡ, nhưng mẫu thân nhiều lần cản lại, bảo rằng ta mất mặt, vì những chuyện vụn vặt mà phá hỏng mối quan hệ giữa hai nhà, khiến gia đình không yên ổn.
+
+Không có sự chống lưng từ nhà mẹ đẻ, nhà họ Thẩm càng khinh rẻ và bạc đãi ta.
+
+Lúc đó, ta cứ ngỡ là nhà mình không quan tâm đến ta nữa, họ ngầm đồng ý rằng ta gả vào nhà họ Thẩm là để báo đáp ân cứu mạng, mọi oan ức đều là điều ta đáng phải chịu.
+
+Giờ đây nghĩ lại, có lẽ chỉ một mình mẫu thân nghĩ như vậy thôi.
+
+Tối hôm đó, mẫu thân tức giận xông đến trách tội, chưa đợi ta nói lời nào, bà liền tát mạnh vào mặt ta.
+
+"Lương An, con thật là độc ác, dám xúi giục gia đình lên triều dâng sớ buộc tội nhà họ Thẩm. Sao con dám làm vậy? Lòng dạ con rốt cuộc chứa chấp thứ gì? Sao ta lại sinh ra một đứa nhi nữ như con chứ?"
+
+"Mẫu thân nói cho con nghe, nếu con còn chút lương tâm, thì hãy lập tức tới cùng mẫu thân, giải thích rõ với cha con rằng, là vì con si tình với Thẩm công tử, nhưng Thẩm công tử không có tình ý với con nên con mới hổ thẹn giận dữ mà vu oan cho người ta!"
+
+Ta cúi đầu, xoa xoa gương mặt đang sưng đau, trong lòng như có thứ gì đó "phựt" một tiếng, đứt lìa. Ta nghĩ, có lẽ đó là sợi dây liên kết huyết thống giữa ta và mẫu thân.
+
+Ngẩng đầu nhìn thẳng vào đôi mắt giận dữ của mẫu thân, ta bình thản nói: "Vâng thưa mẫu thân, con sẽ giải thích rõ với cha."
+
+Nghe ta nói vậy, ngọn lửa trong mắt mẫu thân mới dần lắng xuống, nhìn khuôn mặt sưng đỏ của ta, vẻ mặt bà trở nên bớt chút không tự nhiên: "An An, mẫu thân không nên đánh con, chỉ là con thực sự làm quá. Con hãy nhớ, mẫu thân luôn vì nghĩ cho con. Nếu con cứ gây xích mích với công tử nhà họ Thẩm, thậm chí đắc tội với họ, sau này gả vào đó, con làm sao có được ngày tháng yên ổn?"
+
+Ta không muốn tranh cãi, lạnh lùng đáp: "Con hiểu rồi."
+
+Đợi đến khi mẫu thân thỏa mãn rời đi, ta liền đến thư phòng của cha, trò chuyện với ông thật lâu.
+
+Ngày hôm sau, mọi việc yên ắng. Ngày thứ ba, cũng không có chuyện gì xảy ra.
+
+Mấy ngày trôi qua, thấy mọi thứ vẫn bình thường, mẫu thân mới yên lòng.
+
+Qua thêm vài ngày nữa, người báo tin cho ta rằng mẫu thân đã đến Quế Tinh Lâu.
+
+Ta lập tức theo sau.
+
+Quế Tinh Lâu là sản nghiệp dưới danh nghĩa của mẫu thân, nó ở vị trí khá hẻo lánh. Tầng một là đại sảnh, tầng hai là các phòng trang nhã, tầng ba dùng để tiếp khách bên ngoài, chỉ để đón tiếp đối tác đến ăn.
+
+Khi đến gần cửa, ta đưa cho tiểu nhị canh giữ bên ngoài một thỏi bạc: "Bà ấy đã ở trong bao lâu rồi?"
+
+Tiểu nhị lén lút dẫn ta qua cửa hông: "Mới vào thôi ạ. Khi nhận được tin dọn dẹp tầng ba, tiểu nhân đã lập tức báo cho tiểu thư."
+
+Ta gật đầu: "Đừng để chưởng quầy biết đến."
+
+Lên đến tầng ba, nhìn xuống thì ta thấy từ phòng bên cạnh vang lên tiếng cãi cọ.
+
+"Ý ngươi là sao? Ngươi bảo ta tạo tình huống anh hùng cứu mỹ nhân, để con bé ở đó chờ, thế mà ngươi để nó bị đánh đến mặt mũi bầm dập."
+
+Mắt ta nheo lại, giọng nói the thé đó, dù có hóa thành tro ta cũng nhận ra, đó là mẫu thân của Thẩm Thanh.
+
+"Vài ngày trước, nhi nữ ngươi còn dám sỉ nhục con trai ta giữa đường. Nó là cái thá gì chứ? Chung Dung, nếu ngươi không muốn gả nhi nữ ngươi vào nhà ta, thì đừng đem nhà họ Thẩm ra làm trò đùa. Những nữ tử muốn gả vào nhà họ Thẩm chúng ta nhiều không đếm xuể."
+
+Đối mặt với sự phẫn nộ của Thẩm phu nhân, giọng điệu của mẫu thân có chút nịnh nọt.
+
+"Chuyện ở Bắc Sơn hôm đó chỉ là ngoài ý muốn, ta cũng không ngờ An An lại sắp xếp người theo phía sau. Còn việc An An vô lễ với công tử nhà ngươi, ta sẽ dạy dỗ nó sau. Ngươi yên tâm, nhi nữ nhà ta chắc chắn sẽ gả vào nhà họ Thẩm."
+
+Thẩm phu nhân tỏ vẻ khó chịu: "Ngươi bày vẽ lắm chuyện để làm gì? Hết hỏa hoạn rồi lại đến cướp bóc, nếu ngươi thật sự muốn gả nhi nữ ngươi vào đây, chẳng phải chỉ cần một tờ hôn thư là xong rồi sao."
+
+Mẫu thân lại thở dài: "Ngươi không hiểu đâu, nhi nữ ta, bên ngoài thì dịu dàng, nhưng trong xương tủy lại cao ngạo cứng đầu, giống hệt cha nó."
+
+"Nếu nhà ngươi trực tiếp đến cầu hôn, một là không chắc thành công, hai là dù có gả vào, cũng khó nắm giữ. Ngươi thử nghĩ mà xem, nếu nhà họ Thẩm mang ân tình với nó, thì sự việc sẽ khác."
+
+"Không chỉ nó sẽ một lòng một dạ với nhà ngươi, mà ngay cả cha nó cũng sẽ dốc toàn lực hỗ trợ hiền tế. Chẳng lẽ ngươi không muốn Thẩm Thanh có con đường quan lộ hanh thông, thăng tiến vùn vụt sao?"
+
+Thẩm phu nhân rõ ràng đã được thuyết phục: "Ngươi nói cũng có lý, nhưng chuyện trước đó đã hỏng bét cả rồi, còn có thể làm gì nữa?"
+
+Mẫu thân lại tỏ ra tự tin: "Ta vẫn còn một cách. Tháng sau là lễ Đoan Ngọ, Thái hậu sẽ ban cho bá quan tắm thuốc, đến lúc đó..."
+
+Ta không biểu lộ chút cảm xúc nào, lặng lẽ nghe hai người bọn họ bàn tính kế hoạch trong phòng, đợi đến khi họ rời đi, ta cũng rời đi.
+
+Về đến phủ, ta bình tĩnh cởi y phục, tháo xuống trang sức trên đầu, rồi nhận chén trà từ tay nha hoàn, uống vài ngụm. Khi nha hoàn rời đi, trong phòng chỉ còn lại ta.
+
+Ta ngồi thẳng trên ghế, ngón tay bắt đầu run lên từng đợt.
+
+Sau đó là cánh tay, vai, cuối cùng không thể ngừng run rẩy, trong lòng ngập tràn nỗi sợ hãi và phẫn uất.
+
+Làm sao có thể thoát khỏi đây khi chỉ mới mười sáu tuổi?
+
+Nếu ta vẫn là ta của mười năm trước, một nữ tử không hiểu sự đời, làm sao có thể thoát khỏi những âm mưu, tính toán chồng chất này?
+
+Ta cứ nghĩ đi nghĩ lại bao nhiêu lần, rằng nếu lúc đó không dự yến tiệc, nếu không có trận hỏa hoạn kia, ta đã không bước chân vào cái hố lửa mang tên Thẩm gia.
+
+Ta tự trách mình, trách bản thân chạy không đủ nhanh, trách không đủ khôn ngoan, trách không thể kịp thời thoát khỏi sảnh Tây.
+
+Ta đã trải qua vô số giấc mơ, trong đám cháy đó, ta chạy, cứ chạy mãi, nếu chạy thoát được thì tốt. Nếu không thoát được, ta gào khóc trong đau đớn.
+
+Hóa ra dù ta có chạy đi đâu cũng chẳng khác gì, vì ta luôn bị giam cầm trong chiếc lồng đó, chẳng bao giờ thoát khỏi nó.
+
+Sáng hôm sau, cha ta xin nghỉ phép ở nhà.
+
+Ta tìm đến ông, nói rằng dạo này gặp nhiều chuyện quá, muốn đến nhà ngoại tổ phụ để thư giãn, nhân tiện thăm hỏi cả gia đình bên ngoại.
+
+Ngoại tổ của ta đã chuyển cả gia đình đến Cựu Đô từ khi ta mới ba tuổi, mẫu thân không từng thăm, cũng rất ít khi liên lạc với bên ngoại. May mắn thay, cha ta thường xuyên thư từ qua lại, giữ gìn mối quan hệ này.
+
+Mẫu thân lập tức phản đối: "Đường xá xa xôi, con là nhi nữ, làm sao có thể đi được?"
+
+Ta liền nắm lấy tay mẫu thân: "Vậy mẫu thân hãy đi cùng con. Bao nhiêu năm nay mẫu thân không gặp ngoại tổ phụ, ngoại tổ mẫu và các cữu cữu. Mẫu thân không nhớ họ sao?"
+
+Sắc mặt của mẫu thân lập tức trở nên khó coi: "Đây cũng chẳng phải là dịp lễ tết gì, tự dưng đến thăm chẳng phải sẽ làm phiền nhà ngoại của con sao?"
+
+"Không phải lễ tết gì ư, tháng sau là lễ Đoan Ngọ rồi mà. Chúng ta đi để tạo bất ngờ cho ngoại tổ phụ, ngoại tổ mẫu, không được sao mẫu thân?"
+
+Mặt mẫu thân càng khó coi hơn: "Con đừng bướng bỉnh như thế, cứ thích làm gì thì làm."
+
+Cha ta nói: "Ta thấy đề nghị của An An rất tốt. Nhạc phụ nhạc mẫu nhiều lần nhắc đến An An trong thư, nếu con rảnh thì cứ đi thôi."
+
+"Không được! Lễ Đoan Ngọ, Thái hậu sẽ ban thuốc tắm cho các quan viên, nhà chúng ta mà vắng mặt thì không hay chút nào." Mẫu thân vẫn kiên quyết phản đối.
+
+Ta đáp: "Mẫu thân cũng đúng. Vậy chúng ta về trước lễ Đoan Ngọ là được mà."
+
+"Chỉ mất hai ngày đường thủy từ kinh thành đến Cựu Đô, chúng ta có thể ở vài ngày, rồi trở về kịp trước lễ Đoan Ngọ."
+
+Ta cùng cha ra sức thuyết phục mẫu thân, cuối cùng bà cũng nhượng bộ: "Được thôi, nhưng vì con vừa nhiễm phong hàn, cơ thể vẫn chưa hồi phục hẳn, ta sẽ không đi cùng con. Con hãy thay ta gửi lời hỏi thăm ngoại tổ phụ, ngoại tổ mẫu."
+
+Mẫu thân còn căn dặn: "Nhất định phải nhớ trở về trước lễ Đoan Ngọ đó!"
+
+Đi hai ngày đường thủy, cuối cùng ta cũng đến nhà ngoại.
+
+Ngoại tổ mẫu ôm lấy ta, không ngừng gọi: "Bảo bối của bà!"
+
+"Khi rời kinh thành, con vẫn còn là một đứa bé mũm mĩm, thế mà chớp mắt đã trở thành một cô nương lớn thế này rồi." Thấm thoắt đã mười ba năm, dù không cách quá xa lắm, nhưng chúng ta không từng gặp nhau.
+
+"Nhìn con thật xinh đẹp, giống hệt mẫu thân con hồi trẻ. Lần đầu thấy con, ta cứ ngỡ là Dung nhi trở về."
+
+Biết tin mẫu thân bị ốm không thể đến thăm, trong mắt ngoại tổ mẫu lộ rõ vẻ thất vọng.
+
+Không muốn bà tuổi già còn buồn phiền, ta liền bày trò đùa để chuyển đề tài, giúp bà vui lên.
+
+Khi nói đến chuyện hôn nhân của ta, ta kể chuyện nhà họ Thẩm cầu hôn như một trò đùa. Ai ngờ ngoại tổ mẫu bỗng thay đổi sắc mặt.
+
+"Nhà họ Thẩm? Không ngờ bao nhiêu năm trôi qua, mẫu thân con vẫn cố chấp như vậy..." Có lẽ vì không tiện nói xấu mẫu thân trước mặt ta, dù ta gặng hỏi, ngoại tổ mẫu cũng không chịu tiết lộ thêm gì nữa.
+
+Ngoại tổ mẫu thì không, nhưng có một người chắc chắn sẽ biết, đó chính là đại cữu mẫu.
+
+Mỗi khi ngoại tổ mẫu nhắc đến mẫu thân, trên mặt đại cữu mẫu đều lộ rõ vẻ khinh bỉ, thậm chí chán ghét.
+
+Sau vài ngày sống chung, tình cảm giữa ta và đại cữu mẫu càng thân thiết hơn nhiều.
+
+Hôm nay, ta tìm đại cữu mẫu, nói thẳng vào vấn đề, cầu xin bà cứu giúp ta.
+
+Ta kể chuyện mẫu thân nhiều lần bày mưu tính kế, ép ta gả vào nhà họ Thẩm, nghe xong đại cữu mẫu vô cùng phẫn nộ.
+
+"Thật là mất hết nhân tính, đến mức hại cả nhi nữ mình! Việc đó đúng là chuyện mà Chung Dung không thể làm được."
+
+Đại cữu mẫu cười lạnh, rồi kể cho ta nghe chuyện năm xưa.
+
+Khi đó, gia đình ngoại ta vẫn còn sống ở kinh thành.
+
+Nhà họ Thẩm khi đó có một thiếu niên tướng quân, oai dũng hiên ngang, khiến không ít thiếu nữ trong kinh thành thầm thương trộm nhớ, trong đó có cả mẫu thân ta.
+
+"Lúc đó, mẫu thân con tìm đủ mọi cách để tiếp cận Thẩm Nhị Lang, nhưng Thẩm Nhị Lang chỉ chú tâm vào việc lập công nơi sa trường, không màng đến chuyện tình cảm, nên đã từ chối mẫu thân con."
+
+"Sau đó, Thẩm Nhị Lang xuất chinh biên ải, tử trận nơi sa trường, không bao giờ trở về nữa. Mẫu thân con đau lòng đến mức tự nhận mình là quả phụ của Thẩm Nhị Lang, định gả vào nhà họ Thẩm để thủ tiết."
+
+Nói đến đây, trong mắt đại cữu mẫu không giấu nổi vẻ khinh thường và căm ghét.
+
+"Bà ấy không hề để tâm đến danh dự của nhà họ Chung, cũng không nghĩ đến tương lai của các cháu nhà họ Chung. Khoác lên mình áo cưới màu đỏ, bưng bài vị của Thẩm Nhị Lang, định gả vào nhà họ Thẩm."
+
+"May mắn thay, ngoại tổ phụ và các cữu của con kịp thời phát hiện, ngăn cản bà ấy và nhốt bà ấy trong hậu viện. Mãi đến khi bà ấy tròn mười tám tuổi, ngoại tổ phụ con mới sắp xếp một mối hôn sự tốt nhất, chính là cha con, rồi mới gả bà ấy ra ngoài, cả nhà mới thở phào nhẹ nhõm."
+
+Ta ngỡ ngàng: "Lúc khi xuất chinh, Thẩm Nhị thúc rõ ràng từ chối mẫu thân con, tại sao bà ấy vẫn tự nhận là quả phụ, thậm chí còn định vào nhà họ Thẩm thủ tiết? Lẽ nào nhà họ Thẩm không phản đối?"
+
+Đại cữu mẫu càng khinh bỉ: "Con nghĩ nhà họ Thẩm là hạng người gì? Sau khi Thẩm Nhị Lang tử trận, nhà họ Thẩm bắt đầu rêu rao rằng Thẩm Nhị Lang vốn đã thầm thương trộm nhớ các tiểu thư mà hắn từng từ chối, chỉ vì chiến trường khốc liệt, sợ liên lụy người khác nên mới nhẫn tâm chối từ tình cảm."
+
+Thật quá đê tiện, người chết rồi mà họ còn muốn lợi dụng danh tiếng của Thẩm Nhị thúc để kết giao với những gia đình quyền quý, củng cố địa vị của họ.
+
+"Lời đó chẳng ai tin nổi, phải không?" Vừa thốt ra câu này, ta liền hối hận.
+
+Quả nhiên, đại cữu mẫu cười khẩy: "Phải, sao có ai ngu ngốc tin lời đó chứ? Thế mà mẫu thân con lại tin, cho rằng Thẩm Nhị Lang có tình cảm với bà ấy, nên không muốn phụ bạc tấm chân tình đó, một lòng một dạ muốn vào nhà họ Thẩm để thủ tiết."
+
+"Có lẽ trong lòng bà ấy vẫn oán hận vì chúng ta ngăn cản việc bà ấy gả vào nhà họ Thẩm. Bấy lâu nay, bà ấy không bao giờ gửi một bức thư nào, chứ đừng nói đến chuyện gặp mặt. Trái lại, cha con là người chân lòng, thường xuyên đến thăm, chăm sóc cả những người trong nhà khi ông đi thi ở kinh thành."
+
+Lúc đó, ta thật sự không biết nói gì.
+
+Đại cữu mẫu nhìn ta đầy cảm thông, vỗ vỗ tay ta nói: "Con yên tâm, cứ ở lại đây, chuyện hôn sự của con sẽ do ngoại tổ mẫu con quyết định, ta muốn xem Chung Dung có thể làm gì được!"
+
+Ta chỉ biết khổ sở, vì không thể ở lại, còn nhiều việc quan trọng hơn chờ ta trở về.
+
+Đại cữu mẫu dẫn ta đến một viện nhỏ.
+
+"Đây là viện mà ngoại tổ mẫu con luôn giữ lại cho mẫu thân con, bài trí bên trong giống hệt như phòng của mẫu thân con lúc khi xuất giá ở kinh thành. Ngoại tổ mẫu con không nỡ vứt bỏ đồ đạc của mẫu thân con, nên đã đem tất cả theo về đây."
+
+"Chỉ tiếc là đã phí hoài tấm lòng của ngoại tổ mẫu con." Đại cữu mẫu thở dài.
+
+Ta bước vào trong phòng, nơi đây sáng sủa sạch sẽ, chắc hẳn bà đã thường xuyên quét dọn.
+
+Bố trí trong phòng rất tinh tế và trang nhã, nhiều vật dụng mang đậm dấu ấn của một thiếu nữ.
+
+Ta nhìn quanh phòng, phát hiện không ít vật dụng bài trí giống hệt phòng ta.
+
+Chiếc bình hoa ngọc thạch tuyết rơi thời, mà mẫu thân bắt ta đặt trên bàn trang điểm.
+
+Cả chiếc bàn trang điểm, ta thích loại làm bằng gỗ tử đàn, nhưng mẫu thân cứ khăng khăng bắt ta dùng gỗ hoàng hoa lê.
+
+Ngay cả họa tiết trên rèm giường cũng giống hệt.
+
+Ta bước đến, sờ vào đầu giường, khẽ kéo một cái, quả nhiên có một ngăn bí mật.
+
+Trong ngăn đó là một hộp đồ trang sức và tranh thư pháp. Ta mở cuộn tranh được bọc bằng dải lụa đỏ.
+
+Trong tranh, một thiếu niên khí phách anh dũng, khoác áo giáp bạc, tay cầm trường thương, cưỡi trên lưng ngựa oai phong, tràn đầy vẻ hào hùng.
+
+Chỉ là, dung mạo của thiếu niên đó đến tám phần giống với Thẩm Thanh.
+
+Thì ra là vậy. Thì ra là thế.
+
+Không lạ gì khi ta và Thẩm Thanh thành thân, ánh mắt của mẫu thân luôn đẫm lệ, như thể qua chúng ta bà đang nhìn một ai khác.
+
+Không lạ gì khi ta nạp thiếp cho Thẩm Thanh, bà lại phẫn nộ đến thế, khăng khăng bắt ta và Thẩm Thanh phải "một đời một kiếp, một đôi".
+
+Cuối cùng, ta cũng nhớ ra câu nói của bà khi đó.
+
+Bà nói: "Uổng công ta vì con mà trừ khử mọi chướng ngại!"
+
+Trước lễ Đoan Ngọ, ta trở về kinh thành.
+
+Mẫu thân thấy ta trở về liền thở phào nhẹ nhõm, cùng cha bàn bạc chuyện đi tắm thuốc ở đâu.
+
+"Hay chúng ta đến suối ở Thập Lâm Pha. Nơi đó nằm giữa lưng chừng núi, phong cảnh rất đẹp." Cha ta đề nghị.
+
+Mẫu thân lắc đầu: "Nơi đó xa quá, vốn chỉ là hình thức, chọn chỗ gần hơn cho tiện. Ta thấy suối ở nhà họ Đổng gần đây, đến đó tiện hơn."
+
+Cha ta vẻ không hài lòng: "Suối nhà họ Đổng sao sánh được với suối ở Thập Lâm Pha? Nơi đó nhiều quan chức ghé thăm, nhân viên hỗn tạp, ta sợ con gái nàng sẽ chịu ấm ức."
+
+Nhưng mẫu thân vẫn kiên quyết: "Ta nghĩ nơi đó được, dù gì cũng chỉ là đến qua lấy lệ, chứ ai thực sự muốn tắm thuốc đâu."
+
+Cha ta bực dọc: "Ta thật sự muốn tắm mà! Suối nước nóng hoàng gia, mỗi năm chỉ mở một lần, con gái nàng thật không biết tận hưởng gì cả!"
+
+Đến ngày lễ, ta cùng mẫu thân theo cha đến suối. Mẫu thân đề nghị cha đi tắm thuốc, còn bà sẽ dẫn ta dạo quanh.
+
+Dù suối nhà họ Đổng đơn sơ, nhưng nó chiếm diện tích rộng lớn, có hơn bốn mươi hồ nước nóng lớn nhỏ.
+
+Nhiều quan viên và phu nhân chỉ đến lấy lệ, rồi dạo quanh, rửa tay rửa mặt bằng nước suối thảo dược xem như đã hoàn thành nghi thức tắm thuốc, trừ bỏ uế khí.
+
+"An An, phía bên kia hình như vắng người, chúng ta qua đó lấy khăn thấm nước rửa mặt nhé." Mẫu thân dẫn ta đi sâu vào khu tắm, chỉ về phía hồ nước bị cây cối che khuất.
+
+"Nơi đó quả thật yên tĩnh."
+
+Ta gật đầu, định bước tới thì mẫu thân bỗng kêu lên: "Ôi, túi thơm của ta mất đâu rồi, có lẽ rơi trên đường. An An, con cứ đi trước, ta sẽ tìm rồi đến ngay."
+
+Suối có lính canh gác, dân thường không thể vào, hơn nữa ta có nha hoàn và bà vú đi cùng, sẽ không có chuyện gì xảy ra.
+
+Ta bình thản đáp: "Vâng, con đợi mẫu thân."
+
+Khi đến gần hồ, một nha hoàn nói: "Tiểu thư, ở bàn phía bên kia đã bày sẵn trà và bánh ngọt, chúng tôi sẽ đi lấy một ít cho tiểu thư nhé."
+
+Ta gật đầu: "Được, các ngươi phải nhanh chóng trở về nhé."
+
+Đợi khi mẫu thân rời đi, ta liền ra hiệu cho một bà vú đi cùng. Bà dùng một đòn mạnh đánh ngất nha hoàn của ta, rồi kéo nàng giấu phía sau gốc cây, ta cũng ẩn mình theo.
+
+Bà vú nhanh chóng lấy từ trong tay áo một bọc nhỏ, nhặt một tảng đá to dưới đất, buộc tảng đá và bọc vải với nhau rồi ném xuống hồ.
+
+Nước trong hồ bốc hơi, chỉ nghe thấy một tiếng "bõm", không thể phân biệt được thứ gì đã rơi xuống.
+
+Sau đó, thêm một tiếng "bõm" nữa vang lên, khóe miệng ta nhếch lên nở nụ cười.
+
+Không lâu sau, mẫu thân chầm chậm bước đến, thấy ta vẫn bình an đứng bên hồ, bà tỏ vẻ chút ngạc nhiên, nhìn quanh không thấy nha hoàn vừa bị đánh ngất.
+
+"Tiểu Hồng đâu?" Mẫu thân hỏi.
+
+"Nóng quá, nàng ấy bị ngất do nước, con đã sai người đưa nàng ấy nghỉ ngơi rồi."
+
+Sắc mặt mẫu thân thoáng vẻ giận dữ, nhìn về phía hồ nước.
+
+Một cơn gió nhẹ thổi qua, làm tan lớp hơi nước trên mặt hồ.
+
+"Hình như có người trong hồ." Mẫu thân nhìn kỹ, sắc mặt bắt đầu hoảng hốt.
+
+"Bớ người ta! Mau cứu người!" Bà vú kêu lên hoảng loạn.
+
+Ta khoanh tay đứng bên, mỉm cười nhìn mẫu thân kêu cứu.
+
+Người được cứu lên không ai khác chính là Thẩm Thanh, hắn ta vì sơ ý mà ngất xỉu trong hồ. Cùng được vớt lên còn có vài chiếc khăn tắm và áo choàng dùng để tắm thuốc.
+
+Do ngâm quá lâu trong nước và hít phải nhiều thảo dược trong nước suối, Thẩm Thanh đã tổn thương phổi và tim, trở thành một kẻ tàn phế.
+
+Mẫu thân chịu cú sốc không hề nhỏ, đổ bệnh thật sự.
+
+Ta đến thăm, bà nắm chặt tay ta, nói: "An An, Thẩm Thanh thành ra như vậy, con e là khó có thể cưới vợ, thật quá đáng thương. Con từ nhỏ đã có lòng nhân từ, hay là con cưới hắn nhé?"
+
+Ta rút tay khỏi tay mẫu thân, lạnh nhạt đáp: "Hắn thành ra như vậy đều là tự chuốc lấy, nếu hắn không mưu đồ bất chính, lén lút ở cạnh hồ tắm, thì làm gì đến nỗi này."
+
+Mắt mẫu thân trợn trừng: "Con... con làm chuyện gì?"
+
+Bọn họ đã sớm bỏ vào hồ tắm một lượng lớn bột xương bồ, hòa với lưu huỳnh trong nước suối nóng. Người nào hít phải trong một thời gian ngắn sẽ dần lịm đi.
+
+Nếu lúc đó ta "vô tình" rơi xuống hồ, Thẩm Thanh sẽ xuất hiện để cứu ta. Sau khi được chẩn đoán, các đại phu sẽ kết luận rằng ta ngất do tắm thuốc quá lâu, nếu hắn không kịp thời cứu, tính mạng sẽ nguy kịch.
+
+Cứu mạng kèm theo đó là sự tiếp xúc cơ thể khi rơi xuống nước, ta sẽ khó lòng từ chối gả cho Thẩm Thanh.
+
+Đó là kế hoạch mà mẫu thân đã cùng Thẩm phu nhân sắp đặt.
+
+Còn điều bất ngờ nhất, chính là "gậy ông đập lưng ông".
+
+Trong bọc vải mà ta ném xuống nước không chỉ chứa quá nhiều bột xương bồ, mà còn có một lượng lớn bột lưu huỳnh. Khi bọc vải rơi xuống nước, Thẩm Thanh tưởng rằng ta ngã xuống, liền nhảy xuống cứu.
+
+Chỉ vài hơi thở, hắn đã bất tỉnh. Nước trong hồ là nước nóng lưu thông liên tục, khi được cứu lên, bột thảo dược trong nước đã bị dòng nước cuốn đi. Mọi người sẽ chỉ nghĩ rằng hắn ngất xỉu do ngâm nước thuốc quá lâu.
+
+Ta chỉ đơn giản dùng chính kế hoạch của bọn họ mà thôi.
+
+"Con... con thật là nhẫn tâm!" Mẫu thân nghiến răng nghiến lợi, chỉ tay vào ta.
+
+"Con nhẫn tâm sao bằng mẫu thân?" Ta bình tĩnh đáp: "Vụ cháy ở nhà Trương Ỷ, bọn cướp ở Bắc Sơn, chẳng phải đều là mẫu thân gây ra sao? Mẫu thân để Tần Nhị phu nhân dẫn phu nhân nhà họ Chu đến yến tiệc, rồi hối lộ Xuyên trù nương bỏ bột than gây cháy, nhằm dụ Chu Doanh đến thư phòng."
+
+"Tiểu Hồng là người của mẫu thân, đúng không? Khi xảy ra hỏa hoạn, nàng ấy cố ý dẫn con đến góc khuất, làm con mất chậm thời gian thoát thân. May mà mạng con lớn, dù bị xà ngang đè trúng vẫn có thể thoát chết."
+
+Mẫu thân lắc đầu: "Ta không ngờ xà ngang sẽ rơi xuống. An An, ta không muốn hại con, ta chỉ muốn con thuận lợi gả vào nhà họ Thẩm."
+
+"Muốn gả vào nhà họ Thẩm là mẫu thân chứ không phải con, đúng không?" Ta lạnh lùng vạch trần bà: "Là mẫu thân luôn mong mỏi ta gả cho Thẩm Nhị thúc, chứ không phải con! Con chỉ mong nhà họ Thẩm chết hết sạch thôi."
+
+"Con... con điên hết rồi..."
+
+Một thoáng, mẫu thân tỏ vẻ suy sụp, nhưng ngay sau đó đôi mắt lại sáng lên.
+
+"An An, con là đứa nhi nữ ngoan của mẫu thân, mẫu thân cầu xin con gả cho Thẩm Thanh, coi như là giúp ta thành tâm nguyện của mẫu thân, trọn vẹn nỗi tiếc nuối năm xưa, có được không?"
+
+Mẫu thân khẩn thiết cầu xin.
+
+Ta lắc đầu: "Thẩm Thanh giờ đã không còn gì nữa. Để báo đáp công dưỡng dục của mẫu thân cùng những chuyện mà mẫu thân đã làm cho ta, con sẽ nói với phụ thân rằng, mẫu thân vì sự cố cháy lần trước mà tổn thương tinh thần, cần phải lên trang viện để tĩnh dưỡng."
+
+Lần trước nói với phụ thân, mẫu thân đã có chút không bình thường, thần trí hoảng hốt, việc làm thì đảo lộn, ta bảo ông để ý nhiều hơn.
+
+"Nói với phụ thân về con ư?" Mẫu thân mắt lạnh lùng: "Ta khuyên con đừng có kinh động ông ấy, nếu không thể ông ấy cũng không còn như xưa nữa."
+
+"Người có nhắc đến quyển thực đơn mà Xuyên trù nương đưa cho người, những món ăn kỵ nhau đó không?" Nhắc đến đây, trong lòng ta trào lên cơn hận sâu sắc.
+
+Trong cả câu chuyện này, ta vô tội nhất chính là phụ thân, sai lầm duy nhất của ông là đã cưới phải một kẻ điên như mẫu thân, khiến ông ở kiếp trước yểu mệnh mà chết sớm.
+
+Mẫu thân nổi giận, tiến tới muốn đánh ta: "Lương An, con là nhi nữ của ta, con lại hùa theo bọn họ. Chính bọn họ mới khiến ta không thể gả vào Thẩm gia!"
+
+Ta vội lùi lại, gọi hạ nhân: "Mau gọi người, mời đại phu đến, mẫu thân dường như lại phát bệnh."
+
+Thuốc của Y Hồ quả thực lợi hại, mấy thang thuốc bỏ vào canh của mẫu thân mỗi ngày khiến bà luôn thần trí mơ hồ, đến cả đại phu cũng không thể chẩn đoán được nguyên nhân.
+
+Ta khuyên phụ thân, kinh thành đông đúc nhiều chuyện, không thích hợp cho việc dưỡng bệnh, chi bằng đưa mẫu thân lên trang viện để tĩnh dưỡng, đợi bệnh tình thuyên giảm ta sẽ đón về.
+
+Phụ thân dù đau lòng nhưng cuối cùng cũng chấp nhận đề nghị của ta, đưa mẫu thân đến một trang viện gần chùa nhất.
+
+Một năm sau, mẫu thân phát bệnh, vô ý làm đổ đèn cầy tự thiêu chết trong phòng.
+
+Ta và phụ thân vô cùng đau buồn.
+
+Mọi ngày tháng vẫn cứ trôi qua, phụ thân nhờ nhà ngoại ở Cựu Đô giúp ta xem mối, nơi đó vốn là các thế gia lâu đời, có nhiều tài tử trẻ tuổi.
+
+Lại thêm một thời gian, Thẩm gia truyền đến tin dữ, một nàng dâu thất lạc họ Chu vì không chịu nổi sự hành hạ của cha mẹ chồng, đã hạ độc vào bữa cơm của cả nhà, khiến nhiều người tử vong, Thẩm Thanh nhờ ăn uống khác với họ nên thoát nạn.
+
+Nhìn cảnh cả gia đình bị đầu độc chết thảm khốc, Thẩm Thanh phun ra mấy ngụm máu, miệng lẩm bẩm: "Không thể như thế, không thể như thế, gia đình ta hòa thuận, thê thiếp đầy nhà, con cháu đông đủ, không thể như thế được. Chu Oánh, đồ đàn bà độc ác! Đều tại ngươi, đáng lẽ người phải chết là ngươi, không phải là ngươi!"
+
+Ta đã không còn quan tâm nữa.
+
+Ngoại tổ mẫu và đại bá mẫu lại gửi đến mấy quyển danh sách kén rể, bảo ta tự lựa chọn phu quân, làm ta thấy phiền lòng.
+
+Trương Ỷ gửi thư kể về phong cảnh và tập tục Tây Vực, còn mời ta đến làm khách.
+
+Ta vô cùng động tâm, liền hồi thư hỏi, Tây Vực có gà để ăn không?
+
+Thân thể của phụ thân cũng không còn gì đáng ngại, hơn nữa gần đây Lại Bộ Thượng Thư đã cáo lão hồi hương, phụ thân là người có khả năng kế nhiệm cao nhất.
+
+Ngày tháng quả thực ngày càng có hy vọng hơn!
+
+Chung Dung phiên ngoại:
+
+Giây trước ta còn đang bị ngọn lửa thiêu đốt, giây tiếp theo đã trùng sinh trở về năm mười tám tuổi.
+
+Phụ thân và mọi người muốn gả ta cho đích tử nhà họ Lương.
+
+Con trai đích tôn nhà họ Lương sao xứng với ta?
+
+Trên đời này, ngoài Nhị Lang ra, không ai có tư cách cưới ta!
+
+Kiếp trước, ta bị kéo lên kiệu hoa gả cho Lương Hiên, nhưng ta căn bản không yêu hắn.
+
+Sau khi sinh nhi nữ, ta chẳng còn muốn gần gũi với hắn nữa.
+
+May mắn thay, nhi nữ ngoan ngoãn, càng lớn càng giống ta, nhìn nó tựa như ta lúc còn trẻ.
+
+Hội thưởng mai lần ấy, ta nhìn thấy cháu trai của Nhị Lang là Thẩm Thanh, cậu ta thật giống Nhị Lang, khi ấy ta đã quyết định, gả nhi nữ cho cậu ta.
+
+Giống như ta đã gả cho Nhị Lang vậy.
+
+Nhưng đứa nhi nữ kia thật đáng ghét, nó giống cha nó, dù ta đã bày bao nhiêu kế sách, nó vẫn không chịu ngoan ngoãn nghe lời, gả cho Thẩm Thanh.
+
+Cuối cùng, nó còn liên kết với phụ thân nó để đưa ta đến trang viện.
+
+Ông trời có mắt, cho ta trùng sinh trở lại.
+
+Ta tuyệt đối sẽ không gả cho Lương Hiên nữa, cũng tuyệt đối không sinh ra đứa con bất hiếu kia.
+
+Lương An, không phải ngươi đắc ý sao?
+
+Kiếp này, ta sẽ không để ngươi đến được cõi đời này.
+
+Dưới bóng đêm, ta khoác lên mình bộ giá y đỏ, vượt tường bỏ trốn.
+
+Lần này, ta nhất định phải gả vào Thẩm gia để thủ tiết cho Nhị Lang.
+
+Dựa vào ký ức kiếp trước, ta tránh được tất cả những tuyến đường bị chặn, cuối cùng đến được Thẩm phủ.
+
+Tuy nhà họ Thẩm rất kinh ngạc, nhưng không nói gì thêm, chẳng mấy chốc đã tiếp nhận ta.
+
+Từ đó, ta trở thành nữ nhân nhà họ Thẩm, ta vui mừng khôn xiết.
+
+Ta nhất định thay Nhị Lang hiếu kính phụ mẫu, chăm sóc gia đình của chàng.
+
+Thẩm gia quy củ rất lớn, mỗi ngày giờ Mão đã phải thức dậy, hầu hạ mẹ chồng mặc quần áo, rửa mặt, buổi tối giờ Hợi mới có thể bận rộn xong mà trở về viện của mình.
+
+Đại tẩu vì bận chăm sóc con nhỏ, việc hầu hạ cha mẹ chồng đều rơi vào tay ta, điều này ta có thể hiểu, huống hồ đứa bé kia lớn lên giống Nhị Lang như đúc.
+
+Mọi người đều khen ta đại nghĩa, Thẩm gia cũng nói sẽ dâng biểu lên triều đình xin phong cho ta tấm bia trinh tiết.
+
+Phụ mẫu ta đối với việc làm của ta cũng không thể nói gì hơn, để cho ta được sống yên ổn ở Thẩm gia, họ đã giúp đỡ không ít con cháu nhà họ Thẩm.
+
+Thế này không phải rất tốt sao, hai nhà hòa thuận, ta cũng xem như đã trọn đạo với Nhị Lang.
+
+Năm thứ tư gả vào Thẩm gia, phụ mẫu dời nhà đến Cựu Đô, trước lúc ly biệt mẫu thân lo lắng cho ta, muốn ta cùng họ đến Cựu Đô.
+
+Đùa cái gì chứ? Ta sinh là người Thẩm gia, chết là quỷ Thẩm gia.
+
+Sau khi người nhà dọn đi, cha mẹ chồng càng khắt khe với ta hơn.
+
+Giữa mùa hè oi bức, mẹ chồng bảo trong phòng có muỗi, bà không chịu nổi mùi hương của nhang muỗi, lại bảo buông màn thì ngột ngạt, nên sai ta đứng cạnh giường suốt đêm để đuổi muỗi cho bà.
+
+Cha chồng buổi trưa ăn cơm xong phải dùng một bát canh đậu xanh ướp lạnh để giải nhiệt, nhưng tuổi già không thể ăn quá lạnh, cần để trên mặt canh có một lớp băng mỏng rồi từ trong hầm băng lấy ra, trên đường lớp băng mỏng vừa tan ra, nhiệt độ sẽ vừa đủ.
+
+Vì vậy, mỗi khi đến bữa, ta phải bưng bát canh đậu xanh đứng trong hầm băng, run rẩy đợi nó vừa đóng lớp băng mỏng, rồi lại mang ra, dưới cái nắng gay gắt mà đem cho cha chồng.
+
+Một hai lần thì được, nhưng ngày nào cũng như vậy, ta có chút không chịu nổi, bèn cầu xin mẹ chồng, mẹ chồng lại mắng ta bất hiếu, nói ta không xứng là dâu nhà họ Thẩm, muốn đuổi ta.
+
+Ta sợ hãi vô cùng, vội vàng xin lỗi, nhưng trong lòng dần dần nảy sinh hối hận.
+
+Những năm gả cho Lương Hiên, ta dưỡng thân nhàn nhã, chưa từng vào bếp, cũng chưa bao giờ cầm đến kim chỉ.
+
+Về sau, cha mẹ chồng càng lúc càng quá đáng, luôn có thể nghĩ ra đủ cách hành hạ ta, đến cả hạ nhân cũng xem thường ta.
+
+Cháu trai mà ta yêu quý nhất là Thẩm Thanh còn đánh đập ta.
+
+Tại sao lại như vậy? Thẩm gia là nhà trung liệt, ta hiểu gia phong nghiêm ngặt của họ, nhưng không hiểu vì sao họ đối xử với ta như thế, chẳng lẽ ta đã làm sai điều gì?
+
+Cùng với sự gia tăng của những hành vi hành hạ từ Thẩm gia, ta bắt đầu hối hận.
+
+Ta lén quay về Lương phủ thăm, nhìn thấy Lương Hiên đã lấy vợ, người vợ ấy đoan trang hiền thục, còn có một cô nhi nữ, tuy ngoại hình không giống, nhưng lời nói và cử chỉ thì giống Lương An như đúc.
+
+Vì tự ý chạy ra khỏi phủ, trở về Thẩm gia, ta bị đánh một trận thừa sống thiếu chết, cuối cùng ta nổi giận, chất vấn họ, ta cũng xuất thân danh môn thế gia, cớ gì lại bị hành hạ như vậy.
+
+Đại tẩu đứng một bên cười khinh bỉ: "Chẳng phải ngươi tự đâm đầu vào sao? Ai ép ngươi chứ?"
+
+Sợ ta cầu cứu người thân ở Cựu Đô, Thẩm gia thậm chí nhốt ta trong phòng củi, mỗi ngày cho ăn cơm thừa canh cặn.
+
+Ngoài đời ai cũng cho rằng ta vì giữ tiết hạnh cho Nhị Lang mà sống ẩn dật, nhờ danh tiếng trinh tiết của ta, Thẩm gia còn nhận được nhiều lời khen ngợi.
+
+Hôm ấy, ta, với bộ dạng rối bù, nhân lúc hạ nhân quên khóa cửa đã lén trốn ra ngoài, ta tháo chiếc vòng tay duy nhất mà mình có đem đi cầm lấy tiền, rồi lại đến hiệu thuốc mua một gói thuốc chuột.
+
+Nhân lúc Thẩm gia chưa phát hiện, ta lẻn vào nhà bếp, bỏ thuốc chuột vào nồi cháo.
+
+Đáng hận là nồi cháo đó không giết được Thẩm gia, ngược lại bị họ phát hiện, đánh ta đến sống dở chết dở.
+
+Giây phút hấp hối, ta dường như lại thấy ngọn lửa.
+
+Nếu có thể, ta không muốn quay lại nữa.
+
+Cứ để ta chết trong đám cháy ấy đi!
+</div>
+
+
+</div>
+
+<!-- POPUP -->
+  <div id="unlock-box">
+
+    <!-- BƯỚC 1 - SHOPEE -->
+    <div class="unlock-step" id="step1Box">
+
+      <div class="step-label">
+        BƯỚC 1 / 2
+      </div>
+
+      <h3>
+        🛍️ Mời Quý độc giả
+      </h3>
+
+      <p class="invite-text">
+        <b>CLICK vào LIÊN KẾT HOẶC ẢNH bên dưới</b>
+      </p>
+
+      <p class="open-app">
+        MỞ ỨNG DỤNG
+        <strong>SHOPEE</strong>
+      </p>
+
+      <a
+        id="step1Url"
+        class="visible-url"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      ></a>
+
+      <a
+        id="step1Link"
+        class="product-card"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div class="product-image-wrap">
+          <img
+            id="step1Image"
+            class="product-image"
+            alt=""
+          >
+        </div>
+
+        <div class="product-info">
+
+          <div
+            id="step1Name"
+            class="product-name"
+          ></div>
+
+          <div
+            id="step1Desc"
+            class="product-desc"
+          ></div>
+
+          <div class="product-link">
+            👉 XEM SẢN PHẨM
+          </div>
+
+        </div>
+
+      </a>
+
+      <div class="return-note">
+        ↩️ Sau khi mở Shopee,
+        hãy quay trở lại trang này.
+      </div>
+
+    </div>
+
+
+    <!-- BƯỚC 2 - SHOPEEFOOD -->
+    <div
+      class="unlock-step"
+      id="step2Box"
+      style="display:none;"
+    >
+
+      <div class="step-label">
+        BƯỚC 2 / 2
+      </div>
+
+      <h3>
+        🍜 Mời Quý độc giả
+      </h3>
+
+      <p class="invite-text">
+        <b>CLICK vào LIÊN KẾT HOẶC ẢNH bên dưới</b>
+      </p>
+
+      <p class="open-app">
+        MỞ ỨNG DỤNG
+        <strong>SHOPEEFOOD</strong>
+      </p>
+
+      <a
+        id="step2Url"
+        class="visible-url"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      ></a>
+
+      <a
+        id="step2Link"
+        class="product-card"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div class="product-image-wrap">
+          <img
+            id="step2Image"
+            class="product-image"
+            alt=""
+          >
+        </div>
+
+        <div class="product-info">
+
+          <div
+            id="step2Name"
+            class="product-name"
+          ></div>
+
+          <div
+            id="step2Desc"
+            class="product-desc"
+          ></div>
+
+          <div class="product-link food-link">
+            👉 XEM MÓN NGON
+          </div>
+
+        </div>
+
+      </a>
+
+      <div class="return-note">
+        ↩️ Sau đó quay trở lại trang truyện.
+      </div>
+
+    </div>
+
+
+    <div class="thanks">
+      Tiệm Nhà Miu Miu xin chân thành cảm ơn! 💗
+    </div>
+
+  </div>
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="../codetruyen/qcshopee.js"></script>
+  <script src="../codetruyen/qcspf.js"></script>
+  <script src="../codetruyen/script.js"></script>
+  <script src="../codetruyen/audio.js"></script>
+
+</body>
+</html>

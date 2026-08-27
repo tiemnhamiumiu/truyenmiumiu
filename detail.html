@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tiệm Nhà Miu Miu</title>
+
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <a href="index.html">Trang chủ</a>
+  <a href="ngontinh.html">Ngôn tình</a>
+  <a href="dammy.html">Đam mỹ</a>
+  <a href="cotrang.html">Cổ trang</a>
+</div>
+
+<!-- DETAIL -->
+<div class="detail-page" id="detail"></div>
+
+<!-- DATA -->
+<script src="data.js?v=2"></script>
+
+<script>
+
+const params = new URLSearchParams(location.search);
+
+const id = params.get("id");
+
+const story = stories.find(item => item.id == id);
+
+const detail = document.getElementById("detail");
+
+/* nếu không có truyện */
+if(!story){
+
+  detail.innerHTML = `
+    <div style="
+      text-align:center;
+      padding:100px 20px;
+      color:white;
+    ">
+      <h1>❌ Không tìm thấy truyện</h1>
+    </div>
+  `;
+
+}
+
+/* nếu có truyện */
+else{
+
+  /* tên thể loại */
+  let typeName = "Ngôn tình";
+
+  if(story.type === "dammy"){
+    typeName = "Đam mỹ";
+  }
+
+  if(story.type === "cotrang"){
+    typeName = "Cổ trang";
+  }
+
+  /* link thể loại */
+  let typeLink = "ngontinh.html";
+
+  if(story.type === "dammy"){
+    typeLink = "dammy.html";
+  }
+
+  if(story.type === "cotrang"){
+    typeLink = "cotrang.html";
+  }
+
+  detail.innerHTML = `
+
+    <div class="detail-card">
+
+      <!-- ẢNH -->
+      <img src="${story.image}" class="detail-img">
+
+      <!-- INFO -->
+      <div class="detail-info">
+
+        <h1>${story.title}</h1>
+
+        <!-- TAG -->
+        <a class="tag" href="${typeLink}">
+          ${typeName}
+        </a>
+
+        <!-- DESC -->
+        <div class="desc">
+${story.desc || "Chưa có văn án"}
+        </div>
+
+        <!-- BUTTON -->
+        <a href="${story.link}" class="read-btn">
+          Đọc ngay
+        </a>
+
+      </div>
+
+    </div>
+
+  `;
+}
+
+</script>
+
+</body>
+</html>

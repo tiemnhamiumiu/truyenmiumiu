@@ -1,0 +1,1038 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+}
+
+
+/* =========================
+   TOPBAR
+========================= */
+
+.topbar {
+  background: #1b1b1b;
+  padding: 15px;
+  text-align: center;
+  color: #ff7043;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid #292929;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+  background: #1b1b1b;
+  padding: 15px;
+
+  position: sticky;
+  top: 0;
+  z-index: 30;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+
+  padding: 8px 12px;
+
+  border-radius: 8px;
+
+  background: #2a2a2a;
+
+  font-size: 14px;
+
+  transition: 0.2s;
+}
+
+.menu a:hover {
+  background: #ff5722;
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+  width: 100%;
+  max-width: 800px;
+
+  margin: auto;
+  padding: 20px;
+}
+
+
+/* =========================
+   STORY
+   TRUYỆN KHÔNG BỊ ẨN
+========================= */
+
+#story {
+  white-space: pre-line;
+
+  background: #151515;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  font-size: 17px;
+
+  line-height: 1.9;
+
+  color: #eaeaea;
+
+  text-align: justify;
+
+  word-break: break-word;
+
+  /* KHÔNG display:none */
+  display: block;
+}
+
+#story h2 {
+  margin-top: 0;
+
+  text-align: center;
+
+  color: #ff7043;
+}
+
+#story p {
+  margin: 0 0 18px;
+}
+
+
+/* =========================
+   UNLOCK BOX
+========================= */
+
+#unlock-box {
+  width: 100%;
+
+  max-width: 600px;
+
+  margin: 30px auto;
+
+  text-align: center;
+}
+
+
+/* =========================
+   FACEBOOK
+========================= */
+
+#facebook-read {
+  margin: 20px 0;
+
+  text-align: center;
+}
+
+.fb-btn {
+  display: inline-block;
+
+  background: #1877f2;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+
+/* =========================
+   MODAL
+========================= */
+
+.modal {
+  display: none;
+
+  position: fixed;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.82);
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 9999;
+
+  padding: 15px;
+
+  overflow-y: auto;
+}
+
+
+/* =========================
+   BOX
+========================= */
+
+.box {
+  width: 100%;
+
+  max-width: 470px;
+
+  background: #1e1e1e;
+
+  padding: 24px 18px 18px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow:
+    0 15px 45px rgba(0, 0, 0, 0.5);
+
+  animation: popup 0.25s ease;
+}
+
+
+@keyframes popup {
+
+  from {
+    opacity: 0;
+
+    transform:
+      scale(0.95)
+      translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      scale(1)
+      translateY(0);
+  }
+
+}
+
+
+/* =========================
+   STEP
+========================= */
+
+.unlock-step {
+  width: 100%;
+}
+
+.step-label {
+  display: inline-block;
+
+  padding: 5px 12px;
+
+  margin-bottom: 8px;
+
+  border-radius: 20px;
+
+  background: #33231e;
+
+  color: #ff7043;
+
+  font-size: 11px;
+
+  font-weight: bold;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.box h3 {
+  margin: 3px 0 7px;
+
+  color: #ff7043;
+
+  font-size: 21px;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+.invite-text {
+  margin: 0;
+
+  color: white;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+.invite-text b {
+  color: #ffd180;
+}
+
+
+.open-app {
+  margin: 10px 0 4px;
+
+  font-size: 15px;
+
+  line-height: 1.4;
+}
+
+.open-app strong {
+  font-size: 20px;
+
+  margin-top: 2px;
+
+  color: #ee4d2d;
+}
+
+
+/* =========================
+   VISIBLE URL
+========================= */
+
+.visible-url {
+  display: block;
+
+  margin: 0 0 15px;
+
+  padding: 0;
+
+  color: #0066cc;
+
+  font-size: 13px;
+
+  line-height: 1.4;
+
+  word-break: break-all;
+
+  overflow-wrap: anywhere;
+
+  text-decoration: underline;
+}
+
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.product-card {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  width: 100%;
+
+  max-width: 500px;
+
+  margin: 0 auto;
+
+  padding: 11px;
+
+  background: #292929;
+
+  border: 1px solid #3a3a3a;
+
+  border-radius: 15px;
+
+  text-decoration: none;
+
+  text-align: left;
+
+  transition: 0.2s;
+}
+
+
+.product-card:hover {
+  transform: translateY(-2px);
+
+  border-color: #ff7043;
+
+  background: #303030;
+}
+
+
+.product-card:active {
+  transform: scale(0.99);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+
+.product-image-wrap {
+  width: 95px;
+
+  height: 95px;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  border-radius: 13px;
+
+  background: #444;
+}
+
+
+.product-image {
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/* =========================
+   PRODUCT INFO
+========================= */
+
+.product-name {
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  margin-bottom: 5px;
+}
+
+
+.product-desc {
+  color: #aaa;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  margin-bottom: 10px;
+}
+
+
+/* =========================
+   PRODUCT BUTTON
+========================= */
+
+.product-link {
+  display: inline-block;
+
+  padding: 7px 12px;
+
+  border-radius: 8px;
+
+  background: #ee4d2d;
+
+  color: white;
+
+  font-size: 11px;
+
+  font-weight: bold;
+}
+
+
+.food-link {
+  background: #ff7043;
+}
+
+
+/* =========================
+   RETURN NOTE
+========================= */
+
+.return-note {
+  margin-top: 13px;
+
+  padding: 9px;
+
+  border-radius: 9px;
+
+  background: #292929;
+
+  color: #aaa;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================
+   THANKS
+========================= */
+
+.thanks {
+  margin-top: 14px;
+
+  color: #888;
+
+  font-size: 11px;
+}
+
+
+/* ==================================================
+   AUDIO CARD
+================================================== */
+
+.audio-card {
+  width: 100%;
+
+  max-width: 680px;
+
+  margin: 25px auto;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1px solid #eeeeee;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   AUDIO HEADER
+========================= */
+
+.audio-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  margin-bottom: 18px;
+}
+
+
+.audio-icon {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #fff0f5;
+
+  border-radius: 14px;
+
+  font-size: 23px;
+}
+
+
+.audio-name {
+  font-size: 17px;
+
+  font-weight: 700;
+
+  color: #333;
+}
+
+
+.audio-subtitle {
+  margin-top: 3px;
+
+  color: #999;
+
+  font-size: 12px;
+}
+
+
+/* ==================================================
+   ẨN VIDEO YOUTUBE
+================================================== */
+
+/*
+   YouTube vẫn tồn tại để phát audio,
+   nhưng iframe không xuất hiện trên giao diện.
+*/
+
+#storyAudio {
+  position: fixed;
+
+  width: 1px;
+  height: 1px;
+
+  left: -10000px;
+  top: 0;
+
+  overflow: hidden;
+
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+
+#youtubePlayer {
+  width: 1px;
+  height: 1px;
+}
+
+
+/* Nếu YouTube tự tạo iframe */
+
+#youtubePlayer iframe {
+  width: 1px !important;
+  height: 1px !important;
+
+  border: 0;
+
+  opacity: 0;
+}
+
+
+/* ==================================================
+   PROGRESS
+================================================== */
+
+.audio-progress-wrap {
+  position: relative;
+
+  width: 100%;
+
+  padding-top: 10px;
+}
+
+
+.audio-progress {
+  width: 100%;
+
+  height: 6px;
+
+  margin: 0;
+
+  cursor: pointer;
+
+  accent-color: #ff6b9a;
+}
+
+
+/* ==================================================
+   TIME BUBBLE
+================================================== */
+
+.audio-time-bubble {
+  position: absolute;
+
+  top: -22px;
+
+  left: 0%;
+
+  transform: translateX(-50%);
+
+  display: none;
+
+  padding: 4px 8px;
+
+  background: #333;
+
+  color: #fff;
+
+  border-radius: 6px;
+
+  font-size: 11px;
+
+  white-space: nowrap;
+
+  pointer-events: none;
+}
+
+
+.audio-time-bubble::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+
+  bottom: -4px;
+
+  transform: translateX(-50%);
+
+  border-left: 4px solid transparent;
+
+  border-right: 4px solid transparent;
+
+  border-top: 4px solid #333;
+}
+
+
+/* ==================================================
+   TIME
+================================================== */
+
+.audio-time {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 7px;
+
+  font-size: 12px;
+
+  color: #888;
+}
+
+
+/* ==================================================
+   MAIN CONTROLS
+================================================== */
+
+.audio-main-controls {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 18px;
+
+  margin-top: 15px;
+}
+
+
+.audio-play {
+  width: 52px;
+  height: 52px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: #ff6b9a;
+
+  color: #fff;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 12px rgba(255, 107, 154, 0.3);
+}
+
+
+.audio-control-btn {
+  min-width: 55px;
+
+  height: 38px;
+
+  border: 1px solid #eeeeee;
+
+  background: #fafafa;
+
+  border-radius: 12px;
+
+  color: #555;
+
+  font-size: 12px;
+
+  cursor: pointer;
+}
+
+
+.audio-control-btn:hover {
+  background: #fff0f5;
+
+  border-color: #ffb3c9;
+}
+
+
+/* ==================================================
+   SPEED
+================================================== */
+
+.audio-speed {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 7px;
+
+  margin-top: 18px;
+}
+
+
+.speed-title {
+  margin-right: 4px;
+
+  font-size: 12px;
+
+  color: #888;
+}
+
+
+.speed-btn {
+  border: 1px solid #eeeeee;
+
+  background: #fafafa;
+
+  color: #555;
+
+  border-radius: 20px;
+
+  padding: 6px 12px;
+
+  font-size: 12px;
+
+  cursor: pointer;
+}
+
+
+.speed-btn.active {
+  background: #ff6b9a;
+
+  border-color: #ff6b9a;
+
+  color: white;
+}
+
+
+/* ==================================================
+   MARKER
+================================================== */
+
+.audio-marker {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 12px;
+
+  margin-top: 18px;
+
+  padding: 13px;
+
+  background: #fff8fa;
+
+  border: 1px solid #ffe1ea;
+
+  border-radius: 14px;
+}
+
+
+.marker-info {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+}
+
+
+.marker-icon {
+  font-size: 18px;
+}
+
+
+.marker-title {
+  font-size: 13px;
+
+  font-weight: 700;
+
+  color: #444;
+}
+
+
+.marker-description {
+  margin-top: 2px;
+
+  font-size: 11px;
+
+  color: #999;
+}
+
+
+.marker-btn {
+  border: none;
+
+  background: #ff6b9a;
+
+  color: white;
+
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+
+.marker-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 600px) {
+
+  .audio-card {
+    padding: 15px;
+
+    border-radius: 16px;
+  }
+
+
+  .audio-name {
+    font-size: 15px;
+  }
+
+
+  .audio-main-controls {
+    gap: 13px;
+  }
+
+
+  .audio-play {
+    width: 48px;
+    height: 48px;
+  }
+
+
+  .audio-control-btn {
+    min-width: 50px;
+  }
+
+
+  .audio-marker {
+    padding: 11px;
+  }
+
+
+  .marker-description {
+    max-width: 170px;
+  }
+
+}
+
+
+/* ==================================================
+   MOBILE STORY
+================================================== */
+
+@media (max-width: 480px) {
+
+  .container {
+    padding: 12px;
+  }
+
+
+  .box {
+    padding: 20px 13px 16px;
+
+    border-radius: 18px;
+  }
+
+
+  .box h3 {
+    font-size: 19px;
+  }
+
+
+  .invite-text {
+    font-size: 13px;
+  }
+
+
+  .open-app {
+    font-size: 12px;
+  }
+
+
+  .product-card {
+    padding: 9px;
+
+    gap: 11px;
+  }
+
+
+  .product-image-wrap {
+    width: 78px;
+
+    height: 78px;
+  }
+
+
+  .product-name {
+    font-size: 14px;
+  }
+
+
+  .product-desc {
+    font-size: 11px;
+  }
+
+
+  .product-link {
+    font-size: 10px;
+
+    padding: 6px 9px;
+  }
+
+
+  #story {
+    padding: 15px;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+  }
+
+}

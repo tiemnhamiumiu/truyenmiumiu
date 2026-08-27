@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truyện Mới Mui Mui</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <a href="index.html">Trang chủ</a>
+  <a href="ngontinh.html">Ngôn tình</a>
+  <a href="dammy.html">Đam mỹ</a>
+  <a href="cotrang.html">Cổ trang</a>
+</header>
+
+<h1 style="text-align:center; color:#ff5722;">TRUYỆN MỚI</h1>
+
+<div class="search-box">
+  <input type="text" id="search" placeholder="🔍 Tìm truyện...">
+</div>
+
+<div class="container" id="list"></div>
+
+<script src="data.js"></script>
+
+<script>
+const list = document.getElementById("list");
+const search = document.getElementById("search");
+function normalizeText(str) {
+  return str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase();
+}
+stories.forEach(item => {
+  if (item) {
+    item.searchTitle = normalizeText(item.title);
+  }
+});
+function render(data) {
+
+    list.innerHTML = "";
+
+    const sorted = data.filter(item => {
+        if (!item) {
+            console.log("Có item undefined");
+            return false;
+        }
+        return true;
+    }).sort((a, b) => b.id - a.id);
+
+    sorted.forEach((item, index) => {
+
+        if (!item) {
+            console.log("Lỗi ở:", index);
+            return;
+        }
+
+        list.innerHTML += `
+        <a class="book" href="detail.html?id=${item.id}">
+            <img src="${item.image}" alt="">
+            <h2>${item.title}</h2>
+        </a>
+        `;
+    });
+}
+console.log("Số truyện:", stories.length);
+
+stories.forEach((item, index) => {
+    if (!item) {
+        console.log("Phần tử rỗng ở vị trí:", index);
+    }
+});
+// load
+render(stories);
+
+// search
+search.addEventListener("input", function(){
+
+  const value = normalizeText(this.value);
+
+  const filtered = stories.filter(item =>
+    item && item.searchTitle.includes(value)
+  );
+
+  render(filtered);
+});
+</script>
+
+</body>
+</html>
