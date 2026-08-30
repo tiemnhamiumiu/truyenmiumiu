@@ -1,4 +1,3 @@
-
 window.addEventListener("DOMContentLoaded", function () {
 
   /* ==================================================
@@ -13,7 +12,6 @@ window.addEventListener("DOMContentLoaded", function () {
   ================================================== */
 
   const lockedContent = document.getElementById("lockedContent");
-  const story = document.getElementById("story");
 
   const step1Box = document.getElementById("step1Box");
   const step2Box = document.getElementById("step2Box");
@@ -37,7 +35,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
   if (
     !lockedContent ||
-    !story ||
     !step1Box ||
     !step2Box ||
     !step1Url ||
@@ -52,9 +49,9 @@ window.addEventListener("DOMContentLoaded", function () {
     !step2Desc
   ) {
 
-    console.error("❌ Thiếu thành phần HTML khóa.");
-
+    console.error("❌ Thiếu thành phần HTML.");
     return;
+
   }
 
 
@@ -64,15 +61,71 @@ window.addEventListener("DOMContentLoaded", function () {
 
   const stepKey = "reader_step";
   const waitKey = "waiting_return";
-
-
-  let step = Number(
-    localStorage.getItem(stepKey) || "0"
-  );
+  const unlockDateKey = "reader_unlock_date";
 
 
   /* ==================================================
-     HÀM KHÓA
+     LẤY NGÀY HIỆN TẠI
+     
+     Dạng:
+     2026-08-30
+  ================================================== */
+
+  function getToday() {
+
+    const now = new Date();
+
+    const year = now.getFullYear();
+
+    const month =
+      String(now.getMonth() + 1).padStart(2, "0");
+
+    const day =
+      String(now.getDate()).padStart(2, "0");
+
+    return `${year}-${month}-${day}`;
+
+  }
+
+
+  /* ==================================================
+     KIỂM TRA ĐÃ MỞ KHÓA HÔM NAY
+  ================================================== */
+
+  function isUnlockedToday() {
+
+    return (
+      localStorage.getItem(unlockDateKey)
+      ===
+      getToday()
+    );
+
+  }
+
+
+  /* ==================================================
+     RESET
+  ================================================== */
+
+  function resetForNewDay() {
+
+    localStorage.removeItem(stepKey);
+    localStorage.removeItem(waitKey);
+    localStorage.removeItem(unlockDateKey);
+
+  }
+
+
+  /* ==================================================
+     ẨN TOÀN BỘ NỘI DUNG TRUYỆN
+     
+     Khi khóa:
+     lockedContent = NONE
+
+     Không hiện audio.
+     Không hiện story.
+     Không hiện Facebook.
+     Không hiện bất kỳ nội dung nào bên trong.
   ================================================== */
 
   function hideContent() {
@@ -83,7 +136,10 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
   /* ==================================================
-     MỞ NỘI DUNG
+     HIỆN NỘI DUNG TRUYỆN
+     
+     Chỉ gọi sau khi hoàn thành:
+     SHOPEE + SHOPEEFOOD
   ================================================== */
 
   function unlockContent() {
@@ -93,11 +149,21 @@ window.addEventListener("DOMContentLoaded", function () {
     step1Box.style.display = "none";
     step2Box.style.display = "none";
 
+    localStorage.setItem(
+      unlockDateKey,
+      getToday()
+    );
+
+    localStorage.setItem(
+      stepKey,
+      "2"
+    );
+
   }
 
 
   /* ==================================================
-     BƯỚC 1
+     CHỈ HIỆN BẢNG SHOPEE
   ================================================== */
 
   function showStep1() {
@@ -111,7 +177,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
   /* ==================================================
-     BƯỚC 2
+     CHỈ HIỆN BẢNG SHOPEEFOOD
   ================================================== */
 
   function showStep2() {
@@ -125,7 +191,14 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
   /* ==================================================
-     QUẢNG CÁO
+     LẤY QUẢNG CÁO
+     
+     KHÔNG TẠO HTML MỚI.
+     
+     Chỉ lấy dữ liệu từ:
+     
+     QC_SHOPEE[QC_ID]
+     QC_SPF[QC_ID]
   ================================================== */
 
   let shopee = null;
@@ -133,16 +206,21 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
   if (typeof QC_SHOPEE !== "undefined") {
+
     shopee = QC_SHOPEE[QC_ID];
+
   }
 
+
   if (typeof QC_SPF !== "undefined") {
+
     spf = QC_SPF[QC_ID];
+
   }
 
 
   /* ==================================================
-     GÁN QUẢNG CÁO SHOPEE
+     SHOPEE
   ================================================== */
 
   if (shopee) {
@@ -156,13 +234,15 @@ window.addEventListener("DOMContentLoaded", function () {
     step1Image.alt = shopee.name;
 
     step1Name.textContent = shopee.name;
-    step1Desc.textContent = shopee.description;
+
+    step1Desc.textContent =
+      shopee.description;
 
   }
   else {
 
     console.error(
-      "❌ Không tìm thấy quảng cáo Shopee:",
+      "❌ Không tìm thấy QC_SHOPEE:",
       QC_ID
     );
 
@@ -170,7 +250,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
   /* ==================================================
-     GÁN QUẢNG CÁO SHOPEEFOOD
+     SHOPEEFOOD
   ================================================== */
 
   if (spf) {
@@ -184,13 +264,15 @@ window.addEventListener("DOMContentLoaded", function () {
     step2Image.alt = spf.name;
 
     step2Name.textContent = spf.name;
-    step2Desc.textContent = spf.description;
+
+    step2Desc.textContent =
+      spf.description;
 
   }
   else {
 
     console.error(
-      "❌ Không tìm thấy quảng cáo ShopeeFood:",
+      "❌ Không tìm thấy QC_SPF:",
       QC_ID
     );
 
@@ -201,17 +283,42 @@ window.addEventListener("DOMContentLoaded", function () {
      TRẠNG THÁI BAN ĐẦU
   ================================================== */
 
-  if (step >= 2) {
+  let step =
+    Number(
+      localStorage.getItem(stepKey) || "0"
+    );
+
+
+  /*
+     Nếu đã hoàn thành hôm nay
+     → mở truyện.
+  */
+
+  if (isUnlockedToday()) {
 
     unlockContent();
 
   }
+
+  /*
+     Nếu chưa hoàn thành nhưng đã qua bước Shopee
+     → chỉ hiện bảng SPF.
+  */
+
   else if (step === 1) {
 
     showStep2();
 
   }
+
+  /*
+     Chưa làm gì
+     → chỉ hiện bảng Shopee.
+  */
+
   else {
+
+    resetForNewDay();
 
     showStep1();
 
@@ -276,6 +383,25 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function checkReturn() {
 
+    /*
+       Nếu sang ngày mới
+       → reset.
+    */
+
+    if (
+      localStorage.getItem(unlockDateKey) &&
+      !isUnlockedToday()
+    ) {
+
+      resetForNewDay();
+
+      showStep1();
+
+      return;
+
+    }
+
+
     const waiting =
       localStorage.getItem(waitKey);
 
@@ -285,9 +411,9 @@ window.addEventListener("DOMContentLoaded", function () {
       );
 
 
-    /* -----------------------------------------------
-       SHOPEE → BƯỚC 2
-    ----------------------------------------------- */
+    /* ==================================================
+       SHOPEE → SPF
+    ================================================== */
 
     if (
       waiting === "1" &&
@@ -308,22 +434,18 @@ window.addEventListener("DOMContentLoaded", function () {
       showStep2();
 
       return;
+
     }
 
 
-    /* -----------------------------------------------
-       SHOPEEFOOD → MỞ TRUYỆN
-    ----------------------------------------------- */
+    /* ==================================================
+       SPF → MỞ TRUYỆN
+    ================================================== */
 
     if (
       waiting === "2" &&
       currentStep === 1
     ) {
-
-      localStorage.setItem(
-        stepKey,
-        "2"
-      );
 
       localStorage.removeItem(
         waitKey
@@ -347,7 +469,9 @@ window.addEventListener("DOMContentLoaded", function () {
     function () {
 
       if (!document.hidden) {
+
         checkReturn();
+
       }
 
     }
@@ -366,5 +490,35 @@ window.addEventListener("DOMContentLoaded", function () {
   );
 
 
-});
+  /* ==================================================
+     KIỂM TRA 00:00 MỖI PHÚT
+     
+     Nếu người dùng mở trang xuyên qua 00:00:
+     
+     23:59 → mở
+     00:00 → khóa
+  ================================================== */
 
+  setInterval(
+    function () {
+
+      if (
+        localStorage.getItem(unlockDateKey) &&
+        !isUnlockedToday()
+      ) {
+
+        resetForNewDay();
+
+        showStep1();
+
+        console.log(
+          "🌙 Sang ngày mới → khóa lại."
+        );
+
+      }
+
+    },
+    60 * 1000
+  );
+
+});
