@@ -1,4 +1,4 @@
-```js
+
 window.addEventListener("DOMContentLoaded", function () {
 
   /* ==================================================
