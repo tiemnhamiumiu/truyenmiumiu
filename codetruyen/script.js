@@ -1,3 +1,4 @@
+```js
 window.addEventListener("DOMContentLoaded", function () {
 
   /* ==================================================
@@ -8,54 +9,30 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
   /* ==================================================
-     ELEMENTS - KHÓA
+     ELEMENTS
   ================================================== */
 
-  const lockedContent =
-    document.getElementById("lockedContent");
+  const lockedContent = document.getElementById("lockedContent");
+  const story = document.getElementById("story");
 
-  const story =
-    document.getElementById("story");
+  const step1Box = document.getElementById("step1Box");
+  const step2Box = document.getElementById("step2Box");
 
-  const step1Box =
-    document.getElementById("step1Box");
+  const step1Url = document.getElementById("step1Url");
+  const step1Link = document.getElementById("step1Link");
+  const step1Image = document.getElementById("step1Image");
+  const step1Name = document.getElementById("step1Name");
+  const step1Desc = document.getElementById("step1Desc");
 
-  const step2Box =
-    document.getElementById("step2Box");
-
-  const step1Url =
-    document.getElementById("step1Url");
-
-  const step1Link =
-    document.getElementById("step1Link");
-
-  const step1Image =
-    document.getElementById("step1Image");
-
-  const step1Name =
-    document.getElementById("step1Name");
-
-  const step1Desc =
-    document.getElementById("step1Desc");
-
-  const step2Url =
-    document.getElementById("step2Url");
-
-  const step2Link =
-    document.getElementById("step2Link");
-
-  const step2Image =
-    document.getElementById("step2Image");
-
-  const step2Name =
-    document.getElementById("step2Name");
-
-  const step2Desc =
-    document.getElementById("step2Desc");
+  const step2Url = document.getElementById("step2Url");
+  const step2Link = document.getElementById("step2Link");
+  const step2Image = document.getElementById("step2Image");
+  const step2Name = document.getElementById("step2Name");
+  const step2Desc = document.getElementById("step2Desc");
 
 
   /* ==================================================
-     KIỂM TRA HTML KHÓA
+     KIỂM TRA HTML
   ================================================== */
 
   if (
@@ -75,143 +52,46 @@ window.addEventListener("DOMContentLoaded", function () {
     !step2Desc
   ) {
 
-    console.error(
-      "Thiếu thành phần HTML khóa."
-    );
+    console.error("❌ Thiếu thành phần HTML khóa.");
 
     return;
   }
 
 
   /* ==================================================
-     LẤY QUẢNG CÁO
+     LOCAL STORAGE
   ================================================== */
 
-  if (
-    typeof QC_SHOPEE === "undefined" ||
-    typeof QC_SPF === "undefined"
-  ) {
-
-    console.error(
-      "Không tìm thấy QC_SHOPEE hoặc QC_SPF."
-    );
-
-    return;
-  }
+  const stepKey = "reader_step";
+  const waitKey = "waiting_return";
 
 
-  const shopee =
-    QC_SHOPEE[QC_ID];
-
-  const spf =
-    QC_SPF[QC_ID];
+  let step = Number(
+    localStorage.getItem(stepKey) || "0"
+  );
 
 
-  if (!shopee) {
+  /* ==================================================
+     HÀM KHÓA
+  ================================================== */
 
-    console.error(
-      "Không tìm thấy Shopee:",
-      QC_ID
-    );
+  function hideContent() {
 
-    return;
-  }
+    lockedContent.style.display = "none";
 
-
-  if (!spf) {
-
-    console.error(
-      "Không tìm thấy ShopeeFood:",
-      QC_ID
-    );
-
-    return;
   }
 
 
   /* ==================================================
-     SHOPEE
-  ================================================== */
-
-  step1Url.href =
-    shopee.link;
-
-  step1Url.textContent =
-    shopee.link;
-
-  step1Link.href =
-    shopee.link;
-
-  step1Image.src =
-    shopee.image;
-
-  step1Image.alt =
-    shopee.name;
-
-  step1Name.textContent =
-    shopee.name;
-
-  step1Desc.textContent =
-    shopee.description;
-
-
-  /* ==================================================
-     SHOPEEFOOD
-  ================================================== */
-
-  step2Url.href =
-    spf.link;
-
-  step2Url.textContent =
-    spf.link;
-
-  step2Link.href =
-    spf.link;
-
-  step2Image.src =
-    spf.image;
-
-  step2Image.alt =
-    spf.name;
-
-  step2Name.textContent =
-    spf.name;
-
-  step2Desc.textContent =
-    spf.description;
-
-
-  /* ==================================================
-     LOCAL STORAGE - KHÓA
-  ================================================== */
-
-  const stepKey =
-    "reader_step";
-
-  const waitKey =
-    "waiting_return";
-
-
-  let step =
-    Number(
-      localStorage.getItem(stepKey) || "0"
-    );
-
-
-  /* ==================================================
-     HIỆN NỘI DUNG
+     MỞ NỘI DUNG
   ================================================== */
 
   function unlockContent() {
 
-    lockedContent.style.display =
-      "block";
+    lockedContent.style.display = "block";
 
-    step1Box.style.display =
-      "none";
-
-    step2Box.style.display =
-      "none";
+    step1Box.style.display = "none";
+    step2Box.style.display = "none";
 
   }
 
@@ -222,14 +102,10 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function showStep1() {
 
-    lockedContent.style.display =
-      "none";
+    lockedContent.style.display = "none";
 
-    step1Box.style.display =
-      "block";
-
-    step2Box.style.display =
-      "none";
+    step1Box.style.display = "block";
+    step2Box.style.display = "none";
 
   }
 
@@ -240,14 +116,83 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function showStep2() {
 
-    lockedContent.style.display =
-      "none";
+    lockedContent.style.display = "none";
 
-    step1Box.style.display =
-      "none";
+    step1Box.style.display = "none";
+    step2Box.style.display = "block";
 
-    step2Box.style.display =
-      "block";
+  }
+
+
+  /* ==================================================
+     QUẢNG CÁO
+  ================================================== */
+
+  let shopee = null;
+  let spf = null;
+
+
+  if (typeof QC_SHOPEE !== "undefined") {
+    shopee = QC_SHOPEE[QC_ID];
+  }
+
+  if (typeof QC_SPF !== "undefined") {
+    spf = QC_SPF[QC_ID];
+  }
+
+
+  /* ==================================================
+     GÁN QUẢNG CÁO SHOPEE
+  ================================================== */
+
+  if (shopee) {
+
+    step1Url.href = shopee.link;
+    step1Url.textContent = shopee.link;
+
+    step1Link.href = shopee.link;
+
+    step1Image.src = shopee.image;
+    step1Image.alt = shopee.name;
+
+    step1Name.textContent = shopee.name;
+    step1Desc.textContent = shopee.description;
+
+  }
+  else {
+
+    console.error(
+      "❌ Không tìm thấy quảng cáo Shopee:",
+      QC_ID
+    );
+
+  }
+
+
+  /* ==================================================
+     GÁN QUẢNG CÁO SHOPEEFOOD
+  ================================================== */
+
+  if (spf) {
+
+    step2Url.href = spf.link;
+    step2Url.textContent = spf.link;
+
+    step2Link.href = spf.link;
+
+    step2Image.src = spf.image;
+    step2Image.alt = spf.name;
+
+    step2Name.textContent = spf.name;
+    step2Desc.textContent = spf.description;
+
+  }
+  else {
+
+    console.error(
+      "❌ Không tìm thấy quảng cáo ShopeeFood:",
+      QC_ID
+    );
 
   }
 
@@ -334,7 +279,6 @@ window.addEventListener("DOMContentLoaded", function () {
     const waiting =
       localStorage.getItem(waitKey);
 
-
     const currentStep =
       Number(
         localStorage.getItem(stepKey) || "0"
@@ -342,7 +286,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
     /* -----------------------------------------------
-       SHOPEE → SHOPEEFOOD
+       SHOPEE → BƯỚC 2
     ----------------------------------------------- */
 
     if (
@@ -368,7 +312,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
     /* -----------------------------------------------
-       SHOPEEFOOD → MỞ
+       SHOPEEFOOD → MỞ TRUYỆN
     ----------------------------------------------- */
 
     if (
@@ -403,9 +347,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function () {
 
       if (!document.hidden) {
-
         checkReturn();
-
       }
 
     }
@@ -424,9 +366,5 @@ window.addEventListener("DOMContentLoaded", function () {
   );
 
 
-  /* ==================================================
-     AUDIO YOUTUBE
-  ================================================== */
-
-
 });
+```
