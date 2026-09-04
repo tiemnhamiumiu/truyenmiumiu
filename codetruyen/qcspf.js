@@ -22,7 +22,7 @@ const QC_SPF = {
 
   },sp03: {
 
-    link: "https://spf.shopee.vn/AAGaJBRoWV",
+    link: "https://spf.shopee.vn/AKaK5stIKM",
 
     image: "../imgqc/52188e11-928e-42f8-a1fe-c608def7959d.jpg",
 

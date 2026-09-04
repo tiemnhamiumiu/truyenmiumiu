@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", function () {
      ID QUẢNG CÁO
   ================================================== */
 
-  const QC_ID = "sp02";
+  const QC_ID = "sp03";
 
 
   /* ==================================================

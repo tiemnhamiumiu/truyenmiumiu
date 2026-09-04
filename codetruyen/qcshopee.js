@@ -16,13 +16,13 @@ const QC_SHOPEE = {
 
     image: "../imgqc/vn-11134207-81ztc-mo57bqj5k54y41.jpg",
 
-    name: "Combo 20 chân gà rút xương tê cay - ĂN CÙNG BÀ TUYẾT M28",
+    name: "Combo 2 Nước giặt OMO Matic Hương Nước Hoa Comfort 4.1KG (túi)",
 
     description:"Tê cay đậm vị, ăn là mê 🌶️💕"
 
   },sp03: {
 
-    link: "https://s.shopee.vn/2gAfLCySns",
+    link: "https://s.shopee.vn/3LQZkxPPNc",
 
     image: "../imgqc/vn-11134207-81ztc-ml4rd7dswu172f.jpg",
 
