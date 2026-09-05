@@ -61,6 +61,102 @@
 <button class="speed-btn" data-speed="2" type="button">2x</button>
 </div>
 
+<!-- THÊM PHẦN NHẠC NỀN Ở ĐÂY -->
+
+<div class="background-music">
+
+    <button
+        id="musicToggleBtn"
+        class="music-toggle-btn"
+        type="button"
+    >
+        <span class="music-toggle-left">
+            🎵
+            <span>Nhạc nền</span>
+        </span>
+
+        <span
+            id="musicArrow"
+            class="music-arrow"
+        >
+            ▼
+        </span>
+    </button>
+
+
+    <div
+        id="musicPanel"
+        class="music-panel"
+        style="display:none;"
+    >
+
+        <div class="music-panel-title">
+            🎶 Chọn nhạc nền
+        </div>
+
+        <div
+            id="musicList"
+            class="music-list"
+        ></div>
+
+        <div
+            id="selectedMusic"
+            class="selected-music"
+        >
+            Chưa chọn nhạc nền
+        </div>
+
+        <div class="music-volume-row">
+
+            <span class="music-volume-icon">
+                🔊
+            </span>
+
+            <input
+                id="musicVolume"
+                class="music-volume"
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.35"
+            >
+
+            <span
+                id="musicVolumeValue"
+                class="music-volume-value"
+            >
+                35%
+            </span>
+
+        </div>
+
+        <div class="music-controls">
+
+            <button
+                id="musicPlayPauseBtn"
+                class="music-control-btn"
+                type="button"
+                disabled
+            >
+                ▶ Phát nhạc
+            </button>
+
+            <button
+                id="musicUseBtn"
+                class="music-control-btn music-use-btn"
+                type="button"
+                disabled
+            >
+                ☑ Dùng nhạc nền
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
 <div class="audio-marker">
 <div class="marker-info">
 <div class="marker-icon">📍</div>
@@ -81,18 +177,7 @@
 <a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc tiếp nếu bạn từ Facebook sang</a>
 </div>
 
-<div id="story">
-Sau khi ta xuất giá, cuộc sống bỗng trở nên vô cùng gian khó.
-
-Nhà chồng nhẫn tâm đem ta bán cho một gia đình khác chỉ để sinh con nối dõi tông đường.
-
-Khi mang thai được bốn tháng, bỗng có một đám người đông đúc kéo đến trước cửa, khăng khăng muốn dẫn ta đi bằng được.
-
-Họ lớn tiếng nói rằng ta chính là thiên kim thất lạc từ nhiều năm của phủ Thừa tướng cao sang.
-
------
-  
-Khi ta được đưa về phủ Thừa tướng, phụ thân của đứa trẻ trong bụng ta cũng được người ta đưa về cùng.
+<div id="story">    Khi ta được đưa về phủ Thừa tướng, phụ thân của đứa trẻ trong bụng ta cũng được người ta đưa về cùng.
 
 Hắn tên là Lý Mãng, lúc bọn họ tìm đến chúng ta, hắn vẫn còn đang lúi húi chuẩn bị bắt gà bồi bổ cho ta.
 
