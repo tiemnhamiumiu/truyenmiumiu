@@ -58,6 +58,111 @@
 <button class="speed-btn" data-speed="2" type="button">2x</button>
 </div>
 
+<!-- THÊM PHẦN NHẠC NỀN Ở ĐÂY -->
+
+<div class="background-music">
+
+    <button
+        id="musicToggleBtn"
+        class="music-toggle-btn"
+        type="button"
+    >
+        <span class="music-toggle-left">
+            🎵
+            <span>Nhạc nền</span>
+        </span>
+
+        <span
+            id="musicArrow"
+            class="music-arrow"
+        >
+            ▼
+        </span>
+    </button>
+
+
+    <div
+        id="musicPanel"
+        class="music-panel"
+        style="display:none;"
+    >
+
+        <div class="music-panel-title">
+            🎶 Chọn nhạc nền
+        </div>
+
+        <div
+            id="musicList"
+            class="music-list"
+        ></div>
+
+        <div
+            id="selectedMusic"
+            class="selected-music"
+        >
+            Chưa chọn nhạc nền
+        </div>
+
+        <div class="music-volume-row">
+
+            <span class="music-volume-icon">
+                🔊
+            </span>
+
+            <input
+                id="musicVolume"
+                class="music-volume"
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.35"
+            >
+
+            <span
+                id="musicVolumeValue"
+                class="music-volume-value"
+            >
+                35%
+            </span>
+
+        </div>
+
+        <div class="music-controls">
+
+            <button
+                id="musicPlayPauseBtn"
+                class="music-control-btn"
+                type="button"
+                disabled
+            >
+                ▶ Phát nhạc
+            </button>
+
+            <button
+                id="musicUseBtn"
+                class="music-control-btn music-use-btn"
+                type="button"
+                disabled
+            >
+                ☑ Dùng nhạc nền
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<audio
+    id="backgroundMusicAudio"
+    preload="none"
+></audio>
+
+
+<!-- PHẦN CŨ CỦA BẠN GIỮ NGUYÊN -->
+
 <div class="audio-marker">
 <div class="marker-info">
 <div class="marker-icon">📍</div>
