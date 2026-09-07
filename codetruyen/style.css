@@ -387,18 +387,28 @@ body {
    TIME BUBBLE
 ================================================== */
 
+/* ==================================================
+   TIME BUBBLE - HIỆN KHI KÉO THANH
+================================================== */
+
+.audio-progress-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* Số thời gian phía trên chấm kéo */
 .audio-time-bubble {
   position: absolute;
 
   top: -22px;
-
   left: 0;
 
   transform: translateX(-50%);
 
-  display: none;
+  display: block;
 
-  padding: 4px 8px;
+  padding: 3px 7px;
 
   background: #333333;
 
@@ -406,30 +416,36 @@ body {
 
   border: none;
 
-  border-radius: 6px;
+  border-radius: 5px;
 
   font-size: 11px;
+
+  line-height: 1.3;
 
   white-space: nowrap;
 
   pointer-events: none;
+
+  opacity: 0;
+
+  transition: opacity 0.12s ease;
+
+  z-index: 10;
 }
 
+/* Mũi tên nhỏ bên dưới */
 .audio-time-bubble::after {
   content: "";
 
   position: absolute;
 
   left: 50%;
-
   bottom: -4px;
 
   transform: translateX(-50%);
 
   border-left: 4px solid transparent;
-
   border-right: 4px solid transparent;
-
   border-top: 4px solid #333333;
 }
 

@@ -1,7 +1,3 @@
-/* =========================================================
-   AUDIO PLAYER
-   YouTube: https://youtu.be/VIDEO_ID
-========================================================= */
 
 (function () {
     "use strict";
@@ -10,6 +6,9 @@
     let playerReady = false;
     let updateTimer = null;
 
+    /* Đang kéo thanh tiến trình */
+    let isDragging = false;
+
     let currentVideoId = "";
     let currentSpeed = 1;
 
@@ -17,11 +16,6 @@
     let currentMusicIndex = -1;
 
     const MUSIC_VOLUME_KEY = "background_music_volume";
-
-    /* =====================================================
-       LẤY VIDEO ID
-       CHỈ HỖ TRỢ https://youtu.be/VIDEO_ID
-    ===================================================== */
 
     function getYouTubeId(url) {
         if (!url) return "";
@@ -46,10 +40,6 @@
             return "";
         }
     }
-
-    /* =====================================================
-       FORMAT TIME
-    ===================================================== */
 
     function formatTime(seconds) {
         if (!Number.isFinite(seconds) || seconds < 0) {
@@ -78,10 +68,6 @@
             String(secs).padStart(2, "0")
         );
     }
-
-    /* =====================================================
-       ELEMENTS
-    ===================================================== */
 
     const audioCard =
         document.getElementById("audioCard");
@@ -114,10 +100,6 @@
 
     const youtubePlayerEl =
         document.getElementById("youtubePlayer");
-
-    /* =====================================================
-       MUSIC ELEMENTS
-    ===================================================== */
 
     const musicToggleBtn =
         document.getElementById("musicToggleBtn");
@@ -152,10 +134,6 @@
     const markerTime =
         document.getElementById("markerTime");
 
-    /* =====================================================
-       YOUTUBE URL
-    ===================================================== */
-
     const audioUrl =
         audioCard.getAttribute("data-audio") || "";
 
@@ -163,7 +141,6 @@
         getYouTubeId(audioUrl);
 
     if (!currentVideoId) {
-
         console.error(
             "audio.js chỉ hỗ trợ URL dạng https://youtu.be/VIDEO_ID",
             audioUrl
@@ -176,10 +153,6 @@
         return;
     }
 
-    /* =====================================================
-       PROGRESS BAR
-    ===================================================== */
-
     if (audioProgress) {
         audioProgress.min = "0";
         audioProgress.max = "100";
@@ -187,15 +160,10 @@
         audioProgress.value = "0";
     }
 
-    /* =====================================================
-       TẠO AUDIO NHẠC NỀN
-    ===================================================== */
-
     let backgroundMusicAudio =
         document.getElementById("backgroundMusicAudio");
 
     if (!backgroundMusicAudio) {
-
         backgroundMusicAudio =
             document.createElement("audio");
 
@@ -212,53 +180,44 @@
 
     backgroundMusicAudio.loop = true;
 
-    /* =====================================================
-       DANH SÁCH NHẠC
-       GIỮ NGUYÊN TÊN FILE CỦA BẠN
-    ===================================================== */
-
     const musicFiles = [
-  {
-    title: "Thiếu Niên Hoa Hồng VioLin",
-    url: "../music/thieu-nien-hoa-hong-violin.mp3"
-  },
-  {
-    title: "Fallin Flower Piano",
-    url: "../music/fallin-flower-piano.mp3"
-  },
-  {
-    title: "Cause I love you Piano",
-    url: "../music/cause-i-love-you-piano.mp3"
-  },
-  {
-    title: "Người Yêu Bỏ Lỡ",
-    url: "../music/nguoi-yeu-bo-lo.mp3"
-  },
-  {
-    title: "Cry For Me",
-    url: "../music/cry-for-me.mp3"
-  },
-  {
-    title: "Bóng Lá Rơi",
-    url: "../music/bong-la-roi.mp3"
-  },
-  {
-    title: "Komorebi Piano&Violin",
-    url: "../music/komorebi-piano-violin.mp3"
-  },
-  {
-    title: "Cry For Me x Giày Cao Gót Màu Đỏ",
-    url: "../music/cry-for-me-x-giay-cao-got-mau-do.mp3"
-  },
-  {
-    title: "Biển, Đảo Và Em",
-    url: "../music/bien-dao-va-em.mp3"
-  }
-];
-
-    /* =====================================================
-       ÂM LƯỢNG
-    ===================================================== */
+        {
+            title: "Thiếu Niên Hoa Hồng VioLin",
+            url: "../music/thieu-nien-hoa-hong-violin.mp3"
+        },
+        {
+            title: "Fallin Flower Piano",
+            url: "../music/fallin-flower-piano.mp3"
+        },
+        {
+            title: "Cause I love you Piano",
+            url: "../music/cause-i-love-you-piano.mp3"
+        },
+        {
+            title: "Người Yêu Bỏ Lỡ",
+            url: "../music/nguoi-yeu-bo-lo.mp3"
+        },
+        {
+            title: "Cry For Me",
+            url: "../music/cry-for-me.mp3"
+        },
+        {
+            title: "Bóng Lá Rơi",
+            url: "../music/bong-la-roi.mp3"
+        },
+        {
+            title: "Komorebi Piano&Violin",
+            url: "../music/komorebi-piano-violin.mp3"
+        },
+        {
+            title: "Cry For Me x Giày Cao Gót Màu Đỏ",
+            url: "../music/cry-for-me-x-giay-cao-got-mau-do.mp3"
+        },
+        {
+            title: "Biển, Đảo Và Em",
+            url: "../music/bien-dao-va-em.mp3"
+        }
+    ];
 
     let savedVolume =
         parseFloat(
@@ -290,15 +249,7 @@
             Math.round(savedVolume * 100) + "%";
     }
 
-    /* =====================================================
-       HIỂN THỊ DANH SÁCH NHẠC
-       
-       KHÔNG CÓ NÚT "CHỌN"
-       BẤM TRỰC TIẾP VÀO DÒNG NHẠC
-    ===================================================== */
-
     function renderMusicList() {
-
         if (!musicList) return;
 
         musicList.innerHTML = "";
@@ -340,10 +291,6 @@
                 item.appendChild(icon);
                 item.appendChild(name);
 
-                /* =============================
-                   BẤM CẢ DÒNG = DÙNG NHẠC
-                ============================= */
-
                 item.addEventListener(
                     "click",
                     function () {
@@ -356,16 +303,7 @@
         );
     }
 
-    /* =====================================================
-       CHỌN NHẠC
-       
-       QUAN TRỌNG:
-       DÙNG music.url
-       KHÔNG DÙNG music.file
-    ===================================================== */
-
     function selectMusic(index) {
-
         if (!musicFiles[index]) {
             return;
         }
@@ -376,26 +314,18 @@
         const music =
             musicFiles[index];
 
-        /* Dừng nhạc cũ */
-
         backgroundMusicAudio.pause();
-
-        /* Dùng đúng URL trong danh sách */
 
         backgroundMusicAudio.src =
             music.url;
 
         backgroundMusicAudio.load();
 
-        /* Hiển thị tên nhạc */
-
         if (selectedMusic) {
             selectedMusic.textContent =
                 "Đang chọn: " +
                 music.title;
         }
-
-        /* Bật nút điều khiển */
 
         if (musicPlayPauseBtn) {
             musicPlayPauseBtn.disabled =
@@ -406,7 +336,6 @@
         }
 
         if (musicUseBtn) {
-
             musicUseBtn.disabled =
                 false;
 
@@ -414,16 +343,12 @@
                 "☑ Dùng nhạc nền";
         }
 
-        /* Chọn nhạc = bật nhạc nền */
-
         musicEnabled = true;
 
         if (musicUseBtn) {
             musicUseBtn.textContent =
                 "☑ Đang dùng nhạc nền";
         }
-
-        /* Phát ngay */
 
         backgroundMusicAudio
             .play()
@@ -446,6 +371,7 @@
                     musicPlayPauseBtn.textContent =
                         "▶ Phát nhạc";
                 }
+
             });
 
         renderMusicList();
@@ -453,12 +379,7 @@
 
     renderMusicList();
 
-    /* =====================================================
-       PLAY / PAUSE NHẠC
-    ===================================================== */
-
     if (musicPlayPauseBtn) {
-
         musicPlayPauseBtn.addEventListener(
             "click",
             function () {
@@ -501,12 +422,7 @@
         );
     }
 
-    /* =====================================================
-       DÙNG / TẮT NHẠC NỀN
-    ===================================================== */
-
     if (musicUseBtn) {
-
         musicUseBtn.addEventListener(
             "click",
             function () {
@@ -560,12 +476,7 @@
         );
     }
 
-    /* =====================================================
-       ÂM LƯỢNG
-    ===================================================== */
-
     if (musicVolume) {
-
         musicVolume.addEventListener(
             "input",
             function () {
@@ -596,10 +507,6 @@
         );
     }
 
-    /* =====================================================
-       MỞ / ĐÓNG PANEL NHẠC
-    ===================================================== */
-
     function toggleMusicPanel() {
 
         if (!musicPanel) {
@@ -624,20 +531,13 @@
     }
 
     if (musicToggleBtn) {
-
         musicToggleBtn.addEventListener(
             "click",
             function () {
-
                 toggleMusicPanel();
-
             }
         );
     }
-
-    /* =====================================================
-       MARKER
-    ===================================================== */
 
     let markerSeconds =
         parseFloat(
@@ -658,14 +558,12 @@
         );
 
     if (markerTime) {
-
         markerTime.textContent =
             markerLabel ||
             formatTime(markerSeconds);
     }
 
     if (markerBtn) {
-
         markerBtn.addEventListener(
             "click",
             function () {
@@ -686,10 +584,6 @@
             }
         );
     }
-
-    /* =====================================================
-       YOUTUBE PLAYER
-    ===================================================== */
 
     function createYouTubePlayer() {
 
@@ -717,7 +611,6 @@
             new YT.Player(
                 youtubePlayerEl,
                 {
-
                     videoId:
                         currentVideoId,
 
@@ -733,6 +626,7 @@
                     },
 
                     events: {
+
                         onReady:
                             onPlayerReady,
 
@@ -746,20 +640,20 @@
             );
     }
 
-    /* =====================================================
-       YOUTUBE READY
-    ===================================================== */
-
     function onPlayerReady() {
 
         playerReady = true;
 
         try {
+
             player.setPlaybackRate(
                 currentSpeed
             );
+
         } catch (error) {
+
             console.warn(error);
+
         }
 
         if (durationEl) {
@@ -772,10 +666,6 @@
 
         updateAudioUI();
     }
-
-    /* =====================================================
-       YOUTUBE STATE
-    ===================================================== */
 
     function onPlayerStateChange(event) {
 
@@ -806,6 +696,7 @@
                             if (
                                 musicPlayPauseBtn
                             ) {
+
                                 musicPlayPauseBtn.textContent =
                                     "⏸ Tạm dừng";
                             }
@@ -821,6 +712,7 @@
                 }
 
                 break;
+
 
             case YT.PlayerState.PAUSED:
 
@@ -843,6 +735,7 @@
                 }
 
                 break;
+
 
             case YT.PlayerState.ENDED:
 
@@ -868,10 +761,6 @@
         }
     }
 
-    /* =====================================================
-       YOUTUBE ERROR
-    ===================================================== */
-
     function onPlayerError(event) {
 
         console.error(
@@ -890,9 +779,10 @@
         }
     }
 
-    /* =====================================================
-       UPDATE AUDIO UI
-    ===================================================== */
+
+    /* =========================================================
+       CẬP NHẬT AUDIO UI
+    ========================================================= */
 
     function updateAudioUI() {
 
@@ -915,22 +805,47 @@
                 player.getDuration() || 0;
 
         } catch (error) {
+
             return;
         }
 
+
+        /*
+         * THỜI GIAN ĐANG PHÁT
+         *
+         * Luôn lấy từ YouTube.
+         * Không liên quan đến vị trí đang kéo.
+         */
         if (currentTimeEl) {
 
             currentTimeEl.textContent =
                 formatTime(current);
         }
 
+
+        /*
+         * TỔNG THỜI GIAN
+         */
         if (durationEl) {
 
             durationEl.textContent =
                 formatTime(duration);
         }
 
-        if (audioProgress) {
+
+        /*
+         * THANH TIẾN TRÌNH
+         *
+         * Khi người dùng đang kéo:
+         * KHÔNG được ghi đè vị trí slider.
+         *
+         * Khi không kéo:
+         * slider chạy theo voice.
+         */
+        if (
+            audioProgress &&
+            !isDragging
+        ) {
 
             let percent = 0;
 
@@ -951,9 +866,6 @@
         }
     }
 
-    /* =====================================================
-       TIMER
-    ===================================================== */
 
     function startUpdating() {
 
@@ -965,6 +877,7 @@
                 250
             );
     }
+
 
     function stopUpdating() {
 
@@ -978,9 +891,10 @@
         }
     }
 
-    /* =====================================================
-       PLAY / PAUSE YOUTUBE
-    ===================================================== */
+
+    /* =========================================================
+       PLAY / PAUSE
+    ========================================================= */
 
     if (playPauseBtn) {
 
@@ -1013,9 +927,10 @@
         );
     }
 
-    /* =====================================================
-       -10 GIÂY
-    ===================================================== */
+
+    /* =========================================================
+       BACK 10 SECONDS
+    ========================================================= */
 
     if (back10Btn) {
 
@@ -1044,9 +959,10 @@
         );
     }
 
-    /* =====================================================
-       +10 GIÂY
-    ===================================================== */
+
+    /* =========================================================
+       FORWARD 10 SECONDS
+    ========================================================= */
 
     if (forward10Btn) {
 
@@ -1078,12 +994,72 @@
         );
     }
 
-    /* =====================================================
-       PROGRESS
-    ===================================================== */
+
+    /* =========================================================
+       THANH TIẾN TRÌNH
+    ========================================================= */
 
     if (audioProgress) {
 
+        /*
+         * BẮT ĐẦU KÉO
+         */
+        audioProgress.addEventListener(
+            "pointerdown",
+            function () {
+
+                isDragging = true;
+
+                if (
+                    !playerReady ||
+                    !player ||
+                    !audioTimeBubble
+                ) {
+                    return;
+                }
+
+                const percent =
+                    parseFloat(
+                        audioProgress.value
+                    );
+
+                const duration =
+                    player.getDuration();
+
+                if (
+                    Number.isFinite(percent) &&
+                    duration > 0
+                ) {
+
+                    const seconds =
+                        duration *
+                        (percent / 100);
+
+                    audioTimeBubble.textContent =
+                        formatTime(seconds);
+
+                    audioTimeBubble.style.left =
+                        percent + "%";
+
+                    audioTimeBubble.style.opacity =
+                        "1";
+                }
+            }
+        );
+
+
+        /*
+         * ĐANG KÉO
+         *
+         * Chỉ thay đổi:
+         * - vị trí nút
+         * - vị trí bóng
+         * - số trên bóng
+         *
+         * KHÔNG thay đổi currentTimeEl.
+         *
+         * KHÔNG seek YouTube.
+         */
         audioProgress.addEventListener(
             "input",
             function () {
@@ -1114,6 +1090,10 @@
                     duration *
                     (percent / 100);
 
+
+                /*
+                 * Bóng thời gian
+                 */
                 if (audioTimeBubble) {
 
                     audioTimeBubble.textContent =
@@ -1125,17 +1105,34 @@
                     audioTimeBubble.style.opacity =
                         "1";
                 }
+
+
+                /*
+                 * CỐ Ý KHÔNG CÓ:
+                 *
+                 * currentTimeEl.textContent = ...
+                 *
+                 * Vì số bên trái phải là thời gian
+                 * voice thực tế đang phát.
+                 */
             }
         );
 
+
+        /*
+         * THẢ CHUỘT
+         */
         audioProgress.addEventListener(
-            "change",
+            "pointerup",
             function () {
 
                 if (
                     !playerReady ||
                     !player
                 ) {
+
+                    isDragging = false;
+
                     return;
                 }
 
@@ -1148,43 +1145,48 @@
                     player.getDuration();
 
                 if (
-                    !Number.isFinite(percent) ||
-                    duration <= 0
+                    Number.isFinite(percent) &&
+                    duration > 0
                 ) {
-                    return;
+
+                    const seconds =
+                        duration *
+                        (percent / 100);
+
+
+                    /*
+                     * CHỈ LÚC THẢ:
+                     * voice mới nhảy đến vị trí
+                     * người dùng vừa kéo.
+                     */
+                    player.seekTo(
+                        seconds,
+                        true
+                    );
+
+
+                    /*
+                     * Cập nhật ngay số bên trái
+                     * sang vị trí mới.
+                     */
+                    if (currentTimeEl) {
+
+                        currentTimeEl.textContent =
+                            formatTime(seconds);
+                    }
                 }
 
-                const seconds =
-                    duration *
-                    (percent / 100);
 
-                player.seekTo(
-                    seconds,
-                    true
-                );
+                /*
+                 * Bây giờ cho phép timer
+                 * cập nhật slider lại theo YouTube.
+                 */
+                isDragging = false;
 
-                if (audioTimeBubble) {
-                    audioTimeBubble.style.opacity =
-                        "0";
-                }
-            }
-        );
 
-        audioProgress.addEventListener(
-            "pointerdown",
-            function () {
-
-                if (audioTimeBubble) {
-                    audioTimeBubble.style.opacity =
-                        "1";
-                }
-            }
-        );
-
-        audioProgress.addEventListener(
-            "pointerup",
-            function () {
-
+                /*
+                 * Giữ bóng thêm 500ms
+                 */
                 if (audioTimeBubble) {
 
                     setTimeout(
@@ -1199,11 +1201,30 @@
                 }
             }
         );
+
+
+        /*
+         * Nếu trình duyệt hủy thao tác kéo
+         */
+        audioProgress.addEventListener(
+            "pointercancel",
+            function () {
+
+                isDragging = false;
+
+                if (audioTimeBubble) {
+
+                    audioTimeBubble.style.opacity =
+                        "0";
+                }
+            }
+        );
     }
 
-    /* =====================================================
+
+    /* =========================================================
        TỐC ĐỘ
-    ===================================================== */
+    ========================================================= */
 
     const speedButtons =
         document.querySelectorAll(
@@ -1270,9 +1291,10 @@
         }
     );
 
-    /* =====================================================
+
+    /* =========================================================
        LOAD YOUTUBE API
-    ===================================================== */
+    ========================================================= */
 
     function loadYouTubeAPI() {
 
@@ -1291,6 +1313,7 @@
                 'script[src="https://www.youtube.com/iframe_api"]'
             )
         ) {
+
             return;
         }
 
@@ -1306,8 +1329,11 @@
                 ) {
 
                     try {
+
                         oldCallback();
+
                     } catch (error) {
+
                         console.error(error);
                     }
                 }
@@ -1329,10 +1355,6 @@
             script
         );
     }
-
-    /* =====================================================
-       START
-    ===================================================== */
 
     loadYouTubeAPI();
 
