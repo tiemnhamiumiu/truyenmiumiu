@@ -84,7 +84,7 @@ if (isFacebookBrowser) {
                     color:#ddd;
                 ">
 
-                    📌 Nhấn <b>⋯</b> ở góc màn hình
+                    📌 Nhấn <b>⋯</b> ở góc phải màn hình
 
                     <br>
 
