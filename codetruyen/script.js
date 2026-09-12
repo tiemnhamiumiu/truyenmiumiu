@@ -1662,7 +1662,7 @@ function isTikTokLink(link) {
     return (
         link.href === TIKTOK_URL ||
         link.href.startsWith(
-            "https://www.tiktok.com/"
+            "https://vt.tiktok.com/ZS9SXoGBoCjBV-ST96M/"
         )
     );
 
@@ -1678,7 +1678,7 @@ function isLazadaLink(link) {
     return (
         link.href === LAZADA_URL ||
         link.href.startsWith(
-            "https://s.lazada.vn/"
+            "https://s.lazada.vn/s.o0ZT2?c=p&t=p-ixAY3P-sGQ1lgE"
         )
     );
 
