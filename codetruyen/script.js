@@ -1,1190 +1,1196 @@
+
 window.addEventListener("DOMContentLoaded", function () {
 
-    "use strict";
+"use strict";
 
 
-    /* ==================================================
-       KIỂM TRA FACEBOOK / MESSENGER / INSTAGRAM
-       IN-APP BROWSER
-    ================================================== */
+/* ==================================================
+   KIỂM TRA FACEBOOK / MESSENGER / INSTAGRAM
+================================================== */
 
-    const ua =
-        navigator.userAgent ||
-        navigator.vendor ||
-        window.opera ||
-        "";
+const ua =
+    navigator.userAgent ||
+    navigator.vendor ||
+    window.opera ||
+    "";
 
-    const isFacebookBrowser =
-        /FBAN|FBAV|FBIOS|FB_IAB|FB4A|FB4i|Messenger|Instagram/i.test(ua);
+const isFacebookBrowser =
+    /FBAN|FBAV|FBIOS|FB_IAB|FB4A|FB4i|Messenger|Instagram/i.test(ua);
 
+if (isFacebookBrowser) {
 
-    /* ==================================================
-       NẾU ĐANG MỞ TRONG FACEBOOK / MESSENGER
-       → HIỆN THÔNG BÁO CHUYỂN SANG TRÌNH DUYỆT
-    ================================================== */
+    document.body.innerHTML = `
 
-    if (isFacebookBrowser) {
-
-        document.body.innerHTML = `
+        <div style="
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:20px;
+            box-sizing:border-box;
+            background:#111;
+            color:white;
+            font-family:Arial,sans-serif;
+            text-align:center;
+        ">
 
             <div style="
-                min-height:100vh;
-                display:flex;
-                align-items:center;
-                justify-content:center;
-                padding:20px;
+                max-width:420px;
+                width:100%;
+                background:#1f1f1f;
+                border-radius:16px;
+                padding:30px 22px;
                 box-sizing:border-box;
-                background:#111;
-                color:white;
-                font-family:Arial,sans-serif;
-                text-align:center;
+                box-shadow:0 10px 30px rgba(0,0,0,.4);
             ">
 
                 <div style="
-                    max-width:420px;
-                    width:100%;
-                    background:#1f1f1f;
-                    border-radius:16px;
-                    padding:30px 22px;
-                    box-sizing:border-box;
-                    box-shadow:0 10px 30px rgba(0,0,0,.4);
+                    font-size:48px;
+                    margin-bottom:15px;
+                ">
+                    🌐
+                </div>
+
+                <h2 style="
+                    margin:0 0 15px;
+                    font-size:22px;
+                ">
+                    Vui lòng mở bằng trình duyệt
+                </h2>
+
+                <p style="
+                    color:#ccc;
+                    line-height:1.6;
+                    margin-bottom:22px;
                 ">
 
-                    <div style="
-                        font-size:48px;
-                        margin-bottom:15px;
-                    ">
-                        🌐
-                    </div>
+                    Bạn đang mở trang bằng trình duyệt
+                    tích hợp của Facebook hoặc Messenger.
 
-                    <h2 style="
-                        margin:0 0 15px;
-                        font-size:22px;
-                    ">
-                        Vui lòng mở bằng trình duyệt
-                    </h2>
+                    <br><br>
 
-                    <p style="
-                        color:#ccc;
-                        line-height:1.6;
-                        margin-bottom:22px;
-                    ">
+                    Vui lòng chọn
+                    <b>“Mở trong trình duyệt”</b>
+                    để tiếp tục đọc truyện.
 
-                        Bạn đang mở trang bằng trình duyệt
-                        tích hợp của Facebook hoặc Messenger.
+                </p>
 
-                        <br><br>
+                <div style="
+                    background:#292929;
+                    border-radius:10px;
+                    padding:14px;
+                    font-size:14px;
+                    line-height:1.5;
+                    color:#ddd;
+                ">
 
-                        Vui lòng chọn
-                        <b>“Mở trong trình duyệt”</b>
-                        để tiếp tục đọc truyện.
+                    📌 Nhấn <b>⋯</b> ở góc màn hình
 
-                    </p>
+                    <br>
 
-                    <div style="
-                        background:#292929;
-                        border-radius:10px;
-                        padding:14px;
-                        font-size:14px;
-                        line-height:1.5;
-                        color:#ddd;
-                    ">
-
-                        📌 Nhấn <b>⋯</b> ở góc màn hình
-
-                        <br>
-
-                        → chọn <b>Mở trong trình duyệt</b>
-
-                    </div>
+                    → chọn <b>Mở trong trình duyệt</b>
 
                 </div>
 
             </div>
 
-        `;
+        </div>
 
-        return;
-    }
+    `;
 
+    return;
 
-    /* ==================================================
-       PASS THEO NGÀY
-    ================================================== */
-
-    const DAILY_PASSES = {
-
-        "2026-09-09": "combo",
-
-        "2026-09-10": "miu123",
-
-        "2026-09-11": "abc456",
-
-        "2026-09-12": "xyz789",
-
-        "2026-09-13": "hello123",
-
-        "2026-09-14": "pass1414"
-
-    };
+}
 
 
-    /* ==================================================
-       FACEBOOK LẤY PASS
-    ================================================== */
+/* ==================================================
+   PASS THEO NGÀY
+================================================== */
 
-    const FACEBOOK_URL =
-        "https://www.facebook.com/profile.php?id=61578134287179&locale=vi_VN";
+const DAILY_PASSES = {
 
+    "2026-09-09": "combo",
 
-    /* ==================================================
-       ẢNH HƯỚNG DẪN
-    ================================================== */
+    "2026-09-10": "miu123",
 
-    const GUIDE_IMAGE =
-        "../codetruyen/huong-dan.jpg";
+    "2026-09-11": "abc456",
 
+    "2026-09-12": "xyz789",
 
-    /* ==================================================
-       LINK TIKTOK + LAZADA
-    ================================================== */
+    "2026-09-13": "hello123",
 
-    const TIKTOK_URL =
-        "https://www.tiktok.com/t/ZSVaFpSNR/";
+    "2026-09-14": "pass1414"
 
-    const LAZADA_URL =
-        "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE";
+};
 
 
-    /* ==================================================
-       THỜI GIAN CHỜ
-       10 PHÚT SAU KHI MỞ KHÓA
-    ================================================== */
+/* ==================================================
+   FACEBOOK
+================================================== */
 
-    const TEN_MINUTES =
-        10 * 60 * 1000;
-
-
-    /* ==================================================
-       LOCAL STORAGE
-    ================================================== */
-
-    const unlockDateKey =
-        "reader_unlock_date";
-
-    const unlockTimeKey =
-        "reader_unlock_time";
-
-    const redirectStageKey =
-        "reader_redirect_stage";
-
-    const redirectDateKey =
-        "reader_redirect_date";
+const FACEBOOK_URL =
+    "https://www.facebook.com/profile.php?id=61578134287179&locale=vi_VN";
 
 
-    /* ==================================================
-       CẤU HÌNH SUPABASE
-    ================================================== */
+/* ==================================================
+   ẢNH HƯỚNG DẪN
+================================================== */
 
-    const SUPABASE_URL =
-        "https://YOUR-PROJECT.supabase.co";
-
-    const SUPABASE_ANON_KEY =
-        "YOUR_SUPABASE_ANON_KEY";
+const GUIDE_IMAGE =
+    "../codetruyen/huong-dan.jpg";
 
 
-    /* ==================================================
-       XÁC ĐỊNH ID TRUYỆN
-       
-       Ưu tiên:
-       ?id=123
+/* ==================================================
+   LINK TIKTOK + LAZADA
+================================================== */
 
-       Nếu không có:
-       dùng đường dẫn file truyện.
-    ================================================== */
+const TIKTOK_URL =
+    "https://www.tiktok.com/t/ZSVaFpSNR/";
 
-    const params =
-        new URLSearchParams(
-            window.location.search
+const LAZADA_URL =
+    "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE";
+
+
+/* ==================================================
+   THỜI GIAN CẦN DÙNG TRONG WEB
+================================================== */
+
+const TEN_MINUTES =
+    10 * 60 * 1000;
+
+
+/* ==================================================
+   LOCAL STORAGE
+================================================== */
+
+const unlockDateKey =
+    "reader_unlock_date";
+
+const unlockTimeKey =
+    "reader_unlock_time";
+
+const redirectStageKey =
+    "reader_redirect_stage";
+
+const redirectDateKey =
+    "reader_redirect_date";
+
+
+/* ==================================================
+   BỘ ĐẾM THỜI GIAN SỬ DỤNG WEB
+================================================== */
+
+/*
+   Lưu tổng thời gian đã sử dụng trong web.
+
+   Không tính thời gian:
+   - Đóng web
+   - Chuyển sang TikTok
+   - Chuyển sang Lazada
+   - Chuyển sang ứng dụng khác
+   - Tắt màn hình / web bị ẩn
+
+   Mỗi ngày có bộ đếm riêng.
+*/
+
+const activeTimeKey =
+    "reader_active_time";
+
+const activeTimeDateKey =
+    "reader_active_time_date";
+
+let activeStartTime = null;
+
+let activeTimer = null;
+
+
+/* ==================================================
+   CẤU HÌNH SUPABASE
+================================================== */
+
+const SUPABASE_URL =
+    "https://YOUR-PROJECT.supabase.co";
+
+const SUPABASE_ANON_KEY =
+    "YOUR_SUPABASE_ANON_KEY";
+
+
+/* ==================================================
+   XÁC ĐỊNH ID TRUYỆN
+================================================== */
+
+const params =
+    new URLSearchParams(
+        window.location.search
+    );
+
+const storyId =
+    params.get("id") ||
+    window.location.pathname;
+
+
+if (!storyId) {
+
+    console.warn(
+        "⚠️ Không tìm thấy story id."
+    );
+
+}
+
+
+/* ==================================================
+   KEY PHIÊN ĐỌC
+================================================== */
+
+const readingSessionKey =
+    `reading_session_${storyId}`;
+
+
+/* ==================================================
+   KEY LƯU VỊ TRÍ ĐỌC
+================================================== */
+
+const readingPositionKey =
+    `reader_position_${storyId}`;
+
+
+/* ==================================================
+   KEY POPUP ĐỌC TIẾP
+================================================== */
+
+const resumePromptKey =
+    `reader_resume_prompt_${storyId}`;
+
+
+/* ==================================================
+   CỜ REDIRECT
+================================================== */
+
+const redirectLeavingKey =
+    "reader_redirect_leaving";
+
+
+/* ==================================================
+   LẤY NGÀY VIỆT NAM
+================================================== */
+
+function getToday() {
+
+    const now =
+        new Date();
+
+    const vietnamTime =
+        new Date(
+            now.getTime() +
+            7 * 60 * 60 * 1000
         );
 
-    const storyId =
-        params.get("id") ||
-        window.location.pathname;
+    const year =
+        vietnamTime.getUTCFullYear();
+
+    const month =
+        String(
+            vietnamTime.getUTCMonth() + 1
+        ).padStart(2, "0");
+
+    const day =
+        String(
+            vietnamTime.getUTCDate()
+        ).padStart(2, "0");
+
+    return `${year}-${month}-${day}`;
+
+}
 
 
-    if (!storyId) {
+/* ==================================================
+   LẤY PASS HÔM NAY
+================================================== */
 
-        console.warn(
-            "⚠️ Không tìm thấy story id."
-        );
+function getTodayPass() {
 
-    }
+    return DAILY_PASSES[getToday()] || null;
 
-
-    /* ==================================================
-       KEY PHIÊN ĐỌC
-
-       Dùng sessionStorage để tính view.
-
-       Mỗi truyện có key riêng.
-    ================================================== */
-
-    const readingSessionKey =
-        `reading_session_${storyId}`;
+}
 
 
-    /* ==================================================
-       KEY LƯU VỊ TRÍ ĐỌC
+/* ==================================================
+   ELEMENTS
+================================================== */
 
-       localStorage:
+const lockedContent =
+    document.getElementById(
+        "lockedContent"
+    );
 
-       reader_position_[storyId]
+const unlockBox =
+    document.getElementById(
+        "unlockBox"
+    );
 
-       → lưu vị trí cuộn truyện.
-    ================================================== */
+const passInput =
+    document.getElementById(
+        "passInput"
+    );
 
-    const readingPositionKey =
-        `reader_position_${storyId}`;
+const unlockBtn =
+    document.getElementById(
+        "unlockBtn"
+    );
 
+const passError =
+    document.getElementById(
+        "passError"
+    );
 
-    /* ==================================================
-       KEY POPUP ĐỌC TIẾP
+const facebookLink =
+    document.getElementById(
+        "facebookLink"
+    );
 
-       sessionStorage:
+const guideImage =
+    document.getElementById(
+        "guideImage"
+    );
 
-       Chỉ hiện popup một lần trong
-       một lần mở truyện.
-    ================================================== */
-
-    const resumePromptKey =
-        `reader_resume_prompt_${storyId}`;
-
-
-    /* ==================================================
-       CỜ REDIRECT
-    ================================================== */
-
-    const redirectLeavingKey =
-        "reader_redirect_leaving";
-
-
-    /* ==================================================
-       LẤY NGÀY HIỆN TẠI THEO GIỜ VIỆT NAM
-    ================================================== */
-
-    function getToday() {
-
-        const now =
-            new Date();
-
-        const vietnamTime =
-            new Date(
-                now.getTime() +
-                7 * 60 * 60 * 1000
-            );
-
-        const year =
-            vietnamTime.getUTCFullYear();
-
-        const month =
-            String(
-                vietnamTime.getUTCMonth() + 1
-            ).padStart(2, "0");
-
-        const day =
-            String(
-                vietnamTime.getUTCDate()
-            ).padStart(2, "0");
-
-        return `${year}-${month}-${day}`;
-    }
+const storyElement =
+    document.getElementById(
+        "story"
+    );
 
 
-    /* ==================================================
-       LẤY PASS CỦA NGÀY HIỆN TẠI
-    ================================================== */
+/* ==================================================
+   KIỂM TRA HTML
+================================================== */
 
-    function getTodayPass() {
+if (
+    !lockedContent ||
+    !unlockBox ||
+    !passInput ||
+    !unlockBtn ||
+    !passError ||
+    !facebookLink ||
+    !guideImage
+) {
 
-        const today =
-            getToday();
+    console.error(
+        "❌ Thiếu thành phần HTML mở khóa truyện."
+    );
 
-        return (
-            DAILY_PASSES[today] ||
-            null
-        );
+    return;
 
-    }
-
-
-    /* ==================================================
-       ELEMENTS
-    ================================================== */
-
-    const lockedContent =
-        document.getElementById(
-            "lockedContent"
-        );
-
-    const unlockBox =
-        document.getElementById(
-            "unlockBox"
-        );
-
-    const passInput =
-        document.getElementById(
-            "passInput"
-        );
-
-    const unlockBtn =
-        document.getElementById(
-            "unlockBtn"
-        );
-
-    const passError =
-        document.getElementById(
-            "passError"
-        );
-
-    const facebookLink =
-        document.getElementById(
-            "facebookLink"
-        );
-
-    const guideImage =
-        document.getElementById(
-            "guideImage"
-        );
-
-    const storyElement =
-        document.getElementById(
-            "story"
-        );
+}
 
 
-    /* ==================================================
-       KIỂM TRA HTML
-    ================================================== */
+/* ==================================================
+   KIỂM TRA ĐÃ MỞ KHÓA HÔM NAY
+================================================== */
+
+function isUnlockedToday() {
+
+    return (
+        localStorage.getItem(
+            unlockDateKey
+        ) === getToday()
+    );
+
+}
+
+
+/* ==================================================
+   LẤY STAGE REDIRECT
+================================================== */
+
+function getRedirectStage() {
 
     if (
-        !lockedContent ||
-        !unlockBox ||
-        !passInput ||
-        !unlockBtn ||
-        !passError ||
-        !facebookLink ||
-        !guideImage
+        localStorage.getItem(
+            redirectDateKey
+        ) !== getToday()
     ) {
 
-        console.error(
-            "❌ Thiếu thành phần HTML mở khóa truyện."
-        );
+        return 0;
 
+    }
+
+    return Number(
+        localStorage.getItem(
+            redirectStageKey
+        )
+    ) || 0;
+
+}
+
+
+/* ==================================================
+   ĐÃ XONG TIKTOK + LAZADA?
+================================================== */
+
+function isRedirectFinishedToday() {
+
+    return (
+        getRedirectStage() >= 2
+    );
+
+}
+
+
+/* ==================================================
+   KHÓA TRUYỆN
+================================================== */
+
+function lockContent() {
+
+    pauseActiveTime();
+
+    lockedContent.style.display =
+        "none";
+
+    unlockBox.style.display =
+        "block";
+
+}
+
+
+/* ==================================================
+   TẠO SESSION ĐỌC
+================================================== */
+
+function createReadingSession() {
+
+    const token =
+        Date.now().toString() +
+        "_" +
+        Math.random()
+            .toString(36)
+            .slice(2);
+
+    sessionStorage.setItem(
+        readingSessionKey,
+        token
+    );
+
+    return token;
+
+}
+
+
+/* ==================================================
+   KIỂM TRA SESSION
+================================================== */
+
+function hasReadingSession() {
+
+    return Boolean(
+        sessionStorage.getItem(
+            readingSessionKey
+        )
+    );
+
+}
+
+
+/* ==================================================
+   TÍNH VIEW
+================================================== */
+
+async function addViewOncePerReadingSession() {
+
+    if (!storyId) {
         return;
-
     }
 
-
-    /* ==================================================
-       KIỂM TRA ĐÃ MỞ KHÓA HÔM NAY
-    ================================================== */
-
-    function isUnlockedToday() {
-
-        return (
-            localStorage.getItem(
-                unlockDateKey
-            ) === getToday()
-        );
-
-    }
-
-
-    /* ==================================================
-       LẤY STAGE REDIRECT
-    ================================================== */
-
-    function getRedirectStage() {
-
-        if (
-            localStorage.getItem(
-                redirectDateKey
-            ) !== getToday()
-        ) {
-
-            return 0;
-
-        }
-
-        return Number(
-            localStorage.getItem(
-                redirectStageKey
-            )
-        ) || 0;
-
-    }
-
-
-    /* ==================================================
-       KIỂM TRA ĐÃ XONG REDIRECT HÔM NAY
-    ================================================== */
-
-    function isRedirectFinishedToday() {
-
-        return (
-            getRedirectStage() >= 2
-        );
-
-    }
-
-
-    /* ==================================================
-       KHÓA TRUYỆN
-    ================================================== */
-
-    function lockContent() {
-
-        lockedContent.style.display =
-            "none";
-
-        unlockBox.style.display =
-            "block";
-
-    }
-
-
-    /* ==================================================
-       TẠO SESSION ĐỌC
-    ================================================== */
-
-    function createReadingSession() {
-
-        const token =
-            Date.now().toString() +
-            "_" +
-            Math.random()
-                .toString(36)
-                .slice(2);
-
-        sessionStorage.setItem(
-            readingSessionKey,
-            token
-        );
-
-        return token;
-
-    }
-
-
-    /* ==================================================
-       KIỂM TRA ĐÃ CÓ SESSION CHƯA
-    ================================================== */
-
-    function hasReadingSession() {
-
-        return Boolean(
-            sessionStorage.getItem(
-                readingSessionKey
-            )
-        );
-
-    }
-
-
-    /* ==================================================
-       TÍNH VIEW
-    ================================================== */
-
-    async function addViewOncePerReadingSession() {
-
-        if (!storyId) {
-            return;
-        }
-
-
-        if (hasReadingSession()) {
-
-            console.log(
-                "👁️ Phiên đọc đã tồn tại → không cộng view.",
-                "Truyện:",
-                storyId
-            );
-
-            return;
-
-        }
-
-
-        createReadingSession();
-
+    if (hasReadingSession()) {
 
         console.log(
-            "👁️ Tạo phiên đọc mới.",
+            "👁️ Phiên đọc đã tồn tại → không cộng view.",
             "Truyện:",
             storyId
         );
 
+        return;
 
-        try {
+    }
 
-            const response =
-                await fetch(
-                    `${SUPABASE_URL}/rest/v1/rpc/increment_story_view`,
-                    {
-                        method: "POST",
+    createReadingSession();
 
-                        headers: {
+    console.log(
+        "👁️ Tạo phiên đọc mới.",
+        "Truyện:",
+        storyId
+    );
 
-                            "Content-Type":
-                                "application/json",
+    try {
 
-                            "apikey":
-                                SUPABASE_ANON_KEY,
+        const response =
+            await fetch(
+                `${SUPABASE_URL}/rest/v1/rpc/increment_story_view`,
+                {
 
-                            "Authorization":
-                                `Bearer ${SUPABASE_ANON_KEY}`
+                    method: "POST",
 
-                        },
+                    headers: {
 
-                        body: JSON.stringify({
+                        "Content-Type":
+                            "application/json",
 
-                            story_id:
-                                Number(storyId)
+                        "apikey":
+                            SUPABASE_ANON_KEY,
 
-                        })
+                        "Authorization":
+                            `Bearer ${SUPABASE_ANON_KEY}`
 
-                    }
-                );
+                    },
 
+                    body: JSON.stringify({
 
-            if (!response.ok) {
+                        story_id:
+                            Number(storyId)
 
-                const errorText =
-                    await response.text();
+                    })
 
-                console.error(
-                    "❌ Supabase lỗi khi cộng view:",
-                    errorText
-                );
-
-
-                sessionStorage.removeItem(
-                    readingSessionKey
-                );
-
-                return;
-
-            }
-
-
-            console.log(
-                "✅ Đã cộng 1 view.",
-                "Truyện:",
-                storyId
+                }
             );
 
-        }
+        if (!response.ok) {
 
-        catch (error) {
+            const errorText =
+                await response.text();
 
             console.error(
-                "❌ Không thể kết nối Supabase:",
-                error
+                "❌ Supabase lỗi khi cộng view:",
+                errorText
             );
-
 
             sessionStorage.removeItem(
                 readingSessionKey
             );
 
+            return;
+
         }
+
+        console.log(
+            "✅ Đã cộng 1 view.",
+            "Truyện:",
+            storyId
+        );
 
     }
 
+    catch (error) {
 
-    /* ==================================================
-       LẤY AUDIO POSITION
-       
-       audio.js cũng lưu riêng.
-       script.js đọc lại để lưu chung
-       trong reader_position.
-    ================================================== */
+        console.error(
+            "❌ Không thể kết nối Supabase:",
+            error
+        );
 
-    function getSavedAudioTime() {
+        sessionStorage.removeItem(
+            readingSessionKey
+        );
 
-        const value =
-            parseFloat(
-                localStorage.getItem(
-                    `reader_audio_position_${storyId}`
-                )
+    }
+
+}
+
+
+/* ==================================================
+   LẤY AUDIO POSITION
+================================================== */
+
+function getSavedAudioTime() {
+
+    const value =
+        parseFloat(
+            localStorage.getItem(
+                `reader_audio_position_${storyId}`
+            )
+        );
+
+    if (
+        !Number.isFinite(value) ||
+        value < 0
+    ) {
+
+        return 0;
+
+    }
+
+    return value;
+
+}
+
+
+/* ==================================================
+   LẤY VỊ TRÍ ĐỌC
+================================================== */
+
+function getSavedReadingPosition() {
+
+    try {
+
+        const saved =
+            localStorage.getItem(
+                readingPositionKey
             );
+
+        if (!saved) {
+            return null;
+        }
+
+        const data =
+            JSON.parse(saved);
 
         if (
-            !Number.isFinite(value) ||
-            value < 0
+            !data ||
+            !Number.isFinite(
+                Number(data.scrollY)
+            )
         ) {
-
-            return 0;
-
-        }
-
-        return value;
-
-    }
-
-
-    /* ==================================================
-       LẤY VỊ TRÍ ĐỌC ĐÃ LƯU
-    ================================================== */
-
-    function getSavedReadingPosition() {
-
-        try {
-
-            const saved =
-                localStorage.getItem(
-                    readingPositionKey
-                );
-
-            if (!saved) {
-                return null;
-            }
-
-
-            const data =
-                JSON.parse(saved);
-
-
-            if (
-                !data ||
-                !Number.isFinite(
-                    Number(data.scrollY)
-                )
-            ) {
-
-                return null;
-
-            }
-
-
-            return {
-
-                scrollY:
-                    Number(data.scrollY) || 0,
-
-                audioTime:
-                    Number(data.audioTime) || 0,
-
-                timestamp:
-                    Number(data.timestamp) || 0
-
-            };
-
-        }
-
-        catch (error) {
-
-            console.warn(
-                "Không đọc được vị trí truyện:",
-                error
-            );
 
             return null;
 
         }
 
-    }
-
-
-    /* ==================================================
-       LƯU VỊ TRÍ ĐỌC
-    ================================================== */
-
-    function saveReadingPosition() {
-
-        if (!storyId) {
-            return;
-        }
-
-
-        /*
-           Không lưu khi truyện đang bị khóa.
-        */
-
-        if (!isUnlockedToday()) {
-            return;
-        }
-
-
-        const scrollY =
-            Math.max(
-                0,
-                window.scrollY ||
-                window.pageYOffset ||
-                0
-            );
-
-
-        /*
-           Nếu người đọc chưa đi khỏi đầu trang
-           thì không cần lưu.
-        */
-
-        if (scrollY < 100) {
-
-            return;
-
-        }
-
-
-        const data = {
+        return {
 
             scrollY:
-                scrollY,
+                Number(data.scrollY) || 0,
 
             audioTime:
-                getSavedAudioTime(),
+                Number(data.audioTime) || 0,
 
             timestamp:
-                Date.now()
+                Number(data.timestamp) || 0
 
         };
 
+    }
 
-        try {
+    catch (error) {
 
-            localStorage.setItem(
-                readingPositionKey,
-                JSON.stringify(data)
-            );
+        console.warn(
+            "Không đọc được vị trí truyện:",
+            error
+        );
 
-        }
-
-        catch (error) {
-
-            console.warn(
-                "Không thể lưu vị trí đọc:",
-                error
-            );
-
-        }
+        return null;
 
     }
 
+}
 
-    /* ==================================================
-       XÓA VỊ TRÍ ĐỌC
-    ================================================== */
 
-    function clearReadingPosition() {
+/* ==================================================
+   LƯU VỊ TRÍ ĐỌC
+================================================== */
 
-        try {
+function saveReadingPosition() {
 
-            localStorage.removeItem(
-                readingPositionKey
-            );
+    if (!storyId) {
+        return;
+    }
 
-            localStorage.removeItem(
-                `reader_audio_position_${storyId}`
-            );
+    if (!isUnlockedToday()) {
+        return;
+    }
 
-            localStorage.removeItem(
-                `reader_audio_duration_${storyId}`
-            );
+    const scrollY =
+        Math.max(
+            0,
+            window.scrollY ||
+            window.pageYOffset ||
+            0
+        );
 
-        }
+    if (scrollY < 100) {
+        return;
+    }
 
-        catch (error) {
+    const data = {
 
-            console.warn(
-                "Không thể xóa vị trí đọc:",
-                error
-            );
+        scrollY:
+            scrollY,
 
-        }
+        audioTime:
+            getSavedAudioTime(),
+
+        timestamp:
+            Date.now()
+
+    };
+
+    try {
+
+        localStorage.setItem(
+            readingPositionKey,
+            JSON.stringify(data)
+        );
 
     }
 
+    catch (error) {
 
-    /* ==================================================
-       TẠO POPUP ĐỌC TIẾP
-    ================================================== */
+        console.warn(
+            "Không thể lưu vị trí đọc:",
+            error
+        );
 
-    function createResumePopup() {
+    }
+
+}
+
+
+/* ==================================================
+   XÓA VỊ TRÍ ĐỌC
+================================================== */
+
+function clearReadingPosition() {
+
+    try {
+
+        localStorage.removeItem(
+            readingPositionKey
+        );
+
+        localStorage.removeItem(
+            `reader_audio_position_${storyId}`
+        );
+
+        localStorage.removeItem(
+            `reader_audio_duration_${storyId}`
+        );
+
+    }
+
+    catch (error) {
+
+        console.warn(
+            "Không thể xóa vị trí đọc:",
+            error
+        );
+
+    }
+
+}
+
+
+/* ==================================================
+   TÍNH THỜI GIAN SỬ DỤNG WEB
+================================================== */
+
+function getActiveTime() {
+
+    const today =
+        getToday();
+
+    const savedDate =
+        localStorage.getItem(
+            activeTimeDateKey
+        );
+
+    if (
+        savedDate !== today
+    ) {
+
+        localStorage.setItem(
+            activeTimeDateKey,
+            today
+        );
+
+        localStorage.setItem(
+            activeTimeKey,
+            "0"
+        );
+
+        return 0;
+
+    }
+
+    return Number(
+        localStorage.getItem(
+            activeTimeKey
+        )
+    ) || 0;
+
+}
+
+
+/* ==================================================
+   LƯU THỜI GIAN ĐANG SỬ DỤNG
+================================================== */
+
+function saveActiveTime() {
+
+    if (!isUnlockedToday()) {
+        return;
+    }
+
+    if (activeStartTime === null) {
+        return;
+    }
+
+    const now =
+        Date.now();
+
+    const elapsed =
+        now - activeStartTime;
+
+    if (elapsed > 0) {
+
+        const oldTime =
+            getActiveTime();
+
+        localStorage.setItem(
+            activeTimeKey,
+            String(
+                oldTime + elapsed
+            )
+        );
+
+    }
+
+    activeStartTime = null;
+
+}
+
+
+/* ==================================================
+   BẮT ĐẦU TÍNH THỜI GIAN
+================================================== */
+
+function startActiveTime() {
+
+    if (!isUnlockedToday()) {
+        return;
+    }
+
+    if (activeStartTime !== null) {
+        return;
+    }
+
+    if (
+        document.visibilityState !==
+        "visible"
+    ) {
+
+        return;
+
+    }
+
+    if (
+        isTenMinutesPassed()
+    ) {
+
+        return;
+
+    }
+
+    activeStartTime =
+        Date.now();
+
+    console.log(
+        "▶️ Bắt đầu tính thời gian ở trong web."
+    );
+
+}
+
+
+/* ==================================================
+   DỪNG TÍNH THỜI GIAN
+================================================== */
+
+function pauseActiveTime() {
+
+    saveActiveTime();
+
+    console.log(
+        "⏸️ Dừng tính thời gian ở trong web."
+    );
+
+}
+
+
+/* ==================================================
+   CÒN BAO NHIÊU THỜI GIAN?
+================================================== */
+
+function getRemainingTime() {
+
+    const used =
+        getActiveTime();
+
+    return Math.max(
+        0,
+        TEN_MINUTES - used
+    );
+
+}
+
+
+/* ==================================================
+   ĐỦ 10 PHÚT CHƯA?
+================================================== */
+
+function isTenMinutesPassed() {
+
+    return (
+        getActiveTime() >= TEN_MINUTES
+    );
+
+}
+
+
+/* ==================================================
+   THEO DÕI TRẠNG THÁI WEB
+================================================== */
+
+document.addEventListener(
+    "visibilitychange",
+    function () {
 
         if (
-            document.getElementById(
-                "readerResumePopup"
-            )
+            document.visibilityState ===
+            "visible"
         ) {
 
-            return;
+            if (
+                isUnlockedToday()
+            ) {
+
+                startActiveTime();
+
+            }
 
         }
 
+        else {
 
-        const popup =
-            document.createElement("div");
+            pauseActiveTime();
 
-        popup.id =
-            "readerResumePopup";
+        }
+
+    }
+);
 
 
-        popup.innerHTML = `
+/* ==================================================
+   LƯU KHI ĐÓNG TAB / CHUYỂN TRANG
+================================================== */
 
-            <div class="reader-resume-overlay">
+window.addEventListener(
+    "pagehide",
+    function () {
 
-                <div class="reader-resume-box">
+        pauseActiveTime();
 
-                    <div class="reader-resume-icon">
-                        📖
-                    </div>
+        saveReadingPosition();
 
-                    <div class="reader-resume-title">
-                        Bạn có muốn đọc tiếp?
-                    </div>
+    }
+);
 
-                    <div class="reader-resume-description">
-                        Hệ thống đã lưu vị trí bạn đang đọc.
-                        Bạn có muốn tiếp tục từ vị trí đó không?
-                    </div>
 
-                    <div class="reader-resume-buttons">
+/* ==================================================
+   TỰ ĐỘNG LƯU THỜI GIAN MỖI GIÂY
+================================================== */
 
-                        <button
-                            id="resumeYesBtn"
-                            class="reader-resume-btn reader-resume-yes"
-                            type="button"
-                        >
-                            ▶ Đọc tiếp
-                        </button>
+activeTimer =
+    setInterval(
+        function () {
 
-                        <button
-                            id="resumeNoBtn"
-                            class="reader-resume-btn reader-resume-no"
-                            type="button"
-                        >
-                            ↩ Đọc từ đầu
-                        </button>
+            if (
+                document.visibilityState ===
+                "visible"
+            ) {
 
-                    </div>
+                saveActiveTime();
+
+                startActiveTime();
+
+            }
+
+        },
+        1000
+    );
+
+
+/* ==================================================
+   TẠO POPUP ĐỌC TIẾP
+================================================== */
+
+function createResumePopup() {
+
+    if (
+        document.getElementById(
+            "readerResumePopup"
+        )
+    ) {
+
+        return;
+
+    }
+
+    const popup =
+        document.createElement("div");
+
+    popup.id =
+        "readerResumePopup";
+
+    popup.innerHTML = `
+
+        <div class="reader-resume-overlay">
+
+            <div class="reader-resume-box">
+
+                <div class="reader-resume-icon">
+                    📖
+                </div>
+
+                <div class="reader-resume-title">
+                    Bạn có muốn đọc tiếp?
+                </div>
+
+                <div class="reader-resume-description">
+                    Hệ thống đã lưu vị trí bạn đang đọc.
+                    Bạn có muốn tiếp tục từ vị trí đó không?
+                </div>
+
+                <div class="reader-resume-buttons">
+
+                    <button
+                        id="resumeYesBtn"
+                        class="reader-resume-btn reader-resume-yes"
+                        type="button"
+                    >
+                        ▶ Đọc tiếp
+                    </button>
+
+                    <button
+                        id="resumeNoBtn"
+                        class="reader-resume-btn reader-resume-no"
+                        type="button"
+                    >
+                        ↩ Đọc từ đầu
+                    </button>
 
                 </div>
 
             </div>
 
-        `;
+        </div>
 
+    `;
 
-        document.body.appendChild(
-            popup
+    document.body.appendChild(
+        popup
+    );
+
+    const yesBtn =
+        document.getElementById(
+            "resumeYesBtn"
+        );
+
+    const noBtn =
+        document.getElementById(
+            "resumeNoBtn"
         );
 
 
-        const yesBtn =
-            document.getElementById(
-                "resumeYesBtn"
+    /* ==================================================
+       ĐỌC TIẾP
+    ================================================== */
+
+    yesBtn.addEventListener(
+        "click",
+        function () {
+
+            popup.remove();
+
+            sessionStorage.setItem(
+                resumePromptKey,
+                "1"
             );
 
-        const noBtn =
-            document.getElementById(
-                "resumeNoBtn"
-            );
+            const saved =
+                getSavedReadingPosition();
 
+            if (!saved) {
+                return;
+            }
 
-        /* ==================================================
-           ĐỌC TIẾP
-        ================================================== */
+            window.readerResumeAudioTime =
+                Number(saved.audioTime) || 0;
 
-        yesBtn.addEventListener(
-            "click",
-            function () {
+            requestAnimationFrame(
+                function () {
 
-                popup.remove();
+                    setTimeout(
+                        function () {
 
+                            window.scrollTo({
 
-                sessionStorage.setItem(
-                    resumePromptKey,
-                    "1"
-                );
+                                top:
+                                    saved.scrollY,
 
+                                behavior:
+                                    "smooth"
 
-                const saved =
-                    getSavedReadingPosition();
+                            });
 
+                        },
+                        100
+                    );
 
-                if (!saved) {
-                    return;
                 }
+            );
 
+            window.dispatchEvent(
+                new CustomEvent(
+                    "readerResumeAudio",
+                    {
 
-                /*
-                   Gửi vị trí audio cho audio.js.
-                */
+                        detail: {
 
-                window.readerResumeAudioTime =
-                    Number(saved.audioTime) || 0;
-
-
-                /*
-                   Cuộn đến vị trí cũ.
-
-                   Dùng requestAnimationFrame để
-                   đảm bảo trình duyệt đã render trang.
-                */
-
-                requestAnimationFrame(
-                    function () {
-
-                        setTimeout(
-                            function () {
-
-                                window.scrollTo({
-
-                                    top:
-                                        saved.scrollY,
-
-                                    behavior:
-                                        "smooth"
-
-                                });
-
-                            },
-                            100
-                        );
-
-                    }
-                );
-
-
-                /*
-                   Báo cho audio.js.
-                */
-
-                window.dispatchEvent(
-                    new CustomEvent(
-                        "readerResumeAudio",
-                        {
-                            detail: {
-
-                                time:
-                                    Number(
-                                        saved.audioTime
-                                    ) || 0
-
-                            }
+                            time:
+                                Number(
+                                    saved.audioTime
+                                ) || 0
 
                         }
-                    )
-                );
 
-            }
-        );
+                    }
+                )
+            );
 
-
-        /* ==================================================
-           ĐỌC TỪ ĐẦU
-        ================================================== */
-
-        noBtn.addEventListener(
-            "click",
-            function () {
-
-                popup.remove();
-
-
-                sessionStorage.setItem(
-                    resumePromptKey,
-                    "1"
-                );
-
-
-                clearReadingPosition();
-
-
-                window.readerResumeAudioTime =
-                    0;
-
-
-                window.dispatchEvent(
-                    new CustomEvent(
-                        "readerResetAudio"
-                    )
-                );
-
-
-                window.scrollTo({
-
-                    top: 0,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-        );
-
-    }
+        }
+    );
 
 
     /* ==================================================
-       KIỂM TRA CÓ NÊN HIỆN POPUP
+       ĐỌC TỪ ĐẦU
     ================================================== */
 
-    function checkResumeReading() {
+    noBtn.addEventListener(
+        "click",
+        function () {
 
-        if (!storyId) {
-            return;
-        }
+            popup.remove();
 
-
-        /*
-           Quan trọng:
-           Nếu truyện đang khóa thì không hiện
-           popup đọc tiếp đè lên bảng pass.
-        */
-
-        if (!isUnlockedToday()) {
-            return;
-        }
-
-
-        /*
-           Chỉ hiện một lần trong phiên.
-        */
-
-        if (
-            sessionStorage.getItem(
-                resumePromptKey
-            ) === "1"
-        ) {
-
-            return;
-
-        }
-
-
-        const saved =
-            getSavedReadingPosition();
-
-
-        if (!saved) {
-            return;
-        }
-
-
-        const hasScrollPosition =
-            Number(saved.scrollY) > 300;
-
-
-        const hasAudioPosition =
-            Number(saved.audioTime) > 5;
-
-
-        if (
-            !hasScrollPosition &&
-            !hasAudioPosition
-        ) {
-
-            return;
-
-        }
-
-
-        setTimeout(
-            function () {
-
-                createResumePopup();
-
-            },
-            700
-        );
-
-    }
-
-
-    /* ==================================================
-       MỞ KHÓA TRUYỆN
-    ================================================== */
-
-    function unlockContent(
-        scrollToTop = false
-    ) {
-
-        lockedContent.style.display =
-            "block";
-
-        unlockBox.style.display =
-            "none";
-
-
-        const today =
-            getToday();
-
-
-        const oldUnlockDate =
-            localStorage.getItem(
-                unlockDateKey
+            sessionStorage.setItem(
+                resumePromptKey,
+                "1"
             );
 
+            clearReadingPosition();
 
-        if (
-            oldUnlockDate !== today
-        ) {
+            window.readerResumeAudioTime =
+                0;
 
-            localStorage.setItem(
-                unlockDateKey,
-                today
+            window.dispatchEvent(
+                new CustomEvent(
+                    "readerResetAudio"
+                )
             );
-
-            localStorage.setItem(
-                unlockTimeKey,
-                Date.now().toString()
-            );
-
-
-            localStorage.setItem(
-                redirectStageKey,
-                "0"
-            );
-
-            localStorage.setItem(
-                redirectDateKey,
-                today
-            );
-
-
-            console.log(
-                "⏱️ Bắt đầu tính 10 phút từ lúc mở khóa."
-            );
-
-        }
-
-
-        /*
-           Tính view.
-        */
-
-        addViewOncePerReadingSession();
-
-
-        passInput.value =
-            "";
-
-        passError.textContent =
-            "";
-
-
-        /*
-           Nếu người dùng vừa nhập pass thành công
-           thì không tự hiện popup ngay lập tức.
-
-           Chỉ hiện popup nếu trước đó đã có
-           vị trí đọc cũ.
-        */
-
-        if (scrollToTop) {
 
             window.scrollTo({
 
@@ -1195,644 +1201,816 @@ window.addEventListener("DOMContentLoaded", function () {
             });
 
         }
+    );
+
+}
 
 
-        /*
-           Cho trình duyệt render nội dung
-           rồi mới kiểm tra vị trí đọc.
-        */
+/* ==================================================
+   KIỂM TRA POPUP ĐỌC TIẾP
+================================================== */
 
-        setTimeout(
-            function () {
+function checkResumeReading() {
 
-                checkResumeReading();
+    if (!storyId) {
+        return;
+    }
 
-            },
-            300
+    if (!isUnlockedToday()) {
+        return;
+    }
+
+    if (
+        sessionStorage.getItem(
+            resumePromptKey
+        ) === "1"
+    ) {
+
+        return;
+
+    }
+
+    const saved =
+        getSavedReadingPosition();
+
+    if (!saved) {
+        return;
+    }
+
+    const hasScrollPosition =
+        Number(saved.scrollY) > 300;
+
+    const hasAudioPosition =
+        Number(saved.audioTime) > 5;
+
+    if (
+        !hasScrollPosition &&
+        !hasAudioPosition
+    ) {
+
+        return;
+
+    }
+
+    setTimeout(
+        function () {
+
+            createResumePopup();
+
+        },
+        700
+    );
+
+}
+
+
+/* ==================================================
+   MỞ KHÓA TRUYỆN
+================================================== */
+
+function unlockContent(
+    scrollToTop = false
+) {
+
+    lockedContent.style.display =
+        "block";
+
+    unlockBox.style.display =
+        "none";
+
+    const today =
+        getToday();
+
+    const oldUnlockDate =
+        localStorage.getItem(
+            unlockDateKey
+        );
+
+
+    if (
+        oldUnlockDate !== today
+    ) {
+
+        localStorage.setItem(
+            unlockDateKey,
+            today
+        );
+
+        localStorage.setItem(
+            unlockTimeKey,
+            Date.now().toString()
+        );
+
+        localStorage.setItem(
+            activeTimeKey,
+            "0"
+        );
+
+        localStorage.setItem(
+            activeTimeDateKey,
+            today
+        );
+
+        localStorage.setItem(
+            redirectStageKey,
+            "0"
+        );
+
+        localStorage.setItem(
+            redirectDateKey,
+            today
+        );
+
+        console.log(
+            "⏱️ Bắt đầu tính 10 phút sử dụng web."
         );
 
     }
 
 
-    /* ==================================================
-       GÁN LINK FACEBOOK
-    ================================================== */
+    startActiveTime();
 
-    facebookLink.href =
-        FACEBOOK_URL;
+    addViewOncePerReadingSession();
 
+    passInput.value =
+        "";
 
-    /* ==================================================
-       GÁN ẢNH HƯỚNG DẪN
-    ================================================== */
-
-    guideImage.src =
-        GUIDE_IMAGE;
+    passError.textContent =
+        "";
 
 
-    /* ==================================================
-       KIỂM TRA PASS
-    ================================================== */
+    if (scrollToTop) {
 
-    function checkPass() {
+        window.scrollTo({
 
-        const enteredPass =
-            passInput.value.trim();
+            top: 0,
 
+            behavior: "smooth"
 
-        if (!enteredPass) {
-
-            passError.textContent =
-                "⚠️ Vui lòng nhập mã mở khóa.";
-
-            passInput.focus();
-
-            return;
-
-        }
-
-
-        const today =
-            getToday();
-
-        const todayPass =
-            getTodayPass();
-
-
-        if (!todayPass) {
-
-            passError.textContent =
-                "⚠️ Chưa có mã mở khóa cho ngày hôm nay.";
-
-            console.error(
-                "❌ Chưa cấu hình DAILY_PASSES cho ngày:",
-                today
-            );
-
-            return;
-
-        }
-
-
-        if (
-            enteredPass ===
-            todayPass
-        ) {
-
-            unlockContent(true);
-
-            console.log(
-                "✅ Mở khóa truyện thành công.",
-                "Ngày:",
-                today
-            );
-
-            return;
-
-        }
-
-
-        passError.textContent =
-            "❌ Mã không đúng. Vui lòng kiểm tra lại.";
-
-        passInput.select();
+        });
 
     }
 
 
-    /* ==================================================
-       CLICK MỞ KHÓA
-    ================================================== */
-
-    unlockBtn.addEventListener(
-        "click",
-        checkPass
-    );
-
-
-    /* ==================================================
-       ENTER ĐỂ MỞ KHÓA
-    ================================================== */
-
-    passInput.addEventListener(
-        "keydown",
-        function (event) {
-
-            if (
-                event.key === "Enter"
-            ) {
-
-                event.preventDefault();
-
-                checkPass();
-
-            }
-
-        }
-    );
-
-
-    /* ==================================================
-       TỰ ĐỘNG LƯU VỊ TRÍ KHI CUỘN
-    ================================================== */
-
-    let savePositionTimer = null;
-
-
-    window.addEventListener(
-        "scroll",
+    setTimeout(
         function () {
 
-            if (savePositionTimer) {
-
-                clearTimeout(
-                    savePositionTimer
-                );
-
-            }
-
-
-            savePositionTimer =
-                setTimeout(
-                    function () {
-
-                        saveReadingPosition();
-
-                    },
-                    700
-                );
+            checkResumeReading();
 
         },
-        {
-            passive: true
-        }
+        300
     );
 
+}
 
-    /* ==================================================
-       LƯU NGAY TRƯỚC KHI ĐÓNG TAB
-    ================================================== */
 
-    window.addEventListener(
-        "pagehide",
-        function () {
+/* ==================================================
+   GÁN LINK FACEBOOK
+================================================== */
+
+facebookLink.href =
+    FACEBOOK_URL;
+
+
+/* ==================================================
+   GÁN ẢNH HƯỚNG DẪN
+================================================== */
+
+guideImage.src =
+    GUIDE_IMAGE;
+
+
+/* ==================================================
+   KIỂM TRA PASS
+================================================== */
+
+function checkPass() {
+
+    const enteredPass =
+        passInput.value.trim();
+
+    if (!enteredPass) {
+
+        passError.textContent =
+            "⚠️ Vui lòng nhập mã mở khóa.";
+
+        passInput.focus();
+
+        return;
+
+    }
+
+    const today =
+        getToday();
+
+    const todayPass =
+        getTodayPass();
+
+    if (!todayPass) {
+
+        passError.textContent =
+            "⚠️ Chưa có mã mở khóa cho ngày hôm nay.";
+
+        console.error(
+            "❌ Chưa cấu hình DAILY_PASSES cho ngày:",
+            today
+        );
+
+        return;
+
+    }
+
+    if (
+        enteredPass ===
+        todayPass
+    ) {
+
+        unlockContent(true);
+
+        console.log(
+            "✅ Mở khóa truyện thành công.",
+            "Ngày:",
+            today
+        );
+
+        return;
+
+    }
+
+    passError.textContent =
+        "❌ Mã không đúng. Vui lòng kiểm tra lại.";
+
+    passInput.select();
+
+}
+
+
+/* ==================================================
+   CLICK MỞ KHÓA
+================================================== */
+
+unlockBtn.addEventListener(
+    "click",
+    checkPass
+);
+
+
+/* ==================================================
+   ENTER MỞ KHÓA
+================================================== */
+
+passInput.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Enter"
+        ) {
+
+            event.preventDefault();
+
+            checkPass();
+
+        }
+
+    }
+);
+
+
+/* ==================================================
+   TỰ ĐỘNG LƯU VỊ TRÍ CUỘN
+================================================== */
+
+let savePositionTimer = null;
+
+window.addEventListener(
+    "scroll",
+    function () {
+
+        if (savePositionTimer) {
+
+            clearTimeout(
+                savePositionTimer
+            );
+
+        }
+
+        savePositionTimer =
+            setTimeout(
+                function () {
+
+                    saveReadingPosition();
+
+                },
+                700
+            );
+
+    },
+    {
+        passive: true
+    }
+);
+
+
+/* ==================================================
+   LƯU KHI TAB ẨN
+================================================== */
+
+document.addEventListener(
+    "visibilitychange",
+    function () {
+
+        if (
+            document.visibilityState ===
+            "hidden"
+        ) {
 
             saveReadingPosition();
 
         }
-    );
+
+    }
+);
 
 
-    /* ==================================================
-       LƯU KHI TAB CHUYỂN SANG NỀN
-    ================================================== */
+/* ==================================================
+   INTERNAL NAVIGATION
+================================================== */
 
-    document.addEventListener(
-        "visibilitychange",
-        function () {
+/*
+   Rời truyện sang trang khác trong website:
+   → xóa session view.
 
-            if (
-                document.visibilityState ===
-                "hidden"
-            ) {
+   Không xóa vị trí đọc.
 
-                saveReadingPosition();
+   Link ngoài website:
+   → giữ nguyên session.
+*/
 
-            }
+document.addEventListener(
+    "click",
+    function (event) {
 
+        const link =
+            event.target.closest("a");
+
+        if (!link) {
+            return;
         }
-    );
 
+        if (!storyId) {
+            return;
+        }
 
-    /* ==================================================
-       INTERNAL NAVIGATION
+        let targetUrl;
 
-       Người dùng chủ động rời truyện
-       sang trang khác trong website:
+        try {
 
-       → xóa session view.
-
-       Nhưng KHÔNG xóa vị trí đọc.
-    ================================================== */
-
-    document.addEventListener(
-        "click",
-        function (event) {
-
-            const link =
-                event.target.closest("a");
-
-
-            if (!link) {
-                return;
-            }
-
-
-            if (!storyId) {
-                return;
-            }
-
-
-            let targetUrl;
-
-
-            try {
-
-                targetUrl =
-                    new URL(
-                        link.href,
-                        window.location.href
-                    );
-
-            }
-
-            catch {
-
-                return;
-
-            }
-
-
-            /*
-               Link ngoài website:
-               TikTok / Lazada...
-               → không xóa session.
-            */
-
-            if (
-                targetUrl.origin !==
-                window.location.origin
-            ) {
-
-                return;
-
-            }
-
-
-            const currentUrl =
+            targetUrl =
                 new URL(
+                    link.href,
                     window.location.href
                 );
 
+        }
 
-            const targetId =
-                targetUrl.searchParams.get(
-                    "id"
-                );
+        catch {
 
-
-            /*
-               Nếu vẫn ở chính truyện
-               thì không làm gì.
-            */
-
-            if (
-                targetId ===
-                    params.get("id") &&
-                targetUrl.pathname ===
-                    currentUrl.pathname
-            ) {
-
-                return;
-
-            }
-
-
-            /*
-               Trường hợp không có ?id=
-               thì kiểm tra pathname.
-            */
-
-            if (
-                !params.get("id") &&
-                targetUrl.pathname ===
-                    currentUrl.pathname
-            ) {
-
-                return;
-
-            }
-
-
-            /*
-               Người dùng thực sự rời truyện.
-
-               → kết thúc session view.
-
-               Vị trí đọc vẫn giữ trong localStorage.
-            */
-
-            sessionStorage.removeItem(
-                readingSessionKey
-            );
-
-
-            console.log(
-                "🚪 Người dùng rời truyện.",
-                "Kết thúc phiên đọc:",
-                storyId
-            );
-
-        },
-        true
-    );
-
-
-    /* ==================================================
-       GHI NHỚ REDIRECT TRƯỚC KHI CHUYỂN
-    ================================================== */
-
-    function prepareRedirect() {
-
-        sessionStorage.setItem(
-            redirectLeavingKey,
-            "1"
-        );
-
-    }
-
-
-    /* ==================================================
-       REDIRECT TIKTOK / LAZADA
-       
-       Giữ nguyên logic:
-
-       Mở khóa
-          ↓
-       10 phút
-          ↓
-       click
-          ↓
-       TikTok
-          ↓
-       quay lại
-          ↓
-       click
-          ↓
-       Lazada
-          ↓
-       quay lại
-          ↓
-       hết
-    ================================================== */
-
-    document.addEventListener(
-        "click",
-        function () {
-
-            if (
-                !isUnlockedToday()
-            ) {
-
-                return;
-
-            }
-
-
-            if (
-                isRedirectFinishedToday()
-            ) {
-
-                return;
-
-            }
-
-
-            const unlockTime =
-                Number(
-                    localStorage.getItem(
-                        unlockTimeKey
-                    )
-                );
-
-
-            if (!unlockTime) {
-                return;
-            }
-
-
-            const elapsed =
-                Date.now() -
-                unlockTime;
-
-
-            if (
-                elapsed <
-                TEN_MINUTES
-            ) {
-
-                return;
-
-            }
-
-
-            const stage =
-                getRedirectStage();
-
-
-            /* ==================================================
-               STAGE 0 → TIKTOK
-            ================================================== */
-
-            if (
-                stage === 0
-            ) {
-
-                localStorage.setItem(
-                    redirectStageKey,
-                    "1"
-                );
-
-                localStorage.setItem(
-                    redirectDateKey,
-                    getToday()
-                );
-
-
-                prepareRedirect();
-
-
-                console.log(
-                    "⏰ Đã đủ 10 phút."
-                );
-
-                console.log(
-                    "🎵 Chuyển sang TikTok."
-                );
-
-
-                window.location.href =
-                    TIKTOK_URL;
-
-
-                return;
-
-            }
-
-
-            /* ==================================================
-               STAGE 1 → LAZADA
-            ================================================== */
-
-            if (
-                stage === 1
-            ) {
-
-                localStorage.setItem(
-                    redirectStageKey,
-                    "2"
-                );
-
-                localStorage.setItem(
-                    redirectDateKey,
-                    getToday()
-                );
-
-
-                prepareRedirect();
-
-
-                console.log(
-                    "🛒 Chuyển sang Lazada."
-                );
-
-
-                window.location.href =
-                    LAZADA_URL;
-
-
-                return;
-
-            }
-
-        },
-        true
-    );
-
-
-    /* ==================================================
-       KHI TRANG ĐƯỢC HIỂN THỊ LẠI
-
-       Nếu quay lại từ TikTok/Lazada:
-       → giữ nguyên session view.
-    ================================================== */
-
-    window.addEventListener(
-        "pageshow",
-        function () {
-
-            if (
-                sessionStorage.getItem(
-                    redirectLeavingKey
-                )
-            ) {
-
-                sessionStorage.removeItem(
-                    redirectLeavingKey
-                );
-
-
-                console.log(
-                    "↩️ Quay lại từ TikTok/Lazada → giữ nguyên phiên đọc."
-                );
-
-            }
+            return;
 
         }
+
+        if (
+            targetUrl.origin !==
+            window.location.origin
+        ) {
+
+            return;
+
+        }
+
+        const currentUrl =
+            new URL(
+                window.location.href
+            );
+
+        const targetId =
+            targetUrl.searchParams.get(
+                "id"
+            );
+
+        if (
+            targetId ===
+                params.get("id") &&
+            targetUrl.pathname ===
+                currentUrl.pathname
+        ) {
+
+            return;
+
+        }
+
+        if (
+            !params.get("id") &&
+            targetUrl.pathname ===
+                currentUrl.pathname
+        ) {
+
+            return;
+
+        }
+
+        sessionStorage.removeItem(
+            readingSessionKey
+        );
+
+        console.log(
+            "🚪 Người dùng rời truyện.",
+            "Kết thúc phiên đọc:",
+            storyId
+        );
+
+    },
+    true
+);
+
+
+/* ==================================================
+   CHUẨN BỊ REDIRECT
+================================================== */
+
+function prepareRedirect() {
+
+    sessionStorage.setItem(
+        redirectLeavingKey,
+        "1"
     );
 
+}
 
-    /* ==================================================
-       TRẠNG THÁI BAN ĐẦU
-    ================================================== */
 
-    if (
-        isUnlockedToday()
-    ) {
+/* ==================================================
+   KIỂM TRA ĐÚNG LINK REDIRECT
+================================================== */
 
-        /*
-           Đã mở khóa hôm nay.
+function isTikTokLink(link) {
 
-           Không scroll về đầu ở đây.
-           Sau khi mở sẽ kiểm tra vị trí cũ.
-        */
-
-        unlockContent(false);
-
-    }
-    else {
-
-        lockContent();
-
+    if (!link) {
+        return false;
     }
 
+    return (
+        link.href === TIKTOK_URL ||
+        link.href.startsWith(
+            "https://www.tiktok.com/"
+        )
+    );
 
-    /* ==================================================
-       KIỂM TRA MỖI PHÚT
+}
 
-       Sang ngày mới:
 
-       → khóa truyện
-       → reset pass timer
-       → reset TikTok/Lazada
+function isLazadaLink(link) {
 
-       KHÔNG xóa vị trí đọc.
-       KHÔNG xóa session view.
-    ================================================== */
+    if (!link) {
+        return false;
+    }
 
-    setInterval(
-        function () {
+    return (
+        link.href === LAZADA_URL ||
+        link.href.startsWith(
+            "https://s.lazada.vn/"
+        )
+    );
 
-            const savedUnlockDate =
-                localStorage.getItem(
-                    unlockDateKey
+}
+
+
+/* ==================================================
+   REDIRECT TIKTOK → LAZADA
+================================================== */
+
+/*
+   Chỉ bắt đúng link TikTok / Lazada.
+
+   Không ảnh hưởng:
+   - Nút audio
+   - Nút đọc tiếp
+   - Link trang chủ
+   - Link thể loại
+   - Link truyện khác
+*/
+
+document.addEventListener(
+    "click",
+    function (event) {
+
+        if (
+            !isUnlockedToday()
+        ) {
+
+            return;
+
+        }
+
+        const link =
+            event.target.closest("a");
+
+        if (!link) {
+            return;
+        }
+
+        const isTikTok =
+            isTikTokLink(link);
+
+        const isLazada =
+            isLazadaLink(link);
+
+        if (
+            !isTikTok &&
+            !isLazada
+        ) {
+
+            return;
+
+        }
+
+
+        /* ==================================================
+           ĐÃ HOÀN TẤT
+        ================================================== */
+
+        if (
+            isRedirectFinishedToday()
+        ) {
+
+            event.preventDefault();
+
+            console.log(
+                "✅ Đã hoàn thành TikTok và Lazada hôm nay."
+            );
+
+            return;
+
+        }
+
+
+        /* ==================================================
+           CHƯA ĐỦ 10 PHÚT
+        ================================================== */
+
+        if (
+            !isTenMinutesPassed()
+        ) {
+
+            event.preventDefault();
+
+            const remaining =
+                Math.ceil(
+                    getRemainingTime() / 1000
                 );
 
-            const today =
-                getToday();
+            console.log(
+                "⏳ Chưa đủ 10 phút sử dụng web.",
+                "Còn lại:",
+                remaining,
+                "giây"
+            );
+
+            alert(
+                "Bạn cần sử dụng web thêm " +
+                Math.ceil(
+                    getRemainingTime() / 60000
+                ) +
+                " phút nữa."
+            );
+
+            return;
+
+        }
 
 
-            if (
-                savedUnlockDate &&
-                savedUnlockDate !== today
-            ) {
-
-                localStorage.removeItem(
-                    unlockDateKey
-                );
-
-                localStorage.removeItem(
-                    unlockTimeKey
-                );
-
-                localStorage.removeItem(
-                    redirectStageKey
-                );
-
-                localStorage.removeItem(
-                    redirectDateKey
-                );
+        const stage =
+            getRedirectStage();
 
 
-                passInput.value =
-                    "";
+        /* ==================================================
+           STAGE 0 → TIKTOK
+        ================================================== */
 
-                passError.textContent =
-                    "";
+        if (
+            stage === 0
+        ) {
 
+            if (!isTikTok) {
 
-                lockContent();
-
+                event.preventDefault();
 
                 console.log(
-                    "🌙 Sang ngày mới theo giờ Việt Nam → reset pass."
+                    "⚠️ Hãy mở TikTok trước."
                 );
+
+                return;
 
             }
 
-        },
-        60 * 1000
-    );
+            event.preventDefault();
 
+            localStorage.setItem(
+                redirectStageKey,
+                "1"
+            );
+
+            localStorage.setItem(
+                redirectDateKey,
+                getToday()
+            );
+
+            pauseActiveTime();
+
+            prepareRedirect();
+
+            console.log(
+                "⏰ Đủ 10 phút sử dụng web."
+            );
+
+            console.log(
+                "🎵 Chuyển sang TikTok."
+            );
+
+            window.location.href =
+                TIKTOK_URL;
+
+            return;
+
+        }
+
+
+        /* ==================================================
+           STAGE 1 → LAZADA
+        ================================================== */
+
+        if (
+            stage === 1
+        ) {
+
+            if (!isLazada) {
+
+                event.preventDefault();
+
+                console.log(
+                    "⚠️ Hãy quay lại web từ TikTok rồi mở Lazada."
+                );
+
+                return;
+
+            }
+
+            event.preventDefault();
+
+            localStorage.setItem(
+                redirectStageKey,
+                "2"
+            );
+
+            localStorage.setItem(
+                redirectDateKey,
+                getToday()
+            );
+
+            pauseActiveTime();
+
+            prepareRedirect();
+
+            console.log(
+                "🛒 Chuyển sang Lazada."
+            );
+
+            window.location.href =
+                LAZADA_URL;
+
+            return;
+
+        }
+
+    },
+    true
+);
+
+
+/* ==================================================
+   KHI QUAY LẠI TỪ TIKTOK / LAZADA
+================================================== */
+
+window.addEventListener(
+    "pageshow",
+    function () {
+
+        if (
+            sessionStorage.getItem(
+                redirectLeavingKey
+            )
+        ) {
+
+            sessionStorage.removeItem(
+                redirectLeavingKey
+            );
+
+            startActiveTime();
+
+            console.log(
+                "↩️ Quay lại từ TikTok/Lazada."
+            );
+
+            console.log(
+                "▶️ Tiếp tục tính thời gian ở trong web."
+            );
+
+        }
+
+    }
+);
+
+
+/* ==================================================
+   TRẠNG THÁI BAN ĐẦU
+================================================== */
+
+if (
+    isUnlockedToday()
+) {
+
+    unlockContent(false);
+
+}
+else {
+
+    lockContent();
+
+}
+
+
+/* ==================================================
+   KIỂM TRA SANG NGÀY MỚI
+================================================== */
+
+setInterval(
+    function () {
+
+        const savedUnlockDate =
+            localStorage.getItem(
+                unlockDateKey
+            );
+
+        const today =
+            getToday();
+
+        if (
+            savedUnlockDate &&
+            savedUnlockDate !== today
+        ) {
+
+            pauseActiveTime();
+
+            localStorage.removeItem(
+                unlockDateKey
+            );
+
+            localStorage.removeItem(
+                unlockTimeKey
+            );
+
+            localStorage.removeItem(
+                redirectStageKey
+            );
+
+            localStorage.removeItem(
+                redirectDateKey
+            );
+
+            localStorage.removeItem(
+                activeTimeKey
+            );
+
+            localStorage.removeItem(
+                activeTimeDateKey
+            );
+
+            passInput.value =
+                "";
+
+            passError.textContent =
+                "";
+
+            lockContent();
+
+            console.log(
+                "🌙 Sang ngày mới theo giờ Việt Nam → reset pass và thời gian."
+            );
+
+        }
+
+    },
+    60 * 1000
+);
 
 });
