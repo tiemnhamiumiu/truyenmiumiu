@@ -15186,6 +15186,166 @@ Thạch Nghiên không nén nổi thở dài, đành cất tiếng hỏi: "Hoàn
 
 "Thưa Hoàng thượng, thần thiếp chỉ không nhớ mặt người khác, chứ đâu có bị mù!"
 `
+  },{
+    id: 734,
+    title: "Nắng Mới Sau Cơn Mưa",
+    image: "imgngon/735c0040a97404edebc4bf7aadd6a223.jpg",
+    link: "ngontinh/nang-moi-sau-con-mua.html",
+    type: "ngontinh",
+    desc: `Lục Xuyên Tễ yêu tôi, tôi biết điều đó. Nhưng từ khi sự việc ấy xảy ra, anh ấy bắt đầu ghét bỏ tôi.
+
+Anh ấy là thanh mai trúc mã của tôi, đã từng thề non hẹn biển sẽ ở bên tôi suốt đời.
+
+Sau đó, anh ấy gặp một cô gái khác, một người trong sáng và rạng rỡ.
+
+“Vi Vi, anh vẫn luôn coi em như em gái.”
+
+“Dân thường” là một câu chuyện cứu rỗi hiện thực, đã hoàn thành.`
+  },{
+    id: 735,
+    title: "Khi Mèo Hoang Nổi Điên Bảo Vệ Chủ Nhân",
+    image: "imgdam/16bff85d23fdbf4240e3f218c5d3d31a.jpg",
+    link: "dammy/khi-meo-hoang-noi-dien-bao-ve-chu-nhan.html",
+    type: "dammy",
+    desc: `Tôi nuôi một người đàn ông mang theo sự khuyết tật, cô độc và luôn u ám.
+
+Anh ấy chỉ dính lấy tôi, chẳng thích giao thiệp hay chơi đùa cùng bất kỳ ai khác, khiến tôi ngày nào cũng lo sốt vó.
+
+Để anh ấy cởi mở hơn, tôi đã hóa thành hình người để ở bên cạnh anh.
+
+Thế nhưng dường như anh không còn thích tôi như trước nữa: không còn ôm hôn, cũng từ rất lâu rồi chẳng hề gọi tôi là “bảo bảo”.
+
+Cho đến một lần dự tiệc, tôi không kiềm chế nổi, suýt chút nữa đã làm lộ chiếc đuôi mèo của mình.
+
+Hoảng quá, tôi ngã phịch xuống đùi anh, hai tay ôm chặt lấy cổ, cố sức rúc sâu vào lòng anh.
+
+Tôi ghé sát tai anh, thầm thì bằng giọng nói nhỏ xíu:
+
+“Tống Bách Phong, đuôi sắp mọc ra rồi…”
+
+Người đàn ông ngồi trên xe lăn siết chặt vòng tay quanh eo tôi, vẻ mặt lạnh lùng đứng dậy rời khỏi bàn tiệc, như thể đang đi xử lý một rắc rối không nên tồn tại.
+
+Nhưng khi đã lui vào một góc phòng hẹp, anh lại lúc nhẹ lúc nặng xoa nắn cái đuôi của tôi, giọng khàn khàn mang theo ý cười, khẽ khen:
+
+“Giỏi quá, bảo bảo.”`
+  },{
+    id: 736,
+    title: "Mười Kiếp Chờ Đợi Nhau",
+    image: "imgco/6c2991e000ffcb546a00b058fcc34d0c.jpg",
+    link: "cotrang/muoi-kiep-cho-doi-nhau.html",
+    type: "cotrang",
+    desc: `Ba năm đày ải nơi lãnh cung lạnh lẽo, ta đói đến mức chẳng còn thiết tha gì. Trong lúc liều mạng ăn vụng viên đan dược của hoàng đế, ta bất tỉnh nhân sự, chìm vào giấc ngủ dài đằng đẵng ngàn năm.
+
+Đến khi mở mắt tỉnh lại, tỳ nữ Tiểu Đào liền báo cho ta một tin động trời: Thế giới này đã bước sang thế kỷ 21.
+
+Và nàng... đã thành thân với người ta mất rồi.`
+  },{
+    id: 737,
+    title: "Ánh Sao Năm Ấy Rực Rỡ Đêm Đen",
+    image: "imgngon/fa2615a0c358cb94f7d824c07505bae2.jpg",
+    link: "ngontinh/anh-sao-nam-ay-ruc-ro-dem-den.html",
+    type: "ngontinh",
+    desc: `Bố mẹ tôi là những người vô cùng nổi tiếng, nhưng quãng thời gian thơ ấu của tôi chỉ gói gọn qua màn hình tivi lạnh ngắt.
+
+Họ luôn miệt mài nơi chiến trường hiểm nguy, lấy lý do đạn bom khói lửa để gửi gắm tôi cho bà nội chăm sóc ở vùng quê hẻo lánh.
+
+Thế nhưng sau đó, chính họ lại nhận nuôi đứa con gái của người đồng nghiệp quá cố.
+
+Họ mang cô ta theo bên mình, gom hết tất cả sự quan tâm, bù đắp và cưng chiều đáng lẽ thuộc về tôi để trao trọn cho cô ta.
+
+Cô ta nghiễm nhiên trở thành bảo bối nhỏ, được sống trong vòng tay yêu thương của bố mẹ mà chẳng cần phải ngắm nhìn họ qua tấm kính tivi vô hồn.
+
+Đến khi họ bất chợt nhớ ra sự tồn tại của tôi, thì sau một trận sốt cao dường như kéo dài vô tận, tôi đã hoàn toàn quên đi thứ tình cảm ruột thịt ấy.`
+  },{
+    id: 738,
+    title: "Giả Gay Lừa Tình Học Thần",
+    image: "imgdam/3b2bc9dc810356cf74a5368b04f82d18.jpg",
+    link: "dammy/gia-gay-lua-tinh-hoc-than.html",
+    type: "dammy",
+    desc: `Tôi vờ làm gay để lừa học thần viết giúp luận văn tốt nghiệp.
+
+Ai mà ngờ được, ngay sau khi tôi tiện tay bấm nút chặn, cậu ta đã lạnh lùng gửi cho tôi địa chỉ IP máy tính.
+
+"Cậu cũng ở Lan Đại?"
+
+"Tốt nhất cầu cho tôi đừng tìm được cậu."
+
+"Nếu không… tôi đánh chết cậu."`
+  },{
+    id: 739,
+    title: "Hạnh Phúc Không Cướp Đượ̣c",
+    image: "imgco/294ddd9b073125f80d292c520c26fd07.jpg",
+    link: "cotrang/hanh-phuc-khong-cuop-duoc.html",
+    type: "cotrang",
+    desc: `Muội muội trói buộc với hệ thống, dễ dàng cướp đi hết thảy của ta.
+
+Thẩm Hoài từng là mảnh ghép duy nhất ả chưa thể chạm tới.
+
+Cho đến ngày hắn vì báo thù cho ả mà tước đi mạng sống của đứa con gái vừa lọt lòng của chúng ta.
+
+Hắn dẫm lên vệt máu của con trẻ, lạnh lùng buông lời: "Ta đã tỏ tường người cứu mình năm xưa là A Uyển, chẳng phải ngươi. Nay lấy mạng con gái ngươi đền bù, chính là báo ứng!"
+
+Nhưng rõ ràng, ân nhân năm ấy là ta.
+
+Cùng Thẩm Hoài đồng quy vu tận, ta trọng sinh về đúng ngày cứu hắn năm đó.
+
+Lần này, ta thản nhiên đánh xe cán qua tay hắn rồi dứt áo rời đi.
+
+Muội muội chực chờ nhặt của rơi đứng ngẩn ngơ: "?"`
+  },{
+    id: 740,
+    title: "Đêm Nay Trừ Bao Nhiêu Tháng Tiền Nhà",
+    image: "imgngon/302b7adce8d528543c91252774c6c6fc.jpg",
+    link: "ngontinh/dem-nay-tru-bao-nhieu-thang-tien-nha.html",
+    type: "ngontinh",
+    desc: `Tôi diện một bộ trang phục đúng chuẩn tiểu thư nhà giàu, ngoan ngoãn nghe lời mẹ đại gia đi thu tiền nhà.
+
+Phó Hành Diễn vừa kết thúc một trận đấu quyền anh, khắp người đầy vết thương. Anh nhìn tôi, giọng chùng xuống: "Tình hình dạo này hơi kẹt, cô cho tôi khất hai tháng được không?"
+
+Tôi lạnh cự tuyệt ngay lập tức: "Không được đâu. Đêm nay mà không có tiền thì anh chuyển đi giùm."
+
+Người đàn ông chẳng đáp lời, lặng lẽ quay lưng bước vào trong rồi bắt đầu xếp gọn đồ đạc.
+
+Hệ thống lập tức ngoi lên: "Chủ nhân ơi, tới công chuyện rồi nè!"
+
+Phó Hành Diễn vốn là võ sĩ quyền anh chuyên nghiệp. Trong tương lai, anh ấy sẽ gặt hái vô số huy chương danh giá, nhưng hiện tại lại đang ở thời điểm chật vật nhất sự nghiệp.
+
+Tôi khép cửa lại, tiến tới dùng ngón tay chọc chọc vào múi bụng rắn chắc của đối phương, nở nụ cười đầy ẩn ý:
+
+"Hay là... anh dùng thân mình trừ tiền nhà đi?"`
+  },{
+    id: 741,
+    title: "Vừa Nhập Game Đã Bị Sếp Đánh Dấu",
+    image: "imgdam/eda050e7413eec242c26c1b525916ab6.jpg",
+    link: "dammy/vua-nhap-game-da-bi-sep-danh-dau.html",
+    type: "dammy",
+    desc: `Tổng tài vì giải cứu tôi mà vướng kẹt lại trong trò chơi, biến thành gã học thần ABO thanh cao lạnh lùng chốn học đường.
+
+Tôi lại xui xẻo gánh phải thân phận một Alpha biến thái, mang danh chuyên rình rập, quấy rối, thậm chí còn mưu đồ cưỡng ép em trai hắn.
+
+Chẳng mong gì đến việc công lược, chỉ cần tôi vô tình lướt qua trước mặt cũng đủ để hắn ghét bỏ tới cùng cực.
+
+Hệ thống phụ trợ vừa khóc lóc vừa nài nỉ tôi mau chóng thay đổi thân phận.
+
+Tôi chỉ khẽ lắc đầu, tiếp tục ra tay với em trai hắn.
+
+Và rồi cuối cùng.
+
+Tất cả những thủ đoạn ấy… hắn đều trả lại trọn vẹn lên chính thân thể tôi!
+`
+  },{
+    id: 742,
+    title: "Bỏ Chốn Phồn Hoa Về Quê Làm Ruộng",
+    image: "imgco/4b0ee927b5c5da3703ff483232df8f16.jpg",
+    link: "cotrang/bo-chon-phon-hoa-ve-que-lam-ruong.html",
+    type: "cotrang",
+    desc: `Ta sinh ra và lớn lên nơi thôn xóm hẻo lánh suốt mười bảy năm ròng, cho đến một ngày có người từ kinh thành xa xôi tìm tới, báo rằng ta vốn là đích tiểu thư của Hầu phủ.
+
+Nhưng vừa bước chân vào chốn kinh kỳ phồn hoa, họ đã vội vã đem ta gả cho một vị công tử nổi danh ăn chơi lêu lổng.
+
+Sau này, vị công tử ấy gây ra đại họa, cả gia tộc bị tịch thu tài sản, ta chỉ ném cho hắn một chiếc liềm rồi bảo:
+
+"Phu quân, theo ta về quê làm ruộng thôi."`
   },
 
 

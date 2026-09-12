@@ -2,97 +2,425 @@
 <html lang="vi">
 
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>Truyện Mới Miu Miu</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="style.css?v=13"
+  >
+
 </head>
 
 <body>
 
+
+<!-- ==================================================
+     TOP MENU
+================================================== -->
+
 <header class="topbar">
-  <a href="index.html">Trang chủ</a>
-  <a href="ngontinh.html">Ngôn tình</a>
-  <a href="dammy.html">Đam mỹ</a>
-  <a href="cotrang.html">Cổ trang</a>
+
+  <a href="index.html">
+    Trang chủ
+  </a>
+
+  <a href="ngontinh.html">
+    Ngôn tình
+  </a>
+
+  <a href="dammy.html">
+    Đam mỹ
+  </a>
+
+  <a href="cotrang.html">
+    Cổ trang
+  </a>
+
 </header>
 
-<h1 style="text-align:center; color:#ff5722;">TRUYỆN MỚI</h1>
+
+<!-- ==================================================
+     TITLE
+================================================== -->
+
+<h1 style="
+  text-align:center;
+  color:#ff5722;
+">
+  TRUYỆN MỚI
+</h1>
+
+
+<!-- ==================================================
+     SEARCH
+================================================== -->
 
 <div class="search-box">
-  <input type="text" id="search" placeholder="🔍 Tìm truyện...">
+
+  <input
+    type="text"
+    id="search"
+    placeholder="🔍 Tìm Tên Hoặc Số Truyện"
+    autocomplete="off"
+  >
+
 </div>
 
-<div class="container" id="list"></div>
+
+<!-- ==================================================
+     LIST
+================================================== -->
+
+<div
+  class="container"
+  id="list"
+></div>
+
+
+<!-- ==================================================
+     DATA
+================================================== -->
 
 <script src="data.js"></script>
 
+<!-- ==================================================
+     SCRIPT VIEW
+================================================== -->
+
+<script src="script.js"></script>
+
+
 <script>
-const list = document.getElementById("list");
-const search = document.getElementById("search");
+
+
+/* ==================================================
+   ELEMENTS
+================================================== */
+
+const list =
+  document.getElementById("list");
+
+const search =
+  document.getElementById("search");
+
+
+/* ==================================================
+   CHUẨN HÓA TỪ KHÓA
+================================================== */
+
 function normalizeText(str) {
-  return str
+
+  return String(str || "")
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/đ/g, "d")
-    .replace(/Đ/g, "D")
-    .toLowerCase();
+    .replace(
+      /[\u0300-\u036f]/g,
+      ""
+    )
+    .replace(
+      /đ/g,
+      "d"
+    )
+    .replace(
+      /Đ/g,
+      "D"
+    )
+    .toLowerCase()
+    .trim();
+
 }
-stories.forEach(item => {
-  if (item) {
-    item.searchTitle = normalizeText(item.title);
+
+
+/* ==================================================
+   TẠO SEARCH TITLE
+================================================== */
+
+stories.forEach(
+  item => {
+
+    if (!item) {
+      return;
+    }
+
+
+    item.searchTitle =
+      normalizeText(
+        item.title
+      );
+
   }
-});
+);
+
+
+/* ==================================================
+   RENDER
+================================================== */
+
 function render(data) {
 
-    list.innerHTML = "";
+  list.innerHTML = "";
 
-    const sorted = data.filter(item => {
-        if (!item) {
-            console.log("Có item undefined");
-            return false;
-        }
-        return true;
-    }).sort((a, b) => b.id - a.id);
 
-    sorted.forEach((item, index) => {
+  const sorted =
+    data
 
-        if (!item) {
-            console.log("Lỗi ở:", index);
-            return;
-        }
+      .filter(
+        item =>
+          item
+      )
 
-        list.innerHTML += `
-        <a class="book" href="detail.html?id=${item.id}">
-            <img src="${item.image}" alt="">
-            <h2>${item.title}</h2>
+      .sort(
+        (a, b) =>
+          b.id - a.id
+      );
+
+
+  sorted.forEach(
+    (item, index) => {
+
+      if (!item) {
+
+        console.log(
+          "Lỗi ở:",
+          index
+        );
+
+        return;
+
+      }
+
+
+      list.innerHTML += `
+
+        <a
+          class="book"
+          href="detail.html?id=${item.id}"
+        >
+
+          <!-- ẢNH -->
+
+          <img
+            src="${item.image}"
+            alt="${item.title}"
+          >
+
+
+          <!-- LƯỢT XEM -->
+
+          <div class="view-count">
+
+            Lượt xem:
+
+            <span
+              data-view-id="${item.id}"
+            >
+              0
+            </span>
+
+          </div>
+
+
+          <!-- TÊN TRUYỆN -->
+
+          <h2>
+
+            ${item.title}
+
+          </h2>
+
         </a>
-        `;
-    });
-}
-console.log("Số truyện:", stories.length);
 
-stories.forEach((item, index) => {
-    if (!item) {
-        console.log("Phần tử rỗng ở vị trí:", index);
+      `;
+
     }
-});
-// load
-render(stories);
-
-// search
-search.addEventListener("input", function(){
-
-  const value = normalizeText(this.value);
-
-  const filtered = stories.filter(item =>
-    item && item.searchTitle.includes(value)
   );
 
-  render(filtered);
-});
+
+  /* ==================================================
+     CẬP NHẬT VIEW
+
+     Chỉ đọc số view hiện tại.
+     Không tự cộng view.
+  ================================================== */
+
+  if (
+    typeof loadViewCounts ===
+    "function"
+  ) {
+
+    loadViewCounts();
+
+  }
+
+}
+
+
+/* ==================================================
+   DEBUG
+================================================== */
+
+console.log(
+  "Số truyện:",
+  stories.length
+);
+
+
+stories.forEach(
+  (item, index) => {
+
+    if (!item) {
+
+      console.log(
+        "Phần tử rỗng ở vị trí:",
+        index
+      );
+
+    }
+
+  }
+);
+
+
+/* ==================================================
+   LOAD BAN ĐẦU
+================================================== */
+
+render(
+  stories
+);
+
+
+/* ==================================================
+   TÌM KIẾM THEO:
+
+   1. TÊN TRUYỆN
+   2. ID TRUYỆN
+================================================== */
+
+search.addEventListener(
+  "input",
+  function () {
+
+    const value =
+      normalizeText(
+        this.value
+      );
+
+
+    /* ==================================================
+       Ô TÌM KIẾM TRỐNG
+    ================================================== */
+
+    if (!value) {
+
+      render(
+        stories
+      );
+
+      return;
+
+    }
+
+
+    /* ==================================================
+       LỌC
+    ================================================== */
+
+    const filtered =
+      stories.filter(
+        item => {
+
+          if (!item) {
+            return false;
+          }
+
+
+          /* ------------------------------------------
+             TÌM THEO TÊN
+          ------------------------------------------ */
+
+          const titleMatch =
+            item.searchTitle
+              .includes(
+                value
+              );
+
+
+          /* ------------------------------------------
+             TÌM THEO ID
+
+             Ví dụ nhập:
+             703
+             → tìm truyện ID 703
+
+             Nhập:
+             70
+             → tìm 70, 700, 701, 702, 703...
+          ------------------------------------------ */
+
+          const idMatch =
+            String(
+              item.id
+            )
+            .toLowerCase()
+            .includes(
+              value
+            );
+
+
+          return (
+            titleMatch ||
+            idMatch
+          );
+
+        }
+      );
+
+
+    /* ==================================================
+       HIỂN THỊ KẾT QUẢ
+    ================================================== */
+
+    render(
+      filtered
+    );
+
+  }
+);
+
+
+/* ==================================================
+   ENTER
+================================================== */
+
+search.addEventListener(
+  "keydown",
+  function(event) {
+
+    if (
+      event.key ===
+      "Enter"
+    ) {
+
+      event.preventDefault();
+
+      this.blur();
+
+    }
+
+  }
+);
+
+
 </script>
+
 
 </body>
 </html>

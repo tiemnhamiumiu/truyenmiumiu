@@ -2,115 +2,358 @@
 <html lang="vi">
 
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Tiệm Nhà Miu Miu</title>
 
-  <link rel="stylesheet" href="style.css?v=2">
+  <link
+    rel="stylesheet"
+    href="style.css?v=3"
+  >
+
+  <style>
+
+    /* ==================================================
+       GIẢM KHOẢNG CÁCH GIỮA TYPE → VIEW
+    ================================================== */
+
+    .tag {
+      margin:
+        15px 0 5px;
+    }
+
+
+    /* ==================================================
+       LƯỢT XEM
+    ================================================== */
+
+    .detail-view-count {
+      margin:
+        0 0 10px;
+
+      color:#8f8f8f;
+
+      font-size:13px;
+
+      line-height:1.4;
+
+      text-align:left;
+    }
+
+    .detail-view-count span {
+      color:#a0a0a0;
+
+      font-weight:normal;
+    }
+
+
+    /* ==================================================
+       VĂN ÁN
+    ================================================== */
+
+    .desc {
+      margin-top:0;
+
+      color:#ddd;
+
+      line-height:1.9;
+
+      white-space:pre-line;
+
+      max-height:220px;
+
+      overflow-y:auto;
+
+      padding-right:10px;
+    }
+
+  </style>
+
 </head>
+
 
 <body>
 
-<!-- TOPBAR -->
+
+<!-- ==================================================
+     TOPBAR
+================================================== -->
+
 <div class="topbar">
-  <a href="index.html">Trang chủ</a>
-  <a href="ngontinh.html">Ngôn tình</a>
-  <a href="dammy.html">Đam mỹ</a>
-  <a href="cotrang.html">Cổ trang</a>
+
+  <a href="index.html">
+    Trang chủ
+  </a>
+
+  <a href="ngontinh.html">
+    Ngôn tình
+  </a>
+
+  <a href="dammy.html">
+    Đam mỹ
+  </a>
+
+  <a href="cotrang.html">
+    Cổ trang
+  </a>
+
 </div>
 
-<!-- DETAIL -->
-<div class="detail-page" id="detail"></div>
 
-<!-- DATA -->
+<!-- ==================================================
+     DETAIL
+================================================== -->
+
+<div
+  class="detail-page"
+  id="detail"
+></div>
+
+
+<!-- ==================================================
+     DATA
+================================================== -->
+
 <script src="data.js?v=2"></script>
+
+<script src="script.js"></script>
+
 
 <script>
 
-const params = new URLSearchParams(location.search);
+const params =
+  new URLSearchParams(
+    location.search
+  );
 
-const id = params.get("id");
 
-const story = stories.find(item => item.id == id);
+const id =
+  params.get("id");
 
-const detail = document.getElementById("detail");
 
-/* nếu không có truyện */
-if(!story){
+const story =
+  stories.find(
+    item =>
+      item &&
+      item.id == id
+  );
+
+
+const detail =
+  document.getElementById(
+    "detail"
+  );
+
+
+/* ==================================================
+   KHÔNG TÌM THẤY TRUYỆN
+================================================== */
+
+if (!story) {
 
   detail.innerHTML = `
+
     <div style="
       text-align:center;
       padding:100px 20px;
       color:white;
     ">
-      <h1>❌ Không tìm thấy truyện</h1>
+
+      <h1>
+        ❌ Không tìm thấy truyện
+      </h1>
+
     </div>
+
   `;
 
 }
 
-/* nếu có truyện */
-else{
 
-  /* tên thể loại */
-  let typeName = "Ngôn tình";
+/* ==================================================
+   CÓ TRUYỆN
+================================================== */
 
-  if(story.type === "dammy"){
-    typeName = "Đam mỹ";
+else {
+
+
+  /* ==================================================
+     TÊN THỂ LOẠI
+  ================================================== */
+
+  let typeName =
+    "Ngôn tình";
+
+
+  if (
+    story.type ===
+    "dammy"
+  ) {
+
+    typeName =
+      "Đam mỹ";
+
   }
 
-  if(story.type === "cotrang"){
-    typeName = "Cổ trang";
+
+  if (
+    story.type ===
+    "cotrang"
+  ) {
+
+    typeName =
+      "Cổ trang";
+
   }
 
-  /* link thể loại */
-  let typeLink = "ngontinh.html";
 
-  if(story.type === "dammy"){
-    typeLink = "dammy.html";
+  /* ==================================================
+     LINK THỂ LOẠI
+  ================================================== */
+
+  let typeLink =
+    "ngontinh.html";
+
+
+  if (
+    story.type ===
+    "dammy"
+  ) {
+
+    typeLink =
+      "dammy.html";
+
   }
 
-  if(story.type === "cotrang"){
-    typeLink = "cotrang.html";
+
+  if (
+    story.type ===
+    "cotrang"
+  ) {
+
+    typeLink =
+      "cotrang.html";
+
   }
+
+
+  /* ==================================================
+     VĂN ÁN
+     
+     trim() để loại bỏ khoảng trắng /
+     xuống dòng thừa đầu và cuối.
+  ================================================== */
+
+  const storyDesc =
+    story.desc
+      ? String(story.desc).trim()
+      : "Chưa có văn án";
+
+
+  /* ==================================================
+     HTML DETAIL
+  ================================================== */
 
   detail.innerHTML = `
 
     <div class="detail-card">
 
+
       <!-- ẢNH -->
-      <img src="${story.image}" class="detail-img">
+
+      <img
+        src="${story.image}"
+        class="detail-img"
+        alt="${story.title}"
+      >
+
 
       <!-- INFO -->
+
       <div class="detail-info">
 
-        <h1>${story.title}</h1>
 
-        <!-- TAG -->
-        <a class="tag" href="${typeLink}">
+        <!-- TÊN TRUYỆN -->
+
+        <h1>
+          ${story.title}
+        </h1>
+
+
+        <!-- THỂ LOẠI -->
+
+        <a
+          class="tag"
+          href="${typeLink}"
+        >
           ${typeName}
         </a>
 
-        <!-- DESC -->
-        <div class="desc">
-${story.desc || "Chưa có văn án"}
+
+        <!-- LƯỢT XEM -->
+
+        <div
+          class="detail-view-count"
+        >
+
+          Lượt xem:
+
+          <span
+            id="detailViewCount"
+            data-view-id="${story.id}"
+          >
+            0
+          </span>
+
         </div>
 
-        <!-- BUTTON -->
-        <a href="${story.link}" class="read-btn">
+
+        <!-- VĂN ÁN -->
+
+        <div class="desc">${storyDesc}</div>
+
+
+        <!-- ĐỌC NGAY -->
+
+        <a
+          href="${story.link}"
+          class="read-btn"
+        >
           Đọc ngay
         </a>
+
 
       </div>
 
     </div>
 
   `;
+
+
+  /* ==================================================
+     CHỈ HIỂN THỊ VIEW
+     KHÔNG TÍNH VIEW Ở ĐÂY
+  ================================================== */
+
+  if (
+    typeof loadViewCounts ===
+    "function"
+  ) {
+
+    loadViewCounts();
+
+  }
+
 }
 
 </script>
+
 
 </body>
 </html>

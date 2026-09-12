@@ -2,25 +2,47 @@
 <html lang="vi">
 
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Truyện Ngôn Tình</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="style.css?v=12"
+  >
+
 </head>
 
 <body>
 
-<!-- MENU -->
+
 <header class="topbar">
-  <a href="index.html">Trang chủ</a>
-  <a href="ngontinh.html">Ngôn tình</a>
-  <a href="dammy.html">Đam mỹ</a>
-  <a href="cotrang.html">Cổ trang</a>
+
+  <a href="index.html">
+    Trang chủ
+  </a>
+
+  <a href="ngontinh.html">
+    Ngôn tình
+  </a>
+
+  <a href="dammy.html">
+    Đam mỹ
+  </a>
+
+  <a href="cotrang.html">
+    Cổ trang
+  </a>
+
 </header>
 
-<!-- TITLE -->
+
 <h2 style="
   text-align:center;
   color:#ff5722;
@@ -29,51 +51,308 @@
   Truyện Ngôn Tình
 </h2>
 
-<!-- LIST -->
-<div class="container" id="list"></div>
 
-<!-- DATA -->
+<div
+  class="container"
+  id="list"
+></div>
+
+
 <script src="data.js"></script>
+<script src="script.js"></script>
+
 
 <script>
 
-const list = document.getElementById("list");
+const list =
+  document.getElementById("list");
 
-function render(data){
 
-  list.innerHTML = "";
+/* ==================================================
+   CẮT TÊN
+================================================== */
 
-  // lọc truyện ngôn tình
-  const ngontinh =
-    data.filter(item => item.type === "ngontinh");
+function clampBookTitle(element) {
 
-  // id lớn nhất lên đầu
-  ngontinh
-    .sort((a,b) => b.id - a.id)
+  const fullTitle =
+    String(
+      element.dataset.fullTitle || ""
+    ).trim();
 
-    .forEach(item => {
 
-      list.innerHTML += `
+  if (!fullTitle) {
 
-        <a class="book"
-           href="detail.html?id=${item.id}">
+    element.textContent = "";
 
-          <img src="${item.image}"
-               alt="${item.title}">
+    return;
 
-          <h2>${item.title}</h2>
+  }
 
-        </a>
 
-      `;
+  element.textContent =
+    fullTitle;
+
+  element.style.whiteSpace =
+    "normal";
+
+  element.style.overflow =
+    "visible";
+
+  element.style.height =
+    "auto";
+
+  element.style.maxHeight =
+    "none";
+
+
+  const style =
+    window.getComputedStyle(
+      element
+    );
+
+
+  const lineHeight =
+    parseFloat(
+      style.lineHeight
+    ) || 21;
+
+
+  const paddingTop =
+    parseFloat(
+      style.paddingTop
+    ) || 0;
+
+
+  const paddingBottom =
+    parseFloat(
+      style.paddingBottom
+    ) || 0;
+
+
+  const maxHeight =
+    lineHeight * 2 +
+    paddingTop +
+    paddingBottom;
+
+
+  if (
+    element.scrollHeight <=
+    maxHeight + 1
+  ) {
+
+    return;
+
+  }
+
+
+  const words =
+    fullTitle.split(/\s+/);
+
+
+  let bestText =
+    "";
+
+
+  for (
+    let i = 0;
+    i < words.length;
+    i++
+  ) {
+
+    const candidate =
+      words
+        .slice(0, i + 1)
+        .join(" ") +
+      "...";
+
+
+    element.textContent =
+      candidate;
+
+
+    if (
+      element.scrollHeight <=
+      maxHeight + 1
+    ) {
+
+      bestText =
+        words
+          .slice(0, i + 1)
+          .join(" ");
+
+    }
+    else {
+
+      break;
+
+    }
+
+  }
+
+
+  if (!bestText) {
+
+    bestText =
+      words[0] || "";
+
+  }
+
+
+  element.textContent =
+    bestText + "...";
+
+
+  element.style.height =
+    maxHeight + "px";
+
+  element.style.maxHeight =
+    maxHeight + "px";
+
+  element.style.overflow =
+    "hidden";
+
+}
+
+
+/* ==================================================
+   TẤT CẢ TÊN
+================================================== */
+
+function clampAllBookTitles() {
+
+  document
+    .querySelectorAll(".book-title")
+    .forEach(element => {
+
+      clampBookTitle(element);
 
     });
 
 }
 
+
+/* ==================================================
+   VIEW
+================================================== */
+
+function refreshViewCounts() {
+
+  if (
+    typeof loadViewCounts ===
+    "function"
+  ) {
+
+    loadViewCounts();
+
+  }
+
+}
+
+
+/* ==================================================
+   RENDER
+================================================== */
+
+function render(data) {
+
+  list.innerHTML = "";
+
+
+  const ngontinh =
+    data
+      .filter(
+        item =>
+          item &&
+          item.type ===
+          "ngontinh"
+      )
+      .sort(
+        (a, b) =>
+          b.id - a.id
+      );
+
+
+  ngontinh.forEach(
+    item => {
+
+      list.innerHTML += `
+
+        <a
+          class="book"
+          href="detail.html?id=${item.id}"
+        >
+
+          <img
+            src="${item.image}"
+            alt="${item.title}"
+          >
+
+          <div class="view-count">
+
+            Lượt xem:
+            <span
+              data-view-id="${item.id}"
+            >
+              0
+            </span>
+
+          </div>
+
+          <h2
+            class="book-title"
+            data-full-title="${String(item.title)
+              .replace(/"/g, '&quot;')}"
+          >
+            ${item.title}
+          </h2>
+
+        </a>
+
+      `;
+
+    }
+  );
+
+
+  requestAnimationFrame(() => {
+
+    clampAllBookTitles();
+
+    refreshViewCounts();
+
+  });
+
+}
+
+
 render(stories);
 
+
+/* ==================================================
+   RESIZE
+================================================== */
+
+let resizeTimer;
+
+window.addEventListener(
+  "resize",
+  function () {
+
+    clearTimeout(
+      resizeTimer
+    );
+
+    resizeTimer =
+      setTimeout(
+        clampAllBookTitles,
+        100
+      );
+
+  }
+);
+
 </script>
+
 
 </body>
 </html>

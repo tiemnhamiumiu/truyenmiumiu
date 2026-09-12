@@ -887,28 +887,39 @@ Từ Vương Thiết Trụ đến Vương Tranh, từ “kẻ lột quần năm 
 </div>
 
 <!-- POPUP -->
-<div class="modal" id="modal">
-  <div class="box">
-    <h3>🔓 Mở khóa nội dung</h3>
+<div id="unlockBox" class="unlock-box">
 
-    <p>Mời bạn click vào link để mở khóa truyện</p>
+<div class="unlock-title">🔐 MỞ KHÓA TRUYỆN</div>
+<div class="unlock-heading">📖 Lấy mã để mở khóa truyện</div>
+<div class="unlock-description">Làm theo hướng dẫn bên dưới để lấy mã mở khóa truyện.</div>
 
-    <a class="btn" id="unlockBtn">👉 Mở khóa ngay</a>
-
-    <div class="note">
-      Quảng cáo 1 lần / 20 phút
-    </div>
-  </div>
+<div class="guide-image-wrap">
+<img id="guideImage" class="guide-image" src="../codetruyen/huongdan-pass.jpg" alt="Hướng dẫn lấy mã mở khóa">
 </div>
 
-<!-- =========================
-     JAVASCRIPT
-========================== -->
+<a id="facebookLink" class="get-pass-link" href="#" target="_blank" rel="noopener noreferrer">👉 Ấn vào đây để lấy link mã</a>
 
-<script src="../codetruyen/qcshopee.js"></script>
-  <script src="../codetruyen/qcspf.js"></script>
-  <script src="../codetruyen/script.js"></script>
-  <script src="../codetruyen/audio.js?v=10"></script>
+<div class="pass-section">
+
+<div class="pass-title">🔑 Nhập mã mở khóa</div>
+
+<input id="passInput" class="pass-input" type="text" placeholder="Nhập mã tại đây..." autocomplete="off" spellcheck="false">
+
+<button id="unlockBtn" class="unlock-button" type="button">🔓 MỞ KHÓA TRUYỆN</button>
+
+<div id="passError" class="pass-error"></div>
+
+</div>
+
+<div class="return-note">💡 Sau khi lấy được mã, quay lại đây và nhập mã vào ô bên trên.</div>
+<div class="thanks">❤️ Cảm ơn bạn đã ủng hộ!</div>
+
+</div>
+
+</div>
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
 
 </body>
 </html>
