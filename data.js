@@ -15346,6 +15346,180 @@ Nhưng vừa bước chân vào chốn kinh kỳ phồn hoa, họ đã vội vã
 Sau này, vị công tử ấy gây ra đại họa, cả gia tộc bị tịch thu tài sản, ta chỉ ném cho hắn một chiếc liềm rồi bảo:
 
 "Phu quân, theo ta về quê làm ruộng thôi."`
+  },{
+    id: 743,
+    title: "Hành Trình Tìm Bố Cho Mẹ",
+    image: "imgngon/bd426515df1f137af9ec0f1ad385a8e9.jpg",
+    link: "ngontinh/hanh-trinh-tim-bo-cho-me.html",
+    type: "ngontinh",
+    desc: `Tôi dẫn con trai cùng tham gia một chương trình thực tế. Ngay trước ống kính máy quay, thằng bé ngước mắt nhìn thẳng vào ống kính rồi cất lời nhờ vả khán giả:
+
+"Mọi người xem giúp cháu xem cháu giống ai với, biết đâu người đó lại là ba cháu thì sao! Từ nhỏ tới lớn mẹ toàn bảo ba bỏ nhà đi rồi bị bắt bán cho bọn buôn người. Cháu muốn tìm xem ba bị bán tới đâu để còn góp tiền chuộc ba về nữa.”
+
+Khán giả xem đài lập tức nháo nhào.
+
+Dưới phần bình luận, ai nấy đều đồng thanh khẳng định thằng bé đích thị là bản sao nhí của vị ảnh đế danh tiếng.
+
+Tôi hốt hoảng giơ tay thề thốt ngay trên sóng truyền hình nhằm dập tắt tin đồn: "Mọi người đừng đoán mò, ba của thằng bé tuyệt đối không phải ảnh đế đâu!"
+
+Con trai tôi đứng bên cạnh liền quay sang thắc mắc: “Nhưng mà mẹ ơi, sao mẹ thề mà lại giơ ngón giữa thế kia?”
+`
+  },{
+    id: 744,
+    title: "Vết Nhơ Trên Long Sàng",
+    image: "imgdam/c726657c5fc674dbf4b1fef54e47a34e.jpg",
+    link: "dammy/vet-nho-tren-long-sang.html",
+    type: "dammy",
+    desc: `Khi còn tại vị, ta từng ép Thất hoàng tử Tư Mã Tục làm tình nhân của mình.
+
+Về sau Tư Mã Tục đăng cơ xưng đế, liền đè ta xuống long sàng mà chửi rủa: "Tên đáng ghét sống không thể thiếu đàn ông, quả thực… dơ bẩn đến cùng cực."
+
+Ta thở gấp mà bật cười: "Đã bẩn đến thế, chẳng phải bệ hạ cũng liếm hết từ đầu đến chân rồi sao?"
+`
+  },{
+    id: 745,
+    title: "Bị Đày Vào Lãnh Cung Vẫn Sống Ung Dung",
+    image: "imgco/d74e592a9a2661260eea9c7fd43023cd.jpg",
+    link: "cotrang/bi-day-vao-lanh-cung-van-song-ung-dung.html",
+    type: "cotrang",
+    desc: `Ta mang danh vị Quý phi tôn quý, nhưng trong lòng lại chẳng tha thiết điều gì ngoài sự an nhàn.
+
+Khi Huệ phi tỉ mẫn ninh canh dâng lên Chu Ngự Lễ, ta thong dong nghỉ ngơi.
+
+Đến lúc Thục phi dốc lòng khổ luyện vũ khúc nhằm tranh lấy thánh sủng, ta vẫn thong dong nghỉ ngơi.
+
+Mỗi bận chốn hậu cung rộn ràng chuẩn bị thọ lễ mừng sinh thần Chu Ngự Lễ, ta lại càng thong dong nghỉ ngơi.
+
+Cho tới một ngày... Giữa muôn vàn tráp lễ lộng lẫy, hắn lại chỉ chọn mở ra đúng chiếc hộp gấm của ta.
+
+Bên trong tráp chỉ vỏn vẹn một bức họa rùa vờn sóng nước, hiện rõ sự hời hợt chẳng chút tâm tình.
+
+Hắn nhìn ta, thản nhiên cất lời vấn hỏi, là dải lụa trắng hay một gông xích lãnh cung?
+
+"Lãnh cung, thần thiếp xin chọn lãnh cung."
+
+Ta giàn giụa nước mắt, lao tới ôm chặt lấy chân hắn mà van xin nỉ non: "Có thể chuyển dời vào buổi tối được chăng, buổi sáng thần thiếp quả thực dậy không nổi."
+`
+  },{
+    id: 746,
+    title: "Nghìn Năm Đợi Em Tỉnh Giấc",
+    image: "imgngon/9e461f4f110262033238ad37079fa6ae.jpg",
+    link: "ngontinh/nghin-nam-doi-em-tinh-giac.html",
+    type: "ngontinh",
+    desc: `Ta là sủng phi của vị hoàng đế.
+
+Ngủ yên dưới lòng đất ngót nghét một nghìn năm, ngôi mộ của ta bất ngờ bị kẻ khác đào xới.
+
+Cú múc tàn nhẫn từ chiếc máy xúc đã đánh văng chiếc Phượng quan bảo bối, món đồ ta phải đem cả tâm tư ra tranh giành sủng ái thời còn tại thế mới có được.
+
+Cơn thịnh nộ bùng lên đỉnh điểm khiến ta bật dậy ngay tại chỗ, hóa thành cương thi rồi điên cuồng đuổi theo nhóm công nhân khắp công trường.
+
+Nào ngờ, một đạo sĩ vô tình đi ngang qua đã ra tay thu tóm ta vào trong chiếc hồ lô pháp khí.
+
+Ngay thời điểm ta đang loay hoay tìm cách khoét một lỗ trên thân hồ lô để tẩu thoát, bên tai đột nhiên vang lên một âm thanh:
+
+【Cái thứ này trông thật giống ái phi yểu mệnh của ta, chỉ là đôi mắt có phần đỏ hơn đôi chút.】
+
+Mắt ta đỏ sao? Đỏ là vì đang giận đến bốc hỏa đấy!
+
+Nhưng khoan đã, chất giọng quen thuộc này...
+
+Ta kinh hãi ngước nhìn gương mặt vị đạo sĩ phía bên ngoài.
+
+Bệ hạ, chàng lén lút sau lưng ta tu luyện tà thuật trường sinh bất lão đấy à?
+`
+  },{
+    id: 747,
+    title: "Mua Nhầm Thuốc Tránh Thai",
+    image: "imgdam/a239744b071419cfcedb4e2fcf7a7b16.jpg",
+    link: "dammy/mua-nham-thuoc-tranh-thai.html",
+    type: "dammy",
+    desc: `Chuyện tôi vô tình chạm mặt anh khóa trên mà bản thân thầm thương trộm nhớ bao lâu nay ở hiệu thuốc vốn đã chẳng đâu vào đâu. Nhớ lại lúc ấy, vì tâm lý quá đỗi hoảng loạn, đầu óc tôi nh nhầm lẫn rồi thốt ra một câu xanh rờn: tôi muốn mua thuốc tránh thai thay vì thuốc chống say xe.
+
+Đứng ngay bên cạnh, anh ngơ ngác mất vài giây rồi gặng hỏi: "Ai dùng?"
+
+Tôi thành thật đưa tay chỉ thẳng vào bản thân.
+
+Đôi mắt anh lập tức trợn tròn: "Em dùng á?"
+
+Tôi chớp mắt, gật đầu lia lịa.
+
+Anh rơi vào khoảng trầm tư ngắn ngủi, sau đó dịu dàng đặt bàn tay lên vùng bụng tôi.Ánh mắt anh lúc ấy chan chứa đủ loại cảm xúc phức tạp, cất giọng khe khẽ: "Thời buổi này… đàn ông cũng mang thai được rồi sao?"
+`
+  },{
+    id: 748,
+    title: "Tam Giới Truy Tìm Hai Con Cá",
+    image: "imgco/b7077b91d0cdf8657662d78f5da1cfd40.jpg",
+    link: "cotrang/tam-gioi-truy-tim-hai-con-ca.html",
+    type: "cotrang",
+    desc: `Tỷ tỷ và ta vốn là hai linh cá trong vạn dặm sóng xanh.
+
+Tỷ tỷ là một mỹ nhân ngư tuyệt sắc, nghiêng nước nghiêng thành, sau này trở thành ái phi của Ma Tôn.
+
+Ta lại chỉ là một con cá mè hoa, vô tình nhập vào cung phủ rồi làm thiếp cho Thái tử Tiên giới.
+
+Chuyện xảy ra sau đó là khi vị Thần nữ bạch nguyệt quang kia trở về, tỷ tỷ và Ma Tôn sinh ra mâu thuẫn khốc liệt.
+
+"Hắn dám bảo ta chỉ là một con cá nhỏ, chẳng bằng một phần muôn của Thần nữ! Nhiễm Nhiễm, ta nhất quyết phải đi, muội có theo ta không?"
+
+Ta vừa nhai nhóp nhép thịt tôm, vừa gật đầu cái rụi.
+
+"Tỷ tỷ đi đâu, ta theo đó."
+
+Chẳng ai ngờ được, về sau tam giới lại lâm vào cảnh đại loạn, chỉ vì ráo riết truy tìm tung tích hai con cá.
+`
+  },{
+    id: 749,
+    title: "Em Trai Nhà Bên Là Thợ Săn Đội Lớp Cừu",
+    image: "imgngon/98a4ace820142df6799c2aec85a529cd.jpg",
+    link: "ngontinh/em-trai-nha-ben-la-tho-san-doi-lop-cuu.html",
+    type: "ngontinh",
+    desc: `Ngày đầu tiên tôi trở về nhà.
+
+Mẹ tôi dắt theo một cậu thanh niên trẻ trung rồi đẩy tớn vào lòng tôi.
+
+Bà còn bỏ lại một câu đầy ẩn ý:
+
+"Con hiểu mà."
+
+Tôi tưởng mình đã thấu tỏ mọi chuyện nên liền bắt tay vào xử lý.
+
+Thế rồi về sau, mẹ lại cất tiếng hỏi tôi rằng Lê Tự cậu em sang nhờ tôi phụ đạo tiếng Anh rốt cuộc đã đi đâu mất rồi.
+
+Nhìn người đàn ông đang nằm mệt mỏi rã rời trên giường lúc này.
+
+Tôi chỉ biết run rẩy trong sợ hãi.`
+  },{
+    id: 750,
+    title: "Cuộc Tranh Đoạt Tình Yêu Của Hai Nhân Cách",
+    image: "imgdam/9417c300f17b0632873cab673cd7faab.jpg",
+    link: "dammy/cuoc-tranh-doat-tinh-yeu-cua-hai-nhan-cach.html",
+    type: "dammy",
+    desc: `Tôi thầm yêu anh hàng xóm Thẩm Tư Thanh suốt một năm trời.
+
+Ban ngày, anh là mẫu người đàn ông dịu dàng, chu đáo, hoàn hảo không tì vết. Đến tối, anh lại hóa thành kẻ phong lưu bất cần, hút thuốc uống rượu, vừa lạnh lùng vừa quyến rũ.
+
+Hôm lấy hết dũng khí tỏ tình, tôi cố tình chọn một buổi chiều nắng đẹp nhất. Thế nhưng người mở cửa lại là anh trong bộ đồ ngủ rộng thùng thình, trên người sặc mùi thuốc lá, ánh mắt vừa nguy hiểm vừa mê hoặc lòng người.
+
+“Thích tôi?”
+
+Anh nắm cổ tay tôi kéo vào trong, xoay người khóa cửa cái cạch.
+
+“Trùng hợp thật… tôi cũng thích kiểu ngây thơ dễ lừa như cậu.”`
+  },{
+    id: 751,
+    title: "Duyên Nợ Xuân Phong Lâu",
+    image: "imgco/e53700272f7c8a48f898ae50db275161.jpg",
+    link: "cotrang/duyen-no-xuan-phong-lau.html",
+    type: "cotrang",
+    desc: `Tại kinh thành này, danh tiếng bà mối của ta vốn vang xa khắp chốn. Suốt mười năm ròng rã se duyên nối tơ hồng cho bao lứa đôi, chưa một lần ta thất bại.
+
+Công việc hanh thông đến mức phu nhân nhà cao cửa rộng chen chúc nhờ vả, tiểu thư nhà họ người cầu hôn đến đạp nát ngạch cửa, còn bản thân ta lại chẳng một ai đoái hoài.
+
+Chuyện đời trớ trêu mãi cho tới ngày Thái hậu hạ chiếu triệu ta vào cung, muốn ta đứng ra làm mối cho Hoàng đế.
+
+Lúc ấy ta mới ngơ ngác nhận ra, vị đế vương cô độc nổi danh khắp thiên hạ kia hóa ra cũng xấp xỉ tuổi ta, cùng chung cảnh ngộ muộn mằn.
+`
   },
 
 
