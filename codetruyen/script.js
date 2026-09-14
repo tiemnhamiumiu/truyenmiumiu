@@ -109,7 +109,7 @@ if (isFacebookBrowser) {
 
 const DAILY_PASSES = {
 
-    "2026-09-13": "cute",
+    "2026-09-15": "coco",
 
     "2026-09-14": "hang"
 

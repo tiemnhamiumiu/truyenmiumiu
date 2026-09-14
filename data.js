@@ -15520,6 +15520,198 @@ Chuyện đời trớ trêu mãi cho tới ngày Thái hậu hạ chiếu triệ
 
 Lúc ấy ta mới ngơ ngác nhận ra, vị đế vương cô độc nổi danh khắp thiên hạ kia hóa ra cũng xấp xỉ tuổi ta, cùng chung cảnh ngộ muộn mằn.
 `
+  },{
+    id: 752,
+    title: "Đoạn Kết Của Một Phép Màu",
+    image: "imgngon/058198fc9ceef1880d60943ba9fc5e85.jpg",
+    link: "ngontinh/doan-ket-cua-mot-phep-mau.html",
+    type: "ngontinh",
+    desc: `Mười năm thanh xuân dành trọn để săn sóc Trình Dạng một thiếu niên tàn tật luôn chìm trong u uất, tôi đã tốn không biết bao công sức mới khiến trái tim cậu ấy tan chảy.
+
+Một phần vì nhiệm vụ, nhưng phần nhiều cũng bởi lòng thương hại chân thành.
+
+Thế nên, khi hệ thống cất lời chúc mừng nhiệm vụ hoàn thành, tôi lại chọn ở lại thay vì rời đi.
+
+Tôi dốc hết số điểm tích lũy được để đổi lấy cho cậu ấy một thân thể lành lặn.
+
+Trình Dạng cứ ngỡ đó là phép màu từ trời cao ban tặng. Cậu ấy bắt đầu bứt phá, vươn lên trở thành một nhân vật tầm cỡ, ngôi sao mới nổi trong giới kinh doanh.
+
+Nhưng cũng chính là lúc trên vóc dáng ấy vương vất mùi nước hoa của những người phụ nữ khác.
+
+Tôi tận mắt chứng kiến cậu ta trao nụ hôn cho một người đàn bà trong hội sở xa hoa. Khi ai đó vô tình nhắc đến tôi, cậu ta chỉ cười nhếch môi khinh khỉnh: "Cô ta giờ làm sao xứng với tôi nữa."
+
+Tôi lặng lẽ quay người bước đi: "Hệ thống, tôi muốn rời khỏi thế giới này."
+
+Hệ thống cất giọng máy móc: "Nhưng cô không còn đủ điểm nữa rồi."
+
+"Thế thì hãy thu hồi lại cơ thể khỏe mạnh kia đi, tôi không cần nữa."`
+  },{
+    id: 753,
+    title: "Bạn Trai Đã Mất Của Tôi Biến Thành Mèo",
+    image: "imgdam/d653d03605e9b999c54e17790fc2eff3.jpg",
+    link: "dammy/ban-trai-da-mat-cua-toi-bien-thanh-meo.html",
+    type: "dammy",
+    desc: `Sau khi bạn trai qua đời, tôi nhận nuôi con mèo mà anh ấy từng chăm sóc.
+
+Con mèo rất ngoan, chỉ có điều nó luôn giữ thái độ thù địch gay gắt với bất kỳ người đàn ông nào có ý định tiến lại gần tôi.
+
+Lần đồng nghiệp tốt bụng lái xe đưa tôi về nhà, nó liền nhảy vọt tới tặng ngay một cú đấm.
+
+Lần thanh mai trúc mã từ nhỏ đến nhà ăn cơm, nó quất luôn một đuôi vào mặt người ta.
+
+Đã vậy, nó còn rất thích chiếm chiếc áo khoác của tôi để làm ổ.
+
+Nể tình nó là di vật bạn trai để lại, tôi nhẫn nhịn tất cả.
+
+Thế nhưng, đêm nào nó cũng lén lút rúc vào mút môi tôi là có ý gì chứ?!
+
+Tôi đang cân nhắc xem có nên gửi nó về quê nuôi hay không thì đột nhiên nhận ra một điều kỳ lạ...
+
+Hành vi và thói quen của con mèo này, sao lại giống hệt bạn trai đã mất của tôi như đúc vậy?`
+  },{
+    id: 754,
+    title: "Mãnh Nữ Vào Cung",
+    image: "imgco/7050f53c687ab0e93be73c2849367dec.jpg",
+    link: "cotrang/manh-nu-vao-cung.html",
+    type: "cotrang",
+    desc: `Ta dựa vào sức mạnh của chính mình để bước lên ngôi vị Thái tử phi.
+
+Ngày ta được sắc phong, hắn lại quỳ trước cửa cung suốt cả đêm thâu.
+
+"Nương nương, bệ hạ đã quỳ ngoài đó trọn một đêm rồi, có nên cho ngài đứng dậy chăng?"
+
+"Hắn đã biết lỗi của mình chưa?"
+
+"Bệ hạ suy ngẫm cả đêm, nói rằng cái danh xưng 'Phúc Quý phi' quả thực nghe chẳng lọt tai, nhưng đó không phải do ngài đặt ra, mong nương nương mở lòng tha thứ."
+
+Ta mỉm cười lạnh lẽo: "Nói sai rồi, bảo hắn tiếp tục quỳ ở đó đi."
+
+"Nhưng đã tới giờ thượng triều rồi ạ..."
+
+"Vậy thì cứ để hắn quỳ mà thượng triều. Văn vũ chưởng thần quỳ được, lẽ nào một mình hắn lại không thể quỳ?"
+
+"Thần xin lui." Thái giám kính cẩn cúi đầu rút lui.
+
+Đến khi ta trang điểm chải tóc xong xuôi bước ra tiền điện, đã thấy hắn chễm chệ ngồi trên long ỷ, chẳng hề nghe theo lời ta chút nào.
+
+Xem ra đêm nay, hắn lại phải chịu phạt quỳ thêm một đêm nữa rồi.`
+  },{
+    id: 755,
+    title: "Đánh Cắp Hào Quang",
+    image: "imgngon/cdcfcfe8075f5e0b25ad1c7c10f4d4a9.jpg",
+    link: "ngontinh/danh-cap-hao-quang.html",
+    type: "ngontinh",
+    desc: `Tra xong điểm thi tốt nghiệp, con đường tiến thẳng vào Đại học Bắc Kinh của tôi coi như đã hoàn toàn rộng mở. Trái ngược hẳn với viễn cảnh ấy, tấm vé duy nhất dành cho đứa em họ tôi có lẽ chỉ là một suất làm công nhân bốc vác hoặc thợ hồ trên công trường.
+
+Nhận được kết quả, nó lộn mửa đất trời, đập phá tan tành mọi đồ đạc trong nhà rồi gào lên điên dại: “Chẳng phải mọi người đã hứa sẽ để con thế chỗ nó đi học sao? Người đỗ Đại học Bắc Kinh đáng lẽ phải là con mới đúng chứ!”
+
+Tôi nhếch môi cười khẩy. Chuyện hão huyền đó chỉ có thể xảy ra ở kiếp trước mà thôi.
+
+Còn kiếp này ư?
+
+“Em gái yêu quý à, Đại học Bắc Kinh thì em nằm mơ cũng chẳng tới lượt, nhưng mấy trường bét bảng dưới chân cầu chắc chắn luôn mở rộng cửa đón chào em đấy.”
+`
+  },{
+    id: 756,
+    title: "Trai Thẳng Cúi Đầu Trước Pheromone",
+    image: "imgdam/327e827a072f52ffbdac77f51afc4027.jpg",
+    link: "dammy/trai-thang-cui-dau-truoc-pheromone.html",
+    type: "dammy",
+    desc: `Là một gã đàn ông thẳng chính gốc, vậy mà tôi lại xuyên qua cái thế giới ABO quái đản này.
+
+Vừa mở mắt ra, đập vào mắt tôi là cảnh bản thân đang nằm chung giường với một gã đàn ông khác.
+
+Sốc đến tận óc, tôi vung ngay nắm đấm lao vào tẩn gã Alpha kia một trận.
+
+Kết quả là bị hắn đánh cho tơi tả.
+
+Sau đó, tôi bị xách cổ về nhà hắn. Cả gia đình hắn nhìn tôi bằng ánh mắt khinh bỉ như nhìn một đống rác rưởi.
+
+Họ chửi tôi là đồ trơ trẽn, tự mò đến bám víu con trai nhà người ta, còn tự mua thuốc mê hạ dược rồi trèo lên giường hắn.
+
+Đó mà là tôi sao?
+
+Mẹ nó chứ, ai chứ nhất quyết không phải tôi!
+
+Tôi là trai thẳng!
+
+Dù sau này bụng có to ra đi chăng nữa, tôi vẫn là một thằng đàn ông thẳng thắn có xương sống!
+`
+  },{
+    id: 757,
+    title: "Cùng Nhau Vào Luân Hồi",
+    image: "imgco/9be6632715849bd5743e21b9111e763a.jpg",
+    link: "cotrang/cung-nhau-vao-luan-hoi.html",
+    type: "cotrang",
+    desc: `Ba ngày sau khi ta tạ thế.
+
+Phu quân ta khải hoàn trở về, đồng thời đón cưới muội muội của ta.
+
+Mười dặm hồng trang ngợp trời, cả Kinh thành ai nấy đều ngưỡng mộ.
+
+Phụ thân lại dâng sớ lên Hoàng thượng, xin ban thưởng phong phu quân ta làm Thượng tướng quân.
+
+Chẳng một ai nhớ đến, sâu dưới lớp đất lạnh lẽo kia, vẫn còn chôn vùi một bộ hài cốt khô héo của ta.
+
+Khi muội muội ta tràn ngập niềm hân hoan, tưởng rằng có thể an nhiên bước vào phòng the đỏ thắm, nào ngờ, nơi nàng ta bước tới lại là căn phòng tra tấn lạnh lẽo của phu quân.
+
+Trong đêm tân hôn, Cố Mân bóp chặt cổ nàng ta, ấn mạnh lên giá hình: “Rốt cuộc là tự ngươi khai ra, hay để ta phải dùng hình tra khảo ép các ngươi nói rõ đã hại chết phu nhân của ta như thế nào?”
+`
+  },{
+    id: 758,
+    title: "Đóng Vai Nữ Phụ Ác Độc Sỉ Nhục Nam Chính Mạt Thế",
+    image: "imgngon/a7da89a6813f936aab165e55ea396ff9.jpg",
+    link: "ngontinh/dong-vai-nu-phu-ac-doc-si-nhuc-nam-chinh-mat-the.html",
+    type: "ngontinh",
+    desc: `Tôi là một nữ phụ chanh chua trong cuốn tiểu thuyết mạt thế.
+
+Để cố tình làm bẽ mặt nam chính, tôi hất mạnh hộp đồ ăn trên tay xuống, hất cằm ra lệnh:
+
+"Cắn bẩn đồ của bổn tiểu thư rồi, con chó hư này, mau liếm sạch sẽ cho tôi."
+
+Nam chính lặng lẽ nhẫn nhịn, vươn tay nắm lấy đầu ngón tay dính đầy vệt sữa của tôi, toàn thân căng cứng.
+
+[Giá trị tình yêu +10]
+
+Tôi ngẩn ngơ: "Cái gì thế này?"
+
+Hệ thống trong đầu lập tức gào lên tức giận: "Đồ ngốc này! Cô mắng hắn đến mức hắn hóa ngu luôn rồi đấy!"
+
+Về sau, tôi bị chính nam chính giả heo ăn thịt hổ nhốt chặt trong lồng vàng, gánh chịu cơn giận trừng phạt từ hắn.
+
+Người đàn ông siết chặt lấy mắt cá chân tôi, nụ cười gượng gạo lại cuồng nhiệt:
+
+"Tiểu thư, dùng thêm chút lực nữa đi."`
+  },{
+    id: 759,
+    title: "Thả Ta Ra Nghịch Đồ",
+    image: "imgdam/b7f55ca1c728bae00c4a644fd379fdcaa.jpg",
+    link: "dammy/tha-ta-ra-nghich-do.html",
+    type: "dammy",
+    desc: `Tôi kéo Ly Trạm ra từ đống xác chết.
+
+Tôi dùng máu của mình nuôi dưỡng hắn, đem cả tính mạng ra bảo vệ, nâng đỡ hắn từ một con rắn đen yếu ớt trở thành chúa tể hô mưa gọi gió.
+
+Vậy mà hắn lại dùng xích sắt trói tôi lại, thỏa sức bức hại.
+
+"Ca ca, đệ đã biết bí mật của huynh rồi. Huynh chỉ xem đệ là một nhiệm vụ đúng không?"
+
+"Nhưng chẳng sao cả, giờ huynh chỉ có thể thuộc về mình đệ. Hãy sinh cho đệ thật nhiều rắn con nhé?"
+
+"Nghịch tử! Ta là nam nhân! Là sư phụ của ngươi!"`
+  },{
+    id: 760,
+    title: "Phu Thê Sợ Chết Xuyên Sách Ôm Đùi Nam Chính",
+    image: "imgco/c9473ec5fc194cee158e91f206ba9c8d.jpg",
+    link: "cotrang/phu-the-so-chet-xuyen-sach-om-dui-nam-chinh.html",
+    type: "cotrang",
+    desc: `"Tướng quân trở về rồi, hắn còn mang theo một nữ tử đang mang thai nữa!"
+
+Vừa nghe tin ấy, ta liền cắm đầu cắm cổ chạy thẳng ra cổng phủ, vội vã đến mức làm rơi mất một chiếc chiếc hài.
+
+Tướng quân dầm mưa dãi nắng đứng ở phía xa đao kìm hãm nhìn ta, hai người chúng ta mắt lệ rưng rưng.
+
+Cuối cùng chúng ta cũng tìm thấy mẫu thân của nam chính rồi!`
   },
 
 
