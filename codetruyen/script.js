@@ -121,7 +121,7 @@ const DAILY_PASSES = {
 ================================================== */
 
 const FACEBOOK_URL =
-    "https://www.facebook.com/share/p/18PYGWhPE9/";
+    "https://www.facebook.com/profile.php?id=6159403474377";
 
 
 /* ==================================================
