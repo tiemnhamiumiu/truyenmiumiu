@@ -111,9 +111,14 @@ const DAILY_PASSES = {
 
     "2026-09-15": "coco",
 
+    "2026-09-16": "PASS_NGAY_16",
+
+    "2026-09-17": "PASS_NGAY_17",
+
     "2026-09-14": "hang"
 
 };
+
 
 /* ==================================================
    FACEBOOK BÀI VIẾT THEO NGÀY
@@ -125,12 +130,13 @@ const DAILY_FACEBOOK_POSTS = {
         "https://www.facebook.com/photo?fbid=122106667803467824&set=a.122105998845467824&locale=vi_VN",
 
     "2026-09-16":
-        "LINK_BÀI_FACEBOOK_NGÀY_16",
+        "LINK_BAI_FACEBOOK_NGAY_16",
 
     "2026-09-17":
-        "LINK_BÀI_FACEBOOK_NGÀY_17"
+        "LINK_BAI_FACEBOOK_NGAY_17"
 
 };
+
 
 /* ==================================================
    ẢNH HƯỚNG DẪN
@@ -149,6 +155,27 @@ const TIKTOK_URL =
 
 const LAZADA_URL =
     "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE";
+
+
+/* ==================================================
+   CÁC LINK TIKTOK / LAZADA ĐƯỢC CHẤP NHẬN
+================================================== */
+
+const TIKTOK_LINKS = [
+
+    "https://www.tiktok.com/t/ZSVaFpSNR/",
+
+    "https://vt.tiktok.com/ZS9SXoGBoCjBV-ST96M/"
+
+];
+
+const LAZADA_LINKS = [
+
+    "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE",
+
+    "https://s.lazada.vn/s.o0ZT2?c=p&t=p-ixAY3P-sGQ1lgE"
+
+];
 
 
 /* ==================================================
@@ -179,19 +206,6 @@ const redirectDateKey =
 /* ==================================================
    BỘ ĐẾM THỜI GIAN SỬ DỤNG WEB
 ================================================== */
-
-/*
-   Lưu tổng thời gian đã sử dụng trong web.
-
-   Không tính thời gian:
-   - Đóng web
-   - Chuyển sang TikTok
-   - Chuyển sang Lazada
-   - Chuyển sang ứng dụng khác
-   - Tắt màn hình / web bị ẩn
-
-   Mỗi ngày có bộ đếm riêng.
-*/
 
 const activeTimeKey =
     "reader_active_time";
@@ -227,15 +241,6 @@ const params =
 const storyId =
     params.get("id") ||
     window.location.pathname;
-
-
-if (!storyId) {
-
-    console.warn(
-        "⚠️ Không tìm thấy story id."
-    );
-
-}
 
 
 /* ==================================================
@@ -310,6 +315,17 @@ function getToday() {
 function getTodayPass() {
 
     return DAILY_PASSES[getToday()] || null;
+
+}
+
+
+/* ==================================================
+   LẤY LINK FACEBOOK HÔM NAY
+================================================== */
+
+function getTodayFacebookPost() {
+
+    return DAILY_FACEBOOK_POSTS[getToday()] || "";
 
 }
 
@@ -512,6 +528,32 @@ async function addViewOncePerReadingSession() {
 
     }
 
+    /*
+       Chỉ gửi ID số cho Supabase.
+
+       Nếu trang không có ?id=123
+       thì storyId có thể là đường dẫn file.
+
+       Không gửi NaN lên Supabase.
+    */
+
+    const numericStoryId =
+        Number(storyId);
+
+    if (
+        !Number.isFinite(numericStoryId) ||
+        numericStoryId <= 0
+    ) {
+
+        console.warn(
+            "⚠️ Story ID không phải số. Không cộng view Supabase:",
+            storyId
+        );
+
+        return;
+
+    }
+
     createReadingSession();
 
     console.log(
@@ -545,7 +587,7 @@ async function addViewOncePerReadingSession() {
                     body: JSON.stringify({
 
                         story_id:
-                            Number(storyId)
+                            numericStoryId
 
                     })
 
@@ -1365,11 +1407,30 @@ function unlockContent(
 
 
 /* ==================================================
-   GÁN LINK FACEBOOK
+   GÁN LINK FACEBOOK THEO NGÀY
 ================================================== */
 
-facebookLink.href =
-    FACEBOOK_URL;
+const todayFacebookPost =
+    getTodayFacebookPost();
+
+if (todayFacebookPost) {
+
+    facebookLink.href =
+        todayFacebookPost;
+
+}
+else {
+
+    facebookLink.removeAttribute(
+        "href"
+    );
+
+    console.warn(
+        "⚠️ Chưa có link Facebook cho ngày:",
+        getToday()
+    );
+
+}
 
 
 /* ==================================================
@@ -1659,11 +1720,33 @@ function isTikTokLink(link) {
         return false;
     }
 
-    return (
-        link.href === TIKTOK_URL ||
-        link.href.startsWith(
-            "https://vt.tiktok.com/ZS9SXoGBoCjBV-ST96M/"
-        )
+    let href = "";
+
+    try {
+
+        href =
+            new URL(
+                link.href,
+                window.location.href
+            ).href;
+
+    }
+
+    catch {
+
+        return false;
+
+    }
+
+    return TIKTOK_LINKS.some(
+        function (url) {
+
+            return (
+                href === url ||
+                href.startsWith(url)
+            );
+
+        }
     );
 
 }
@@ -1675,11 +1758,33 @@ function isLazadaLink(link) {
         return false;
     }
 
-    return (
-        link.href === LAZADA_URL ||
-        link.href.startsWith(
-            "https://s.lazada.vn/s.o0ZT2?c=p&t=p-ixAY3P-sGQ1lgE"
-        )
+    let href = "";
+
+    try {
+
+        href =
+            new URL(
+                link.href,
+                window.location.href
+            ).href;
+
+    }
+
+    catch {
+
+        return false;
+
+    }
+
+    return LAZADA_LINKS.some(
+        function (url) {
+
+            return (
+                href === url ||
+                href.startsWith(url)
+            );
+
+        }
     );
 
 }
