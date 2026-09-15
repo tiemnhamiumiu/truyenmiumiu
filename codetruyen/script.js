@@ -120,9 +120,22 @@ const DAILY_PASSES = {
    FACEBOOK
 ================================================== */
 
-const FACEBOOK_URL =
-    "https://www.facebook.com/profile.php?id=61594034743775";
+/* ==================================================
+   FACEBOOK BÀI VIẾT THEO NGÀY
+================================================== */
 
+const DAILY_FACEBOOK_POSTS = {
+
+    "2026-09-15":
+        "https://www.facebook.com/photo?fbid=122106667803467824&set=a.122105998845467824&locale=vi_VN",
+
+    "2026-09-16":
+        "LINK_BÀI_FACEBOOK_NGÀY_16",
+
+    "2026-09-17":
+        "LINK_BÀI_FACEBOOK_NGÀY_17"
+
+};
 
 /* ==================================================
    ẢNH HƯỚNG DẪN
