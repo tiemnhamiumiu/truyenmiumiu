@@ -110,11 +110,9 @@ const DAILY_PASSES = {
 
     "2026-09-15": "coco",
 
-    "2026-09-16": "PASS_NGAY_16",
+    "2026-09-16": "chinh"
 
-    "2026-09-17": "PASS_NGAY_17",
 
-    "2026-09-14": "hang"
 
 };
 
@@ -129,10 +127,8 @@ const DAILY_FACEBOOK_POSTS = {
         "https://www.facebook.com/photo?fbid=122106667803467824&set=a.122105998845467824&locale=vi_VN",
 
     "2026-09-16":
-        "LINK_BAI_FACEBOOK_NGAY_16",
+        "https://www.facebook.com/photo/?fbid=122107572453467824&set=p.122107572453467824&locale=vi_VN",
 
-    "2026-09-17":
-        "LINK_BAI_FACEBOOK_NGAY_17"
 
 };
 
@@ -156,25 +152,6 @@ const LAZADA_URL =
     "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE";
 
 
-/* ==================================================
-   CÁC LINK TIKTOK / LAZADA ĐƯỢC CHẤP NHẬN
-================================================== */
-
-const TIKTOK_LINKS = [
-
-    "https://www.tiktok.com/t/ZSVaFpSNR/",
-
-    "https://vt.tiktok.com/ZS9SXoGBoCjBV-ST96M/"
-
-];
-
-const LAZADA_LINKS = [
-
-    "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE",
-
-    "https://s.lazada.vn/s.o0ZT2?c=p&t=p-ixAY3P-sGQ1lgE"
-
-];
 
 
 /* ==================================================

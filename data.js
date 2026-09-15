@@ -15712,6 +15712,187 @@ Vừa nghe tin ấy, ta liền cắm đầu cắm cổ chạy thẳng ra cổng 
 Tướng quân dầm mưa dãi nắng đứng ở phía xa đao kìm hãm nhìn ta, hai người chúng ta mắt lệ rưng rưng.
 
 Cuối cùng chúng ta cũng tìm thấy mẫu thân của nam chính rồi!`
+  },{
+    id: 761,
+    title: "Hoa Nở Trên Vách Đá",
+    image: "imgngon/d0b38e7c4f0e5d81116113dc98a1f0aa.jpg",
+    link: "ngontinh/hoa-no-tren-vach-da.html",
+    type: "ngontinh",
+    desc: `Từ nhỏ, bố mẹ tôi đã luôn bắt tôi phải nhường nhịn em trai trong mọi chuyện.
+
+Dù thành tích học tập năm cấp hai của tôi luôn nằm trong top 5 toàn trường, họ vẫn ép tôi học xong là phải đi làm kiếm tiền để lo chi phí cho em trai vào trường tư...
+
+Về sau, tôi có một người bạn trai ở xa.
+
+Gia đình tôi liền kịch liệt phản đối: "Tốt nhất là tìm lấy một đứa ở gần đây, đứa nào chịu chi tiền sính lễ cao cao một chút, còn có tiền mà lo cưới vợ cho em trai mày..."
+`
+  },{
+    id: 762,
+    title: "Giường Phòng Nghỉ Đủ Cho Hai Ta",
+    image: "imgdam/6e754d318e8458a14e8f3d78c2942a48.jpg",
+    link: "dammy/giuong-phong-nghi-du-cho-hai-ta.html",
+    type: "dammy",
+    desc: `Kẻ thù không đội trời chung của tôi, ngay trước lúc nhắm mắt xuôi tay đã tin tưởng gửi gắm đứa con trai duy nhất cho tôi.
+
+Biết rõ tôi thích đàn ông, trước khi trút hơi thở cuối cùng, hắn vẫn cố gắng nhấn mạnh:
+
+“Tôi nhờ cậu chăm sóc nó, chứ không phải tặng nó cho cậu làm vợ đâu đấy.”
+
+Tôi tức đến nổ phổi:
+
+“Sắp chết đến nơi rồi mà cái miệng vẫn không chịu chừa. Mẹ kiếp, tôi đâu phải loại cầm thú.”
+
+Thế nhưng về sau, chính tôi lại phải run rẩy cắn chặt môi dưới, cố nuốt ngược những tiếng rên rỉ nghẹn ngào vào trong.
+
+Thằng chắt con đang vùi đầu trên người tôi liền ngẩng lên hỏi:
+
+“Vậy nếu em làm vợ anh thì không được sao? Cha nuôi, anh nói gì đi chứ?”
+
+Tin tốt là: Tôi quả thực không phải cầm thú.
+
+Còn tin xấu: Con trai của hắn mới đúng là đồ cầm thú thực sự.`
+  },{
+    id: 763,
+    title: "Ép Buộc Thành Lương Duyên",
+    image: "imgco/b23b9a3597c619d550225c5af64dadb1.jpg",
+    link: "cotrang/ep-buoc-thanh-luong-duyen.html",
+    type: "cotrang",
+    desc: `Ta vốn là kẻ khờ ngốc, nhưng đúng như câu “ngốc nhân hữu ngốc phúc”, ta lại có duyên được gả cho Ninh Vương Tiêu Mặc.
+
+Thiên hạ ai nấy đều tường tận chuyện hắn coi ta như sinh mệnh, cưng chiều hết mực.
+
+Thế nhưng, ngay thời khắc ta chuẩn bị khai hoa nở nhụy, hắn lại bỏ mặc ta để đến bên cạnh chăm sóc cho một nữ nhân khác.
+
+Nghe đâu, người hắn vốn muốn cưới làm thê tử chính là nàng ta. Năm xưa Thái hậu không chấp thuận, ép nàng ta phải xuất giá gả cho kẻ khác, Tiêu Mặc trong lúc đường cùng mới chọn đại một kẻ ngốc nghếch như ta để lấp chỗ trống.
+
+Đứng ngoài cánh cửa gỗ ngóng nghe toàn bộ sự thật, lệ nóng tràn mi làm ướt đẫm cả tà áo.
+
+Đêm hôm ấy, ta để lại một tờ thư hòa ly rồi gieo mình vào màn đêm trở về nhà mẹ đẻ, chẳng ngờ nửa đường lại lâm vào cảnh kiệt sức vì băng huyết mà trút hơi thở cuối cùng.
+
+Khi ấy ta đã lìa bỏ cõi đời, nên chẳng thể hay biết vị Ninh Vương từng một thời ngông cuồng, coi trời bằng vung kia, sau khi tận mắt thấy tờ thư hòa ly ta để lại đã suýt phát điên ra sao.
+
+Trời xanh xui khiến ta được trọng sinh trở về năm mươi sáu tuổi, đúng vào cái ngày trước khi Tiêu Mặc bước chân đến Thẩm府 cầu hôn.
+
+Mọi chuyện vẫn còn chưa muộn. Kiếp này, ta quyết sẽ không trèo cao mơ tưởng đến hắn nữa.
+`
+  },{
+    id: 764,
+    title: "Mối Duyên Tơ Hồng Dưới Cầu Nại Hà",
+    image: "imgngon/63035be141572eaca6ee71b0be686a47.jpg",
+    link: "ngontinh/moi-duyen-to-hong-duoi-cau-nai-ha.html",
+    type: "ngontinh",
+    desc: `Lúc đi phỏng vấn, tiện đường đi ngang qua một ngôi chùa nên tôi ghé vào thắp hương.
+
+Chẳng hiểu đầu óc lúc đó lơ đễnh thế nào, tôi lại tiện tay nhét luôn tờ sơ yếu lý lịch vào hòm công đức.
+
+Đêm hôm ấy, Bồ Tát hiện về trong giấc mơ của tôi.
+
+“Cô bé, cô đã trúng tuyển vào Thiên Đình rồi, canh ba tối nay nhớ đến điểm danh nhận việc nhé!”
+`
+  },{
+    id: 765,
+    title: "Yêu Lại Từ Đầu Đánh Dấu Vĩnh Viễn",
+    image: "imgdam/b257abc7467ff07ea33eab933d96a0689.jpg",
+    link: "dammy/yeu-lai-tu-dau-danh-dau-vinh-vien.html",
+    type: "dammy",
+    desc: `Chồng tôi không thích tôi, anh ấy lấy tôi hoàn toàn là vì bị ép buộc.
+
+Mỗi lần nhìn thấy tôi, gương mặt anh lại hiện rõ sự phiền muộn đến mức tưởng như sắp vò đầu bứt tai.
+
+Thấy vậy, tôi tốt bụng chủ động hỏi xem anh có muốn ly hôn hay không.
+
+Thế nhưng, anh lại cắn mạnh lên cổ tôi, giọng điệu hung dữ nhưng ánh mắt lại đong đầy vẻ ấm ức như một chú cún nhỏ sắp khóc:
+
+“Không được! Hàng đã nhận rồi, miễn đổi trả!”`
+  },{
+    id: 766,
+    title: "Tiệm Hoành Thánh Tây Nhai",
+    image: "imgco/b5e68f8eaafc2ed7febef3cea9977b54.jpg",
+    link: "cotrang/tiem-hoanh-thanh-tay-nhai.html",
+    type: "cotrang",
+    desc: `Đoạn tuyệt duyên nợ với cựu phu, ta lui về con hẻm Tây Nhai, dựng lại gánh hoành thánh ngày xưa.
+
+Ngày đầu mở quầy, một đứa trẻ ăn mày mặt mày lem luốc, bụng đói meo không nơi nương tựa lảng vảng ghé qua. Ta thương tình, đón nó về nuôi dưỡng đàng hoàng.
+
+Đến ngày thứ mười, trước thềm nhà lại xuất hiện một bé gái nhỏ thó, toàn thân tím tái vì sương lạnh. Ta bế bé vào trong, thế là trong nhà lại thêm một miệng ăn.
+
+Tròn một tháng sau, trước quầy hoành thánh lại thấp thoáng bóng dáng một vị tiểu công tử phong thái đoan trang, khí chất quyền quý. Ta liền trầm ngâm suy tính, không biết nên làm cách nào để rước cậu ta về nuôi nốt.
+
+Chẳng ngờ, từ đâu xuất hiện một vị nam tử tuấn tú khôi ngô, gương mặt sầm tối tiến lại, nghiến răng cất lời: "Kẻ này, cô tuyệt đối không thể nuôi."
+
+Ta bẽn lẽn mỉm cười đáp lại: "Tay nghề bếp núc của ta vốn dĩ rất tốt, hay là... nuôi luôn cả chàng nữa nhé?"
+`
+  },{
+    id: 767,
+    title: "Duyên Âm Của Thầy Bói Xa Lộ",
+    image: "imgngon/caf13552dbfcc5eb7aa1bd76b084d0d6.jpg",
+    link: "ngontinh/duyen-am-cua-thay-boi-xa-lo.html",
+    type: "ngontinh",
+    desc: `Tôi tên là Dư Hiểu Miểu, dòng họ mấy đời nay đều nối nghiệp thầy bói.
+
+Tiếc rằng đến thời cha tôi thì gia cảnh đã sa sút nghiêm trọng. Chẳng còn cách nào khác, đêm về tôi đành phải mở livestream xem quẻ để kiếm thêm đồng ra đồng vào nuôi sống bản thân.
+
+Bình luận A nhắn: “Chủ phòng ơi, hình như phòng tôi có ma hay sao ấy.”
+
+Tôi thản nhiên đáp: “Mai cứ ra tiệm mua hai căn biệt thự giấy về đốt cho nó là êm chuyện.”
+
+Bình luận A lại hỏi tiếp: “Thế còn mấy chai rượu trong tủ nhà tôi tự dưng lăn đùng ra vỡ tan tành dưới đất thì sao hả chủ phòng?”
+
+Tôi gật gù: “Bữa nào rảnh cầm cả thùng rượu ra tưới lên mộ bố anh là ổn ngay.”
+
+Bình luận C lo lắng: “Xích đu ngoài sân nhà tôi cứ tự đu qua đu lại kẽo kẹt suốt cả đêm, tôi sợ đến mất ngủ đây này.”
+
+Tôi trấn an: “Không có gì đáng lo đâu, dưới đó buồn chán quá nên mấy vong linh mượn xích đu giải khuây chút thôi. Nếu thấy hãi quá thì cứ bê nó ra công viên mà để, khuất mắt là hết sợ.”
+
+Một vị khách ruột hay tặng quà rên rẩm: “Tôi bị ma trộm mất quần lót rồi!!!”
+
+Tôi thở dài: “Anh lắp cái camera vào xem kẻ nào thiếu đạo đức đến thế. Tôi hành nghề bao năm nay còn chưa thấy con ma nào gu dị dạng như vậy bao giờ.”
+`
+  },{
+    id: 768,
+    title: "Thì Thầm Bên Tai",
+    image: "imgdam/b78ffde946cae1703c1a85089676871e0.jpg",
+    link: "dammy/thi-tham-ben-tai.html",
+    type: "dammy",
+    desc: `Bạn cùng phòng của tôi là một học bá khiếm thính, tôi vốn dĩ rất thích trêu ghẹo bên tai cậu ấy.
+
+Thời gian gần đây, biểu hiện của cậu ấy lại có chút không bình thường.
+
+Tôi vốn không có thói quen ăn sáng, vậy mà ngày nào cậu ấy cũng chuẩn bị sẵn đồ ăn cho tôi.
+
+Mỗi lần tôi vừa chơi bóng xong, cậu ấy đã túc trực mang nước đến.
+
+Ngay cả quần áo bẩn của tôi, cậu ấy cũng tự tay đem đi giặt...
+
+Sự quan tâm tỉ mỉ ấy quả thực đã vượt quá mức bạn bè thông thường.
+
+Về sau, khi có một cậu bạn khóa dưới gửi thư tình và tôi nhận lấy, cậu ấy liền dồn tôi vào tường, đôi mắt ửng đỏ mà vặn hỏi:
+
+"Chẳng phải cậu luôn thì thầm bên tai tôi là vì thích tôi sao?
+
+"Rốt cuộc cậu coi tôi là gì, một trò đùa à?"`
+  },{
+    id: 769,
+    title: "Bóng Hình Trong Mắt Đế Vương",
+    image: "imgco/e1d7b0f69dcd7f5d96687833ca442abc.jpg",
+    link: "cotrang/bong-hinh-trong-mat-de-vuong.html",
+    type: "cotrang",
+    desc: `Sủng phi Dao Quý phi tạ thế, khiến Hoàng Thượng đau đớn khôn cùng. Ngài ban lệnh treo giải thưởng khắp nơi, chỉ mong tìm được một kẻ có dung mạo giống hệt nàng.
+
+Ngày ta được đưa vào cung, vị cô cô dẫn dắt khẽ thầm thì: "Trong số các cô nương được tuyển chọn, ngươi là người có nét giống nàng nhất."
+
+Ta vốn không hiểu sự đời, chỉ biết người đã trao cho phụ thân một lượng bạc lớn, đủ để phụ mẫu và đệ đệ sống sung túc trọn đời.
+
+Bởi thế, dù phải chịu đựng bất cứ điều gì, ta cũng cảm thấy xứng đáng.
+
+Ta vốn chỉ là một thiếu nữ chốn sơn cước, vốn thích lắng nghe những câu chuyện dân gian. Nhưng kể từ khoảnh khắc ấy, số phận của ta đã rẽ sang một hướng hoàn toàn khác.
+
+Trái ngược với những thiên tiểu thuyết thế thân ta từng nghe, cuộc đời ta chẳng hề trải đầy gấm hoa hay niềm vui.
+
+Từ giây phút bước chân vào chốn hoàng cung chói lọi để làm kẻ thế thân cho Dao Quý phi, vận mệnh của ta đã định sẵn chuỗi ngày dài đao thương và bi ai.
+
+Đến cuối cùng, ta chẳng đành lòng nhìn bản thân bị giam cầm vĩnh viễn trong chốn cung cấm lạnh lẽo này. Hãy tự do đi, Chiêu Nhi, mong rằng từ nay về sau ngươi sẽ không còn là cái bóng của bất kỳ ai, mà có thể trọn vẹn sống với chính mình.
+`
   },
 
 
