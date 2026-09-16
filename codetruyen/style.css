@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -1296,6 +1297,29 @@ body {
 
 
 /* ==================================================
+   CHÚ Ý MÃ MỞ KHÓA
+================================================== */
+
+#unlockBox .pass-warning {
+  display: block;
+
+  width: 100%;
+
+  margin: 10px 0 0;
+
+  color: #e53935;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+
+/* ==================================================
    UNLOCK BUTTON
 ================================================== */
 
@@ -1386,11 +1410,13 @@ body {
 
   background: #f7f7f7;
 
-  color: #888888;
+  color: #555555;
 
   font-size: 12px;
 
   line-height: 1.5;
+
+  text-align: center;
 }
 
 
@@ -1401,13 +1427,19 @@ body {
 #unlockBox .thanks {
   display: block;
 
+  width: 100%;
+
   margin: 13px 0 0;
 
-  color: #aaaaaa;
+  color: #e75480;
 
-  font-size: 12px;
+  font-size: 13px;
+
+  font-weight: bold;
 
   line-height: 1.5;
+
+  text-align: center;
 }
 
 
@@ -1611,6 +1643,12 @@ body {
     line-height: 46px;
   }
 
+  #unlockBox .pass-warning {
+    font-size: 13px;
+
+    margin-top: 9px;
+  }
+
   #unlockBox .unlock-button {
     width: 100%;
 
@@ -1624,7 +1662,7 @@ body {
   }
 
   #unlockBox .thanks {
-    font-size: 11px;
+    font-size: 12px;
   }
 
 }
@@ -1669,268 +1707,226 @@ body {
   }
 
 }
+
+
 /* ==================================================
    POPUP ĐỌC TIẾP TRUYỆN
-   ================================================== */
+================================================== */
 
 #readerResumePopup {
-    position: relative;
-    z-index: 999999;
+  position: relative;
+  z-index: 999999;
 }
 
 
 /* ==================================================
    LỚP NỀN
-   ================================================== */
+================================================== */
 
 .reader-resume-overlay {
+  position: fixed;
 
-    position: fixed;
+  inset: 0;
 
-    inset: 0;
+  z-index: 999999;
 
-    z-index: 999999;
+  display: flex;
 
-    display: flex;
+  align-items: center;
 
-    align-items: center;
+  justify-content: center;
 
-    justify-content: center;
+  padding: 20px;
 
-    padding: 20px;
+  box-sizing: border-box;
 
-    box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.78);
 
-    background: rgba(0, 0, 0, 0.78);
-
-    backdrop-filter: blur(4px);
-
+  backdrop-filter: blur(4px);
 }
 
 
 /* ==================================================
    HỘP POPUP
-   ================================================== */
+================================================== */
 
 .reader-resume-box {
+  width: 100%;
 
-    width: 100%;
+  max-width: 430px;
 
-    max-width: 430px;
+  padding: 28px 22px;
 
-    padding: 28px 22px;
+  box-sizing: border-box;
 
-    box-sizing: border-box;
+  background: #1d1d1d;
 
-    background: #1d1d1d;
+  border: 1px solid #333;
 
-    border: 1px solid #333;
+  border-radius: 18px;
 
-    border-radius: 18px;
+  text-align: center;
 
-    text-align: center;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.6);
 
-    box-shadow:
-        0 20px 60px rgba(0, 0, 0, 0.6);
-
-    animation:
-        readerResumeShow
-        0.25s ease;
-
+  animation:
+    readerResumeShow
+    0.25s ease;
 }
 
 
 /* ==================================================
    ICON
-   ================================================== */
+================================================== */
 
 .reader-resume-icon {
+  font-size: 46px;
 
-    font-size: 46px;
-
-    margin-bottom: 10px;
-
+  margin-bottom: 10px;
 }
 
 
 /* ==================================================
    TIÊU ĐỀ
-   ================================================== */
+================================================== */
 
 .reader-resume-title {
+  color: #ff7043;
 
-    color: #ff7043;
+  font-size: 22px;
 
-    font-size: 22px;
+  font-weight: bold;
 
-    font-weight: bold;
-
-    margin-bottom: 12px;
-
+  margin-bottom: 12px;
 }
 
 
 /* ==================================================
    MÔ TẢ
-   ================================================== */
+================================================== */
 
 .reader-resume-description {
+  color: #ccc;
 
-    color: #ccc;
+  font-size: 15px;
 
-    font-size: 15px;
+  line-height: 1.6;
 
-    line-height: 1.6;
-
-    margin-bottom: 22px;
-
+  margin-bottom: 22px;
 }
 
 
 /* ==================================================
    BUTTON
-   ================================================== */
+================================================== */
 
 .reader-resume-buttons {
+  display: flex;
 
-    display: flex;
+  flex-direction: column;
 
-    flex-direction: column;
-
-    gap: 10px;
-
+  gap: 10px;
 }
-
 
 .reader-resume-btn {
+  width: 100%;
 
-    width: 100%;
+  min-height: 48px;
 
-    min-height: 48px;
+  border: none;
 
-    border: none;
+  border-radius: 10px;
 
-    border-radius: 10px;
+  font-size: 16px;
 
-    font-size: 16px;
+  font-weight: bold;
 
-    font-weight: bold;
+  cursor: pointer;
 
-    cursor: pointer;
-
-    transition:
-        transform 0.15s ease,
-        opacity 0.15s ease;
-
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
 }
 
-
 .reader-resume-btn:hover {
+  transform: translateY(-1px);
 
-    transform:
-        translateY(-1px);
-
-    opacity: 0.92;
-
+  opacity: 0.92;
 }
 
 
 /* ==================================================
    BUTTON ĐỌC TIẾP
-   ================================================== */
+================================================== */
 
 .reader-resume-yes {
+  background: #ff5722;
 
-    background: #ff5722;
-
-    color: white;
-
+  color: white;
 }
 
 
 /* ==================================================
    BUTTON ĐỌC TỪ ĐẦU
-   ================================================== */
+================================================== */
 
 .reader-resume-no {
+  background: #333;
 
-    background: #333;
-
-    color: #ddd;
-
+  color: #ddd;
 }
 
 
 /* ==================================================
    ANIMATION
-   ================================================== */
+================================================== */
 
 @keyframes readerResumeShow {
 
-    from {
+  from {
+    opacity: 0;
 
-        opacity: 0;
+    transform:
+      translateY(15px)
+      scale(0.97);
+  }
 
-        transform:
-            translateY(15px)
-            scale(0.97);
+  to {
+    opacity: 1;
 
-    }
-
-    to {
-
-        opacity: 1;
-
-        transform:
-            translateY(0)
-            scale(1);
-
-    }
+    transform:
+      translateY(0)
+      scale(1);
+  }
 
 }
 
 
 /* ==================================================
-   MOBILE
-   ================================================== */
+   MOBILE POPUP
+================================================== */
 
 @media (max-width: 480px) {
 
-    .reader-resume-box {
+  .reader-resume-box {
+    padding: 25px 18px;
 
-        padding:
-            25px 18px;
+    border-radius: 15px;
+  }
 
-        border-radius:
-            15px;
+  .reader-resume-title {
+    font-size: 20px;
+  }
 
-    }
+  .reader-resume-description {
+    font-size: 14px;
+  }
 
+  .reader-resume-btn {
+    min-height: 46px;
 
-    .reader-resume-title {
-
-        font-size:
-            20px;
-
-    }
-
-
-    .reader-resume-description {
-
-        font-size:
-            14px;
-
-    }
-
-
-    .reader-resume-btn {
-
-        min-height:
-            46px;
-
-        font-size:
-            15px;
-
-    }
+    font-size: 15px;
+  }
 
 }
