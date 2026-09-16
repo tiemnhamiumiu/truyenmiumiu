@@ -108,7 +108,7 @@ if (isFacebookBrowser) {
 
 const DAILY_PASSES = {
 
-    "2026-09-15": "coco",
+    "2026-09-17": "san",
 
     "2026-09-16": "chinh"
 
@@ -123,8 +123,8 @@ const DAILY_PASSES = {
 
 const DAILY_FACEBOOK_POSTS = {
 
-    "2026-09-15":
-        "https://www.facebook.com/photo?fbid=122106667803467824&set=a.122105998845467824&locale=vi_VN",
+    "2026-09-17":
+        "https://www.facebook.com/photo/?fbid=122108962329467824&set=a.122105998845467824&locale=vi_VN",
 
     "2026-09-16":
         "https://www.facebook.com/photo/?fbid=122107572453467824&set=p.122107572453467824&locale=vi_VN",
