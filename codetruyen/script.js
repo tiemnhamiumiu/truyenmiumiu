@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         "2026-09-17": "san",
 
-        "2026-09-16": "chinh"
+        "2026-09-18": "2026"
 
     };
 
@@ -22,10 +22,10 @@ window.addEventListener("DOMContentLoaded", function () {
     const DAILY_FACEBOOK_POSTS = {
 
         "2026-09-17":
-            "https://www.facebook.com/photo/?fbid=122108962329467824&set=a.122105998845467824&locale=vi_VN",
+            "https://www.facebook.com/photo?fbid=122108962329467824&set=pcb.122108960919467824",
 
-        "2026-09-16":
-            "https://www.facebook.com/photo/?fbid=122107572453467824&set=p.122107572453467824&locale=vi_VN"
+        "2026-09-18":
+            "https://www.facebook.com/photo?fbid=122109445071467824&set=pcb.122109442095467824"
 
     };
 

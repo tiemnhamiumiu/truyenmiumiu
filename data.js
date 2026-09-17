@@ -15893,51 +15893,184 @@ Từ giây phút bước chân vào chốn hoàng cung chói lọi để làm k�
 
 Đến cuối cùng, ta chẳng đành lòng nhìn bản thân bị giam cầm vĩnh viễn trong chốn cung cấm lạnh lẽo này. Hãy tự do đi, Chiêu Nhi, mong rằng từ nay về sau ngươi sẽ không còn là cái bóng của bất kỳ ai, mà có thể trọn vẹn sống với chính mình.
 `
+  },{
+    id: 770,
+    title: "Hào Quang Của Riêng Cậu",
+    image: "imgngon/414a56e18ba6ae7fc8e2bcb3472496b9.jpg",
+    link: "ngontinh/hao-quang-cua-rieng-cau.html",
+    type: "ngontinh",
+    desc: `Tôi phát hiện ra một bí mật động trời: chỉ cần xảy ra đụng chạm cơ thể với nam thần của trường, thành tích học tập của tôi sẽ lập tức tăng thêm mười điểm.
+
+Để tranh thủ từng cơ hội tiếp xúc, ngày nào tôi cũng bám theo cậu ấy. Hỏi han chăm sóc, dâng nước tận tay, tự biến mình thành một đuôi nhỏ nổi danh khắp trường.
+
+Đến một ngày, vị nam thần ấy không thể chịu đựng thêm được nữa. Cậu ấy lạnh lùng đưa ra lời cảnh cáo: “Cậu làm phiền tôi quá rồi đấy. Làm ơn tránh xa tôi ra một chút được không? Coi như tôi van cậu.”
+
+Thế rồi sau đó, tôi vô tình phát hiện việc đụng chạm với tên đầu vàng ngông cuồng lớp bên cũng mang lại hiệu quả tương tự.
+
+Không chút do dự, tôi quay xe từ bỏ nam thần, chuyển sang theo đuôi tên đầu vàng mỗi ngày để tìm cớ gây sự.
+
+Chỉ một tháng sau, vị nam thần lạnh lùng ngày trước đã hoàn toàn mất đi sự bình tĩnh. Cậu ấy chặn đường, giữ chặt lấy tôi khi mặt mũi tôi còn đang bầm dập. Khóe mắt cậu ấy ửng đỏ, giọng nghẹn ngào: “Đừng tự làm khổ mình để đuổi theo tên côn đồ đó nữa... Chúng ta nói chuyện lại với nhau, được không?”
+`
+  },{
+    id: 771,
+    title: "Tuyến Hương Ngọt Ngào",
+    image: "imgdam/a34c7f599aceceaa8ae3eeadc6e239c2.jpg",
+    link: "dammy/tuyen-huong-ngot-ngao.html",
+    type: "dammy",
+    desc: `Tất cả những ai từng gặp tôi đều dành lời khen cho tài năng, ngoại hình lẫn vóc dáng của tôi, để rồi cuối cùng lại buông một tiếng thở dài đầy tiếc nuối: "Giá mà em là omega thì tuyệt biết mấy."
+
+Gáy tôi phẳng lỳ, hoàn toàn không có tuyến thể.
+
+Thế nhưng trên thực tế, tôi lại là một omega chính hiệu. Chỉ có điều, vị trí mọc của tuyến thể trong cơ thể tôi lại nằm ở một nơi... vô cùng khó nói.
+
+Lùi một bước mà xét, lẽ nào trên đời này thật sự chẳng có ai chịu cắn vào vòng ba của tôi để đánh dấu sao?
+`
+  },{
+    id: 772,
+    title: "Cành Hồng Vượt Tường",
+    image: "imgco/6477e288d9891348735b072cbb708f2f.jpg",
+    link: "cotrang/canh-hong-vuot-tuong.html",
+    type: "cotrang",
+    desc: `Muội muội ta bỏ trốn cùng một thư sinh nghèo. Vị hôn phu lạnh lùng của nàng đập cửa xông vào, ép ta phải thay thế vị trí đó.
+
+Ta sợ tới mức nắm chặt đai lưng, liên tục nài xin: "Muội phu, sao có thể đổ vỡ chuyện này lên đầu ta chứ?"
+
+Đôi mắt hắn đỏ thắm tựa hai giọt chu sa, lạnh lẽo như máu, giọng điệu không chút gợn sóng: "Trưởng tỷ như mẹ, oan có đầu, nợ có chủ."
+
+"Ngươi muốn tự mình bước đi, hay để ta lôi ngươi đi?"
+
+Thật sự kích thích, chẳng phải đây chính là tình tiết cưỡng đoạt trong các cuốn thoại bản hay sao?
+
+Thế nhưng lấy trứng chọi đá chẳng có lợi gì. Ta định bước xuống giường thì mới giật mình phát hiện, chiếc quần bông duy nhất trong nhà đã bị muội muội mặc đi mất. Ta đành nằm trở lại, thở dài một tiếng: "Thôi vậy, trời lạnh thế này, chi bằng khỏi động đậy."
+
+"Ngươi muốn đoạt thì cứ đoạt đi, nhanh lên một chút, tranh thủ lúc chăn vẫn còn ấm..."
+`
+  },{
+    id: 773,
+    title: "Tơ Hồng Dẫn Lối",
+    image: "imgngon/6587fa5992af501d3096f5008b912ec7.jpg",
+    link: "ngontinh/to-hong-dan-loi.html",
+    type: "ngontinh",
+    desc: `Sau khi trải qua cuộc phẫu thuật điều chỉnh tật khúc xạ bằng công nghệ laser, tôi đột nhiên phát hiện bản thân sở hữu một khả năng vô cùng kỳ lạ: Tôi có thể nhìn thấy những sợi tơ hồng quấn quanh cổ tay của mỗi người.
+
+Tôi quyết định chủ động đi tìm người chồng tương lai của mình. Lúc gặp mặt, tôi định bụng sẽ nói cho anh biết chuyện cả hai vốn dĩ mang duyên nợ vợ chồng.
+
+Thế nhưng, anh chỉ lạnh lùng ném lại một câu: "Tránh xa tôi ra."
+
+Tôi: ?`
+  },{
+    id: 774,
+    title: "Kẻ Cướp Bạn Gái Hóa Ra Thích Tôi",
+    image: "imgdam/6bd2fc1ed2dc91720f0716a4b294d07e.jpg",
+    link: "dammy/ke-cuop-ban-gai-hoa-ra-thich-toi.html",
+    type: "dammy",
+    desc: `Anh bạn thân của tôi cậy mình vừa đẹp trai vừa có tiền, hết lần này đến lần khác phỗng tay trên mọi cô bạn gái của tôi.
+
+Tôi tức đến bốc hỏa, quyết định giả vờ làm gay rồi kiếm một ông bạn trai về.
+
+Để xem lần này hắn còn cướp kiểu gì nữa?
+
+Ai ngờ tên này còn điên máu hơn. Đêm hôm khuya khoắt, hắn dồn tôi vào góc tường, ánh mắt hừng hực: "Nếu cậu ta có thể, tôi cũng có thể chứ?"
+
+"Gì... Cái gì cơ?"
+
+Hắn nhìn chằm chằm vào môi tôi: "Câu đó khó hiểu lắm à?"
+
+"Tôi muốn cậu!"`
+  },{
+    id: 775,
+    title: "Thanh Cao Hay Ngu Muội",
+    image: "imgco/ca0d8cf58c26561453631c953b0a48cd.jpg",
+    link: "cotrang/thanh-cao-hay-ngu-muoi.html",
+    type: "cotrang",
+    desc: `Khi tỷ tỷ đích xuất nhập cung và mang long thai, phụ thân liền đưa ta, một đứa con thứ xuất, vào cung hầu hạ, với mong muốn ta sẽ giữ vững ân sủng thay cho nàng.
+
+Ngày đêm ta khổ luyện ca múa, dốc lòng lấy lòng Hoàng thượng, chỉ cầu cho gia tộc mai sau được thịnh vượng.
+
+Nào ngờ sau lưng ta, tỷ tỷ lại thản nhiên buông lời nghị luận: "Dù sao cũng chỉ là hạng thứ xuất, mấy thủ đoạn tranh sủng hèn mọn ấy, bổn cung chẳng buồn bận tâm."
+
+Đến khi tỷ tỷ bị kẻ gian hãm hại, ta đứng ra gánh tội thay nàng, chịu đựng hình phạt rút mười móng tay tàn khốc nơi ngục thất. Vậy mà nàng chỉ hờ hững phán một câu: "Hoàng thượng vốn là thiếu niên lang của bổn cung, có ngươi hay không thì chàng vẫn tin sự trong sạch của ta."
+
+Về sau, khi bị tố cáo tư thông cùng thái y, nàng lại thản nhiên bảo: "Thần thiếp chưa từng làm, chẳng có gì để nói."
+
+Ta dốc hết mưu trí bày kế trừ khử vị thái y kia nhằm chứng minh sự thanh bạch cho nàng, thì tỷ tỷ lại quay sang mắng ta nhẫn tâm độc ác.
+
+Rốt cuộc, nàng thất sủng, kéo theo cả mẫu tộc rơi vào thảm cảnh.
+
+Dù cửu tộc bị lưu đày, nàng vẫn giữ sự kiêu ngạo, nhất quyết không chịu cúi đầu cầu xin Hoàng thượng.
+
+Phụ mẫu bị sát hại, nàng cũng chỉ biết than thở rằng Hoàng đế chẳng còn là thiếu niên lang của nàng năm xưa.
+
+Cuối cùng, ta bỏ mạng thê thảm nơi lãnh cung cô quạnh, còn nàng vẫn thản nhiên như đóa cúc thanh cao, không màng thế sự.
+
+Chỉ đến khi vị thái y kia qua đời, nàng mới đau đớn khóc đến xé lòng.
+
+Lúc ta mở mắt ra lần nữa, hóa ra bản thân đã trở về ngày đầu tiên nhập cung.
+
+Phụ thân đang nghiêm giọng răn dạy: "Con phải một lòng trung thành với tỷ tỷ, phò tá nàng lên ngôi hậu, tuyệt đối không được phép tranh sủng!"
+
+Ta nở nụ cười lạnh nhạt. Thay vì làm áo cưới cho kẻ ngu muội như nàng, chi bằng tự tay ta khoác lên phượng bào, ngồi lên bảo tọa hoàng hậu!
+`
+  },{
+    id: 776,
+    title: "Hoa Hồng Đen Máng Độc",
+    image: "imgngon/39e8adda2e55a9dbb5e85a7917fda7e1.jpg",
+    link: "ngontinh/hoa-hong-den-mang-doc.html",
+    type: "ngontinh",
+    desc: `Trong buổi tiệc đính hôn, tôi bị nhốt trong một gian phòng vệ sinh, chờ đón tôi là một xô nước bẩn.
+
+Vị hôn phu của tôi dựa vào cửa, nở nụ cười đầy ý vị.
+
+“Tiểu thư Thẩm, cả đời này chưa từng nếm trải mùi vị của nước bẩn phải không? Cảm giác thế nào?”
+
+“Cũng thú vị lắm.”
+
+Tôi cười còn rạng rỡ hơn anh ta.
+
+“Nhưng vẫn cảm thấy sảng khoái nhất khi thấy người anh ta yêu nằm bò ra đất mà khóc.”
+`
+  },{
+    id: 777,
+    title: "Liên Kết Nhạy Cảm Với Bạn Cùng Phòng Lạnh Lùng",
+    image: "imgdam/2fc180d2a44450dd5010a833ef9d8904.jpg",
+    link: "dammy/lien-ket-nhay-cam-voi-ban-cung-phong-lanh-lung.html",
+    type: "dammy",
+    desc: `Tôi có mối liên kết cảm nhận cơ thể một chiều với anh bạn cùng phòng lạnh lùng.
+
+Anh ấy ăn cơm, tôi liền cảm giác no căng bụng.
+
+Anh ấy tắm rửa, tôi lại như bị người ta chạm vào.
+
+Anh ấy giải quyết nhu cầu sinh lý, tôi cắn gối chịu đựng, nghẹn ngào không thể kiềm chế.
+
+Một ngày nọ, không thể chịu đựng thêm nữa, tôi bóng gió khuyên anh ta nên tiết chế.
+
+Anh bạn cùng phòng lạnh lùng dần dần tiến đến gần tôi.
+
+“Nếu tôi không nhịn được thì sao?”`
+  },{
+    id: 778,
+    title: "Bức Họa Dưới Trăng",
+    image: "imgco/41fee42ebfb2cf9a79dfb7fffb0a61da.jpg",
+    link: "cotrang/buc-hoa-duoi-trang.html",
+    type: "cotrang",
+    desc: `Nơi biên ải xa xôi hẻo lánh, ta sống bằng nghề bán bánh thịt.
+
+Hôm đó, ta vô tình chạm trán một vị tướng quân.
+
+Chàng hỏi: “Ngươi làm gì ở đây?”
+
+Ta yếu ớt thều thào: “Bán... thịt...”
+
+Gương mặt vị tướng quân lập tức đỏ bừng, quát lớn: “Hạ lưu!”
+
+Hắn liền trói ta mang về doanh trại, bắt cải tạo cùng đám cô nương bán thân khác.
+
+Về sau, ta cướp mất quần của hắn, khiến hắn hoảng hốt đến mất mật.
+
+Ta cười bảo: “Lần đầu gặp mặt, tướng quân đã kết tội ta hạ lưu. Tam Nương ta đây, xưa nay chưa từng mang tiếng xấu một cách vô cớ.”
+`
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
