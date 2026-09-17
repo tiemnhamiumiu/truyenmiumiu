@@ -1169,25 +1169,17 @@ body {
 
 #unlockBox .get-pass-link {
   display: inline-block;
-
   margin: 14px auto 0;
-
   padding: 10px 18px;
-
   background: #1877f2;
-
   color: #ffffff;
-
+  border: none;
   border-radius: 10px;
-
   text-decoration: none;
-
   font-size: 14px;
-
   font-weight: bold;
-
   line-height: 1.4;
-
+  cursor: pointer;
   transition:
     background 0.2s,
     transform 0.2s;
@@ -1195,7 +1187,6 @@ body {
 
 #unlockBox .get-pass-link:hover {
   background: #0d65d9;
-
   transform: translateY(-1px);
 }
 
