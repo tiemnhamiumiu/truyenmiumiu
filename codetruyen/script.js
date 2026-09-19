@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         "2026-09-19": "be",
 
-        "2026-09-18": "2026"
+        "2026-09-20": "robot"
 
     };
 
@@ -24,8 +24,8 @@ window.addEventListener("DOMContentLoaded", function () {
         "2026-09-19":
             "https://www.facebook.com/photo/?fbid=122110138095467824&set=pcb.122110138395467824&locale=vi_VN",
 
-        "2026-09-18":
-            "https://www.facebook.com/photo?fbid=122109445071467824&set=pcb.122109442095467824"
+        "2026-09-20":
+            "https://www.facebook.com/photo/?fbid=122110605801467824&set=pcb.122110607001467824&locale=vi_VN"
 
     };
 
