@@ -15,7 +15,8 @@
   <a href="../index.html">Trang chủ</a>
   <a href="../ngontinh.html">Ngôn tình</a>
   <a href="../dammy.html">Đam mỹ</a>
-  <a href="../cotrang.html">Cổ trang</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://truyenxoithitmiumiu.nekoweb.org/" id="xoiThitLink">Xôi Thịt</a>
 </header>
 
 <div class="topbar">
@@ -123,7 +124,23 @@ Chưa chọn nhạc nền
 </div>
 
 <div id="story">
-    Một tuần sau khi chia tay Giản Thự Dương, tôi lại gặp anh lần nữa ngay trong ký túc xá đại học.
+Tôi và bạn trai cũ… trở thành bạn cùng phòng đại học.
+
+Đúng lúc anh ta quay đầu đi, giả vờ như chẳng quen biết tôi, thì trước mắt tôi bỗng hiện lên một loạt bình luận bay lơ lửng:
+
+[Nam chính còn giả vờ nữa à? Mỗi tối nhớ vợ đến khóc ướt gối là ai quên rồi chắc?!]
+[Các chị em ghi nhớ: người càng nghẹn khuất càng dễ đánh mất tình yêu!!]
+[Dựa vào cái gì mà anh ta được yêu một mỹ nhân lạnh lùng, sạch sẽ bậc này hả?? Tôi không phục!!]
+[Gấp gấp, nhìn mà tức! Ôm cậu ấy đi! Hôn đi! Cầu xin quay lại đi!!]
+[Haha không ngờ vợ chẳng thèm để ý, chắc ai đó lại trốn đi khóc nữa rồi…]
+
+Khoan đã…
+
+Là ai lan tin đồn tôi là người nằm dưới vậy hả?!
+  
+-----
+  
+Một tuần sau khi chia tay Giản Thự Dương, tôi lại gặp anh lần nữa ngay trong ký túc xá đại học.
 
 Nói chia tay… thật ra là tôi đá anh ta.
 
@@ -1135,5 +1152,187 @@ Bình luận cuối cùng trôi qua:
 <script src="../codetruyen/script.js"></script>
 <script src="../codetruyen/audio.js"></script>
 
+
+<!-- ==================================================
+     POPUP CHUYỂN SANG WEB XÔI THỊT
+================================================== -->
+
+
+<!-- ==================================================
+     POPUP CHUYỂN SANG WEB XÔI THỊT
+================================================== -->
+
+<div
+  id="xoiThitPopup"
+  class="xoi-thit-overlay"
+  style="display:none;"
+>
+
+  <div class="xoi-thit-box">
+
+      <img
+    src="../codetruyen/icon.jpg"
+    alt="Truyện Mới Miu Miu"
+    class="xoi-thit-icon"
+  >
+
+  <span class="xoi-thit-arrow">→</span>
+
+  <img
+    src="../codetruyen/iconxoi.jpg"
+    alt="Xôi Thịt Nhà Mui Miu"
+    class="xoi-thit-icon"
+  >
+
+    <div class="xoi-thit-text">
+      Bạn đang chuyển qua web
+      <strong>Xôi Thịt Nhà Mui Miu</strong>
+    </div>
+
+    <div class="xoi-thit-question">
+      Bạn có muốn tiếp tục không?
+    </div>
+
+    <div class="xoi-thit-buttons">
+
+      <button
+        id="xoiThitYes"
+        class="xoi-thit-yes"
+      >
+        Có
+      </button>
+
+      <button
+        id="xoiThitNo"
+        class="xoi-thit-no"
+      >
+        Không
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink =
+  document.getElementById("xoiThitLink");
+
+const xoiThitPopup =
+  document.getElementById("xoiThitPopup");
+
+const xoiThitYes =
+  document.getElementById("xoiThitYes");
+
+const xoiThitNo =
+  document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   ẤN XÔI THỊT
+================================================== */
+
+xoiThitLink.addEventListener(
+  "click",
+  function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  }
+);
+
+
+/* ==================================================
+   CÓ → CHUYỂN WEB
+================================================== */
+
+xoiThitYes.addEventListener(
+  "click",
+  function() {
+
+    window.location.href =
+      "https://truyenxoithitmiumiu.nekoweb.org/";
+
+  }
+);
+
+
+/* ==================================================
+   KHÔNG → ĐÓNG BẢNG
+================================================== */
+
+xoiThitNo.addEventListener(
+  "click",
+  function() {
+
+    xoiThitPopup.style.display = "none";
+
+  }
+);
+
+
+/* ==================================================
+   ẤN RA NGOÀI BẢNG → ĐÓNG
+================================================== */
+
+xoiThitPopup.addEventListener(
+  "click",
+  function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  }
+);
+
+</script>
+</body>
+
+    <div class="xoi-thit-text">
+      Bạn đang chuyển qua web
+      <strong>Xôi Thịt Nhà Mui Miu</strong>
+    </div>
+
+    <div class="xoi-thit-question">
+      Bạn có muốn tiếp tục không?
+    </div>
+
+    <div class="xoi-thit-buttons">
+
+      <button
+        id="xoiThitYes"
+        class="xoi-thit-yes"
+      >
+        Có
+      </button>
+
+      <button
+        id="xoiThitNo"
+        class="xoi-thit-no"
+      >
+        Không
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+</script>
 </body>
 </html>

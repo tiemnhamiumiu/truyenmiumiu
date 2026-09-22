@@ -3,7 +3,7 @@ const stories = [
   {
     id: 7,
     title: "Tiểu Cung Nữ Rớt Ngựa",
-    image: "images/3536a05df32a595441b56454e3d35f72.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3536a05df32a595441b56454e3d35f72.jpg",
     link: "truyen/tieu-cung-nu-rot-ngua.html",
     type: "cotrang",
     desc: `Tiểu cung nữ tầm thường như ta, chỉ vì cái tật mê ăn hơn mê vàng, liều mạng “móc ngoặc” với tổng quản thái giám, sống chết đòi bị điều vào ngự thiện phòng.
@@ -37,7 +37,7 @@ A Lạc thì mắt sáng rực.
   {
     id: 6,
     title: "Hoàng Tử Bé Bị Đánh Dấu",
-    image: "images/14c905ab785ba6ef58f4d7b54df0b51a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/14c905ab785ba6ef58f4d7b54df0b51a.jpg",
     link: "truyen/hoang-tu-be-bi-danh-dau.html",
     type: "dammy",
 desc:`
@@ -55,7 +55,7 @@ Anh đạp cửa xông vào, đè tôi xuống giường suốt ba ngày ba đê
   {
     id: 5,
     title: "Bảo Mẫu Lạc Vào Nhà Tổng Tài",
-    image: "images/764306f1abb8bcd899c980ad9fa9f03f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/764306f1abb8bcd899c980ad9fa9f03f.jpg",
     link: "truyen/bao-mau-lac-vao-nha-tong-tai.html",
     type: "dammy",
     desc:`Tôi lên thành phố làm người giúp việc.Vừa gặp mặt, thiếu gia nhà chủ đã nhìn tôi chằm chằm suốt ba giây, ánh mắt như muốn soi xuyên cả linh hồn.
@@ -79,7 +79,7 @@ Thiếu gia nhà ai mà nửa đêm còn sờ môi bảo mẫu, xong thấp gi�
   {
     id: 4,
     title: "Bệ Hạ Đòi Thêm Một Bát",
-    image: "images/c7f22364544e985744ce2bdf99d6f179.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c7f22364544e985744ce2bdf99d6f179.jpg",
     link: "truyen/be-ha-doi-them-mot-bat.html",
     type: "dammy",
     desc:`Bị một gã thô lỗ ép buộc yêu đương suốt ba năm, ta đành liều mình ôm mộng đổi đời bằng khoa cử, một bước vinh quy bái tổ cho đỡ nhục.
@@ -98,7 +98,7 @@ Kẻ ngồi trên cao khinh khỉnh nâng cằm ta lên, động tác nhẹ như
   {
     id: 3,
     title: "Phúc Tinh Của Anh",
-    image: "images/b4008aa1a25cb78b7c334f23c3258671.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b4008aa1a25cb78b7c334f23c3258671.jpg",
     link: "truyen/phuc-tinh-cua-anh.html",
     type: "ngontinh",
     desc:`Con trai đánh nhau bị đưa vào đồn, cảnh sát thụ lý lại là bạn trai cũ của tôi.
@@ -130,7 +130,7 @@ Tôi còn đang đứng hình thì Thẩm Ảnh Thần đã trợn mắt, xách 
   {
     id: 2,
     title: "Chấp Niệm Ngọt Ngào Của Tôi",
-    image: "images/83b32d1f68d1c2b4a65666720595f48a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/83b32d1f68d1c2b4a65666720595f48a.jpg",
     link: "ngontinh/chap-niem-ngot-ngao-cua-toi.html",
     type: "ngontinh",
     desc:`Tôi là một bệnh kiều siêu lắm lời.
@@ -160,7 +160,7 @@ Quản gia nhìn thiếu niên mặt mày chán nản, yếu ớt nhắc nhở.
   {
     id: 1,
     title: "Nghe Thấy Tiếng Lòng Thú Cưng",
-    image: "images/ec8244153b3fe1b82a54f2facfda720a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ec8244153b3fe1b82a54f2facfda720a.jpg",
     link: "truyen/truyen1.html",
     type: "ngontinh",
 
@@ -182,7 +182,7 @@ Thấy vẻ mặt anh chủ của Đại Tráng vừa sốc vừa tổn thương
   {
     id: 8,
     title: "Một Đời Làm Quân Vương Giữa Vạn Kẻ Giả Ngốc",
-    image: "images/7eb14a368fd3f43fedc51596fa876bdc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7eb14a368fd3f43fedc51596fa876bdc.jpg",
     link: "truyen/mot-doi-lam-quan-vuong-giua-van-ke-gia-ngoc.html",
     type: "cotrang",
     desc: `Trẫm là Hoàng đế.
@@ -202,7 +202,7 @@ Giữa việc lâm triều và việc phấn đấu, trẫm chọn đi treo cổ
     id: 9,
         title: "Tướng Quân Gả Nhầm",
 
-    image: "images/08ffb801a757ec6a731fa87b500e132c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/08ffb801a757ec6a731fa87b500e132c.jpg",
     link: "truyen/tuong-quan-ga-nham.html",
     type: "cotrang",
     desc: `Ta mơ một giấc mơ.
@@ -227,7 +227,7 @@ Giờ thì hắn lại hỏi ta.
   }, {
     id: 10,
 title: "Hợp Đồng Hôn Nhân Với Tổng Tài",
-    image: "images/a665dc3a5826a77ca69e76f15a07740d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a665dc3a5826a77ca69e76f15a07740d.jpg",
     link: "truyen/hop-dong-hon-nhan-voi-tong-tai.html",
     type: "ngontinh",
     desc: `
@@ -242,7 +242,7 @@ Mỗi năm sáu tỷ, đừng nói là yêu, mạng tôi cũng dâng luôn chứ
   }, {
     id: 11,
 title: "Dòng Chữ Báo Trước Tình Yêu",
-    image: "images/364d168b2f4abe1d86ba1731dc2207d1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/364d168b2f4abe1d86ba1731dc2207d1.jpg",
     link: "truyen/dong-chu-bao-truoc-tinh-yeu.html",
     type: "ngontinh",
     desc: `Tôi là kiểu bệnh kiều nói nhiều.
@@ -279,7 +279,7 @@ Tên đầu gấu vừa nhìn thấy tôi đã “Oa” một tiếng khóc luô
   }, {
     id: 12,
 title: "Thị Vệ Chạy Trốn Vương Gia Mỗi Ngày",
-    image: "images/6cbd179404131bc489e2c3864548c9b2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6cbd179404131bc489e2c3864548c9b2.jpg",
     link: "truyen/thi-ve-chay-tron-vuong-gia-moi-ngay.html",
     type: "dammy",
     desc: `Ta thật sự không làm nổi cái nghề thị vệ này nữa rồi!
@@ -294,7 +294,7 @@ Vương gia nghe xong liền nổi giận, trừng mắt rồi phạt ta, còn c
   }, {
     id: 13,
 title: "Quả Phụ Dưới Họng Súng Lão Đại",
-    image: "images/b09172c983ab58434b39a6a09b45cc9d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b09172c983ab58434b39a6a09b45cc9d.jpg",
     link: "truyen/qua-phu-duoi-hong-sung-lao-dai-moi-ngay.html",
     type: "dammy",
     desc: `Sau khi bị ép liên hôn với một người đàn ông lạ hoắc, tôi quyết định chơi cú “bốc hơi tại chỗ” ngay trong ngày cưới.
@@ -311,7 +311,7 @@ Người đàn ông quyền lực kia không nói không rằng, trực tiếp g
   }, {
     id: 14,
 title: "Chú Chó Nhỏ Của Enigma",
-    image: "images/eb6888c149700219f01bb124c387d797.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eb6888c149700219f01bb124c387d797.jpg",
     link: "truyen/chu-cho-nho-cua-enigma-moi-ngay.html",
     type: "dammy",
     desc: `Bùi Du là Alpha cấp S.
@@ -332,7 +332,7 @@ Rồi sẽ có ngày tôi khiến hắn phải quỳ xuống cầu xin tôi, ngo
   }, {
     id: 15,
 title: "Hầu Gia Hóa Ra Chỉ Là Một Ván Cờ",
-    image: "images/9c3e12fad662ab031d7f3f446370b39c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9c3e12fad662ab031d7f3f446370b39c.jpg",
     link: "truyen/hau-gia-hoa-ra-chi-la-mot-van-co-moi-ngay.html",
     type: "cotrang",
     desc: `Phu quân của ta có một tiểu thiếp mà hắn cực kỳ ghét bỏ.
@@ -355,7 +355,7 @@ Lần này ta muốn xem, không có ta đứng sau dọn đường, cái gọi 
   },{
     id: 16,
 title: "Cả Đời Nghiệt Duyên",
-    image: "images/22fbd9ac222130e4cad13851ddf43bd3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/22fbd9ac222130e4cad13851ddf43bd3.jpg",
     link: "truyen/ca-doi-nghiet-duyen-moi-ngay.html",
     type: "cotrang",
     desc: `Tỷ tỷ tính tình cương liệt.
@@ -371,7 +371,7 @@ Từ kẻ mổ lợn, người bán cá, người gác cổng, đến cả ngư�
   }, {
     id: 17,
 title: "Tuyết Lạnh Trường An Vẫn Chưa Tan",
-    image: "images/7ab1d4d0150fdb2beffda7bb271ee6a6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7ab1d4d0150fdb2beffda7bb271ee6a6.jpg",
     link: "truyen/tuyet-lanh-truong-an-van-chua-tan-moi-ngay.html",
     type: "cotrang",
     desc: `Trong yến tiệc Trạng nguyên, Hoàng thượng uống đến ngà say rồi tiện tay “bắt rể” ngay tại chỗ.
@@ -387,7 +387,7 @@ Thì ra Hoàng thượng không phải chọn con rể, mà là chọn luôn m�
   },{
     id: 18,
 title: "Gặp Lại Em Sau Mười Ba Năm",
-    image: "imgngon/0540948350df77dc56dbd374dd1db6fc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0540948350df77dc56dbd374dd1db6fc.jpg",
     link: "ngontinh/gap-lai-em-sau-muoi-ba-nam.html",
     type: "ngontinh",
     desc: `Nghe nói tôi vẫn còn độc thân, cô giáo lập tức hăng hái đòi làm mai cho tôi.
@@ -418,7 +418,7 @@ Tôi đứng hình tại chỗ.Hả??`
   },{
     id: 19,
 title: "Beta Giả Chết Rời Đi",
-    image: "imgdam/e75ef002e5d41c5dce1b7f0b00939563.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e75ef002e5d41c5dce1b7f0b00939563.jpg",
     link: "dammy/beta-gia-chet-roi-di.html",
     type: "dammy",
     desc: `Tôi thầm yêu trúc mã của mình.
@@ -431,7 +431,7 @@ Cho đến một ngày, hắn cắn lên gáy tôi, giọng khàn khàn: “Nghe
   },{
     id: 20,
 title: "Hoàng Quyền Vạn Dặm Một Đời Thái Vi",
-    image: "imgco/3f85ef3ea7019dd35edb9c1bd56bc8fd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3f85ef3ea7019dd35edb9c1bd56bc8fd.jpg",
     link: "cotrang/hoang-quyen-van-dam-mot-doi-thai-vi.html",
     type: "cotrang",
     desc: `Sau đại thắng trở về, Hoàng thượng muốn học theo các vị hoàng đế trong sách xưa, bày tiệc rượu để thu hồi binh quyền.
@@ -450,7 +450,7 @@ Vậy mà cuối cùng, họ lại để chàng quay về nhìn thấy thi thể
   }, {
     id: 21,
 title: "Chạy Đâu Cho Thoát",
-    image: "imgngon/578ffddb2c5385b2fff85b51955bbf9c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/578ffddb2c5385b2fff85b51955bbf9c.jpg",
     link: "ngontinh/chay-dau-cho-thoat.html",
     type: "ngontinh",
     desc: `Lục Gia Diễn từng nói tôi tâm địa không tốt, còn hay dùng vẻ ngoài “nguy hiểm” để quyến rũ người khác.
@@ -469,7 +469,7 @@ Nhưng vừa quay sang đã thấy tôi đứng cạnh một người con trai k
   },{
     id: 22,
     title: "Người Thừa Kế Được Nuôi Dưỡng",
-    image: "imgdam/016de315e768fb1178387cb00fad42f1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/016de315e768fb1178387cb00fad42f1.jpg",
     link: "dammy/nguoi-thua-ke-duoc-nuoi-duong.html",
     type: "dammy",
     desc: `Tôi là một alpha được nhà họ Giang nhận nuôi.
@@ -492,7 +492,7 @@ Lúc này, cậu ấy đang ôm một con thỏ bông, đứng trên bậc thề
   },{
     id: 23,
     title: "Sống Lại Để Lật Bàn Cờ",
-    image: "imgco/dc0636bf44aed4163fe52334df381095.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dc0636bf44aed4163fe52334df381095.jpg",
     link: "cotrang/song-lai-de-lat-ban-co.html",
     type: "cotrang",
     desc: `Sau khi Hầu phủ bị xét nhà, ta và tỷ tỷ phải bán thân làm nô, rơi thẳng xuống kiếp nha hoàn trong phủ Quốc công.
@@ -525,7 +525,7 @@ Mở mắt lần nữa, ta quay về thời điểm vừa cùng tỷ tỷ vào p
   },{
     id: 24,
 title: "Tử Đằng Trong Cơn Mưa",
-    image: "imgdam/f8760b65fb3855c05b5a5ea3a3801389.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f8760b65fb3855c05b5a5ea3a3801389.jpg",
     link: "dammy/tu-dang-trong-con-mua.html",
     type: "dammy",
     desc: `Tôi là một Alpha vô dụng, nhưng sau khi cha tôi qua đời, tôi đã thừa kế toàn bộ gia sản.
@@ -542,7 +542,7 @@ Cùng với tuyến thể bị liếm cắn đi cắn lại không biết bao nh
   },{
     id: 25,
 title: "Hành Trình Thăng Chức Của Thái Giám",
-    image: "imgco/7013b82f97dda981bf3d47a237422b36.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7013b82f97dda981bf3d47a237422b36.jpg",
     link: "cotrang/hanh-trinh-thang-chuc-cua-thai-giam.html",
     type: "cotrang",
     desc: `Ngày vào cung, mẫu thân ân cần dặn dò:
@@ -555,7 +555,7 @@ Cuối cùng cũng thành công trở thành người dưới một người, tr
   }, {
     id: 26,
 title: "Bảy Năm Chờ Một Người",
-    image: "imgngon/c100a8d898263df8fad27ad4df25df03.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c100a8d898263df8fad27ad4df25df03.jpg",
     link: "ngontinh/bay-nam-cho-mot-nguoi.html",
     type: "ngontinh",
     desc: `Kết hôn nửa năm, Thẩm Nghiễn Châu đối xử với tôi không mặn cũng không nhạt.
@@ -576,7 +576,7 @@ Anh gằn từng chữ một: “Ly hôn?”
   },{
     id: 27,
 title: "Kẻ Thống Trị Và Con Mồi",
-    image: "imgngon/1b757984c2c2eda7ef842e6573d71f81.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1b757984c2c2eda7ef842e6573d71f81.jpg",
     link: "ngontinh/ke-thong-tri-va-con-moi.html",
     type: "ngontinh",
     desc: `Năm đó, vào đúng giai đoạn u ám nhất của cuộc đời.
@@ -611,7 +611,7 @@ Ngày hôm sau, bá chủ lớp F chuyển thẳng lên lớp A, ánh mắt hung
   },{
     id: 28,
 title: "Giới Tính Bí Ẩn Của Tôi",
-    image: "imgdam/a86c6e18e9176610fc0bf570c66ea30d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a86c6e18e9176610fc0bf570c66ea30d.jpg",
     link: "dammy/gioi-tinh-bi-an-cua-toi.html",
     type: "dammy",
     desc: `Tôi là một Enigma theo kiểu Phật hệ, không tranh không giành.
@@ -638,7 +638,7 @@ Vừa kéo ra một cái, anh ta sững lại, vẻ mặt vừa kinh ngạc vừ
   },{
     id: 29,
 title: "Huyết Hỏa Trùng Sinh",
-    image: "imgco/4d65952a64f86d8f1e2079f051751a1e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4d65952a64f86d8f1e2079f051751a1e.jpg",
     link: "cotrang/huyet-hoa-trung-sinh.html",
     type: "cotrang",
     desc: `Sau khi đích tỷ qua đời, ta gả vào Hầu phủ, trở thành kế thất.Ta tận tâm tận lực hầu hạ công bà, quản lý hậu viện, chăm sóc đôi hài tử thơ dại mà đích tỷ để lại.Hai mươi năm vất vả ròng rã, ta cứ ngỡ mình cũng đổi lại được chút thể diện trong cái Hầu phủ này.
@@ -655,7 +655,7 @@ Mở mắt lần nữa, ta phát hiện mình đã quay về đúng ngày đích
   }, {
     id: 30,
 title: "Cả Thế Giới Bắt Đầu Cưng Chiều Nữ Phụ Mất Trí Nhớ",
-    image: "imgngon/8421308de9d6e14040e10d6fcc1f18b2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8421308de9d6e14040e10d6fcc1f18b2.jpg",
     link: "ngontinh/cả-thế-giới-bắt-đầu-cưng-chiều-nữ-phụ-mất-trí-nhớ.html",
     type: "ngontinh",
     desc: `Sau khi mất trí nhớ, tôi quên sạch luôn chuyện mình từng là nữ phụ độc ác.
@@ -676,7 +676,7 @@ Không lẽ từ trước tới giờ tôi cầm nhầm kịch bản “được
   },{
     id: 31,
 title: "Tình Yêu Giữa Ký Túc Xá Nam Sinh",
-    image: "imgdam/ef2bf80196fffe51d50758a193b0dcfe.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ef2bf80196fffe51d50758a193b0dcfe.jpg",
     link: "dammy/tinh-yeu-giua-ky-tuc-xa-nam-sinh.html",
     type: "dammy",
     desc: `Mẹ tôi chê tôi không có khí chất đàn ông, thế là nửa đêm quyết định tống tôi vào một trường nam sinh.
@@ -696,7 +696,7 @@ Vừa rồi còn là giấc mơ, nhưng cảm giác chân thực đến mức ti
   },{
     id: 32,
 title: "Hải Đường Trong Lồng Lê Hoa",
-    image: "imgco/1f2502ea4c1d4eb89296d3800996f965.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1f2502ea4c1d4eb89296d3800996f965.jpg",
     link: "cotrang/hai-duong-trong-long-le-hoa.html",
     type: "cotrang",
     desc: `Ta là cô nhi được Thẩm gia thu dưỡng.
@@ -723,7 +723,7 @@ Hắn ghì ta vào góc giường, hơi thở lạnh mà trầm, giọng nói l�
   }, {
     id: 33,
     title: "Chuyên Chức Chạy Việc Ở Trường Quý Tộc",
-    image: "imgngon/22afa947f2c8f26b292080faf24cff8e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/22afa947f2c8f26b292080faf24cff8e.jpg",
     link: "ngontinh/chuyên-chức-chạy-việc-ở-trường-quý-tộc.html",
     type: "ngontinh",
     desc: `Lần nữa mở mắt ra, tôi từ một nhân viên công sở mệt mỏi xuyên thành một nữ phụ pháo hôi trong một cuốn tiểu thuyết sảng văn.
@@ -750,7 +750,7 @@ Không ngờ trong mỗi quyển sách đều kẹp mấy chục tờ tiền tr�
   },{
     id:   34,
 title: "Em Trai Nuôi Nhìn Tôi Không Bình Thường",
-    image: "imgdam/691d9c29a8898194a8846d10b74bd37a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/691d9c29a8898194a8846d10b74bd37a.jpg",
     link: "dammy/em-trai-nuoi-nhin-toi-khong-binh-thuong.html",
     type: "dammy",
     desc: `Khi bị Thẩm Yến ép sát vào tường, tôi hoảng hốt hét lên: “Anh là anh mày đấy!”
@@ -759,7 +759,7 @@ Thẩm Yến khẽ cười: “Anh trai à? Thì ra anh thích kiểu này.”`
   },{
     id: 35,
 title: "Một Kiếp Thạch Đầu",
-    image: "imgco/a71def6a39f4f40d6dbc6d742f72b6e9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a71def6a39f4f40d6dbc6d742f72b6e9.jpg",
     link: "cotrang/mot-kiep-thach-dau.html",
     type: "cotrang",
     desc: `Tôi ở giữa tứ hải bát hoang, từng là một tảng đá nằm dưới gốc cây ngô đồng to đến mức nhìn không thấy ngọn.
@@ -784,7 +784,7 @@ Cứ nghe đâu có yêu quái là ông lại lao đi như bắt được vàng.
   }, {
     id: 36,
 title: "Ép Đại Ca Thành Học Bá",
-    image: "imgngon/449ff851ff30be071ccdb2100368e67b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/449ff851ff30be071ccdb2100368e67b.jpg",
     link: "ngontinh/ep-dai-ca-thanh-hoc-ba.html",
     type: "ngontinh",
     desc: `Tôi đến nhà thiếu gia ở nhờ.
@@ -807,7 +807,7 @@ Tôi đứng hình: ???`
   },{
     id: 37,
 title: "Ám Vệ Mang Con Bỏ Trốn",
-    image: "imgdam/997a357a0ed6b5c5d3f81b4152bd6c5a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/997a357a0ed6b5c5d3f81b4152bd6c5a.jpg",
     link: "dammy/am-ve-mang-con-bo-tron.html",
     type: "dammy",
     desc: `Ta là ám vệ của Thái tử điện hạ.
@@ -832,7 +832,7 @@ Ngài ôm chặt lấy ta, cả người run rẩy, giọng khàn đặc.
   },{
     id: 38,
 title: "Ngoảnh Đầu Nhìn Lại",
-    image: "imgco/283a71669afd79789ee1335ca11663cb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/283a71669afd79789ee1335ca11663cb.jpg",
     link: "cotrang/ngoanh-dau-nhin-lai.html",
     type: "cotrang",
     desc: `Đêm trước ngày xuất giá, tỷ tỷ quỳ sụp xuống đất, khóc tới mức như trời sập tới nơi, nói rằng bản thân đã không còn trinh trắng, không thể gả đi đúng theo hôn ước nữa.
@@ -863,7 +863,7 @@ Còn ta, ta chỉ sống cho chính mình.`
   }, {
     id: 39,
 title: "Mèo Thần Tài Của Đại Ca Hắc Đạo",
-    image: "imgngon/e20a3b635eeb6661277bf879d45ab3ab.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e20a3b635eeb6661277bf879d45ab3ab.jpg",
     link: "ngontinh/meo-than-tai-cua-dai-ca-hac-dao.html",
     type: "ngontinh",
     desc: `Khi tôi bị một anh chàng “tiểu ca xã hội” nhặt về từ thùng rác, anh ta nhìn tôi rồi hỏi:
@@ -888,7 +888,7 @@ Anh ta đứng đơ mất ba giây, rồi giơ tôi lên cao:
   },{
     id: 40,
 title: "Nam Phụ Si Tình Hình Như Không Ổn Lắm",
-    image: "imgdam/97b4cb0025b3436e9e99dc44882fc8fb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/97b4cb0025b3436e9e99dc44882fc8fb.jpg",
     link: "dammy/nam-phu-si-tinh-hinh-nhu-khong-on-lam.html",
     type: "dammy",
     desc: `Tôi xuyên thành bạn cùng phòng của một nam phụ si tình chính hiệu, thế là ngày nào cũng cổ vũ hắn mạnh dạn đi theo tiếng gọi con tim.Lãng mạn lên nào anh trai.
@@ -903,7 +903,7 @@ Sau đó, hắn ép tôi vào lòng, kích động tới mức mắt đỏ hoe, 
   },{
     id: 41,
 title: "Gió Nổi Bên Trong Hầu Phủ",
-    image: "imgco/5855f7a11c86449c05913ccd53de5b8b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5855f7a11c86449c05913ccd53de5b8b.jpg",
     link: "cotrang/gio-noi-ben-trong-hau-phu.html",
     type: "cotrang",
     desc: `Tiểu thư tính tình lạnh lùng, từ đầu tới cuối chưa từng yêu cô gia.
@@ -924,7 +924,7 @@ Khi mở mắt ra lần nữa, ta đã quay về đúng ngày đại hôn của 
   }, {
     id: 42,
 title: "Vua Cặn Bã Hào Môn",
-    image: "imgngon/58d976bbea9e2a1e5ee73256b4142d43.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/58d976bbea9e2a1e5ee73256b4142d43.jpg",
     link: "ngontinh/vua-can-ba-hao-mon.html",
     type: "ngontinh",
     desc: `Ngày tôi được cha mẹ ruột hào môn tìm về, mẹ nuôi ôm tôi khóc thút thít:
@@ -949,7 +949,7 @@ Vua Cặn Bã.`
   },{
     id: 43,
 title: "Mối Tình Trong Hang Sói",
-    image: "imgdam/5f1b59ff390028a2553deaeea7e3f709.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f1b59ff390028a2553deaeea7e3f709.jpg",
     link: "dammy/moi-tinh-trong-hang-soi.html",
     type: "dammy",
     desc: `Tôi có một kẻ thù không đội trời chung, một con sói xám oai phong lẫm liệt.
@@ -968,7 +968,7 @@ Tôi tức muốn bốc khói, gào lên: “Đồ ngốc, sao cậu lại cắn
   },{
     id: 44,
 title: "Xà Thần Phu Nhân",
-    image: "imgco/58a9c71bc36de09fa9ee59716374c203.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/58a9c71bc36de09fa9ee59716374c203.jpg",
     link: "cotrang/xa-than-phu-nhan.html",
     type: "cotrang",
     desc: `Biểu tỷ đẩy ta ra ngoài làm nha hoàn cho Nhị thiếu gia.
@@ -997,7 +997,7 @@ Tâm tính rắn độc, âm hiểm, thù dai, lại còn… háo sắc.`
   },{
     id: 45,
 title: "Định Mệnh Dây Dưa Của Miêu Yêu Và Tổng Tài",
-    image: "imgdam/3a7105f0f0bef76469db9b7ff741eaeb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a7105f0f0bef76469db9b7ff741eaeb.jpg",
     link: "dammy/dinh-menh-day-dua-cua-mieu-yeu-va-tong-tai.html",
     type: "dammy",
     desc: `Tôi là một con Miêu Yêu, giới tính đực.
@@ -1022,7 +1022,7 @@ Ai ngờ người đàn ông đó lại chuyển hết tài sản cho tôi, rồ
   }, {
     id: 46,
 title: "Tình Yêu Bị Hiểu Lầm",
-    image: "imgngon/e1d08a3a4195dd1faeb6f5ac197e5c1c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e1d08a3a4195dd1faeb6f5ac197e5c1c.jpg",
     link: "ngontinh/tinh-yeu-bi-hieu-lam.html",
     type: "ngontinh",
     desc: `Hẹn hò với nam thần của trường được 3 tháng.
@@ -1051,7 +1051,7 @@ Tôi buột miệng: “Chúng ta chia tay đi.”
   },{
     id: 47,
 title: "Trò Chơi Mèo Vờn Chuột",
-    image: "imgdam/4d59ccb89fd77d00831e263e17169779.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4d59ccb89fd77d00831e263e17169779.jpg",
     link: "dammy/tro-choi-meo-von-chuot.html",
     type: "dammy",
     desc: `Đêm trước lễ đính hôn của anh trai kế, tôi gửi ảnh anh ấy cho quản lý Club quen ở Lan Quế Phường.
@@ -1070,7 +1070,7 @@ Anh trai tôi đứng đó, nụ cười lạnh như Diêm La đòi mạng.
   },{
     id: 48,
 title: "Tráo Con Đổi Mệnh",
-    image: "imgco/31b98ecc2bd4aa94f966cc8020817812.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/31b98ecc2bd4aa94f966cc8020817812.jpg",
     link: "cotrang/trao-con-doi-menh.html",
     type: "cotrang",
     desc: `Kiếp trước, Thuần quý phi lén tráo đổi con gái của nàng với con trai của ta, chỉ vì muốn tranh đoạt ngôi vị hoàng hậu.
@@ -1087,7 +1087,7 @@ Bởi vì muốn leo lên vị trí chí tôn kia, một hoàng tử biết nghe
   }, {
     id: 49,
 title: "Từ Thùng Rác Bước Thẳng Vào Thanh Bắc",
-    image: "imgngon/93415808444abf3cbe3958a27f6c3129.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/93415808444abf3cbe3958a27f6c3129.jpg",
     link: "ngontinh/tu-thung-rac-buoc-thang-vao-thanh-bac.html",
     type: "ngontinh",
     desc: `Năm lớp 12, ba mẹ thẳng tay cắt sạch tiền sinh hoạt của tôi, tiện thể ép tôi nghỉ học luôn cho “đỡ tốn cơm”.
@@ -1118,7 +1118,7 @@ Một giây sau, lớp học nổ tung:
   },{
     id: 50,
 title: "Gương Mặt Dưới Lưỡi Đao",
-    image: "imgco/0d04f64a6072afb89cac26d375f7b65e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0d04f64a6072afb89cac26d375f7b65e.jpg",
     link: "cotrang/guong-mat-duoi-luoi-dao.html",
     type: "cotrang",
     desc: `Cô phụ là đồ tể mổ heo nổi tiếng khắp vùng, sức khỏe thì khỏi phải bàn, một mình ông ta khiêng cả con heo như bế gà con.Chỉ vì nghi ngờ cô mẫu lén lút tư thông với nam nhân khác mà ông ta trực tiếp hắt nguyên nồi dầu sôi vào mặt cô mẫu.
@@ -1137,7 +1137,7 @@ Sau khi chết thảm, ta lại mở mắt quay về đúng ngày cô mẫu bị
   }, {
     id: 51,
 title: "Ngậm Đắng Nuốt Cay",
-    image: "imgngon/afae0a83c5b008bdb9837fadd1c1aa5e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/afae0a83c5b008bdb9837fadd1c1aa5e.jpg",
     link: "ngontinh/ngam-dang-nuot-cay.html",
     type: "ngontinh",
     desc: `Ngày cha tôi mất, Lục Hoài An lập tức hủy bỏ hôn ước giữa chúng tôi, quay đầu đính hôn với cô thanh mai trúc mã của anh ta và còn định đuổi tôi ra khỏi nhà.
@@ -1159,7 +1159,7 @@ Ban đầu cha còn định sau lần này sẽ giao toàn bộ nhà họ Phó c
   },{
     id: 52,
 title: "Trong Sinh Để Yêu Lại Một Người",
-    image: "imgdam/2040d93bf9bea2c72c3cf9227d33d323.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2040d93bf9bea2c72c3cf9227d33d323.jpg",
     link: "dammy/trong-sinh-de-yeu-lai-mot-nguoi.html",
     type: "dammy",
     desc: `Đời trước, tôi là đứa con giả bị đuổi khỏi nhà, chỉ có thể bám víu vào sự bao nuôi của một vị đại lão mà sống lay lắt.
@@ -1180,7 +1180,7 @@ Mở mắt ra lần nữa, tôi quay về thời điểm anh vẫn chỉ là m�
   },{
     id: 53,
 title: "Đoạn Tình Tan Vỡ",
-    image: "imgco/f1c1aeaa39d85c046f172e5c23e25d4b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f1c1aeaa39d85c046f172e5c23e25d4b.jpg",
     link: "cotrang/doan-tinh-tan-vo.html",
     type: "cotrang",
     desc: `Phu quân ta đón vị biểu tỷ vừa bị hưu về ở chung.
@@ -1201,7 +1201,7 @@ Chúc hai người sống thì khỏi gặp mặt thiên hạ, chết thì chung
   }, {
     id: 54,
 title: "Ác Nữ Thuần Hóa Cún Con Hắc Hóa",
-    image: "imgngon/87325a39367308749a122aa3a760eb40.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/87325a39367308749a122aa3a760eb40.jpg",
     link: "ngontinh/ac-nu-thuan-hoa-cun-con-hac-hoa.html",
     type: "ngontinh",
     desc: `Xuyên thành nữ phụ ác độc trong tiểu thuyết nam tần lưu, hệ thống bắt tôi phải đi sỉ nhục nam chính.
@@ -1226,7 +1226,7 @@ Giây tiếp theo, lòng bàn tay tôi truyền tới cảm giác ẩm nóng.
   },{
     id: 55,
 title: "Trời Sinh Một Đôi",
-    image: "imgdam/94710127520b37ce6a5a431a290d964c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/94710127520b37ce6a5a431a290d964c.jpg",
     link: "dammy/troi-sinh-mot-doi.html",
     type: "dammy",
     desc: `Tôi là nhân vật phản diện độc ác trong một cuốn tiểu thuyết đam mỹ.
@@ -1252,7 +1252,7 @@ Giọng hắn khàn đi, mềm đến mức như đang dỗ dành:
   },{
     id: 56,
 title: "Hàng Ngày Lười Biếng Của Quốc Công Phu Nhân",
-    image: "imgco/623a063a3d8009112803d6c0b6f29592.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/623a063a3d8009112803d6c0b6f29592.jpg",
     link: "cotrang/hang-ngay-luoi-bieng-cua-quoc-cong-phu-nhan.html",
     type: "cotrang",
     desc: `Mùa đông lạnh tới mức chó ra đường cũng muốn xin nghỉ phép, quốc công gia lại đặc biệt đem chiếc áo choàng lông chồn mà cha ta tặng cho ta đi đưa cho Trương di nương.
@@ -1271,7 +1271,7 @@ Nói xong quay đầu nhìn Trương Bảo Nhi đang đứng bên cạnh, giọn
   }, {
     id: 57,
 title: "Tuyết Lạnh Giữa Trái Tim Kẻ Quyền Lực",
-    image: "imgngon/3a6170bb88e9cad4c79f61188dc9997b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a6170bb88e9cad4c79f61188dc9997b.jpg",
     link: "ngontinh/tuyet-lanh-giua-trai-tim-ke-quyen-luc.html",
     type: "ngontinh",
     desc: `Tôi xuyên không thành con gái của một nhân vật phụ ác độc.
@@ -1286,7 +1286,7 @@ Sau này, bố tôi, vốn là phản diện lại hoảng loạn hét lên: “
   },{
     id: 58,
 title: "Định Mệnh Gọi Sai Danh Xưng",
-    image: "imgdam/3946026ada72a58f3d56ef1a0143a41b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3946026ada72a58f3d56ef1a0143a41b.jpg",
     link: "dammy/dinh-menh-goi-sai-danh-xung.html",
     type: "dammy",
     desc: `Trong tiểu thuyết, cái motif con ruột với con nuôi bị tráo đổi tưởng chỉ có trên mạng, ai ngờ lại xảy ra ngay trong nhà tôi.
@@ -1315,7 +1315,7 @@ Cậu ấy định làm chị dâu của chính mình thật à.`
   },{
     id: 59,
 title: "Hồng Trần Có Hẹn Mà Không Có Duyên",
-    image: "imgco/cd485b6a0d7a4f392f7d4f25bb98507b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cd485b6a0d7a4f392f7d4f25bb98507b.jpg",
     link: "cotrang/hong-tran-co-hen-ma-khong-co-duyen.html",
     type: "cotrang",
     desc: `Ta và Tạ Trường Quan quen biết nhau từ thuở còn bé tí, tính ra cũng dây dưa hơn chục năm trời.
@@ -1330,7 +1330,7 @@ Ai ngờ Tạ Trường Quan lại giống như phát điên, sống chết ngă
   }, {
     id: 60,
 title: "Nhóc Con Nhà Tổng Tài",
-    image: "imgngon/495956951_122235630722075877_2122083820866524992_n.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/495956951_122235630722075877_2122083820866524992_n.jpg",
     link: "ngontinh/nhoc-con-nha-tong-tai.html",
     type: "ngontinh",
     desc: `Khi tôi xuyên đến đây, câu chuyện đã gần đi đến hồi kết.
@@ -1340,7 +1340,7 @@ Tôi chính là nữ phụ độc ác đó.`
   },{
     id: 61,
 title: "Alpha Của Tôi Không Ngoan Như Tôi Nghĩ",
-    image: "imgdam/17e4f68095dc9722ae254148be378bc1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/17e4f68095dc9722ae254148be378bc1.jpg",
     link: "dammy/alpha-cua-toi-khong-ngoan-nhu-toi-nghi.html",
     type: "dammy",
     desc: `Nửa đêm lướt mạng, tôi thấy chồng alpha nhà mình đăng bài than trời trách đất.
@@ -1357,7 +1357,7 @@ Nửa đêm, cậu ấy gõ cửa phòng tôi.Tôi quay sang nhìn lạnh tanh, 
   },{
     id: 62,
 title: "Thái Giám Cũng Có Người Thương",
-    image: "imgco/678eb71ad13d1a4cce08243e6dc84011.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/678eb71ad13d1a4cce08243e6dc84011.jpg",
     link: "cotrang/thai-giam-cung-co-nguoi-thuong.html",
     type: "cotrang",
     desc: `Hạ tiểu tướng quân vì muốn chu toàn cho người trong lòng, liền đem ta, một nha hoàn thiếp thân, tặng cho tên thái giám nổi tiếng tính tình quái gở.
@@ -1380,7 +1380,7 @@ Ai ngờ nam nhân kia chỉ thong thả vuốt viên ngọc trong tay, khóe m�
   }, {
     id: 63,
 title: "Gió Nâng Một Đời Người",
-    image: "imgngon/3a880cbe261feb12b807b2eb1af8fde5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a880cbe261feb12b807b2eb1af8fde5.jpg",
     link: "ngontinh/gio-nang-mot-doi-nguoi.html",
     type: "ngontinh",
     desc: `Tôi tên là Lý Chiêu Đệ.Sau khi cha mẹ ruột sinh được con trai thì tiện tay quăng luôn tôi ra khỏi cuộc đời họ.
@@ -1393,7 +1393,7 @@ Người trong thôn ai cũng đồn mẹ nhặt tôi về là để nuôi làm 
   },{
     id: 64,
 title: "Khóa Anh Bằng Một Nụ Hôn",
-    image: "imgdam/e8e4d8f4d5c9c2d8b901283a21a928fd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e8e4d8f4d5c9c2d8b901283a21a928fd.jpg",
     link: "dammy/khoa-anh-bang-mot-nu-hon.html",
     type: "dammy",
     desc: `Tôi đã tự tay bắn chết bạn trai mình, người ta gọi cậu ấy là ông trùm hắc đạo khét tiếng.Nhờ cú lập công đó mà tôi được trao huân chương Hạng Nhất.
@@ -1420,7 +1420,7 @@ Xé quần áo, quăng lên giường, dùng thân thể cảm hóa cậu ấy l
   },{
     id: 65,
 title: "Gió Thu Đánh Vỡ Khuê Môn Lệnh",
-    image: "imgco/c7ab21b0c9a78361598c4a3663e43553.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c7ab21b0c9a78361598c4a3663e43553.jpg",
     link: "cotrang/gio-thu-danh-vo-khue-mon-lenh.html",
     type: "cotrang",
     desc: `Ta và thứ muội thường xuyên đến phủ Ninh quốc công để đả thu phong.
@@ -1437,7 +1437,7 @@ Chỉ là, thế tử phủ Ninh quốc công lại vác khuôn mặt đỏ bừ
   }, {
     id: 66,
 title: "Lỡ Va Vào Anh Cảnh Sát",
-    image: "imgngon/6cb6dd8383a6fe2e71b662ac4dd59bf6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6cb6dd8383a6fe2e71b662ac4dd59bf6.jpg",
     link: "ngontinh/lo-va-vao-anh-canh-sat.html",
     type: "ngontinh",
     desc: `Nửa đêm mười hai giờ, tiếng động “không tiện mô tả” lại vang lên từ tầng trên.
@@ -1464,7 +1464,7 @@ Tôi: ????????!!!!`
   },{
     id: 67,
 title: "Say Một Đêm Vớ Được Bạn Trai",
-    image: "imgdam/16f974f576078e282c89fa060159aa5b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/16f974f576078e282c89fa060159aa5b.jpg",
     link: "dammy/say-mot-dem-vo-duoc-ban-trai.html",
     type: "dammy",
     desc: `Tôi tỉnh dậy trong một căn phòng lạ.Vừa ngồi dậy thì cửa phòng khẽ mở.
@@ -1487,7 +1487,7 @@ Nghe xong bốn chữ đó, tôi chỉ muốn độn thổ ngay tại chỗ.`
   },{
     id: 68,
 title: "Hoàng Quyền Như Mộng",
-    image: "imgco/3e1d8f629cd2bdf761fb787d8334114c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3e1d8f629cd2bdf761fb787d8334114c.jpg",
     link: "cotrang/hoang-quyen-nhu-mong.html",
     type: "cotrang",
     desc: `Ta chết vào năm thứ mười Bùi Thịnh đăng cơ.
@@ -1502,7 +1502,7 @@ Ta đúng là chết rồi mà vẫn phải tăng ca xem phim tình cảm của 
   }, {
     id: 69,
 title: "Cuộc Hôn Nhân AA",
-    image: "imgngon/b90d01f7f0e759cfb98200616888f800.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b90d01f7f0e759cfb98200616888f800.jpg",
     link: "ngontinh/cuoc-hon-nhan-aa.html",
     type: "ngontinh",
     desc: `Mẹ chồng để trị thói tiêu tiền của tôi, bắt tôi và chồng phải chia đôi mọi chi phí (AA).
@@ -1533,7 +1533,7 @@ Tôi gật đầu, mỉm cười:
   },{
     id: 70,
 title: "Tiếng Tim Cháy Ngầm",
-    image: "imgdam/684731a143834b3561f85a3140ebc680.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/684731a143834b3561f85a3140ebc680.jpg",
     link: "dammy/tieng-tim-chay-ngam.html",
     type: "dammy",
     desc: `Bọn tôi bị đàn anh khóa trên kiêm huấn luyện viên hành cho tới mức sắp đi họp tổ tiên tập thể luôn rồi.
@@ -1560,7 +1560,7 @@ Cái gì vậy trời???`
   },{
     id: 71,
 title: "Sư Tôn Của Ta Là Một Thỏ Tiên",
-    image: "imgco/8979f2ac99a23e5bb78339f6fe30921b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8979f2ac99a23e5bb78339f6fe30921b.jpg",
     link: "cotrang/su-ton-cua-ta-la-mot-tho-tien.html",
     type: "cotrang",
     desc: `Sáng sớm vừa mở mắt ra, ta đã phát hiện sư tôn đang nằm gọn trong lòng mình.Không những thế, hắn còn chép miệng mấy cái rồi cọ cọ vào ngực ta như đang tìm chỗ ngủ ngon hơn nữa chứ.
@@ -1575,7 +1575,7 @@ Một con mèo muốn ăn thỏ thì còn cần lý do gì nữa sao?`
   }, {
     id: 72,
 title: "Thần Thú Rớt Xuống Trần Gian",
-    image: "imgngon/70c1c1274598ec89f76ae39146f9eee5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/70c1c1274598ec89f76ae39146f9eee5.jpg",
     link: "ngontinh/than-thu-rot-xuong-tran-gian.html",
     type: "ngontinh",
     desc: `Mỗi bữa tôi phải ăn sạch năm bát cơm, viện trưởng liền phán tôi là đứa trẻ hư, chỉ biết phung phí lương thực, không xứng được yêu thương, thế là dứt khoát cắt luôn khẩu phần của tôi.
@@ -1598,7 +1598,7 @@ Ngay trước mắt tôi bỗng hiện lên một đống chữ bay lượn.
   },{
     id: 73,
 title: "Thiếu Gia Giả Bị Lật Tẩy",
-    image: "imgdam/132851701525d9fb412fed046bc3f21c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/132851701525d9fb412fed046bc3f21c.jpg",
     link: "dammy/thieu-gia-gia-bi-lat-tay.html",
     type: "dammy",
     desc: `Khi tôi thức tỉnh, thiếu gia thật đang quỳ ngay trước mặt, còn tôi thì cầm roi quất cậu ấy như đang dạy dỗ một con chó không nghe lời.
@@ -1627,7 +1627,7 @@ Bên tai là tiếng nghiến răng của chàng trai nọ, từng chữ đều 
   },{
     id: 74,
 title: "Ván Cờ Hoàng Quyền",
-    image: "imgco/4c7586950d3bc42eb2e61413cdaa96b7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4c7586950d3bc42eb2e61413cdaa96b7.jpg",
     link: "cotrang/van-co-hoang-quyen.html",
     type: "cotrang",
     desc: `Ta là nữ phụ ác độc trong một quyển sách cứu rỗi.
@@ -1652,7 +1652,7 @@ Ta bật cười: “Sủng vật do bản cung tự tay nuôi lớn, sao có th
   }, {
     id: 75,
 title: "Khi Thiện Ý Trở Thành Con Dao",
-    image: "imgngon/0370b850ab6340def81ce9ed8268901c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0370b850ab6340def81ce9ed8268901c.jpg",
     link: "ngontinh/khi-thien-y-tro-thanh-con-dao.html",
     type: "ngontinh",
     desc: `Một cô gái tôi tài trợ suốt sáu năm, cuối cùng lại bỏ học vì yêu đương, còn rất tự tin tuyên bố với tôi rằng đây mới là “lối tắt đổi đời”.
@@ -1667,7 +1667,7 @@ Còn “người phụ nữ tầm thường” mà cô ta nói, chẳng lẽ là
   },{
     id: 76,
 title: "Trọng Sinh Tôi Đá Ngược Kim Chủ",
-    image: "imgdam/1612c4f6c272c592e60670f73a49aefc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1612c4f6c272c592e60670f73a49aefc.jpg",
     link: "dammy/trong-sinh-toi-da-nguoc-kim-chu.html",
     type: "dammy",
     desc: `Đời trước, tôi là đứa con giả bị đuổi khỏi nhà, chỉ còn cách bám vào sự bao nuôi của một vị đại lão để sống lay lắt qua ngày.
@@ -1688,7 +1688,7 @@ Mở mắt ra lần nữa, tôi quay về thời điểm anh vẫn chỉ là m�
   },{
     id: 77,
 title: "Hôn Sự Định Mệnh Đẫm Nước Mắt",
-    image: "imgco/56d29921995363bb33fd0cd16dd2c259.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/56d29921995363bb33fd0cd16dd2c259.jpg",
     link: "cotrang/hon-su-dinh-menh-dam-nuoc-mat.html",
     type: "cotrang",
     desc: `Kiếp trước, ta từng đích thân vạch trần chuyện tư tình giữa biểu ca và một ca kỹ.Kết quả là nữ nhân kia không chịu nổi áp lực, cuối cùng nhảy sông tự vẫn, mở luôn cái kết bi thảm như phim cẩu huyết tám giờ tối.
@@ -1705,7 +1705,7 @@ Lần này, ta quyết định thành toàn cho đôi uyên ương điên khùng
   }, {
     id: 78,
 title: "Chuyện Ở Tầng Hầm",
-    image: "imgngon/d672959d6772d1e6eb45a97ffad9234f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d672959d6772d1e6eb45a97ffad9234f.jpg",
     link: "ngontinh/chuyen-o-tang-ham.html",
     type: "ngontinh",
     desc: `Vào thời điểm sắp tốt nghiệp rời trường, tôi tìm khắp cả thành phố, cuối cùng cũng thuê được một căn hộ vừa ý, chuẩn bị dọn đến sống chung với bạn trai.
@@ -1724,7 +1724,7 @@ Cuối cùng, tôi gọi cho bố.
   },{
     id: 79,
 title: "Mùi Pheromone Dưới Da",
-    image: "imgdam/8007cf836816e45c61c1280474c0975c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8007cf836816e45c61c1280474c0975c.jpg",
     link: "dammy/mui-pheromone-duoi-da.html",
     type: "dammy",
     desc: `Mỗi ngày tôi lấy việc trêu chọc Giang Thính Bạch làm thú vui, thả ra mấy luồng pheromone kém chất lượng, rồi ép cậu vào góc tường rêu phong, hôn sâu các kiểu, làm đủ trò hỗn loạn.
@@ -1735,7 +1735,7 @@ Cho đến khi anh trai Enigma đã phân hoá trở về, cắn rách tuyến t
   },{
     id: 80,
 title: "Thái Hậu Buông Rèm Chấp Chính",
-    image: "imgco/89f824bb6b59381631b08b933c10593c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/89f824bb6b59381631b08b933c10593c.jpg",
     link: "cotrang/thai-hau-buong-rem-chap-chinh.html",
     type: "cotrang",
     desc: `Quý phi, bạch nguyệt quang của Hoàng đế, qua đời rồi, còn tiện tay để lại cho ta một cục bông sáu tháng tuổi là Thái tử.
@@ -1750,7 +1750,7 @@ Hoàn mỹ.`
   }, {
     id: 81,
 title: "Sau Cơn Mưa Là Anh Và Em",
-    image: "imgngon/4a28b684d696f01cb6018eee23738ba0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4a28b684d696f01cb6018eee23738ba0.jpg",
     link: "ngontinh/sau-con-mua-la-anh-va-em.html",
     type: "ngontinh",
     desc: `Mười năm sau ngày tốt nghiệp, tôi gặp lại anh trong buổi họp lớp ở Bắc Kinh.
@@ -1765,7 +1765,7 @@ Ai ngờ vừa ra tới xe đã thấy anh đứng chặn ngay đầu xe tôi.`
   },{
     id: 82,
 title: "Phản Diện Của Tôi Là Ngoại Lệ Duy Nhất",
-    image: "imgdam/ed8d1e672e5a1ef060f9ae51ac358039.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ed8d1e672e5a1ef060f9ae51ac358039.jpg",
     link: "dammy/phan-dien-cua-toi-la-ngoai-le-duy-nhat.html",
     type: "dammy",
     desc: `“Gu của tôi là mỹ cường thảm.”
@@ -1792,7 +1792,7 @@ Tôi lập tức giơ tay.
   },{
     id: 83,
 title: "Mây Tan Gió Lặng",
-    image: "imgco/e1d3a6c3ca4fa9150383946bd12ef3ce.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e1d3a6c3ca4fa9150383946bd12ef3ce.jpg",
     link: "cotrang/may-tan-gio-lang.html",
     type: "cotrang",
     desc: `Tiểu thư luôn miệng nói với ta rằng mọi người sinh ra đều bình đẳng, nàng cũng luôn coi ta như tỷ muội ruột thịt.
@@ -1813,7 +1813,7 @@ Mở mắt lần nữa, ta lại quay về thời điểm vẫn còn làm nha ho
   }, {
     id: 84,
 title: "Yêu Em Là Kết Cục Không Thể Thay Đổi",
-    image: "imgngon/1475147d5cce089173de7b8a2a46b5cc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1475147d5cce089173de7b8a2a46b5cc.jpg",
     link: "ngontinh/yeu-em-la-ket-cuc-khong-the-thay-doi.html",
     type: "ngontinh",
     desc: `Sau khi nữ chính của cuốn tiểu thuyết chữa lành này xuất hiện, tôi lập tức đóng gói nam chính mình cực khổ nuôi dạy trả về nguyên đai nguyên kiện cho cô ấy.
@@ -1834,7 +1834,7 @@ Giọng cậu mang theo chút điên khó giấu nổi.
   },{
     id: 85,
 title: "Trai Thẳng Đóng Giả Gay",
-    image: "imgdam/5391691b452e8b060bb75d001a2f2fca.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5391691b452e8b060bb75d001a2f2fca.jpg",
     link: "dammy/trai-thang-dong-gia-gay.html",
     type: "dammy",
     desc: `Tôi và anh bạn cùng phòng lạnh lùng cùng tham gia một chương trình hẹn hò nam nam.
@@ -1861,7 +1861,7 @@ Bình luận trực tiếp nổ tung.
   },{
     id: 86,
 title: "Gió Xuân Không Kịp Hỏi Trăng",
-    image: "imgco/b4ea13cbdf46f0073b93bb095f534c4d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b4ea13cbdf46f0073b93bb095f534c4d.jpg",
     link: "cotrang/gio-xuan-khong-kip-hoi-trang.html",
     type: "cotrang",
     desc: `Ta là công chúa giả, là thế thân mà đế sư Thần Uyên tìm về chỉ để chết thay cho công chúa thật.
@@ -1880,7 +1880,7 @@ Còn ta thì lập tức chạy sang gõ cửa nhà hàng xóm cách vách.
   }, {
     id: 87,
 title: "Nhà Chồng Cực Phẩm",
-    image: "imgngon/59b97ece235b69aae06a53de5e3fd4ad.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/59b97ece235b69aae06a53de5e3fd4ad.jpg",
     link: "ngontinh/nha-chong-cuc-pham.html",
     type: "ngontinh",
     desc: `Mẹ chồng tôi rất thích lấy đồ của tôi đem tặng người khác.Đã vậy, những thứ bà ấy lấy càng ngày càng đắt tiền.
@@ -1891,7 +1891,7 @@ Tôi từng nói chuyện này với chồng, kết quả lại bị anh mắng 
   },{
     id: 88,
 title: "Định Mệnh Của Chúng Ta",
-    image: "imgdam/62862738fe9b13bca7f9a00922516803.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/62862738fe9b13bca7f9a00922516803.jpg",
     link: "dammy/dinh-menh-cua-chung-ta.html",
     type: "dammy",
     desc: `Buổi làm quen trong ký túc xá năm nhất, đến lượt tôi tự giới thiệu, tôi đùa một câu:
@@ -1922,7 +1922,7 @@ Tôi mới kịp load lại tình huống.Hóa ra cái “1” đó không phả
   },{
     id: 89,
 title: "Gả Về Thảo Nguyên",
-    image: "imgco/9c3751c8ae67bc9c329b6811eb5a011f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9c3751c8ae67bc9c329b6811eb5a011f.jpg",
     link: "cotrang/ga-ve-thao-nguyen.html",
     type: "cotrang",
     desc: `Nghe nói nam nhân muốn cùng tỷ tỷ thành thân dáng dấp xấu vô cùng.
@@ -1937,7 +1937,7 @@ Tỷ tỷ lúc này mới hối hận, còn muốn ta trả phu quân lại cho 
   }, {
     id: 90,
 title: "Thì Ra Anh Cũng Đang Chờ Em",
-    image: "imgngon/7b34a5125c24327c67a2a1c6ff38834d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7b34a5125c24327c67a2a1c6ff38834d.jpg",
     link: "ngontinh/thi-ra-anh-cung-dang-cho-em.html",
     type: "ngontinh",
     desc: `Bữa tiệc tụ tập hôm đó, tôi uống hơi quá chén, đầu óc lâng lâng kiểu “một là ngủ luôn hai là phát ngôn đi vào lòng đất”.
@@ -1966,7 +1966,7 @@ Ngay lúc mọi người còn đang ngại thay tôi, đối tác khó tính nh�
   },{
     id: 91,
 title: "Tôi Từng Là Một Thằng Cặn Bã",
-    image: "imgdam/1b66e7a80ee6051f9c5138aaf54265a3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1b66e7a80ee6051f9c5138aaf54265a3.jpg",
     link: "dammy/toi-tung-la-mot-thang-can-ba.html",
     type: "dammy",
     desc: `Tôi là một tên lưu manh.
@@ -1979,7 +1979,7 @@ Tôi phấn khích kéo quần xuống: “Đến đây!”`
   },{
     id: 92,
 title: "Ma Đạo Nghịch Thiên Ký",
-    image: "imgco/18c9b581cf685c7f7f8ebe429607a535.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/18c9b581cf685c7f7f8ebe429607a535.jpg",
     link: "cotrang/ma-dao-nghich-thien-ky.html",
     type: "cotrang",
     desc: `Ta là nữ phụ phàm nhân độc ác trong truyện Tiên ma.
@@ -2008,7 +2008,7 @@ Bất kể ta đầu thai bao nhiêu lần cũng không thoát khỏi số phậ
   }, {
     id: 93,
 title: "Phản Diện Nuôi Tôi Cả Một Đời",
-    image: "imgngon/327ccb5ec10bd295c80349109b23aa2d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/327ccb5ec10bd295c80349109b23aa2d.jpg",
     link: "ngontinh/phan-dien-nuoi-toi-ca-mot-doi.html",
     type: "ngontinh",
     desc: `Bị phản diện u ám phát hiện tôi là người đi công lược, tôi còn dính luôn combo mang thai con của anh ta.
@@ -2037,7 +2037,7 @@ Tôi mang một gương mặt hoàn toàn xa lạ, xuất hiện trước mặt 
   },{
     id: 94,
 title: "Vệ Sĩ Ngốc Nghếch Của Thiếu Gia",
-    image: "imgdam/602d66e40af8bf9e0e5948c96c409bbd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/602d66e40af8bf9e0e5948c96c409bbd.jpg",
     link: "dammy/ve-si-ngoc-nghech-cua-thieu-gia.html",
     type: "dammy",
     desc: `Tôi là vệ sĩ của thiếu gia.
@@ -2050,7 +2050,7 @@ Một tiếng sau, tim thiếu gia không còn đau nữa, nhưng ngực tôi th
   },{
     id: 95,
 title: "Thái Tử Phi Và Những Ngày Không Muốn Chết",
-    image: "imgco/d141468babca1416a378c62f49d4aa38.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d141468babca1416a378c62f49d4aa38.jpg",
     link: "cotrang/thai-tu-phi-va-nhung-ngay-khong-muon-chet.html",
     type: "cotrang",
     desc: `Hắn vừa mở miệng bảo muốn nạp thiếp, tối hôm đó ta lập tức đưa hai tỳ nữ xinh đẹp vào phòng hắn luôn.
@@ -2069,7 +2069,7 @@ Mắt ta càng mở to hơn nữa.
   }, {
     id: 96,
 title: "Ngày Định Mệnh Của Anh",
-    image: "imgngon/532071744_122140418042402442_3045357159850208994_n.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/532071744_122140418042402442_3045357159850208994_n.jpg",
     link: "ngontinh/ngay-dinh-menh-cua-anh.html",
     type: "ngontinh",
     desc: `"Nếu em muốn ly hôn, bất cứ lúc nào cũng được."
@@ -2084,7 +2084,7 @@ Tôi ? ? ?`
   },{
     id: 97,
 title: "Sư Tôn Là Chấp Niệm Của Ta",
-    image: "imgdam/ed177493eeb23e9152fd457e4ee9e661.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ed177493eeb23e9152fd457e4ee9e661.jpg",
     link: "dammy/su-ton-la-chap-niem-cua-ta.html",
     type: "dammy",
     desc: `Xuyên không thành đại đệ tử của sư tôn vô tình, để giữ gìn thanh bạch cho sư tôn, mỗi ngày ta đều uống thuốc bắc.
@@ -2103,7 +2103,7 @@ Hỏng rồi, quên cho sư tôn uống thuốc bắc rồi.`
   },{
     id: 98,
 title: "Mượn Trăng Để Che Một Đời Dối Gian",
-    image: "imgco/5f1725db89f1bc453e846f8ea044bc35.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f1725db89f1bc453e846f8ea044bc35.jpg",
     link: "cotrang/muon-trang-de-che-mot-doi-doi-gian.html",
     type: "cotrang",
     desc: `Rất lâu về sau, ta mới gặp lại Thẩm Quân Y.
@@ -2120,7 +2120,7 @@ Ta cúi người, dập đầu sát đất.
   }, {
     id: 99,
 title: "Mẹ Kế Và Chị Kế Không Đi Theo Kịch Bản",
-    image: "imgngon/d18336edbe7fbe630cfb56f5ce96a13d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d18336edbe7fbe630cfb56f5ce96a13d.jpg",
     link: "ngontinh/me-ke-va-chi-ke-khong-di-theo-kich-ban.html",
     type: "ngontinh",
     desc: `Cha tôi tái hôn.
@@ -2133,7 +2133,7 @@ Mà chưa hết đâu, Lâm Đại Ngọc còn dẫn theo một bé Lâm Tiểu 
   },{
     id: 100,
 title: "Beta Leo Thang Sinh Tồn",
-    image: "imgdam/54d5ddf5a495b86bb2e263ab2697d1ff.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/54d5ddf5a495b86bb2e263ab2697d1ff.jpg",
     link: "dammy/beta-leo-thang-sinh-ton.html",
     type: "dammy",
     desc: `Tôi là một Beta sống trong thế giới ABO.
@@ -2150,7 +2150,7 @@ Nhưng sự thật là tôi tầm thường, thực dụng, và chỉ giỏi dù
   },{
     id: 101,
 title: "Hoàng Quyền Ngoảnh Lại",
-    image: "imgco/ad34d0359d174fbb55c6c6fa4dd00d55.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ad34d0359d174fbb55c6c6fa4dd00d55.jpg",
     link: "cotrang/hoang-quyen-ngoanh-lai.html",
     type: "cotrang",
     desc: `Năm thứ hai mươi ta ở bên cạnh Tiêu Triệt.
@@ -2179,7 +2179,7 @@ Ta lắc đầu, giọng bình thản: “Không, ta muốn rớt tuyển.”`
   }, {
     id: 102,
 title: "Hệ Thống Nghe Lén Tâm Lý Thú Cưng",
-    image: "imgngon/3592562b1d43b42b1b379d8adbed03b3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3592562b1d43b42b1b379d8adbed03b3.jpg",
     link: "ngontinh/he-thong-nghe-len-tam-ly-thu-cung.html",
     type: "ngontinh",
     desc: `Sau khi liên kết với hệ thống “giao tiếp động vật”, tôi mở một phòng livestream chuyên trò chuyện với thú cưng.
@@ -2195,7 +2195,7 @@ Vì con border collie cứ lặp đi lặp lại ba chữ.
   },{
     id: 103,
 title: "Trăng Rơi Giữa Ngàn Sao Sáng",
-    image: "imgdam/3a1713b9ecd63211bc41dee9a23315a1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a1713b9ecd63211bc41dee9a23315a1.jpg",
     link: "dammy/trang-roi-giua-ngan-sao-sang.html",
     type: "dammy",
     desc: `Tôi thích Thẩm Nghiễn Bạch, thích đến mức năm 18 tuổi đã bắt đầu lẽo đẽo theo anh từ lớp học ra sân bóng, rồi kéo dài cho tới tận ngày tốt nghiệp đại học.
@@ -2224,7 +2224,7 @@ Thẩm Nghiễn Bạch đang nằm ngay bên cạnh tôi.`
   },{
     id: 104,
 title: "Thế Thân Phản Sát Trùng Sinh Ký",
-    image: "imgco/bee21e196076bd2945debc06cf6dabd4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bee21e196076bd2945debc06cf6dabd4.jpg",
     link: "cotrang/the-than-phan-sat-trung-sinh-ky.html",
     type: "cotrang",
     desc: `Giang Nguyệt vốn là thế thân do người nhà an bài để gánh tai họa thay cho ta.Vì vậy nàng được đưa vào Hầu phủ, cùng ăn cùng ở với ta, lâu dần còn được xem như đích tiểu thư thứ hai mà nuôi dưỡng trong phủ.
@@ -2239,7 +2239,7 @@ Lại mở mắt ra, ta đã quay về ngày Giang Nguyệt được đưa vào 
   }, {
     id: 105,
 title: "Một Ly Latte Ngọt Ngào",
-    image: "imgngon/39d720843b141fd70d64cee4e59c7530.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/39d720843b141fd70d64cee4e59c7530.jpg",
     link: "ngontinh/mot-ly-latte-ngot-ngao.html",
     type: "ngontinh",
     desc: `Đi khám phụ sản, bác sĩ vừa nhìn hồ sơ vừa hỏi: “Sao chỉ có một mình cô, bố đứa bé đâu?”
@@ -2254,7 +2254,7 @@ Tôi quay đầu lại, liền thấy vị giáo sư thanh lãnh từng cùng t�
   },{
     id: 106,
 title: "Bạn Cùng Phòng Là Học Trò Của Chính Tôi",
-    image: "imgdam/48c48d7ccb71a5ecb0e10d91c939165a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/48c48d7ccb71a5ecb0e10d91c939165a.jpg",
     link: "dammy/ban-cung-phong-la-hoc-tro-cua-chinh-toi.html",
     type: "dammy",
     desc: `Để kiếm tiền trang trải cuộc sống, tôi dạy người khác làm “trà xanh” trên mạng.
@@ -2285,7 +2285,7 @@ Tôi tuy không phải “trà xanh” nhưng lớn lên trong môi trường đ
   },{
     id: 107,
 title: "Tàn Nguyệt Cung Khuynh",
-    image: "imgco/0507d4e8ed8cd5e911b74f6ec811751c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0507d4e8ed8cd5e911b74f6ec811751c.jpg",
     link: "cotrang/tan-nguyet-cung-khuynh.html",
     type: "cotrang",
     desc: `Đây là năm thứ tư ta ở Đông Cung.
@@ -2298,7 +2298,7 @@ Nhưng lần này, chàng vào hoàng cung đã mười ngày chưa trở lại.
   }, {
     id: 108,
 title: "Dưới Vỏ Bọc Ngoan Ngoãn",
-    image: "imgngon/a71522befa76a21953749651f92d3461.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a71522befa76a21953749651f92d3461.jpg",
     link: "ngontinh/duoi-vo-boc-ngoan-ngoan.html",
     type: "ngontinh",
     desc: `Một tai nạn bất ngờ khiến Giang Nghiễn quên sạch chuyện chúng tôi đã là vợ chồng hợp pháp.
@@ -2325,7 +2325,7 @@ Chú chó con đang vui vẻ lập tức tối sầm mặt.
   },{
     id: 109,
 title: "Nam Phụ Không Muốn Làm Vai Phụ Nữa",
-    image: "imgdam/f31d0f5d47b8091ebfebe45a8a6ac135.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f31d0f5d47b8091ebfebe45a8a6ac135.jpg",
     link: "dammy/nam-phu-khong-muon-lam-vai-phu-nua.html",
     type: "dammy",
     desc: `Xuyên vào truyện ngọt sủng làm nam phụ pháo hôi, tôi vừa mở mắt đã bị nữ chính phát thẻ “anh trai tốt”.
@@ -2345,7 +2345,7 @@ Nam chính nổi tiếng lạnh lùng đứng trước cửa nhà tôi suốt c�
   },{
     id: 110,
 title: "Kiếp Này Ta Chọn Tiểu Lang",
-    image: "imgco/9bcc7e208f3932f147203dc618a7110c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9bcc7e208f3932f147203dc618a7110c.jpg",
     link: "cotrang/kiep-nay-ta-chon-tieu-lang.html",
     type: "cotrang",
     desc: `Vào ngày đại hôn, Trưởng công chúa cố tình làm nhục phu quân ta trước mặt bàn dân thiên hạ.
@@ -2368,7 +2368,7 @@ Lần này, ta không còn ném ra ngàn vạn lượng vàng để cứu hắn 
   }, {
     id: 111,
 title: "Nữ Chính Cuộc Đời Mình",
-    image: "imgngon/57cb01921f8c6ecdfe8c1580119845a8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/57cb01921f8c6ecdfe8c1580119845a8.jpg",
     link: "ngontinh/nu-chinh-cuoc-doi-minh.html",
     type: "ngontinh",
     desc: `Tôi là bạch nguyệt quang của nam chính, nhưng đời trớ trêu tôi lại chỉ là nữ phụ.
@@ -2383,7 +2383,7 @@ Tóm lại một cách gọn gàng thì nữ chính và nam chính cuối cùng 
   },{
     id: 112,
 title: "Sư Tôn Tỏa Hương",
-    image: "imgdam/1b44cc03f5373b4c878b891c68f9ec8c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1b44cc03f5373b4c878b891c68f9ec8c.jpg",
     link: "dammy/su-ton-toa-huong.html",
     type: "dammy",
     desc: `Trong tiên giới, ai ai cũng đồn ta là chân thần lạnh lùng nhất, kiểu người nhìn một cái thôi cũng thấy lạnh sống lưng, miễn tiếp xúc.
@@ -2398,7 +2398,7 @@ Cho đến một ngày, đại ma đầu khiến cả tam giới nghe tên thôi
   },{
     id: 113,
 title: "Mười Năm Hoán Mệnh Trả Thù",
-    image: "imgco/341b36bf756fe7e5ab4d424c50c1b5f8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/341b36bf756fe7e5ab4d424c50c1b5f8.jpg",
     link: "cotrang/muoi-nam-hoan-menh-tra-thu.html",
     type: "cotrang",
     desc: `Năm ấy, tỷ tỷ ta lên phố bán nghệ, lại bị vị tiểu Hầu gia phong lưu để mắt tới.
@@ -2429,7 +2429,7 @@ Mười năm rồi, tiểu Hầu gia, báo ứng của ngươi cuối cùng cũn
   }, {
     id: 114,
 title: "Ánh Trăng Trong Tim",
-    image: "imgngon/e81f6344ce48aa271eceeafef663f823.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e81f6344ce48aa271eceeafef663f823.jpg",
     link: "ngontinh/anh-trang-trong-tim.html",
     type: "ngontinh",
     desc: `Kim chủ dẫn tôi đi dự tiệc, tôi và ánh trăng sáng của anh ta tẩn nhau một trận ra trò.
@@ -2444,7 +2444,7 @@ Tôi tháo chiếc nhẫn ném thẳng vào mặt anh ta: “Là tôi chia tay a
   },{
     id: 115,
 title: "Cậu Là Ngoại Lệ Của Tôi",
-    image: "imgdam/6bb3571c0caa83642631d14ff7936bd2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6bb3571c0caa83642631d14ff7936bd2.jpg",
     link: "dammy/cau-la-ngoai-le-cua-toi.html",
     type: "dammy",
     desc: `Trước khi phân hoá, thiếu gia cúi đầu liếm tuyến thể của tôi, giọng khàn khàn, hung dữ nói:
@@ -2461,7 +2461,7 @@ Ai ngờ hắn lại lật ngược tình thế, đè tôi xuống, siết chặ
   },{
     id: 116,
 title: "Cung Đấu Không Có Đường Lui",
-    image: "imgco/a8040f9a2c7838a73cc27470603fac2c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a8040f9a2c7838a73cc27470603fac2c.jpg",
     link: "cotrang/cung-dau-khong-co-duong-lui.html",
     type: "cotrang",
     desc: `Vào đúng ngày lễ ông Công ông Táo, cũng là ngày thứ hai mươi chín kể từ khi ta nhập cung.
@@ -2471,7 +2471,7 @@ Trong đó có cả ta.`
   }, {
     id: 117,
 title: "Hệ Thống Ăn Dưa Quét Sạch Hào Môn",
-    image: "imgngon/390dd92beffb586d9e97f1ef06ff37b2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/390dd92beffb586d9e97f1ef06ff37b2.jpg",
     link: "ngontinh/he-thong-an-dua-quet-sach-hao-mon.html",
     type: "ngontinh",
     desc: `Tôi là thiên kim thật.
@@ -2496,7 +2496,7 @@ Tôi “Chậc” một tiếng trong lòng.
   },{
     id: 118,
 title: "Tình Cổ Giam Giữ Tim Em",
-    image: "imgdam/2040d93bf9bea2c72c3cf9227d33d323.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2040d93bf9bea2c72c3cf9227d33d323.jpg",
     link: "dammy/tinh-co-giam-giu-tim-em.html",
     type: "dammy",
     desc: `Trong lớp mới chuyển đến một tên mặt lạnh như tiền, ngày nào cũng bày cái mặt kiểu cả thế giới thiếu hắn tám tỷ.
@@ -2527,7 +2527,7 @@ Kỷ Thanh Tuyệt túm tóc tôi, cười lạnh tới mức sống lưng tôi 
   },{
     id: 119,
 title: "Hương Quế Cố Mộng",
-    image: "imgco/ca0254f280928c2d1e5a8ae6313a58e9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ca0254f280928c2d1e5a8ae6313a58e9.jpg",
     link: "cotrang/huong-que-co-mong.html",
     type: "cotrang",
     desc: `Thái hậu vừa mới nhập liệm an táng, chiếu phế hậu đã đưa thẳng đến trước mặt ta.
@@ -2544,7 +2544,7 @@ Ta quỳ xuống tiếp chỉ, khẽ nói: “Tạ ơn thánh ân của bệ h�
   }, {
     id: 120,
 title: "Lời Nói Dối Của Con Gái Tôi",
-    image: "imgngon/631dc674f85d044b7ee38c8f5c5c66e7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/631dc674f85d044b7ee38c8f5c5c66e7.jpg",
     link: "ngontinh/loi-noi-doi-cua-con-gai-toi.html",
     type: "ngontinh",
     desc: `Con gái của tôi là một kẻ nói dối.Khi còn nhỏ, nó lỡ ngã đập vào tay nhưng lại nói là do tôi véo, khiến mẹ chồng tôi nổi giận với tôi.
@@ -2559,7 +2559,7 @@ Tôi dứt khoát giúp nó thu dọn đồ đạc rồi nói: “Đi đi con g�
   }, {
     id: 121,
     title: "Dính Lấy Nhau Giữa Sóng Gió Dư Luận",
-    image: "imgdam/ad9b8a81846d8edd996bb0d7ac6b7682.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ad9b8a81846d8edd996bb0d7ac6b7682.jpg",
     link: "dammy/dinh-lay-nhau-giua-song-gio-du-luan.html",
     type: "dammy",
     desc: `Tôi tên là Kỷ Nguyên, 27 tuổi, phó giáo sư trẻ nhất S đại.
@@ -2578,7 +2578,7 @@ Tôi đầy dấu hỏi chấm, giật lấy điện thoại xem thử, kết qu
   },{
     id: 122,
     title: "Hồng Trần Đồ Tể Nương",
-    image: "imgco/10f6ee38e110c72eda6c8e61b8981840.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/10f6ee38e110c72eda6c8e61b8981840.jpg",
     link: "cotrang/hong-tran-do-te-nuong.html",
     type: "cotrang",
     desc: `Ta là một nữ đồ tể, nào ngờ một ngày lại thành mẫu thân của giả thiên kim phủ thừa tướng.
@@ -2597,7 +2597,7 @@ Lại còn suốt ngày lẽo đẽo theo sau ta, kéo tay áo mềm giọng g�
   }, {
     id: 123,
     title: "Hạnh Phúc Cách Một Bước",
-    image: "imgngon/8982a7de8d98992467f59933f1c88755.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8982a7de8d98992467f59933f1c88755.jpg",
     link: "ngontinh/hanh-phuc-cach-mot-buoc.html",
     type: "ngontinh",
     desc: `Tôi dùng quyền lực ép Kỳ Tống hẹn hò với mình hai năm.
@@ -2614,7 +2614,7 @@ Ngoảnh đầu lại, tôi thấy Kỳ Tống đang đứng ở cửa, nhìn t�
   },{
     id: 124,
     title: "Giam Em Dưới Mùi Bạc Hà",
-    image: "imgdam/2dabd59aa1255ba3b9bb1cca3b7f5d12.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2dabd59aa1255ba3b9bb1cca3b7f5d12.jpg",
     link: "dammy/giam-em-duoi-mui-bac-ha.html",
     type: "dammy",
     desc: `Tôi là một beta sống trong thế giới ABO.
@@ -2631,7 +2631,7 @@ Tôi muốn chạy trốn.`
   },{
     id: 125,
     title: "Một Đời Bẻ Gãy Thiên Mệnh",
-    image: "imgco/f90cf1727d8d1b5d4995d02a57f4dc34.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f90cf1727d8d1b5d4995d02a57f4dc34.jpg",
     link: "cotrang/mot-doi-be-gay-thien-menh.html",
     type: "cotrang",
     desc: `Khi Thái tử đăng cơ, người lập Thái tử trắc phi làm Hoàng hậu.
@@ -2660,7 +2660,7 @@ Ta lùi về sau một bước, giọng điệu nhàn nhạt.
   },{
     id: 126,
     title: "Sáu Năm Tôi Đợi Một Người Quay Đầu",
-    image: "imgngon/2d78938cd46a7dbf2576b67668a954e8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2d78938cd46a7dbf2576b67668a954e8.jpg",
     link: "ngontinh/sau-nam-toi-doi-mot-nguoi-quay-dau.html",
     type: "ngontinh",
     desc: `Tôi chủ động trêu chọc Giang Ký Hoài.Rồi lại bỏ rơi hắn vào đúng lúc hắn chán nản nhất, xoay người chạy về phía người khác.
@@ -2671,7 +2671,7 @@ Cho đến một ngày, hắn bị đẩy ra khỏi phòng cấp cứu khi men r
   },{
     id: 127,
     title: "Khi Bánh Răng Lệch Nhịp",
-    image: "imgdam/905d05c1de54cfc2725872d78f8bee45.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/905d05c1de54cfc2725872d78f8bee45.jpg",
     link: "dammy/khi-banh-rang-lech-nhip.html",
     type: "dammy",
     desc: `Tốt nghiệp đêm đó, tôi uống tới mức mất luôn trí nhớ, rồi bị mấy thằng bạn kéo thẳng đến khách sạn.
@@ -2680,7 +2680,7 @@ Khi ấy tôi còn chưa biết, bánh răng số phận đã âm thầm xoay m�
   },{
     id: 128,
     title: "Thứ Nữ Quyền Mưu Ký",
-    image: "imgco/c1761141868a6faac87e27fbc8f5db3f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c1761141868a6faac87e27fbc8f5db3f.jpg",
     link: "cotrang/thu-nu-quyen-muu-ky.html",
     type: "cotrang",
     desc: `Đại tẩu vốn đã bất mãn khi ta nắm quyền quản gia, liền náo loạn ngay tại từ đường.Nàng cầm dao kề sát cổ, uy hiếp rằng: “Nếu không để ta quản gia, ta sẽ mang theo con chết ở đây.”
@@ -2697,7 +2697,7 @@ Gia nghiệp là do Từ Nam Từ ta dốc lòng gây dựng, chưa đến lư�
   },{
     id: 129,
     title: "Kế Hoạch Tiết Kiệm Tiền Của Minh Tinh",
-    image: "imgngon/1d9c85817989bc0d1169797f50e8e48c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1d9c85817989bc0d1169797f50e8e48c.jpg",
     link: "ngontinh/ke-hoach-tiet-kiem-tien-cua-minh-tinh.html",
     type: "ngontinh",
     desc: `Tôi là sao nữ tiết kiệm tiền có tiếng nhất cái giới giải trí này.
@@ -2716,7 +2716,7 @@ Cư dân mạng trực tiếp nổ tung tại chỗ.`
   },{
     id: 130,
     title: "Người Tôi Yêu Trong Bóng Tối",
-    image: "imgdam/5a8d71fafdab58743b58ff99d083d3bf.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5a8d71fafdab58743b58ff99d083d3bf.jpg",
     link: "dammy/nguoi-toi-yeu-trong-bong-toi.html",
     type: "dammy",
     desc: `Tôi và Lục Trì Nghiệm chia tay trong một tình cảnh cực kỳ khó coi.
@@ -2737,7 +2737,7 @@ Vậy mà anh lại vỗ vỗ lên đùi mình, cười nhạt nói:
   },{
     id: 131,
     title: "Khúc Bi Ai Cuối Cùng",
-    image: "imgco/b21ec29cc34c7ac02ea2a4077465cd81.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b21ec29cc34c7ac02ea2a4077465cd81.jpg",
     link: "cotrang/khuc-bi-ai-cuoi-cung.html",
     type: "cotrang",
     desc: `Ta là đệ nhất mỹ nhân kinh thành.
@@ -2772,7 +2772,7 @@ Sở Lệ Chỉ không thích những loại vải mềm mại trong cung.Mỗi 
   },{
     id: 132,
     title: "Tình Cũ Chưa Bao Giờ Quên",
-    image: "imgngon/8e8a7a0f7d7796cf39ab83ea3102f773.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8e8a7a0f7d7796cf39ab83ea3102f773.jpg",
     link: "ngontinh/tinh-cu-chua-bao-gio-quen.html",
     type: "ngontinh",
     desc: `Con trai bị sốt, tôi đưa thằng bé đến bệnh viện, không ngờ bác sĩ điều trị lại là bạn trai cũ của tôi.
@@ -2793,7 +2793,7 @@ Tôi chẳng buồn cãi thêm, đợi anh ta kê đơn xong thì bế con rời
   },{
     id: 133,
     title: "Mặc Đồ Nữ Bị Phát Hiện",
-    image: "imgdam/b6e9532883459a7daa51f811c33ade71.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b6e9532883459a7daa51f811c33ade71.jpg",
     link: "dammy/mac-do-nu-bi-phat-hien.html",
     type: "dammy",
     desc: `Tôi bị ba người bạn cùng phòng, toàn trai thẳng chính hiệu, bắt gặp lúc đang lén mặc đồ nữ trong ký túc xá.Từ đó, mọi chuyện bắt đầu trở nên kỳ lạ.
@@ -2810,7 +2810,7 @@ Mọi thứ vẫn yên ổn cho đến khi tôi định hẹn hò với một ng
   },{
     id: 134,
     title: "Trong Sinh Ta Giàu Nhất Thiên Hạ",
-    image: "imgco/796f59be653266b3bff7de0bf062cc13.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/796f59be653266b3bff7de0bf062cc13.jpg",
     link: "cotrang/trong-sinh-ta-giau-nhat-thien-ha.html",
     type: "cotrang",
     desc: `Ta và thứ muội cùng rơi xuống nước, nhưng vị hôn phu của ta lại gấp gáp hô lớn: “Mau cứu Nguyệt Nhu muội muội trước.”
@@ -2831,7 +2831,7 @@ Lần nữa mở mắt ra, ta sống lại đúng vào ngày diễn ra tiệc xu
   },{
     id: 135,
     title: "Kẻ Bị Đẩy Ra Rìa",
-    image: "imgngon/7e201a5975310ca0745cb3d138df147a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7e201a5975310ca0745cb3d138df147a.jpg",
     link: "ngontinh/ke-bi-day-ra-ria.html",
     type: "ngontinh",
     desc: `Em trai lên cấp ba, cả nhà cứ như mở hội, ai nấy đều mong chờ nó thể hiện “tiềm năng con trai” để cho tôi sáng mắt ra.
@@ -2846,7 +2846,7 @@ Mắt tôi lập tức sáng rực lên.
   },{
     id: 136,
     title: "Hoá Ra Em Mới Là Định Mệnh",
-    image: "imgdam/Ảnh màn hình 2026-06-02 lúc 16.59.59.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/14008e6d5345f27c7a7e59d5a89f3744.jpg",
     link: "dammy/hoa-ra-em-moi-la-dinh-menh.html",
     type: "dammy",
     desc: `Đứa em Omega khốn kiếp của tôi bỏ trốn hôn sự.
@@ -2869,7 +2869,7 @@ Nghe nói Giang Dụ Đình đã lật tung cả tinh hệ để tìm tôi.
   },{
     id: 137,
     title: "Phượng Giả Thành Thật",
-    image: "imgco/8ee481283b48a8e4a5f92596d55c6eff.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8ee481283b48a8e4a5f92596d55c6eff.jpg",
     link: "cotrang/phuong-gia-thanh-that.html",
     type: "cotrang",
     desc: `Từ nhỏ ta đã bị đưa về thôn quê nuôi dưỡng, rồi bị bắt thay thế tỷ tỷ song sinh mà gả vào Đông cung, trở thành Thái tử phi của một vị Thái tử nổi tiếng tàn nhẫn, độc ác.
@@ -2886,7 +2886,7 @@ Hắn nhìn ta một lúc rồi bỗng bật cười, ánh mắt sáng lên: “
   },{
     id: 138,
     title: "Bạn Cùng Phòng Trà Xanh Hai Mặt",
-    image: "imgngon/cca81aa055e1d0ea75d0cafe47e70607.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cca81aa055e1d0ea75d0cafe47e70607.jpg",
     link: "ngontinh/ban-cung-phong-tra-xanh-hai-mat.html",
     type: "ngontinh",
     desc: `Đang lúc liên hoan thì bạn cùng phòng đột nhiên nói rằng cô ta cảm thấy tôi không xứng với bạn trai tôi, còn hỏi xin tôi nick Wechat của anh ấy.
@@ -2901,7 +2901,7 @@ Tôi nổi giận: “Hòa bình cái chó ấy!”`
   },{
     id: 139,
     title: "Giấc Mộng Bị Chiếm Giữ",
-    image: "imgdam/dff723d4948f5457e3fe0ec2d1b0051f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dff723d4948f5457e3fe0ec2d1b0051f.jpg",
     link: "dammy/giac-mong-bi-chiem-giu.html",
     type: "dammy",
     desc: `Sau khi gia đình phá sản, mỗi đêm tôi đều mơ thấy một chàng trai trẻ đè tôi xuống giường, tùy ý chiếm hữu, làm những chuyện không thể miêu tả.
@@ -2920,7 +2920,7 @@ Sau này trong một lần hợp tác, Thịnh Lẫm nhìn thấy nốt ruồi s
   },{
     id: 140,
     title: "Hoàng Hậu Duy Nhất Của Đế Vương Máu Lạnh",
-    image: "imgco/0e19f75afaa2f9e13fd900c9445f992c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0e19f75afaa2f9e13fd900c9445f992c.jpg",
     link: "cotrang/hoang-hau-duy-nhat-cua-de-vuong-mau-lanh.html",
     type: "cotrang",
     desc: `Ngày thứ hai mươi tám sau khi ta được sắc phong làm Hoàng hậu, đích tỷ của ta vào cung.
@@ -2935,7 +2935,7 @@ Chỉ là sau đó, ta bị Phó Thanh Hoằng chặn lại ở trường săn.H
   },{
     id: 141,
     title: "Ly Hôn Không Hối Tiếc",
-    image: "imgngon/a6cfeb823d2eca1c2c8049ee821613be.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a6cfeb823d2eca1c2c8049ee821613be.jpg",
     link: "ngontinh/ly-hon-khong-hoi-tiec.html",
     type: "ngontinh",
     desc: `Chồng tôi luôn yêu cầu bữa ăn không nói chuyện, giờ ngủ không trò chuyện, thế nên căn nhà này vĩnh viễn lạnh lẽo như khách sạn vô hồn.
@@ -2964,7 +2964,7 @@ Thế à? Vậy thì để họ xem thử—một “con cá mặn” thứ thi�
   },{
     id: 142,
     title: "CP Này Không Toang Nổi Đâu",
-    image: "imgdam/808ca3ffc53bec509cd1c11ee3b9702d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/808ca3ffc53bec509cd1c11ee3b9702d.jpg",
     link: "dammy/cp-nay-khong-toang-noi-dau.html",
     type: "dammy",
     desc: `Trong nhà ma, nữ chính nép vào lòng người khác, còn nam chính thì đứng đực ra như khúc gỗ.
@@ -3001,7 +3001,7 @@ Tôi còn đang cứng họng thì cậu ấy đã ghé sát tai, giọng trầm
   },{
     id: 143,
     title: "Trại Chủ Rơi Vào Lưới Tình",
-    image: "imgco/22008d75d9b436459a9d9007a9b4f23f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/22008d75d9b436459a9d9007a9b4f23f.jpg",
     link: "cotrang/trai-chu-roi-vao-luoi-tinh.html",
     type: "cotrang",
     desc: `Cha từng nói, nếu muốn kế thừa sơn trại thì nhất định phải sinh được một hài tử ưu tú trước đã.
@@ -3030,7 +3030,7 @@ Hắn mang binh vây kín, ánh mắt lạnh lẽo nguy hiểm.
   },{
     id: 144,
     title: "Hợp Đồng Giả Yêu Với Thái Tử Gia Bắc Kinh",
-    image: "imgngon/cc4327767f8f3b1852cb6b94e93860c5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cc4327767f8f3b1852cb6b94e93860c5.jpg",
     link: "ngontinh/hop-dong-gia-yeu-voi-thai-tu-gia-bac-kinh.html",
     type: "ngontinh",
     desc: `Thái tử gia Bắc Kinh là lão bản của tôi.Anh ta bảo tôi giúp anh ta chặn hoa đào.
@@ -3045,7 +3045,7 @@ Từ đó, tôi khoác tay ông chủ đi khắp nơi, gặp hai cô bạn thanh
   },{
     id: 145,
     title: "Tình Địch Của Tôi",
-    image: "imgdam/6021941463541c6bbb8c0725dec3115c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6021941463541c6bbb8c0725dec3115c.jpg",
     link: "dammy/tinh-dich-cua-toi.html",
     type: "dammy",
     desc: `Trong đội, Bạch Duẫn đúng kiểu “bé cưng quốc dân”.
@@ -3070,7 +3070,7 @@ Tôi: ?
   },{
     id: 146,
     title: "Mua Một Quốc Công Phủ",
-    image: "imgco/47bf76f9558e7771b7256ff120dc7a86.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47bf76f9558e7771b7256ff120dc7a86.jpg",
     link: "cotrang/mua-mot-quoc-cong-phu.html",
     type: "cotrang",
     desc: `Cha ta là một thương nhân chính hiệu, người lúc nào cũng phảng phất mùi bạc tiền.Trong triều không có ai chống lưng, trong tộc cũng chẳng có nổi một vị làm quan.
@@ -3101,7 +3101,7 @@ Khi mối hôn sự này vừa định xong, đại ca ta đập bàn tính “r
   },{
     id: 147,
     title: "Đứa Con Bị Đánh Cắp Cuộc Đời",
-    image: "imgngon/55ce1289cae45cd867329d2c76324940.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/55ce1289cae45cd867329d2c76324940.jpg",
     link: "ngontinh/dua-con-bi-danh-cap-cuoc-doi.html",
     type: "ngontinh",
     desc: `Ngay từ lúc quản gia dẫn tôi bước vào dinh thự, tôi đã bị món đồ chơi của đứa con gái giả ném thẳng vào mặt.
@@ -3118,7 +3118,7 @@ Kiếp này, tôi nhất định phải trả lại cho đứa con gái giả đ
   },{
     id: 148,
     title: "Ai Là Trai Thằng",
-    image: "imgdam/c17d2c51101537ab067b99570a59f345.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c17d2c51101537ab067b99570a59f345.jpg",
     link: "dammy/ai-la-trai-thang.html",
     type: "dammy",
     desc: `Tôi giả vờ làm một cô nàng bánh bèo đáng yêu, hẹn hò với một “ông vua” trong game, người đã giết tôi tới tận 20 mạng.
@@ -3141,7 +3141,7 @@ Tôi đứng hình tại chỗ.`
   },{
     id: 149,
     title: "Nương Thân Hóa Điên",
-    image: "imgco/1d2d5924bd743f097b143cbf81e950de.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1d2d5924bd743f097b143cbf81e950de.jpg",
     link: "cotrang/nuong-than-hoa-dien.html",
     type: "cotrang",
     desc: `Mẫu thân bỗng như biến thành một người khác.
@@ -3164,7 +3164,7 @@ Thế nhưng, ta lại thích dáng vẻ hiện tại của người hơn bất 
   },{
     id: 150,
     title: "Tiếng Vẹt Trong Bóng Tối",
-    image: "imgngon/33e95f0fff96e95ee35c291bfe6a8c3e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/33e95f0fff96e95ee35c291bfe6a8c3e.jpg",
     link: "ngontinh/tieng-vet-trong-bong-toi.html",
     type: "ngontinh",
     desc: `Tôi mua một con vẹt ở cửa hàng thú cưng.
@@ -3176,7 +3176,7 @@ Bạn tôi im lặng một lúc lâu rồi nói:
   },{
     id: 151,
     title: "Nghe Lén Tiếng Lòng Ma Tôn",
-    image: "imgdam/44f8ef45f05c82fdaf5536a1710a19a5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/44f8ef45f05c82fdaf5536a1710a19a5.jpg",
     link: "dammy/nghe-len-tieng-long-ma-ton.html",
     type: "dammy",
     desc: `Ta từng là thiên chi kiêu tử được cả tông môn ngưỡng mộ.Dù chỉ là đứa trẻ mồ côi được nhận nuôi, nhưng ta có sư tôn hết mực yêu thương, các sư huynh sư đệ cũng luôn quan tâm.
@@ -3193,7 +3193,7 @@ Nhưng khi ta quỵ xuống ho ra máu, trong màn sương mờ ảo bỗng vang
   },{
     id: 152,
     title: "Hoàng Hậu Một Kiếp Nhiễm Huyết Cung Đình",
-    image: "imgco/b75f96e3e89c741aa4ffdef0aab818e3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b75f96e3e89c741aa4ffdef0aab818e3.jpg",
     link: "cotrang/hoang-hau-mot-kiep-nhiem-huyet-cung-dinh.html",
     type: "cotrang",
     desc: `Ta đang mang thai bảy tháng thì mẫu thân đột nhiên muốn đưa muội muội vào Vương phủ “chăm sóc ta an thai”.
@@ -3218,7 +3218,7 @@ Ta đỏ hoe mắt, vừa đau vừa hận, run giọng chất vấn vì sao nà
   },{
     id: 153,
     title: "Trò Chơi Trong Biệt Thự Chết Chóc",
-    image: "imgngon/dd871d1d14599d0f95afa9372f442859.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dd871d1d14599d0f95afa9372f442859.jpg",
     link: "ngontinh/tro-choi-trong-biet-thu-chet-choc.html",
     type: "ngontinh",
     desc: `Đêm khuya, anh bạn trai nằm cạnh tôi lặng lẽ đứng dậy rồi đi sang phòng bên của bạn thân tôi.
@@ -3231,7 +3231,7 @@ Phía sau lớp gương đó chính là căn phòng bên cạnh.`
   },{
     id: 154,
     title: "Alpha Đỉnh Cấp Cố Chấp Ép Tôi Thành Vợ",
-    image: "imgdam/355f8db83d9a00c4a92762398d34c3c9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/355f8db83d9a00c4a92762398d34c3c9.jpg",
     link: "dammy/alpha-dinh-cap-co-chap-ep-toi-thanh-vo.html",
     type: "dammy",
     desc: `Tôi với tên thiếu gia thật mà tôi ghét cay ghét đắng lại cùng nhau xuyên vào thế giới ABO.
@@ -3260,7 +3260,7 @@ Tôi coi tên thiếu gia thật này là kẻ thù truyền kiếp, kết quả
   },{
     id: 155,
     title: "Thứ Nữ Đương Gia",
-    image: "imgco/596636ed8a75a805891060a6e5b1a345.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/596636ed8a75a805891060a6e5b1a345.jpg",
     link: "cotrang/thu-nu-duong-gia.html",
     type: "cotrang",
     desc: `Đại tẩu bất mãn khi ta nắm quyền quản gia, liền chạy thẳng tới từ đường làm loạn.Nàng ta cầm dao kề cổ, nước mắt nước mũi giàn giụa, giọng điệu như đang diễn hí khúc.
@@ -3281,7 +3281,7 @@ Gia nghiệp của Từ gia là do Từ Nam Từ ta gây dựng từng chút m�
   },{
     id: 156,
        title: "Bẫy Tình Yêu Của Một Bạn Trai Hoàn Hảo",
-    image: "imgngon/2f4f986f09df70a97575719bca4ac850.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2f4f986f09df70a97575719bca4ac850.jpg",
     link: "ngontinh/bay-tinh-yeu-cua-mot-ban-trai-hoan-hao.html",
     type: "ngontinh",
     desc: `Bạn trai tôi đúng kiểu người mà ai nhìn vào cũng phải cảm thán: “Ôi trời, đúng là Bồ Tát sống giữa nhân gian.”
@@ -3292,7 +3292,7 @@ Mỗi tội, anh ta cũng tiện tay dùng luôn tiền của tôi để thuê n
   },{
     id: 157,
     title: "Chúng Ta Suýt Nữa Lạc Nhau",
-    image: "imgdam/7227c35cd6059381cd9f229b732f2b87.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7227c35cd6059381cd9f229b732f2b87.jpg",
     link: "dammy/chung-ta-suyt-nua-lac-nhau.html",
     type: "dammy",
     desc: `Tôi và anh ấy cùng nhau debut, cộng đồng mạng đều nói chúng tôi trời sinh một cặp.
@@ -3307,7 +3307,7 @@ Ai ngờ anh ấy ngồi tàu hỏa suốt hai mươi tiếng đồng hồ, mắ
   },{
     id: 158,
     title: "Ác Nhân Trả Giá",
-    image: "imgco/0fc0050e3aefb24a709024615b0611ba.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0fc0050e3aefb24a709024615b0611ba.jpg",
     link: "cotrang/ac-nhan-tra-gia.html",
     type: "cotrang",
     desc: `Cô phụ là đồ tể nổi danh khắp vùng, sức lực khỏe như trâu mộng.Chỉ vì nghi ngờ cô mẫu lén tư thông cùng kẻ khác, hắn liền bê nguyên nồi dầu sôi tạt thẳng lên mặt cô mẫu.
@@ -3320,7 +3320,7 @@ Sau khi chết thảm, ta sống lại đúng ngày cô mẫu bị dội dầu s
   },{
     id: 159,
     title: "Chú Chó Con Yêu Dấu Của Tôi",
-    image: "imgngon/02560fbdf1bd04af6d56de3df3cca8e5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/02560fbdf1bd04af6d56de3df3cca8e5.jpg",
     link: "ngontinh/chu-cho-con-yeu-dau-cua-toi.html",
     type: "ngontinh",
     desc: `Tên lưu manh âm u giam cầm tôi đã bị mất trí nhớ.Nhìn những bức ảnh chụp lén và lịch sử trò chuyện, anh rơi vào trầm tư.
@@ -3345,7 +3345,7 @@ Tôi không thể nhịn được nữa, giáng cho anh một cái tát.
   },{
     id: 160,
     title: "Em Trai Nuôi Không Còn Nghe Lời",
-    image: "imgdam/f4cf63ad833d4594c0c1ee6e358040f9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f4cf63ad833d4594c0c1ee6e358040f9.jpg",
     link: "dammy/em-trai-nuoi-khong-con-nghe-loi.html",
     type: "dammy",
     desc: `Khi tỉnh lại, tôi đang dạy dỗ người em trai trên danh nghĩa của mình.Đó là đứa trẻ được gia đình tôi nhận nuôi.
@@ -3360,7 +3360,7 @@ Về sau, tôi lại bị hắn ép dưới thân.Người đàn ông vẫn gi�
   },{
     id: 161,
     title: "Phản Kích Trên Chiến Trường",
-    image: "imgco/ef4c41329993da4e224b28008b66712f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ef4c41329993da4e224b28008b66712f.jpg",
     link: "cotrang/phan-kich-tren-chien-truong.html",
     type: "cotrang",
     desc: `Ta vì cứu Thẩm Nam Phong mà dung mạo bị hủy.Hắn bất đắc dĩ mới phải cưới ta.
@@ -3383,7 +3383,7 @@ Thẩm Nam Phong, lần này, mong ngươi cùng người trong mộng cầm s�
   },{
     id: 162,
     title: "Ván Cờ Hôn Nhân",
-    image: "imgngon/0b7f40229773eb73cd3a33629e831b58.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0b7f40229773eb73cd3a33629e831b58.jpg",
     link: "ngontinh/van-co-hon-nhan.html",
     type: "ngontinh",
     desc: `Gần đây chồng tôi bao nuôi một cô gái không được ngoan cho lắm.
@@ -3406,7 +3406,7 @@ Còn tôi chỉ khẽ mỉm cười.`
   },{
     id: 163,
     title: "Bị Tổng Tài Nhắm Trúng Rồi Thì Chạy Sao Đây",
-    image: "imgdam/dd90cfae4a4fa80393f47498206d873b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dd90cfae4a4fa80393f47498206d873b.jpg",
     link: "dammy/bi-tong-tai-nham-trung-roi-thi-chay-sao-day.html",
     type: "dammy",
     desc: `Tôi là một paparazzi nam. Chỉ vì vô tình phá hỏng chuyện “tốt đẹp” của tổng tài bá đạo và nữ thần, tôi bị tổng tài tóm gọn ngay trên giường.
@@ -3423,7 +3423,7 @@ Tôi khóc không ra nước mắt.Phen này đúng kiểu tự mình dâng đ�
   },{
     id: 164,
     title: "Quậy Nát Cả Tam Giới",
-    image: "imgco/0e25d18f8f27b5315e6c719eb3e21474.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0e25d18f8f27b5315e6c719eb3e21474.jpg",
     link: "cotrang/quay-nat-ca-tam-gioi.html",
     type: "cotrang",
     desc: `Kiếp trước, ta bị tất cả mọi người xa lánh, bị sư tôn ném thẳng xuống Tru Tiên Đài, thần hồn tan nát chẳng còn chút gì.
@@ -3460,7 +3460,7 @@ Ha ha ha ha ha.`
   },{
     id: 165,
     title: "Lớp Học Của Những Tội Lỗi",
-    image: "imgngon/17fabb4bb7adc73133a2e3bef15b2ea7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/17fabb4bb7adc73133a2e3bef15b2ea7.jpg",
     link: "ngontinh/lop-hoc-cua-nhung-toi-loi.html",
     type: "ngontinh",
     desc: `Lúc em gái tôi nửa sống nửa chết bị đẩy vào phòng cấp cứu, chiếc điện thoại dính đầy máu của con bé đột nhiên sáng lên.
@@ -3479,7 +3479,7 @@ Tôi cong khóe môi, vui vẻ xem hết đoạn clip dài sáu phút ba mươi 
   },{
     id: 166,
     title: "Một Kiếm Đoạn Duyên",
-    image: "imgdam/74f462de515a3586eac10b1d45c8a178.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/74f462de515a3586eac10b1d45c8a178.jpg",
     link: "dammy/mot-kiem-doan-duyen.html",
     type: "dammy",
     desc: `Tôi xuyên vào một cuốn tiểu thuyết tiên hiệp đam mỹ, trở thành đạo lữ bị Thanh Giác Tiên Tôn sát phu chứng đạo.
@@ -3504,7 +3504,7 @@ Khi quay lại, tôi đổi thân phận thành đạo lữ của đồ đệ Th
   },{
     id: 167,
     title: "Thiên Kim Thất Lạc Được Hai Nhà Nâng Niu",
-    image: "imgco/a39fb002ef8cacf2cb9db6fdb1715bcf.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a39fb002ef8cacf2cb9db6fdb1715bcf.jpg",
     link: "cotrang/thien-kim-that-lac-duoc-hai-nha-nang-niu.html",
     type: "cotrang",
     desc: `Ngày quan phủ bảo ta đi tìm cha mẹ ruột, ta lại nghe nhầm giữa họ “Thẩm” và họ “Thân”.
@@ -3555,7 +3555,7 @@ Hắn chỉ thẳng vào ta, nghiến răng nghiến lợi.
   },{
     id: 168,
     title: "Chồn Nhỏ Phiêu Lưu Nhân Giới",
-    image: "imgngon/67ded55c9e9c3f0e18d63ebfcc1b4d4b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/67ded55c9e9c3f0e18d63ebfcc1b4d4b.jpg",
     link: "ngontinh/chon-nho-phieu-luu-nhan-gioi.html",
     type: "ngontinh",
     desc: `Tôi là một con chồn nhỏ vừa mới thành tinh.
@@ -3571,7 +3571,7 @@ Anh cười nhẹ, khóe môi nhếch lên:
   },{
     id: 169,
     title: "Kẻ Sống Sót Trong Trò Đùa Của Thiên Mệnh",
-    image: "imgdam/ca45f7e4de4154be37fb34a07b95a9d8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ca45f7e4de4154be37fb34a07b95a9d8.jpg",
     link: "dammy/ke-song-sot-trong-tro-dua-cua-thien-menh.html",
     type: "dammy",
     desc: `Nam phủ bốn vạn binh, xương trắng làm tế.
@@ -3584,7 +3584,7 @@ Quả đúng là phế vật.`
   },{
     id: 170,
     title: "Huyết Lộ Tu Tiên Giới",
-    image: "imgco/1ca97684ffe38a7bda2e9a158e75a887.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1ca97684ffe38a7bda2e9a158e75a887.jpg",
     link: "cotrang/huyet-lo-tu-tien-gioi.html",
     type: "cotrang",
     desc: `Ta mang thai đứa con của nhân vật phản diện, lại bị nhốt vào Thượng Cổ Bí Cảnh.
@@ -3599,7 +3599,7 @@ Nhưng điều ta không ngờ tới chính là, cha của đứa trẻ trong b�
   },{
     id: 171,
     title: "Yêu Nhầm Một Người Không Thuộc Về Mình",
-    image: "imgngon/94215806a7dbf9f682db1586f1d7c97d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/94215806a7dbf9f682db1586f1d7c97d.jpg",
     link: "ngontinh/yeu-nham-mot-nguoi-khong-thuoc-ve-minh.html",
     type: "ngontinh",
     desc: `Ngày đi công tác, tôi phát hiện ra bí mật của bạn trai.
@@ -3614,7 +3614,7 @@ Trên đời này người thì nhiều thật, nhưng anh chỉ yêu nhất Ngu
   },{
     id: 172,
     title: "Hồ Yêu Lạc Ấn Phật Tâm",
-    image: "imgdam/142dcdd4fe9730e8a88138352ed43436.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/142dcdd4fe9730e8a88138352ed43436.jpg",
     link: "dammy/ho-yeu-lac-an-phat-tam.html",
     type: "dammy",
     desc: `Vì thèm một hạt bồ đề, ta lén lút mò vào Vô Vân Tự, ai ngờ lại đụng ngay vị Phật tử đang trúng Điệp Độc.
@@ -3631,7 +3631,7 @@ Ta tức đến nổ phổi, chỉ thẳng mặt hắn mà gào:
   },{
     id: 173,
     title: "Công Chúa Bị Ruồng Bỏ",
-    image: "imgco/4a171d4de841fdc3c9c7c4e692d51789.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4a171d4de841fdc3c9c7c4e692d51789.jpg",
     link: "cotrang/cong-chua-bi-ruong-bo.html",
     type: "cotrang",
     desc: `Năm Cảnh Chinh thứ mười ba, Hoàng hậu Đại Cảnh hạ sinh Thập Tứ công chúa.
@@ -3650,7 +3650,7 @@ Nhưng Hoàng đế không nỡ xuống tay với con gái mình, cuối cùng c
   },{
     id: 174,
     title: "Hôn Nhân Hợp Đồng Với Mối Tình Đầu",
-    image: "imgngon/2f20cb84b5ab95f4717d5daeb3113f7f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2f20cb84b5ab95f4717d5daeb3113f7f.jpg",
     link: "ngontinh/hon-nhan-hop-dong-voi-moi-tinh-dau.html",
     type: "ngontinh",
     desc: `Sau khi nghỉ việc và quay về quê, tôi kết hôn với anh trai của bạn thân, nhưng hình như anh ấy không thích tôi cho lắm.
@@ -3665,7 +3665,7 @@ Thế nên sau đám cưới, tôi vẫn đều đặn chạy sang gặp bạn t
   },{
     id: 175,
     title: "Bị Nhầm Là Thế Thân Của Bạch Nguyệt Quang",
-    image: "imgdam/26d9511e885e8763295302a10e804bd0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/26d9511e885e8763295302a10e804bd0.jpg",
     link: "dammy/bi-nham-la-the-than-cua-bach-nguyet-quang.html",
     type: "dammy",
     desc: `Sau khi xuyên vào truyện, trở thành pháo hôi thế thân của nam chính, hệ thống lập tức thông báo cho tôi biết:
@@ -3700,7 +3700,7 @@ Tôi theo phản xạ nâng mặt hắn lên lau nước mắt, đầu óc mơ h
   },{
     id: 176,
     title: "Hoàng Cung Không Giữ Được Ta",
-    image: "imgco/a3ce36e5fc4b0f1327b559abdf296a6d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a3ce36e5fc4b0f1327b559abdf296a6d.jpg",
     link: "cotrang/hoang-cung-khong-giu-duoc-ta.html",
     type: "cotrang",
     desc: `Ta từng ngỡ rằng, chỉ cần bản thân đủ hiểu chuyện, đủ ngoan ngoãn, sớm muộn gì cũng sẽ được người kia đặt ở vị trí quan trọng nhất trong lòng.
@@ -3735,7 +3735,7 @@ Nhưng lần này, ta chỉ khẽ cong môi.
   },{
     id: 177,
     title: "Những Cánh Diều Tuổi Thơ",
-    image: "imgngon/9bcdc477c63aecd1410e3720cec84bcc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9bcdc477c63aecd1410e3720cec84bcc.jpg",
     link: "ngontinh/nhung-canh-dieu-tuoi-tho.html",
     type: "ngontinh",
     desc: `Tôi đã trọng sinh rồi.
@@ -3764,7 +3764,7 @@ Ai đó đẩy tôi một cái, tiếng của bạn cùng bàn vang bên tai, ng
   },{
     id: 178,
     title: "Bạn Cùng Phòng Không Ngủ Ngày Hôm Ấy",
-    image: "imgdam/6cd295cb53af52d97ab0f2d164ad4bf3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6cd295cb53af52d97ab0f2d164ad4bf3.jpg",
     link: "dammy/ban-cung-phong-khong-ngu-ngay-hom-ay.html",
     type: "dammy",
     desc: `Bạn cùng phòng không may làm vỡ gói hàng của tôi.
@@ -3781,7 +3781,7 @@ Tôi: “?”`
   },{
     id: 179,
     title: "Hồi Sinh Giữa Phong Ba Hận Thù",
-    image: "imgco/001e7d00c04564478ec0b5d45edb8e41.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/001e7d00c04564478ec0b5d45edb8e41.jpg",
     link: "cotrang/hoi-sinh-giua-phong-ba-han-thu.html",
     type: "cotrang",
     desc: `Kiếp trước, tỷ tỷ gả cho thế tử, nhưng hắn lại có sở thích Long Dương, để nàng một mình trong căn phòng lạnh lẽo, trở thành trò cười của cả thành.
@@ -3800,7 +3800,7 @@ Nhưng ngay sau đó, Lịch Cảnh Hành đẩy cửa bước vào, gió tuyế
   },{
     id: 180,
     title: "Người Cũ Không Bao Giờ Thực Sự Rời Đi",
-    image: "imgngon/5827e86a4706a91f0a784a560318c50e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5827e86a4706a91f0a784a560318c50e.jpg",
     link: "ngontinh/nguoi-cu-khong-bao-gio-thuc-su-roi-di.html",
     type: "ngontinh",
     desc: `Đi tìm bạn trai cũ mới chia tay được đúng một tuần để nói chuyện quay lại.Kết quả vừa mở cửa ra đã thấy anh ấy đang cúi đầu hôn một cô gái, mà cô ta còn đang mặc váy ngủ của tôi nữa chứ.Điều khiến tôi sốc ngang còn là người đó chẳng phải ai xa lạ, mà chính là bạn cùng phòng ký túc xá của tôi.
@@ -3811,7 +3811,7 @@ Lúc đó tôi còn ngu ngơ ngồi chúc mừng cô ấy như thật, cứ tư�
   },{
     id: 181,
     title: "Tỉnh Dậy Một Đêm Kẻ Đối Đầu Lại Nằm Chung Một Nhà",
-    image: "imgdam/021859ec2fca068c1b30521fdb2eda8f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/021859ec2fca068c1b30521fdb2eda8f.jpg",
     link: "dammy/tinh-day-mot-dem-ke-doi-dau-lai-nam-chung-mot-nha.html",
     type: "dammy",
     desc: `Tôi và Tống Tu Ninh đúng kiểu hai đường thẳng song song, đời này kiếp này chẳng bao giờ có nổi một giao điểm.
@@ -3828,7 +3828,7 @@ Tôi...thế mà lại đi đăng ký kết hôn với hắn ở tận trời T�
   },{
     id: 182,
     title: "Hòa Ly Xong Ta Trở Thành Nữ Quan",
-    image: "imgco/5a876d78c61a0f6c34d4353ebee93c0e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5a876d78c61a0f6c34d4353ebee93c0e.jpg",
     link: "cotrang/hoa-ly-xong-ta-tro-thanh-nu-quan.html",
     type: "cotrang",
     desc: `Kiếp trước ta gả cho Thẩm Nghiễn, ai ai nghe đến cũng phải xuýt xoa bảo ta số hưởng, vớ được nhân duyên tốt đến mức muốn ghen tị.
@@ -3845,7 +3845,7 @@ Sống lại một đời, đúng lúc Thẩm Nghiễn lại vang danh thiên h�
   },{
     id: 183,
     title: "Quả Bóng Đập Trúng Tim Em",
-    image: "imgngon/7c14b93ac524ffb03183c1139f07c492.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7c14b93ac524ffb03183c1139f07c492.jpg",
     link: "ngontinh/qua-bong-dap-trung-tim-em.html",
     type: "ngontinh",
     desc: `Sau khi bị quả bóng rổ bay trúng đầu, trùm trường Cố Diễn tỏ vẻ mất kiên nhẫn hỏi:
@@ -3886,7 +3886,7 @@ Cậu lại đi tìm cái tên trắng trẻo như hồ ly đó, không sợ b�
   },{
     id: 184,
     title: "Biến Số Mang Thai Của Thế Giới Thú Nhân",
-    image: "imgdam/3ce1ab1821aad5a4eaeb2f893a3cfdf6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3ce1ab1821aad5a4eaeb2f893a3cfdf6.jpg",
     link: "dammy/bien-so-mang-thai-cua-the-gioi-thu-nhan.html",
     type: "dammy",
     desc: `Tôi xuyên đến một thế giới đầy hổ, sư tử, trăn… đủ loại sinh vật to lớn rải khắp nơi.
@@ -3911,7 +3911,7 @@ Sinh một trăm đứa.`
   },{
     id: 185,
     title: "Song Xu Nghịch Thiên",
-    image: "imgco/afe62da3e8ad85f42e1be413be16513e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/afe62da3e8ad85f42e1be413be16513e.jpg",
     link: "cotrang/song-xu-nghich-thien.html",
     type: "cotrang",
     desc: `Việc đầu tiên tân hoàng làm sau khi đăng cơ chính là gả Tứ công chúa Hứa Khanh Ỷ đi hòa thân.
@@ -3926,7 +3926,7 @@ Nàng trở thành thái hậu của địch quốc, còn công khai tuyên bố
   },{
     id: 186,
     title: "Lật Trang Quá Khứ",
-    image: "imgngon/80a450fddf079148e5e497b476d4af2b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/80a450fddf079148e5e497b476d4af2b.jpg",
     link: "ngontinh/lat-trang-qua-khu.html",
     type: "ngontinh",
     desc: `Cha tôi là ông trùm xã hội đen, mẹ tôi là đại tiểu thư trong giới Bắc Kinh.
@@ -3953,7 +3953,7 @@ Nhưng anh ấy lại bịt miệng tôi, đi qua vài con phố tối tăm, d�
   },{
     id: 187,
     title: "Đặt Nhầm Mị Ma",
-    image: "imgdam/df5615cba09322fde99d3ce1fb233758.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/df5615cba09322fde99d3ce1fb233758.jpg",
     link: "dammy/dat-nham-mi-ma.html",
     type: "dammy",
     desc: `Tôi tự nhận mình là top, lên mạng đặt mua một con mị ma nhỏ nhắn mềm mại về để phát tiết.
@@ -3986,7 +3986,7 @@ Ban đêm cũng y chang câu đó.`
   },{
     id: 188,
     title: "Thần Nữ Trở Lại Phá Vỡ Thiên Mệnh",
-    image: "imgco/a4b742ea28d7d410477e9646f6162d9f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a4b742ea28d7d410477e9646f6162d9f.jpg",
     link: "cotrang/than-nu-tro-lai-pha-vo-thien-menh.html",
     type: "cotrang",
     desc: `Bùi gia ta cứ ba đời lại sinh ra một vị thần nữ.
@@ -4003,7 +4003,7 @@ Ngày ta rời đi, ta đứng ở Lăng Vân Đài, nhìn bách điểu quanh t
   },{
     id: 189,
     title: "Oan Gia Dính Cổ",
-    image: "imgngon/e3f2af916b3c44542b014d69fb92c175.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e3f2af916b3c44542b014d69fb92c175.jpg",
     link: "ngontinh/oan-gia-dinh-co.html",
     type: "ngontinh",
     desc: `Tôi và kẻ thù không đội trời chung cùng dính phải tình cổ.
@@ -4025,7 +4025,7 @@ Cái cổ đó là giả.`
   },{
     id: 190,
     title: "Bí Mật Giữa Hai Chúng Ta",
-    image: "imgdam/dfce4f15b668d489d30ba2f48c733feb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dfce4f15b668d489d30ba2f48c733feb.jpg",
     link: "dammy/bi-mat-giua-hai-chung-ta.html",
     type: "dammy",
     desc: `Tôi gọi video cho anh trai.
@@ -4046,7 +4046,7 @@ Anh ta bỗng khẽ cười, giọng hạ thấp.
   },{
     id: 191,
     title: "Nơi Này Có Người Thương Ta",
-    image: "imgco/ae6a1e4492646c5c303d6792a2d7b742.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ae6a1e4492646c5c303d6792a2d7b742.jpg",
     link: "cotrang/noi-nay-co-nguoi-thuong-ta.html",
     type: "cotrang",
     desc: `Đích tỷ là danh môn khuê tú, chỉ cần cong môi cười nhẹ một cái cũng đủ khiến người ta chết mà chẳng lưu lại chút dấu vết nào.
@@ -4061,7 +4061,7 @@ Mãi đến khi ta thật sự trở thành đích nữ, mới phát hiện đá
   },{
     id: 192,
     title: "Có Thai Rồi Mới Biết Sếp Không Hề Vô Tình",
-    image: "imgngon/a15fe1cb674b38e8a87924345006517c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a15fe1cb674b38e8a87924345006517c.jpg",
     link: "ngontinh/co-thai-roi-moi-biet-sep-khong-he-vo-tinh.html",
     type: "ngontinh",
     desc: `Sau một lần say rượu, tôi và sếp lỡ lao vào nhau như phim drama chiếu giờ vàng.
@@ -4080,7 +4080,7 @@ Ai ngờ người đàn ông lúc nào cũng lạnh như tủ đông ấy lại 
   },{
     id: 193,
     title: "Giả Gái Yêu Nhầm Dã Vương",
-    image: "imgdam/842b4cf3b0c748add7552128caab910e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/842b4cf3b0c748add7552128caab910e.jpg",
     link: "dammy/gia-gai-yeu-nham-da-vuong.html",
     type: "dammy",
     desc: `Tôi dùng ảnh của chị gái để tán được một “dã vương” trong game.
@@ -4099,7 +4099,7 @@ Hắn ghé sát bên tai tôi, giọng trầm thấp mang theo cảm giác nguy 
   },{
     id: 194,
     title: "Bếp Nhỏ Của Ái Phi",
-    image: "imgco/7ce5ac311464b31f281c66f1f9ff25f0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7ce5ac311464b31f281c66f1f9ff25f0.jpg",
     link: "cotrang/bep-nho-cua-ai-phi.html",
     type: "cotrang",
     desc: `Phụ thân muốn ta tiến cung thay tỷ tỷ, thế là ta thu dọn đồ đạc, bỏ trốn ngay trong đêm.
@@ -4126,7 +4126,7 @@ Gió đầu xuân len qua khe áo, lạnh đến thấu xương.Ta nằm trên �
   },{
     id: 195,
     title: "Rắn Nuôi Lâu Ngày Thành Chồng Tôi",
-    image: "imgdam/16384b43a35ae185a17bbcd101c77bad.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/16384b43a35ae185a17bbcd101c77bad.jpg",
     link: "dammy/ran-nuoi-lau-ngay-thanh-chong-toi.html",
     type: "dammy",
     desc: `Tôi kéo Ly Trạm ra từ đống xác chết.
@@ -4143,7 +4143,7 @@ Thế mà nó lại dùng xích sắt khóa tôi lại, mặc sức bắt nạt.
   },{
     id: 196,
     title: "Kế Sâu Khó Lường Của Chủ Mẫu",
-    image: "imgco/d5ed05fa12307705d20659a64ff3c0d1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d5ed05fa12307705d20659a64ff3c0d1.jpg",
     link: "cotrang/ke-sau-kho-luong-cua-chu-mau.html",
     type: "cotrang",
     desc: `Vừa mới thành thân được một năm, phu quân đã dẫn Lâm Mạn Nhu đến trước mặt ta, nói muốn nạp nàng làm thiếp.
@@ -4170,7 +4170,7 @@ Ta bị giam nơi điền trang, cô độc suốt ba mươi năm.Rồi sau đó
   },{
     id: 197,
     title: "Bình Yên Là Khi Có Anh Ở Đây",
-    image: "imgngon/330f4eed6674186fe2661e69d7688017.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/330f4eed6674186fe2661e69d7688017.jpg",
     link: "ngontinh/binh-yen-la-khi-co-anh-o-day.html",
     type: "ngontinh",
     desc: `Đêm đã khuya, gần mười một giờ, tôi mặc đồ ngủ lò dò ra mở cửa cho anh trai.Kết quả cửa vừa mở, anh trai đã đẩy thẳng người bạn thân của anh ấy vào nhà.
@@ -4179,7 +4179,7 @@ Ta bị giam nơi điền trang, cô độc suốt ba mươi năm.Rồi sau đó
   },{
     id: 198,
     title: "Mảnh Giấy Giấu Cả Thanh Xuân",
-    image: "imgdam/5807b039a039572f6c0991687836c57c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5807b039a039572f6c0991687836c57c.jpg",
     link: "dammy/manh-giay-giau-ca-thanh-xuan.html",
     type: "dammy",
     desc: `Trước khi tan học, tôi phát hiện một mẩu giấy nằm trong ngăn bàn.
@@ -4204,7 +4204,7 @@ Còn tôi chính là cái người ngồi chễm chệ ở vị trí thứ hai s
   },{
     id: 199,
     title: "Nghịch Mệnh Thâm Cung",
-    image: "imgco/3ff4bef3f42ec3a7644ac55296ab9c34.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3ff4bef3f42ec3a7644ac55296ab9c34.jpg",
     link: "cotrang/nghich-menh-tham-cung.html",
     type: "cotrang",
     desc: `Chủ tử của ta xuất thân cao quý, khí chất thanh tao như cúc, nhìn vào đã thấy một cỗ khí tức thoát tục khó gần.
@@ -4227,7 +4227,7 @@ Mở mắt lần nữa, ta quay về đúng ngày cùng nàng bước vào lãnh
   },{
     id: 200,
     title: "Tro Tàn Hôn Nhân",
-    image: "imgngon/2d767fd56d7f6b79916a1042b5b8ab41.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2d767fd56d7f6b79916a1042b5b8ab41.jpg",
     link: "ngontinh/tro-tan-hon-nhan.html",
     type: "ngontinh",
     desc: `Lửa lớn thiêu rụi nửa tòa nhà.Mặc kệ khói đặc nghẹt thở, tôi vẫn cắm đầu lao vào tìm chồng.Nhưng lúc vừa quay đầu lại, xuyên qua khung cửa sổ, tôi lại thấy anh ta đang ôm một người phụ nữ khác cuống cuồng bắt taxi ven đường, chạy mất dép luôn chứ không phải đùa, một chiếc dép lê còn rớt lại giữa đường.
@@ -4242,7 +4242,7 @@ Sau đó thì tôi không biết gì nữa.`
   },{
     id: 201,
     title: "Kẻ Thù Thành Người Một Nhà",
-    image: "imgdam/bb6b21f76b40c947a8d7fd4aef5a8075.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bb6b21f76b40c947a8d7fd4aef5a8075.jpg",
     link: "dammy/ke-thu-thanh-nguoi-mot-nha.html",
     type: "dammy",
     desc: `Vì tin tình báo, tôi và kẻ thù không đội trời chung giả vờ làm người yêu trong nửa tháng.
@@ -4261,7 +4261,7 @@ Sau này, lúc ôm nhau, hắn kề sát vào tôi, tôi run rẩy hai chân đ�
   },{
     id: 202,
     title: "Hỷ Sự Giấu Sau Lời Dối Trá",
-    image: "imgco/93cdfef5865a0008e68b0a8435e82023.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/93cdfef5865a0008e68b0a8435e82023.jpg",
     link: "cotrang/hy-su-giau-sau-loi-doi-tra.html",
     type: "cotrang",
     desc: `“Thái tử ca ca, huynh đi xem tỷ tỷ thế nào đi đã, ta không sao đâu.”
@@ -4280,7 +4280,7 @@ Nếu nói lúc này trong lòng ta không có chút sung sướng nào, vậy t
   },{
     id: 203,
     title: "",
-    image: "imgngon/1ad3929ddd2b491ec8bc00d4ca5bd696.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1ad3929ddd2b491ec8bc00d4ca5bd696.jpg",
     link: "ngontinh/lo-thuong-anh-trai-ban-than.html",
     type: "ngontinh",
     desc: `Tôi ở nhờ nhà cô bạn thân, nửa đêm đi vệ sinh xong thì đụng ngay anh trai của cô ấy vừa mới về.Tôi còn chưa kịp mở miệng chào, anh ta đã liếc tôi một cái đầy lạnh lùng, rồi quăng luôn câu:
@@ -4299,7 +4299,7 @@ Sau này, bạn thân với anh trai cãi nhau suốt ngày, cuối cùng còn d
   },{
     id: 204,
     title: "Mùa Xuân Của Rắn Và Rồng",
-    image: "imgdam/3f0ec48f95f54fc883c69be76e6ea4b0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3f0ec48f95f54fc883c69be76e6ea4b0.jpg",
     link: "dammy/mua-xuan-cua-ran-va-rong.html",
     type: "dammy",
     desc: `Tôi là một con rắn tu luyện nghìn năm, nay xuống nhân gian để lịch luyện.
@@ -4314,7 +4314,7 @@ Cứu mạng.`
   },{
     id: 205,
     title: "Gió Đêm Gõ Cửa Từ Đường",
-    image: "imgco/726603af27387d6c45826868f6a6d72a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/726603af27387d6c45826868f6a6d72a.jpg",
     link: "cotrang/gio-dem-go-cua-tu-duong.html",
     type: "cotrang",
     desc: `Ta tuổi còn trẻ đã trở thành góa phụ, bị cả nhà chồng xa lánh, chỉ có anh trai cả của người chồng quá cố đứng ra nói giúp ta đôi lời.Anh chồng ấy không giống người em đã khuất của mình, người em khi còn sống vốn bình thường từ học vấn đến tính cách, còn anh thì tuấn tú, lạnh lùng, ít nói.Người đời đồn rằng anh không gần nữ sắc, cũng chẳng vướng chút dục niệm trần ai.
@@ -4327,7 +4327,7 @@ Về sau, những di vật của chồng mà ta thường ôm khi không ngủ �
   },{
     id: 206,
     title: "Anh Chồng Trà Xanh Giả Bộ Yếu Đuối",
-    image: "imgngon/d18336edbe7fbe630cfb56f5ce96a13d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d18336edbe7fbe630cfb56f5ce96a13d.jpg",
     link: "ngontinh/anh-chong-tra-xanh-gia-bo-yeu-duoi.html",
     type: "ngontinh",
     desc: `Lấy nhau mới có ba tháng, bạch nguyệt quang của anh chồng tôi cứ hở cái là ốm đau bệnh tật lại mò tới cửa.Tôi còn đang tính sống cho có tình có nghĩa, chủ động đề nghị ly hôn cho người ta đoàn tụ, ai ngờ đâu anh chồng ngày thường yếu như cọng bún, gió thổi cái là ho tới rung người, hôm nay lại gấp tới mức tung một cú đá bay luôn xe lăn, cầm gậy quẩy ngang quẩy dọc như phim hành động.
@@ -4336,7 +4336,7 @@ Về sau, những di vật của chồng mà ta thường ôm khi không ngủ �
   },{
     id: 207,
     title: "Đêm Dài Có Anh Bên Cạnh",
-    image: "imgdam/3946026ada72a58f3d56ef1a0143a41b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3946026ada72a58f3d56ef1a0143a41b.jpg",
     link: "dammy/dem-dai-co-anh-ben-canh.html",
     type: "dammy",
     desc: `Thương Xích mắc chứng mất ngủ, phải ôm người khác mới ngủ được.
@@ -4359,7 +4359,7 @@ Nhưng vấn đề là...tôi là trai thẳng cơ mà!`
   },{
     id: 208,
     title: "Trâm Phượng Hoàng Lạc Đôi",
-    image: "imgco/55a73f780ba004c064176849f85b17a4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/55a73f780ba004c064176849f85b17a4.jpg",
     link: "cotrang/tram-phuong-hoang-lac-doi.html",
     type: "cotrang",
     desc: `Ta cùng tỷ muội tốt Sở Tinh Lạc đều được Hoàng hậu để mắt tới, muốn ban hôn cho hai vị Hoàng tử dòng chính.
@@ -4376,7 +4376,7 @@ Trong một buổi tiệc trà của các tiểu thư quý tộc, Sở Tinh Lạ
 
 Ta ngẫm nghĩ hồi lâu, cũng nghiêm túc đáp lời:
 
-“Lục Hoàng tử hình như cũng có bệnh kín.Ngươi ly thì ta cũng ly.”
+“Lục Hoàng tử hình như cũng có bệnh kín. Ngươi ly thì ta cũng ly.”
 
 Nhưng còn chưa kịp lấy được thư hòa ly, chúng ta đã bị nhốt lại trong phòng.
 
@@ -4394,7 +4394,7 @@ Thái tử khẽ cười, để lộ hàm răng trắng đều:
   },{
     id: 209,
     title: "Vụ Án Sau Lớp Khói Bếp",
-    image: "imgngon/c660a42a266b1596f6bed3a016724fde.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c660a42a266b1596f6bed3a016724fde.jpg",
     link: "ngontinh/vu-an-sau-lop-khoi-bep.html",
     type: "ngontinh",
     desc: `Người đàn ông xâm hại em gái tôi đã mất tích sau khi ra tù.
@@ -4409,7 +4409,7 @@ Tôi chỉ mỉm cười bình thản:
   },{
     id: 210,
     title: "Anh Là Chấp Niệm Không Thể Buông Của Em",
-    image: "imgdam/f2ebaf387d0fe06ab89e41543774798b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f2ebaf387d0fe06ab89e41543774798b.jpg",
     link: "dammy/anh-la-chap-niem-khong-the-buong-cua-em.html",
     type: "dammy",
     desc: `Thời Tễ là anh cùng cha khác mẹ của tôi.
@@ -4446,7 +4446,7 @@ Trước gương, đuôi mắt tôi đỏ bừng, uất ức đến mức sắp 
   },{
     id: 211,
     title: "Một Đời Không Hối Hận",
-    image: "imgco/cc2631cf1bcf1c9640a84cb2e934227e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cc2631cf1bcf1c9640a84cb2e934227e.jpg",
     link: "cotrang/mot-doi-khong-hoi-han.html",
     type: "cotrang",
     desc: `Ngày ta đánh mất sự trong sạch, Tạ Quan Lan đã đến tận cửa cầu hôn.
@@ -4473,7 +4473,7 @@ Lần này, ta đã đẩy cửa phòng của Thái tử.`
   },{
     id: 212,
     title: "Thiên Kim Nuôi Cún Con Và Chim Hoàng Yến",
-    image: "imgngon/94ea5043076b7ca91562121079f6f535.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/94ea5043076b7ca91562121079f6f535.jpg",
     link: "ngontinh/thien-kim-nuoi-cun-con-va-chim-hoang-yen.html",
     type: "ngontinh",
     desc: `Tôi là cô “con gái ruột bị thất lạc nhiều năm”.
@@ -4506,7 +4506,7 @@ Cho đến khi tôi mang về một chú chó cỏ và một chú chim hoàng y�
   },{
     id: 213,
     title: "Tôi Và Ảnh Đế Không Đội Trời Chung",
-    image: "imgdam/622cf6b1818e36cc863a747a9a08978a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/622cf6b1818e36cc863a747a9a08978a.jpg",
     link: "dammy/toi-va-anh-de-khong-doi-troi-chung.html",
     type: "dammy",
     desc: `Tôi muốn xử lý tên côn đồ đã cướp nụ hôn đầu của mình, dĩ nhiên là “xử” theo một cách khác.
@@ -4527,7 +4527,7 @@ Về sau tôi mới biết, chữ “xử” này còn mang một hàm nghĩa kh
   },{
     id: 214,
     title: "Thừa Tướng Là Kể Não Yêu Đương",
-    image: "imgco/823ea0cd88a00acffff5f72f8425cea0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/823ea0cd88a00acffff5f72f8425cea0.jpg",
     link: "cotrang/thua-tuong-la-ke-nao-yeu-duong.html",
     type: "cotrang",
     desc: `Vì để thu phục lòng trung thành của vị Thừa tướng vừa anh tuấn vừa lạnh lùng, người nắm trong tay quyền lực khuynh đảo cả triều đình, sau khi ta trở thành Nữ Đế, ngày ngày đều dâng tấu chương bày tỏ lòng mình với hắn.
@@ -4550,7 +4550,7 @@ Không phải chứ, thuật đế vương của ta rốt cuộc lại gặp ph�
   },{
     id: 215,
     title: "Yêu Đương Đối Thủ Của Anh Tôi",
-    image: "imgngon/3d9059d1529335d6b3456232456cfcb0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3d9059d1529335d6b3456232456cfcb0.jpg",
     link: "ngontinh/yeu-duong-doi-thu-cua-anh-toi.html",
     type: "ngontinh",
     desc: `Đối tượng yêu qua mạng bỗng nhiên đưa ra yêu cầu.
@@ -4575,7 +4575,7 @@ Giọng hắn dịu dàng lại cố chấp:
   },{
     id: 216,
     title: "Anh Nuôi Thành Chồng",
-    image: "imgdam/90c8d8c4e0c7c2bc1a0ed623343a5f2c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/90c8d8c4e0c7c2bc1a0ed623343a5f2c.jpg",
     link: "dammy/anh-nuoi-thanh-chong.html",
     type: "dammy",
     desc: `Vì muốn thử lòng anh trai mình, tôi đã hẹn hò với bạn thân anh.
@@ -4598,7 +4598,7 @@ Anh kéo tôi lại, đè chặt xuống dưới thân, bóp lấy cổ tôi, g�
   },{
     id:217,
     title: "Bạch Chỉ Kinh Thành Ký",
-    image: "imgco/940a0f5537dc11724775bf8aa2123793.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/940a0f5537dc11724775bf8aa2123793.jpg",
     link: "cotrang/bach-chi-kinh-thanh-ky.html",
     type: "cotrang",
     desc: `Vị hôn phu của ta ở Dương Châu thành đã gây ra một vụ tai tiếng giữa chốn phong nguyệt.
@@ -4615,7 +4615,7 @@ Ngày sòng bài mở cửa, ta cũng giống như Lý Bồng Bồng, một mìn
   },{
     id: 218,
     title: "Vạch Trần Mặt Nạ Người Yêu Hoàn Hảo",
-    image: "imgngon/527d061f772a5fa377294d7bbf923c61.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/527d061f772a5fa377294d7bbf923c61.jpg",
     link: "ngontinh/vach-tran-mat-na-nguoi-yeu-hoan-hao.html",
     type: "ngontinh",
     desc: `Thông báo dỡ bỏ ngôi nhà vừa được ban hành, bạn trai cùng cô bạn thân nhất của tôi lập tức thông đồng với nhau, liên tục bóng gió bên tai, ép tôi thêm tên họ vào sổ hộ khẩu mới.Tôi từ chối, thì ngay lập tức bị họ quay sang lừa mua bảo hiểm nhân thọ, rồi chính tay giết tôi.
@@ -4630,7 +4630,7 @@ Nhìn khuôn mặt giả tạo của hai người trước mặt, tôi mỉm cư
   },{
     id: 219,
     title: "Gặp Định Mệnh Trên Con Đường Đỏ",
-    image: "imgdam/122028791b6f2e38bdb3bb08d7b69799.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/122028791b6f2e38bdb3bb08d7b69799.jpg",
     link: "dammy/gap-dinh-menh-tren-con-duong-do.html",
     type: "dammy",
     desc: `Sau khi phá sản, tôi trở thành Omega đứng đường.
@@ -4647,7 +4647,7 @@ Tôi mỉm cười dịu dàng: “Không bán, chỉ đứng thôi.Tôi mà d�
   },{
     id: 220,
     title: "Phong Hoa Trong Chén Ngọc",
-    image: "imgco/f0757bd182d24918c0f34281e0c0ea28.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f0757bd182d24918c0f34281e0c0ea28.jpg",
     link: "cotrang/phong-hoa-trong-chen-ngoc.html",
     type: "cotrang",
     desc: `Ta bị vị hôn phu chê là con gái nhà quê, kiên quyết đòi từ hôn.
@@ -4668,7 +4668,7 @@ Ta lại bị thư sinh tuấn tú chặn trong phòng, hắn ôm ta đặt lên
   },{
     id: 221,
     title: "Người Không Thể Quên",
-    image: "imgngon/6a8ec358d4d539cbbad76ed5afea6311.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6a8ec358d4d539cbbad76ed5afea6311.jpg",
     link: "ngontinh/nguoi-khong-the-quen.html",
     type: "ngontinh",
     desc: `Cho đến khi “bạch nguyệt quang” — cô gái nghiện rau mùi ấy — quay trở lại, đôi môi khô nứt của mẹ tôi mấp máy rất lâu, cuối cùng chẳng thốt lên lời nào, chỉ lặng lẽ dẫn tôi rời khỏi nhà.
@@ -4693,7 +4693,7 @@ Cư dân mạng bình luận: 【Chị ơi, chị để tóc dài trông y hệt
   },{
     id: 222,
     title: "Cả Trường Biết Tôi Là Vợ Đại Ca",
-    image: "imgdam/18c4fdace58e4bd0f15ae11697f62d21.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/18c4fdace58e4bd0f15ae11697f62d21.jpg",
     link: "dammy/ca-truong-biet-toi-la-vo-dai-ca.html",
     type: "dammy",
     desc: `Buổi họp lớp, đại ca trường bị cay đến mức bật thốt:
@@ -4708,7 +4708,7 @@ Nhưng ông ấy đâu biết rằng, ngay sau lưng mọi người, chúng tôi
   },{
     id: 223,
     title: "Hoàng Hậu Bất Đắc Dĩ",
-    image: "imgco/cd7f1bfb19711df64f10185993db0eb1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cd7f1bfb19711df64f10185993db0eb1.jpg",
     link: "cotrang/hoang-hau-bat-dac-di.html",
     type: "cotrang",
     desc: `Vào ngày lễ ông Công ông Táo, cũng là ngày thứ hai mươi chín kể từ khi ta vào cung.
@@ -4721,7 +4721,7 @@ Trong đó, có cả ta.`
   },{
     id: 224,
     title: "Nhớ Mãi Giữa Biển Người",
-    image: "imgngon/317d10cfade81cc8408dc7e6c6e95d4f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/317d10cfade81cc8408dc7e6c6e95d4f.jpg",
     link: "ngontinh/nho-mai-giua-bien-nguoi.html",
     type: "ngontinh",
     desc: `Mời đồng nghiệp đến quán bar chơi, đến lúc thanh toán thì phát hiện số dư tài khoản không đủ.Trong tình thế cấp bách, tôi bước thẳng về phía anh chàng đẹp trai ngồi bàn bên kia, mở lời luôn không vòng vo.
@@ -4746,7 +4746,7 @@ Người đàn ông ngơ ra một nhịp, còn vệ sĩ bên cạnh thì đưa t
   },{
     id: 225,
     title: "Alpha Nhà Tôi Hóa Ra Yêu Tôi Rất Lâu Rồi",
-    image: "imgdam/4799a0bc03df93ad8a435027f65381d5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4799a0bc03df93ad8a435027f65381d5.jpg",
     link: "dammy/alpha-nha-toi-hoa-ra-yeu-toi-rat-lau-roi.html",
     type: "dammy",
     desc: `Tô Duẫn liên hôn, đối tượng lại là một Alpha chưa từng quen biết.
@@ -4779,7 +4779,7 @@ Tôi: “???”`
   },{
     id: 226,
     title: "Đêm Trước Lưu Đày Ta Đổi Mệnh",
-    image: "imgco/3d6ed4e36fc833fca2b8750bac98a904.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3d6ed4e36fc833fca2b8750bac98a904.jpg",
     link: "cotrang/dem-truoc-luu-day-ta-doi-menh.html",
     type: "cotrang",
     desc: `Phụ thân vì dâng lời can gián quá khích, xúc phạm long nhan, khiến cả gia tộc bị đày đi lưu phóng.
@@ -4810,7 +4810,7 @@ Mở mắt ra lần nữa, ta đã trở về thời điểm trước khi phụ 
   },{
     id: 227,
     title: "Đứa Trẻ Không Phải Của Tôi",
-    image: "imgngon/d98c58afa6c485a534aaecc44abd1214.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d98c58afa6c485a534aaecc44abd1214.jpg",
     link: "ngontinh/dua-tre-khong-phai-cua-toi.html",
     type: "ngontinh",
     desc: `Kết quả khám cho biết con gái tôi đang mắc một căn bệnh hiếm gặp.
@@ -4841,7 +4841,7 @@ Lúc nhân viên cứu hỏa xông tới cứu nó, nó lại đẩy tôi xuốn
   },{
     id: 228,
     title: "Cưa Cẩm Nữ Phụ",
-    image: "imgdam/fe5b4acb050a5882717cd05b9cb4e04c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fe5b4acb050a5882717cd05b9cb4e04c.jpg",
     link: "dammy/cua-cam-nu-phu.html",
     type: "dammy",
     desc: `Hệ thống: [Xin hãy công lược nam chính.]
@@ -4860,7 +4860,7 @@ Từ đó tôi bắt đầu những ngày tháng công lược nữ phụ.`
   },{
     id: 229,
     title: "Chiến Thần Và Án Ngọc",
-    image: "imgco/5c60951f3cc395b53f739ee35bd5e399.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c60951f3cc395b53f739ee35bd5e399.jpg",
     link: "cotrang/chien-than-va-an-ngoc.html",
     type: "cotrang",
     desc: `Ta là một tướng quân không gần nữ sắc, lại bị đồn có sở thích đoạn tụ.
@@ -4875,7 +4875,7 @@ Ta như bị sét giáng thẳng xuống đầu, trong lòng không kìm đượ
   },{
     id: 230,
     title: "Cuộc Đời Không Ai Dám Bắt Nạt ",
-    image: "imgngon/b3d9aae5b17dbccc30d5a0fcffe416a6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b3d9aae5b17dbccc30d5a0fcffe416a6.jpg",
     link: "ngontinh/cuoc-doi-khong-ai-dam-bat-nat.html",
     type: "ngontinh",
     desc: `Ba tôi là phản diện đã phá sản.Năm nghèo nhất, ông định xuống biển.
@@ -4898,7 +4898,7 @@ Khi bọn buôn người dụ tôi đi, tôi lao thẳng tới ôm chặt chân 
   },{
     id: 231,
     title: "Chồng Mất Trí Nhớ Nhưng Không Quên Yêu Tôi",
-    image: "imgdam/fab48347c932e7241270ff28effe4189.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fab48347c932e7241270ff28effe4189.jpg",
     link: "dammy/chong-mat-tri-nho-nhung-khong-quen-yeu-toi.html",
     type: "dammy",
     desc: `Alpha của tôi lại mất trí nhớ rồi.
@@ -4921,7 +4921,7 @@ Anh ôm má, ánh mắt lập tức trở nên tỉnh táo:
   },{
     id: 232,
     title: "Tướng Công Xin Đừng Ngủ Quên Trong Thâm Viện",
-    image: "imgco/53b040c68bf6fe243a9c5851e0ce053f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/53b040c68bf6fe243a9c5851e0ce053f.jpg",
     link: "cotrang/tuong-cong-xin-dung-ngu-quen-trong-tham-vien.html",
     type: "cotrang",
     desc: `Ta là người mang mệnh quả phụ, lại sở hữu một gương mặt diễm lệ, mắt hạnh má đào, nhìn qua đã khiến người ta khó mà dứt mắt.
@@ -4940,7 +4940,7 @@ Từ hôm ấy trở đi, chàng như cố níu lấy chút hơi tàn cuối cù
   },{
     id: 233,
     title: "Trả Giá Cuối Cùng Cho Ván Cờ",
-    image: "imgngon/5a20a82ee81490f8a2eaaa7f526b5a02.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5a20a82ee81490f8a2eaaa7f526b5a02.jpg",
     link: "ngontinh/tra-gia-cuoi-cung-cho-van-co.html",
     type: "ngontinh",
     desc: `Chồng tôi, Uông Đồ, đang đi vệ sinh trong nhà thì bị tai nạn xe cộ.
@@ -4961,7 +4961,7 @@ Sắc mặt anh ta trắng bệch, đôi mắt trợn trừng, trong đó chỉ 
   },{
     id: 234,
     title: "Khi Thí Nghiệm Biết Yêu",
-    image: "imgdam/3fa5eaa8a0e29f65d024582c193a1e57.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3fa5eaa8a0e29f65d024582c193a1e57.jpg",
     link: "dammy/khi-thi-nghiem-biet-yeu.html",
     type: "dammy",
     desc: `Tôi là một thiên tài sinh học, đam mê nghiên cứu những sinh vật kỳ quái, méo mó.
@@ -4980,7 +4980,7 @@ Nhưng tôi không hề biết mình đã tạo ra một con quái vật như th
   },{
     id: 235,
     title: "Nhất Niệm Triều Đình",
-    image: "imgco/12cd273c06f6d19b215daf162b44c472.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/12cd273c06f6d19b215daf162b44c472.jpg",
     link: "cotrang/nhat-niem-trieu-dinh.html",
     type: "cotrang",
     desc: `Ta xuyên thành nữ phụ trong một quyển thoại bản.
@@ -5005,7 +5005,7 @@ Không ngờ hắn tức giận đến mức đập nát hơn chục chiếc bì
   },{
     id: 236,
     title: "Hồ Ly Nhỏ Xuống Núi",
-    image: "imgngon/554d24fa929ea494f66e5948a02516ad.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/554d24fa929ea494f66e5948a02516ad.jpg",
     link: "ngontinh/ho-ly-nho-xuong-nui.html",
     type: "ngontinh",
     desc: `Vào ngày thứ ba chiến tranh lạnh với bạn trai, tôi phát hiện mình mang thai.
@@ -5044,7 +5044,7 @@ Không phải, anh trai, anh định làm gì vậy?`
   },{
     id: 237,
     title: "Sương Mờ Chạm Ánh Sáng",
-    image: "imgdam/71f6aace84826a44f19ee6155bd5efad.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/71f6aace84826a44f19ee6155bd5efad.jpg",
     link: "dammy/suong-mo-cham-anh-sang.html",
     type: "dammy",
     desc: `Yến Ngật Phong là chồng tôi.
@@ -5061,7 +5061,7 @@ Nhưng ngày hôm sau, phần ăn vốn dĩ vẫn bị bỏ nguyên suốt ngày
   },{
     id: 238,
     title: "Một Kiếp Trả Hết Nợ Tình Thù",
-    image: "imgco/230d83eb85b4efe018648629d137598f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/230d83eb85b4efe018648629d137598f.jpg",
     link: "cotrang/mot-kiep-tra-het-no-tinh-thu.html",
     type: "cotrang",
     desc: `Tiểu thanh mai của phu quân vốn thường giả nam trang, ngày ngày cùng hắn quậy phá chẳng khác nào tri kỷ.
@@ -5088,7 +5088,7 @@ Hầu phủ vì thế mà bị tịch thu, toàn tộc nhân trở thành vật 
   },{
     id: 239,
     title: "Nhật Ký Làm Việc Xử Lý Điều Ước",
-    image: "imgngon/2b9459c50862e0d07d2e6cdbe9c44d75.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2b9459c50862e0d07d2e6cdbe9c44d75.jpg",
     link: "ngontinh/nhat-ky-lam-viec-xu-ly-dieu-uoc.html",
     type: "ngontinh",
     desc: `Sau khi chết được năm năm, tôi trở thành một người giao tiếp với thần tiên.
@@ -5109,7 +5109,7 @@ Tôi đứng hình.
   },{
     id: 240,
     title: "Bạch Liên Hoa Tôi Nuôi Dưỡng Lại Là Enigma",
-    image: "imgdam/f6d0e8b7a38e056bb8b08c5229a93fa9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f6d0e8b7a38e056bb8b08c5229a93fa9.jpg",
     link: "dammy/bach-lien-hoa-toi-nuoi-duong-lai-la-enigma.html",
     type: "dammy",
     desc: `Tôi đã tự tay chọn cho cậu em trai Omega một chiếc vòng cổ.
@@ -5118,7 +5118,7 @@ Sau đó, chiếc vòng ấy lại được đeo ngược lên cổ tôi, che đ
   },{
     id: 241,
     title: "Tình Cũ Không Quay Đầu",
-    image: "imgco/c27ea991bd860bdc11fa9a4d036bc28f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c27ea991bd860bdc11fa9a4d036bc28f.jpg",
     link: "cotrang/tinh-cu-khong-quay-dau.html",
     type: "cotrang",
     desc: `Vị hôn phu Chu Hồi của ta có một cô thanh mai trúc mã rất hay khóc.
@@ -5153,7 +5153,7 @@ Cũng chẳng muốn gả cho Chu Hồi nữa.`
   },{
     id: 242,
     title: "Hào Quang Bị Đánh Cắp",
-    image: "imgngon/a26c18acfa088d7a109d7235dafe22a0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a26c18acfa088d7a109d7235dafe22a0.jpg",
     link: "ngontinh/hao-quang-bi-danh-cap.html",
     type: "ngontinh",
     desc: `Em gái tôi là đoàn sủng của thế giới Mary Sue.
@@ -5182,7 +5182,7 @@ Khi tôi mở mắt ra lần nữa, tôi đã được tái sinh.Lần này, cho
   },{
     id: 243,
     title: "Sếp Muốn Dính Tôi Cả Đời",
-    image: "imgdam/0371e2d30c2ed60778e4e0e49d3cb88a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0371e2d30c2ed60778e4e0e49d3cb88a.jpg",
     link: "dammy/sep-muon-dinh-toi-ca-doi.html",
     type: "dammy",
     desc: `Đi công tác với sếp, không cẩn thận lại thấy sếp đang tắm.Giờ sếp cứ khăng khăng tôi có ý với anh ấy, còn đòi thử xem sao.
@@ -5201,7 +5201,7 @@ Tiếng gõ cửa đột nhiên vang lên: “Mộ Từ, cậu qua đây một l
   },{
     id: 244,
     title: "Yếm Vàng Nơi Cung Môn",
-    image: "imgco/7fda385a092ad74f442f94e2962b19d0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7fda385a092ad74f442f94e2962b19d0.jpg",
     link: "cotrang/yem-vang-noi-cung-mon.html",
     type: "cotrang",
     desc: `Trước ngày xuất chinh, Kỳ Diễm còn cố tình bày ra bộ dạng đáng thương, giọng nói mềm như nước dỗ dành ta, dùng vài lời ngọt ngào mà lừa lấy sự trong trắng của ta trong một đêm mưa gió tơi bời.Nào ngờ sau đêm ấy, hắn rời kinh xuất chinh, rồi biến mất không tung tích, giống như chưa từng tồn tại trong đời ta.
@@ -5220,7 +5220,7 @@ Sau này, để giữ thanh danh cho các tỷ muội trong tộc, ta tự nguy�
   },{
     id: 245,
     title: "Chuyện Tình Song Sinh",
-    image: "imgngon/4a9c9df5cf6eb28e2eeac03cb05b07ac.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4a9c9df5cf6eb28e2eeac03cb05b07ac.jpg",
     link: "ngontinh/chuyen-tinh-song-sinh.html",
     type: "ngontinh",
     desc: `Tôi và chị gái thay phiên nhau làm bạn gái của Thái tử gia Bắc Kinh.
@@ -5241,7 +5241,7 @@ Nhưng vừa thò đầu ra thì hai người đàn ông dáng dấp rất giố
   },{
     id: 246,
     title: "Nửa Đêm Có Người Nói Lời Yêu",
-    image: "imgdam/ec8d6865d2b149975fdc9ce73d593885.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ec8d6865d2b149975fdc9ce73d593885.jpg",
     link: "dammy/nua-dem-co-nguoi-noi-loi-yeu.html",
     type: "dammy",
     desc: `Nửa đêm, tôi nhận được cuộc gọi từ bạn trai một ca sĩ underground.
@@ -5266,7 +5266,7 @@ Giọng nam trầm thấp từ đầu dây bên kia truyền đến.
   },{
     id: 247,
     title: "Hậu Viện Đẫm Máu Tràn Ngập Mưu Kế",
-    image: "imgco/01264c0c607a0fb2fff2dab18eafc66a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/01264c0c607a0fb2fff2dab18eafc66a.jpg",
     link: "cotrang/hau-vien-dam-mau-tran-ngap-muu-ke.html",
     type: "cotrang",
     desc: `Vừa mới thành thân được một năm, phu quân của ta đã dẫn Lâm Mạn Như đến trước mặt ta, nói rằng muốn nạp nàng làm thiếp.Ta dĩ nhiên không đồng ý.
@@ -5285,7 +5285,7 @@ Ta bị giam trong trang viên, cô độc suốt ba mươi năm.Rồi ta chết
   },{
     id: 248,
     title: "Báo Cáo Mật Của Thiếu Phu Nhân",
-    image: "imgngon/685802324af3aa93ae34ef151c7e9821.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/685802324af3aa93ae34ef151c7e9821.jpg",
     link: "ngontinh/bao-cao-mat-cua-thieu-phu-nhan.html",
     type: "ngontinh",
     desc: `Tôi là một kẻ cuồng theo dõi vừa mới ra khỏi bệnh viện tâm thần.
@@ -5296,7 +5296,7 @@ Thế là tôi xoay người một cái, từ bệnh nhân tâm thần biến th
   },{
     id: 249,
     title: "Bảy Năm Trong Lồng Son",
-    image: "imgdam/6677da5e7aadf2d881511b4c07726219.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6677da5e7aadf2d881511b4c07726219.jpg",
     link: "dammy/bay-nam-trong-long-son.html",
     type: "dammy",
     desc: `Tôi là chim hoàng yến của Triệu Càn Sinh.
@@ -5331,7 +5331,7 @@ Trên người tôi, Triệu Càn Sinh trở nên dữ dội khác thường.
   },{
     id: 250,
     title: "Phồn Hoa Một Kiếp Tàn Tro",
-    image: "imgco/c727d29d2610014ac566b19af7e5d325.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c727d29d2610014ac566b19af7e5d325.jpg",
     link: "cotrang/phon-hoa-mot-kiep-tan-tro.html",
     type: "cotrang",
     desc: `Khi xưa, nhà họ Tạ từng một thời hưng thịnh, nhưng rồi vận số đổi dời, phong quang sụp đổ.Tạ đại nhân bị phán tội tử hình, Tạ công tử vì phẫn uất mà sinh trọng bệnh, hơi tàn mệnh mỏng, chẳng còn bao lâu nữa.
@@ -5352,7 +5352,7 @@ Ba năm sau, khi ta gặp lại chàng, không ngờ Tạ Chiêu lại đứng n
   },{
     id: 251,
     title: "Năm Tháng Nghiệt Ngã",
-    image: "imgngon/bec0d612c6847de621a3d7f242e3ffe4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bec0d612c6847de621a3d7f242e3ffe4.jpg",
     link: "ngontinh/nam-thang-nghiet-nga.html",
     type: "ngontinh",
     desc: `Vào năm thứ mười kết hôn với Từ Vĩ, tôi đã được sống lại.
@@ -5369,7 +5369,7 @@ Tôi vội vàng vươn tay cầm lấy thẻ ngân hàng, ánh mắt nhìn lạ
   },{
     id: 252,
     title: "Một Lần Đánh Dấu Sai",
-    image: "imgdam/0194dd52ac7da1d56deee3462c64de3e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0194dd52ac7da1d56deee3462c64de3e.jpg",
     link: "dammy/mot-lan-danh-dau-sai.html",
     type: "dammy",
     desc: `Tôi là một omega mắc bệnh, không thể bị đánh dấu.
@@ -5388,7 +5388,7 @@ Tôi chỉ không thể bị đánh dấu, chứ có nói là không thể mang 
   },{
     id: 253,
     title: "Một Nhà Hai Cặp Phu Thê Oan Gia",
-    image: "imgco/5c182396f2f6c9fc0eb8188ff46b07a8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c182396f2f6c9fc0eb8188ff46b07a8.jpg",
     link: "cotrang/mot-nha-hai-cap-phu-the-oan-gia.html",
     type: "cotrang",
     desc: `Ta cùng hảo tỷ muội Thẩm Kiều Kiều cùng một ngày xuất giá, gả vào phủ Tả thị lang, làm dâu cho cặp huynh đệ song sinh.
@@ -5419,7 +5419,7 @@ Hai người chúng ta đều muốn bỏ chạy.Chỉ là sợ cùng nhau hành
   },{
     id: 254,
     title: "Một Đời Cam Chịu",
-    image: "imgngon/defb095bee7f1cc110ba98715b62812d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/defb095bee7f1cc110ba98715b62812d.jpg",
     link: "ngontinh/mot-doi-cam-chiu.html",
     type: "ngontinh",
     desc: `Vào ngày đại thọ 60 tuổi của bà nội, bà quyết định ly hôn.
@@ -5440,7 +5440,7 @@ Sau đó, bà nội dựa vào tay nghề nấu ăn của mình, gây dựng đ�
   },{
     id: 255,
     title: "Ván Cờ Hai Mặt",
-    image: "imgdam/07f3aef359098c2efcf93fc791fe7d5b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/07f3aef359098c2efcf93fc791fe7d5b.jpg",
     link: "dammy/van-co-hai-mat.html",
     type: "dammy",
     desc: `Bùi Tẫn Trì tốn mọi công sức chỉ để kéo tôi lên giường chơi gay với hắn.
@@ -5461,7 +5461,7 @@ Tôi chậm rãi nới lỏng mấy nút áo nơi cổ, để lộ những dấu
   },{
     id: 256,
     title: "Song Hỷ Lâm Môn",
-    image: "imgco/5f43526a3ecb086f2b5a791ce72c9c5d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f43526a3ecb086f2b5a791ce72c9c5d.jpg",
     link: "cotrang/song-hy-lam-mon.html",
     type: "cotrang",
     desc: `Sau khi cứu Tạ Chiêu ra khỏi biển lửa, đích tỷ lại khóa cửa nhốt ta giữa đám cháy, chỉ để bịt miệng cho gọn.
@@ -5488,7 +5488,7 @@ Lần này, ta khóa chặt cổng viện, để ngọn lửa bùng lên dữ d�
   },{
     id: 257,
     title: "Phó Tổng Mỗi Ngày Đều Tán Tỉnh",
-    image: "imgngon/cb9909557fd038a39fd1eeddcf90ff06.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb9909557fd038a39fd1eeddcf90ff06.jpg",
     link: "ngontinh/pho-tong-moi-ngay-deu-tan-tinh.html",
     type: "ngontinh",
     desc: `Trong buổi team building của công ty, sếp tôi lịch sự từ chối lời mời rượu của đồng nghiệp.
@@ -5504,7 +5504,7 @@ Tôi đặt ly nước xuống, nhìn anh ta cực kỳ bình tĩnh.
   },{
     id: 258,
     title: "Không Thoát Được Anh Ta",
-    image: "imgdam/185d6551f9e1e24f8df1a1b47b1dbd64.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/185d6551f9e1e24f8df1a1b47b1dbd64.jpg",
     link: "dammy/pho-tong-moi-ngay-deu-tan-tinh.html",
     type: "dammy",
     desc: `Ba năm kể từ khi bí mật bên nhau với anh trai nuôi, nữ chính trong sách xuất hiện.
@@ -5519,7 +5519,7 @@ Ba năm sau, anh đứng chắn trước cửa phòng tắm, mắt đỏ ngầu,
   },{
     id: 259,
     title: "Nhìn Lại Nàng Đã Không Còn Ở Đây",
-    image: "imgco/9fa6251884946fe47a702368cac67076.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9fa6251884946fe47a702368cac67076.jpg",
     link: "cotrang/nhin-lai-nang-da-khong-con-o-day.html",
     type: "cotrang",
     desc: `Từ thuở còn thơ, ta đã biết, ngày sau mình sẽ trở thành Tam phu nhân của Tạ gia.
@@ -5546,7 +5546,7 @@ Tạ Vọng Chi đưa tay che chắn ta phía sau lưng, ánh mắt lạnh nhạ
   },{
     id: 260,
     title: "Mắt Trái Nhìn Thấy Tương Lai",
-    image: "imgngon/4fa291b4858604bc15222df84f7a32a0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4fa291b4858604bc15222df84f7a32a0.jpg",
     link: "ngontinh/mat-trai-nhin-thay-tuong-lai.html",
     type: "ngontinh",
     desc: `Mắt trái của tôi có thể nhìn thấy tương lai trước một năm.
@@ -5563,7 +5563,7 @@ Nhưng điều tôi lo lắng nhất là, ngày mà tôi sẽ gặp phải trong
   },{
     id: 261,
     title: "Đuôi Nhỏ Nhà Bên",
-    image: "imgdam/5f1b59ff390028a2553deaeea7e3f709.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f1b59ff390028a2553deaeea7e3f709.jpg",
     link: "dammy/duoi-nho-nha-ben.html",
     type: "dammy",
     desc: `Tôi yêu Ngụy Cảnh Nguyên, yêu từ cái thuở còn mặc quần thủng đũng.
@@ -5588,7 +5588,7 @@ Tôi đè anh dưới thân, răng nanh cắm vào tuyến thể sau gáy anh, g
   },{
     id: 262,
     title: "Mẫu Thân Phong Hoa Tuyệt Thế",
-    image: "imgco/e766adfdf392de36a3bde7f39d1b7177.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e766adfdf392de36a3bde7f39d1b7177.jpg",
     link: "cotrang/mau-than-phong-hoa-tuyet-the.html",
     type: "cotrang",
     desc: `Ta vốn là con gái của chiến thần mạnh nhất tam giới, người chỉ cần tay không cũng có thể đánh cho Ma quân phải ôm đầu chạy về ma giới.
@@ -5613,7 +5613,7 @@ Ta thở dốc, yếu ớt nói: “Nhưng mẹ à, con sắp không xong rồi.
   },{
     id: 263,
     title: "Sau Lớp Mặt Nạ Gia Đình",
-    image: "imgngon/366c20de4bd0a44f8d8eb105a54d1231.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/366c20de4bd0a44f8d8eb105a54d1231.jpg",
     link: "ngontinh/sau-lop-mat-na-gia-dinh.html",
     type: "ngontinh",
     desc: `Con gái tôi bị kẻ giết người hàng loạt làm hại, tôi truy đuổi hắn suốt hai mươi năm, cuối cùng cũng đưa hung thủ ra trước công lý, nhưng đối phương lại không thừa nhận đã hại chết con gái tôi.
@@ -5634,7 +5634,7 @@ Lần nữa mở mắt, tôi trọng sinh, trọng sinh vào buổi sáng hôm c
   },{
     id: 264,
     title: "Chia Tay Rồi Mới Biết Anh Là Cả Thế Giới",
-    image: "imgdam/4d59ccb89fd77d00831e263e17169779.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4d59ccb89fd77d00831e263e17169779.jpg",
     link: "dammy/chia-tay-roi-moi-biet-anh-la-ca-the-gioi.html",
     type: "dammy",
     desc: `Cậu ấm kinh thành Trì Dịch nổi tiếng trong giới vì tính khí tệ hại.
@@ -5669,7 +5669,7 @@ Rồi… trượt chân quỳ xuống.
   },{
     id: 265,
     title: "Sinh Tử Cửu Châu",
-    image: "imgco/1ba49ff8ebba0466ec41ebf7a53f8a6c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1ba49ff8ebba0466ec41ebf7a53f8a6c.jpg",
     link: "cotrang/sinh-tu-cuu-chau.html",
     type: "cotrang",
     desc: `Sư muội vì cứu một con rắn ven đường mà lén lấy thuốc mạng của sư phụ.Nàng nói rằng vạn vật đều có linh hồn, không thể thấy chết mà không cứu.
@@ -5688,7 +5688,7 @@ Ta cười nhạt nói: “Sư muội, rắn kêu cái gì, nấu canh rắn th�
   },{
     id: 266,
     title: "Tôi Ở Mạt Thế Xử Lý Trà Xanh",
-    image: "imgngon/cb9909557fd038a39fd1eeddcf90ff06.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb9909557fd038a39fd1eeddcf90ff06.jpg",
     link: "ngontinh/toi-o-mat-the-xu-ly-tra-xanh.html",
     type: "ngontinh",
     desc: `Trà xanh trói buộc với hệ thống đoàn sủng đúng lúc mạt thế ập đến.
@@ -5703,7 +5703,7 @@ Chỉ vì cô ta buột miệng muốn mỹ phẩm dưỡng da mà anh tôi tr�
   },{
     id: 267,
     title: "Anh Ấy Quên Tất Cả Trừ Việc Yêu Tôi",
-    image: "imgdam/66b24c424c5d48bc9c666980ca12c884.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/66b24c424c5d48bc9c666980ca12c884.jpg",
     link: "dammy/anh-ay-quen-tat-ca-tru-viec-yeu-toi.html",
     type: "dammy",
     desc: `Người bạn trai mới yêu được một ngày đã mất trí nhớ vì tai nạn giao thông.Lãng mạn.
@@ -5726,7 +5726,7 @@ Lục Yến bật cười lạnh, rồi bất ngờ ép tôi xuống giường b
   },{
     id: 268,
     title: "Tâm Ma Của Sư Tôn",
-    image: "imgco/7fe4c4d2fc7756bb413492212c475b93.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7fe4c4d2fc7756bb413492212c475b93.jpg",
     link: "cotrang/tam-ma-cua-su-ton.html",
     type: "cotrang",
     desc: `Sư tôn cho ta vào thức hải của người, để ta giúp người giết chết tâm ma.
@@ -5745,7 +5745,7 @@ Toàn bộ ma giới đều rầm rộ tìm kiếm ta, kẻ phụ tình vứt ch
   },{
     id: 269,
     title: "Trở Thành Con Gái Nhà Hào Môn",
-    image: "imgngon/650c8e0cfff56f1f84846b599a97096e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/650c8e0cfff56f1f84846b599a97096e.jpg",
     link: "ngontinh/tro-thanh-con-gai-nha-hao-mon.html",
     type: "ngontinh",
     desc: `Kiếp trước, em gái được một gia đình giàu nhận nuôi, còn tôi thì được một nhân viên lao công nhận nuôi.
@@ -5764,7 +5764,7 @@ Nhưng em ấy không biết, nữ chính sở dĩ là nữ chính, không phả
   },{
     id: 270,
     title: "Ngọn Lửa Không Tắt",
-    image: "imgdam/df536f294857a772b9a4778b62398ca1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/df536f294857a772b9a4778b62398ca1.jpg",
     link: "dammy/ngon-lua-khong-tat.html",
     type: "dammy",
     desc: `Sau khi cưa đổ học bá Alpha ôn hòa, cao quý, tôi từ Beta phân hóa thứ cấp thành Alpha.
@@ -5779,7 +5779,7 @@ Nhưng không ngờ, ba năm sau, anh đích thân quay lại tóm tôi.
   },{
     id: 271,
     title: "Hồng Y Kiếm Ý",
-    image: "imgco/d2575a9c219b3cf992427d0849f81b6d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d2575a9c219b3cf992427d0849f81b6d.jpg",
     link: "cotrang/hong-y-kiem-y.html",
     type: "cotrang",
     desc: `Giới tu tiên đều đồn rằng ta là yêu nữ đứng đầu Hợp Hoan Tông, dung nhan khuynh quốc khuynh thành, chỉ một ánh mắt cũng đủ làm lòng người điên đảo.
@@ -5808,7 +5808,7 @@ Ta suýt chút nữa bật khóc.
   },{
     id: 272,
     title: "Ảnh Đế Ngoài Màn Hình",
-    image: "imgngon/700a59bac3de390e41fe0e49d794ac8f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/700a59bac3de390e41fe0e49d794ac8f.jpg",
     link: "ngontinh/anh-de-ngoai-man-hinh.html",
     type: "ngontinh",
     desc: `Trong một chương trình truyền hình thực tế chơi khăm, chương trình yêu cầu các nữ khách mời nhắn tin cho bốn nam minh tinh với nội dung: “Em có thai rồi”.
@@ -5821,7 +5821,7 @@ Sau một hồi im lặng, cả trường quay bùng nổ tiếng cười, ai c�
   },{
     id: 273,
     title: "Cậu Bạn Thẳng Nam Luôn Muốn Leo Lên Giường Tôi",
-    image: "imgdam/2d2c820ab48c9580f3a4f69b5e534749.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2d2c820ab48c9580f3a4f69b5e534749.jpg",
     link: "dammy/cau-ban-thang-nam-luon-muon-leo-len-giuong-toi.html",
     type: "dammy",
     desc: `Để không bị lộ chuyện tôi là gay trong ký túc xá, tôi đã phải cố gắng đến mức nào?
@@ -5832,7 +5832,7 @@ Tôi vẫn giữ lý trí, lập tức đuổi hắn xuống không chậm một
   },{
     id: 274,
     title: "Một Đời Một Chấp Niệm",
-    image: "imgco/13c4eb8edef529d7bfd5a83643fe36b5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/13c4eb8edef529d7bfd5a83643fe36b5.jpg",
     link: "cotrang/mot-doi-mot-chap-niem.html",
     type: "cotrang",
     desc: `Ta là Thái tử phi, thế nhưng Thái tử lại chẳng hề yêu ta.Khi ta nằm giữa ranh giới sinh tử trong lúc vượt cạn, hắn lạnh lùng nói phải giữ con, bỏ mẹ.Tang lễ của ta còn chưa kịp qua, hắn đã rước biểu tỷ của ta về phủ.Bọn họ quấn quýt mặn nồng, cùng nhau đón những đứa trẻ thân yêu, sống một đời hạnh phúc viên mãn như tranh vẽ.
@@ -5847,7 +5847,7 @@ Vì vậy, ta đã trọng sinh.`
   },{
     id: 275,
     title: "Phản Diện Nuôi Tôi Thành Chỉ Biết Nằm Dài",
-    image: "imgngon/7e8dd697b1f71eb8e90d2e0db17e3eaa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7e8dd697b1f71eb8e90d2e0db17e3eaa.jpg",
     link: "ngontinh/phan-dien-nuoi-toi-thanh-chi-biet-nam-dai.html",
     type: "ngontinh",
     desc: `Tôi là chim hoàng yến của một phản diện u ám, nhưng lại thuộc hệ lười chảy thây chính hiệu.
@@ -5888,7 +5888,7 @@ Hệ thống gào lên trong đầu tôi.
   },{
     id: 276,
     title: "Trả Lãi Bằng Cả Một Mối Tình",
-    image: "imgdam/c4ee1bcb7aa033ab8aaeedd4529af041.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c4ee1bcb7aa033ab8aaeedd4529af041.jpg",
     link: "dammy/tra-lai-bang-ca-mot-moi-tinh.html",
     type: "dammy",
     desc: `Tôi mượn bạn thân một khoản tiền làm chi phí sinh hoạt.
@@ -5903,7 +5903,7 @@ Hệ thống gào lên trong đầu tôi.
   },{
     id: 277,
     title: "Nhiếp Chính Vương Ngoài Lạnh Trong Nóng",
-    image: "imgco/567e9e9314d77e86f369dc37bb80027e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/567e9e9314d77e86f369dc37bb80027e.jpg",
     link: "cotrang/nhiep-chinh-vuong-ngoai-lanh-trong-nong.html",
     type: "cotrang",
     desc: `Cầm Thành Cẩn cưới ta, đối với hắn đây chẳng khác nào một sự sỉ nhục.
@@ -5915,7 +5915,7 @@ Rốt cuộc, hắn là vị nhiếp chính vương nắm đại quyền, đầy
   },{
     id: 278,
     title: "Ánh Trăng Không Thuộc Về Tôi",
-    image: "imgngon/2ad5ad7a6096c0309580ee3552ccf48f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2ad5ad7a6096c0309580ee3552ccf48f.jpg",
     link: "ngontinh/anh-trang-khong-thuoc-ve-toi.html",
     type: "ngontinh",
     desc: `Sau khi kết hôn, tôi mới biết chồng mình từng có một cô bạn gái cũ mà anh ta yêu sâu đậm.
@@ -5926,7 +5926,7 @@ Sau khi bị tôi phát hiện, chồng tôi liền cầu xin tôi đừng vạc
   },{
     id: 279,
     title: "Sau Khi Tôi Mù Kẻ Thù Thành Người Của Tôi",
-    image: "imgdam/de6a2bdcb653cf291a4b5e4ebdb24304.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/de6a2bdcb653cf291a4b5e4ebdb24304.jpg",
     link: "dammy/sau-khi-toi-mu-ke-thu-thanh-nguoi-cua-toi.html",
     type: "dammy",
     desc: `Sau khi tôi bị mù, kẻ thù không đội trời chung cứ nhất quyết đòi dọn đến ở chung với tôi.
@@ -5941,7 +5941,7 @@ Cậu ta cắn lấy vạt áo, đè nén hơi thở, ánh nhìn điên cuồng 
   },{
     id: 280,
     title: "Phu Quân Của Ta Không Biết Xấu Hổ",
-    image: "imgco/e7e197112f73f8c2caa29fd153f6b479.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7e197112f73f8c2caa29fd153f6b479.jpg",
     link: "cotrang/phu-quan-cua-ta-khong-biet-xau-ho.html",
     type: "cotrang",
     desc: `Gần đây, vị hôn phu của ta nổi danh khắp Kinh thành.
@@ -5954,7 +5954,7 @@ Chỉ là, ta, vị hôn thê danh chính ngôn thuận của hắn, lại dần
   },{
     id: 281,
     title: "Hôn Nhân Với Thái Tử Gia Bắc Kinh",
-    image: "imgngon/4742c03af306535ae303b4d2941df5d3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4742c03af306535ae303b4d2941df5d3.jpg",
     link: "ngontinh/hon-nhan-voi-thai-tu-gia-bac-kinh.html",
     type: "ngontinh",
     desc: `Sau khi kết hôn với vị thái tử gia của giới kinh doanh Bắc Kinh, có phóng viên hỏi anh ấy về cảm nhận đối với tôi.
@@ -5971,7 +5971,7 @@ Cả mạng xã hội bùng nổ.`
   },{
     id: 282,
     title: "Kẻ Thù Sống Còn Trong Vô Hạn Lưu",
-    image: "imgdam/57d4f18316a42752044d0358a86ed417.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/57d4f18316a42752044d0358a86ed417.jpg",
     link: "dammy/ke-thu-song-con-trong-vo-han-luu.html",
     type: "dammy",
     desc: `Đây là phó bản cuối cùng của vô hạn lưu.
@@ -5992,7 +5992,7 @@ Tôi cười khẩy, không chút do dự nhảy theo hắn.
   },{
     id: 283,
     title: "Mùa Xuân Không Thuộc Về Ai",
-    image: "imgco/e96c3fd527dc12203b4e99c7de96cacb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e96c3fd527dc12203b4e99c7de96cacb.jpg",
     link: "cotrang/mua-xuan-khong-thuoc-ve-ai.html",
     type: "cotrang",
     desc: `Ta là đồng dưỡng tức được Tạ Kim Ngôn mua về từ thuở bé.
@@ -6019,7 +6019,7 @@ Ta khẽ nhíu mày, nhìn hắn như nhìn một kẻ mắc chứng điên dạ
   },{
     id: 284,
     title: "Ác Nhân Tự Gieo Nghiệp Báo",
-    image: "imgngon/f31e3ebda7391053d3220c3f7620d733.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f31e3ebda7391053d3220c3f7620d733.jpg",
     link: "ngontinh/ac-nhan-tu-gieo-nghiep-bao.html",
     type: "ngontinh",
     desc: `Tôi thi đậu đại học Bắc Kinh, nhưng không khí trong nhà lại trầm hẳn xuống.
@@ -6036,7 +6036,7 @@ Tôi bây giờ là nữ ma đầu của tổ tuyển sinh Bắc Đại.`
   },{
     id: 286,
     title: "Nuôi Dưỡng Nam Chủ Cả Nhà Hưởng Phúc",
-    image: "imgco/a604a770181efc85e3f0cc14d585ed8b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a604a770181efc85e3f0cc14d585ed8b.jpg",
     link: "cotrang/nuoi-duong-nam-chu-ca-nha-huong-phuc.html",
     type: "cotrang",
     desc: `“Tướng quân đã hồi phủ, hơn nữa còn dẫn theo một nữ tử đang mang thai!”
@@ -6047,7 +6047,7 @@ Cuối cùng rồi.Chúng ta đã tìm thấy mẫu thân của nam chủ.`
   },{
     id: 285,
     title: "Bạn Trai Cũ Phát Điên Vì Hiểu Lầm",
-    image: "imgdam/948ee9d1b01c7a62ffbfd70e18b715b8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/948ee9d1b01c7a62ffbfd70e18b715b8.jpg",
     link: "dammy/ban-trai-cu-phat-dien-vi-hieu-lam.html",
     type: "dammy",
     desc: `Ai mà ngờ, trong lúc đang đi làm thì lại bị tin nhắn của bạn trai cũ dội bom liên tục, như kiểu vừa mở máy là thấy cả một “chiến dịch spam tình cảm” vậy.
@@ -6074,7 +6074,7 @@ Này, anh ơi, anh đang diễn kịch đấy à?`
   },{
     id: 287,
     title: "Mùa Xuân Đảo Chiều Giới Giải Trí",
-    image: "imgngon/df02076ff98ce2579aab9ade2284d7ea.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/df02076ff98ce2579aab9ade2284d7ea.jpg",
     link: "ngontinh/mua-xuan-dao-chieu-gioi-giai-tri.html",
     type: "ngontinh",
     desc: `Tôi và đứa bạn thân dắt tay nhau cùng nhau tiến vào giới giải trí.Giang cư mận lúc nào cũng mắng chúng tôi là giả ngu giả ngơ, chuyên làm nũng.Nhưng chúng tôi oan thật sự, nếu thông minh thật thì ai lại đi vào giới giải trí làm gì cho khổ đời cơ chứ.
@@ -6094,7 +6094,7 @@ Thái tử gia Tần Du của giới Kinh Khuyên cũng phát điên luôn: “V
   },{
     id: 288,
     title: "Ảnh Đế Giả Trai Thẳng",
-    image: "imgdam/b354329371f255d8cf86a370ff0f2c0d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b354329371f255d8cf86a370ff0f2c0d.jpg",
     link: "dammy/anh-de-gia-trai-thang.html",
     type: "dammy",
     desc: `Tôi và Ảnh đế cùng nhau quay một bộ phim đam mỹ.
@@ -6107,7 +6107,7 @@ Vậy rốt cuộc đây là giống “trai thẳng” gì thế này?`
   },{
     id: 289,
     title: "Đường Tu Tiên Của Kẻ Bị Phản Bội",
-    image: "imgco/192f4f855842007cc06560487e985802.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/192f4f855842007cc06560487e985802.jpg",
     link: "cotrang/duong-tu-tien-cua-ke-bi-phan-boi.html",
     type: "cotrang",
     desc: `Ta mang thai hài tử của nhân vật phản diện, bị nhốt vào Thượng Cổ Bí Cảnh.
@@ -6122,7 +6122,7 @@ Ta xuyên vào trong sách, trong lòng hiểu rõ nơi đây cất giấu một
   },{
     id: 290,
     title: "Chân Tình Là Trò Chơi Của Anh",
-    image: "imgngon/d89c25ffd4fc81b6ea4e2a2f4f8abeac.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d89c25ffd4fc81b6ea4e2a2f4f8abeac.jpg",
     link: "ngontinh/chan-tinh-la-tro-choi-cua-anh.html",
     type: "ngontinh",
     desc: `Mọi người trong giới đều biết, Tần Việt bao nuôi một cô gái, không những vậy còn là người khiếm thính.
@@ -6153,7 +6153,7 @@ Chủ nhân trẻ tuổi của bữa tiệc thở dài, ủy khuất xin tôi m�
   },{
     id: 291,
     title: "Bạch Nguyệt Quang Trong Tim Anh",
-    image: "imgdam/f4d699098df497cf5e0634baae570cb8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f4d699098df497cf5e0634baae570cb8.jpg",
     link: "dammy/bach-nguyet-quang-trong-tim-anh.html",
     type: "dammy",
     desc: `Vì anh ấy, tôi đã tự hủy hoại chính mình.
@@ -6180,7 +6180,7 @@ Tôi nguyện cho anh ấy mọi thứ.`
   },{
     id: 292,
     title: "Hồng Trần Đoạt Mệnh",
-    image: "imgco/26413af726ecdfa333bba6d46677fc55.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/26413af726ecdfa333bba6d46677fc55.jpg",
     link: "cotrang/hong-tran-doat-menh.html",
     type: "cotrang",
     desc: `Đã bảy năm kể từ ngày ta cùng bạn thân xuyên vào thế giới trong sách.
@@ -6201,7 +6201,7 @@ Trong lòng ta chợt nghĩ, có lẽ ta cũng nên quay về nhà rồi.`
   },{
     id: 293,
     title: "Trái Tim Này Chỉ Để Dành Cho Em",
-    image: "imgngon/0c2229cbd3c66b508330556e88f88b5b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0c2229cbd3c66b508330556e88f88b5b.jpg",
     link: "ngontinh/trai-tim-nay-chi-de-danh-cho-em.html",
     type: "ngontinh",
     desc: `Sau kỳ thi đại học, tôi còn chưa kịp cởi bộ đồng phục rách tả tơi thì mẹ tôi đã vội vã dắt về cho tôi một ông bố dượng mới toanh.
@@ -6224,7 +6224,7 @@ Ai nói con người không thể vừa muốn cái này, vừa muốn cái kia,
   },{
     id: 294,
     title: "Ánh Trăng Trong Khung Ảnh",
-    image: "imgdam/bdb8c0014b8c0cf1f28bd0f67519d878.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bdb8c0014b8c0cf1f28bd0f67519d878.jpg",
     link: "dammy/anh-trang-trong-khung-anh.html",
     type: "dammy",
     desc: `Tôi đeo bám Lịch Hòe suốt một năm trời, cuối cùng vẫn nhận về một cái kết thảm không nỡ nhìn.
@@ -6255,7 +6255,7 @@ Anh trợn mắt nhìn tôi, vẻ mặt đầy kinh ngạc như vừa nghe thấ
   },{
     id: 295,
     title: "Vương Gia Là Kẻ Phá Gia Chi Tử",
-    image: "imgco/4392f34ef5e28464cf52a2c56ec8dfe6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4392f34ef5e28464cf52a2c56ec8dfe6.jpg",
     link: "cotrang/vuong-gia-la-ke-pha-gia-chi-tu.html",
     type: "cotrang",
     desc: `Tướng quân xuất chinh trở về, lại còn dẫn theo một nữ tử mang thai.
@@ -6268,7 +6268,7 @@ Minh Vương nói: “Tướng quân chớ nên vượt quá giới hạn.Ngư�
   },{
     id: 296,
     title: "Một Kiếp Đổi Vận",
-    image: "imgngon/d07e0ac34a2d38478fcfbf92b3435dbd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d07e0ac34a2d38478fcfbf92b3435dbd.jpg",
     link: "ngontinh/mot-kiep-doi-van.html",
     type: "ngontinh",
     desc: `Em gái tôi dường như cũng sống lại.
@@ -6282,7 +6282,7 @@ Dù cô ta có sống thêm một trăm lần nữa thì cũng không xứng là
   },{
     id: 297,
     title: "Tái Hợp Sau Ánh Đèn Showbiz",
-    image: "imgdam/72dcf95e846495c0dd3a197fa7c094e4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/72dcf95e846495c0dd3a197fa7c094e4.jpg",
     link: "dammy/tai-hop-sau-anh-den-showbiz.html",
     type: "dammy",
     desc: `Tôi thua trò chơi, hình phạt bốc được là phải gửi một tin nhắn Wechat: “[Sau khi chia tay, anh hối hận rồi]”.
@@ -6303,7 +6303,7 @@ Fan bình luận sôi nổi: “[Đỉnh lưu x Ảnh đế? CP nam-nam mà tôi
   },{
     id: 298,
     title: "Lão Thái Thái Trọng Sinh",
-    image: "imgco/21cda3c8d25b8e43535f491bb47db705.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/21cda3c8d25b8e43535f491bb47db705.jpg",
     link: "cotrang/lao-thai-thai-trong-sinh.html",
     type: "cotrang",
     desc: `Ta là Lão Thái Thái của Hầu phủ, cả đời lao tâm khổ tứ, một tay lo liệu trên dưới trong phủ, vậy mà đám con cháu chẳng có đứa nào chịu nghe lời.
@@ -6314,7 +6314,7 @@ Sống lại một đời, ta quyết định mặc kệ tất cả, ăn chơi h
   },{
     id: 299,
     title: "Quyền Lực Không Có Chỗ Cho Sai Lầm",
-    image: "imgngon/8e79ed4ca7d9b18c7ab490aae0ba74e1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8e79ed4ca7d9b18c7ab490aae0ba74e1.jpg",
     link: "ngontinh/quyen-luc-khong-co-cho-cho-sai-lam.html",
     type: "ngontinh",
     desc: `Tôi là đứa con gái duy nhất, là “đoàn sủng” của cả khu phố.
@@ -6341,7 +6341,7 @@ Tôi mỉm cười, vỗ vỗ gò má cô ta.
   },{
     id: 300,
     title: "Nốt Ruồi Sau Gáy",
-    image: "imgdam/61a16847991a668a37c050d3d16061bf.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/61a16847991a668a37c050d3d16061bf.jpg",
     link: "dammy/not-ruoi-sau-gay.html",
     type: "dammy",
     desc: `Người tôi thầm yêu thích Omega có hương pheromone ngọt ngào.
@@ -6366,7 +6366,7 @@ Còn đòi bắt tôi á?`
   },{
     id: 301,
     title: "Cửu Vương Giả Ngốc",
-    image: "imgco/eb789775b2deef8f4be975c3dd055cf2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eb789775b2deef8f4be975c3dd055cf2.jpg",
     link: "cotrang/cuu-vuong-gia-ngoc.html",
     type: "cotrang",
     desc: `Bị ban hôn với Cửu Vương gia ngốc nghếch, ta trở thành trò cười khắp kinh thành.
@@ -6385,7 +6385,7 @@ Ta giật giật khóe mắt: “Người còn giả bộ sao?”`
   },{
     id: 302,
     title: "Tuế Tuế Về Nhà Rồi",
-    image: "imgngon/824a391e4e4112154925facca5602be5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/824a391e4e4112154925facca5602be5.jpg",
     link: "ngontinh/tue-tue-ve-nha-roi.html",
     type: "ngontinh",
     desc: `Tôi là thiên kim giả bị ghét bỏ.Ngày tôi đứng trên sân thượng, tôi bỗng nhìn thấy những dòng bình luận kỳ lạ hiện lên trước mắt.
@@ -6408,7 +6408,7 @@ Não tôi vốn chậm chạp mà lúc này lại hoạt động cực nhanh, t�
   },{
     id: 303,
     title: "Phu Quân Của Ta Là Tử Địch Giang Hồ",
-    image: "imgdam/aa60a0119809284062bc326c5b1dde9c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aa60a0119809284062bc326c5b1dde9c.jpg",
     link: "dammy/phu-quan-cua-ta-la-tu-dich-giang-ho.html",
     type: "dammy",
     desc: `Tiểu thiếu chủ của Vô Cương Thành là ta, Khương Minh Tích, vốn bị mẹ mình, người mà ta luôn nghi ngờ độ đáng tin, lừa một cú trời giáng, ép tiến cung làm hoàng hậu, ngồi chễm chệ giữa ba ngàn mỹ nữ trong hậu cung.May thay, vị hoàng đế kia không những không nghi ngờ ta, mà còn chẳng buồn để tâm tới hậu cung, đến mức hai người từ khi thành thân tới nay còn chưa từng chạm mặt lấy một lần.
@@ -6417,7 +6417,7 @@ Ta mang danh hoàng hậu nhưng lại chẳng làm việc của hoàng hậu, n
   },{
     id: 304,
     title: "Trọng Sinh Bẻ Gẫy Nhân Duyên Hầu Môn",
-    image: "imgco/79d8e151ba11eb562c1b9f201f288bf2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/79d8e151ba11eb562c1b9f201f288bf2.jpg",
     link: "cotrang/trong-sinh-be-gay-nhan-duyen-hau-mon.html",
     type: "cotrang",
     desc: `“Tiểu thư! Hầu phủ… đã từ hôn rồi!”
@@ -6458,7 +6458,7 @@ Cuộc hôn sự này vốn là một tấm lưới săn đã được chàng â
   },{
     id: 305,
     title: "Truy Thê Đến Cùng Trời",
-    image: "imgngon/5f363ca8aada3e113b61f5d6bdb693ff.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f363ca8aada3e113b61f5d6bdb693ff.jpg",
     link: "ngontinh/truy-the-den-cung-troi.html",
     type: "ngontinh",
     desc: `Tôi giận dỗi Lục Hoài Cẩn nên tức giận đăng một câu tus lên Weibo: “Tôi muốn cảnh hôn!”.
@@ -6473,7 +6473,7 @@ Sao nam chính lại là Lục Hoài Cẩn?`
   },{
     id: 306,
     title: "Lưới Tình Kẻ Điên",
-    image: "imgdam/651a6a3aa94ea187462eee7ded5aba6f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/651a6a3aa94ea187462eee7ded5aba6f.jpg",
     link: "dammy/luoi-tinh-ke-dien.html",
     type: "dammy",
     desc: `Sau khi mất trí nhớ, tôi bàng hoàng phát hiện ra mình đang mang thai.Quá bực tức, tôi quyết định tìm đến tận biệt phủ của một đại gia vô trách nhiệm nào đó để ba mặt một lời.
@@ -6490,7 +6490,7 @@ Tôi liền hoang mang kiểu: “???”`
   },{
     id: 307,
     title: "Đông Cung Huyết Mạch",
-    image: "imgco/f9fb5f639f3cdf123ad6c32f3fe3d823.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f9fb5f639f3cdf123ad6c32f3fe3d823.jpg",
     link: "cotrang/dong-cung-huyet-mach.html",
     type: "cotrang",
     desc: `Một cuộc hôn nhân do hoàng thượng ban tặng, tựa như một đóa kỳ hoa cắm nhầm vào đống phân trâu.
@@ -6505,7 +6505,7 @@ Về sau, hắn đỏ hoe vành mắt, nhìn ta mà hỏi:
   },{
     id: 308,
     title: "Duyên Sai Một Nhịp Thương Cả Một Đời",
-    image: "imgngon/0f4c352f452994eba21fcbdba949a7de.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0f4c352f452994eba21fcbdba949a7de.jpg",
     link: "ngontinh/duyen-sai-mot-nhip-thuong-ca-mot-doi.html",
     type: "ngontinh",
     desc: `Bàn phím điện thoại của tôi bị lỗi rồi.
@@ -6515,7 +6515,7 @@ Loại oán hận này có lẽ bắt nguồn từ việc anh ta tự cho rằng
   },{
     id: 309,
     title: "Sói Vương Nuôi Dưỡng Vợ Nhỏ",
-    image: "imgdam/bd587b9f7089e5d674783a59193939b8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bd587b9f7089e5d674783a59193939b8.jpg",
     link: "dammy/soi-vuong-nuoi-duong-vo-nho.html",
     type: "dammy",
     desc: `Tôi xuyên không vào thân thể của em trai Sói vương, sống qua ngày bằng cách liếm láp cho hắn.
@@ -6530,7 +6530,7 @@ Tiêu rồi, gặp phải chuyên gia phẫu thuật chỉnh hình thật rồi.
   },{
     id: 310,
     title: "Tướng Quân Sủng Thê",
-    image: "imgco/d0176b15203f7ccc8b18f49e364655f9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d0176b15203f7ccc8b18f49e364655f9.jpg",
     link: "cotrang/tuong-quan-sung-the.html",
     type: "cotrang",
     desc: `Phu quân ta rời nhà đã mười năm, nay công thành danh toại, trở thành đại tướng quân, liền đón cả gia quyến lên kinh thành hưởng phúc.
@@ -6547,7 +6547,7 @@ Còn đối với ta thì`
   },{
     id: 311,
     title: "Cảng Thành Hôn Nhân Điên Loạn",
-    image: "imgngon/6909d57d0753c633fa6569cec7c07df9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6909d57d0753c633fa6569cec7c07df9.jpg",
     link: "ngontinh/cang-thanh-hon-nhan-dien-loan.html",
     type: "ngontinh",
     desc: `Tôi là một cô gái to xác.
@@ -6582,7 +6582,7 @@ Cho đến một ngày, tôi nhìn thấy bài đăng cầu cứu mà anh từng
   },{
     id: 312,
     title: "Bí Mật Quái Vật Dưới Lớp Da",
-    image: "imgdam/c77263b819250ba1d9b0f88bd89f368d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c77263b819250ba1d9b0f88bd89f368d.jpg",
     link: "dammy/bi-mat-quai-vat-duoi-lop-da.html",
     type: "dammy",
     desc: `Sau tận thế, với thân phận là một Alpha, tôi bị buộc phải tham gia vào kế hoạch sinh sản giữa hai Alpha.Trong đầu tôi lúc đó chỉ toàn dấu hỏi chấm bay loạn.
@@ -6607,7 +6607,7 @@ Cái này… có khi chết thật chứ chẳng đùa.`
   },{
     id: 313,
     title: "Đào Hoa Lệ Ảnh",
-    image: "imgco/c28b7610f978655a12cd6f85f9be23f9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c28b7610f978655a12cd6f85f9be23f9.jpg",
     link: "cotrang/dao-hoa-le-anh.html",
     type: "cotrang",
     desc: `Ta hỏi Liên di nương: "Mẫu thân ơi, hoạn quan và nam nhân bình thường có gì khác biệt ạ?"
@@ -6624,7 +6624,7 @@ Ta vui vẻ hớn hở, quyết định gả cho vị hoạn quan ấy.`
   },{
     id: 314,
     title: "Ván Cờ Đổi Mệnh",
-    image: "imgngon/c34052396f5bda27595fdef00af9d1d9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c34052396f5bda27595fdef00af9d1d9.jpg",
     link: "ngontinh/van-co-doi-menh.html",
     type: "ngontinh",
     desc: `Tôi và chồng đến Tương Tây du lịch, tôi đã bện tóc bằng những sợi dây sắc màu rồi đăng lên trang cá nhân khoe.
@@ -6637,7 +6637,7 @@ Trước khi chết trong tay còn nắm một sợi dây sắc màu.`
   },{
     id: 315,
     title: "Yêu Thầm Hóa Thành Thật",
-    image: "imgdam/ccb0e31cfccd10bd06d33e259605329b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ccb0e31cfccd10bd06d33e259605329b.jpg",
     link: "dammy/yeu-tham-hoa-thanh-that.html",
     type: "dammy",
     desc: `Ảnh đế nói anh ấy không thích con trai, tôi nản lòng thoái chí, bèn quay sang tạo CP với tiểu hoa đán đang nổi.
@@ -6650,7 +6650,7 @@ Tài khoản chính thức xác nhận: [Hai người họ đúng là đang hẹ
   },{
     id: 316,
     title: "Mưa Tan Trong Hận Ý",
-    image: "imgco/c6c6eb2c19035e4483712af9a907c125.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c6c6eb2c19035e4483712af9a907c125.jpg",
     link: "cotrang/mua-tan-trong-han-y.html",
     type: "cotrang",
     desc: `Huynh trưởng của ta luôn tỏ ra mình là bậc quân tử, không vì chút lợi lộc mà hạ mình.Khi thẩm cướp đoạt gia sản, ta liều mạng giữ lại.Hắn lại mắng ta là đàn bà thô lỗ, làm mất thể diện gia môn, rồi quay đầu tự tay giao nộp nhà cửa ruộng đất.Đồng môn của hắn thì hết lời ca tụng hắn khí độ cao nhã, còn tiến cử hắn vào nhà quyền quý.
@@ -6669,7 +6669,7 @@ Khi mở mắt lần nữa, ta đã quay về ngày tranh đoạt gia sản.Lầ
   },{
     id: 317,
     title: "Ánh Sáng Cuối Đường Mưa Đêm",
-    image: "imgngon/89d4f53b937234f93f6781564bc031ae.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/89d4f53b937234f93f6781564bc031ae.jpg",
     link: "ngontinh/anh-sang-cuoi-duong-mua-dem.html",
     type: "ngontinh",
     desc: `Mọi người đều ghen tị với Lục Vãn Châu, vì anh có một người vợ chưa cưới vừa dịu dàng, hiền lành, lại còn có học thức cao như tôi.
@@ -6692,7 +6692,7 @@ Tôi kéo vali, vẫn giữ nụ cười, nói nốt nửa câu sau.“...cũng 
   },{
     id: 318,
     title: "Ăn 2 Lương",
-    image: "imgdam/6b869a6525392619724346b2771a4eb0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6b869a6525392619724346b2771a4eb0.jpg",
     link: "dammy/an-2-luong.html",
     type: "dammy",
     desc: `Tôi có hai khoản thu nhập.
@@ -6719,7 +6719,7 @@ Tôi đang vui, thì anh ta lại buông một câu:
   },{
     id: 319,
     title: "Hoàng Hậu Mang Hai Mặt",
-    image: "imgco/a685935917b6a3fa3dea67b3ca6f1571.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a685935917b6a3fa3dea67b3ca6f1571.jpg",
     link: "cotrang/hoang-hau-mang-hai-mat.html",
     type: "cotrang",
     desc: `Năm thứ hai ta ngồi trên ngôi vị Hoàng hậu, một cơn trọng bệnh bất ngờ ập đến.Bệnh căn dây dưa mãi không dứt, từ đó ta không còn khả năng sinh con nữa.
@@ -6734,7 +6734,7 @@ Bởi vì ở kiếp trước, người chết chính là ta.`
   },{
     id: 320,
     title: "Chấp Niệm Ngọt Ngào Của Tôi",
-    image: "imgngon/83b32d1f68d1c2b4a65666720595f48a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/83b32d1f68d1c2b4a65666720595f48a.jpg",
     link: "ngontinh/chap-niem-ngot-ngao-cua-toi.html",
     type: "ngontinh",
     desc: `Tôi là kiểu bệnh kiều nói nhiều.
@@ -6771,7 +6771,7 @@ Tên đầu gấu vừa nhìn thấy tôi đã “Oa” một tiếng khóc luô
   },{
     id: 321,
     title: "Nhặt Nhầm Cậu Nhóc Bá Đạo",
-    image: "imgdam/9bb8a6e83010ff728481754708d4a356.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9bb8a6e83010ff728481754708d4a356.jpg",
     link: "dammy/nhat-nham-cau-nhoc-ba-dao.html",
     type: "dammy",
     desc: `Sau khi xuyên vào một bộ truyện tranh BL, tôi trở thành vai quần chúng trong thân phận tổng tài bá đạo.
@@ -6782,7 +6782,7 @@ Sau này, khi cậu ta đ/è tôi xuống sofa, cọ cọ vào cổ tôi, vừa 
   },{
     id: 322,
     title: "Đọc Tâm Đổi Vận Hoàng Huynh",
-    image: "imgco/17f3a3298734f8420fc8e065c97863eb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/17f3a3298734f8420fc8e065c97863eb.jpg",
     link: "cotrang/doc-tam-doi-van-hoang-huynh.html",
     type: "cotrang",
     desc: `Sau khi xuyên không, cả nhà ta đều có thể nghe thấy tiếng lòng của ta.
@@ -6797,7 +6797,7 @@ Tuy nhiên, cốt truyện đã hoàn toàn thay đổi.Hoàng huynh xin đến 
   },{
     id: 323,
     title: "Nhà Tôi Có Hồ Ly Và Ảnh Đế",
-    image: "imgngon/700f1bd8a36fc3ec27b2dd4d2e44811a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/700f1bd8a36fc3ec27b2dd4d2e44811a.jpg",
     link: "ngontinh/nha-toi-co-ho-ly-va-anh-de.html",
     type: "ngontinh",
     desc: `Couple Lục Tồn và Giang Lệ.
@@ -6852,7 +6852,7 @@ Một cư dân mạng có ID là Tôi không phải Trình Hạc liên tục nh�
   },{
     id: 324,
     title: "Nhặt Được Giáo Sư Sau Đêm Say Rượu",
-    image: "imgdam/f788fb5bd484a9c9b059d7b14bc6117f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f788fb5bd484a9c9b059d7b14bc6117f.jpg",
     link: "dammy/nhat-duoc-giao-su-sau-dem-say-ruou.html",
     type: "dammy",
     desc: `Tôi tỉnh dậy trong một căn phòng lạ lẫm, vừa mới ngồi bật dậy thì cánh cửa phòng đã khẽ mở ra.
@@ -6875,7 +6875,7 @@ Nghe đến bốn chữ ấy, tôi chỉ muốn có cái lỗ nào để độn 
   },{
     id: 325,
     title: "Hoàng Quyền Nữ Tử",
-    image: "imgco/4fcaf859fa5d5b4cd7af276fbe71fa18.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4fcaf859fa5d5b4cd7af276fbe71fa18.jpg",
     link: "cotrang/hoang-quyen-nu-tu.html",
     type: "cotrang",
     desc: `Một năm sau khi ta gả cho Thái tử, bạch nguyệt quang của hắn vậy mà lại hồi tâm chuyển ý.
@@ -6892,7 +6892,7 @@ Hiện giờ, nàng ngay cả tư cách đứng cạnh ta để tranh giành cũ
   },{
     id: 326,
     title: "Bước Qua Thanh Xuân Đến Bên Em",
-    image: "imgngon/083687a0c7bcd1f9f839b9fb4f2dd2e9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/083687a0c7bcd1f9f839b9fb4f2dd2e9.jpg",
     link: "ngontinh/buoc-qua-thanh-xuan-den-ben-em.html",
     type: "ngontinh",
     desc: `Tôi thầm mến trúc mã bảy năm.
@@ -6909,7 +6909,7 @@ Bạn cùng phòng đứng bên cạnh cậu ta khẽ cười một tiếng: “
   },{
     id: 327,
     title: "Kiếp Đào Vỡ Mộng Trên Thiên Giới",
-    image: "imgdam/1d63322a3dc85c4c6d4ca3e638f7fa4e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1d63322a3dc85c4c6d4ca3e638f7fa4e.jpg",
     link: "dammy/kiep-dao-vo-mong-tren-thien-gioi.html",
     type: "dammy",
     desc: `Bản tiên sắp chết rồi, kiểu hồn phi phách tán luôn ấy.
@@ -6926,7 +6926,7 @@ Ngay sau đó, Thẩm Tiên Quân vốn thanh khiết vô nhiễm của thiên �
   },{
     id: 328,
     title: "Mở Nhà Trẻ Giữa Hoàng Cung",
-    image: "imgco/1c837f8dc43d3ec5209a10302aad689f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1c837f8dc43d3ec5209a10302aad689f.jpg",
     link: "cotrang/mo-nha-tre-giua-hoang-cung.html",
     type: "cotrang",
     desc: `Ta, một giáo viên mầm non đã làm việc suốt năm năm, vậy mà lại có một ngày tỉnh dậy rồi xuyên không thành một phi tần cấp thấp nhất trong hoàng cung.
@@ -6949,7 +6949,7 @@ Sau đó, Mai Phi vốn kiêu căng ngang ngược bị thất sủng, ngay cả
   },{
     id: 329,
     title: "Người Cũ Luôn Khóc Vì Tôi",
-    image: "imgdam/b218aa0dd6c35e16c0ba61d7e9d7bff2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b218aa0dd6c35e16c0ba61d7e9d7bff2.jpg",
     link: "dammy/nguoi-cu-luon-khoc-vi-toi.html",
     type: "dammy",
     desc: `Tôi và bạn trai cũ… trở thành bạn cùng phòng đại học.
@@ -6968,7 +6968,7 @@ Là ai lan tin đồn tôi là người nằm dưới vậy hả?!`
   },{
     id: 330,
     title: "Một Đời Gió Ngược Trời Nam",
-    image: "imgco/1d315c3ac58cb5a53826752af9612d25.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1d315c3ac58cb5a53826752af9612d25.jpg",
     link: "cotrang/mot-doi-gio-nguoc-troi-nam.html",
     type: "cotrang",
     desc: `Ta tuổi vừa độ xuân xanh, vậy mà đã phải khoác lên người hỉ phục, trở thành bình thê của Nhiếp Chính Vương.
@@ -6985,7 +6985,7 @@ Ta kinh hãi đến mức trong đầu chỉ còn một ý nghĩ.
   },{
     id: 331,
     title: "Thích Em Là Điều Anh Không Nói",
-    image: "imgngon/94c8a65cccd8e57fead2bc35d25d059b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/94c8a65cccd8e57fead2bc35d25d059b.jpg",
     link: "ngontinh/thich-em-la-dieu-anh-khong-noi.html",
     type: "ngontinh",
     desc: `7 năm yêu thầm anh chàng thanh mai trúc mã, lại còn được cô bạn thân cổ vũ như kiểu “đi đi, không thử sao biết đời đau hay không”.
@@ -7004,7 +7004,7 @@ Anh chàng ở chung phòng thì đứng bên cạnh cười khúc khích: “B�
   },{
     id: 332,
     title: "Nhật Ký Nuôi Vợ Của Trai Thẳng",
-    image: "imgdam/066670f7b02f6d5f8e93a20c462b59f6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/066670f7b02f6d5f8e93a20c462b59f6.jpg",
     link: "dammy/nhat-ky-nuoi-vo-cua-trai-thang.html",
     type: "dammy",
     desc: `Có người nói rằng người bạn cùng phòng lạnh lùng của tôi là một kẻ não yêu đương.
@@ -7023,7 +7023,7 @@ Tôi hít mạnh một hơi khí lạnh, vội vàng đưa tay lên che chặt p
   },{
     id: 333,
     title: "Tướng Quân Giả Danh Phu Tử",
-    image: "imgco/c9fe087397ebef54073460376f7e82c3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c9fe087397ebef54073460376f7e82c3.jpg",
     link: "cotrang/tuong-quan-gia-danh-phu-tu.html",
     type: "cotrang",
     desc: `Lang quân lên kinh ứng thí, ta luôn ở bên chăm sóc từng miếng ăn giấc ngủ, lo liệu chu toàn sinh hoạt hàng ngày cho hắn.
@@ -7042,7 +7042,7 @@ Nàng vốn là vị tiểu thư tôn quý, là nữ nhi duy nhất của đươ
   },{
     id: 334,
     title: "Chị Gái Phản Đòn Showbiz",
-    image: "imgngon/0665585c8dc983f3402101ab6b70ea01.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0665585c8dc983f3402101ab6b70ea01.jpg",
     link: "ngontinh/chi-gai-phan-don-showbiz.html",
     type: "ngontinh",
     desc: `Em trai tôi là một ngôi sao nhỏ nổi tiếng trên mạng, khi cùng tham gia chương trình gameshow về gia đình, em ấy cẩn thận từng li từng tí, còn tôi thì chửi trời chửi đất, đến cả con chó đi ngang cũng bị tôi đá cho hai phát.
@@ -7053,7 +7053,7 @@ Fan: “Hay lắm, chửi tiếp đi, chúng tôi thích xem!”`
   },{
     id: 335,
     title: "Cưa Nhầm Bạn Cùng Phòng Sáu Múi",
-    image: "imgdam/d31a76d9bb2ca69418682a71f7342e22.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d31a76d9bb2ca69418682a71f7342e22.jpg",
     link: "dammy/cua-nham-ban-cung-phong-sau-mui.html",
     type: "dammy",
     desc: `Nửa đêm nghe tiếng ngáy vang dội hệt như máy khoan bê tông của mấy khứa bạn cùng phòng, tôi cuối cùng cũng thở phào nhẹ nhõm vì biết tụi nó đã ngủ say.
@@ -7064,7 +7064,7 @@ Tâm trạng tôi lập tức trở nên vui vẻ, hứng khởi hẳn lên.`
   },{
     id: 336,
     title: "Gạt Tuyết Tìm Xuân",
-    image: "imgco/f78ecab2461574233f5e736a8f272c64.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f78ecab2461574233f5e736a8f272c64.jpg",
     link: "cotrang/gat-tuyet-tim-xuan.html",
     type: "cotrang",
     desc: `Sau khi được tự do, rời khỏi Tống phủ, ta chọn dừng chân nơi phía Tây thành gian khổ, lặng lẽ mở một tiệm bánh nhỏ mưu sinh qua ngày.
@@ -7091,7 +7091,7 @@ Thế nhưng vạn lần không ngờ tới, ngay đúng ngày ta tương thân 
   },{
     id: 337,
     title: "Bạch Nguyệt Quang Không Đi Theo Kịch Bản",
-    image: "imgngon/581a79f00717af12d82bf6abb24c0d18.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/581a79f00717af12d82bf6abb24c0d18.jpg",
     link: "ngontinh/bach-nguyet-quang-khong-di-theo-kich-ban.html",
     type: "ngontinh",
     desc: `Bạch nguyệt quang đi du học sắp trở về rồi.
@@ -7104,7 +7104,7 @@ Cho nên, khi đối diện với bộ dáng yếu đuối và đáng thương c
   },{
     id: 338,
     title: "Ánh Nhìn Của Kẻ Chụp Lén",
-    image: "imgdam/bef04716789b30c46cabb8aa95545e13.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bef04716789b30c46cabb8aa95545e13.jpg",
     link: "dammy/anh-nhin-cua-ke-chup-len.html",
     type: "dammy",
     desc: `Tôi tự thấy bản thân giống hệt một con chuột chũi luẩn quẩn dưới cống ngầm tăm tối, chỉ dám lén lút ngước mắt lên nhìn vầng mặt trời chói lọi phía xa xa.
@@ -7127,7 +7127,7 @@ Kèm theo dòng chú thích đầy mùi mờ ám: [Nhặt được một chú ch
   },{
     id: 339,
     title: "Nhật Ký Đam Mỹ Của Nữ Sát Thủ",
-    image: "imgco/202f03a1f6714be2daa0839d60832e62.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/202f03a1f6714be2daa0839d60832e62.jpg",
     link: "cotrang/nhat-ky-dam-my-cua-nu-sat-thu.html",
     type: "cotrang",
     desc: `Ta vốn là một sát thủ chuyên nghiệp, thế nhưng sau khi dốc hết vốn liếng mua độc dược, ta đã nhận về thất bại cay đắng lần thứ sáu mươi sáu trong công cuộc ám sát Điền Vương.
@@ -7144,7 +7144,7 @@ Bởi vì mượn đao giết người mới chính là cảnh giới tối cao 
   },{
     id: 340,
     title: "Gả Cho Minh Quân Độc Miệng",
-    image: "imgdam/5863c6c7a40739834490a9c5228b610e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5863c6c7a40739834490a9c5228b610e.jpg",
     link: "dammy/ga-cho-minh-quan-doc-mieng.html",
     type: "dammy",
     desc: `Tôi ngoài ý muốn xuyên vào một cuốn tiểu thuyết cổ đại ngược tâm ngược thân, chính thức trở thành một hoàng tử pháo hôi đen đủi.
@@ -7161,7 +7161,7 @@ Hơn nữa, hoàng thượng ơi, con trai ngài thực ra là gay đó.`
   },{
     id: 341,
     title: "Kế Hoạch Vỗ Béo Thái Tử",
-    image: "imgco/bd60c26ff1d222a91105e8d875d56227.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bd60c26ff1d222a91105e8d875d56227.jpg",
     link: "cotrang/ke-hoach-vo-beo-thai-tu.html",
     type: "cotrang",
     desc: `Vào ngày ta chuẩn bị bước chân vào chốn hoàng cung sâu thẳm, mẫu thân đã nắm tay ta, ân cần dặn dò từng lời:
@@ -7174,7 +7174,7 @@ Ta khắc cốt ghi tâm lời dạy bảo của mẫu thân, suốt bao năm qu
   },{
     id: 342,
     title: "Kế Hoạch Bẫy Tình Của Tổng Tài Si Tình",
-    image: "imgngon/199dac3b0391b9248446f75ea43f133c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/199dac3b0391b9248446f75ea43f133c.jpg",
     link: "ngontinh/ke-hoach-bay-tinh-cua-tong-tai-si-tinh.html",
     type: "ngontinh",
     desc: `Thẻ ngân hàng chỉ còn 250.41 tệ, tôi chụp ảnh màn hình rồi đăng lên trang cá nhân để troll mọi người.
@@ -7197,7 +7197,7 @@ Xác nhận chuyển khoản thành công.`
   },{
     id: 343,
     title: "Kế Hoạch Theo Đuổi Thầy Giáo Của Cậu Chủ Hào Môn",
-    image: "imgdam/f34589bc1794a3ad602dff56294e3179.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f34589bc1794a3ad602dff56294e3179.jpg",
     link: "dammy/ke-hoach-theo-duoi-thay-giao-cua-cau-chu-hao-mon.html",
     type: "dammy",
     desc: `Cuốn nhật ký thầm kín bao năm của tôi bỗng một ngày đẹp trời bị người ta lôi ra ánh sáng, phơi bày trước bàn dân thiên hạ.
@@ -7215,7 +7215,7 @@ Ngay sau câu nói phũ phàng đó, cậu ta đầm đìa sát khí bước t�
   },{
     id: 344,
     title: "Cá Nhỏ Của Nhiếp Chính Công Chúa",
-    image: "imgco/e56055e4185bc3f01d8627d2c52fea9a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e56055e4185bc3f01d8627d2c52fea9a.jpg",
     link: "cotrang/ca-nho-cua-nhiep-chinh-cong-chua.html",
     type: "cotrang",
     desc: `Ta vốn là một vị công chúa nhận được muôn vàn sủng ái.
@@ -7234,7 +7234,7 @@ Nhưng cũng thật may mắn, trên con đường hoạn lộ thâm nghiêm và
   },{
     id: 345,
     title: "Bí Ẩn Phía Sau Mật Thất",
-    image: "imgngon/65ff3260a73227e5e500b3bf9828e059.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/65ff3260a73227e5e500b3bf9828e059.jpg",
     link: "ngontinh/bi-an-phia-sau-mat-that.html",
     type: "ngontinh",
     desc: `Tôi là nữ minh tinh tuyến đen đỏ, sau khi thức tỉnh hệ thống “Lợi Dụng Lòng Nước Đục”, có thể đọc được chỉ số sập phòng của đồng nghiệp.
@@ -7245,7 +7245,7 @@ Không phải chứ, anh trai này là đang giẫm lên luật pháp mà nhảy
   },{
     id: 346,
     title: "Nhật Ký Nuôi Thỏ Của Tổng Tài",
-    image: "imgdam/f6c5652ff1c62df416eb8b82eb91a1d0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f6c5652ff1c62df416eb8b82eb91a1d0.jpg",
     link: "dammy/nhat-ky-nuoi-tho-cua-tong-tai.html",
     type: "dammy",
     desc: `Sau khi chính thức hóa thành người, tôi đã bị hớp hồn bởi vẻ đẹp trai không góc chết của Chu Luật.
@@ -7269,7 +7269,7 @@ Thế nhưng đến khi hai bên vô tình chạm mặt nhau, anh chỉ biết r
   },{
     id: 347,
     title: "Góa Phụ Nghèo Ép Đại Thần Trả Nợ Đêm Xuân",
-    image: "imgco/a0d25e130eabfede468de6d56642ddc6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a0d25e130eabfede468de6d56642ddc6.jpg",
     link: "cotrang/goa-phu-ngheo-ep-dai-than-tra-no-dem-xuan.html",
     type: "cotrang",
     desc: `Năm nhà ta lâm vào cảnh bần hàn cùng quẫn nhất, ta đã chấp nhận một việc làm mang tiếng tiếng nhơ, ấy là nhận lời sinh dưỡng huyết mạch nối dõi cho tử tù nơi ngục tối.
@@ -7282,7 +7282,7 @@ Nhưng ta biết rõ bản thân chỉ là một góa phụ nghèo hèn nơi tr�
   },{
     id: 348,
     title: "Cuộc Trốn Chạy Bất Thành Của Chim Hoàng Yến",
-    image: "imgdam/54a4d2df57409fd1d51bd7ece3bbff38.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/54a4d2df57409fd1d51bd7ece3bbff38.jpg",
     link: "dammy/cuoc-tron-chay-bat-thanh-cua-chim-hoang-yen.html",
     type: "dammy",
     desc: `Phát hiện kim chủ có người mới, tôi chủ động bỏ chạy.
@@ -7301,7 +7301,7 @@ Cái quần què gì vậy trời, tôi là thằng đàn ông thì bầu bì ki
   },{
     id: 349,
     title: "Bản Tình Ca Của Kẻ Phản Diện",
-    image: "imgco/155321709fd737a81c1132453236478f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/155321709fd737a81c1132453236478f.jpg",
     link: "cotrang/ban-tinh-ca-cua-ke-phan-dien.html",
     type: "cotrang",
     desc: `Xem xét tình hình một cách cụ thể và tỉ mỉ, ta nhận ra đối thủ một mất một còn là Tạ Ngọc Chương bỗng trở nên vô cùng kì lạ.
@@ -7318,7 +7318,7 @@ Nhưng kẻ thù không đội trời chung ấy lại bắt ta trở về phủ
   },{
     id: 350,
     title: "Học Cách Yêu Một Người",
-    image: "imgngon/88de20843e9df038a59a71c71d8859a3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/88de20843e9df038a59a71c71d8859a3.jpg",
     link: "ngontinh/hoc-cach-yeu-mot-nguoi.html",
     type: "ngontinh",
     desc: `Sau khi kết hôn ba năm với Giang Trì, tôi sinh một cô con gái đáng yêu.
@@ -7333,7 +7333,7 @@ Trước khi bị đẩy vào phòng sinh, câu cuối cùng tôi nói với Gia
   },{
     id: 351,
     title: "Nhặt Được Vợ Nhờ Bức Ảnh Hotsearch",
-    image: "imgdam/91a58c8f56bc65cc5acdc78dc358bf39.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/91a58c8f56bc65cc5acdc78dc358bf39.jpg",
     link: "dammy/nhat-duoc-vo-nho-buc-anh-hotsearch.html",
     type: "dammy",
     desc: `Năm thứ ba sau khi tôi dấn thân vào cái showbiz này với tư cách một nghệ sĩ tuyến mười tám không ai nhớ mặt gọi tên, bước ngoặt cuộc đời bỗng ập đến theo cách không thể cảm lạnh hơn, tôi hiên ngang leo thẳng lên đỉnh bảng tìm kiếm nóng.
@@ -7354,7 +7354,7 @@ Mà quả thực là những ngày tháng sau đó tôi suýt nữa thì bị an
   },{
     id: 352,
     title: "Giật Hào Quang Của Đóa Sen Bảy Màu",
-    image: "imgco/c424506704b2184cbff870c6b96523a8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c424506704b2184cbff870c6b96523a8.jpg",
     link: "cotrang/giat-hao-quang-cua-doa-sen-bay-mau.html",
     type: "cotrang",
     desc: `Sư tôn từ phàm giới xa xôi mang về một vị nữ tử.
@@ -7379,7 +7379,7 @@ Ta gào khóc nức nở: “Mười vạn lượng bạc của ta, thật là c
   },{
     id: 353,
     title: "Cả Thanh Xuân Là Anh",
-    image: "imgngon/926098ff9c6f51e8db6f8241a61d3f7b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/926098ff9c6f51e8db6f8241a61d3f7b.jpg",
     link: "ngontinh/ca-thanh-xuan-la-anh.html",
     type: "ngontinh",
     desc: `Sau khi kết hôn với người mù.
@@ -7400,7 +7400,7 @@ Tôi lập tức bước tới, bịt miệng anh lại, giọng gấp gáp: “
   },{
     id: 356,
     title: "Chim Hoàng Yến Tự Nguyện Vào Lồng",
-    image: "imgdam/a623afec1a29df94ed36849d94d3084f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a623afec1a29df94ed36849d94d3084f.jpg",
     link: "dammy/chim-hoang-yen-tu-nguyen-vao-long.html",
     type: "dammy",
     desc: `Ngay khi phát hiện ra kim chủ có người mới, tôi đã chủ động rời đi.
@@ -7419,7 +7419,7 @@ Chết tiệt, tôi là đàn ông chính hiệu, lấy đâu ra cái mùa xuân
   },{
     id: 355,
     title: "Bức Họa Giấu Kín Trong Thư Phòng",
-    image: "imgco/1193ab9585bde9c617c9c5f9b23d6293.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1193ab9585bde9c617c9c5f9b23d6293.jpg",
     link: "cotrang/buc-hoa-giau-kin-trong-thu-phong.html",
     type: "cotrang",
     desc: `“Tướng quân xuất chinh trở về còn dẫn theo một nữ tử đang mang thai...”
@@ -7447,7 +7447,7 @@ Ta đặt đũa xuống và nói: “Phụ thân, từ hôn cho con đi!”
   },{
     id: 354,
     title: "Đông Cung Nuôi Dưỡng Một Nhành Hoa",
-    image: "imgdam/02dfed4ab032241833928b2c5ded2335.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/02dfed4ab032241833928b2c5ded2335.jpg",
     link: "dammy/dong-cung-nuoi-duong-mot-nhanh-hoa.html",
     type: "dammy",
     desc: `Kiếp trước, ta gánh còng lưng thay cho đại sư huynh, xách hành lý vào Đông cung làm nam sủng của Thái tử.
@@ -7464,7 +7464,7 @@ Thế nhưng khi mở mắt ra lần nữa, ta bỗng thấy đại sư huynh đ
   },,{
     id: 357,
     title: "Vương Gia Mặt Dày",
-    image: "imgco/8fc5926ad371e63192c2496cd97e3fe6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8fc5926ad371e63192c2496cd97e3fe6.jpg",
     link: "cotrang/vuong-gia-mat-day.html",
     type: "cotrang",
     desc: `Đây đã là lần thứ mười hai hắn đến nhà ta cầu hôn. 
@@ -7485,7 +7485,7 @@ Nay ta trọng sinh trở lại, hắn liền đến cầu hôn, nếu là cha, 
   },{
     id: 358,
     title: "Ngày Linh Lan Úa Tàn",
-    image: "imgngon/9f878f44677924e347c57acf06dbe7ee.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9f878f44677924e347c57acf06dbe7ee.jpg",
     link: "ngontinh/ngay-linh-lan-ua-tan.html",
     type: "ngontinh",
     desc: `Tại bữa tiệc sinh nhật, bạn gái cũ của chồng tôi đã có màn comeback không thể nào khoa trương hơn.
@@ -7502,7 +7502,7 @@ Ngay trước mặt bàn dân thiên hạ, tôi dõng dạc nói: "Tề Việt, 
   },{
     id: 359,
     title: "Chú Nhỏ Là Của Riêng Tôi",
-    image: "imgdam/62e08125aa16e2ca1f7565a0748e010b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/62e08125aa16e2ca1f7565a0748e010b.jpg",
     link: "dammy/chu-nho-la-cua-rieng-toi.html",
     type: "dammy",
     desc: `Sau khi xuyên sách, tôi đã nuôi hỏng nam chính rồi.
@@ -7518,7 +7518,7 @@ Mẹ kiếp!`
   },{
     id: 360,
     title: "Cuộc Tái Giá Hạnh Phúc Bên Thợ Săn Què",
-    image: "imgco/b18da2ad25f6413186260b8f123e5ee6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b18da2ad25f6413186260b8f123e5ee6.jpg",
     link: "cotrang/cuoc-tai-gia-hanh-phuc-ben-tho-san-que.html",
     type: "cotrang",
     desc: `Phụ thân ta là Triệu Vĩnh An, trước khi lên đường tòng quân xa xứ, ông đã từng căn dặn lại rằng, nếu bản thân chẳng may bỏ mạng nơi biên cương xa xôi, thì hãy cho phép mẫu thân ta được tái giá cùng người thợ săn ở trong làng.
@@ -7533,7 +7533,7 @@ Tổ mẫu cùng các vị tộc lão trong làng đã nhận lấy hai mươi l
   },{
     id: 361,
     title: "Cuộc Chiến Bóc Trần Sự Thật",
-    image: "imgngon/0909f201c48cd3aec032d4cf47191c60.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0909f201c48cd3aec032d4cf47191c60.jpg",
     link: "ngontinh/cuoc-chien-boc-tran-su-that.html",
     type: "ngontinh",
     desc: `Bạn cùng phòng đăng ảnh tôi mặc váy ngủ mát mẻ trong ký túc xá vào nhóm lớp.
@@ -7548,7 +7548,7 @@ Ghi chú: “Xin lỗi, tôi định gửi cho bạn, lỡ tay gửi nhầm vào
   },{
     id: 362,
     title: "Nam Thần Ký Túc Xá Ép Tôi Mặc Đồ Hầu Gái",
-    image: "imgdam/cb296379a0fbb2ece2babb03f54258f2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb296379a0fbb2ece2babb03f54258f2.jpg",
     link: "dammy/nam-than-ky-tuc-xa-ep-toi-mac-do-hau-gai.html",
     type: "dammy",
     desc: `Tôi bị ba người bạn cùng phòng, toàn là những anh chàng trai thẳng đích thực, bắt gặp khi đang lén lút mặc đồ nữ trong ký túc xá, để rồi từ cái ngày định mệnh đó, bọn họ cứ liên tục có những hành động vô cùng kỳ lạ.
@@ -7565,7 +7565,7 @@ Khoan đã, chẳng phải ban đầu đã nói mấy ông này đều là trai 
   },{
     id: 363,
     title: "Phu Quân Trà Xanh Của Quận Chúa",
-    image: "imgco/06fce86fffea6d222695d10cc7d00844.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/06fce86fffea6d222695d10cc7d00844.jpg",
     link: "cotrang/phu-quan-tra-xanh-cua-quan-chua.html",
     type: "cotrang",
     desc: `Sau khi phu quân tạ thế, ta liền một mực tuyển lựa tám vị mỹ nam tử, ngày ngày cùng họ nhảy điệu vũ khúc phô diễn cơ bụng rắn rỏi.
@@ -7578,7 +7578,7 @@ Thế nhưng, vị đế vương trẻ tuổi ấy lại sa sầm nét mặt, l�
   },{
     id: 364,
     title: "Cả Triều Đình Này Chỉ Mình Tôi Tỉnh Táo",
-    image: "imgdam/10d1d7e7e69b6cfa6329a53d1a0a53fc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/10d1d7e7e69b6cfa6329a53d1a0a53fc.jpg",
     link: "dammy/ca-trieu-dinh-nay-chi-minh-toi-tinh-tao.html",
     type: "dammy",
     desc: `Khi ta tỉnh lại trên giường của Tề Quy Nam, vị Nhiếp chính vương đương triều, thì hắn đã đứng chực sẵn bên cạnh với một cây roi dài trong tay.
@@ -7596,7 +7596,7 @@ Ta ôm đầu bỏ chạy, vừa chạy vừa thét lớn lên:
   },{
     id: 365,
     title: "Công Chúa Trừng Trị Phò Mã Tra Nam",
-    image: "imgco/aea6baf66ce8cfcb53bc488d1ce875d1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aea6baf66ce8cfcb53bc488d1ce875d1.jpg",
     link: "cotrang/cong-chua-trung-tri-pho-ma-tra-nam.html",
     type: "cotrang",
     desc: `Ta là nữ phụ độc ác trong một thiên truyện đẫm nước mắt.
@@ -7613,7 +7613,7 @@ Theo những gì ghi chép trong sách cổ Y Sự Biệt Lục, thứ gọi là
   },{
     id: 366,
     title: "Thư Mục Bí Mật Của Thái Tử Gia",
-    image: "imgngon/7004371e578b39d35e1a9af9b59e3b98.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7004371e578b39d35e1a9af9b59e3b98.jpg",
     link: "ngontinh/thu-muc-bi-mat-cua-thai-tu-gia.html",
     type: "ngontinh",
     desc: `Đoạn clip Thái tử Bắc Kinh quỳ gối vì tình yêu đang làm mưa làm gió trên mạng.
@@ -7632,7 +7632,7 @@ Cái đoạn clip gây bão kia thực chất chính là do anh ấy tự tay g�
   },{
     id: 367,
     title: "Chiếc Bẫy Pheromone Ngọt Ngào",
-    image: "imgdam/4679a048c6a2aa1ee9442c6950a25d44.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4679a048c6a2aa1ee9442c6950a25d44.jpg",
     link: "dammy/chiec-bay-pheromone-ngot-ngao.html",
     type: "dammy",
     desc: `Sau khi kẻ thù không đội trời chung của tôi, cũng là một Alpha chính hiệu, bất ngờ phân hoá lần hai thành Enigma, tôi bỗng dưng đổ đốn dính phải cái Huấn Hoa Hồng mang tên nghiện mùi pheromone trên người hắn.
@@ -7650,7 +7650,7 @@ Nhưng hắn lại giữ chặt lấy tôi, ghé sát tai cất giọng thấp k
   },{
     id: 368,
     title: "Có Một Ánh Mắt Nhớ Mãi Ngàn Năm",
-    image: "imgco/22a7ee43b11b9994d41e6cc122eb0788.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/22a7ee43b11b9994d41e6cc122eb0788.jpg",
     link: "cotrang/co-mot-anh-mat-nho-mai-ngan-nam.html",
     type: "cotrang",
     desc: `Năm lên 8, ta tự bán mình, đổi được 2 lượng bạc.
@@ -7665,7 +7665,7 @@ Sau này, phu nhân Trần phủ định nhận ta làm con nuôi, thiếu gia T
   },{
     id: 369,
     title: "Anh Ấy Luôn Ở Phía Sau Tôi",
-    image: "imgngon/4f30c164edd7fbcdcc63864b26d28dd0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4f30c164edd7fbcdcc63864b26d28dd0.jpg",
     link: "ngontinh/anh-ay-luon-o-phia-sau-toi.html",
     type: "ngontinh",
     desc: `Sau khi chia tay với Thái tử gia Thịnh Cảnh An, cậu ấm con nhà quyền quý bậc nhất kinh thành, tôi lặng lẽ kết nối vào camera giám sát trong nhà anh ta.
@@ -7686,7 +7686,7 @@ Tôi vô thức nuốt nước bọt, đúng lúc đó lại nghe giọng anh ta
   },{
     id: 370,
     title: "Định Luật Trai Thẳng Của Học Bá",
-    image: "imgdam/62f1187958be553052de5ee68c4e13db.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/62f1187958be553052de5ee68c4e13db.jpg",
     link: "dammy/dinh-luat-trai-thang-cua-hoc-ba.html",
     type: "dammy",
     desc: `Tôi trời sinh đã sở hữu một cặp mông vểnh, gương mặt lại thuộc kiểu thanh tú, thế nên bất cứ ai gặp mặt cũng đều bảo tôi ẻo lả, còn khẳng định chắc nịch rằng tôi là người đồng tính.
@@ -7701,7 +7701,7 @@ Hắn cũng tin sái cổ, xem tôi như huynh đệ ruột thịt, thậm chí 
   },{
     id: 371,
     title: "Nữ Lang Tộc Lọt Vào Tay Ma Quân",
-    image: "imgco/a8edcab01477ca1018c2d742fd63b093.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a8edcab01477ca1018c2d742fd63b093.jpg",
     link: "cotrang/nu-lang-toc-lot-vao-tay-ma-quan.html",
     type: "cotrang",
     desc: `Nữ tử cứu mạng Ma Quân, yếu ớt tựa liễu trước gió, từng bước tiến vào cung điện.
@@ -7716,7 +7716,7 @@ Hắn xoa đầu ta, ôn hòa nói: "Yêu đan của Tiểu Đoàn không thể 
   },{
     id: 372,
     title: "Alpha Là Sói Đội Lốt Cừu Non",
-    image: "imgdam/18f41cf6c52cea4c0dae9378bc66f44f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/18f41cf6c52cea4c0dae9378bc66f44f.jpg",
     link: "dammy/alpha-la-soi-doi-lot-cuu-non.html",
     type: "dammy",
     desc: `Cả phòng ký túc xá chúng tôi đều là Omega.
@@ -7733,7 +7733,7 @@ Giọng của cậu ấy bỗng trầm hẳn xuống, nghe khàn khàn:
   },{
     id: 373,
     title: "Phu Thê Đồng Lòng Khổ Nhục Sẻ Chia",
-    image: "imgco/18f66e6c5c7722ecf9f8cf78fa16ae47.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/18f66e6c5c7722ecf9f8cf78fa16ae47.jpg",
     link: "cotrang/phu-the-dong-long-kho-nhuc-se-chia.html",
     type: "cotrang",
     desc: `Ta và Hoàng đế bị sét đánh, từ đó hoán đổi cảm giác với nhau.
@@ -7754,7 +7754,7 @@ Hắn tức giận muốn lật áo ta để nhét đệm bông vào, còn ta th
   },{
     id: 374,
     title: "Định Mệnh Đưa Anh Đến Bên Em",
-    image: "imgngon/b3a29377e8c82d4d8f37b1565ba7c358.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b3a29377e8c82d4d8f37b1565ba7c358.jpg",
     link: "ngontinh/dinh-menh-dua-anh-den-ben-em.html",
     type: "ngontinh",
     desc: `Khi đồ ăn tôi order được giao đến, tôi bị dọa đến mức run lẩy bẩy.
@@ -7771,7 +7771,7 @@ Tôi chính là em bé tháng tuổi sắp chết đói đây.`
   },{
     id: 375,
     title: "Hôn Nhân Sóng Gió Của Bố Nhỏ Và Gấu Chó",
-    image: "imgdam/637f47e55d500a2df2009c6f049a16f8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/637f47e55d500a2df2009c6f049a16f8.jpg",
     link: "dammy/hon-nhan-song-gio-cua-bo-nho-va-gau-cho.html",
     type: "dammy",
     desc: `Năm thứ năm ở bên Lục Tranh, anh đột nhiên bế về một đứa trẻ.
@@ -7794,7 +7794,7 @@ Tôi hoàn toàn bùng nổ, cơn giận đạt đỉnh điểm, lập tức c�
   },{
     id: 376,
     title: "Duyên Nợ Nàng Dâu Đậu Phụ",
-    image: "imgco/d9f2e24a4396ad8ec9d7ff05eb006de9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d9f2e24a4396ad8ec9d7ff05eb006de9.jpg",
     link: "cotrang/duyen-no-nang-dau-dau-phu.html",
     type: "cotrang",
     desc: `Thúy Nhi, nha hoàn phụ trách việc nhóm lửa trong bếp, từng rỉ tai nói với ta rằng, mỗi tháng nha hoàn thông phòng sẽ được nhận bổng lộc nhiều hơn nha hoàn bình thường khác tới hai lượng bạc.
@@ -7807,7 +7807,7 @@ Do đó, ta đành phải dẫn vị công tử vốn phong độ ngời ngời,
   },{
     id: 377,
     title: "Nữ Phụ Không Chơi Theo Kịch Bản Tổng Tài",
-    image: "imgngon/fb8fce279eec518484f0133ab3e8ca47.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fb8fce279eec518484f0133ab3e8ca47.jpg",
     link: "ngontinh/nu-phu-khong-choi-theo-kich-ban-tong-tai.html",
     type: "ngontinh",
     desc: `Trong bệnh viện, chỉ có một túi máu gấu trúc.Nam chính si tình sắp phát điên.
@@ -7832,7 +7832,7 @@ Bác sĩ cầm kết quả xét nghiệm máu, không nói nên lời: “Cô �
   },{
     id: 378,
     title: "Mưu Kế Tẩy Trắng Của Chú Cún Con",
-    image: "imgdam/4b64a92233912da5a44958754116efd4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4b64a92233912da5a44958754116efd4.jpg",
     link: "dammy/muu-ke-tay-trang-cua-chu-cun-con.html",
     type: "dammy",
     desc: `Tôi từng là đại ca xã hội đen uy phong một cõi.
@@ -7846,7 +7846,7 @@ Tôi còn tưởng Hàn Sơ Khuyết thèm khát cái ghế quyền thế của 
   },{
     id: 379,
     title: "Hồ Ly Vây Cánh Linh Đài",
-    image: "imgco/291943d393342517bc62533997f04216.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/291943d393342517bc62533997f04216.jpg",
     link: "cotrang/ho-ly-vay-canh-linh-dai.html",
     type: "cotrang",
     desc: `Ta là đại nha hoàn trung thành nhất bên cạnh thiếu gia, lo liệu mọi nhu cầu của hắn ta đều đáp ứng, duy chỉ trừ một điều...thị tẩm.
@@ -7865,7 +7865,7 @@ Thế nhưng Liên Chi lại cho rằng ta đang giả vờ thanh cao.Nàng ta t
   },{
     id: 380,
     title: "Buông Bỏ Sau Chín Năm Làm Chó Liếm",
-    image: "imgngon/47f567dafe855d1f31221cf7e0c97bc3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47f567dafe855d1f31221cf7e0c97bc3.jpg",
     link: "ngontinh/buong-bo-sau-chin-nam-lam-cho-liem.html",
     type: "ngontinh",
     desc: `Tôi theo đuổi Lục Trầm ròng rã suốt chín năm trời, thanh xuân từ năm mười sáu đến năm hai mươi lăm tuổi đều gói gọn trong hai chữ tên anh.
@@ -7890,7 +7890,7 @@ Tôi tự hiểu ra rằng, bản thân không phải đang chết lặng, mà l
   },{
     id: 381,
     title: "Chim Hoàng Yến Tôi Nuôi Là Sếp Tổng",
-    image: "imgdam/82310f94deb4834157e1198e42959776.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/82310f94deb4834157e1198e42959776.jpg",
     link: "dammy/chim-hoang-yen-toi-nuoi-la-sep-tong.html",
     type: "dammy",
     desc: `Chỉnh sửa luận văn đến mức muốn sang chấn tâm lý, tôi đành lên mạng chơi hệ trừu tượng, đăng tin tuyển một chú chim hoàng yến về thử độc cho vui nhà vui cửa.
@@ -7921,7 +7921,7 @@ Chẳng phải đây chính là chú chim hoàng yến mà tôi đã bỏ ra 100
   },{
     id: 382,
     title: "Bản Thảo Đổi Vận",
-    image: "imgco/42f5add4a531ffd467b920b8e18a2884.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/42f5add4a531ffd467b920b8e18a2884.jpg",
     link: "cotrang/ban-thao-doi-van.html",
     type: "cotrang",
     desc: `Ta và thanh kiếm của sư tôn có cùng sự giao cảm.
@@ -7938,7 +7938,7 @@ Hắn thản nhiên nhìn ta, ngón tay thon dài nhẹ nhàng nắm lấy vỏ 
   },{
     id: 383,
     title: "Bản Tình Ca Bình An",
-    image: "imgngon/a5836118f301129e2492fc1db1c359b0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5836118f301129e2492fc1db1c359b0.jpg",
     link: "ngontinh/ban-tinh-ca-binh-an.html",
     type: "ngontinh",
     desc: `Trở về từ chuyến trao đổi nước ngoài, bên cạnh thanh mai trúc mã đã có thêm một đóa bạch liên hoa.
@@ -7951,7 +7951,7 @@ Trúc mã mặt không cảm xúc đẩy cô ta ra, ánh mắt sâu thẳm nhìn
   },{
     id: 384,
     title: "Tổng Tài Giả Nghèo Thử Lòng",
-    image: "imgdam/837259958ba2566772581b48bc57440c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/837259958ba2566772581b48bc57440c.jpg",
     link: "dammy/tong-tai-gia-ngheo-thu-long.html",
     type: "dammy",
     desc: `Để giải tỏa nhu cầu sinh lý, tôi đến một câu lạc bộ đêm để tìm một nam sinh.
@@ -7972,7 +7972,7 @@ Tôi chỉ túm chặt lấy tóc cậu ta rồi gầm lên:
   },{
     id: 385,
     title: "Hải Đường Diễm Sắc",
-    image: "imgco/49a1d94ebc5589bb8ffcf9ea05abb69b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/49a1d94ebc5589bb8ffcf9ea05abb69b.jpg",
     link: "cotrang/hai-duong-diem-sac.html",
     type: "cotrang",
     desc: `Ta là cô nhi đến nương tựa Trầm gia.
@@ -8000,7 +8000,7 @@ Hắn ép ta vào góc giường lạnh lẽo, bên tai vang lên giọng nói t
   },{
     id: 386,
     title: "Sau Khi Phá Sản Tôi Bị Kẻ Thù Ép Làm Hoàng Yến",
-    image: "imgdam/f3b2c0a01820b6608704ae46d2e22784.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f3b2c0a01820b6608704ae46d2e22784.jpg",
     link: "dammy/sau-khi-pha-san-toi-bi-ke-thu-ep-lam-hoang-yen.html",
     type: "dammy",
     desc: `Sau khi phá sản, tôi buộc phải đi cầu xin cầu cứu kẻ thù không đội trời chung.
@@ -8019,7 +8019,7 @@ Con mẹ nó, tên khốn này!!!`
   },{
     id: 387,
     title: "Thân Nữ Nhi Nghịch Thiên Kế Vị Tước Hầu",
-    image: "imgco/993c1110d28ded26d9bd5fa22fd4729a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/993c1110d28ded26d9bd5fa22fd4729a.jpg",
     link: "cotrang/than-nu-nhi-nghich-thien-ke-vi-tuoc-hau.html",
     type: "cotrang",
     desc: `Ta là Thái tử phi tương lai. Một nữ tử lặn lội ngàn dặm đi tìm trượng phu đã chặn xe ngựa của ta giữa đường.
@@ -8034,7 +8034,7 @@ Vị trí này nàng ta không thể ngồi.
   },{
     id: 388,
     title: "Đạo Cô Xuống Núi",
-    image: "imgngon/d7c0d4084dfd9047036d1c5d0554fc97.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d7c0d4084dfd9047036d1c5d0554fc97.jpg",
     link: "ngontinh/dao-co-xuong-nui.html",
     type: "ngontinh",
     desc: `Làm thế nào để một người đàn ông chịu chi cho bạn hẳn năm triệu tệ chỉ bằng một câu nói?
@@ -8049,7 +8049,7 @@ Nó phát nổ ngay tại chỗ.`
   },{
     id: 389,
     title: "Thư Ký Quạ Đen Và Tổng Tài Mặt Dày",
-    image: "imgdam/1c9792ecfc5a199e4ab9c7010cb11561.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1c9792ecfc5a199e4ab9c7010cb11561.jpg",
     link: "dammy/thu-ky-qua-den-va-tong-tai-mat-day.html",
     type: "dammy",
     desc: `Tôi là thư ký riêng của tổng tài.
@@ -8070,7 +8070,7 @@ Nghĩa là sao vậy chứ, làm tôi hoang mang dễ sợ.`
   },{
     id: 390,
     title: "Tướng Quân Thâm Tình",
-    image: "imgco/ecfacb893c13133ad0e49bb5a78e1c47.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ecfacb893c13133ad0e49bb5a78e1c47.jpg",
     link: "cotrang/tuong-quan-tham-tinh.html",
     type: "cotrang",
     desc: `Ta là một đầu bếp nhỏ trong tửu lâu, ấy thế mà người đời lại đồn đại ta từng là vị hôn thê của Thái tử điện hạ.
@@ -8097,7 +8097,7 @@ Ngày đại quân xuất phát rời khỏi kinh thành, Thái tử thúc ngự
   },{
     id: 391,
     title: "Chiếc Cốc Trong Thùng Rác Và Cô Nàng Trà Xanh",
-    image: "imgngon/5d30cbb7742e074c6bd7991c3518611e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5d30cbb7742e074c6bd7991c3518611e.jpg",
     link: "ngontinh/chiec-coc-trong-thung-rac-va-co-nang-tra-xanh.html",
     type: "ngontinh",
     desc: `Đàn em của chồng tôi nửa đêm gửi một đoạn video, cô ta diện một chiếc đai cạp thấp siêu mát mẻ, ngượng ngùng che ngực lại: “Đàn anh, vết thương của em hình như bị nhiễm trùng rồi, anh kiểm tra lại giúp em được không?"
@@ -8112,7 +8112,7 @@ Tôi: "Đỉnh dữ!"`
   },{
     id: 392,
     title: "Mùa Hè Định Mệnh Nơi Làng Quê Nghèo",
-    image: "imgdam/5cacbfa4bcae695ea6536924f00dc20f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5cacbfa4bcae695ea6536924f00dc20f.jpg",
     link: "dammy/mua-he-dinh-menh-noi-lang-que-ngheo.html",
     type: "dammy",
     desc: `Mùa hè sau khi kỳ thi đại học khép lại, ban ngày tôi ở nhà ôm việc phụ ông bán dưa hấu, tối đến thì nằm dài trên giường lướt mấy trang web đồng tính.
@@ -8134,7 +8134,7 @@ Tối hôm đó, bà tôi liền phán một câu xanh rờn: “Làng mình đi
   },{
     id: 393,
     title: "Vở Kịch Tình Yêu Sai Lầm",
-    image: "imgco/98723ffffea06ac4cf496bf30e927500.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/98723ffffea06ac4cf496bf30e927500.jpg",
     link: "cotrang/vo-kich-tinh-yeu-sai-lam.html",
     type: "cotrang",
     desc: `Phu quân của ta là một người thanh liêm chính trực, trong triều đình được biết đến là một vị chính nhân quân tử.
@@ -8160,7 +8160,7 @@ Khi mở mắt ra, ta trở về đêm tân hôn với hắn.
   },{
     id: 394,
     title: "Bạn Cùng Phòng Là Tên Điên Giả Vờ Ngoan Ngoãn",
-    image: "imgdam/54ba2941e5a6ea988f454ba7aa3b04a4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/54ba2941e5a6ea988f454ba7aa3b04a4.jpg",
     link: "dammy/ban-cung-phong-la-ten-dien-gia-vo-ngoan-ngoan.html",
     type: "dammy",
     desc: `Tôi sinh ra đã câm điếc, nên từ bé đến lớn thường xuyên rơi vào tầm ngắm của mấy đứa hay bắt nạt.
@@ -8178,7 +8178,7 @@ Sau này tôi mới biết, cái tên bạn cùng phòng nhìn qua thì ôn hòa
   },{
     id: 395,
     title: "Thần Trộm Nhập Cung",
-    image: "imgco/9b07447da39bf069cd1a19f364fbb652.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9b07447da39bf069cd1a19f364fbb652.jpg",
     link: "cotrang/than-trom-nhap-cung.html",
     type: "cotrang",
     desc: `Ta có khuôn mặt giống hệt vị quý phi đã khuất.
@@ -8194,7 +8194,7 @@ Hắn dùng đầu ngón tay lạnh lẽo vuốt nhẹ qua cổ ta, khiến ta k
   },{
     id: 396,
     title: "Bẫy Tình Của Chồng Oan Gia Giả Vờ Mất Trí Nhớ",
-    image: "imgngon/6b2516f52755e81e6bd4adc85ecd4917.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6b2516f52755e81e6bd4adc85ecd4917.jpg",
     link: "ngontinh/bay-tinh-cua-chong-oan-gia-gia-vo-mat-tri-nho.html",
     type: "ngontinh",
     desc: `Năm thứ ba kết hôn với oan gia, anh ấy bất ngờ bị bay màu ký ức.
@@ -8214,7 +8214,7 @@ Tên khốn này quả thực diễn sâu đến mức có thể nhận giải t
   },{
     id: 397,
     title: "Tâm Ý Điên Cuồng Của Em Trai Alpha",
-    image: "imgdam/850602095cdfca35e5a09a5a0f647cfa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/850602095cdfca35e5a09a5a0f647cfa.jpg",
     link: "dammy/tam-y-dien-cuong-cua-em-trai-alpha.html",
     type: "dammy",
     desc: `Tôi là một Alpha bệnh hoạn, chỉ có cảm giác với Alpha.
@@ -8235,7 +8235,7 @@ Tỉnh dậy mới phát hiện Cận Vọng đã về từ lâu, còn đè tôi
   },{
     id: 398,
     title: "Bản Tình Ca Nơi Sa Trường Khói Lửa",
-    image: "imgco/fc624e585dd61c8ea4830ee845e030fb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fc624e585dd61c8ea4830ee845e030fb.jpg",
     link: "cotrang/ban-tinh-ca-noi-sa-truong-khoi-lua.html",
     type: "cotrang",
     desc: `Ta tên Thẩm Xuân Ý, sinh ra vào mùa xuân.
@@ -8246,7 +8246,7 @@ Nhưng kể từ khi đệ đệ ra đời, bà không còn nói như vậy nữ
   },{
     id: 399,
     title: "Thay Vì Làm Vợ Tra Nam Tôi Chọn Làm Mẹ Kế Của Hắn",
-    image: "imgngon/71b07fdaf84550520f8c9aef5355e9cb.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/71b07fdaf84550520f8c9aef5355e9cb.jpg",
     link: "ngontinh/thay-vi-lam-vo-tra-nam-toi-chon-lam-me-ke-cua-han.html",
     type: "ngontinh",
     desc: `Vào ngày kết hôn, chú rể của tôi chạy trốn khỏi đám cưới.
@@ -8263,7 +8263,7 @@ Tôi chỉ mỉm cười, nhẹ nhàng nắm tay người đàn ông bên cạnh
   },{
     id: 400,
     title: "Pheromone Của Đối Thủ Truyền Kiếp Quá Ngọt Ngào",
-    image: "imgdam/60d04effc41aece7d79d9a617250c52e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/60d04effc41aece7d79d9a617250c52e.jpg",
     link: "dammy/pheromone-cua-doi-thu-truyen-kiep-qua-ngot-ngao.html",
     type: "dammy",
     desc: `Sau khi phân hóa thành Omega, tôi đã vấp ngay vào cái dớp mắc phải hội chứng rối loạn pheromone đầy ngang trái.
@@ -8283,7 +8283,7 @@ Thế nhưng người bên cạnh lại càng siết chặt tôi vào lòng, bá
   },{
     id: 401,
     title: "Bước Đi Của Kẻ Xuyên Không",
-    image: "imgco/2b7c1e43149c04e13ead646a7cecc6d5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2b7c1e43149c04e13ead646a7cecc6d5.jpg",
     link: "cotrang/buoc-di-cua-ke-xuyen-khong.html",
     type: "cotrang",
     desc: `Hoàng đế sắc phong một nữ tử dân gian lai lịch bất minh làm Quý phi.
@@ -8305,7 +8305,7 @@ Nhưng hiện tại, ta chỉ là một cung nữ già nua nhạt nhòa, mai m�
   },{
     id: 402,
     title: "Ai Bảo Alpha Không Thể Mang Thai",
-    image: "imgdam/5de33d74b2a0616891c0c0ac86622adc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5de33d74b2a0616891c0c0ac86622adc.jpg",
     link: "dammy/ai-bao-alpha-khong-the-mang-thai.html",
     type: "dammy",
     desc: `Ba năm yêu đương giữa hai Alpha, bạn trai đạo diễn của tôi lại chán ghét vì tôi không thể bị đánh dấu.
@@ -8328,7 +8328,7 @@ Còn bạn trai cũ thì đỏ mắt xông tới:
   },{
     id: 403,
     title: "Nuối Tiếc Muộn Màng",
-    image: "imgco/a5a931e45cbbb3ad7ed69a56715910af.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5a931e45cbbb3ad7ed69a56715910af.jpg",
     link: "cotrang/nuoi-tiec-muon-mang.html",
     type: "cotrang",
     desc: `Quan phủ phát tướng công, hai mươi đồng một người. Các cô nương trong làng đều muốn đi tranh giành nam nhân.
@@ -8345,7 +8345,7 @@ Nhưng ta không ngờ tới, đêm hôm đó, trưởng thôn lại cười hì
   },{
     id: 404,
     title: "Hào Quang Của Kẻ Theo Đuôi",
-    image: "imgngon/0994e367d7a5783411fdb9d957b23505.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0994e367d7a5783411fdb9d957b23505.jpg",
     link: "ngontinh/hao-quang-cua-ke-theo-duoi.html",
     type: "ngontinh",
     desc: `Trong một buổi phát sóng trực tiếp, tôi đã bị người ta chơi khăm một vố vô cùng tàn nhẫn.
@@ -8363,7 +8363,7 @@ Trời đất thiên địa ơi, xin anh hãy khoan đã, sao anh diễn còn s�
   },{
     id: 405,
     title: "Chung Phòng Với Người Yêu Cũ",
-    image: "imgdam/5b9c5ee6b445495a7fa2df77c250a8b7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5b9c5ee6b445495a7fa2df77c250a8b7.jpg",
     link: "dammy/chung-phong-voi-nguoi-yeu-cu.html",
     type: "dammy",
     desc: `Không ai biết rằng trưởng phòng ký túc xá chính là người yêu cũ của tôi.
@@ -8380,7 +8380,7 @@ Nửa đêm, anh ta đột ngột trèo lên giường của tôi, cất giọng
   },{
     id: 406,
     title: "Màn Kịch Hoán Đổi Kiệu Hoa",
-    image: "imgco/df4eef9bbb9acf961b4459178d1eaa1e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/df4eef9bbb9acf961b4459178d1eaa1e.jpg",
     link: "cotrang/man-kich-hoan-doi-kieu-hoa.html",
     type: "cotrang",
     desc: `Ta và tỷ tỷ xuất giá cùng một ngày.
@@ -8398,7 +8398,7 @@ Về sau ta mới biết được, “sống không được lâu đâu” trong
   },{
     id: 407,
     title: "Cô Vợ Bắt Ma Của Ảnh Đế",
-    image: "imgngon/f16da17d93d7582098da05c256f03717.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f16da17d93d7582098da05c256f03717.jpg",
     link: "ngontinh/co-vo-bat-ma-cua-anh-de.html",
     type: "ngontinh",
     desc: `Ảnh ảnh đế Tống Linh bị người hâm mộ cuồng nhiệt trộm mất điện thoại.
@@ -8421,7 +8421,7 @@ Là tôi `
   },{
     id: 408,
     title: "Trai Thẳng Là Kẹo Cao Su Bám Người",
-    image: "imgdam/0babc5528f55f0e8ed5673fc5fb109f9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0babc5528f55f0e8ed5673fc5fb109f9.jpg",
     link: "dammy/trai-thang-la-keo-cao-su-bam-nguoi.html",
     type: "dammy",
     desc: `Sau khi chia tay, Tần Dịch đã tự sát.
@@ -8443,7 +8443,7 @@ Còn hắn thì lại hưng phấn vô cùng: “Đừng run quá, tôi không c
   },{
     id: 409,
     title: "Cuộc Sống Tự Do Của Nữ Thương Nhân Sau Khi Hòa Ly",
-    image: "imgco/33e5b6a8766aba4d242e1ebb5b75a105.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/33e5b6a8766aba4d242e1ebb5b75a105.jpg",
     link: "cotrang/cuoc-song-tu-do-cua-nu-thuong-nhan-sau-khi-hoa-ly.html",
     type: "cotrang",
     desc: `Dưới ánh đèn cổ Phật màu xanh mờ ảo, ta đã chôn vùi thanh xuân để chờ đợi Phí Thiệu suốt sáu năm dài đằng đẵng. Nay trời xui đất khiến, ta bỗng nhiên trọng sinh trở về đúng ngày Phí Thiệu dẫn theo Lâm Chi trở về phủ.
@@ -8460,7 +8460,7 @@ Ta lạnh lùng bảo hắn: “Ngươi tự mà lo liệu lấy, chúng ta hòa
   },{
     id: 410,
     title: "Tôi Bị Nhân Vật Chính Ép Yêu",
-    image: "imgdam/9bb8a6e83010ff728481754708d4a356.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9bb8a6e83010ff728481754708d4a356.jpg",
     link: "dammy/toi-bi-nhan-vat-chinh-ep-yeu.html",
     type: "dammy",
     desc: `Tôi bị ràng buộc bởi hệ thống phát triển lành mạnh của nhân vật chính, xuyên vào trong một câu chuyện học đường quý tộc ABO, trở thành anh trai Beta hy sinh không đáng có của nhân vật chính omega.
@@ -8474,7 +8474,7 @@ Tôi không ngờ rằng, không lâu sau, người em trai mà tôi tưởng l�
   },{
     id: 411,
     title: "Bản Lĩnh Của Thái Tử Phi Giả Mù",
-    image: "imgco/243279fcc0195e43a1dad80343418061.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/243279fcc0195e43a1dad80343418061.jpg",
     link: "cotrang/ban-linh-cua-thai-tu-phi-gia-mu.html",
     type: "cotrang",
     desc: `Ta và cô bạn thân thợ xăm đã xuyên không.
@@ -8489,7 +8489,7 @@ Mà có vẻ như tính mạng cũng khó giữ được.`
   },{
     id: 412,
     title: "Hồi Kết Đau Thương Của Cô Bé Bán Diêm",
-    image: "imgngon/9e0590fecfe2df034321eaf3aeb7d985.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9e0590fecfe2df034321eaf3aeb7d985.jpg",
     link: "ngontinh/hoi-ket-dau-thuong-cua-co-be-ban-diem.html",
     type: "ngontinh",
     desc: `Tôi là một người thực vật. Trước khi nhảy lầu, tôi có một danh xưng là "thiên kim giả".
@@ -8510,7 +8510,7 @@ Một người đã từ bỏ ý chí sống, làm sao có thể tỉnh lại.`
   },{
     id: 413,
     title: "Kế Hoạch Chiếm Đoạt Trái Tim",
-    image: "imgdam/55cdb94fff86cf87dcd4049ab281f2fa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/55cdb94fff86cf87dcd4049ab281f2fa.jpg",
     link: "dammy/ke-hoach-chiem-doat-trai-tim.html",
     type: "dammy",
     desc: `Sau khi quyết định liên hôn, kẻ thù không đội trời chung của tôi là Du Tông đã bay hẳn hai mươi tiếng đồng hồ, chỉ để tới tận mặt chế giễu tôi:
@@ -8526,7 +8526,7 @@ Ngay cả Du Tông cũng không biết chuyện chúng tôi từng có một đ�
   },{
     id: 414,
     title: "Tuyệt Đường Sống Của Gian Phu Dâm Phụ",
-    image: "imgco/0f1f5cceac592179952a82b1dfd7a371.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0f1f5cceac592179952a82b1dfd7a371.jpg",
     link: "cotrang/tuyet-duong-song-cua-gian-phu-dam-phu.html",
     type: "cotrang",
     desc: `Ta vốn là chủ mẫu của Hầu phủ, một lòng dốc cạn tâm huyết nuôi dạy đứa con trai độc nhất, gửi gắm vào đó biết bao kỳ vọng cao vời.
@@ -8546,7 +8546,7 @@ Kết cục đắng cay, ta mang danh bà mẹ chồng độc ác nổi tiếng 
   },{
     id: 415,
     title: "Tổng Tài Sa Sút Làm Người Mẫu Nam",
-    image: "imgngon/770cb7715d9d604419c494a9b623203a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/770cb7715d9d604419c494a9b623203a.jpg",
     link: "ngontinh/tong-tai-sa-sut-lam-nguoi-mau-nam.html",
     type: "ngontinh",
     desc: `Tôi vô tình bước vào một nhà hàng thịt nướng người mẫu nam và phát hiện ra kim bài của cửa hàng thực chất là anh trai đứa bạn thân, người có tài sản lên tới hàng chục triệu.
@@ -8566,7 +8566,7 @@ Vành tai đối phương đỏ bừng: “Tôi bán nghệ, không bán thân."
   },{
     id: 416,
     title: "Bùa Hộ Mệnh Của Đại Ca Xã Hội Đen",
-    image: "imgdam/930ab4312d9670be5ae032fd17ace1ff.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/930ab4312d9670be5ae032fd17ace1ff.jpg",
     link: "dammy/bua-ho-menh-cua-dai-ca-xa-hoi-den.html",
     type: "dammy",
     desc: `Tôi vốn là một thằng lưu manh chính hiệu, trong một lần đi dạo thì vô tình cứu được một đứa nhóc rồi tự tay nuôi nó khôn lớn.
@@ -8584,7 +8584,7 @@ Tôi đứng hình mất ba giây rồi nhảy vào chất vấn, ai dè nó li�
   },{
     id: 417,
     title: "Chiến Thần Mèo Nhỏ Của Thượng Thần",
-    image: "imgco/af47c684df4d6dccae1ab24881f688c9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/af47c684df4d6dccae1ab24881f688c9.jpg",
     link: "cotrang/chien-than-meo-nho-cua-thuong-than.html",
     type: "cotrang",
     desc: `Làm việc cho Thiên Đế ròng rã một ngàn năm, ta quyết định nộp đơn xin từ chức để tìm lối đi riêng.
@@ -8610,7 +8610,7 @@ Thế là ta quyết định chuồn êm ngay trong đêm tối, lên kế hoạ
   },{
     id: 418,
     title: "Trùm Trường Phân Hóa Thành Omega",
-    image: "imgdam/f374bffc53f1103de543087c9408c5ad.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f374bffc53f1103de543087c9408c5ad.jpg",
     link: "dammy/trum-truong-phan-hoa-thanh-omega.html",
     type: "dammy",
     desc: `Đột nhiên biến thành Omega thì phải làm sao?
@@ -8624,7 +8624,7 @@ Nhưng khi thực sự bị Tề Tu ghì chặt vào lòng, nghe hắn thì thà
   },{
     id: 419,
     title: "Tiểu Thư Đỏng Đảnh Của Uy Vũ Đại Tướng Quân",
-    image: "imgco/b10d0676f37060a557e258394d52e22e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b10d0676f37060a557e258394d52e22e.jpg",
     link: "cotrang/tieu-thu-dong-danh-cua-uy-vu-dai-tuong-quan.html",
     type: "cotrang",
     desc: `Ta là tiểu thư đỏng đảnh nổi tiếng nhất Định Kinh, vậy mà lại bị một tờ giấy ban hôn gả cho Uy Vũ Đại Tướng quân đương triều.
@@ -8644,7 +8644,7 @@ Muốn khóc, hức hức hức...
   },{
     id: 420,
     title: "Xuyên Về Quá Khứ Thay Đổi Số Phận",
-    image: "imgngon/44fdc14a6c453ac2131d15048df63f7f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/44fdc14a6c453ac2131d15048df63f7f.jpg",
     link: "ngontinh/xuyen-ve-qua-khu-thay-doi-so-phan.html",
     type: "ngontinh",
     desc: `Cậu học sinh mới chuyển đến trường tôi được bầu chọn là nam thần thế hệ mới của cả trường.
@@ -8661,7 +8661,7 @@ Cậu thiếu niên kia nghe xong thì vừa tức giận vừa ngượng ngùng
   },{
     id: 421,
     title: "Chim Hoàng Yến Thức Tỉnh",
-    image: "imgdam/0b9f070c3392cada368f953bf64c0ddf.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0b9f070c3392cada368f953bf64c0ddf.jpg",
     link: "dammy/chim-hoang-yen-thuc-tinh.html",
     type: "dammy",
     desc: `Trở thành chim hoàng yến hệ nam của Cố Nhị Gia vừa vặn tròn ba năm, tôi bỗng nhiên giác ngộ và thức tỉnh.
@@ -8679,7 +8679,7 @@ Tôi chỉ biết cúi đầu, khẽ xoa khéo cái bụng đã hơi nhô lên c
   },{
     id: 422,
     title: "Thân Phận Bảo Gia Tiên",
-    image: "imgco/d466e421ef06436a57cb571628e4677c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d466e421ef06436a57cb571628e4677c.jpg",
     link: "cotrang/than-phan-bao-gia-tien.html",
     type: "cotrang",
     desc: `Ta là Bảo Gia Tiên của nhà họ Tống.
@@ -8703,7 +8703,7 @@ Lão nương bị kẹt lại nhà họ Tống ba trăm năm, cuối cùng cũng
   },{
     id: 423,
     title: "Tìm Lại Hào Quang Của Bố",
-    image: "imgngon/4964b7c5a4fbeb896ef64f6bf5bb2810.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4964b7c5a4fbeb896ef64f6bf5bb2810.jpg",
     link: "ngontinh/tim-lai-hao-quang-cua-bo.html",
     type: "ngontinh",
     desc: `Mẹ tôi vì muốn độc chiếm bố tôi, nên bà chọc mù mắt ông, còn hại chết bà nội tôi.
@@ -8717,7 +8717,7 @@ Mười năm sau, tôi xuyên về năm bố tôi mười tám tuổi.
   },{
     id: 424,
     title: "Cưới Trước Yêu Sau Với Lão Già Khó Tính",
-    image: "imgdam/8910ce988053673aadd8543006700172.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8910ce988053673aadd8543006700172.jpg",
     link: "dammy/cuoi-truoc-yeu-sau-voi-lao-gia-kho-tinh.html",
     type: "dammy",
     desc: `Bị thúc ép kết hôn, tôi tức giận nói bừa mình là gay để chống đối.
@@ -8738,7 +8738,7 @@ Tôi: “?”`
   },{
     id: 425,
     title: "Huyết Nhuộm Phượng Bào Hoàng Hậu Trở Về",
-    image: "imgco/811493a471b625357e50f27f97044eb2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/811493a471b625357e50f27f97044eb2.jpg",
     link: "cotrang/huyet-nhuom-phuong-bao-hoang-hau-tro-ve.html",
     type: "cotrang",
     desc: `Năm thứ bảy từ khi ta cùng với khuê mật xuyên vào trong sách.
@@ -8760,7 +8760,7 @@ Ta nghĩ, có lẽ đã đến lúc ta nên trở về nhà rồi.
   },{
     id: 426,
     title: "Khi Phản Diện Ác Độc Hóa Liếm Cẩu",
-    image: "imgdam/70cbf763724c8310e5c97d6d6607baa6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/70cbf763724c8310e5c97d6d6607baa6.jpg",
     link: "dammy/khi-phan-dien-ac-doc-hoa-liem-cau.html",
     type: "dammy",
     desc: `Tôi xuyên thành nhân vật phản diện ác độc trong một bộ truyện đam mỹ nhiều công một thụ.
@@ -8777,7 +8777,7 @@ Mẹ nó chứ, rõ ràng cậu ta là thụ cơ mà?`
   },{
     id: 427,
     title: "Bí Mật Dưới Gốc Cây Lê",
-    image: "imgco/abc21a9a50424bc664b89744796536a2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/abc21a9a50424bc664b89744796536a2.jpg",
     link: "cotrang/bi-mat-duoi-goc-cay-le.html",
     type: "cotrang",
     desc: `Tỷ tỷ song sinh của ta đem lòng yêu thương phu quân ta, cùng người nhà liên hợp sát hại ta.
@@ -8793,7 +8793,7 @@ Nàng ta nào biết, nam nhân trước mắt so với nàng ta nghĩ còn đá
   },{
     id: 428,
     title: "Kiều Nữ Mang Thai Đại Chiến Sếp Tồi",
-    image: "imgngon/272af4ff3214cf83468c215f423cc191.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/272af4ff3214cf83468c215f423cc191.jpg",
     link: "ngontinh/kieu-nu-mang-thai-dai-chien-sep-toi.html",
     type: "ngontinh",
     desc: `Sau khi biết tôi mang thai, vị nữ lãnh đạo mới nhậm chức đã bày đặt mời tôi vào phòng làm việc với danh nghĩa một buổi họp kín vô cùng tình cảm, để rồi sau đó giở bài văn mẫu nhằm thuyết phục tôi tự nguyện nộp đơn xin nghỉ việc.
@@ -8809,7 +8809,7 @@ Tôi chỉ chưa thèm ngửa bài với cô ta rằng suốt bao nhiêu năm c�
   },{
     id: 429,
     title: "Chiêu Trò Khổ Nhục Kế Của Sếp Tổng",
-    image: "imgdam/0e338e8f07f5cf80a35b7056c7b94988.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0e338e8f07f5cf80a35b7056c7b94988.jpg",
     link: "dammy/chieu-tro-kho-nhuc-ke-cua-sep-tong.html",
     type: "dammy",
     desc: `Tôi là thư ký riêng của tổng tài.
@@ -8833,7 +8833,7 @@ Nghĩa là sao vậy?!
   },{
     id: 430,
     title: "Ta Không Làm Chiếc Bóng Trong Tranh Của Ai Cả",
-    image: "imgco/77c121621b1b3d47e8c8e4aa448b041a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/77c121621b1b3d47e8c8e4aa448b041a.jpg",
     link: "cotrang/ta-khong-lam-chiec-bong-trong-tranh-cua-ai-ca.html",
     type: "cotrang",
     desc: `Phu quân của ta, Ninh Khuyết, là một kiếm sĩ thiên tài vang danh thiên hạ, vì ơn cứu mạng nên bất đắc dĩ phải cưới con gái của một vị quan nhỏ là ta làm vợ.
@@ -8861,7 +8861,7 @@ Ta lắc đầu, mỉm cười đáp: “Không biết, chắc là một ngườ
   },{
     id: 431,
     title: "Mẹ Con Siêu Sao Đại Chiến Trà Xanh",
-    image: "imgngon/e13a448c97d1d40d55087b3fba8d51c1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e13a448c97d1d40d55087b3fba8d51c1.jpg",
     link: "ngontinh/me-con-sieu-sao-dai-chien-tra-xanh.html",
     type: "ngontinh",
     desc: `Bố tôi là đại gia, mẹ tôi là minh tinh hàng đầu, còn tôi là nữ côn đồ bị mắng chửi lên top tìm kiếm vì tội đánh nhau.
@@ -8873,7 +8873,7 @@ Cả mạng đều quay xe khen tôi đánh hay lắm.
   },{
     id: 432,
     title: "Kế Hoạch Thuần Hóa Ác Long Của Hoàng Tử Xảo Quyệt",
-    image: "imgdam/d2da346a92386d0de99a40c706cbef36.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d2da346a92386d0de99a40c706cbef36.jpg",
     link: "dammy/ke-hoach-thuan-hoa-ac-long-cua-hoang-tu-xao-quyet.html",
     type: "dammy",
     desc: `Vào ngày chị gái thứ bảy của ta, một công chúa chính hiệu, được gả đi xa, một con rồng khổng lồ từ đâu bay đến bắt cóc ta luôn.
@@ -8887,7 +8887,7 @@ Nhưng điều kinh khủng nhất chính là, mùa động dục của cái con
   },{
     id: 433,
     title: "Lòng Tham Của Kẻ Si Tình",
-    image: "imgco/0401aa92c499ddb12d917479397cd3d8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0401aa92c499ddb12d917479397cd3d8.jpg",
     link: "cotrang/long-tham-cua-ke-si-tinh.html",
     type: "cotrang",
     desc: `Năm ấy, Từ Quan dẫn về một nữ nhân lạ mặt.
@@ -8919,7 +8919,7 @@ Hắn đứng đó, đôi mắt đỏ hoe ngân ngấn nước, nghẹn ngào h�
   },{
     id: 434,
     title: "Ảnh Đế Nhõng Nhẽo Chẳng Thể Rời Xa",
-    image: "imgngon/95e6eb2049fcffb21e376557d6423686.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/95e6eb2049fcffb21e376557d6423686.jpg",
     link: "ngontinh/anh-de-nhong-nheo-chang-the-roi-xa.html",
     type: "ngontinh",
     desc: `Ông chồng ẩn hôn của tôi vừa bị khui ra vụ bao nuôi một em sinh viên đại học da trắng dáng xinh, nhìn mướt mắt vô cùng. Chính vì cái sừng siêu to khổng lồ này, tôi quyết định không thèm làm vợ hiền dâu thảo nữa, đêm nào cũng lên đồ đi bay lắc ở quán bar, thậm chí còn ép một cậu nam sinh viên làm thêm ở đó phải uống rượu với mình.
@@ -8959,7 +8959,7 @@ Bước ra khỏi nhà, nhường lại vị trí.
   },{
     id: 435,
     title: "Thư Tình Đưa Sai Người",
-    image: "imgdam/13bd80461a68cd87d7e0b12077495039.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/13bd80461a68cd87d7e0b12077495039.jpg",
     link: "dammy/thu-tinh-dua-sai-nguoi.html",
     type: "dammy",
     desc: `Tôi vốn định tỏ tình với nam thần của trường.
@@ -8977,7 +8977,7 @@ Cuối cùng hắn cười lạnh một tiếng:
   },{
     id: 436,
     title: "Thuật Đọc Tâm Cứu Cả Gia Tộc",
-    image: "imgco/4fbd5566254e86b9f1f92930aa9ca5a5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4fbd5566254e86b9f1f92930aa9ca5a5.jpg",
     link: "cotrang/thuat-doc-tam-cuu-ca-gia-toc.html",
     type: "cotrang",
     desc: `Khi hoàng đế định đưa ta vào lãnh cung, ta nghe thấy tiếng lòng của hắn:
@@ -8991,7 +8991,7 @@ Cuối cùng hắn cười lạnh một tiếng:
   },{
     id: 437,
     title: "Sự Thật Phơi Bày Sau Hai Hộp Thuốc",
-    image: "imgngon/575737524b85c508adda1344f7c576d2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/575737524b85c508adda1344f7c576d2.jpg",
     link: "ngontinh/su-that-phoi-bay-sau-hai-hop-thuoc.html",
     type: "ngontinh",
     desc: `Tôi bị dương tính, sốt cao đến 39,6 độ.
@@ -9009,7 +9009,7 @@ Thế giới của tôi chính thức sụp đổ.
   },{
     id: 440,
     title: "Lối Thoát Của Kẻ Thế Thân",
-    image: "imgngon/f3b6f171401e38b83e4f5f8049966cc6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f3b6f171401e38b83e4f5f8049966cc6.jpg",
     link: "ngontinh/loi-thoat-cua-ke-the-than.html",
     type: "ngontinh",
     desc: `Tôi là thế thân cho bạch nguyệt quang của ba đại lão.
@@ -9037,7 +9037,7 @@ Nhưng tôi đã gần như không còn nghe thấy gì nữa.
   },{
     id: 438,
     title: "Đừng Tưởng Tôi Không Biết Cậu Thích Tôi",
-    image: "imgdam/782fb19520b9c575d793629eb30b5719.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/782fb19520b9c575d793629eb30b5719.jpg",
     link: "dammy/dung-tuong-toi-khong-biet-cau-thich-toi.html",
     type: "dammy",
     desc: `Phòng nước ký túc xá nam mất điện tối om. Tôi đang yên đang lành thì bị người ta lao vào cưỡng hôn suốt mười phút đồng hồ.
@@ -9053,7 +9053,7 @@ Thế cuối cùng mục đích của cậu ta là hôn tôi làm cái gì?
   },{
     id: 439,
     title: "Thâm Cung Bạc Tình",
-    image: "imgco/d663a537f0f1d45bca87d8ad8b79e73d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d663a537f0f1d45bca87d8ad8b79e73d.jpg",
     link: "cotrang/tham-cung-bac-tinh.html",
     type: "cotrang",
     desc: `Nàng xuyên không đến đây, nhưng lại từ chối danh phận cao quý mà phụ vương định ban cho nàng.
@@ -9077,7 +9077,7 @@ Nàng ta vẫn giữ cái giọng điệu mỉa mai mẫu phi như cũ: “Hắn
   },{
     id: 441,
     title: "Sống Lại Để Độc Chiếm Anh Trai Nuôi Khẩu Thị Tâm Phi",
-    image: "imgdam/51f32749be19508eded0207004bcc675.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/51f32749be19508eded0207004bcc675.jpg",
     link: "dammy/song-lai-de-doc-chiem-anh-trai-nuoi-khau-thi-tam-phi.html",
     type: "dammy",
     desc: `Vào đúng cái ngày tôi chính thức trở thành người lớn.
@@ -9099,7 +9099,7 @@ Tôi khẽ mỉm cười xoa đầu anh đầy âu yếm: “Anh trai ngoan củ
   },{
     id: 442,
     title: "Đoạt Lại Khí Vận",
-    image: "imgco/4caf9f46f072a519f03843f1eeaed03d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4caf9f46f072a519f03843f1eeaed03d.jpg",
     link: "cotrang/doat-lai-khi-van.html",
     type: "cotrang",
     desc: `Tiểu sư muội suýt chút nữa đã hại chết ta, nhưng ta vẫn xuất sắc sống sót trở về, vạch trần bộ mặt thật và âm mưu của nàng.
@@ -9123,7 +9123,7 @@ Bởi vì, mục tiêu cuối cùng của ta là đoạt lấy mệnh cách củ
   },{
     id: 443,
     title: "Tổng Tài Bá Đạo Cũng Thích Đồ Ngọt",
-    image: "imgngon/f666f89502add93149a77c3f104031d2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f666f89502add93149a77c3f104031d2.jpg",
     link: "ngontinh/tong-tai-ba-dao-cung-thich-do-ngot.html",
     type: "ngontinh",
     desc: `Lo lắng rằng tổng giám đốc sẽ đi tu, mẹ của anh ấy thuê tôi tiếp cận anh.
@@ -9139,7 +9139,7 @@ Tôi trợn tròn mắt.
   },{
     id: 444,
     title: "Cả Đời Không Buông Tay",
-    image: "imgdam/06dc9cf83b8993879d59cccf85ada864.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/06dc9cf83b8993879d59cccf85ada864.jpg",
     link: "dammy/ca-doi-khong-buong-tay.html",
     type: "dammy",
     desc: `Tôi là một sát thủ, bỗng dưng một ngày đẹp trời lại bị trói chằng chịt, thắt thêm cái nơ bướm điệu đà rồi bị tống thẳng lên giường của mục tiêu ám sát.
@@ -9153,7 +9153,7 @@ Bên dưới còn có người bình luận ké: [Lần đầu tiên được g�
   },{
     id: 445,
     title: "Nương Tử Phúc Tinh",
-    image: "imgco/496b355795a648094f4db8b341b33768.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/496b355795a648094f4db8b341b33768.jpg",
     link: "cotrang/nuong-tu-phuc-tinh.html",
     type: "cotrang",
     desc: `Ta sinh ra đã mang tướng đoạn chưởng.
@@ -9169,7 +9169,7 @@ Nhưng kỳ thực, ta mang mệnh phúc duyên, ai đối tốt với ta, phúc
   },{
     id: 446,
     title: "Thanh Xuân Có Anh Ghép Lại Ký Ức Đã Nhạt Nhòa",
-    image: "imgngon/5316b355338daf9e7be6d2153d684a34.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5316b355338daf9e7be6d2153d684a34.jpg",
     link: "ngontinh/thanh-xuan-co-anh-ghep-lai-ky-uc-da-nhat-nhoa.html",
     type: "ngontinh",
     desc: `Vào sinh nhật thứ ba mươi của Cố Hoài, tôi bị tình đầu khó quên của anh ta tự tay rót rượu mạnh ngay trước mặt mọi người.
@@ -9189,7 +9189,7 @@ Bởi dù anh ta có đối xử tệ bạc với tôi thế nào thì sáng hô
   },{
     id: 447,
     title: "Trò Chơi Tráo Đổi Thân Phận",
-    image: "imgdam/bda3db4c52a47a1eb5d0ffdde1ecd26b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bda3db4c52a47a1eb5d0ffdde1ecd26b.jpg",
     link: "dammy/tro-choi-trao-doi-than-phan.html",
     type: "dammy",
     desc: `Sau khi phát hiện bản thân chỉ là một thiếu gia fake bị bế nhầm từ nhỏ, tôi không những không suy sụp mà còn thấy nhẹ nhõm đến lạ lùng.
@@ -9211,7 +9211,7 @@ Anh chàng Alpha kia cũng chẳng phải dạng vừa, lập tức đáp trả 
   },{
     id: 448,
     title: "Sự Trả Thù Của Vị Hoàng Hậu Mất Tích",
-    image: "imgco/111cc6c5d283b18d28fc6cfe4cb14a26.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/111cc6c5d283b18d28fc6cfe4cb14a26.jpg",
     link: "cotrang/su-tra-thu-cua-vi-hoang-hau-mat-tich.html",
     type: "cotrang",
     desc: `Ta và Chu Du tỷ tỷ cùng nhau xuyên không đến thế giới này đã được bảy năm trời đằng đẵng.
@@ -9233,7 +9233,7 @@ Giây phút ấy, trong lòng ta khẽ thở dài, có lẽ ta cũng nên thu d�
   },{
     id: 449,
     title: "Món Quà Của Chú Mèo Ngốc",
-    image: "imgngon/4c24524a45b8d274d5479369d314025f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4c24524a45b8d274d5479369d314025f.jpg",
     link: "ngontinh/mon-qua-cua-chu-meo-ngoc.html",
     type: "ngontinh",
     desc: `Tôi va phải một con mèo Ba Tư đi lạc ngay dưới chân tòa nhà chung cư, ban đầu tôi cũng định nhắm mắt làm ngơ cho qua chuyện.
@@ -9251,7 +9251,7 @@ Tôi đơ toàn tập, chuyện tâm linh gì thế này, mèo bây giờ còn b
   },{
     id: 450,
     title: "Đập Chậu Cướp Hoa Trước Mặt Tra Nam",
-    image: "imgdam/4799a0bc03df93ad8a435027f65381d5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4799a0bc03df93ad8a435027f65381d5.jpg",
     link: "dammy/dap-chau-cuop-hoa-truoc-mat-tra-nam.html",
     type: "dammy",
     desc: `Mọi người đều đang hóng xem trò hề của tôi, bởi vì Lục Yến đã nhẫn tâm vứt bỏ tôi ngay tại lễ đính hôn để chạy theo ánh trăng sáng trong lòng anh ta.
@@ -9269,7 +9269,7 @@ Trước cái ngoảnh đầu đầy vẻ mất kiên nhẫn của anh ta, tôi 
   },{
     id: 451,
     title: "Phu Quân Công Tử Bột Theo Ta Về Quê Cày Ruộng",
-    image: "imgco/27c3223eff77e93c2eb5c1724b06d572.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/27c3223eff77e93c2eb5c1724b06d572.jpg",
     link: "cotrang/phu-quan-cong-tu-bot-theo-ta-ve-que-cay-ruong.html",
     type: "cotrang",
     desc: `Ta vốn sinh trưởng nơi thôn dã, mãi đến năm mười bảy tuổi mới có một ngày, người từ Kinh thành lặn lội tìm đến.
@@ -9291,7 +9291,7 @@ Ta liền nhanh tay xé nát mảnh giấy tuyệt tình ấy, thẳng tay ném 
   },{
     id: 452,
     title: "Giao Ước Bên Cạnh Người Mối Tình Đầu",
-    image: "imgngon/c5f0e41c206297d15f05428b6b367c18.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c5f0e41c206297d15f05428b6b367c18.jpg",
     link: "ngontinh/giao-uoc-ben-canh-nguoi-moi-tinh-dau.html",
     type: "ngontinh",
     desc: `Thẩm Thiến Diệp chính là con gái của mối tình đầu của cha tôi.
@@ -9305,7 +9305,7 @@ Cho đến khi tôi phát hiện ra người cha vốn có vẻ ngoài đầy đ
   },{
     id: 453,
     title: "Kẻ Thế Thân Của Đế Vương",
-    image: "imgdam/b0b1c5a061774b15e9a303618f33a98f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b0b1c5a061774b15e9a303618f33a98f.jpg",
     link: "dammy/ke-the-than-cua-de-vuong.html",
     type: "dammy",
     desc: `Ta cải trang làm tiểu quan, lặng lẽ trà trộn vào Nam Phong Lâu để dò xét một vụ trọng án.
@@ -9333,7 +9333,7 @@ Không ngờ hắn còn nói tiếp, giọng đầy men say ký ức: “Sau đ�
   },{
     id: 454,
     title: "Ngủ Nhầm Thiên Tử Định Nhân Duyên",
-    image: "imgco/f32c0888a5f243cd638ee0a05d8297c7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f32c0888a5f243cd638ee0a05d8297c7.jpg",
     link: "cotrang/ngu-nham-thien-tu-dinh-nhan-duyen.html",
     type: "cotrang",
     desc: `Ta bị vị hôn phu chê bai là nữ nhi chốn quê mùa nên đã thẳng thừng hủy hôn.
@@ -9353,7 +9353,7 @@ Thế nhưng ta lại bị vị thư sinh mặt ngọc kia chặn lại ở tron
   },{
     id: 455,
     title: "Hành Trình Tìm Lại Ánh Sáng",
-    image: "imgngon/c221e7aaf21acb1347f4c9714baee25f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c221e7aaf21acb1347f4c9714baee25f.jpg",
     link: "ngontinh/hanh-trinh-tim-lai-anh-sang.html",
     type: "ngontinh",
     desc: `Tôi nắm tay em gái và băng qua đường. Cảnh sát chặn tôi lại và hỏi: “Cô đang nắm tay ai à?”
@@ -9365,7 +9365,7 @@ Từ lúc quyết định trở thành tội phạm, tôi chưa bao giờ nghĩ 
   },{
     id: 456,
     title: "Cậu Nhóc Được Tôi Bao Nuôi Chính Là Tình Đầu",
-    image: "imgdam/85f07209cf67fd3e27919c343f9296f3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/85f07209cf67fd3e27919c343f9296f3.jpg",
     link: "dammy/cau-nhoc-duoc-toi-bao-nuoi-chinh-la-tinh-dau.html",
     type: "dammy",
     desc: `Tôi bỗng dưng nảy sinh tình cảm, rồi lại đi bao nuôi một nam sinh nghèo.
@@ -9387,7 +9387,7 @@ Sau này, cậu ta biết mình rất giống mối tình đầu của tôi.
   },{
     id: 457,
     title: "Hồng Nhan Gánh Vác Sơn Hà",
-    image: "imgco/596636ed8a75a805891060a6e5b1a345.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/596636ed8a75a805891060a6e5b1a345.jpg",
     link: "cotrang/hong-nhan-ganh-vac-son-ha.html",
     type: "cotrang",
     desc: `Vị hôn phu của ta ở thành Dương Châu vừa gây ra một vụ bê bối phong lưu chấn động.
@@ -9417,7 +9417,7 @@ Tạ Thời Cảnh, kẻ phong lưu như hắn, quả thực không xứng đán
   },{
     id: 458,
     title: "Kế Hoạch Yêu Lại Từ Đầu",
-    image: "imgngon/0564d2d30e7eb5e4679d072bb3dae25b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0564d2d30e7eb5e4679d072bb3dae25b.jpg",
     link: "ngontinh/ke-hoach-yeu-lai-tu-dau.html",
     type: "ngontinh",
     desc: `Trong chương trình truyền hình trực tiếp, tôi tiến hành phỏng vấn Thái tử gia Bắc Kinh, đặt câu hỏi về chuyện điên rồ nhất mà anh từng làm trong đời.
@@ -9443,7 +9443,7 @@ Thái tử gia ôm ghì lấy tôi, vừa hít hà mùi hương quen thuộc v�
   },{
     id: 459,
     title: "Thân Phận Bí Ẩn Của Đứa Con Hoang",
-    image: "imgdam/ebfda0737a647f8f574063ad2a77fb72.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ebfda0737a647f8f574063ad2a77fb72.jpg",
     link: "dammy/than-phan-bi-an-cua-dua-con-hoang.html",
     type: "dammy",
     desc: `Một lần ngoài ý muốn sau khi uống rượu, tôi lỡ mang thai.
@@ -9465,7 +9465,7 @@ Biết phải nói thế nào đây, khi thằng khốn đó… chính là hắn
   },{
     id: 460,
     title: "Hoán Đổi Kiệu Hoa",
-    image: "imgco/c43cef4846abb64c297a09f938653972.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c43cef4846abb64c297a09f938653972.jpg",
     link: "cotrang/hoan-doi-kieu-hoa.html",
     type: "cotrang",
     desc: `Ta là thứ nữ trong nhà, từ nhỏ đã luôn được đích tỷ chăm sóc chu đáo.
@@ -9489,7 +9489,7 @@ Ta không ngần ngại đáp: “Đổi thì đổi!”
   },{
     id: 461,
     title: "Oan Gia Ngõ Hẹp Bước Đến Lễ Đường",
-    image: "imgngon/69394e32c8b38c9afeb039c8aaf0fe6e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/69394e32c8b38c9afeb039c8aaf0fe6e.jpg",
     link: "ngontinh/oan-gia-ngo-hep-buoc-den-le-duong.html",
     type: "ngontinh",
     desc: `Thấy sắp trễ giờ làm, tôi chỉ đành đặt xe công nghệ chuyên dụng.
@@ -9509,7 +9509,7 @@ Còn tôi cũng không vừa, tặng ngay cho cậu ấy một đánh giá một
   },{
     id: 462,
     title: "Con Trai Đến Hiếu Kính Đây",
-    image: "imgdam/4d6c829f5f54ec33203b637b433c2586.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4d6c829f5f54ec33203b637b433c2586.jpg",
     link: "dammy/con-trai-den-hieu-kinh-day.html",
     type: "dammy",
     desc: `Bộ phim tôi đầu tư mời được ảnh đế Triệu Phúc. Khi truyền thông hỏi vì sao nhận cái phim rác này, Triệu Phúc chỉ cười: “Vì nhà tài trợ là cha nuôi tôi.”
@@ -9520,7 +9520,7 @@ Tối qua, Triệu Phúc hôn tôi run bần bật, thì thầm bên tai:
   },{
     id: 463,
     title: "Thái Tử Muốn Làm Mẫu Thân Của Ta",
-    image: "imgco/aa1a023aff97a01f72273c3f5a743a8a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aa1a023aff97a01f72273c3f5a743a8a.jpg",
     link: "cotrang/thai-tu-muon-lam-mau-than-cua-ta.html",
     type: "cotrang",
     desc: `Mẫu thân là đệ nhất mỹ nhân trong thiên hạ, Hoàng đế nhìn thấy mà bắt cung phi.
@@ -9544,7 +9544,7 @@ Một tháng sau, ta giật mình tỉnh giấc trong tẩm cung của Thái t�
   },{
     id: 464,
     title: "Người Cha Điếc Nuôi Dưỡng Thủ Khoa",
-    image: "imgngon/ghtjsaheke.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ghtjsaheke.jpg",
     link: "ngontinh/nguoi-cha-diec-nuoi-duong-thu-khoa.html",
     type: "ngontinh",
     desc: `Từ nhỏ tôi đã không có mẹ, chỉ sống nương tựa cùng cha.
@@ -9562,7 +9562,7 @@ Thế nhưng cha tôi vẫn kiên quyết không bỏ rơi tôi, ông cứ thế
   },{
     id: 465,
     title: "Kịch Bản Khổ Nhục Kế Của Đứa Cháu Nuôi",
-    image: "imgdam/58328157e80380e281d6e38c4d9e0472.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/58328157e80380e281d6e38c4d9e0472.jpg",
     link: "dammy/kich-ban-kho-nhuc-ke-cua-dua-chau-nuoi.html",
     type: "dammy",
     desc: `Nuôi nấng suốt hơn hai mươi năm trời, đùng một cái tôi phát hiện ra đứa cháu trai cưng của mình lại là thiếu gia giả mạo.
@@ -9580,7 +9580,7 @@ Vào cái ngày bị thiếu gia thật sự đuổi thẳng cổ ra khỏi nhà
   },{
     id: 466,
     title: "Hầu Môn Sủng Thiếp Diệt Thê",
-    image: "imgco/45c4ef24be968c4a24d7b156d19e8af2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/45c4ef24be968c4a24d7b156d19e8af2.jpg",
     link: "cotrang/hau-mon-sung-thiep-diet-the.html",
     type: "cotrang",
     desc: `Sau khi đích tỷ qua đời, ta được gả vào Hầu phủ làm kế thất. Ta đã tận tâm tận lực hầu hạ công công bà bà, ngày đêm quán xuyến hậu viện, chăm sóc chu đáo cho hai đứa con mà tỷ tỷ để lại. Chăm lo ròng rã suốt hai mươi năm trời, ta cứ ngỡ rằng bản thân có thể giành được chút thể diện và sự tôn trọng từ gia tộc này.
@@ -9598,7 +9598,7 @@ Cơ mà khi mở mắt ra một lần nữa, ta bàng hoàng nhận ra bản th�
   },{
     id: 467,
     title: "Lỡ Tay Kéo Nam Thần Vào Nhóm Chat Người Yêu Cũ",
-    image: "imgngon/1a90be8e324b86a6a79039461ac83807.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1a90be8e324b86a6a79039461ac83807.jpg",
     link: "ngontinh/lo-tay-keo-nam-than-vao-nhom-chat-nguoi-yeu-cu.html",
     type: "ngontinh",
     desc: `Uống say bí tỉ, tôi lỡ tay kéo hết người yêu cũ vào chung một nhóm chat.
@@ -9626,7 +9626,7 @@ Sau đó, anh dồn tôi vào góc tường, giọng nói bên tai đầy ẩn �
   },{
     id: 468,
     title: "Dây Dưa Với Con Trai Lão Đại",
-    image: "imgdam/e95aec6316bb663787f1dd6981611f0b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e95aec6316bb663787f1dd6981611f0b.jpg",
     link: "dammy/day-dua-voi-con-trai-lao-dai.html",
     type: "dammy",
     desc: `Tôi là Beta, phó bang của một băng đảng xã hội đen.
@@ -9652,7 +9652,7 @@ Trời đất sụp đổ rồi.
   },{
     id: 469,
     title: "Đừng Tìm Ta Nữa",
-    image: "imgco/4c5e558f781e789a409f36918e8bb4da.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4c5e558f781e789a409f36918e8bb4da.jpg",
     link: "cotrang/dung-tim-ta-nua.html",
     type: "cotrang",
     desc: `Bảy năm sau khi kết tóc se duyên cùng người nam nhân thâm tình, nữ chính trở lại.
@@ -9682,7 +9682,7 @@ Ta cúi đầu nhìn vào giỏ, vừa mua được ba con cá đao, trong tay c
   },{
     id: 470,
     title: "Hào Quang Không Dễ Trộm",
-    image: "imgngon/08eb5d1b49d40240e1fcf55658f61e15.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/08eb5d1b49d40240e1fcf55658f61e15.jpg",
     link: "ngontinh/hao-quang-khong-de-trom.html",
     type: "ngontinh",
     desc: `Em gái trộm điểm Đại học của tôi.
@@ -9706,7 +9706,7 @@ Học hành gian khổ nhiều năm, tri thức chính là nguồn sống của 
   },{
     id: 471,
     title: "Đồ Đệ Của Ta Muốn Song Tu ",
-    image: "imgdam/da32dade4e71256893f9fe1a1a0f6d2e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/da32dade4e71256893f9fe1a1a0f6d2e.jpg",
     link: "dammy/do-de-cua-ta-muon-song-tu.html",
     type: "dammy",
     desc: `Ta xuyên không thành sư tôn của Vô Tình đạo, giờ đây đang vô cùng hoảng loạn.
@@ -9726,7 +9726,7 @@ Sao ta lại quên mất đồ đệ cũng là một chức nghiệp nguy hiểm
   },{
     id: 472,
     title: "Nương Tử Ta Là Cao Thủ Kiếm Tiền",
-    image: "imgco/4a1770a5cc0af361a2e1c50a40859c76.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4a1770a5cc0af361a2e1c50a40859c76.jpg",
     link: "cotrang/nuong-tu-ta-la-cao-thu-kiem-tien.html",
     type: "cotrang",
     desc: `Phu quân ta đánh thắng trận, tám trăm dặm khẩn cấp đưa về một cô nương, nghe đâu có thể biểu diễn vũ điệu múa trên lòng bàn tay.
@@ -9746,7 +9746,7 @@ Hắn vẻ mặt hưng phấn chỉ vào cô nương đang xoay vòng nhảy nh�
   },{
     id: 473,
     title: "Chuyện Tình Thái Tử Gia Quảng Đông",
-    image: "imgngon/b37738c571eae5e4a14ea061a0b4e0e3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b37738c571eae5e4a14ea061a0b4e0e3.jpg",
     link: "ngontinh/chuyen-tinh-thai-tu-gia-quang-dong.html",
     type: "ngontinh",
     desc: `Tên bắt cóc lên tiếng: "Bảo tên bạn trai là Thái tử gia Quảng Đông của Thịnh Gia Bảo mang một trăm triệu đến đây chuộc cô về!"
@@ -9762,7 +9762,7 @@ Trên đường về nhà, vẻ mặt Thẩm Kính đầy đau lòng: "Em tin kh
   },{
     id: 474,
     title: "Duyên Nợ Độc Nhất Giữa Tổng Tài Và Bác Sĩ",
-    image: "imgdam/fcba0ba746a2716dfa9c3fea12345d0b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fcba0ba746a2716dfa9c3fea12345d0b.jpg",
     link: "dammy/duyen-no-doc-nhat-giua-tong-tai-va-bac-si.html",
     type: "dammy",
     desc: `Tôi là một tổng giám đốc hách dịch, không chỉ mắc bệnh dạ dày đặc trưng của giới quản lý mà còn bị thêm căn bệnh sỏi niệu đạo.
@@ -9780,7 +9780,7 @@ Thấy tôi xấu hổ đến mức muốn chết, hắn còn cười khẽ rồ
   },{
     id: 475,
     title: "Vỏ Bọc Ngọt Ngào Của Kẻ Tàn Nhẫn",
-    image: "imgco/d3513afcba8fd60575d620db652af677.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d3513afcba8fd60575d620db652af677.jpg",
     link: "cotrang/vo-boc-ngot-ngao-cua-ke-tan-nhan.html",
     type: "cotrang",
     desc: `Ngày tròn cập kê, tuyết rơi lớn.
@@ -9822,7 +9822,7 @@ Chỉ có Tạ Chiêu là thản nhiên cười nói, dáng vẻ đầy tùy ý,
   },{
     id: 476,
     title: "Chấp Niệm Sau Năm Năm",
-    image: "imgngon/751ccdd2969016fe4c87262d3e44c70f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/751ccdd2969016fe4c87262d3e44c70f.jpg",
     link: "ngontinh/chap-niem-sau-nam-nam.html",
     type: "ngontinh",
     desc: `Sau khi chia tay Thẩm Dục, tôi luôn nghĩ chúng tôi sẽ quay lại với nhau.
@@ -9846,7 +9846,7 @@ Nhưng khi thực sự ở bên Thẩm Dục, tôi mới bàng hoàng nhận ra 
   },{
     id: 477,
     title: "Hồ Ly Nhỏ Chuyện Hút Dương Khí Của Bạn Cùng Phòng",
-    image: "imgdam/eaf4bd7aa434d877822fb703d629a3d0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eaf4bd7aa434d877822fb703d629a3d0.jpg",
     link: "dammy/ho-ly-nho-chuyen-hut-duong-khi-cua-ban-cung-phong.html",
     type: "dammy",
     desc: `Tôi là con hồ ly đực đầu tiên trong núi thi đỗ đại học.
@@ -9864,7 +9864,7 @@ Sau này, tôi đỏ mặt kéo dây lưng của người bạn cùng phòng có
   },{
     id: 478,
     title: "Xé Nát Âm Mưu Mẫu Thân",
-    image: "imgco/cadfdd0cd36a8a3572823efa7e6d1006.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cadfdd0cd36a8a3572823efa7e6d1006.jpg",
     link: "cotrang/xe-nat-am-muu-mau-than.html",
     type: "cotrang",
     desc: `Phu quân của ta trùng sinh.
@@ -9880,7 +9880,7 @@ Kiếp này ta không còn phải gánh vác gông xiềng của ân cứu mạn
   },{
     id: 479,
     title: "Ảnh Đế Bị Đánh Khóc Lóc Trên Livestream",
-    image: "imgngon/8e425d37ac096ffb49cee7378726c43c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8e425d37ac096ffb49cee7378726c43c.jpg",
     link: "ngontinh/anh-de-bi-danh-khoc-loc-tren-livestream.html",
     type: "ngontinh",
     desc: `Tôi biết ông chồng ảnh đế của mình đang bao nuôi một em sinh viên đại học da dẻ trắng ngần, ngoại hình xinh đẹp. Vậy nên, tôi đêm nào cũng bay lắc ở quán bar, cưỡng ép nam sinh viên làm thêm phải uống rượu với mình.
@@ -9918,7 +9918,7 @@ Hotsearch bạo đỏ thẫm.
   },{
     id: 480,
     title: "Sống Lại Tôi Quyết Định Cưa Đổ Kẻ Thù Không Đội Trời Chung",
-    image: "imgdam/22a7bd0dc2d22db62b904fe23fbf065d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/22a7bd0dc2d22db62b904fe23fbf065d.jpg",
     link: "dammy/song-lai-toi-quyet-dinh-cua-do-ke-thu-khong-doi-troi-chung.html",
     type: "dammy",
     desc: `Ra nước ngoài hai năm, kẻ thù không đội trời chung của tôi khắp nơi tung tin đồn rằng tôi là bạch nguyệt quang của hắn.
@@ -9942,7 +9942,7 @@ Quả nhiên, dù miệng có cứng đến đâu, hôn lên rồi cũng mềm c
   },{
     id: 481,
     title: "Thái Tử Phi Nằm Gai Nếm Mật",
-    image: "imgco/39e8cffe879b8db5ed63318e4e56228e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/39e8cffe879b8db5ed63318e4e56228e.jpg",
     link: "cotrang/thai-tu-phi-nam-gai-nem-mat.html",
     type: "cotrang",
     desc: `Hắn nói muốn nạp thiếp, tối hôm đó ta liền đưa hai cô nương xinh đẹp vào phòng hắn.
@@ -9964,7 +9964,7 @@ Ngày đầu tiên gả cho Thái tử, Bùi Cảnh hỏi ta: "Phụ thân nàng
   },{
     id: 482,
     title: "Nhật Ký Sống Sót Giữa Bầy Sói Hắc Hóa",
-    image: "imgngon/e588bcaa9c21a82c75269339dcb90cc0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e588bcaa9c21a82c75269339dcb90cc0.jpg",
     link: "ngontinh/nhat-ky-song-sot-giua-bay-soi-hac-hoa.html",
     type: "ngontinh",
     desc: `Sau khi chết, tôi phải điên cuồng làm việc cày cuốc trong cái thế giới xuyên nhanh suốt ba năm trời.
@@ -9988,7 +9988,7 @@ Hàng tá con người hắc hóa đáng sợ như thế, chẳng lẽ chỉ ké
   },{
     id: 483,
     title: "Vết Xích Dưới Làn Da",
-    image: "imgdam/60ed923ad25b09db353526efd6446107.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/60ed923ad25b09db353526efd6446107.jpg",
     link: "dammy/vet-xich-duoi-lan-da.html",
     type: "dammy",
     desc: `Tôi là trai thẳng, nhưng số mệnh thì cực kỳ vượng phu.
@@ -10006,7 +10006,7 @@ Về sau cũng là cậu ta, bóp chặt eo tôi, thân mật liếm sạch nư�
   },{
     id: 484,
     title: "Hành Trình Nữ Đại Phu Trở Thành Sát Thủ Máu Lạnh",
-    image: "imgco/ceca2a0b7eb3982dc3f6f09405d16b72.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ceca2a0b7eb3982dc3f6f09405d16b72.jpg",
     link: "cotrang/hanh-trinh-nu-dai-phu-tro-thanh-sat-thu-mau-lanh.html",
     type: "cotrang",
     desc: `Tỷ tỷ của ta mở một tiệm đậu phụ ở thành tây.
@@ -10024,7 +10024,7 @@ Sau này, Công chúa mãi không thể hoài thai, ta, người vốn được 
   },{
     id: 485,
     title: "Ngọt Ngào Chuyện Tình Yêu Quân Nhân",
-    image: "imgngon/9fea5c690454aba554b69e760b2d2f36.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9fea5c690454aba554b69e760b2d2f36.jpg",
     link: "ngontinh/ngot-ngao-chuyen-tinh-yeu-quan-nhan.html",
     type: "ngontinh",
     desc: `Tôi sau khi uống say ngồi trên tàu cao tốc thì gặp được một nhóm quân nhân, không hiểu bằng thế lực nào tôi lại có thể lao đến ôm chầm lấy tay lãnh đạo của họ mà khóc lóc: "Tổ quốc bao giờ mới cấp cho tôi một anh người yêu đây hả!"
@@ -10044,7 +10044,7 @@ Tôi: ???
   },{
     id: 486,
     title: "Món Nợ Tình Cảm Của Đại Gia ",
-    image: "imgdam/52da6967d5b580591a638a18ebb347c1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/52da6967d5b580591a638a18ebb347c1.jpg",
     link: "dammy/mon-no-tinh-cam-cua-dai-gia.html",
     type: "dammy",
     desc: `Khi kênh livestream game của tôi cán mốc một triệu người theo dõi, tôi bốc trúng hình phạt là phải giả gái mặc nữ trang trong vòng một tiếng.
@@ -10074,7 +10074,7 @@ Và thế là, đại gia xem tôi mặc đồ hầu gái liền năm tiếng đ
   },{
     id: 487,
     title: "Mối Tình Đầu Của Đế Vương Đầy Mưu Kế",
-    image: "imgco/c43cef4846abb64c297a09f938653972.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c43cef4846abb64c297a09f938653972.jpg",
     link: "cotrang/moi-tinh-dau-cua-de-vuong-day-muu-ke.html",
     type: "cotrang",
     desc: `Năm ta tiến cung, ta vừa tròn mười bốn tuổi.
@@ -10086,7 +10086,7 @@ Ta muốn vào cung, trở thành vị phi tần được sủng ái nhất, l�
   },{
     id: 488,
     title: "Trò Cười Của Giới Thượng Lưu",
-    image: "imgngon/a8862b8dad00e6391650f194c959a7ab.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a8862b8dad00e6391650f194c959a7ab.jpg",
     link: "ngontinh/tro-cuoi-cua-gioi-thuong-luu.html",
     type: "ngontinh",
     desc: `Trúc mã môn đăng hộ đối của Kinh Vãn Mặc yêu tiểu bạch hoa sống ở khu ổ chuột.
@@ -10104,7 +10104,7 @@ Trong bữa tiệc chào đón Kinh Vãn Mặc, Trì Nghiễn Châu, người n�
   },{
     id: 489,
     title: "Tổng Giám Đốc Phải Ngủ Với Tôi Đêm Nay",
-    image: "imgdam/6bd2fc1ed2dc91720f0716a4b294d07e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6bd2fc1ed2dc91720f0716a4b294d07e.jpg",
     link: "dammy/tong-giam-doc-phai-ngu-voi-toi-dem-nay.html",
     type: "dammy",
     desc: `Tôi nằm bất động trên giường, ánh mắt đờ đẫn, lần thứ n đưa bàn tay run rẩy gõ dòng chữ lên công cụ tìm kiếm.
@@ -10126,7 +10126,7 @@ Dân làm thuê sống chết vì công việc, chỉ là một cuộc tình lã
   },{
     id: 490,
     title: "Hoàng Thượng Nghe Được Tiếng Lòng Của Hậu Cung",
-    image: "imgco/de58b6886f0c0d666d301b1b7ad11dc9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/de58b6886f0c0d666d301b1b7ad11dc9.jpg",
     link: "cotrang/hoang-thuong-nghe-duoc-tieng-long-cua-hau-cung.html",
     type: "cotrang",
     desc: `Ta là hoàng đế của Nam Tường Quốc.
@@ -10146,7 +10146,7 @@ Ai có thể giải thích cho trẫm, những điều quỷ quái gì đang x�
   },{
     id: 491,
     title: "Diễn Viên Lồng Tiếng Trở Thành Ảnh Hậu",
-    image: "imgngon/98256f8d826ed590baa7011d89a948a7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/98256f8d826ed590baa7011d89a948a7.jpg",
     link: "ngontinh/dien-vien-long-tieng-tro-thanh-anh-hau.html",
     type: "ngontinh",
     desc: `Bộ phim truyền hình của tiểu hoa đán mới nổi đã trở nên rất hot.
@@ -10176,7 +10176,7 @@ Tôi lột xác, trở thành ngôi sao đỉnh cao được vạn người chú
   },{
     id: 492,
     title: "Nắng Hạ Bên Anh",
-    image: "imgdam/5e36389031488244caa8cc2a07a0f21a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5e36389031488244caa8cc2a07a0f21a.jpg",
     link: "dammy/nang-ha-ben-anh.html",
     type: "dammy",
     desc: `Tất đen, tất trắng, kiểu xuyên thấu.
@@ -10194,7 +10194,7 @@ Cố Tri Viễn: "Chúc Thần Tinh, cậu đang cố quyến rũ ai vậy?"
   },{
     id: 493,
     title: "Kế Hoạch Tái Hôn Của Nàng Dâu Hầu Phủ",
-    image: "imgco/801001b5c5813828327677c01a970c76.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/801001b5c5813828327677c01a970c76.jpg",
     link: "cotrang/ke-hoach-tai-hon-cua-nang-dau-hau-phu.html",
     type: "cotrang",
     desc: `Khi ta được gả vào nhà họ Mạnh làm kế thất, ta đã sớm biết rõ Mạnh Thiên Hành vô cùng thâm tình với người vợ đã khuất họ Cố.
@@ -10218,7 +10218,7 @@ Nhưng ta gả đến đây, chưa từng hy vọng sẽ cùng hắn thiên trư
   },{
     id: 494,
     title: "Kẻ Thao Túng Phía Sau Hào Quang",
-    image: "imgngon/02fa0d17e21d2f9673418a3fd48fe3a9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/02fa0d17e21d2f9673418a3fd48fe3a9.jpg",
     link: "ngontinh/ke-thao-tung-phia-sau-hao-quang.html",
     type: "ngontinh",
     desc: `Trong bữa tiệc sinh nhật, Lương Lễ, người chồng sắp cưới cũng là bạn thuở nhỏ của Lục Dao, mang theo một cô gái lạ mặt xuất hiện.
@@ -10234,7 +10234,7 @@ Lục Dao bàng hoàng phát hiện: cô gái đó chính là em gái ruột c�
   },{
     id: 495,
     title: "Thế Thân Của Thiếu Gia Nhà Giàu",
-    image: "imgdam/069617fef35d12823c149a2e9d829d83.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/069617fef35d12823c149a2e9d829d83.jpg",
     link: "dammy/the-than-cua-thieu-gia-nha-giau.html",
     type: "dammy",
     desc: `Vì tiền, tôi chấp nhận thay người khác đi liên hôn.
@@ -10254,7 +10254,7 @@ Chính hắn đã gọi tôi tới, còn cùng tôi lăn lộn cả đêm.
   },{
     id: 496,
     title: "Phu Quân Muốn Ta Nuôi Dưỡng Tình Nhân",
-    image: "imgco/d466e421ef06436a57cb571628e4677c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d466e421ef06436a57cb571628e4677c.jpg",
     link: "cotrang/phu-quan-muon-ta-nuoi-duong-tinh-nhan.html",
     type: "cotrang",
     desc: `Khắp kinh thành không ai là không biết, thầy dạy học cho Thái tử, Thái phó Thẩm Hoài An có một nữ tử được hắn trân quý như ngọc.
@@ -10286,7 +10286,7 @@ Nếu đã tiếc nuối đến vậy thì ta sẽ giúp các ngươi viên mãn
   },{
     id: 497,
     title: "Bạn Gái Cũ Của Em Trai",
-    image: "imgngon/66ca468e961c2a29ccd817c588c601aa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/66ca468e961c2a29ccd817c588c601aa.jpg",
     link: "ngontinh/ban-gai-cu-cua-em-trai.html",
     type: "ngontinh",
     desc: `Trong chương trình trực tiếp, tôi phỏng vấn Thái tử gia Bắc Kinh, hỏi chuyện điên rồ nhất mà anh ấy từng làm.
@@ -10316,7 +10316,7 @@ Thái tử gia ôm chặt lấy tôi, vừa hít hà vừa hôn:
   },{
     id: 498,
     title: "Đêm Dài Bồi Thường Cho Em ",
-    image: "imgdam/391ee6a992b5f11a61e71ab1ed47549a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/391ee6a992b5f11a61e71ab1ed47549a.jpg",
     link: "dammy/dem-dai-boi-thuong-cho-em.html",
     type: "dammy",
     desc: `Dì ghẻ mang theo đứa em trai có vẻ không thẳng cho lắm.
@@ -10336,7 +10336,7 @@ Như thể đã quyết tâm làm điều gì đó, cậu ta mở đôi môi m�
   },{
     id: 499,
     title: "Gấu Trúc Nhỏ Làm Nũng Hồ Ly Chín Đuôi",
-    image: "imgco/d3919c97840e6724cd359be945c3787a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d3919c97840e6724cd359be945c3787a.jpg",
     link: "cotrang/gau-truc-nho-lam-nung-ho-ly-chin-duoi.html",
     type: "cotrang",
     desc: `Ta đã theo chân một con cáo có bộ lông loang lổ từ lúc nó còn vô danh tiểu tốt cho đến ngày nó lên làm Vua của muôn thú.
@@ -10360,7 +10360,7 @@ Nếu hắn hóa thành hình người cưỡi lên người ta thì đúng là 
   },{
     id: 500,
     title: "Người Cứu Chuộc Của Thiên Tài Bệnh Hoạn",
-    image: "imgngon/bc03361f982b2e61090202977f4672b8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bc03361f982b2e61090202977f4672b8.jpg",
     link: "ngontinh/nguoi-cuu-chuoc-cua-thien-tai-benh-hoan.html",
     type: "ngontinh",
     desc: `Sau khi kết hôn với Trì Ngôn Triệt, tôi mới biết anh ấy thực ra là thầy của giáo viên tôi, giáo sư vật lý trẻ nhất cả nước.
@@ -10372,7 +10372,7 @@ Trong bữa tiệc tri ân thầy cô, thầy tôi đã ôm lấy Trì Ngôn Tri
   },{
     id: 501,
     title: "Vệ Sĩ Của Tôi Đã Phá Vỡ Quy Tắc",
-    image: "imgdam/71c5f5f7ba61dfcf47cda0ebcddb4554.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/71c5f5f7ba61dfcf47cda0ebcddb4554.jpg",
     link: "dammy/ve-si-cua-toi-da-pha-vo-quy-tac.html",
     type: "dammy",
     desc: `Vệ sĩ của tôi từng là lính đánh thuê, một kẻ lạnh lùng, tàn nhẫn và luôn tuân thủ nguyên tắc.
@@ -10392,7 +10392,7 @@ Vòng ngăn cắn bị hắn giật đứt.
   },{
     id: 502,
     title: "Ngoảnh Lại Khôn Nguôi Kiếp Này Đoạn Tuyệt",
-    image: "imgco/b75f96e3e89c741aa4ffdef0aab818e3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b75f96e3e89c741aa4ffdef0aab818e3.jpg",
     link: "cotrang/ngoanh-lai-khon-nguoi-kiep-nay-doan-tuyet.html",
     type: "cotrang",
     desc: `10 năm công lược Hạ Tuân, ngoài ta ra, thiên hạ này còn ai xứng đáng trở thành Hoàng Hậu của y.
@@ -10418,7 +10418,7 @@ Một người sắp chết như ta, còn có cái gì để tranh giành chứ?
   },{
     id: 503,
     title: "Cuốn Sổ Bí Ẩn Kết Nối Hai Thời Không",
-    image: "imgngon/40ae25bebc1bd58ae07c87ba5cbfa4c2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/40ae25bebc1bd58ae07c87ba5cbfa4c2.jpg",
     link: "ngontinh/cuon-so-bi-an-ket-noi-hai-thoi-khong.html",
     type: "ngontinh",
     desc: `Trên đường về nhà sau khi bị làm nhục, tôi nhặt được một cuốn sổ tay không có tên.
@@ -10432,7 +10432,7 @@ Tôi coi nó như là nhật ký và viết xuống những nỗi ấm ức mà 
   },{
     id: 504,
     title: "Hoàng Trưởng Tử Dụ Dỗ Thẩm Phán Quyền Lực",
-    image: "imgdam/ee94338a85b56f616e89a037e4a237f7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ee94338a85b56f616e89a037e4a237f7.jpg",
     link: "dammy/hoang-truong-tu-du-do-tham-phan-quyen-luc.html",
     type: "dammy",
     desc: `Tôi là Đại hoàng tử Omega của Đế quốc.
@@ -10450,7 +10450,7 @@ Hắn cúi đầu nhìn thấy bụng tôi hơi nhô lên, ánh mắt thoáng ng
   },{
     id: 505,
     title: "Sát Thủ Xuyên Không Muốn Nghỉ Việc",
-    image: "imgco/a5bf5f967ea8ad48d24bc77c297273ea.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5bf5f967ea8ad48d24bc77c297273ea.jpg",
     link: "cotrang/sat-thu-xuyen-khong-muon-nghi-viec.html",
     type: "cotrang",
     desc: `Nếu kẻ đọc tiểu thuyết cổ trang, ắt hẳn chẳng còn xa lạ chi với tình tiết này.
@@ -10470,7 +10470,7 @@ Ta chính là kẻ sát thủ kia.
   },{
     id: 506,
     title: "Anh Trai Thái Tử Gia Vả Mặt Trà Xanh",
-    image: "imgngon/36530acc84d4e6c7af197486db7ad14c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/36530acc84d4e6c7af197486db7ad14c.jpg",
     link: "ngontinh/anh-trai-thai-tu-gia-va-mat-tra-xanh.html",
     type: "ngontinh",
     desc: `Anh tôi là nam chính trong tiểu thuyết, còn tôi là nữ phụ độc ác.
@@ -10488,7 +10488,7 @@ Ngốc hả, cốt truyện không thể ràng buộc được chó hoang tuột
   },{
     id: 507,
     title: "Ép Hôn Với Alpha Tôi Thấy Được Bình Luận Tương Lai",
-    image: "imgdam/fcf115225b305f63adf52a6cd46f4e04.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fcf115225b305f63adf52a6cd46f4e04.jpg",
     link: "dammy/ep-hon-voi-alpha-toi-thay-duoc-binh-luan-tuong-lai.html",
     type: "dammy",
     desc: `Đang ép Thẩm Trị lên tường mà hôn lấy hôn để, trước mắt tôi đột nhiên hiện ra một loạt bình luận:
@@ -10506,7 +10506,7 @@ Nhiều năm sau gặp lại, tôi bị trói chặt hai tay vào chiếc ghế 
   },{
     id: 508,
     title: "Tỷ Tỷ Cứu Đế Vương Lưu Lạc",
-    image: "imgco/6d32932afc9f8d7a6c174780db340e23.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6d32932afc9f8d7a6c174780db340e23.jpg",
     link: "cotrang/ty-ty-cuu-de-vuong-luu-lac.html",
     type: "cotrang",
     desc: `Ta vốn là thứ nữ trong phủ Tể tướng, lúc quốc nạn xảy ra, ta chia chút lương khô ít ỏi cho một kẻ ăn mày bên đường.
@@ -10522,7 +10522,7 @@ Kiếp này sống lại, ta lại thấy tỷ tỷ một lần nữa vươn tay
   },{
     id: 509,
     title: "Đỉnh Cao Danh Vọng Của Nữ Nhà Văn",
-    image: "imgngon/e84cdf06152a8f37f9b8240086796141.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e84cdf06152a8f37f9b8240086796141.jpg",
     link: "ngontinh/dinh-cao-danh-vong-cua-nu-nha-van.html",
     type: "ngontinh",
     desc: `Chị gái sinh đôi của Khương Huỳnh là một thiên tài, còn Khương Huỳnh thì tư chất bình thường.
@@ -10554,7 +10554,7 @@ Thế nhưng, Khương Huỳnh không chấp nhận số phận.
   },{
     id: 510,
     title: "Cậu Bạn Cùng Bàn Đáng Ghét Thích Cắn Tôi",
-    image: "imgdam/57ecbdb92d62534061c8a4df715691ef.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/57ecbdb92d62534061c8a4df715691ef.jpg",
     link: "dammy/cau-ban-cung-ban-dang-ghet-thich-can-toi.html",
     type: "dammy",
     desc: `Tôi có thói quen cắn đầu bút.
@@ -10580,7 +10580,7 @@ Cậu ta ghé sát tai tôi: “Cậu chẳng phải rất thích cắn đồ sa
   },{
     id: 511,
     title: "Nợ Một Đời Bình An",
-    image: "imgco/d05963ac59850cad1f312c06b489ebd2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d05963ac59850cad1f312c06b489ebd2.jpg",
     link: "cotrang/no-mot-doi-binh-an.html",
     type: "cotrang",
     desc: `Ta và tỷ tỷ từ nhỏ đã tranh đấu không ngừng.
@@ -10592,7 +10592,7 @@ Muốn thắng ta sao? Nào, cùng nhau so tài nào!
   },{
     id: 512,
     title: "Công Lược Thất Bại Nam Chính Bị Xóa Bỏ",
-    image: "imgngon/13083e16df800985f0929fae2bae8089.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/13083e16df800985f0929fae2bae8089.jpg",
     link: "ngontinh/cong-luoc-that-bai-nam-chinh-bi-xoa-bo.html",
     type: "ngontinh",
     desc: `Công lược Chu Hành hai mươi lăm năm, cuối cùng tôi cũng khiến anh cầu hôn.
@@ -10610,7 +10610,7 @@ Một giây sau, Chu Hành chết trong lòng bạch nguyệt quang.
   },{
     id: 513,
     title: "Giam Cầm Trái Tim Cậu Thiếu Gia Điên Loạn",
-    image: "imgdam/3ced9d2b8727a85770a5628dedaf7cf7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3ced9d2b8727a85770a5628dedaf7cf7.jpg",
     link: "dammy/giam-cam-trai-tim-cau-thieu-gia-dien-loan.html",
     type: "dammy",
     desc: `Vì tiền thuốc men chữa bệnh cho mẹ, tôi quyết định đến chăm sóc cậu thiếu gia tính khí thất thường, bệnh hoạn đó.
@@ -10626,7 +10626,7 @@ Thế nhưng, khi mở cửa căn nhà mới, tôi thấy Phó Tuần đang ng�
   },{
     id: 514,
     title: "Bánh Trôi Rượu Nếp Ngày Đông",
-    image: "imgco/515fd175e3bbb762f053f58ba165ae78.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/515fd175e3bbb762f053f58ba165ae78.jpg",
     link: "cotrang/banh-troi-ruou-nep-ngay-dong.html",
     type: "cotrang",
     desc: `Sau khi chuộc thân khỏi Tống gia, ta mở một tiệm bánh ngọt nhỏ ở thành Tây.
@@ -10654,7 +10654,7 @@ Nào ngờ vào ngày xem mắt, con trai cả của Tống gia mặc bộ quan 
   },{
     id: 515,
     title: "Sói Tuyết Lạnh Lùng Và Cuộc Tình Mới Của Cô Chủ Nhỏ",
-    image: "imgngon/f64fa3006599a077fdfd4bee40be8b3c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f64fa3006599a077fdfd4bee40be8b3c.jpg",
     link: "ngontinh/soi-tuyet-lanh-lung-va-cuoc-tinh-moi-cua-co-chu-nho.html",
     type: "ngontinh",
     desc: `Tôi vẫn luôn cho rằng bản tính của nhân thú trời sinh vốn dĩ lãnh đạm, cho nên Liễu Vũ mới thích chạm vào Lạc Bắc.
@@ -10670,7 +10670,7 @@ Liễu Vũ chưa bao giờ là sự cứu rỗi của họ cả.
   },{
     id: 516,
     title: "Ngày Tháng Dưỡng Thành",
-    image: "imgdam/6f107b8d022a9066849f74c58890048d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6f107b8d022a9066849f74c58890048d.jpg",
     link: "dammy/ngay-thang-duong-thanh.html",
     type: "dammy",
     desc: `Khi bị đứa trẻ ta nhặt về từ bé đè trên giường, ta đã khuyên nhủ hắn bằng cả tấm lòng.
@@ -10684,7 +10684,7 @@ Ta thở phào nhẹ nhõm: "Vậy bây giờ, ngươi có thể đừng cởi q
   },{
     id: 517,
     title: "Kiếp Này Nguyện Làm Minh Châu Của Người",
-    image: "imgco/95b23e2851d95174d49b2079d2f93993.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/95b23e2851d95174d49b2079d2f93993.jpg",
     link: "cotrang/kiep-nay-nguyen-lam-minh-chau-cua-nguoi.html",
     type: "cotrang",
     desc: `Ta là đứa con gái nghịch tử của đại gian thần, lúc này đây đang hạ quyết tâm cưỡng ép chiếm đoạt vị vương gia kia.
@@ -10704,7 +10704,7 @@ Khoan đã, vậy thì kẻ đang nằm trong chăn của ta là ai thế này?
   },{
     id: 518,
     title: "Nợ Thanh Xuân Trả Bằng Tội Ác",
-    image: "imgngon/1c454e3b6307e7743342fe1d94de4e34.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1c454e3b6307e7743342fe1d94de4e34.jpg",
     link: "ngontinh/no-thanh-xuan-tra-bang-toi-ac.html",
     type: "ngontinh",
     desc: `Tôi đang đắm chìm trong hạnh phúc khi sắp cùng bạn trai gắn bó bốn năm chuẩn bị kết hôn thì mối tình đầu của Chu Nguyên Khải dắt một bé gái đến gõ cửa nhà.
@@ -10714,7 +10714,7 @@ Lúc đó tôi mới nhận ra bản chất con người Chu Nguyên Khải th�
   },{
     id: 519,
     title: "Đại Cao Thủ Trong Game Lại Là Bạn Cùng Phòng Của Tôi ",
-    image: "imgdam/33361086ff150bdac82e7401414dfd68.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/33361086ff150bdac82e7401414dfd68.jpg",
     link: "dammy/dai-cao-thu-trong-game-lai-la-ban-cung-phong-cua-toi.html",
     type: "dammy",
     desc: `Vì muốn leo rank trong trò chơi PUBG, tôi đã bắt đầu một mối quan hệ qua mạng với một sinh viên đại học.
@@ -10740,7 +10740,7 @@ Sau đó, Chu Kỳ ép tôi nằm trên giường, giọng nói của tôi trở
   },{
     id: 520,
     title: "Phượng Hoàng Trong Lửa Đỏ",
-    image: "imgco/5cbcde98abe948008a92944391acefe1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5cbcde98abe948008a92944391acefe1.jpg",
     link: "cotrang/phuong-hoang-trong-lua-do.html",
     type: "cotrang",
     desc: `Ngày Dịch phu nhân của phủ Tướng quân hạ sinh con gái, bầu trời khắp kinh thành ngập tràn những áng mây hồng, kim quang chiếu rọi khắp căn phòng.
@@ -10756,7 +10756,7 @@ Chỉ có ta mới biết rằng, những lời hắn nói đều là sự thậ
   },{
     id: 521,
     title: "Đừng Coi Thường Nạn Nhân Sau Bi Kịch",
-    image: "imgngon/19eb964e17a4ae1ccd4e8f8f8bc5f318.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/19eb964e17a4ae1ccd4e8f8f8bc5f318.jpg",
     link: "ngontinh/dung-coi-thuong-nan-nhan-sau-bi-kich.html",
     type: "ngontinh",
     desc: `Sau khi gặp chuyện, Cố Trạch Xuyên khóa chiếc xe đua, nhuộm tóc đen và bỏ thuốc lá.
@@ -10778,7 +10778,7 @@ Cô gái đó chính là trợ lý nhỏ mà Cố Trạch Xuyên từng đuổi 
   },{
     id: 522,
     title: "Rắn Nhỏ Ngốc Nghếch Của Ảnh Đế",
-    image: "imgdam/42f792edff0037591008cc476f059f87.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/42f792edff0037591008cc476f059f87.jpg",
     link: "dammy/ran-nho-ngoc-nghech-cua-anh-de.html",
     type: "dammy",
     desc: `Tôi là một con rắn, để vượt qua mùa đông, tôi đã giả làm rắn cái và dựa vào một con rắn đực để sưởi ấm.
@@ -10792,7 +10792,7 @@ Nhưng Lục Huyền lại quấn chặt tôi.
   },{
     id: 523,
     title: "Đời Này Kiếp Này Chỉ Có Người",
-    image: "imgco/e84e0d0343ffef849f7d977d6d8c1fd6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e84e0d0343ffef849f7d977d6d8c1fd6.jpg",
     link: "cotrang/doi-nay-kiep-nay-chi-co-nguoi.html",
     type: "cotrang",
     desc: `Mẹ và cha đem ta đi cầm cố, đây là lần thứ ba mẹ và cha cho kẻ khác thuê ta.
@@ -10814,7 +10814,7 @@ Cái quỳ đó, ta định sẵn cả đời này sẽ làm trâu làm ngựa t
   },{
     id: 524,
     title: "Nơi Chữa Lành Cho Nô Lệ Tư Bản",
-    image: "imgngon/ada80f61a7daca3a60e58e3c552dda86.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ada80f61a7daca3a60e58e3c552dda86.jpg",
     link: "ngontinh/ve-chua-lam-cong-cho-duc-phat.html",
     type: "ngontinh",
     desc: `Tôi tìm được việc ở chùa: Lương tháng 15 triệu, nghỉ cuối tuần, bảo hiểm 7 loại và quỹ nhà ở, bao ăn ở, KPI tùy duyên.
@@ -10830,7 +10830,7 @@ Nhưng rồi, trụ trì của chùa, từng là một lập trình viên 28 tu�
   },{
     id: 525,
     title: "Thiếu Gia Giả Đòi Cướp Tôi Làm Của Riêng",
-    image: "imgdam/9260b976d48e765e27028fec87a34408.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9260b976d48e765e27028fec87a34408.jpg",
     link: "dammy/thieu-gia-gia-doi-cuop-toi-lam-cua-rieng.html",
     type: "dammy",
     desc: `Sống đến mười tám tuổi tôi mới biết mình là con trai của một tỷ phú.
@@ -10846,7 +10846,7 @@ Sau đó, tôi ôm mông chửi hắn:
   },{
     id: 526,
     title: "Hoàng Hậu Giả Vờ Mất Trí Nhớ Để Trị Hoàng Thượng",
-    image: "imgco/ec3fc97dd005e79fb0228a7887dbcb50.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ec3fc97dd005e79fb0228a7887dbcb50.jpg",
     link: "cotrang/hoang-hau-gia-vo-mat-tri-nho-de-tri-hoang-thuong.html",
     type: "cotrang",
     desc: `Đêm Hoàng thượng cưới tiểu thư nhà Thừa tướng, thế nhân đều đồn đại Hoàng hậu đã phát điên.
@@ -10878,7 +10878,7 @@ Một loạt âm thanh hỗn loạn ập vào tai ta, chất lỏng ấm nóng c
   },{
     id: 527,
     title: "Xuyên Không Trở Thành Người Giúp Việc Của Tổng Tài Hắc Hóa",
-    image: "imgngon/1ec191f4daff0b602dcd468b6c221a42.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1ec191f4daff0b602dcd468b6c221a42.jpg",
     link: "ngontinh/xuyen-khong-tro-thanh-nguoi-giup-viec-cua-tong-tai-hac-hoa.html",
     type: "ngontinh",
     desc: `Tôi xuyên sách rồi. Điều khiến tôi sốc tận óc chính là việc mình xuyên thẳng lên giường trùm phản diện.
@@ -10912,7 +10912,7 @@ Nói hay lắm, mà vẻ lạnh lùng đâu rồi, sự tàn nhẫn đi đâu m�
   },{
     id: 528,
     title: "Tình Yêu Cố Chấp Của Đứa Em Trai Giả",
-    image: "imgdam/426407c2b420e650857a6f19060185a5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/426407c2b420e650857a6f19060185a5.jpg",
     link: "dammy/tinh-yeu-co-chap-cua-dua-em-trai-gia.html",
     type: "dammy",
     desc: `Từ nhỏ tôi đã ghét cay ghét đắng thằng em trai, vậy mà hóa ra nó là giả.
@@ -10943,7 +10943,7 @@ Hận chưa kịp nảy mầm, tình yêu đã nở hoa.
   },{
     id: 529,
     title: "Cung Nữ Mang Mệnh Sát Tinh",
-    image: "imgco/fa79ad9571ef07096ed22091915d27f6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fa79ad9571ef07096ed22091915d27f6.jpg",
     link: "cotrang/cung-nu-mang-menh-sat-tinh.html",
     type: "cotrang",
     desc: `Là một cung nữ, ta mang tiếng xấu khắp hậu cung. Kẻ nào được ta hầu hạ, cuối cùng đều kết thúc cuộc đời trong thảm cảnh, chẳng rõ nơi chôn thây.
@@ -10957,7 +10957,7 @@ Vì mang danh khắc chết quá nhiều người, hoàng thượng ban ta cho L
   },{
     id: 530,
     title: "Hạnh Phúc Không Máu Mủ",
-    image: "imgngon/2359726e002d3c159b56323df8f11291.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2359726e002d3c159b56323df8f11291.jpg",
     link: "ngontinh/hanh-phuc-khong-mau-mu.html",
     type: "ngontinh",
     desc: `Mẹ tôi vì muốn dỗ dành con nuôi là Tống Miểu Miểu đã trượt đại học vui vẻ, đã tự ý xé túi hồ sơ của tôi.
@@ -10983,7 +10983,7 @@ Tôi quay người, lấy túi hồ sơ của Tống Miểu Miểu ra.
   },{
     id: 531,
     title: "Thực Tập Sinh Bá Đạo Chấn Chỉnh Cấp Trên",
-    image: "imgdam/b09172c983ab58434b39a6a09b45cc9d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b09172c983ab58434b39a6a09b45cc9d.jpg",
     link: "dammy/thuc-tap-sinh-ba-dao-chan-chinh-cap-tren.html",
     type: "dammy",
     desc: `Người ta đều nói giới trẻ đang chấn chỉnh chốn công sở, nhưng chuyện đó chẳng liên quan gì đến tôi.
@@ -11001,7 +11001,7 @@ Tôi mới không nỡ đánh anh ấy.
   },{
     id: 532,
     title: "Tiếng Lòng Khó Đỡ Của Hoàng Thượng",
-    image: "imgco/cb5e0df98c0b7dfa686c22e9f1b28db5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb5e0df98c0b7dfa686c22e9f1b28db5.jpg",
     link: "cotrang/tieng-long-kho-do-cua-hoang-thuong.html",
     type: "cotrang",
     desc: `Ta vô tình có thể nghe được tiếng lòng của Hoàng thượng.
@@ -11017,7 +11017,7 @@ Ta nghĩ: “Ngài đừng quá lố lăng như vậy.”
   },{
     id: 533,
     title: "Vạch Trần Chiêu Trò Con Dâu Tham Lam",
-    image: "imgngon/5c08d8338ecd16130555ac06843a4cfc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c08d8338ecd16130555ac06843a4cfc.jpg",
     link: "ngontinh/vach-tran-chieu-tro-con-dau-tham-lam.html",
     type: "ngontinh",
     desc: `Con dâu tương lai của tôi bận rộn với công việc nên nhờ tôi mua giúp bộ năm món vàng cho đám cưới.
@@ -11031,7 +11031,7 @@ Tôi mua nó cho con dâu tương lai, từ một thương hiệu nổi tiếng,
   },{
     id: 534,
     title: "Vòng Lặp Cứu Rỗi",
-    image: "imgdam/6795af19929f966c4c6c0d8554e1f77a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6795af19929f966c4c6c0d8554e1f77a.jpg",
     link: "dammy/vong-lap-cuu-roi.html",
     type: "dammy",
     desc: `Sau khi biết Tống Diễn Đông thầm thích tôi, để ngăn cậu ấy tự sát, tôi chủ động tỏ tình, và thành công bắt đầu mối quan hệ với cậu.
@@ -11055,7 +11055,7 @@ Tên khốn này rõ ràng cố tình.
   },{
     id: 535,
     title: "Gia Phả Này Có Chút Bất Thường",
-    image: "imgco/82967b74c26e07ccc0bcecc55042d158.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/82967b74c26e07ccc0bcecc55042d158.jpg",
     link: "cotrang/gia-pha-nay-co-chut-bat-thuong.html",
     type: "cotrang",
     desc: `Ta là tỷ tỷ của Ma tôn. Thầy bói tiên đoán rằng, khí vận chi tử tương lai sẽ diệt sạch cửu tộc nhà ta.
@@ -11073,7 +11073,7 @@ Nam chính: ?
   },{
     id: 536,
     title: "Tội Ác Trong Xiềng Xích",
-    image: "imgngon/e7b030e761e86e1ee97e4f63d8d1050c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7b030e761e86e1ee97e4f63d8d1050c.jpg",
     link: "ngontinh/toi-ac-trong-xieng-xich.html",
     type: "ngontinh",
     desc: `Tôi nắm tay em gái và băng qua đường. Cảnh sát chặn tôi lại và hỏi: “Cô đang nắm tay ai?"
@@ -11085,7 +11085,7 @@ Từ lúc quyết định trở thành tội phạm, tôi chưa bao giờ nghĩ 
   },{
     id: 537,
     title: "Mèo Con Hay Ghen",
-    image: "imgdam/0215313e3ed4f7d2d4da92cbe8c39b31.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0215313e3ed4f7d2d4da92cbe8c39b31.jpg",
     link: "dammy/meo-con-hay-ghen.html",
     type: "dammy",
     desc: `Một giấc mơ kỳ lạ đưa tôi trở thành con mèo của người tôi thầm thương trộm nhớ là Giang Thước.
@@ -11103,7 +11103,7 @@ Sao lại thế được.
   },{
     id: 538,
     title: "Hoàng Hậu Chỉ Muốn Lười Biếng Mà Thôi",
-    image: "imgco/e7b934d07f97693dd478137e8ec59552.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7b934d07f97693dd478137e8ec59552.jpg",
     link: "cotrang/hoang-hau-chi-muon-luoi-bieng-ma-thoi.html",
     type: "cotrang",
     desc: `Ta là công chúa nổi tiếng ăn hại của Đại Ân, văn võ song toàn thì chẳng thấy đâu, chỉ được mỗi cái mã ngoài đẹp đẽ.
@@ -11127,7 +11127,7 @@ Tề Nghiên: "..."
   },{
     id: 539,
     title: "Ảnh Đế Muốn Làm Bố Vì Nhầm Lẫn",
-    image: "imgngon/759a4ebc330cf98892bef14582928070.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/759a4ebc330cf98892bef14582928070.jpg",
     link: "ngontinh/anh-de-muon-lam-bo-vi-nham-lan.html",
     type: "ngontinh",
     desc: `Tôi là nữ minh tinh thích câu cá nhất showbiz.
@@ -11145,7 +11145,7 @@ Tôi ôm con cá 8 cân 2 lạng: “?”
   },{
     id: 540,
     title: "Bẫy Ngọt Ngào",
-    image: "imgdam/d16325afcbd0a9513d5df68af7e90897.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d16325afcbd0a9513d5df68af7e90897.jpg",
     link: "dammy/bay-ngot-ngao.html",
     type: "dammy",
     desc: `Khi tôi bị bắt nạt, chỉ có con trai riêng của bố dượng là người bảo vệ tôi.
@@ -11161,7 +11161,7 @@ Sau này, Lục An lại quỳ trên mảnh kính vỡ, đâm con dao vào ngự
   },{
     id: 541,
     title: "Hạnh Phúc Bên Chàng",
-    image: "imgco/11daf8b18476407ea27e4a85f9a988d6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/11daf8b18476407ea27e4a85f9a988d6.jpg",
     link: "cotrang/hanh-phuc-ben-chang.html",
     type: "cotrang",
     desc: `Ta gả cho một công tử mà ta yêu.
@@ -11207,7 +11207,7 @@ Chỉ là họ lại dùng cách lừa dối, chẳng chân thành với ta.
   },{
     id: 542,
     title: "Chuyện Tình Thanh Mai Trúc Mã Của Tôi",
-    image: "imgngon/3d21db44fcc176d761b74925f32a974a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3d21db44fcc176d761b74925f32a974a.jpg",
     link: "ngontinh/chuyen-tinh-thanh-mai-truc-ma-cua-toi.html",
     type: "ngontinh",
     desc: `Thấy sắp trễ giờ làm, tôi chỉ đành đặt xe taxi chuyên dụng.
@@ -11227,7 +11227,7 @@ Tôi đánh giá cậu ấy 1 sao trên ứng dụng.
   },{
     id: 543,
     title: "Trọng Sinh Làm Trâu Làm Ngựa Cho Tư Bản",
-    image: "imgdam/ce228b07881cbbb703521a4f438205e6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ce228b07881cbbb703521a4f438205e6.jpg",
     link: "dammy/trong-sinh-lam-trau-lam-ngua-cho-tu-ban.html",
     type: "dammy",
     desc: `Tôi cùng với Thừa tướng đã cúc cung tận tụy làm trâu làm ngựa cho vị vua hôn quân suốt hai mươi năm, chưa từng được nghỉ một ngày phép nào.
@@ -11263,7 +11263,7 @@ Tôi tức điên, tát cho một phát:
   },{
     id: 544,
     title: "Đợi Ngày Phu Quân Tỉnh Giấc",
-    image: "imgco/whwjkwsnajkewkwn3jsns.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/whwjkwsnajkewkwn3jsns.jpg",
     link: "cotrang/doi-ngay-phu-quan-tinh-giac.html",
     type: "cotrang",
     desc: `Ta vốn là một mỹ nhân thân thể mỏng manh, lại thêm tính tình yếu ớt, quanh năm suốt tháng chỉ biết bầu bạn với thuốc thang.
@@ -11275,7 +11275,7 @@ Bảy năm sau ngày ta rời bỏ nhân thế, phu quân dẫn về nhà một 
   },{
     id: 545,
     title: "Vợ Hợp Pháp Của Ảnh Đế",
-    image: "imgngon/87507c8374fd0e1a7f075e6647bbd42d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/87507c8374fd0e1a7f075e6647bbd42d.jpg",
     link: "ngontinh/vo-hop-phap-cua-anh-de.html",
     type: "ngontinh",
     desc: `Trước ngày cưới, người yêu cũ của Chu Việt thông báo mắc bệnh nan y, chỉ còn sống được 3 tháng. Chu Việt tổ chức cho cô ta một đám cưới hoành tráng để cô ta rời đi mà không còn gì tiếc nuối. Tống Thời Sênh hỏi: “Vậy còn em thì sao? Ba tháng sau thì sao?”
@@ -11291,7 +11291,7 @@ Cho đến khi tin tức Tống Thời Sênh hẹn hò với người đàn ông
   },{
     id: 546,
     title: "Gả Cho Phản Diện Mỹ Cường Thảm",
-    image: "imgdam/c117e57d7cc9268206d91f0085c12303.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c117e57d7cc9268206d91f0085c12303.jpg",
     link: "dammy/ga-cho-phan-dien-my-cuong-tham.html",
     type: "dammy",
     desc: `Hình mẫu lý tưởng của tôi chính là mỹ cường thảm.
@@ -11319,7 +11319,7 @@ Tôi lập tức giơ tay:
   },{
     id: 547,
     title: "Mang Hưu Thư Đến Cửa Phủ",
-    image: "imgco/451159b1de518a578fd98ce1e9826be2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/451159b1de518a578fd98ce1e9826be2.jpg",
     link: "cotrang/mang-huu-thu-den-cua-phu.html",
     type: "cotrang",
     desc: `Ta bán đậu hủ mười tám năm, nuôi lớn ba đứa con, phu quân lại muốn tiếp ta đến kinh thành làm thiếp.
@@ -11333,7 +11333,7 @@ Ta là thương nhân giàu có Giang Nam, làm thiếp, hắn cũng xứng sao?
   },{
     id: 548,
     title: "Sếp Hồ Ly Bám Theo Đòi Báo Ân",
-    image: "imgngon/15b1c1fd80c641fa218540c4aec3bca2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/15b1c1fd80c641fa218540c4aec3bca2.jpg",
     link: "ngontinh/sep-ho-ly-bam-theo-doi-bao-an.html",
     type: "ngontinh",
     desc: `Nhà đột nhiên xuất hiện một con hồ ly trắng.
@@ -11351,7 +11351,7 @@ Cả ngày cứ yên lặng, luôn muốn gần gũi, ôm ấp tôi mỗi đêm.
   },{
     id: 549,
     title: "Người Tình Của Boss Hệ Thống",
-    image: "imgdam/3b2135ef247a7148b46f9ea2630d3ec1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3b2135ef247a7148b46f9ea2630d3ec1.jpg",
     link: "dammy/nguoi-tinh-cua-boss-he-thong.html",
     type: "dammy",
     desc: `Tôi là nam chính trong tiểu thuyết, giỏi nhất khoản biến mọi thứ thành màu vàng.
@@ -11367,7 +11367,7 @@ Boss: “???”
   },{
     id: 550,
     title: "Bạc Đầu Giai Lão Trọn Vẹn Bên Chàng",
-    image: "imgco/b7fcce7816a7ac91de972b5fc8f62bb9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b7fcce7816a7ac91de972b5fc8f62bb9.jpg",
     link: "cotrang/bac-dau-giai-lao-tron-ven-ben-chang.html",
     type: "cotrang",
     desc: `Kiếp trước, ta gả cho một kẻ bội bạc dẫn đến kết cục bị chết thảm.
@@ -11385,7 +11385,7 @@ Mà giờ đây, ta đã sống lại.
   },{
     id: 551,
     title: "Bẫy Ngọt Của Thái Tử Gia",
-    image: "imgngon/47d67d399aeeb6ad29f8f0c8c77b6f81.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47d67d399aeeb6ad29f8f0c8c77b6f81.jpg",
     link: "ngontinh/bay-ngot-cua-thai-tu-gia.html",
     type: "ngontinh",
     desc: `Sau khi giúp chị gái cho Thái Tử Gia Bắc Kinh uống thuốc xong, chị ấy chạy mất dạng, còn tôi thì không chạy kịp, bị Thái tử gia một phát ôm chặt cứng.
@@ -11407,7 +11407,7 @@ Hắn ta xông vào phòng tôi, đặt tôi lên đùi, trên tay lắc lư m�
   },{
     id: 552,
     title: "Kẻ Thù Không Đội Trời Chung Bỗng Nhiên Muốn Cưới Tôi",
-    image: "imgdam/a0725ecc01736585e736697dc1b6cfed.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a0725ecc01736585e736697dc1b6cfed.jpg",
     link: "dammy/ke-thu-khong-doi-troi-chung-bong-nhien-muon-cuoi-toi.html",
     type: "dammy",
     desc: `Tôi và kẻ thù không đội trời chung đã tiến đến bước bàn chuyện cưới xin, thì đột nhiên hắn mất trí nhớ.
@@ -11425,7 +11425,7 @@ Nhìn khuôn mặt Hà Tích Di lúc thì đỏ lên, lúc thì xanh lét, rồi
   },{
     id: 553,
     title: "Bỏ Lỡ Một Đời Hoa Nở",
-    image: "imgco/b170cc7d459042f0a4de1a6cb2dbab1f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b170cc7d459042f0a4de1a6cb2dbab1f.jpg",
     link: "cotrang/bo-lo-mot-doi-hoa-no.html",
     type: "cotrang",
     desc: `Ngày ta quyết định hòa ly với Bùi Thanh Thư, cũng chỉ là một ngày bình thường như bao ngày khác.
@@ -11451,7 +11451,7 @@ Nhưng khi nhìn thấy bông phượng tiên trên đầu ta, mẹ của Xuân 
   },{
     id: 554,
     title: "Âm Thanh Tình Yêu Muộn Màng",
-    image: "imgngon/10c76fffdb20c2774ecc0a1c0d05d8d5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/10c76fffdb20c2774ecc0a1c0d05d8d5.jpg",
     link: "ngontinh/am-thanh-tinh-yeu-muon-mang.html",
     type: "ngontinh",
     desc: `Bạn gái cũ của bạn trai tôi bị mất trí nhớ, và ký ức của cô ấy dừng lại ở năm họ yêu nhau nhất.
@@ -11475,7 +11475,7 @@ Ngày hôm sau, tôi đến bệnh viện làm phẫu thuật, bỏ đứa con �
   },{
     id: 555,
     title: "Bí Mật Của Người Chồng Hoàn Hảo",
-    image: "imgdam/786f9823a082665fcd40321d815161a1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/786f9823a082665fcd40321d815161a1.jpg",
     link: "dammy/bi-mat-cua-nguoi-chong-hoan-hao.html",
     type: "dammy",
     desc: `Sau vụ tai nạn, tôi mất đi sáu năm ký ức và chết lặng khi biết mình đã kết hôn.
@@ -11501,7 +11501,7 @@ Không phải chứ? Người này chẳng phải là chú nhỏ của Hàn Minh
   },{
     id: 556,
     title: "Xuyên Không Làm Vợ Phu Quân Ngốc",
-    image: "imgco/80b4e43bf73d53e7032da6b2a6a05b96.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/80b4e43bf73d53e7032da6b2a6a05b96.jpg",
     link: "cotrang/xuyen-khong-lam-vo-phu-quan-ngoc.html",
     type: "cotrang",
     desc: `Xuyên không tới thế gian này lại được ban tặng thêm một phu quân.
@@ -11539,7 +11539,7 @@ Nghi lễ trước bữa ăn đến đây là hoàn tất.
   },{
     id: 557,
     title: "Báo Ân Kiểu Này Hơi Lạ Lùng",
-    image: "imgngon/da36298bec4d5914184be77e155a9592.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/da36298bec4d5914184be77e155a9592.jpg",
     link: "ngontinh/bao-an-kieu-nay-hoi-la-lung.html",
     type: "ngontinh",
     desc: `Đến năm thứ ba yêu đương trong bóng tối với Chu Gia Thuật, anh ta đột ngột tuyên bố kết hôn.
@@ -11563,7 +11563,7 @@ Rồi sau đó, có người chụp được cảnh vị tổ tông quyền lự
   },{
     id: 558,
     title: "Hủy Hợp Đồng Thế Thân Tổng Tài Bá Đạo Hối Hận Rồi",
-    image: "imgdam/af92ed20ce47790dc46188c64eeafa6f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/af92ed20ce47790dc46188c64eeafa6f.jpg",
     link: "dammy/huy-hop-dong-the-than-tong-tai-ba-dao-hoi-han-roi.html",
     type: "dammy",
     desc: `Tôi vốn dĩ là kẻ thế thân, còn chính chủ lại là một đóa trà xanh chính hiệu với thân hình bệnh nhược yếu ớt.
@@ -11581,7 +11581,7 @@ Phó Thanh Thời với đôi mắt đỏ ngầu giận dữ, ném thẳng đóa
   },{
     id: 559,
     title: "Kế Hoạch Từ Hôn Của Tướng Quân",
-    image: "imgco/1c3a935336d3fc98525bfa9b95832926.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1c3a935336d3fc98525bfa9b95832926.jpg",
     link: "cotrang/ke-hoach-tu-hon-cua-tuong-quan.html",
     type: "cotrang",
     desc: `Vào ngày sinh thần của ta, tuyết rơi dày đặc, Tô Dật Thần đến từ hôn.
@@ -11617,7 +11617,7 @@ Hắn chẳng còn cách nào, thở dài bất lực: "Rốt cuộc nàng muố
   },{
     id: 560,
     title: "Kẻ Phản Bội Nhận Trái Đắng",
-    image: "imgngon/f2c656f1067ba9d73e05d0db33eeb505.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f2c656f1067ba9d73e05d0db33eeb505.jpg",
     link: "ngontinh/ke-phan-boi-nhan-trai-dang.html",
     type: "ngontinh",
     desc: `Sau khi hoàn thành cốt truyện cứu rỗi, tôi đã ở bên nam phụ bi thương.
@@ -11649,7 +11649,7 @@ Có khả năng cứu người, sao có thể để chính mình rơi vào vũng
   },{
     id: 561,
     title: "Streamer Game Nổi Tiếng Là Bạn Cùng Phòng Của Tôi",
-    image: "imgdam/f72668d5f90e5608e7469fe7d4f7a7ac.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f72668d5f90e5608e7469fe7d4f7a7ac.jpg",
     link: "dammy/streamer-game-noi-tieng-la-ban-cung-phong-cua-toi.html",
     type: "dammy",
     desc: `Phòng live của streamer game Giang Thần gần đây xuất hiện thêm một bóng người.
@@ -11691,7 +11691,7 @@ Dù sao cuối cùng người mặt đỏ tim đập cũng đâu phải tôi.
   },{
     id: 562,
     title: "Vãn Vãn Khờ Khạo Trốn Chạy Phu Quân",
-    image: "imgco/87bf5ed0d1248e47d1ecc82ef4d85766.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/87bf5ed0d1248e47d1ecc82ef4d85766.jpg",
     link: "cotrang/van-van-kho-khao-tron-chay-phu-quan.html",
     type: "cotrang",
     desc: `Thuở nhỏ, ta từng mắc bệnh khiến đầu óc trở nên ngớ ngẩn, vì thế tỷ tỷ chẳng an lòng về ta, khi xuất giá liền đem ta giao cho tiểu thúc chăm nom.
@@ -11715,7 +11715,7 @@ Rồi hắn quay về phía ta đang run rẩy trong góc, vẻ mặt tủi thâ
   },{
     id: 563,
     title: "Bí Quyết Thuần Hóa Thiếu Gia Kiêu Ngạo",
-    image: "imgngon/10b38328718cb195abff4c90c442c107.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/10b38328718cb195abff4c90c442c107.jpg",
     link: "ngontinh/bi-quyet-thuan-hoa-thieu-gia-kieu-ngao.html",
     type: "ngontinh",
     desc: `Đã ba năm kể từ khi tôi trở thành trợ lý cho Đàm Diễm Tây, con trai của chủ tịch.
@@ -11737,7 +11737,7 @@ Thời gian những tấm ảnh đó được chụp là bảy giờ sáng.
   },{
     id: 564,
     title: "Bẫy Ngọt Ngào Của Thiếu Gia Kiêu Ngạo",
-    image: "imgdam/ce5444b7d999bdd0aa73ee1607a36224.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ce5444b7d999bdd0aa73ee1607a36224.jpg",
     link: "dammy/bay-ngot-ngao-cua-thieu-gia-kieu-ngao.html",
     type: "dammy",
     desc: `Thiếu gia ác liệt nhà giàu bị gửi đi tham gia show cải tạo biến hình, phải đến ở nhà tôi.
@@ -11757,7 +11757,7 @@ Sau này, hắn phát hiện tôi là song tính.
   },{
     id: 565,
     title: "Duyên Lỡ Cố Nhân",
-    image: "imgco/15d32379242ce813248cedb9ad552628.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/15d32379242ce813248cedb9ad552628.jpg",
     link: "cotrang/duyen-lo-co-nhan.html",
     type: "cotrang",
     desc: `Sau khi ta xuất giá, cuộc sống bỗng trở nên vô cùng gian khó.
@@ -11771,7 +11771,7 @@ Họ lớn tiếng nói rằng ta chính là thiên kim thất lạc từ nhiề
   },{
     id: 566,
     title: "Nữ Thần Trả Thù Kẻ Lừa Tình Cặn Bã",
-    image: "imgngon/cb52361b4885c9b07c551e36e96ed996.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb52361b4885c9b07c551e36e96ed996.jpg",
     link: "ngontinh/nu-than-tra-thu-ke-lua-tinh-can-ba.html",
     type: "ngontinh",
     desc: `Nửa đêm, diễn đàn trường đăng bài, thấy bạn trai dùng tài khoản phụ đăng bài xin giúp đỡ.
@@ -11787,7 +11787,7 @@ Suất tuyển thẳng viện nghiên cứu mà anh ta giành được nhờ tr�
   },{
     id: 567,
     title: "Vướng Vào Bẫy Ngọt Ngào Của Tình Địch",
-    image: "imgdam/e75ef002e5d41c5dce1b7f0b00939563.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e75ef002e5d41c5dce1b7f0b00939563.jpg",
     link: "dammy/vuong-vao-bay-ngot-ngao-cua-tinh-dich.html",
     type: "dammy",
     desc: `Vừa mới lăn xuống khỏi giường của kẻ thù không đội trời chung, tôi đã nhận được cuộc gọi từ bạn thân từ nhỏ.
@@ -11811,7 +11811,7 @@ Tin xấu: Bạn thân nhất của mày là tao đã bị hắn ngủ mất r�
   },{
     id: 568,
     title: "Trở Thành Nam Chiếu Quận Chúa",
-    image: "imgco/1ef079115a2f3bc496e241edb27a94ae.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1ef079115a2f3bc496e241edb27a94ae.jpg",
     link: "cotrang/tro-thanh-nam-chieu-quan-chua.html",
     type: "cotrang",
     desc: `Ta bước tới trước cửa phủ Đường Quốc Công, khẽ giọng tự giới thiệu:
@@ -11844,7 +11844,7 @@ Cuối con đường, một chiếc xe ngựa đen tuyền, bình thường đ�
   },{
     id: 569,
     title: "Thiên Kim Thật Mang Theo Hệ Thống Ăn Dưa",
-    image: "imgngon/ec87fab7436753d936977dd3072dbf60.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ec87fab7436753d936977dd3072dbf60.jpg",
     link: "ngontinh/thien-kim-that-mang-theo-he-thong-an-dua.html",
     type: "ngontinh",
     desc: `Tôi là thiên kim thật, nhưng xui xẻo lại bị trói buộc với hệ thống ăn dưa.
@@ -11870,7 +11870,7 @@ Tôi chặc một tiếng.
   },{
     id: 570,
     title: "Đem Tiền Đi Bao Nuôi Ai Ngờ Trúng Ngay Tổng Giám Đốc",
-    image: "imgdam/20e8d3c7cca3afde01f410dd2ec609ca.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/20e8d3c7cca3afde01f410dd2ec609ca.jpg",
     link: "dammy/dem-tien-di-bao-nuoi-ai-ngo-trung-ngay-tong-giam-doc.html",
     type: "dammy",
     desc: `Tôi là một nam Beta, nhưng lại thầm thích một Alpha đỉnh cấp.
@@ -11896,7 +11896,7 @@ Tôi quay đầu chạy, nhưng vừa đi nửa đường thì bị một bàn t
   },{
     id: 571,
     title: "Nữ Nhân Tự Lập Làm Giàu",
-    image: "imgco/867efe60f2407161d4deeae876aaaa13.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/867efe60f2407161d4deeae876aaaa13.jpg",
     link: "cotrang/nu-nhan-tu-lap-lam-giau.html",
     type: "cotrang",
     desc: `Trong kinh thành ai nấy đều tường tận, Thái phó Thẩm Hoài An của Thái tử giấu một nữ tử ở trong lòng, tên là Tô Mạn Xu.
@@ -11922,7 +11922,7 @@ Nếu tiếc nuối như thế, ta sẽ tới giúp các ngươi một tay.
   },{
     id: 572,
     title: "Gặp Lại Cố Nhân Giữa Thời Đại Mới",
-    image: "imgngon/31ee36a1e277209504f140ad581b7c35.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/31ee36a1e277209504f140ad581b7c35.jpg",
     link: "ngontinh/gap-lai-co-nhan-giua-thoi-dai-moi.html",
     type: "ngontinh",
     desc: `Tôi tỉnh lại, bọn họ nói tôi là con gái ruột bị trao nhầm của nhà họ Tần.
@@ -11938,7 +11938,7 @@ Nhưng tôi nhìn thời đại hoàn toàn mới này, không có chiến tranh
   },{
     id: 573,
     title: "Bảo Bối Của Tôi Là Thiếu Gia Giả",
-    image: "imgdam/97299c838bc8a656afe8644605dfb263.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/97299c838bc8a656afe8644605dfb263.jpg",
     link: "dammy/bao-boi-cua-toi-la-thieu-gia-gia.html",
     type: "dammy",
     desc: `Sau khi em trai ruột được nhận về nhà, Mạnh Chiêu liền nói rằng cậu sẽ hắc hóa trở thành phản diện.
@@ -11968,7 +11968,7 @@ Em không biết anh đã nhẫn nhịn bao lâu rồi đâu, em trai.”
   },{
     id: 574,
     title: "Bồ Đề Trói Buộc Duyên Trần",
-    image: "imgco/4daedf0db8ce85a47c80b7d945925309.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4daedf0db8ce85a47c80b7d945925309.jpg",
     link: "cotrang/bo-de-troi-buoc-duyen-tran.html",
     type: "cotrang",
     desc: `Ta chết vào ngày đại hôn của vị hôn phu.
@@ -11994,7 +11994,7 @@ Tiểu thư khuê các được Trung Dũng Hầu yêu thương như trân bảo
   },{
     id: 575,
     title: "Giáo Trình Đào Mỏ Hào Môn",
-    image: "imgngon/e179d941e412d028ca17b9e7b2f99024.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e179d941e412d028ca17b9e7b2f99024.jpg",
     link: "ngontinh/giao-trinh-dao-mo-hao-mon.html",
     type: "ngontinh",
     desc: `Tôi và Giang Mộ là cặp tình nhân hào môn được cư dân mạng chú ý.
@@ -12012,7 +12012,7 @@ Sau đó, anh hối hận vì đã cưới cô gái đó.
   },{
     id: 576,
     title: "Bao Nuôi Nhầm Thái Tử Gia",
-    image: "imgdam/45419f37b4a86aa7ed9c23db739a0106.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/45419f37b4a86aa7ed9c23db739a0106.jpg",
     link: "dammy/bao-nuoi-nham-thai-tu-gia.html",
     type: "dammy",
     desc: `Tôi đến trường thăm em trai, đi nhầm ký túc xá.
@@ -12032,7 +12032,7 @@ Hối hận không kịp nữa rồi.
   },{
     id: 577,
     title: "Quay Về Báo Thù Hoàng Đế Hèn Nhát",
-    image: "imgco/efcda01893ef4b378ab8f6dd53f383dc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/efcda01893ef4b378ab8f6dd53f383dc.jpg",
     link: "cotrang/quay-ve-bao-thu-hoang-de-hen-nhat.html",
     type: "cotrang",
     desc: `Khi ta xuyên không về quá khứ, nữ chính đã qua đời được mười năm.
@@ -12048,7 +12048,7 @@ Nào ngờ, nam chính thấy ta lại sợ té đái chạy mất.
   },{
     id: 578,
     title: "Mèo Cưng Thành Tinh Lại Đòi Làm Bạn Trai Tôi",
-    image: "imgngon/46b53cc91a525d73f4c97038f3b746c7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/46b53cc91a525d73f4c97038f3b746c7.jpg",
     link: "ngontinh/meo-cung-thanh-tinh-lai-doi-lam-ban-trai-toi.html",
     type: "ngontinh",
     desc: `Đêm khuya thanh vắng, Tiểu Tiểu, mèo cưng của tôi, tới báo mộng.
@@ -12074,7 +12074,7 @@ Nó cắn nhẹ dái tai tôi, giọng nói trầm thấp:
   },{
     id: 579,
     title: "Tổng Tài Mặt Dày Đòi Danh Phận",
-    image: "imgdam/b20b4acfdbe5300c1746c2c5a3bf4c4e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b20b4acfdbe5300c1746c2c5a3bf4c4e.jpg",
     link: "dammy/tong-tai-mat-day-doi-danh-phan.html",
     type: "dammy",
     desc: `Giữ mình sạch sẽ hơn hai mươi năm, tôi lại vừa gặp đã yêu vợ nhà người ta trong một buổi tiệc.
@@ -12090,7 +12090,7 @@ Trong lòng tôi thì hoa nở rộ, ngoài mặt vẫn làm bộ nghiêm túc, 
   },{
     id: 580,
     title: "Hoàng Thượng Lại Ghen Rồi",
-    image: "imgco/adbcc5b463b8e7076a5933213ee1ac4e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/adbcc5b463b8e7076a5933213ee1ac4e.jpg",
     link: "cotrang/hoang-thuong-lai-ghen-roi.html",
     type: "cotrang",
     desc: `Ta là thiếp thất của Thái tử, nhưng lòng ta đã hướng về người khác.
@@ -12114,7 +12114,7 @@ Ta cười như điên như dại rồi ngất lịm đi.
   },{
     id: 581,
     title: "Xé Nát Âm Mưu Của Kẻ Phản Bội",
-    image: "imgngon/4c40038aa0a6061c7e04e8dec115b653.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4c40038aa0a6061c7e04e8dec115b653.jpg",
     link: "ngontinh/xe-nat-am-muu-cua-ke-phan-boi.html",
     type: "ngontinh",
     desc: `Vị hôn phu và anh trai chính là những kẻ hận cô suốt mười năm. Họ tin rằng cô luôn bắt nạt "bông hoa trắng nhỏ" mà họ yêu thích. Và trong chính buổi tiệc đính hôn của cô, họ đã vạch trần tội ác của cô ngay trước mặt mọi người.
@@ -12140,7 +12140,7 @@ Lục Tâm Hỷ lập tức phát điên. Cô nắm tóc kéo đối phương v�
   },{
     id: 582,
     title: "Hẹn Hò Bí Mật Cùng Sếp Lạnh Lùng",
-    image: "imgdam/73f3b9ea46da19398ee07127c8198958.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/73f3b9ea46da19398ee07127c8198958.jpg",
     link: "dammy/hen-ho-bi-mat-cung-sep-lanh-lung.html",
     type: "dammy",
     desc: `Trước thang máy, tôi than phiền với người đứng cạnh:
@@ -12158,7 +12158,7 @@ Nghe thấy thì sao chứ, giờ nói chuyện tập gym cũng thành vấn đ�
   },{
     id: 583,
     title: "Đồng Lõa Sinh Tử",
-    image: "imgco/11ea197bd2bd947b3e4aee6dbe376916.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/11ea197bd2bd947b3e4aee6dbe376916.jpg",
     link: "cotrang/dong-loa-sinh-tu.html",
     type: "cotrang",
     desc: `Nữ nhân xuyên không chiếm lấy thân thể của ta.
@@ -12174,7 +12174,7 @@ Nhưng nàng ta không biết, phu quân của ta thông minh gần như yêu ng
   },{
     id: 584,
     title: "Bí Mật Thầm Lặng Của Nam Thần Hàng Đầu",
-    image: "imgngon/2c0164b48df85c0215ab69eda73e7302.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2c0164b48df85c0215ab69eda73e7302.jpg",
     link: "ngontinh/bi-mat-tham-lang-cua-nam-than-hang-dau.html",
     type: "ngontinh",
     desc: `Tôi đã bị hack tài khoản.
@@ -12188,7 +12188,7 @@ Mối tình đơn phương kéo dài mười năm của tôi, trong khoảnh kh�
   },{
     id: 585,
     title: "Nước Mắt Nam Sủng",
-    image: "imgdam/49c268f94a50dfe46c89031f9150ce19.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/49c268f94a50dfe46c89031f9150ce19.jpg",
     link: "dammy/nuoc-mat-nam-sung.html",
     type: "dammy",
     desc: `Hoàng thượng ghét bỏ Tể tướng vì hắn không nghe lời, trong cơn tức giận, người đã gả ta cho hắn.
@@ -12204,7 +12204,7 @@ Tiểu Tể tướng có lẽ không chịu được việc ta đi quá chậm, 
   },{
     id: 586,
     title: "Năm Tháng Bình An Khi Gặp Lại Chàng",
-    image: "imgco/636409a3df680a022f684afe907cf6e3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/636409a3df680a022f684afe907cf6e3.jpg",
     link: "cotrang/nam-thang-binh-an-khi-gap-lai-chang.html",
     type: "cotrang",
     desc: `Vào đêm bái đường thành hôn, phu quân mãi vẫn chẳng trở về.
@@ -12230,7 +12230,7 @@ Nào ngờ Lục An Nhiên lại lướt thẳng qua vòng tay mở rộng của
   },{
     id: 587,
     title: "Trả Giá Cho Sự Đố Kỵ",
-    image: "imgngon/3b9c0eda9bc2b6f2c445bd44fdfb9e2e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3b9c0eda9bc2b6f2c445bd44fdfb9e2e.jpg",
     link: "ngontinh/tra-gia-cho-su-do-ky.html",
     type: "ngontinh",
     desc: `Cô em họ nhỏ hơn ba ngày tuổi tạm thời chuyển đến ở nhờ nhà tôi.
@@ -12250,7 +12250,7 @@ Tôi làm gì sai chứ? Chẳng qua khi còn trẻ, mắt mù quen nhầm với
   },{
     id: 588,
     title: "Cá Mập Nhỏ Ở Ký Túc Xá",
-    image: "imgdam/32b6646693a401e1852d635eaf7080d6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/32b6646693a401e1852d635eaf7080d6.jpg",
     link: "dammy/ca-map-nho-o-ky-tuc-xa.html",
     type: "dammy",
     desc: `Tôi nuôi một con cá mập, phần bụng của nó có hai cục trắng nhô lên nhiều hơn so với những con cá mập khác.
@@ -12270,7 +12270,7 @@ Sau này, khi trở thành bạn cùng phòng của tôi, nó ép tôi vào tư�
   },{
     id: 589,
     title: "Công Chúa Phải Lòng Thị Lang Đại Nhân",
-    image: "imgco/1c837f8dc43d3ec5209a10302aad689f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1c837f8dc43d3ec5209a10302aad689f.jpg",
     link: "cotrang/cong-chua-phai-long-thi-lang-dai-nhan.html",
     type: "cotrang",
     desc: `Sau khi thành thân với Cố thị lang cao ngạo của dòng dõi thế gia, chúng ta trở thành đôi phu thê danh nghĩa.
@@ -12286,7 +12286,7 @@ Thế nhưng, sắc đẹp kia, ta thèm thuồng từ lâu.
   },{
     id: 590,
     title: "Đối Thủ Không Đội Trời Chung Lại Cưng Chiều Tôi Đến Tận Trời",
-    image: "imgngon/9f7ab5967838af55bfef131195d4c19e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9f7ab5967838af55bfef131195d4c19e.jpg",
     link: "ngontinh/doi-thu-khong-doi-troi-chung-lai-cung-chieu-toi-den-tan-troi.html",
     type: "ngontinh",
     desc: `Dùng điện thoại của Thẩm Thụ, tôi phát hiện ra lịch sử tìm kiếm của anh.
@@ -12320,7 +12320,7 @@ Thẩm Thụ hôn lên chóp mũi tôi.
   },{
     id: 591,
     title: "Giam Cầm Dịu Dàng Của Ôn Tiên Sinh",
-    image: "imgdam/16bff85d23fdbf4240e3f218c5d3d31a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/16bff85d23fdbf4240e3f218c5d3d31a.jpg",
     link: "dammy/giam-cam-diu-dang-cua-on-tien-sinh.html",
     type: "dammy",
     desc: `Tôi là bạn đọc của thiếu gia, người khác khen tôi tuổi còn nhỏ đã có tương lai kiếm được bộn tiền.
@@ -12336,7 +12336,7 @@ Tôi đầu váng mắt hoa cầu xin, giọng nói thiếu gia trầm khàn: "N
   },{
     id: 592,
     title: "Hủy Hôn Kế Bất Thành",
-    image: "imgco/bff1dd347ef270ac1f5128e9375bdd09.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bff1dd347ef270ac1f5128e9375bdd09.jpg",
     link: "cotrang/huy-hon-ke-bat-thanh.html",
     type: "cotrang",
     desc: `Vị hôn phu của ta mất trí nhớ rồi.
@@ -12358,7 +12358,7 @@ Mặt quản gia không chút biểu cảm đáp đợi xe ngựa của lò hỏ
   },{
     id: 593,
     title: "Nữ Tổng Tài Trị Tra Nam Tận Gốc",
-    image: "imgngon/31d13a23898ddc30994a9b3f1e4935a0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/31d13a23898ddc30994a9b3f1e4935a0.jpg",
     link: "ngontinh/nu-tong-tai-tri-tra-nam-tan-goc.html",
     type: "ngontinh",
     desc: `Ở bên nhau năm thứ tám, Tống Nghị An thể hiện rõ sự chán ghét tôi ra mặt.
@@ -12392,7 +12392,7 @@ Chuyện này tôi sẽ tự mình giải quyết.
   },{
     id: 594,
     title: "Âm Thanh Của Em Chỉ Riêng Mình Anh Nghe Thấy",
-    image: "imgdam/439659053e70a794e7522b84bcc25d9b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/439659053e70a794e7522b84bcc25d9b.jpg",
     link: "dammy/am-thanh-cua-em-chi-rieng-minh-anh-nghe-thay.html",
     type: "dammy",
     desc: `Tôi là mỹ nam đệ nhất được công nhận của tộc người cá.
@@ -12426,7 +12426,7 @@ Tên điếc này, là giả vờ?
   },{
     id: 595,
     title: "Phá Bỏ Xiềng Xích Truyện Ngược",
-    image: "imgco/56b5ec42efee9408d7369a4df2b0ab74.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/56b5ec42efee9408d7369a4df2b0ab74.jpg",
     link: "cotrang/pha-bo-xieng-xich-truyen-nguoc.html",
     type: "cotrang",
     desc: `Mẫu thân ta điên rồ cả đời.
@@ -12458,7 +12458,7 @@ Nếu gặp phải tình huống như vậy, hãy nhanh chóng chạy trốn.
   },{
     id: 596,
     title: "Nữ Chính Hư Hỏng Xuyên Vào Thế Giới Thanh Thuỷ Văn",
-    image: "imgngon/47e55d215c0ce19b01eb0a6ee79516f7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47e55d215c0ce19b01eb0a6ee79516f7.jpg",
     link: "ngontinh/nu-chinh-hu-hong-xuyen-vao-the-gioi-thanh-thuy-van.html",
     type: "ngontinh",
     desc: `Ta là nữ chính trong truyện pỏn, không biết vận may shit chó thế nào lại xuyên thành em gái nuôi của nam chính trong truyện Thanh Thủy Văn.
@@ -12478,7 +12478,7 @@ Sau đó, hắn dùng tay vuốt tóc ta, ép ta vào đầu giường, cười 
   },{
     id: 597,
     title: "Độ Hóa Tình Kiếp Đuôi Rắn Của Hắn",
-    image: "imgdam/908fa7425ab3d71d69f2aab6b5b63ca6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/908fa7425ab3d71d69f2aab6b5b63ca6.jpg",
     link: "dammy/do-hoa-tinh-kiep-duoi-ran-cua-han.html",
     type: "dammy",
     desc: `Chúc Vưu vòng tay ôm lấy ta từ phía sau, giọng lạnh băng: "Linh Diệu Tiên Quân, ngươi thật sự muốn độ hóa ta sao?"
@@ -12506,7 +12506,7 @@ Thật đáng ghét.
   },{
     id: 598,
     title: "Ngày Thái Tử Nạp Phi Ta Cùng Thủ Phụ Lật Đổ Giang Sơn",
-    image: "imgco/59fe9d4fe88c35e8825a35944754d0ce.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/59fe9d4fe88c35e8825a35944754d0ce.jpg",
     link: "cotrang/ngay-thai-tu-nap-phi-ta-cung-thu-phu-lat-do-giang-son.html",
     type: "cotrang",
     desc: `Trong yến tiệc kết duyên của Thái tử và Thái tử phi, ta bị hạ dược, vô tình mây mưa cả đêm với vị Thủ phụ thanh lãnh trong thiên điện của Đông cung.
@@ -12522,7 +12522,7 @@ Giờ thì tốt rồi, ta cũng chẳng còn cách nào để có những ý ng
   },{
     id: 599,
     title: "Bạn Trai Yêu Kẻ Bắt Nạt",
-    image: "imgngon/781a3063724e8c03ed2d9566830df972.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/781a3063724e8c03ed2d9566830df972.jpg",
     link: "ngontinh/ban-trai-yeu-ke-bat-nat.html",
     type: "ngontinh",
     desc: `Tôi đã cứu Tống Tùy khi Tống Tùy bị một nữ sinh bắt nạt đến mức suýt mất mạng. Kẻ bắt nạt bị kết án tù, sau khi ra tù lại bị người khác trả thù và hủy dung. Tống Tùy biết chuyện nhưng khuôn mặt hoàn toàn không chút biểu cảm. Về sau, Tống Tùy vươn lên trở thành ngôi sao nổi tiếng rần rần, được vạn người hâm mộ cuồng nhiệt, thậm chí trong một buổi hòa nhạc còn công khai cầu hôn tôi đầy tình cảm.
@@ -12540,7 +12540,7 @@ Lúc đó tôi mới bàng hoàng ngộ ra, hóa ra Tống Tùy đã ôm ấp t�
   },{
     id: 600,
     title: "Bẫy Học Trưởng Ngoài Lạnh Trong Nóng Về Làm Vợ",
-    image: "imgdam/26b8d01afc8df735d01618ec1b546196.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/26b8d01afc8df735d01618ec1b546196.jpg",
     link: "dammy/bay-hoc-truong-ngoai-lanh-trong-nong-ve-lam-vo.html",
     type: "dammy",
     desc: `Tôi giả vờ là một cô nàng ngọt ngào, rồi yêu luôn anh chàng đi rừng trong game người đã hạ tôi đến hai mươi lần.
@@ -12564,7 +12564,7 @@ Tôi: “?”
   },{
     id: 601,
     title: "Gánh Hoành Thánh Nuôi Tam Lang",
-    image: "imgco/3a78d977337fc783440c50d32845b745.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a78d977337fc783440c50d32845b745.jpg",
     link: "cotrang/ganh-hoanh-thanh-nuoi-tam-lang.html",
     type: "cotrang",
     desc: `Ta nhặt được một vị quý phụ rơi vào cảnh lầm than dưới chân Hoàng Thành.
@@ -12586,7 +12586,7 @@ Lão thái giám nheo mắt suy nghĩ một lúc.
   },{
     id: 602,
     title: "Anh Trai Xã Hội Đen Đòi Nợ Thuê Và Cục Nợ Của Anh",
-    image: "imgngon/2c499f239a9fb9946806335470dce997.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2c499f239a9fb9946806335470dce997.jpg",
     link: "ngontinh/anh-trai-xa-hoi-den-doi-no-thue-va-cuc-no-cua-anh.html",
     type: "ngontinh",
     desc: `Bố vì để trả nợ nên đem bán tôi cho băng đảng xã hội đen.
@@ -12602,7 +12602,7 @@ Sau đó bố tôi mang tiền đến chuộc tôi về.
   },{
     id: 603,
     title: "Pháo Hôi Kiếm Cơm Bị Nam Chính Đeo Bám",
-    image: "imgdam/3a6bfdaf51ac186564ca9532c6babe3a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a6bfdaf51ac186564ca9532c6babe3a.jpg",
     link: "dammy/phao-hoi-kiem-com-bi-nam-chinh-deo-bam.html",
     type: "dammy",
     desc: `Xuyên thành học sinh nghèo pháo hôi trong truyện đam mỹ, tôi lén lút bày trò với đám tư bản.
@@ -12624,7 +12624,7 @@ Tôi chỉ còn biết ép ra hai giọt nước mắt, ho khan đáng thương:
   },{
     id: 604,
     title: "Sương Mờ Cố Quốc Đọng Lại Tình Ai",
-    image: "imgco/c7db23d0399ecd992f61908ef787a425.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c7db23d0399ecd992f61908ef787a425.jpg",
     link: "cotrang/suong-mo-co-quoc-dong-lai-tinh-ai.html",
     type: "cotrang",
     desc: `Thái tử đem lòng yêu một cô gái câm đã cứu mình, nhất quyết đòi hủy hôn với ta.
@@ -12648,7 +12648,7 @@ Ta cung kính cúi mình.
   },{
     id: 605,
     title: "Kiếp Này Quyết Không Cứu Kẻ Vô Ân",
-    image: "imgngon/464bcaa539dfa7c3eabf9852c126d599.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/464bcaa539dfa7c3eabf9852c126d599.jpg",
     link: "ngontinh/kiep-nay-quyet-khong-cuu-ke-vo-an.html",
     type: "ngontinh",
     desc: `Tôi đã hy sinh tính mạng của mình để cứu một cô gái bị đuối nước.
@@ -12668,7 +12668,7 @@ Nhìn cô ta vùng vẫy trong nước, tôi bình tĩnh lấy điện thoại r
   },{
     id: 606,
     title: "Thế Thân Vệ Úy Sa Lưới Vương Tôn",
-    image: "imgdam/9b11ba9c5b7b83d5814c49894648a624.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9b11ba9c5b7b83d5814c49894648a624.jpg",
     link: "dammy/the-than-ve-uy-sa-luoi-vuong-ton.html",
     type: "dammy",
     desc: `Ta cải trang thành tiểu quan, trà trộn vào Nam Phong Lâu để mật tra trọng án.
@@ -12690,7 +12690,7 @@ Nhưng ta chính là Tống Túy, và đúng là ta đang làm Vệ Úy.
   },{
     id: 607,
     title: "Bẫy Được Phu Quân Cẩm Y Vệ",
-    image: "imgco/eb975b8be91dc48f1dd4fa5eff072889.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eb975b8be91dc48f1dd4fa5eff072889.jpg",
     link: "cotrang/bay-duoc-phu-quan-cam-y-ve.html",
     type: "cotrang",
     desc: `Ta là một nữ tử chốn sơn lâm, vốn mang thân phận thổ phỉ.
@@ -12708,7 +12708,7 @@ Ta ngạc nhiên hỏi: "?"
   },{
     id: 608,
     title: "Mẹ Tôi Đã Trở Thành Ánh Trăng Sáng Rực Rỡ Nhất",
-    image: "imgngon/e48c9ff690bf3c7f84fe2473091a79ea.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e48c9ff690bf3c7f84fe2473091a79ea.jpg",
     link: "ngontinh/me-toi-da-tro-thanh-anh-trang-sang-ruc-ro-nhat.html",
     type: "ngontinh",
     desc: `Bố mẹ ly hôn, tôi sống chết đòi đi theo mẹ.
@@ -12738,7 +12738,7 @@ Lần này tôi không do dự trả lời: “Đi theo bố ạ!”
   },{
     id: 609,
     title: "Gặp Lại Cậu Bạn Cùng Bàn Tám Năm",
-    image: "imgdam/2c77561ab84f079ca58e99ccd8fac0e6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2c77561ab84f079ca58e99ccd8fac0e6.jpg",
     link: "dammy/gap-lai-cau-ban-cung-ban-tam-nam.html",
     type: "dammy",
     desc: `Ông chủ chê tôi chưa đủ sự “phóng túng” cần thiết, liền quăng tôi sang cho đứa cháu trai của ông ta chơi đùa.
@@ -12754,7 +12754,7 @@ Cậu mặc chiếc áo choàng tắm, cất giọng vấn hỏi cùng ánh mắ
   },{
     id: 610,
     title: "Tro Tàn Cũ Ngờ Đâu Cành Vàng Ngọn Gió Xuân Đưa Lối",
-    image: "imgco/95fd76ca0d65ceca85befaaf29eef5b3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/95fd76ca0d65ceca85befaaf29eef5b3.jpg",
     link: "cotrang/tro-tan-cu-ngo-dau-canh-vang-ngon-gio-xuan-dua-loi.html",
     type: "cotrang",
     desc: `Trước lúc từ giã cõi đời, ta đã thiêu chết phu quân.
@@ -12770,7 +12770,7 @@ Nhưng sau đó, hắn lại quay về van xin ta, nói rằng không thể thi�
   },{
     id: 611,
     title: "Đại Tiểu Thư Thất Thế Và Tổng Giám Đốc Cải Trang",
-    image: "imgngon/63363b03cacd7add9da9ed42a9f75099.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/63363b03cacd7add9da9ed42a9f75099.jpg",
     link: "ngontinh/dai-tieu-thu-that-the-va-tong-giam-doc-cai-trang.html",
     type: "ngontinh",
     desc: `Năm thứ ba hẹn hò âm thầm với Chu Gia Thuật, Chu Gia Thuật bất ngờ tuyên bố kết hôn.
@@ -12794,7 +12794,7 @@ Sau đó, người ta chụp được ảnh vị tổ tông thần bí, kín ti�
   },{
     id: 612,
     title: "Dấu Ấn Đêm Say",
-    image: "imgdam/7249a88a830f8ec47b44415894431e67.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7249a88a830f8ec47b44415894431e67.jpg",
     link: "dammy/dau-an-dem-say.html",
     type: "dammy",
     desc: `Trong lúc đang ngâm mình dưới làn nước ấm, tôi vô tình nhấn nhầm nút gửi bản báo cáo công việc cho cấp trên dưới dạng một cuộc gọi video.
@@ -12810,7 +12810,7 @@ Nào ngờ ngay giây tiếp theo, anh lại thông thả bồi thêm một câu
   },{
     id: 613,
     title: "Trả Thù Phò Mã Bội Bạc",
-    image: "imgco/6f459da9350628e3c723715f8b8a8c3c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6f459da9350628e3c723715f8b8a8c3c.jpg",
     link: "cotrang/tra-thu-pho-ma-boi-bac.html",
     type: "cotrang",
     desc: `Sau ngày thành hôn với phò mã, ngay sáng hôm sau, hắn đã đưa Dương Chiêu Quận chúa, nữ nhi duy nhất còn lại của dòng họ trung liệt Dương gia, vào phủ.
@@ -12840,7 +12840,7 @@ Khi mở mắt lần nữa, ta quay trở lại ngày Dương Chiêu nhập ph�
   },{
     id: 614,
     title: "Cố Tình Giả Say Để Yêu Em",
-    image: "imgngon/1318869d42435ed150df5ee6cced576b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1318869d42435ed150df5ee6cced576b.jpg",
     link: "ngontinh/co-tinh-gia-say-de-yeu-em.html",
     type: "ngontinh",
     desc: `Tân lang của ta vốn nổi danh là bậc quân tử cấm dục, khí xép lạnh lẽo như băng sương… Ấy thế mà, ngày nọ ta vô tình đẩy cửa phòng ngủ, lại bắt gặp một cảnh tượng ngỡ ngàng.
@@ -12862,7 +12862,7 @@ Chàng rốt cuộc là hiểu cái gì chứ?
   },{
     id: 615,
     title: "Bỏ Trốn Cùng Cún Con Hào Môn",
-    image: "imgdam/0dc4ca0d9891c6ae3dcd4fa98107301f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0dc4ca0d9891c6ae3dcd4fa98107301f.jpg",
     link: "dammy/bo-tron-cung-cun-con-hao-mon.html",
     type: "dammy",
     desc: `Tôi là một Beta nghèo, học vấn chẳng có bao nhiêu.
@@ -12892,7 +12892,7 @@ Gió từ cánh đồng lúa thổi tới, mắt tôi lại hơi cay cay.
   },{
     id: 616,
     title: "Gà Trụi Lông Của Ma Quân",
-    image: "imgco/a1594c99019433bf9f897b7ee549a6bf.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1594c99019433bf9f897b7ee549a6bf.jpg",
     link: "cotrang/ga-trui-long-cua-ma-quan.html",
     type: "cotrang",
     desc: `Ta là con chim quý của Ma Quân, cứ tưởng bản thân là một chú gà trống.
@@ -12906,7 +12906,7 @@ Ta chảy nước miếng, hớn hở tiến đến gần và cất tiếng: “
   },{
     id: 617,
     title: "Đứa Con Của Ác Nữ Tổng Tài",
-    image: "imgngon/484ab15a90d6222613298f26d77e5751.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/484ab15a90d6222613298f26d77e5751.jpg",
     link: "ngontinh/dua-con-cua-ac-nu-tong-tai.html",
     type: "ngontinh",
     desc: `Số phận thực sự biết trêu ngươi khi ném tôi vào kịch bản xuyên không, trở thành con gái của nam chính tổng tài bá đạo.
@@ -12924,7 +12924,7 @@ Cơn giận tích tụ lâu ngày khiến nam chính thẳng tay tống bà ta v
   },{
     id: 618,
     title: "Ta Chỉ Muốn Đào Tạo Hoàng Tử Thành Minh Quân",
-    image: "imgdam/cfd307ca556f6eb38a339bce33b5be32.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cfd307ca556f6eb38a339bce33b5be32.jpg",
     link: "dammy/ta-chi-muon-dao-tao-hoang-tu-thanh-minh-quan.html",
     type: "dammy",
     desc: `Nhiệm vụ của tôi là uốn nắn vị hoàng tử mang vẻ u uất, lạnh lùng ấy trở thành một vị minh quân trị quốc. Bằng tất cả tâm huyết, tôi luôn rèn giũa hắn phải dốc lòng vì việc triều chính, tuyệt đối không được sa đọa vào chốn tửu sắc.
@@ -12942,14 +12942,14 @@ Tôi hoàn toàn ngỡ ngàng. Mới ngày hôm qua, hắn vẫn còn gọi tôi
   },{
     id: 619,
     title: "Trượng Phu Yếu Mềm Dựa Dẫm Vào Thê Tử",
-    image: "imgco/a698dcf59a592b65c5d61c2400fd04b2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a698dcf59a592b65c5d61c2400fd04b2.jpg",
     link: "cotrang/truong-phu-yeu-mem-dua-dam-vao-the-tu.html",
     type: "cotrang",
     desc: ``
   },{
     id: 620,
     title: "Sau Khi Thức Tỉnh Chim Hoàng Yến Mang Thai Bỏ Trốn",
-    image: "imgngon/c39c2310beb7fb5059019862ab787a6e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c39c2310beb7fb5059019862ab787a6e.jpg",
     link: "ngontinh/sau-khi-thuc-tinh-chim-hoang-yen-mang-thai-bo-tron.html",
     type: "ngontinh",
     desc: `Sau bốn năm sống kiếp chim hoàng yến bên cạnh thái tử gia vùng đất thủ đô, ta phát hiện bản thân đã mang thai.
@@ -12981,7 +12981,7 @@ Xin con đấy, tiểu tổ tông của ta ơi, mau im miệng giùm cái!
   },{
     id: 621,
     title: "Chìm Đắm Trong Sự Chiều Chuộng",
-    image: "imgdam/f421398096c8c0fe348c33bb6b9e9c72.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f421398096c8c0fe348c33bb6b9e9c72.jpg",
     link: "dammy/chim-dam-trong-su-chieu-chuong.html",
     type: "dammy",
     desc: `Anh bạn cùng phòng của anh trai tôi Kỷ Lẫm đúng là tên hai mặt.
@@ -13007,7 +13007,7 @@ Thế nhưng cuối cùng, ta vẫn bị Kỷ Lẫm chặn lại giữa đườn
   },{
     id: 622,
     title: "Ta Không Làm Ngụy Hầu Phu Nhân Nữa",
-    image: "imgco/cb8d343d9b2b17da5e3fff898474fc9d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb8d343d9b2b17da5e3fff898474fc9d.jpg",
     link: "cotrang/ta-khong-lam-nguy-hau-phu-nhan-nua.html",
     type: "cotrang",
     desc: `Tỷ tỷ dòng chính Tiết thị Kim Lăng có hôn ước với Ngụy Hầu.
@@ -13033,7 +13033,7 @@ Ta chỉ muốn làm A Uẩn của riêng mình mà thôi.
   },{
     id: 623,
     title: "Nuôi Nhầm Sói Bệnh Kiều",
-    image: "imgngon/48a246c179cba12ca05ce2e2adadbd18.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/48a246c179cba12ca05ce2e2adadbd18.jpg",
     link: "ngontinh/nuoi-nham-soi-benh-kieu.html",
     type: "ngontinh",
     desc: `Biết bản thân chỉ là nữ phụ ác độc, tôi lập tức dàn xếp một màn lừa dối, rủ thủ đem nam chính ra làm trò tiêu khiển rồi bảo hắn chính là mối lương duyên tiền định của mình.
@@ -13055,7 +13055,7 @@ Hắn thong thả dùng roi da trói chặt tôi lại, trong mắt đong đầy
   },{
     id: 624,
     title: "Tráo Dâu Bỏ Trốn",
-    image: "imgdam/886f39fa2371f710f8b2eecc7d74f420.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/886f39fa2371f710f8b2eecc7d74f420.jpg",
     link: "dammy/trao-dau-bo-tron.html",
     type: "dammy",
     desc: `Trước ngày cử hành đại hôn, chú rể đột ngột bỏ trốn, khiến tôi rơi vào thế bí và bị ép buộc phải thay thế anh ta, gả cho người em trai.
@@ -13083,7 +13083,7 @@ Hắn khẽ hắng giọng một tiếng, dáng vẻ có chút ngượng ngùng 
   },{
     id: 625,
     title: "Nữ Phụ Ma Pháp Ở Thế Giới Tu Chân",
-    image: "imgco/862ef2e2001c2a3733437c2954efca7c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/862ef2e2001c2a3733437c2954efca7c.jpg",
     link: "cotrang/nu-phu-ma-phap-o-the-gioi-tu-chan.html",
     type: "cotrang",
     desc: `Ta và muội muội cùng ngày sinh.
@@ -13101,7 +13101,7 @@ Ngày ta bị đuổi khỏi nhà, ta nhận được một bức thư từ phư
   },{
     id: 626,
     title: "Số Phận Đứa Con Bị Bỏ Rơi",
-    image: "imgngon/3dd7576a0386109a51bdcee75639aa28.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3dd7576a0386109a51bdcee75639aa28.jpg",
     link: "ngontinh/so-phan-dua-con-bi-bo-roi.html",
     type: "ngontinh",
     desc: `Từ nhỏ, ba đã không hề thích tôi.
@@ -13119,7 +13119,7 @@ Chưa từng nhận được một chút yêu thương nào từ ông, tôi đã
   },{
     id: 627,
     title: "Độc Chiếm Ánh Sáng Của Em",
-    image: "imgdam/1ecbe4afd52e7fa2d5c5ec67765a7ad5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1ecbe4afd52e7fa2d5c5ec67765a7ad5.jpg",
     link: "dammy/doc-chiem-anh-sang-cua-em.html",
     type: "dammy",
     desc: `Tôi là thiếu gia thật được gia đình hào môn tìm về.
@@ -13141,7 +13141,7 @@ Tôi ôm chặt lấy người đang run rẩy trong lòng, lạnh lùng nói:
   },{
     id: 628,
     title: "Mộ Cũ Hoa Tàn",
-    image: "imgco/b1fb5a543cc7e78f9d4d4f138a56d3b1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b1fb5a543cc7e78f9d4d4f138a56d3b1.jpg",
     link: "cotrang/mo-cu-hoa-tan.html",
     type: "cotrang",
     desc: `Ta là một huyết yêu, tình cờ nhặt được một cái đầu người đẹp trong rừng nên đã gắn nó lên đầu mình.
@@ -13163,7 +13163,7 @@ Bọn họ lại không biết phu nhân có mệnh cách đặc thù, có thể
   },{
     id: 629,
     title: "Trọng Sinh Đòi Nợ Máu Cầm Thú Mơ Ước Nội Tạng Con Gái",
-    image: "imgngon/0e8d4feb98e7c3c0fb5a6f4a58a72cfe.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0e8d4feb98e7c3c0fb5a6f4a58a72cfe.jpg",
     link: "ngontinh/trong-sinh-doi-no-mau-cam-thu-mo-uoc-noi-tang-con-gai.html",
     type: "ngontinh",
     desc: `Sau khi nhà trẻ tổ chức khám sức khỏe, con gái tôi đột ngột qua đời.
@@ -13183,7 +13183,7 @@ Thế nhưng trên con đường đi tìm bọn họ đòi lại công lý, tôi
   },{
     id: 630,
     title: "Nhặt Đứa Trẻ Bị Bỏ Rơi Về Chăm",
-    image: "imgdam/f5cd63398421562f7706f673d7a44e56.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f5cd63398421562f7706f673d7a44e56.jpg",
     link: "dammy/nhat-dua-tre-bi-bo-roi-ve-cham.html",
     type: "dammy",
     desc: `Là một kẻ lăn lộn ở xóm liều, tôi từng tiện tay cứu rồi nuôi lớn một đứa em trai.
@@ -13201,7 +13201,7 @@ Rốt cuộc là ai nuôi ai chứ!
   },{
     id: 631,
     title: "Bạo Quân Nghiện Internet",
-    image: "imgco/a61763973d26bff650d0e876f7773c9d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a61763973d26bff650d0e876f7773c9d.jpg",
     link: "cotrang/bao-quan-nghien-internet.html",
     type: "cotrang",
     desc: `Tôi mang theo cả chiếc điện thoại xuyên không, lại còn có cả mạng internet nữa chứ.
@@ -13217,7 +13217,7 @@ Bởi vì tôi đã kéo tên bạo chúa nằm trên giường cày video ngắ
   },{
     id: 632,
     title: "Ảnh Đế Bước Ra Từ Bức Tranh Kỳ Diệu",
-    image: "imgngon/d2ceff8ceefe029dd7472130b50cf6c2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d2ceff8ceefe029dd7472130b50cf6c2.jpg",
     link: "ngontinh/anh-de-buoc-ra-tu-buc-tranh-ky-dieu.html",
     type: "ngontinh",
     desc: `Tôi sở hữu một đồ họa bản layer vô cùng kỳ diệu trên phần mềm máy tính.
@@ -13233,7 +13233,7 @@ Khắp nơi xôn xao, thiên hạ tìm kiếm ngài đến điên đảo.
   },{
     id: 633,
     title: "Người Tình Của Boss Hệ Thống",
-    image: "imgdam/2fbada92dfe20426530a5ac774b2ca34.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2fbada92dfe20426530a5ac774b2ca34.jpg",
     link: "dammy/nguoi-tinh-cua-boss-he-thong.html",
     type: "dammy",
     desc: `Tôi là nam chính trong một cuốn truyện sắc.
@@ -13251,7 +13251,7 @@ Ban ngày, tôi trêu ghẹo Boss:
   },{
     id: 634,
     title: "Hoàng Hậu Đanh Đá Trị Cả Triều Đình",
-    image: "imgco/6f4dd2d0998b5af3295e569a26ef8164.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6f4dd2d0998b5af3295e569a26ef8164.jpg",
     link: "cotrang/hoang-hau-danh-da-tri-ca-trieu-dinh.html",
     type: "cotrang",
     desc: `Ta không muốn vào cung.
@@ -13277,7 +13277,7 @@ Cô mẫu nhẹ nhàng xoa đầu ta đầy chua xát, lặng lẽ dắt ta rờ
   },{
     id: 635,
     title: "Hành Trình Tái Sinh Tìm Lại Hạnh Phúc",
-    image: "imgngon/42b3c3ca5340c1098d3b13639bea8dca.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/42b3c3ca5340c1098d3b13639bea8dca.jpg",
     link: "ngontinh/hanh-trinh-tai-sinh-tim-lai-hanh-phuc.html",
     type: "ngontinh",
     desc: `Tôi bị nhốt như chim hoàng yến trong suốt mười năm.
@@ -13297,7 +13297,7 @@ Hắn nghiến răng cười, ánh mắt ranh mãnh: “Lương tháng ba triệ
   },{
     id: 636,
     title: "Rời Xa Tình Yêu Bệnh Hoạn",
-    image: "imgdam/7d8e6965d2783967ed4735e79591a2f6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7d8e6965d2783967ed4735e79591a2f6.jpg",
     link: "dammy/roi-xa-tinh-yeu-benh-hoan.html",
     type: "dammy",
     desc: `Là một thằng đàn ông, tôi lại bị Cố Bội Nam biến thành món đồ chơi riêng, bị hắn giam cầm suốt ba năm trời.
@@ -13315,7 +13315,7 @@ Tôi khẽ giọng hỏi: "Anh ơi, người này là ai vậy? Sao nói chuyệ
   },{
     id: 637,
     title: "Thế Tử Phi Cố Chấp",
-    image: "imgco/73fa1b164204d5eb5afa17f6545361fc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/73fa1b164204d5eb5afa17f6545361fc.jpg",
     link: "cotrang/the-tu-phi-co-chap.html",
     type: "cotrang",
     desc: `Trọng sinh trở về đúng ngày xuất giá gả vào Hầu phủ.
@@ -13347,7 +13347,7 @@ Biểu muội chớ sợ, nếu có điều gì oan khuất cứ việc nói v�
   },{
     id: 638,
     title: "Oan Gia Ngõ Hẹp Cuối Cùng Lại Thành Vợ Chồng",
-    image: "imgngon/d4b929257e432f3af495835ac60e8bed.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d4b929257e432f3af495835ac60e8bed.jpg",
     link: "ngontinh/oan-gia-ngo-hep-cuoi-cung-lai-thanh-vo-chong.html",
     type: "ngontinh",
     desc: `Kẻ thù không đội trời chung sau khi mất trí nhớ, bị tôi lừa về nhà làm chồng.
@@ -13365,7 +13365,7 @@ Khi tôi đang vui mừng, thì vô tình nghe được Lâm Tụng nói chuyệ
   },{
     id: 639,
     title: "Sư Tôn Là Nghề Có Tỉ Lệ Rủi Ro Cao",
-    image: "imgdam/d3a82ac5b3d7282ad40008e5ab9a565c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d3a82ac5b3d7282ad40008e5ab9a565c.jpg",
     link: "dammy/su-ton-la-nghe-co-ti-le-rui-ro-cao.html",
     type: "dammy",
     desc: `Thiên hạ đồn đại chẳng sai, sư tôn quả thực là cái nghề có tỉ lệ rủi ro cao ngất ngưởng.
@@ -13385,7 +13385,7 @@ Tống Ngọc Hủy ghé cằm tựa nhẹ lên vai ta, từ phía sau ôm chặ
   },{
     id: 640,
     title: "Bản Báo Cáo Hàng Năm Của Phi Tần Lười Biếng",
-    image: "imgco/3db4d14b5066cf1f11aee3e293780a14.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3db4d14b5066cf1f11aee3e293780a14.jpg",
     link: "cotrang/ban-bao-cao-hang-nam-cua-phi-tan-luoi-bieng.html",
     type: "cotrang",
     desc: `Là phi tần lười biếng nhất chốn hậu cung, ta sống những ngày tháng chẳng màng thế sự.
@@ -13409,7 +13409,7 @@ Thôi xong, chẳng lẽ ta sắp sửa bị đày vào lãnh cung rồi sao?
   },{
     id: 641,
     title: "Tiếng Lòng Đảo Ngược Gia Môn",
-    image: "imgngon/b80174e89a94022281eba9ac69264760.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b80174e89a94022281eba9ac69264760.jpg",
     link: "ngontinh/tieng-long-dao-nguoc-gia-mon.html",
     type: "ngontinh",
     desc: `Thời điểm được đón trở về Tống gia, ta khẽ thu mình lại, cố tỏ ra hoảng sợ và rụt rè.
@@ -13433,7 +13433,7 @@ Còn ta chỉ nhẹ nhàng nở một nụ cười ẩn ý.
   },{
     id: 642,
     title: "Alpha Của Tôi Là Liều Thuốc Độc Ngọt Ngào",
-    image: "imgdam/905d05c1de54cfc2725872d78f8bee45.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/905d05c1de54cfc2725872d78f8bee45.jpg",
     link: "dammy/alpha-cua-toi-la-lieu-thuoc-doc-ngot-ngao.html",
     type: "dammy",
     desc: `Tôi mắc phải một căn bệnh kỳ quặc, chỉ cần ngửi được mùi pheromone của người bạn thanh mai trúc mã là hai chân lập tức mất hết sức lực.
@@ -13455,7 +13455,7 @@ Giọng trầm thấp, mê hoặc vang lên sát bên tai:
   },{
     id: 643,
     title: "Mong Ước Thiên Hạ Không Còn Nạn Đói",
-    image: "imgco/9586bd9adc9e0d1459d0d88b1c7e563d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9586bd9adc9e0d1459d0d88b1c7e563d.jpg",
     link: "cotrang/mong-uoc-thien-ha-khong-con-nan-doi.html",
     type: "cotrang",
     desc: `Vừa mở mắt ra, ta đã trở thành Vương phi.
@@ -13473,7 +13473,7 @@ Từ máy cày tay, cối xay nước cho đến phân bón... Chỉ cần đạ
   },{
     id: 644,
     title: "Bản Hợp Đồng Hôn Nhân Của Oan Gia Trúc Mã",
-    image: "imgngon/196af76853f28b43641982a4addee5f7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/196af76853f28b43641982a4addee5f7.jpg",
     link: "ngontinh/ban-hop-dong-hon-nhan-cua-oan-gia-truc-ma.html",
     type: "ngontinh",
     desc: `Một giây sau, anh liền túm lấy cổ áo tôi rồi hôn xuống môi tôi.
@@ -13489,7 +13489,7 @@ Xong việc, tôi hài lòng cầm theo tờ chi phiếu vài triệu rời đi.
   },{
     id: 645,
     title: "Cố Tình Hóa Trang Giả Gái Bị Hot Boy Bắt Cặp",
-    image: "imgdam/c61754a67b5e9159ae7df55ad4c36a2e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c61754a67b5e9159ae7df55ad4c36a2e.jpg",
     link: "dammy/co-tinh-hoa-trang-gia-gai-bi-hot-boy-bat-cap.html",
     type: "dammy",
     desc: `Tôi là bậc thầy cosplay giả gái.
@@ -13511,7 +13511,7 @@ Vậy mà cậu ta lại chặn đường, ép chặt tôi vào tường.
   },{
     id: 646,
     title: "Ngôi Miếu Hoa Âm",
-    image: "imgco/eb975b8be91dc48f1dd4fa5eff072889.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eb975b8be91dc48f1dd4fa5eff072889.jpg",
     link: "cotrang/ngoi-mieu-hoa-am.html",
     type: "cotrang",
     desc: `Ta vì chúng sinh mà hy sinh thân mình, mất trăm năm để khôi phục thần hồn rồi mới có thể trở lại Cửu trùng thiên. Thế nhưng khi trở về, ta lại phát hiện ra trên đời này đã xuất hiện một kẻ thế thân.
@@ -13527,7 +13527,7 @@ Trong lòng ta dâng lên niềm phẫn hận sâu sắc.
   },{
     id: 647,
     title: "Khởi Đầu Trong Mùa Mưa",
-    image: "imgngon/2863ca3a61670dd4ad9f23739fda28fc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2863ca3a61670dd4ad9f23739fda28fc.jpg",
     link: "ngontinh/khoi-dau-trong-mua-mua.html",
     type: "ngontinh",
     desc: `Theo đuổi Chu Vân Sanh suốt bảy năm trời, tôi vì hắn mà làm chẳng ít chuyện ngông cuồng, điên rỡ.
@@ -13549,7 +13549,7 @@ Triệu Tu Tề nhướng mày, nhìn tôi thật sâu rồi khẽ đáp: "Khôn
   },{
     id: 648,
     title: "Nhiệm vụ Cứu Rỗi Nam Chính U Ám",
-    image: "imgdam/8852362112e0593f175c6cfedf202d7b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8852362112e0593f175c6cfedf202d7b.jpg",
     link: "dammy/nhiem-vu-cuu-roi-nam-chinh-u-am.html",
     type: "dammy",
     desc: `Hệ thống giao cho ta trọng trách phải cứu rỗi nam chính u ám. Nhiệm vụ là ngăn không cho hắn hắc hóa và bù đắp cho hắn một tuổi thơ thật hoàn mỹ.
@@ -13569,7 +13569,7 @@ Sau này, vị gia chủ trẻ tuổi của gia tộc hào môn đỉnh cấp é
   },{
     id: 649,
     title: "Trợ Giúp Phu Quân Cùng Hoàng Hậu Lưu Danh Vạn Cổ",
-    image: "imgco/a708154a9529665ef0a479e46b69e816.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a708154a9529665ef0a479e46b69e816.jpg",
     link: "cotrang/tro-giup-phu-quan-cung-hoang-hau-luu-danh-van-co.html",
     type: "cotrang",
     desc: `Phu quân của ta là một bậc quân tử ngay thẳng chính trực, vang danh khắp chốn triều đình. Hắn không nạp thiếp, cũng chẳng hề có thị nữ thông phòng, thế nhân ai nấy đều ngợi khen hắn hết lòng yêu thương và kính trọng thê tử.
@@ -13589,7 +13589,7 @@ Thế nhưng khi mở mắt ra lần nữa, ta phát hiện mình đã trở v�
   },{
     id: 650,
     title: "Sau Khi Kẻ Thù Phá Sản Tôi Vung Tiền Bao Nuôi Hắn",
-    image: "imgngon/66a7e551d161b5f216fb7ac7a9d73409.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/66a7e551d161b5f216fb7ac7a9d73409.jpg",
     link: "ngontinh/sau-khi-ke-thu-pha-san-toi-vung-tien-bao-nuoi-han.html",
     type: "ngontinh",
     desc: `Để đáp lại mối thâm thù đại hận với kẻ không đội trời chung vừa mới sa cơ thất thế, ta vung tiền bao nuôi hắn, ngang ngược bắt hắn phải ôm, phải hôn ta.
@@ -13619,7 +13619,7 @@ Nào ngờ vừa dứt lời, mắt hắn liền sáng rực lên, động tác 
   },{
     id: 651,
     title: "Nam Thần Bất Ngờ Tỏ Tình",
-    image: "imgdam/9695c38b18d104ce27b1e631de1d0081.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9695c38b18d104ce27b1e631de1d0081.jpg",
     link: "dammy/nam-than-bat-ngo-to-tinh.html",
     type: "dammy",
     desc: `Người tôi thầm thích là một tên trai thẳng. Thế nhưng ngày nào hắn cũng ôm tôi rồi nũng nịu gọi “bé cưng”.
@@ -13641,7 +13641,7 @@ Thế nhưng đến lúc tôi nhận lời mời của đàn em, hắn lại ép
   },{
     id: 652,
     title: "Gặp Đồng Hương Xuyên Không Ở Hậu Cung Bạo Quân",
-    image: "imgco/4f6cfeef6d4cdc1ed7f138eb26a1f74e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4f6cfeef6d4cdc1ed7f138eb26a1f74e.jpg",
     link: "cotrang/gap-dong-huong-xuyen-khong-o-hau-cung-bao-quan.html",
     type: "cotrang",
     desc: `Cha ta đem ta dâng cho bạo quân như một món quà. Nghe đồn, đám phi tần chốn hậu cung của hắn chẳng ai sống thọ quá ba tháng.
@@ -13659,7 +13659,7 @@ Nửa năm sau, ta chính thức phá vỡ kỷ lục sống sót lâu nhất �
   },{
     id: 653,
     title: "Hợp Đồng Ly Hôn Năm Mươi Tỷ",
-    image: "imgngon/bd364c51e7fa19a4b6423d5797487b1db.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bd364c51e7fa19a4b6423d5797487b1db.jpg",
     link: "ngontinh/hop-dong-ly-hon-nam-muoi-ty.html",
     type: "ngontinh",
     desc: `Năm thứ ba sống trong cuộc hôn nhân với Tống Từ, người trong mộng của anh bất ngờ trở về nước.
@@ -13679,7 +13679,7 @@ Tôi quay đầu lại, vừa vặn bắt gặp ánh mắt bàng hoàng xen lẫ
   },{
     id: 654,
     title: "Gặp Lại Người Cũ Trên Chuyến Tàu",
-    image: "imgdam/b318790f1d717877558f6a851afde732a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b318790f1d717877558f6a851afde732a.jpg",
     link: "dammy/gap-lai-nguoi-cu-tren-chuyen-tau.html",
     type: "dammy",
     desc: `Trên chuyến tàu điện ngầm đông đúc, cơn hạ đường huyết đột ngột ập đến khiến đầu óc tôi quay mòng mòng. Thân thể chao đảo, tôi mất đà ngã nhào vào lòng một người đàn ông cao chừng một mét chín đang khoác chiếc áo dáng dài.
@@ -13695,7 +13695,7 @@ Khóe môi anh nhếch lên thành một nụ cười nửa miệng, đong đầ
   },{
     id: 655,
     title: "Ta Vào Cung Tranh Sủng Chỉ Vì Đĩa Chân Giò",
-    image: "imgco/b447fa62f3c6d109512f91e6f7f2275fd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b447fa62f3c6d109512f91e6f7f2275fd.jpg",
     link: "cotrang/ta-vao-cung-tranh-sung-chi-vi-dia-chan-gio.html",
     type: "cotrang",
     desc: `Lần đầu tiên ta diện kiến Hoàng hậu, ta đã vô tình làm hỏng cây trâm phượng của người.
@@ -13711,7 +13711,7 @@ Về sau, mãi cho đến tận cùng, Hoàng hậu mới thấu hiểu rằng �
   },{
     id: 656,
     title: "Mối Tình Ngọt Ngào Của Hai Thiên Kim",
-    image: "imgngon/b1cc005ba1b3c2e6fca6fe4da3a202b8a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b1cc005ba1b3c2e6fca6fe4da3a202b8a.jpg",
     link: "ngontinh/moi-tinh-ngot-ngao-cua-hai-thien-kim.html",
     type: "ngontinh",
     desc: `Kiều Ngưng năm mười bảy tuổi bàng hoàng phát hiện ra bản thân chỉ là một thiên kim giả. Cô lặng lẽ thu dọn hành lý, chuẩn bị rời khỏi căn nhà rợp bóng cẩm tú cầu, nhưng bị Tống Nhứ ngăn lại ngay từ ngưỡng cửa.
@@ -13729,7 +13729,7 @@ Kiều Ngưng ngơ ngác chớp mắt: "Hả?"
   },{
     id: 657,
     title: "Phân Hóa Ngay Trước Mặt Kẻ Thù",
-    image: "imgdam/be3e12e35b17b576ea73a21f5a99e435f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/be3e12e35b17b576ea73a21f5a99e435f.jpg",
     link: "dammy/phan-hoa-ngay-truoc-mat-ke-thu.html",
     type: "dammy",
     desc: `Khi phân hóa thành Omega ngay trước mặt kẻ thù không đội trời chung, đã vậy độ tương thích pheromone giữa hai đứa còn chạm mốc 100%, tôi có nên cắm đầu chạy trốn không?
@@ -13743,7 +13743,7 @@ Trong bóng tối, tôi chịu hết nổi, giật phắt bàn tay đang đượ
   },{
     id: 658,
     title: "Ngã Xuống Vực Sâu Ta Từ Hôn Với Trúc Mã",
-    image: "imgco/bcda42f2e4d177980c0fc47dea6f911a7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bcda42f2e4d177980c0fc47dea6f911a7.jpg",
     link: "cotrang/nga-xuong-vuc-sau-ta-tu-hon-voi-truc-ma.html",
     type: "cotrang",
     desc: `Kể từ ngày được cứu trở về sau tai nạn ngã xuống sườn núi, ta như biến thành một con người hoàn toàn khác.
@@ -13769,7 +13769,7 @@ Sau đó, ta lại lặng lẽ xoay người, quỳ trước đài sen mà thàn
   },{
     id: 659,
     title: "Thịt Hầm Thi Khí",
-    image: "imgngon/b099083493e540f71e188310b54e20227.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b099083493e540f71e188310b54e20227.jpg",
     link: "ngontinh/thit-ham-thi-khi.html",
     type: "ngontinh",
     desc: `Kế bên con phố nơi tôi mở hàng, đột nhiên mọc lên một quán thịt hầm xưng danh bách niên cổ truyền.
@@ -13787,7 +13787,7 @@ Cho tới một tuần sau, ta bỗng thấy một con chó hoang đi ngang qua 
   },{
     id: 660,
     title: "Sập Bẫy Antifan Đại Gia Thượng Hải",
-    image: "imgdam/b12f4a4a460f6273d92dd510c8310a298.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b12f4a4a460f6273d92dd510c8310a298.jpg",
     link: "dammy/sap-bay-antifan-dai-gia-thuong-hai.html",
     type: "dammy",
     desc: `Tôi là food blogger, chuyên làm mấy món kiểu ẩm thực cao cấp.
@@ -13813,7 +13813,7 @@ Ai ngờ đâu, video mới vừa đăng, Đại gia Thượng Hải đã nhảy
   },{
     id: 661,
     title: "Cửu Tộc Của Nữ Phản Tặc",
-    image: "imgco/be2c6b33bfed0c3edaa017b3aa3f0f007.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/be2c6b33bfed0c3edaa017b3aa3f0f007.jpg",
     link: "cotrang/cuu-toc-cua-nu-phan-tac.html",
     type: "cotrang",
     desc: `Ta vốn là một nữ chiến thần lừng lẫy. Thế nhưng sau khi vụ tạo phản thất bại, tên Cẩu hoàng đế liền nổi giận đùng đùng, hạ lệnh tru di cửu tộc của ta để răn đe thiên hạ.
@@ -13837,7 +13837,7 @@ Tên Cẩu hoàng đế đứng bên cạnh lập tức cười lớn: "Hahaha! 
   },{
     id: 662,
     title: "Ly Nước Đã Nguội",
-    image: "imgngon/76815adff32766954af13d8ee20ceac6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/76815adff32766954af13d8ee20ceac6.jpg",
     link: "ngontinh/ly-nuoc-da-nguoi.html",
     type: "ngontinh",
     desc: `Một ngày nọ, tôi tình cờ phát hiện một đoạn trò chuyện trong điện thoại của Thịnh Cảnh.
@@ -13849,7 +13849,7 @@ Cô trợ lý nhanh chóng đáp lại bằng một biểu tượng cảm xúc �
   },{
     id: 663,
     title: "Trân Châu Của Đại Ma Vương",
-    image: "imgdam/bafcc3b597bbef45adde03c8d9b98389d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bafcc3b597bbef45adde03c8d9b98389d.jpg",
     link: "dammy/tran-chau-cua-dai-ma-vuong.html",
     type: "dammy",
     desc: `Tôi nhặt được một con hắc xà đẹp tuyệt trần.
@@ -13861,7 +13861,7 @@ Thế nhưng đến nửa đêm, cái đuôi lạnh lẽo ấy lại quấn ch�
   },{
     id: 664,
     title: "Đại Nha Hoàn Khương Phủ",
-    image: "imgco/b8fc5926ad371e63192c2496cd97e3fe6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b8fc5926ad371e63192c2496cd97e3fe6.jpg",
     link: "cotrang/dai-nha-hoan-khuong-phu.html",
     type: "cotrang",
     desc: `Ta là a hoàn của đại tiểu thư nhà họ Khương. Sau khi nàng gả vào phủ tướng quân, ta cũng thuận thế trở thành a hoàn của phu nhân tướng quân.
@@ -13873,7 +13873,7 @@ Chỉ là ngày ngày phải chứng kiến cảnh chủ nhân tình nồng ý m
   },{
     id: 665,
     title: "Người Chồng 75 Tuổi Rước Bạch Nguyệt Quang Về Nhà",
-    image: "imgngon/b8a3f583eb886eab58520ed836021e47b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b8a3f583eb886eab58520ed836021e47b.jpg",
     link: "ngontinh/nguoi-chong-75-tuoi-ruoc-bach-nguyet-quang-ve-nha.html",
     type: "ngontinh",
     desc: `Vừa qua một trận bạo bệnh, Trần Hạc Niên ở tuổi bảy mươi lăm lại một mực đòi đón người tình đầu tiên về sống chung.
@@ -13887,7 +13887,7 @@ Thế nhưng còn tôi thì sao? Năm mươi năm xuân thì cùng những hy si
   },{
     id: 666,
     title: "Vị Trí Nào Cho Em Trong Trái Tim Anh",
-    image: "imgdam/b6cf79012e07bfefd64042a3e7f837718.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b6cf79012e07bfefd64042a3e7f837718.jpg",
     link: "dammy/vi-tri-nao-cho-em-trong-trai-tim-anh.html",
     type: "dammy",
     desc: `Ngày đầu tiên làm thế thân cho vị tổng tài bá đạo, tôi mới ngỡ ngàng nhận ra "bạch nguyệt quang" trong lòng hắn chẳng phải ai xa lạ, mà chính là bạn trai tôi.
@@ -13905,7 +13905,7 @@ Trong khi đó, gã tổng tài kiêu ngạo ngày nào giờ lại hạ mình t
   },{
     id: 667,
     title: "Đổi Phận Trả Duyên",
-    image: "imgco/b4a171d4de841fdc3c9c7c4e692d51789.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b4a171d4de841fdc3c9c7c4e692d51789.jpg",
     link: "cotrang/doi-phan-tra-duyen.html",
     type: "cotrang",
     desc: `Ta vốn là phận nữ phụ ác độc trong thiên hạ, nhưng lại chọn cách buông xuôi, chẳng buồn tranh giành với đời.
@@ -13919,7 +13919,7 @@ Sau khi mộng thấy toàn bộ diễn biến tương lai, ta quyết định k
   },{
     id: 668,
     title: "Ngoảnh Lại Thành Người Dưng",
-    image: "imgngon/b2785b2c0a2409b073ccb6e4274dc4d8a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b2785b2c0a2409b073ccb6e4274dc4d8a.jpg",
     link: "ngontinh/ngoanh-lai-thanh-nguoi-dung.html",
     type: "ngontinh",
     desc: `Sau khi chia tay Thẩm Dục, tôi luôn ôm một niềm tin mơ hồ rằng rồi hai đứa sẽ tái hợp.
@@ -13943,7 +13943,7 @@ Thế nhưng lúc thực sự ở bên nhau, tôi mới chợt nhận ra hình n
   },{
     id: 669,
     title: "Định Mệnh Của Công Chúa Alpha",
-    image: "imgdam/b8ca60b421ca45ae0b5e4d39ec9bcd1d0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b8ca60b421ca45ae0b5e4d39ec9bcd1d0.jpg",
     link: "dammy/dinh-menh-cua-cong-chua-alpha.html",
     type: "dammy",
     desc: `Đối tượng tôi thầm thương thích một omega có mùi pheromone ngọt ngào.
@@ -13966,7 +13966,7 @@ Thì làm sao mà bắt được tôi chứ?`
   },{
     id: 670,
     title: "Nữ Chính Không Đặt Cược",
-    image: "imgco/bc8e359b9f1603bdb20c0a5f247cd82b2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bc8e359b9f1603bdb20c0a5f247cd82b2.jpg",
     link: "cotrang/nu-chinh-khong-dat-cuoc.html",
     type: "cotrang",
     desc: `Mẫu thân ta hóa điên suốt cả một đời. Giây phút chia ly nhân thế, bà không để lại điều gì ngoài khối gia tài kếch xù cùng một mảnh giấy đã sờn.
@@ -13986,7 +13986,7 @@ Nếu rơi vào hoàn cảnh ấy, xin hãy vội vàng đào tẩu.
   },{
     id: 671,
     title: "Bi Kịch Sau Hủ Tục Náo Hôn",
-    image: "imgngon/0c7957ff62b9afa5283272a9be5cf6fc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0c7957ff62b9afa5283272a9be5cf6fc.jpg",
     link: "ngontinh/bi-kich-sau-hu-tuc-nao-hon.html",
     type: "ngontinh",
     desc: `Được làm phù dâu trong đám cưới của cô bạn thân, tôi lại bị gã phù rể đè xuống giường.
@@ -14000,7 +14000,7 @@ Tôi liều mạng chống cự, cố ngoi lên thoát khỏi những bàn tay t
   },{
     id: 672,
     title: "Cạm Bẫy Đêm Đen",
-    image: "imgdam/51affdce4bc8a8265969e25d43e52926.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/51affdce4bc8a8265969e25d43e52926.jpg",
     link: "dammy/cam-bay-dem-den.html",
     type: "dammy",
     desc: `Tôi là một kẻ lăn lộn trong thế giới ngầm.
@@ -14018,7 +14018,7 @@ Cho đến một ngày không thể chịu đựng nổi nữa, tôi thẳng tay
   },{
     id: 673,
     title: "Đường Sống Nơi Hạn Hán",
-    image: "imgco/5e685625db2adeb8685f9f41834d14e0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5e685625db2adeb8685f9f41834d14e0.jpg",
     link: "cotrang/duong-song-noi-han-han.html",
     type: "cotrang",
     desc: `Vừa chớp mắt tỉnh lại, ta phát hiện mình đã xuyên thành mụ độc phụ trong một cuốn tiểu thuyết điền văn. Chưa kịp định thần, đứa con trai út đã nhảy chồm lên xúi giục ta đem bán cháu gái để lấy tiền trả nợ lô đề cho nó.
@@ -14040,7 +14040,7 @@ Thằng bé ngơ ngác gào lên: "Mẹ ơi, Chiêu Muội là đứa nào, con 
   },{
     id: 674,
     title: "Bức Tường Điều Ước Mười Năm",
-    image: "imgngon/422345c68e8693fd1d08de9d0a81abd6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/422345c68e8693fd1d08de9d0a81abd6.jpg",
     link: "ngontinh/buc-tuong-dieu-uoc-muoi-nam.html",
     type: "ngontinh",
     desc: `Vô tình bước vào một quán cà phê, tôi phát hiện trên bức tường điều ước viết đầy ắp tên mình.
@@ -14052,7 +14052,7 @@ Hóa ra, trong những năm tháng thời cấp ba đầy mệt mỏi ấy, gi�
   },{
     id: 675,
     title: "Nắng Trong Hẻm Vắng",
-    image: "imgdam/f31d0f5d47b8091ebfebe45a8a6ac135.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f31d0f5d47b8091ebfebe45a8a6ac135.jpg",
     link: "dammy/nang-trong-hem-vang.html",
     type: "dammy",
     desc: `Tôi là một tên lưu manh.
@@ -14070,7 +14070,7 @@ Tôi hưng phấn kéo cạp quần ra:
   },{
     id: 676,
     title: "Ma Tôn Mất Trí Nhớ Bị Ta Lừa Thành Vị Hôn Phu",
-    image: "imgco/42f5add4a531ffd467b920b8e18a2884.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/42f5add4a531ffd467b920b8e18a2884.jpg",
     link: "cotrang/ma-ton-mat-tri-nho-bi-ta-lua-thanh-vi-hon-phu.html",
     type: "cotrang",
     desc: `Hệ thống giục ta đi công lược Ma tôn, nhưng ta lập tức khước từ.
@@ -14088,7 +14088,7 @@ Ta liền ghé sát bên tai hắn, cất lời thì thầm tựa quỷ dữ: "T
   },{
     id: 677,
     title: "Bí Kíp Tiết Kiệm Của Sao Nữ",
-    image: "imgngon/765c92a5cd035c40f2b51dc6bf175cd9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/765c92a5cd035c40f2b51dc6bf175cd9.jpg",
     link: "ngontinh/bi-kip-tiet-kiem-cua-sao-nu.html",
     type: "ngontinh",
     desc: `Tôi là nữ diễn viên tiết kiệm tiền giỏi nhất showbiz.
@@ -14108,7 +14108,7 @@ Cộng đồng mạng lập tức bùng nổ.
   },{
     id: 678,
     title: "Chàng Trai Hè Năm Mười Tám",
-    image: "imgdam/ee81b452c8d559b779437aef9bf65f99.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ee81b452c8d559b779437aef9bf65f99.jpg",
     link: "dammy/chang-trai-he-nam-muoi-tam.html",
     type: "dammy",
     desc: `Ngày đầu tiên bước chân vào ngưỡng cửa đại học.
@@ -14136,7 +14136,7 @@ Trong khi đó, Thẩm Dư Khanh người từ đầu vẫn dán mắt vào màn
   },{
     id: 679,
     title: "Tiếng Mõ Rao Đậu Vang Khắp Phố Huyện",
-    image: "imgco/97d25c372f7b74ddc1e8e1d353c05e5b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/97d25c372f7b74ddc1e8e1d353c05e5b.jpg",
     link: "cotrang/tieng-mo-rao-dau-vang-khap-pho-huyen.html",
     type: "cotrang",
     desc: `Cha mẹ khuất núi, ta nhờ bán đậu hũ mà dành dụm được chút tiền lộ phí, khăn gói lên đường tìm tỷ tỷ năm xưa bị bán vào Hầu phủ làm thiếp.
@@ -14150,7 +14150,7 @@ Còn trong những bức thư gửi về nhà mỗi năm một lần, tỷ ấy 
   },{
     id: 680,
     title: "Vợ Ẩn Giấu Của Ảnh Đế Đỉnh Lưu",
-    image: "imgngon/046c2625b1c5d1339a0adaec2a048b9c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/046c2625b1c5d1339a0adaec2a048b9c.jpg",
     link: "ngontinh/vo-an-giau-cua-anh-de-dinh-luu.html",
     type: "ngontinh",
     desc: `Ảnh đế khoe con mới sinh và cùng lúc đó, tôi cũng đăng ảnh khoe con.
@@ -14170,7 +14170,7 @@ Cư dân mạng chấn động toàn tập.
   },{
     id: 681,
     title: "Rắn Lục Và Cọc Tre",
-    image: "imgdam/9a911f0d33491f21ad7a66e8dd5eecd1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9a911f0d33491f21ad7a66e8dd5eecd1.jpg",
     link: "dammy/ran-luc-va-coc-tre.html",
     type: "dammy",
     desc: `Trót lỡ tay nhận nuôi một con rắn lục đuôi xanh, chẳng ngờ có ngày lại bị nó cắn cho một phát.
@@ -14198,7 +14198,7 @@ Rắn xanh liền bật lại ngay:
   },{
     id: 682,
     title: "Bóng Lưng Đại Nương",
-    image: "imgco/cabed0159dd443b249b4692dfd6e973e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cabed0159dd443b249b4692dfd6e973e.jpg",
     link: "cotrang/bong-lung-dai-nuong.html",
     type: "cotrang",
     desc: `Cha ta là kẻ ở rể nhà người ta.
@@ -14226,14 +14226,14 @@ Ta chỉ lạnh lùng cười nhạt, đưa ra tờ văn thư đoạn tuyệt qu
   },{
     id: 683,
     title: "Sự Trả Thù Dịu Dàng",
-    image: "imgngon/e3d9f3e6178434a2b84a8269576e0a8e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e3d9f3e6178434a2b84a8269576e0a8e.jpg",
     link: "ngontinh/su-tra-thu-diu-dang.html",
     type: "ngontinh",
     desc: ``
   },{
     id: 684,
     title: "Yêu Bạn Diễn Bị Bẻ Cong",
-    image: "imgdam/7b3afe6772b098201513db696efb5dd0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7b3afe6772b098201513db696efb5dd0.jpg",
     link: "dammy/yeu-ban-dien-bi-be-cong.html",
     type: "dammy",
     desc: `Tôi từng quay một bộ phim đam mỹ rồi bị bẻ cong lúc nào chẳng hay.
@@ -14257,7 +14257,7 @@ Thế nhưng về sau, mỗi lần tham gia sự kiện chung, chỉ cần tôi 
   },{
     id: 685,
     title: "Hoa Trắng Trên Than Hồng",
-    image: "imgco/a5ae51e8bbc250baeec8413e71f43361.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5ae51e8bbc250baeec8413e71f43361.jpg",
     link: "cotrang/hoa-trang-tren-than-hong.html",
     type: "cotrang",
     desc: `Đêm bái đường thành thân, phu quân ta mãi vẫn chưa chịu trở về.
@@ -14279,7 +14279,7 @@ Thế nhưng, ta lại lặng lẽ ngó lơ Thiệu Du đang dang rộng đôi t
   },{
     id: 686,
     title: "Nhật Ký Hẹn Hò Của Tổng Tài Keo Kiệt",
-    image: "imgngon/ae3a09948416c9b4059934f326ff5caa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ae3a09948416c9b4059934f326ff5caa.jpg",
     link: "ngontinh/nhat-ky-hen-ho-cua-tong-tai-keo-kiet.html",
     type: "ngontinh",
     desc: `Họ đều thấy cô thật đáng thương. Quen Bùi Trầm lâu đến thế, thậm chí đã ra mắt gia đình hai bên, vậy mà anh vẫn thản nhiên tuyên bố với bạn bè rằng mình còn độc thân.
@@ -14301,7 +14301,7 @@ Nhìn những tin đồn vô lý loan truyền khắp nơi, Bùi Trầm mặt m�
   },{
     id: 687,
     title: "Cứu Vớt Thanh Xuân",
-    image: "imgdam/f55315979af522c755c074c7a67b4ec4.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f55315979af522c755c074c7a67b4ec4.jpg",
     link: "dammy/cuu-vot-thanh-xuan.html",
     type: "dammy",
     desc: `Ngày crush nhảy lầu tự tử, tôi trùng sinh quay về năm 18 tuổi.
@@ -14320,7 +14320,7 @@ Một tháng sau, cậu vẫn đứng trên sân thượng của trường.
   },{
     id: 688,
     title: "Mắt Thấy Dòng Chữ Bí Mật Nơi Hoàng Cung",
-    image: "imgco/140d49fc15ef06ac8f9a130d5abfe44d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/140d49fc15ef06ac8f9a130d5abfe44d.jpg",
     link: "cotrang/mat-thay-dong-chu-bi-mat-noi-hoang-cung.html",
     type: "cotrang",
     desc: `Vào ngày thứ hai sau đại hôn cùng phò mã, trước mắt ta đột nhiên xuất hiện những dòng chữ mang sắc đỏ và xanh lơ lơ lửng giữa hư không.
@@ -14344,7 +14344,7 @@ Tay ta run rẩy khiến chén trà trong tay chao đảo, nước hắt ra ngo�
   },{
     id: 689,
     title: "Bắt Đầu Lại Ở Năm 1999",
-    image: "imgngon/e36a66b883b889ce709a71f8b5f6f972.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e36a66b883b889ce709a71f8b5f6f972.jpg",
     link: "ngontinh/bat-dau-lai-o-nam-1999.html",
     type: "ngontinh",
     desc: `Bởi vì vừa trải qua kỳ thi tháng với kết quả không mấy khả quan, tâm trạng của tôi rơi vào bế tắc. Cảm giác u uất xâm chiếm toàn bộ tâm trí khiến tôi đau khổ đến mức không sao thở nổi.
@@ -14358,7 +14358,7 @@ Từ từ đã, sao những lời này nghe quen thuộc đến thế? Chẳng p
   },{
     id: 690,
     title: "Nuông Chiều Bạn Cùng Phòng",
-    image: "imgdam/8695f8879c883dc6b637f1101b247224.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8695f8879c883dc6b637f1101b247224.jpg",
     link: "dammy/nuong-chieu-ban-cung-phong.html",
     type: "dammy",
     desc: `Tôi thích anh chàng hotboy lạnh lùng cùng ký túc xá, nhưng trớ trêu thay anh lại là trai thẳng chính hiệu.
@@ -14372,7 +14372,7 @@ Anh chàng trai thẳng kiêu kỳ ấy đột nhiên lên tiếng:
   },{
     id: 691,
     title: "Nắng Trở Lại Sau Mưa",
-    image: "imgco/df684420fd5309e83bc58dd4c1bc7a06.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/df684420fd5309e83bc58dd4c1bc7a06.jpg",
     link: "cotrang/nang-tro-lai-sau-mua.html",
     type: "cotrang",
     desc: `Một nữ tử bán cá nơi chợ nam thành như ta, từng có lúc vác dao kéo kẻ làm cha nghiện cờ bạc lên tận công đường, náo động khắp vùng.
@@ -14388,7 +14388,7 @@ Thế nhưng, thời gian trôi qua, ta dần bóc tách ra bí mật không th�
   },{
     id: 692,
     title: "Cạm Bẫy Tình Yêu Của Oan Gia Ngõ Hẹp",
-    image: "imgngon/9b4aca3be39fd9661f60948c1bc07480.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9b4aca3be39fd9661f60948c1bc07480.jpg",
     link: "ngontinh/cam-bay-tinh-yeu-cua-oan-gia-ngo-hep.html",
     type: "ngontinh",
     desc: `Tên khốn chết tiệt kia lại đâm đầu vào chuyện tình yêu qua mạng.
@@ -14408,7 +14408,7 @@ Mãi đến sau khi nhập học, trong một lần chơi game cùng bạn chung
   },{
     id: 693,
     title: "Ngày Chủ Nhật Của Hai Con Chó Ngoan",
-    image: "imgdam/3b2bc9dc810356cf74a5368b04f82d18.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3b2bc9dc810356cf74a5368b04f82d18.jpg",
     link: "dammy/ngay-chu-nhat-cua-hai-con-cho-ngoan.html",
     type: "dammy",
     desc: `Trôi qua năm năm dài, cậu ta dựa vào nguồn lực từ tôi để từng bước leo lên nấc thang danh vọng. Vị thế càng cao, dã tâm trong lòng cậu ta lại càng trỗi dậy mãnh liệt.
@@ -14438,7 +14438,7 @@ Cậu thanh niên năm nào từng là nam thần trường đại học giờ �
   },{
     id: 694,
     title: "Ngoảnh Mặt Bỏ Cố Nhân",
-    image: "imgco/ceca2a0b7eb3982dc3f6f09405d16b72.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ceca2a0b7eb3982dc3f6f09405d16b72.jpg",
     link: "cotrang/ngoanh-mat-bo-co-nhan.html",
     type: "cotrang",
     desc: `Phu quân khom mình quỳ gối trước mặt ta. Trên gương mặt hắn hiện rõ vẻ áy náy cùng sự nhún nhường tột cùng:
@@ -14472,7 +14472,7 @@ Nhún nhường chịu đựng bấy lâu, thì trong lần cuối cùng này, t
   },{
     id: 695,
     title: "Bí Mật Thầm Lặng Của Nam Thần",
-    image: "imgngon/8341fb6a29ee0c57e5e3f073bf71220a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8341fb6a29ee0c57e5e3f073bf71220a.jpg",
     link: "ngontinh/bi-mat-tham-lang-cua-nam-than.html",
     type: "ngontinh",
     desc: `Tôi đã bị hack tài khoản.
@@ -14486,7 +14486,7 @@ Mối tình đơn phương kéo dài mười năm của tôi, trong khoảnh kh�
   },{
     id: 696,
     title: "Xuyên Sách Mạt Thế Ôm Đùi Nam Chính Cứu Rỗi Cuộc Đời",
-    image: "imgdam/363ef40f9103fc538ddeade064d3fec2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/363ef40f9103fc538ddeade064d3fec2.jpg",
     link: "dammy/xuyen-sach-mat-the-om-dui-nam-chinh-cuu-roi-cuoc-doi.html",
     type: "dammy",
     desc: `Tôi xuyên vào một cuốn tiểu thuyết mạt thế hướng nam chủ, biến thành một nhân vật vô danh tiểu tốt đúng nghĩa.
@@ -14506,7 +14506,7 @@ Tác giả ơi là tác giả, con trai cưng của ngài bị cong đấy à!!
   },{
     id: 697,
     title: "Bệ Hạ Đóng Giả Làm Kẻ Ngốc",
-    image: "imgco/cabed0159dd443b249b4692dfd6e973e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cabed0159dd443b249b4692dfd6e973e.jpg",
     link: "cotrang/be-ha-dong-gia-lam-ke-ngoc.html",
     type: "cotrang",
     desc: `Ta là cung nữ thân cận bên cạnh tiểu Hoàng đế.
@@ -14520,7 +14520,7 @@ Vậy mà đến ngày định mệnh ấy, thiếu niên đứng trước mặt
   },{
     id: 698,
     title: "Chiếm Lấy Thân Thể Của Kẻ Giết Tôi",
-    image: "imgngon/3a8f7b401960594d836cd039ceb683f1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3a8f7b401960594d836cd039ceb683f1.jpg",
     link: "ngontinh/chiem-lay-than-the-cua-ke-giet-toi.html",
     type: "ngontinh",
     desc: `Tôi nắm giữ một bí mật không thể tiết lộ: bất kỳ ai ra tay cướp đi mạng sống của tôi, tôi sẽ tái sinh và chiếm lấy chính cơ thể của kẻ đó.
@@ -14532,7 +14532,7 @@ Cô ta chẳng thể ngờ rằng, thân xác quyến rũ mà cô ta tự hào s
   },{
     id: 699,
     title: "Tình Trong Bóng Tối Với Anh Trai Bạn Thân",
-    image: "imgdam/6c9aec939048e5f5d84047a439acce25.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6c9aec939048e5f5d84047a439acce25.jpg",
     link: "dammy/tinh-trong-bong-toi-voi-anh-trai-ban-than.html",
     type: "dammy",
     desc: `Tôi là đuôi nhỏ trung thành, ngày ngày theo sau săn sóc cậu bạn cùng phòng giàu có.
@@ -14554,7 +14554,7 @@ Tôi ngẩn người: “Anh hiểu lầm rồi…”
   },{
     id: 700,
     title: "Tinh Hà Rực Rỡ Nhất Nhân Gian",
-    image: "imgco/17168619680de64933755294205b60ab.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/17168619680de64933755294205b60ab.jpg",
     link: "cotrang/tinh-ha-ruc-ro-nhat-nhan-gian.html",
     type: "cotrang",
     desc: `Trước khi hồi kinh, Nhan Cảnh từng hứa hẹn sẽ rước ta về làm thê tử. Ngờ đâu vừa đặt chân tới phủ Tướng quân, ta đã phải đối mặt ngay với chính thất của hắn.
@@ -14574,7 +14574,7 @@ Ta tức đến mức đảo mắt bực bội, gom vội hòm thuốc rồi l�
   },{
     id: 701,
     title: "Tập Yêu Lại Từ Đầu",
-    image: "imgngon/1993988288ab01c109353d0bfbda8a54.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1993988288ab01c109353d0bfbda8a54.jpg",
     link: "ngontinh/tap-yeu-lai-tu-dau.html",
     type: "ngontinh",
     desc: `Sau khi nộp đơn xin nghỉ việc để quay về quê nhà, tôi đã bén duyên cùng anh trai của cô bạn thân nhất. Tuy nhiên, thái độ của anh ấy dành cho tôi lại có phần lạnh nhạt. Nhưng điều đó chẳng khiến tôi bận tâm, cứ coi như bản thân vừa kết hôn với chính người bạn thân của mình là xong.
@@ -14586,7 +14586,7 @@ Thế nên sau ngày cưới, tôi vẫn duy trì thói quen đi rong chơi kh�
   },{
     id: 702,
     title: "Bí Mật Của Alpha Cùng Phòng",
-    image: "imgdam/148dbdb48655a0330325b28a4add8332.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/148dbdb48655a0330325b28a4add8332.jpg",
     link: "dammy/bi-mat-cua-alpha-cung-phong.html",
     type: "dammy",
     desc: `Thua trò chơi thử thách, tôi đành nhắm mắt nhắm mũi gửi tin nhắn theo yêu cầu cho anh bạn cùng phòng alpha lạnh lùng:
@@ -14602,7 +14602,7 @@ Anh ta coi như không nghe thấy, khóe môi giương lên nụ cười đầy
   },{
     id: 703,
     title: "Nữ Chính Truyện Sắc Xuyên Vào Thế Giới Trong Sáng",
-    image: "imgco/6fa6da75a32a5f9721c0462dae748ee5.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6fa6da75a32a5f9721c0462dae748ee5.jpg",
     link: "cotrang/nu-chinh-truyen-sac-xuyen-vao-the-gioi-trong-sang.html",
     type: "cotrang",
     desc: `Ta vốn là nữ chính của dòng truyện sắc, đùng một cái bị hệ thống quăng thẳng vào thế giới "trong sáng" để chịu sự cải tạo.
@@ -14616,7 +14616,7 @@ Nào ngờ về sau, kẻ này còn cuồng nhiệt và quá đáng hơn gấp v
   },{
     id: 704,
     title: "Thoát Vai Đã Quá Muộn",
-    image: "imgngon/d8f9984dde0ac5b4a48a57b919bbef3a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d8f9984dde0ac5b4a48a57b919bbef3a.jpg",
     link: "ngontinh/thoat-vai-da-qua-muon.html",
     type: "ngontinh",
     desc: `Năm thứ bảy sau khi kết hôn với Phù Tịch, anh cùng một diễn viên trẻ mới vào nghề đóng chính trong một bộ phim tình cảm mang sắc thái bi kịch. Khi công đoạn ghi hình hoàn tất, cả hai vì chìm quá sâu vào nhân vật nên đã chủ động cắt đứt toàn bộ liên lạc nhằm tránh những lời đồn đoán không hay.
@@ -14630,7 +14630,7 @@ Phù Tịch ngập ngừng rất lâu trước khi gửi đi câu trả lời: "
   },{
     id: 705,
     title: "Bức Thư Tình Giấu Trong Chiếc Máy Ảnh Cũ",
-    image: "imgdam/a393926326d2c4837528202c5accddba.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a393926326d2c4837528202c5accddba.jpg",
     link: "dammy/buc-thu-tinh-giau-trong-chiec-may-anh-cu.html",
     type: "dammy",
     desc: `Sau khi bị kẻ thù không đội trời chung nẫng tay trên liên tiếp ba tiểu 0, tôi thật sự không thể kiềm chế cơn giận được nữa.
@@ -14646,7 +14646,7 @@ Kẻ thù của tôi mặt mũi đỏ gay, một tay thong thả kéo lỏng cà
   },{
     id: 706,
     title: "Mối Tình Rẻ Mạt",
-    image: "imgco/7f5a655ca70607c983e28a626375991e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7f5a655ca70607c983e28a626375991e.jpg",
     link: "cotrang/moi-tinh-re-mat.html",
     type: "cotrang",
     desc: `Ba năm đi hòa thân, phu quân của ta bại trận mất nước. Để bảo toàn tính mạng và danh tiết cho muội muội hắn, ta cắn răng dùng thân mình cứu nàng rời khỏi ổ địch, đưa về tận kinh thành Thiên Thịnh. Ta ban cho nàng cuộc sống vinh hoa phú quý, dốc lòng chỉ dạy từng chút một.
@@ -14660,7 +14660,7 @@ Ta nghe xong liền bật cười thành tiếng: "Lý Tranh, ngươi thật s�
   },{
     id: 707,
     title: "Thư Tình Mùa Hè",
-    image: "imgngon/5863f6abe782de1546b0820b75a8b2fd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5863f6abe782de1546b0820b75a8b2fd.jpg",
     link: "ngontinh/thu-tinh-mua-he.html",
     type: "ngontinh",
     desc: `Tôi đã thầm yêu Giang Trì từ lâu, để rồi đến ngày dũng cảm mở lời, tôi cũng chỉ dám ngập ngừng thốt ra một câu ngốc nghếch: "Hôm nay trăng tròn quá nhỉ?"
@@ -14676,7 +14676,7 @@ Nhiều năm biền biệt trôi qua, câu chuyện tình đơn phương kín k�
   },{
     id: 708,
     title: "Lồng Sắt Chiếm Hữu",
-    image: "imgdam/4f09dc8bbf0165b01d597757f9d167d9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4f09dc8bbf0165b01d597757f9d167d9.jpg",
     link: "dammy/long-sat-chiem-huu.html",
     type: "dammy",
     desc: `Chẳng một ai hay biết tôi từng giam cầm Chu Lẫm, người chú nhỏ trên danh nghĩa của mình.
@@ -14702,14 +14702,14 @@ Tôi đẩy anh ra, điềm nhiên đáp lại:
   },{
     id: 709,
     title: "Chiếc Bánh Từ Trên Trời Rơi Xuống",
-    image: "imgco/7a3092fd0439b4315c4484b734fb4598.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7a3092fd0439b4315c4484b734fb4598.jpg",
     link: "cotrang/chiec-banh-tu-tren-troi-roi-xuong.html",
     type: "cotrang",
     desc: ``
   },{
     id: 710,
     title: "Sếp Sói Bắt Thỏ Về Nuôi",
-    image: "imgngon/57958dcd190a87a5ecd055b94046bb77.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/57958dcd190a87a5ecd055b94046bb77.jpg",
     link: "ngontinh/sep-soi-bat-tho-ve-nuoi.html",
     type: "ngontinh",
     desc: `Thời gian gần đây, phía sau lưng tôi đột ngột mọc ra một cái đuôi.
@@ -14725,7 +14725,7 @@ Mọi chuyện cứ thế trôi qua cho đến một buổi tiệc công ty, s�
   },{
     id: 711,
     title: "Đại Phản Diện Nuôi Dưỡng Tiểu Phản Diện",
-    image: "imgdam/f00b2baaae1c8a396a7e086eec669f26.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f00b2baaae1c8a396a7e086eec669f26.jpg",
     link: "dammy/dai-phan-dien-nuoi-duong-tieu-phan-dien.html",
     type: "dammy",
     desc: `Tôi vốn là đại phản diện trong một tiểu thuyết.
@@ -14747,7 +14747,7 @@ Tự nhiên tôi lại thấy hứng thú:
   },{
     id: 712,
     title: "Trọng Sinh Tôi Càng Muốn Làm Góa Phụ",
-    image: "imgco/4c7586950d3bc42eb2e61413cdaa96b7.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4c7586950d3bc42eb2e61413cdaa96b7.jpg",
     link: "cotrang/trong-sinh-toi-cang-muon-lam-goa-phu.html",
     type: "cotrang",
     desc: `Bá mẫu trọng sinh, bà ấy muốn tráo đổi vận mệnh giữa ta và đường tỷ.
@@ -14767,7 +14767,7 @@ Kiếp này, ta xin dâng tước vị thiếu phu nhân Hầu phủ bằng cả
   },{
     id: 713,
     title: "Chuyến Tàu Bắt Cóc",
-    image: "imgngon/ad5261ec951e78404ff54942c6750fc6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ad5261ec951e78404ff54942c6750fc6.jpg",
     link: "ngontinh/chuyen-tau-bat-coc.html",
     type: "ngontinh",
     desc: `Bắt gặp một anh chàng đẹp trai ngút ngàn trên toa tàu điện ngầm, tôi ngại ngùng đến đỏ cả mặt, bước chân cứ thế vô thức bám theo anh suốt cả quãng đường.
@@ -14787,7 +14787,7 @@ Trời đất quỷ thần ơi, tôi bị bọn buôn người bắt cóc rồi!
   },{
     id: 714,
     title: "Thám Hoa Lang Ôm Bầu Chạy Trốn",
-    image: "imgdam/5d5a9d45677fc732ef054a0c741200c1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5d5a9d45677fc732ef054a0c741200c1.jpg",
     link: "dammy/tham-hoa-lang-om-bau-chay-tron.html",
     type: "dammy",
     desc: `Thái hậu phái ta đi thám thính xem tân đế có mắc phải căn bệnh khó nói nào không.
@@ -14809,7 +14809,7 @@ Nhờ ơn mưa móc của Hoàng thượng, ta sắp sửa phải ôm bụng b�
   },{
     id: 715,
     title: "Con Rối Hoàng Cung",
-    image: "imgco/f943feecb5ca9451363eb52b642ed39f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f943feecb5ca9451363eb52b642ed39f.jpg",
     link: "cotrang/con-roi-hoang-cung.html",
     type: "cotrang",
     desc: `Nhằm cứu lấy Hoàng hậu, Tiêu Lẫm đã nhẫn tâm mổ bụng ta.
@@ -14829,7 +14829,7 @@ Có điều, rối gỗ vốn dĩ không mang trái tim, cũng chẳng hề bi�
   },{
     id: 716,
     title: "Chốn Công Sở Có Gì Vui",
-    image: "imgngon/b007ab20a19af685588c935acedb0486.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b007ab20a19af685588c935acedb0486.jpg",
     link: "ngontinh/chon-cong-so-co-gi-vui.html",
     type: "ngontinh",
     desc: `Hôm ấy tan làm muộn, tôi đành đi nhờ xe sếp về nhà.
@@ -14849,7 +14849,7 @@ Thôi xong, tôi ngoan ngoãn ngậm miệng lại ngay lập tức.
   },{
     id: 717,
     title: "Cạm Bẫy Của Thần Đồng",
-    image: "imgdam/cfbda5d257e5809e30f00948ee4c30b8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cfbda5d257e5809e30f00948ee4c30b8.jpg",
     link: "dammy/cam-bay-cua-than-dong.html",
     type: "dammy",
     desc: `Tôi là Alpha xuyên tới thế giới thực, nhưng lại bị học thần giả làm Omega lừa cho xoay mòng mòng.
@@ -14865,7 +14865,7 @@ Tại sao kẻ bị ăn sạch đến một mẩu xương cũng không còn lạ
   },{
     id: 718,
     title: "Cùng Chàng Ngắm Trọn Thế Gian",
-    image: "imgco/4985cc38b3343fbf423d7d8ec42c537a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4985cc38b3343fbf423d7d8ec42c537a.jpg",
     link: "cotrang/cung-chang-ngam-tron-the-gian.html",
     type: "cotrang",
     desc: `Hoàng thượng thấy chúng ta hộ giá có công, bèn cất tiếng hỏi muốn được ban thưởng điều gì.
@@ -14881,7 +14881,7 @@ Vào đúng dịp Trung thu năm đó, thiên tử se duyên, định đoạt ch
   },{
     id: 719,
     title: "Đại Tiểu Thư Bắt Nạt Nam Chính Yandere",
-    image: "imgngon/abbe9982e28f976a9603edbe06833e9c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/abbe9982e28f976a9603edbe06833e9c.jpg",
     link: "ngontinh/dai-tieu-thu-bat-nat-nam-chinh-yandere.html",
     type: "ngontinh",
     desc: `Tôi xuyên thành nữ chính trong một cuốn tiểu thuyết yandere.
@@ -14905,7 +14905,7 @@ Hắn giận dữ siết chặt xương hàm tôi, nụ cười tràn ngập s�
   },{
     id: 720,
     title: "Cám Dỗ Dưới Một Mái Nhà",
-    image: "imgdam/c2d901ab762be2928f5140bba2aaa74d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c2d901ab762be2928f5140bba2aaa74d.jpg",
     link: "dammy/cam-do-duoi-mot-mai-nha.html",
     type: "dammy",
     desc: `Tôi là con nuôi của nhà họ Ngụy. Công việc toàn thời gian của tôi chính là chăm sóc Ngụy Phục.
@@ -14933,7 +14933,7 @@ Cậu nhíu mày hỏi:
   },{
     id: 721,
     title: "Vô Tình Cứu Phản Diện Cả Đời Không Thể Rời Đi",
-    image: "imgco/0555040e147ee6a5648747f6a63deb7c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0555040e147ee6a5648747f6a63deb7c.jpg",
     link: "cotrang/vo-tinh-cuu-phan-dien-ca-doi-khong-the-roi-di.html",
     type: "cotrang",
     desc: `Tên phản diện sắp sửa bỏ mạng, vậy mà ta lại xuyên không đến đúng thời khắc ấy, vô tình đỡ trọn cho hắn một đòn chí mạng.
@@ -14949,7 +14949,7 @@ Còn ta thì ngoảnh đít đi chầu trời.
   },{
     id: 722,
     title: "Kết Cục Của Kẻ Phản Bội",
-    image: "imgngon/b8fddd7284b93770a18127d6902b.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b8fddd7284b93770a18127d6902b.jpg",
     link: "ngontinh/ket-cuc-cua-ke-phan-boi.html",
     type: "ngontinh",
     desc: `Kết hôn bảy năm, Thẩm Vân Đình lại ngã vào vòng tay của cô thực tập sinh trẻ trung xinh đẹp.
@@ -14975,7 +14975,7 @@ Tôi ứa ra hai giọt nước mắt cá sấu, ái ngại nhìn cái đầu ó
   },{
     id: 723,
     title: "Dụ Đỗ Đạo Lữ Tu Vô Tình Đạo",
-    image: "imgdam/6cbd179404131bc489e2c3864548c9b2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6cbd179404131bc489e2c3864548c9b2.jpg",
     link: "dammy/du-do-dao-lu-tu-vo-tinh-dao.html",
     type: "dammy",
     desc: `Tu vi ngưng trệ đã ngàn năm nên tôi quyết định xuống nhân gian bắt một Lô Đỉnh. Nào ngờ, vừa mới bước ra tới cửa, một đạo ánh sáng đột ngột xé xuyết không trung, đâm thủng phủ đệ của tôi.
@@ -14991,7 +14991,7 @@ Tôi rủ mi, khẽ vuốt lên bụng dưới, nhẹ giọng than thở với v
   },{
     id: 724,
     title: "Vị Thần Hộ Mệnh",
-    image: "imgco/85884bc805d81590d2cada301beebd34.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/85884bc805d81590d2cada301beebd34.jpg",
     link: "cotrang/vi-than-ho-menh.html",
     type: "cotrang",
     desc: `Ta chính là thần hộ mệnh của Tống gia.
@@ -15015,7 +15015,7 @@ Ngơ ngác cái gì chứ? Mẹ kiếp, bà đây bị giam cầm ở cái chố
   },{
     id: 725,
     title: "Sự Trả Thù Của Thái Tử Gia Bị Lừa Tình",
-    image: "imgngon/34740cf7033007e8bedaa8de336f4d2c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/34740cf7033007e8bedaa8de336f4d2c.jpg",
     link: "ngontinh/su-tra-thu-cua-thai-tu-gia-bi-lua-tinh.html",
     type: "ngontinh",
     desc: `Mẹ của Thái tử gia Bắc Kinh nổi tiếng với tuyệt chiêu dùng tiền đè người, hễ thấy cô gái nào mon men lại gần con trai bà là lập tức vung thẻ đuổi khéo.
@@ -15037,7 +15037,7 @@ Anh cúi người, ghé sát vào tai tôi, phả ra luồng hơi thở trầm t
   },{
     id: 726,
     title: "Tạm Biệt Ánh Trăng Tàn",
-    image: "imgdam/b5304bb5a41766a43bb79a6d834010c2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b5304bb5a41766a43bb79a6d834010c2.jpg",
     link: "dammy/tam-biet-anh-trang-tan.html",
     type: "dammy",
     desc: `Tôi làm vệ sĩ riêng cho Kỷ Hoán.
@@ -15051,7 +15051,7 @@ Nhưng khi anh yêu cầu tôi vào bếp nấu ăn mà chỉ được mặc duy
   },{
     id: 727,
     title: "Ngọc Vỡ Tình Phai",
-    image: "imgco/a1e2959b5adf6f7811743dab2c6be022.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1e2959b5adf6f7811743dab2c6be022.jpg",
     link: "cotrang/ngoc-vo-tinh-phai.html",
     type: "cotrang",
     desc: `Ta bẩm sinh lãng tai, là ám vệ vô dụng nhất bên cạnh Chủ thượng.
@@ -15069,7 +15069,7 @@ Hai tháng sau, Chủ thượng mặt mày xanh mét lôi ta xuống từ trên 
   },{
     id: 728,
     title: "Cứu Rỗi Ngôi Sao Lụi Tàn",
-    image: "imgngon/4fd88554ac0c56a74eb1bfc795262e9d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4fd88554ac0c56a74eb1bfc795262e9d.jpg",
     link: "ngontinh/cuu-roi-ngoi-sao-lui-tan.html",
     type: "ngontinh",
     desc: `Tôi xuyên thành một gã tồi hai lòng, vừa bỏ rơi vợ lại vừa dây dưa không dứt với cô bạn bạch nguyệt quang.
@@ -15087,7 +15087,7 @@ Tôi ngước nhìn cô gái đang đứng trần trụi trước những lời 
   },{
     id: 729,
     title: "Thế Tử Biên Cương Giả Nữ",
-    image: "imgdam/9f2612f9635916695d57d4c8d8180e33.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9f2612f9635916695d57d4c8d8180e33.jpg",
     link: "dammy/the-tu-bien-cuong-gia-nu.html",
     type: "dammy",
     desc: `Vốn là thế tử vương phủ nơi biên cương, tôi lại bị chính người cha vô liêm xỉ của mình ép buộc cải trang thành nữ nhi, thay muội muội tiến cung làm hoàng hậu. Nhìn tiểu hoàng đế ngày một lớn khôn, vóc dáng cao lớn uy nghi, lòng tôi lại ngũ vị tạp trần.
@@ -15113,7 +15113,7 @@ Lan cái gì mà Lan! Ta chính là đại cữu ca bằng xương bằng thịt
   },{
     id: 730,
     title: "Tỉnh Giấc Mê Thành Mẫu Thân Hai Đứa",
-    image: "imgco/a647328101e2b3d7ad6e6e1b0e13d0dd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a647328101e2b3d7ad6e6e1b0e13d0dd.jpg",
     link: "cotrang/tinh-giac-me-thanh-mau-than-hai-dua.html",
     type: "cotrang",
     desc: `Vào tháng thứ ba kể từ lúc ta rơi vào cảnh hôn mê, thân thể bất động như kẻ chết lâm sàng, phụ thân đã lén tìm cho ta một nam nhân để xung hỷ.
@@ -15131,7 +15131,7 @@ Ngay cả vị phu quân "hưởng hờ" kia cũng đong đầy tình cảm tron
   },{
     id: 731,
     title: "Đòi Lại Công Bằng Nơi Lớp Học",
-    image: "imgngon/fcee4663e5a7b8302365d0b5c77f49a8.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fcee4663e5a7b8302365d0b5c77f49a8.jpg",
     link: "ngontinh/doi-lai-cong-bang-noi-lop-hoc.html",
     type: "ngontinh",
     desc: `Vừa nhập học đại học, tôi nhận được tờ khai thông tin gia đình từ giáo viên hướng dẫn.
@@ -15145,7 +15145,7 @@ Sau nhiều lần ông ta cố tình làm khó, ba tôi đã không thể khoanh
   },{
     id: 732,
     title: "Cáo Nhỏ Đòi Hút Dương Khí",
-    image: "imgdam/b6a1a3fea9a15dc7abf1e7d4177a85e6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b6a1a3fea9a15dc7abf1e7d4177a85e6.jpg",
     link: "dammy/cao-nho-doi-hut-duong-khi.html",
     type: "dammy",
     desc: `Tôi là con cáo đực đầu tiên trong núi thi đỗ đại học.
@@ -15165,7 +15165,7 @@ Sau đó, tôi đỏ mặt, vòng tay ôm eo cậu bạn cùng phòng có dươn
   },{
     id: 733,
     title: "Hoàng Hậu Mù Mặt",
-    image: "imgco/8ded48370f130050432abb73cc144a2f.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8ded48370f130050432abb73cc144a2f.jpg",
     link: "cotrang/hoang-hau-mu-mat.html",
     type: "cotrang",
     desc: `Hoàng hậu Thạch Nghiên mang trong mình một bí mật giấu kín, đó chính là chứng mù mặt bất trị. Thế nhưng, nàng lại nắm trong tay một tấm kim bài miễn tử do Tiên đế ban tặng.
@@ -15189,7 +15189,7 @@ Thạch Nghiên không nén nổi thở dài, đành cất tiếng hỏi: "Hoàn
   },{
     id: 734,
     title: "Nắng Mới Sau Cơn Mưa",
-    image: "imgngon/735c0040a97404edebc4bf7aadd6a223.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/735c0040a97404edebc4bf7aadd6a223.jpg",
     link: "ngontinh/nang-moi-sau-con-mua.html",
     type: "ngontinh",
     desc: `Lục Xuyên Tễ yêu tôi, tôi biết điều đó. Nhưng từ khi sự việc ấy xảy ra, anh ấy bắt đầu ghét bỏ tôi.
@@ -15204,7 +15204,7 @@ Sau đó, anh ấy gặp một cô gái khác, một người trong sáng và r�
   },{
     id: 735,
     title: "Khi Mèo Hoang Nổi Điên Bảo Vệ Chủ Nhân",
-    image: "imgdam/16bff85d23fdbf4240e3f218c5d3d31a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/16bff85d23fdbf4240e3f218c5d3d31a.jpg",
     link: "dammy/khi-meo-hoang-noi-dien-bao-ve-chu-nhan.html",
     type: "dammy",
     desc: `Tôi nuôi một người đàn ông mang theo sự khuyết tật, cô độc và luôn u ám.
@@ -15231,7 +15231,7 @@ Nhưng khi đã lui vào một góc phòng hẹp, anh lại lúc nhẹ lúc nặ
   },{
     id: 736,
     title: "Mười Kiếp Chờ Đợi Nhau",
-    image: "imgco/6c2991e000ffcb546a00b058fcc34d0c.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6c2991e000ffcb546a00b058fcc34d0c.jpg",
     link: "cotrang/muoi-kiep-cho-doi-nhau.html",
     type: "cotrang",
     desc: `Ba năm đày ải nơi lãnh cung lạnh lẽo, ta đói đến mức chẳng còn thiết tha gì. Trong lúc liều mạng ăn vụng viên đan dược của hoàng đế, ta bất tỉnh nhân sự, chìm vào giấc ngủ dài đằng đẵng ngàn năm.
@@ -15242,7 +15242,7 @@ Và nàng... đã thành thân với người ta mất rồi.`
   },{
     id: 737,
     title: "Ánh Sao Năm Ấy Rực Rỡ Đêm Đen",
-    image: "imgngon/fa2615a0c358cb94f7d824c07505bae2.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fa2615a0c358cb94f7d824c07505bae2.jpg",
     link: "ngontinh/anh-sao-nam-ay-ruc-ro-dem-den.html",
     type: "ngontinh",
     desc: `Bố mẹ tôi là những người vô cùng nổi tiếng, nhưng quãng thời gian thơ ấu của tôi chỉ gói gọn qua màn hình tivi lạnh ngắt.
@@ -15259,7 +15259,7 @@ Cô ta nghiễm nhiên trở thành bảo bối nhỏ, được sống trong vò
   },{
     id: 738,
     title: "Giả Gay Lừa Tình Học Thần",
-    image: "imgdam/3b2bc9dc810356cf74a5368b04f82d18.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3b2bc9dc810356cf74a5368b04f82d18.jpg",
     link: "dammy/gia-gay-lua-tinh-hoc-than.html",
     type: "dammy",
     desc: `Tôi vờ làm gay để lừa học thần viết giúp luận văn tốt nghiệp.
@@ -15274,7 +15274,7 @@ Ai mà ngờ được, ngay sau khi tôi tiện tay bấm nút chặn, cậu ta 
   },{
     id: 739,
     title: "Hạnh Phúc Không Cướp Đượ̣c",
-    image: "imgco/294ddd9b073125f80d292c520c26fd07.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/294ddd9b073125f80d292c520c26fd07.jpg",
     link: "cotrang/hanh-phuc-khong-cuop-duoc.html",
     type: "cotrang",
     desc: `Muội muội trói buộc với hệ thống, dễ dàng cướp đi hết thảy của ta.
@@ -15295,7 +15295,7 @@ Muội muội chực chờ nhặt của rơi đứng ngẩn ngơ: "?"`
   },{
     id: 740,
     title: "Đêm Nay Trừ Bao Nhiêu Tháng Tiền Nhà",
-    image: "imgngon/302b7adce8d528543c91252774c6c6fc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/302b7adce8d528543c91252774c6c6fc.jpg",
     link: "ngontinh/dem-nay-tru-bao-nhieu-thang-tien-nha.html",
     type: "ngontinh",
     desc: `Tôi diện một bộ trang phục đúng chuẩn tiểu thư nhà giàu, ngoan ngoãn nghe lời mẹ đại gia đi thu tiền nhà.
@@ -15316,7 +15316,7 @@ Tôi khép cửa lại, tiến tới dùng ngón tay chọc chọc vào múi b�
   },{
     id: 741,
     title: "Vừa Nhập Game Đã Bị Sếp Đánh Dấu",
-    image: "imgdam/eda050e7413eec242c26c1b525916ab6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eda050e7413eec242c26c1b525916ab6.jpg",
     link: "dammy/vua-nhap-game-da-bi-sep-danh-dau.html",
     type: "dammy",
     desc: `Tổng tài vì giải cứu tôi mà vướng kẹt lại trong trò chơi, biến thành gã học thần ABO thanh cao lạnh lùng chốn học đường.
@@ -15336,7 +15336,7 @@ Tất cả những thủ đoạn ấy… hắn đều trả lại trọn vẹn l
   },{
     id: 742,
     title: "Bỏ Chốn Phồn Hoa Về Quê Làm Ruộng",
-    image: "imgco/4b0ee927b5c5da3703ff483232df8f16.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4b0ee927b5c5da3703ff483232df8f16.jpg",
     link: "cotrang/bo-chon-phon-hoa-ve-que-lam-ruong.html",
     type: "cotrang",
     desc: `Ta sinh ra và lớn lên nơi thôn xóm hẻo lánh suốt mười bảy năm ròng, cho đến một ngày có người từ kinh thành xa xôi tìm tới, báo rằng ta vốn là đích tiểu thư của Hầu phủ.
@@ -15349,7 +15349,7 @@ Sau này, vị công tử ấy gây ra đại họa, cả gia tộc bị tịch 
   },{
     id: 743,
     title: "Hành Trình Tìm Bố Cho Mẹ",
-    image: "imgngon/bd426515df1f137af9ec0f1ad385a8e9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bd426515df1f137af9ec0f1ad385a8e9.jpg",
     link: "ngontinh/hanh-trinh-tim-bo-cho-me.html",
     type: "ngontinh",
     desc: `Tôi dẫn con trai cùng tham gia một chương trình thực tế. Ngay trước ống kính máy quay, thằng bé ngước mắt nhìn thẳng vào ống kính rồi cất lời nhờ vả khán giả:
@@ -15367,7 +15367,7 @@ Con trai tôi đứng bên cạnh liền quay sang thắc mắc: “Nhưng mà m
   },{
     id: 744,
     title: "Vết Nhơ Trên Long Sàng",
-    image: "imgdam/c726657c5fc674dbf4b1fef54e47a34e.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c726657c5fc674dbf4b1fef54e47a34e.jpg",
     link: "dammy/vet-nho-tren-long-sang.html",
     type: "dammy",
     desc: `Khi còn tại vị, ta từng ép Thất hoàng tử Tư Mã Tục làm tình nhân của mình.
@@ -15379,7 +15379,7 @@ Ta thở gấp mà bật cười: "Đã bẩn đến thế, chẳng phải bệ 
   },{
     id: 745,
     title: "Bị Đày Vào Lãnh Cung Vẫn Sống Ung Dung",
-    image: "imgco/d74e592a9a2661260eea9c7fd43023cd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d74e592a9a2661260eea9c7fd43023cd.jpg",
     link: "cotrang/bi-day-vao-lanh-cung-van-song-ung-dung.html",
     type: "cotrang",
     desc: `Ta mang danh vị Quý phi tôn quý, nhưng trong lòng lại chẳng tha thiết điều gì ngoài sự an nhàn.
@@ -15403,7 +15403,7 @@ Ta giàn giụa nước mắt, lao tới ôm chặt lấy chân hắn mà van xi
   },{
     id: 746,
     title: "Nghìn Năm Đợi Em Tỉnh Giấc",
-    image: "imgngon/9e461f4f110262033238ad37079fa6ae.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9e461f4f110262033238ad37079fa6ae.jpg",
     link: "ngontinh/nghin-nam-doi-em-tinh-giac.html",
     type: "ngontinh",
     desc: `Ta là sủng phi của vị hoàng đế.
@@ -15431,7 +15431,7 @@ Bệ hạ, chàng lén lút sau lưng ta tu luyện tà thuật trường sinh b
   },{
     id: 747,
     title: "Mua Nhầm Thuốc Tránh Thai",
-    image: "imgdam/a239744b071419cfcedb4e2fcf7a7b16.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a239744b071419cfcedb4e2fcf7a7b16.jpg",
     link: "dammy/mua-nham-thuoc-tranh-thai.html",
     type: "dammy",
     desc: `Chuyện tôi vô tình chạm mặt anh khóa trên mà bản thân thầm thương trộm nhớ bao lâu nay ở hiệu thuốc vốn đã chẳng đâu vào đâu. Nhớ lại lúc ấy, vì tâm lý quá đỗi hoảng loạn, đầu óc tôi nh nhầm lẫn rồi thốt ra một câu xanh rờn: tôi muốn mua thuốc tránh thai thay vì thuốc chống say xe.
@@ -15449,7 +15449,7 @@ Anh rơi vào khoảng trầm tư ngắn ngủi, sau đó dịu dàng đặt bà
   },{
     id: 748,
     title: "Tam Giới Truy Tìm Hai Con Cá",
-    image: "imgco/b7077b91d0cdf8657662d78f5da1cfd40.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b7077b91d0cdf8657662d78f5da1cfd40.jpg",
     link: "cotrang/tam-gioi-truy-tim-hai-con-ca.html",
     type: "cotrang",
     desc: `Tỷ tỷ và ta vốn là hai linh cá trong vạn dặm sóng xanh.
@@ -15471,7 +15471,7 @@ Chẳng ai ngờ được, về sau tam giới lại lâm vào cảnh đại lo�
   },{
     id: 749,
     title: "Em Trai Nhà Bên Là Thợ Săn Đội Lớp Cừu",
-    image: "imgngon/98a4ace820142df6799c2aec85a529cd.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/98a4ace820142df6799c2aec85a529cd.jpg",
     link: "ngontinh/em-trai-nha-ben-la-tho-san-doi-lop-cuu.html",
     type: "ngontinh",
     desc: `Ngày đầu tiên tôi trở về nhà.
@@ -15492,7 +15492,7 @@ Tôi chỉ biết run rẩy trong sợ hãi.`
   },{
     id: 750,
     title: "Cuộc Tranh Đoạt Tình Yêu Của Hai Nhân Cách",
-    image: "imgdam/9417c300f17b0632873cab673cd7faab.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9417c300f17b0632873cab673cd7faab.jpg",
     link: "dammy/cuoc-tranh-doat-tinh-yeu-cua-hai-nhan-cach.html",
     type: "dammy",
     desc: `Tôi thầm yêu anh hàng xóm Thẩm Tư Thanh suốt một năm trời.
@@ -15509,7 +15509,7 @@ Anh nắm cổ tay tôi kéo vào trong, xoay người khóa cửa cái cạch.
   },{
     id: 751,
     title: "Duyên Nợ Xuân Phong Lâu",
-    image: "imgco/e53700272f7c8a48f898ae50db275161.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e53700272f7c8a48f898ae50db275161.jpg",
     link: "cotrang/duyen-no-xuan-phong-lau.html",
     type: "cotrang",
     desc: `Tại kinh thành này, danh tiếng bà mối của ta vốn vang xa khắp chốn. Suốt mười năm ròng rã se duyên nối tơ hồng cho bao lứa đôi, chưa một lần ta thất bại.
@@ -15523,7 +15523,7 @@ Lúc ấy ta mới ngơ ngác nhận ra, vị đế vương cô độc nổi dan
   },{
     id: 752,
     title: "Đoạn Kết Của Một Phép Màu",
-    image: "imgngon/058198fc9ceef1880d60943ba9fc5e85.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/058198fc9ceef1880d60943ba9fc5e85.jpg",
     link: "ngontinh/doan-ket-cua-mot-phep-mau.html",
     type: "ngontinh",
     desc: `Mười năm thanh xuân dành trọn để săn sóc Trình Dạng một thiếu niên tàn tật luôn chìm trong u uất, tôi đã tốn không biết bao công sức mới khiến trái tim cậu ấy tan chảy.
@@ -15548,7 +15548,7 @@ Hệ thống cất giọng máy móc: "Nhưng cô không còn đủ điểm nữ
   },{
     id: 753,
     title: "Bạn Trai Đã Mất Của Tôi Biến Thành Mèo",
-    image: "imgdam/d653d03605e9b999c54e17790fc2eff3.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d653d03605e9b999c54e17790fc2eff3.jpg",
     link: "dammy/ban-trai-da-mat-cua-toi-bien-thanh-meo.html",
     type: "dammy",
     desc: `Sau khi bạn trai qua đời, tôi nhận nuôi con mèo mà anh ấy từng chăm sóc.
@@ -15571,7 +15571,7 @@ Hành vi và thói quen của con mèo này, sao lại giống hệt bạn trai 
   },{
     id: 754,
     title: "Mãnh Nữ Vào Cung",
-    image: "imgco/7050f53c687ab0e93be73c2849367dec.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7050f53c687ab0e93be73c2849367dec.jpg",
     link: "cotrang/manh-nu-vao-cung.html",
     type: "cotrang",
     desc: `Ta dựa vào sức mạnh của chính mình để bước lên ngôi vị Thái tử phi.
@@ -15598,7 +15598,7 @@ Xem ra đêm nay, hắn lại phải chịu phạt quỳ thêm một đêm nữa
   },{
     id: 755,
     title: "Đánh Cắp Hào Quang",
-    image: "imgngon/cdcfcfe8075f5e0b25ad1c7c10f4d4a9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cdcfcfe8075f5e0b25ad1c7c10f4d4a9.jpg",
     link: "ngontinh/danh-cap-hao-quang.html",
     type: "ngontinh",
     desc: `Tra xong điểm thi tốt nghiệp, con đường tiến thẳng vào Đại học Bắc Kinh của tôi coi như đã hoàn toàn rộng mở. Trái ngược hẳn với viễn cảnh ấy, tấm vé duy nhất dành cho đứa em họ tôi có lẽ chỉ là một suất làm công nhân bốc vác hoặc thợ hồ trên công trường.
@@ -15614,7 +15614,7 @@ Còn kiếp này ư?
   },{
     id: 756,
     title: "Trai Thẳng Cúi Đầu Trước Pheromone",
-    image: "imgdam/327e827a072f52ffbdac77f51afc4027.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/327e827a072f52ffbdac77f51afc4027.jpg",
     link: "dammy/trai-thang-cui-dau-truoc-pheromone.html",
     type: "dammy",
     desc: `Là một gã đàn ông thẳng chính gốc, vậy mà tôi lại xuyên qua cái thế giới ABO quái đản này.
@@ -15640,7 +15640,7 @@ Dù sau này bụng có to ra đi chăng nữa, tôi vẫn là một thằng đ�
   },{
     id: 757,
     title: "Cùng Nhau Vào Luân Hồi",
-    image: "imgco/9be6632715849bd5743e21b9111e763a.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9be6632715849bd5743e21b9111e763a.jpg",
     link: "cotrang/cung-nhau-vao-luan-hoi.html",
     type: "cotrang",
     desc: `Ba ngày sau khi ta tạ thế.
@@ -15660,7 +15660,7 @@ Trong đêm tân hôn, Cố Mân bóp chặt cổ nàng ta, ấn mạnh lên gi�
   },{
     id: 758,
     title: "Đóng Vai Nữ Phụ Ác Độc Sỉ Nhục Nam Chính Mạt Thế",
-    image: "imgngon/a7da89a6813f936aab165e55ea396ff9.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a7da89a6813f936aab165e55ea396ff9.jpg",
     link: "ngontinh/dong-vai-nu-phu-ac-doc-si-nhuc-nam-chinh-mat-the.html",
     type: "ngontinh",
     desc: `Tôi là một nữ phụ chanh chua trong cuốn tiểu thuyết mạt thế.
@@ -15685,7 +15685,7 @@ Người đàn ông siết chặt lấy mắt cá chân tôi, nụ cười gư�
   },{
     id: 759,
     title: "Thả Ta Ra Nghịch Đồ",
-    image: "imgdam/b7f55ca1c728bae00c4a644fd379fdcaa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b7f55ca1c728bae00c4a644fd379fdcaa.jpg",
     link: "dammy/tha-ta-ra-nghich-do.html",
     type: "dammy",
     desc: `Tôi kéo Ly Trạm ra từ đống xác chết.
@@ -15702,7 +15702,7 @@ Vậy mà hắn lại dùng xích sắt trói tôi lại, thỏa sức bức h�
   },{
     id: 760,
     title: "Phu Thê Sợ Chết Xuyên Sách Ôm Đùi Nam Chính",
-    image: "imgco/c9473ec5fc194cee158e91f206ba9c8d.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c9473ec5fc194cee158e91f206ba9c8d.jpg",
     link: "cotrang/phu-the-so-chet-xuyen-sach-om-dui-nam-chinh.html",
     type: "cotrang",
     desc: `"Tướng quân trở về rồi, hắn còn mang theo một nữ tử đang mang thai nữa!"
@@ -15715,7 +15715,7 @@ Cuối cùng chúng ta cũng tìm thấy mẫu thân của nam chính rồi!`
   },{
     id: 761,
     title: "Hoa Nở Trên Vách Đá",
-    image: "imgngon/d0b38e7c4f0e5d81116113dc98a1f0aa.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d0b38e7c4f0e5d81116113dc98a1f0aa.jpg",
     link: "ngontinh/hoa-no-tren-vach-da.html",
     type: "ngontinh",
     desc: `Từ nhỏ, bố mẹ tôi đã luôn bắt tôi phải nhường nhịn em trai trong mọi chuyện.
@@ -15729,7 +15729,7 @@ Gia đình tôi liền kịch liệt phản đối: "Tốt nhất là tìm lấy
   },{
     id: 762,
     title: "Giường Phòng Nghỉ Đủ Cho Hai Ta",
-    image: "imgdam/6e754d318e8458a14e8f3d78c2942a48.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6e754d318e8458a14e8f3d78c2942a48.jpg",
     link: "dammy/giuong-phong-nghi-du-cho-hai-ta.html",
     type: "dammy",
     desc: `Kẻ thù không đội trời chung của tôi, ngay trước lúc nhắm mắt xuôi tay đã tin tưởng gửi gắm đứa con trai duy nhất cho tôi.
@@ -15754,7 +15754,7 @@ Còn tin xấu: Con trai của hắn mới đúng là đồ cầm thú thực s�
   },{
     id: 763,
     title: "Ép Buộc Thành Lương Duyên",
-    image: "imgco/b23b9a3597c619d550225c5af64dadb1.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b23b9a3597c619d550225c5af64dadb1.jpg",
     link: "cotrang/ep-buoc-thanh-luong-duyen.html",
     type: "cotrang",
     desc: `Ta vốn là kẻ khờ ngốc, nhưng đúng như câu “ngốc nhân hữu ngốc phúc”, ta lại có duyên được gả cho Ninh Vương Tiêu Mặc.
@@ -15778,7 +15778,7 @@ Mọi chuyện vẫn còn chưa muộn. Kiếp này, ta quyết sẽ không trè
   },{
     id: 764,
     title: "Mối Duyên Tơ Hồng Dưới Cầu Nại Hà",
-    image: "imgngon/63035be141572eaca6ee71b0be686a47.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/63035be141572eaca6ee71b0be686a47.jpg",
     link: "ngontinh/moi-duyen-to-hong-duoi-cau-nai-ha.html",
     type: "ngontinh",
     desc: `Lúc đi phỏng vấn, tiện đường đi ngang qua một ngôi chùa nên tôi ghé vào thắp hương.
@@ -15792,7 +15792,7 @@ Chẳng hiểu đầu óc lúc đó lơ đễnh thế nào, tôi lại tiện ta
   },{
     id: 765,
     title: "Yêu Lại Từ Đầu Đánh Dấu Vĩnh Viễn",
-    image: "imgdam/b257abc7467ff07ea33eab933d96a0689.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b257abc7467ff07ea33eab933d96a0689.jpg",
     link: "dammy/yeu-lai-tu-dau-danh-dau-vinh-vien.html",
     type: "dammy",
     desc: `Chồng tôi không thích tôi, anh ấy lấy tôi hoàn toàn là vì bị ép buộc.
@@ -15807,7 +15807,7 @@ Thế nhưng, anh lại cắn mạnh lên cổ tôi, giọng điệu hung dữ n
   },{
     id: 766,
     title: "Tiệm Hoành Thánh Tây Nhai",
-    image: "imgco/b5e68f8eaafc2ed7febef3cea9977b54.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b5e68f8eaafc2ed7febef3cea9977b54.jpg",
     link: "cotrang/tiem-hoanh-thanh-tay-nhai.html",
     type: "cotrang",
     desc: `Đoạn tuyệt duyên nợ với cựu phu, ta lui về con hẻm Tây Nhai, dựng lại gánh hoành thánh ngày xưa.
@@ -15825,7 +15825,7 @@ Ta bẽn lẽn mỉm cười đáp lại: "Tay nghề bếp núc của ta vốn 
   },{
     id: 767,
     title: "Duyên Âm Của Thầy Bói Xa Lộ",
-    image: "imgngon/caf13552dbfcc5eb7aa1bd76b084d0d6.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/caf13552dbfcc5eb7aa1bd76b084d0d6.jpg",
     link: "ngontinh/duyen-am-cua-thay-boi-xa-lo.html",
     type: "ngontinh",
     desc: `Tôi tên là Dư Hiểu Miểu, dòng họ mấy đời nay đều nối nghiệp thầy bói.
@@ -15851,7 +15851,7 @@ Tôi thở dài: “Anh lắp cái camera vào xem kẻ nào thiếu đạo đ�
   },{
     id: 768,
     title: "Thì Thầm Bên Tai",
-    image: "imgdam/b78ffde946cae1703c1a85089676871e0.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b78ffde946cae1703c1a85089676871e0.jpg",
     link: "dammy/thi-tham-ben-tai.html",
     type: "dammy",
     desc: `Bạn cùng phòng của tôi là một học bá khiếm thính, tôi vốn dĩ rất thích trêu ghẹo bên tai cậu ấy.
@@ -15874,7 +15874,7 @@ Về sau, khi có một cậu bạn khóa dưới gửi thư tình và tôi nh�
   },{
     id: 769,
     title: "Bóng Hình Trong Mắt Đế Vương",
-    image: "imgco/e1d7b0f69dcd7f5d96687833ca442abc.jpg",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e1d7b0f69dcd7f5d96687833ca442abc.jpg",
     link: "cotrang/bong-hinh-trong-mat-de-vuong.html",
     type: "cotrang",
     desc: `Sủng phi Dao Quý phi tạ thế, khiến Hoàng Thượng đau đớn khôn cùng. Ngài ban lệnh treo giải thưởng khắp nơi, chỉ mong tìm được một kẻ có dung mạo giống hệt nàng.
@@ -15893,51 +15893,540 @@ Từ giây phút bước chân vào chốn hoàng cung chói lọi để làm k�
 
 Đến cuối cùng, ta chẳng đành lòng nhìn bản thân bị giam cầm vĩnh viễn trong chốn cung cấm lạnh lẽo này. Hãy tự do đi, Chiêu Nhi, mong rằng từ nay về sau ngươi sẽ không còn là cái bóng của bất kỳ ai, mà có thể trọn vẹn sống với chính mình.
 `
+  },{
+    id: 770,
+    title: "Hào Quang Của Riêng Cậu",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/414a56e18ba6ae7fc8e2bcb3472496b9.jpg",
+    link: "ngontinh/hao-quang-cua-rieng-cau.html",
+    type: "ngontinh",
+    desc: `Tôi phát hiện ra một bí mật động trời: chỉ cần xảy ra đụng chạm cơ thể với nam thần của trường, thành tích học tập của tôi sẽ lập tức tăng thêm mười điểm.
+
+Để tranh thủ từng cơ hội tiếp xúc, ngày nào tôi cũng bám theo cậu ấy. Hỏi han chăm sóc, dâng nước tận tay, tự biến mình thành một đuôi nhỏ nổi danh khắp trường.
+
+Đến một ngày, vị nam thần ấy không thể chịu đựng thêm được nữa. Cậu ấy lạnh lùng đưa ra lời cảnh cáo: “Cậu làm phiền tôi quá rồi đấy. Làm ơn tránh xa tôi ra một chút được không? Coi như tôi van cậu.”
+
+Thế rồi sau đó, tôi vô tình phát hiện việc đụng chạm với tên đầu vàng ngông cuồng lớp bên cũng mang lại hiệu quả tương tự.
+
+Không chút do dự, tôi quay xe từ bỏ nam thần, chuyển sang theo đuôi tên đầu vàng mỗi ngày để tìm cớ gây sự.
+
+Chỉ một tháng sau, vị nam thần lạnh lùng ngày trước đã hoàn toàn mất đi sự bình tĩnh. Cậu ấy chặn đường, giữ chặt lấy tôi khi mặt mũi tôi còn đang bầm dập. Khóe mắt cậu ấy ửng đỏ, giọng nghẹn ngào: “Đừng tự làm khổ mình để đuổi theo tên côn đồ đó nữa... Chúng ta nói chuyện lại với nhau, được không?”
+`
+  },{
+    id: 771,
+    title: "Tuyến Hương Ngọt Ngào",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a34c7f599aceceaa8ae3eeadc6e239c2.jpg",
+    link: "dammy/tuyen-huong-ngot-ngao.html",
+    type: "dammy",
+    desc: `Tất cả những ai từng gặp tôi đều dành lời khen cho tài năng, ngoại hình lẫn vóc dáng của tôi, để rồi cuối cùng lại buông một tiếng thở dài đầy tiếc nuối: "Giá mà em là omega thì tuyệt biết mấy."
+
+Gáy tôi phẳng lỳ, hoàn toàn không có tuyến thể.
+
+Thế nhưng trên thực tế, tôi lại là một omega chính hiệu. Chỉ có điều, vị trí mọc của tuyến thể trong cơ thể tôi lại nằm ở một nơi... vô cùng khó nói.
+
+Lùi một bước mà xét, lẽ nào trên đời này thật sự chẳng có ai chịu cắn vào vòng ba của tôi để đánh dấu sao?
+`
+  },{
+    id: 772,
+    title: "Cành Hồng Vượt Tường",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6477e288d9891348735b072cbb708f2f.jpg",
+    link: "cotrang/canh-hong-vuot-tuong.html",
+    type: "cotrang",
+    desc: `Muội muội ta bỏ trốn cùng một thư sinh nghèo. Vị hôn phu lạnh lùng của nàng đập cửa xông vào, ép ta phải thay thế vị trí đó.
+
+Ta sợ tới mức nắm chặt đai lưng, liên tục nài xin: "Muội phu, sao có thể đổ vỡ chuyện này lên đầu ta chứ?"
+
+Đôi mắt hắn đỏ thắm tựa hai giọt chu sa, lạnh lẽo như máu, giọng điệu không chút gợn sóng: "Trưởng tỷ như mẹ, oan có đầu, nợ có chủ."
+
+"Ngươi muốn tự mình bước đi, hay để ta lôi ngươi đi?"
+
+Thật sự kích thích, chẳng phải đây chính là tình tiết cưỡng đoạt trong các cuốn thoại bản hay sao?
+
+Thế nhưng lấy trứng chọi đá chẳng có lợi gì. Ta định bước xuống giường thì mới giật mình phát hiện, chiếc quần bông duy nhất trong nhà đã bị muội muội mặc đi mất. Ta đành nằm trở lại, thở dài một tiếng: "Thôi vậy, trời lạnh thế này, chi bằng khỏi động đậy."
+
+"Ngươi muốn đoạt thì cứ đoạt đi, nhanh lên một chút, tranh thủ lúc chăn vẫn còn ấm..."
+`
+  },{
+    id: 773,
+    title: "Tơ Hồng Dẫn Lối",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6587fa5992af501d3096f5008b912ec7.jpg",
+    link: "ngontinh/to-hong-dan-loi.html",
+    type: "ngontinh",
+    desc: `Sau khi trải qua cuộc phẫu thuật điều chỉnh tật khúc xạ bằng công nghệ laser, tôi đột nhiên phát hiện bản thân sở hữu một khả năng vô cùng kỳ lạ: Tôi có thể nhìn thấy những sợi tơ hồng quấn quanh cổ tay của mỗi người.
+
+Tôi quyết định chủ động đi tìm người chồng tương lai của mình. Lúc gặp mặt, tôi định bụng sẽ nói cho anh biết chuyện cả hai vốn dĩ mang duyên nợ vợ chồng.
+
+Thế nhưng, anh chỉ lạnh lùng ném lại một câu: "Tránh xa tôi ra."
+
+Tôi: ?`
+  },{
+    id: 774,
+    title: "Kẻ Cướp Bạn Gái Hóa Ra Thích Tôi",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6bd2fc1ed2dc91720f0716a4b294d07e.jpg",
+    link: "dammy/ke-cuop-ban-gai-hoa-ra-thich-toi.html",
+    type: "dammy",
+    desc: `Anh bạn thân của tôi cậy mình vừa đẹp trai vừa có tiền, hết lần này đến lần khác phỗng tay trên mọi cô bạn gái của tôi.
+
+Tôi tức đến bốc hỏa, quyết định giả vờ làm gay rồi kiếm một ông bạn trai về.
+
+Để xem lần này hắn còn cướp kiểu gì nữa?
+
+Ai ngờ tên này còn điên máu hơn. Đêm hôm khuya khoắt, hắn dồn tôi vào góc tường, ánh mắt hừng hực: "Nếu cậu ta có thể, tôi cũng có thể chứ?"
+
+"Gì... Cái gì cơ?"
+
+Hắn nhìn chằm chằm vào môi tôi: "Câu đó khó hiểu lắm à?"
+
+"Tôi muốn cậu!"`
+  },{
+    id: 775,
+    title: "Thanh Cao Hay Ngu Muội",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ca0d8cf58c26561453631c953b0a48cd.jpg",
+    link: "cotrang/thanh-cao-hay-ngu-muoi.html",
+    type: "cotrang",
+    desc: `Khi tỷ tỷ đích xuất nhập cung và mang long thai, phụ thân liền đưa ta, một đứa con thứ xuất, vào cung hầu hạ, với mong muốn ta sẽ giữ vững ân sủng thay cho nàng.
+
+Ngày đêm ta khổ luyện ca múa, dốc lòng lấy lòng Hoàng thượng, chỉ cầu cho gia tộc mai sau được thịnh vượng.
+
+Nào ngờ sau lưng ta, tỷ tỷ lại thản nhiên buông lời nghị luận: "Dù sao cũng chỉ là hạng thứ xuất, mấy thủ đoạn tranh sủng hèn mọn ấy, bổn cung chẳng buồn bận tâm."
+
+Đến khi tỷ tỷ bị kẻ gian hãm hại, ta đứng ra gánh tội thay nàng, chịu đựng hình phạt rút mười móng tay tàn khốc nơi ngục thất. Vậy mà nàng chỉ hờ hững phán một câu: "Hoàng thượng vốn là thiếu niên lang của bổn cung, có ngươi hay không thì chàng vẫn tin sự trong sạch của ta."
+
+Về sau, khi bị tố cáo tư thông cùng thái y, nàng lại thản nhiên bảo: "Thần thiếp chưa từng làm, chẳng có gì để nói."
+
+Ta dốc hết mưu trí bày kế trừ khử vị thái y kia nhằm chứng minh sự thanh bạch cho nàng, thì tỷ tỷ lại quay sang mắng ta nhẫn tâm độc ác.
+
+Rốt cuộc, nàng thất sủng, kéo theo cả mẫu tộc rơi vào thảm cảnh.
+
+Dù cửu tộc bị lưu đày, nàng vẫn giữ sự kiêu ngạo, nhất quyết không chịu cúi đầu cầu xin Hoàng thượng.
+
+Phụ mẫu bị sát hại, nàng cũng chỉ biết than thở rằng Hoàng đế chẳng còn là thiếu niên lang của nàng năm xưa.
+
+Cuối cùng, ta bỏ mạng thê thảm nơi lãnh cung cô quạnh, còn nàng vẫn thản nhiên như đóa cúc thanh cao, không màng thế sự.
+
+Chỉ đến khi vị thái y kia qua đời, nàng mới đau đớn khóc đến xé lòng.
+
+Lúc ta mở mắt ra lần nữa, hóa ra bản thân đã trở về ngày đầu tiên nhập cung.
+
+Phụ thân đang nghiêm giọng răn dạy: "Con phải một lòng trung thành với tỷ tỷ, phò tá nàng lên ngôi hậu, tuyệt đối không được phép tranh sủng!"
+
+Ta nở nụ cười lạnh nhạt. Thay vì làm áo cưới cho kẻ ngu muội như nàng, chi bằng tự tay ta khoác lên phượng bào, ngồi lên bảo tọa hoàng hậu!
+`
+  },{
+    id: 776,
+    title: "Hoa Hồng Đen Máng Độc",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/39e8adda2e55a9dbb5e85a7917fda7e1.jpg",
+    link: "ngontinh/hoa-hong-den-mang-doc.html",
+    type: "ngontinh",
+    desc: `Trong buổi tiệc đính hôn, tôi bị nhốt trong một gian phòng vệ sinh, chờ đón tôi là một xô nước bẩn.
+
+Vị hôn phu của tôi dựa vào cửa, nở nụ cười đầy ý vị.
+
+“Tiểu thư Thẩm, cả đời này chưa từng nếm trải mùi vị của nước bẩn phải không? Cảm giác thế nào?”
+
+“Cũng thú vị lắm.”
+
+Tôi cười còn rạng rỡ hơn anh ta.
+
+“Nhưng vẫn cảm thấy sảng khoái nhất khi thấy người anh ta yêu nằm bò ra đất mà khóc.”
+`
+  },{
+    id: 777,
+    title: "Liên Kết Nhạy Cảm Với Bạn Cùng Phòng Lạnh Lùng",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2fc180d2a44450dd5010a833ef9d8904.jpg",
+    link: "dammy/lien-ket-nhay-cam-voi-ban-cung-phong-lanh-lung.html",
+    type: "dammy",
+    desc: `Tôi có mối liên kết cảm nhận cơ thể một chiều với anh bạn cùng phòng lạnh lùng.
+
+Anh ấy ăn cơm, tôi liền cảm giác no căng bụng.
+
+Anh ấy tắm rửa, tôi lại như bị người ta chạm vào.
+
+Anh ấy giải quyết nhu cầu sinh lý, tôi cắn gối chịu đựng, nghẹn ngào không thể kiềm chế.
+
+Một ngày nọ, không thể chịu đựng thêm nữa, tôi bóng gió khuyên anh ta nên tiết chế.
+
+Anh bạn cùng phòng lạnh lùng dần dần tiến đến gần tôi.
+
+“Nếu tôi không nhịn được thì sao?”`
+  },{
+    id: 778,
+    title: "Bức Họa Dưới Trăng",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/41fee42ebfb2cf9a79dfb7fffb0a61da.jpg",
+    link: "cotrang/buc-hoa-duoi-trang.html",
+    type: "cotrang",
+    desc: `Nơi biên ải xa xôi hẻo lánh, ta sống bằng nghề bán bánh thịt.
+
+Hôm đó, ta vô tình chạm trán một vị tướng quân.
+
+Chàng hỏi: “Ngươi làm gì ở đây?”
+
+Ta yếu ớt thều thào: “Bán... thịt...”
+
+Gương mặt vị tướng quân lập tức đỏ bừng, quát lớn: “Hạ lưu!”
+
+Hắn liền trói ta mang về doanh trại, bắt cải tạo cùng đám cô nương bán thân khác.
+
+Về sau, ta cướp mất quần của hắn, khiến hắn hoảng hốt đến mất mật.
+
+Ta cười bảo: “Lần đầu gặp mặt, tướng quân đã kết tội ta hạ lưu. Tam Nương ta đây, xưa nay chưa từng mang tiếng xấu một cách vô cớ.”
+`
+  },{
+    id: 779,
+    title: "Vầng Trăng Của Riêng Anh",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/11307f95de3034ee9c0c1ea0b75126a3.jpg",
+    link: "ngontinh/vang-trang-cua-rieng-anh.html",
+    type: "ngontinh",
+    desc: `Tôi xuyên thành một gã tồi tệ chính hiệu, kẻ đã nhẫn tâm ruồng bỏ người vợ dịu dàng cùng con trẻ, trong lòng lúc nào cũng tơ tưởng vương vấn về bóng hình bạch nguyệt quang, thói lăng nhăng đã ăn sâu vào máu.
+
+Tại buổi sum họp gia đình, bạch nguyệt quang đứng khuất phía sau tôi, bờ môi mím chặt đầy ngập ngừng, vẻ mặt u uất và đáng thương đến nao lòng: “Mọi người đừng trách chị nữa, chị Mạnh cũng đâu cố tình hất ly nước trái cây vào người em đâu...”
+
+Cha mẹ ngồi kế bên lập tức bĩu môi cười khẩy, buông lời mỉa mai khinh bỉ: “Đúng là loại phụ nữ hèn hạ, không biết phép tắc.”
+
+Đám bạn bè xung quanh cũng hùa theo với chất giọng đầy ác ý: “Mạnh Tư Nguyệt này, ngày trước cô đã quen dùng mấy trò hèn hạ đó rồi, giờ vẫn nghĩ Giang Mục Ngôn sẽ mắc bẫy cô thêm lần nữa sao?”
+
+Thốt xong những lời xói móc, cả đám người đồng loạt quay sang nhìn tôi, ra hiệu thúc giục tôi đứng ra lên tiếng.
+
+Tôi dõi theo bóng hình cô gái đang đứng cô đơn ở phía đối diện, rồi theo bản năng thốt lên: “Chào em, bà xã.”
+`
+  },{
+    id: 780,
+    title: "Kế Hoạch Bẻ Cong Bạn Cùng Phòng",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a87fe55b5dd963ad3083ae9d2de6ee45.jpg",
+    link: "dammy/ke-hoach-be-cong-ban-cung-phong.html",
+    type: "dammy",
+    desc: `Tôi kiên trì đuổi theo người bạn cùng phòng suốt hai năm ròng, nhưng mãi vẫn không thể nào bẻ cong được cậu ấy.
+
+Sau này, cậu ấy chẳng may gặp tai nạn giao thông rồi rơi vào tình trạng mất trí nhớ.
+
+Tôi liền tranh thủ cơ hội nắm lấy tay cậu ấy, lén lút vuốt ve.
+
+Cậu ấy đè chặt bàn tay đang làm loạn của tôi lại, đôi mày nhíu nhẹ: “Bạn học, chúng ta quen thân lắm sao?”
+
+Máu nghề nghiệp trong người tôi lập tức bùng nổ, tôi giận dữ lên tiếng: “Đồ tra nam, mới hôm qua còn ôm người ta gọi vợ ơi vợ à, giờ kéo quần lên một cái là trở mặt không nhận người quen luôn hả?!”
+`
+  },{
+    id: 781,
+    title: "Cành Tam Thất Che Bão Giông",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1f15dc2cafd30079face7b96028003de.jpg",
+    link: "cotrang/canh-tam-that-che-bao-giong.html",
+    type: "cotrang",
+    desc: `Năm Cảnh Đức thứ ba, nơi góc đường vắng vẻ, ta vô tình cứu được một vị cựu binh thương tích đầy mình.
+
+Đến năm Cảnh Đức thứ mười lăm, phụ mẫu ta lần lượt khuất núi. Trong căn nhà trống hoác, chỉ còn lại ta cùng phụng sự cô muội muội ốm đau quặt quẹo quanh năm.
+
+Bọn họ hàng thân thích chẳng khác nào đàn hổ đói rình rập, nhăm nhe bên ngoài. Bọn họ lấy cớ phận gái góa bụa làm sao gánh vác nổi cơ nghiệp, ghen ghen tức tức ép hai tỷ muội ta phải dâng nộp trọn vẹn sản nghiệp tổ tiên để lại.
+
+Chính vị cựu binh ấy đã sừng sững đứng trước cổng lớn, dũng mãnh đánh đuổi trọn vẹn lũ lang sói tham lam đó đi.
+`
+  },{
+    id: 782,
+    title: "Vô Tình Phát Hiện Bí Mật Của Sếp",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9c9e5785438f1d1b8a03ce8d87da1b82.jpg",
+    link: "ngontinh/vo-tinh-phat-hien-bi-mat-cua-sep.html",
+    type: "ngontinh",
+    desc: `Tôi vốn luôn hiếu kỳ liệu loài rắn có thực sự sở hữu tới hai cơ quan sinh dục hay không.
+
+Đúng lúc ấy, tôi lại biết sếp tổng nuôi một chú rắn nhỏ màu đen rất đẹp ngay trong phòng làm việc.
+
+Tranh thủ lúc anh ấy đi vắng, tôi lén bắt con rắn ra để giải tỏa sự tò mò của mình.
+
+Ban đầu tôi cứ ngỡ hành động của mình thần không biết quỷ không hay.
+
+Chẳng ngờ vừa trở về, ông chủ đã đỏ bừng mặt, ép chặt tôi vào góc tường: "Cô dám làm cái chuyện đó với tôi..."
+
+"Từ trên xuống dưới thân thể tôi đều bị cô sờ mó sạch sẽ, cô không định cho tôi một danh phận chính thức sao?"
+
+Tôi đứng hình: "???"`
+  },{
+    id: 783,
+    title: "Kế Hoạch Gả Ba Đi",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/da7b382d2ea8d92da38d6616d24650e6.jpg",
+    link: "dammy/ke-hoach-ga-ba-di.html",
+    type: "dammy",
+    desc: `Ba tôi là một mỹ nhân ngốc nghếch, nhan sắc thì miễn bàn nhưng làm việc gì cũng vụng về hỏng bét. Một chàng trai cực phẩm dắt theo một đứa nhỏ xinh xắn, ngày qua ngày sống trong cảnh giật gấu vá vai.
+
+Cho đến một ngày nọ, tôi tình cờ phát hiện ra bức ảnh hồi nhỏ của ba nằm trong chiếc ví của một vị tổng tài quyền lực. Chẳng chần chừ thêm giây phút nào, tôi trực tiếp kéo vị tổng tài ấy về nhà.
+
+Vừa nhìn thấy ba tôi, ánh mắt vị tổng tài liền sáng rực lên như đèn pha, nhà cửa dâng tận tay, xe sang trao tận chìa khóa, tiền bạc cứ thế đổ vào.
+
+Ba tôi cảm thấy có điều bất ổn, bèn lén lút đi xem mắt, kết quả là bị tổng tài chặn lại ép vào tường hôn đến mức rướm cả khóe môi.
+
+Sau bận đó, ba tôi vừa mếu máo khóc vừa chỉ thẳng vào mũi tôi mà mắng:
+
+"Đứa nhỏ tệ hại này! Ba sống từng này tuổi đời rồi mà chưa từng thấy ai tự tay đi kiếm đàn ông về cho ba ruột của mình như con cả! Con rốt cuộc có phải con ruột của ba không… hu hu hu!"
+
+Vài tháng sau, vành tai ba đỏ bừng, ấp a ấp úng mãi mới hỏi tôi một câu:
+
+"Con… con có thấy phiền không nếu mẹ kế của con… lại là một người đàn ông?"`
+  },{
+    id: 784,
+    title: "Tự Cứu Rỗi Cuộc Đời",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f4096aa659ed62a49d896ba9d96d9984.jpg",
+    link: "cotrang/tu-cuu-roi-cuoc-doi.html",
+    type: "cotrang",
+    desc: `Khi còn nhỏ, ta đã tự bán mình làm nô tỳ để cứu lấy mạng sống của cả gia đình.
+
+Mười năm sau, tại đại tiệc mừng thọ ở Kiều phủ, ta bất ngờ gặp lại cha mình, lúc này ông đã thăng tiến lên tới chức Tuần phủ.
+
+Được sự khai ân của lão thái quân, tiểu công tử đích thân đưa ta trở về nhà.
+
+Hai người muội muội một người chọn cách tuyệt thực, người kia lại thắt cổ, quyết không chấp nhận người chị từng làm nô tỳ hạ tiện.
+
+Cha ta tỏ ra đau lòng khôn xiết.
+
+Hắn lừa ta trở về nguyên quán, nhưng thực chất lại lấy thân phận nô tỳ đem ta tặng cho kẻ khác làm tiểu thiếp.
+
+Toàn bộ trang phục và ngân lượng ta mang từ Kiều phủ về đều bị hai đứa em gái chia chác sạch sẽ.
+
+Sau khi qua cửa chưa đầy nửa tháng, ta đã bị đại nương tử kiếm cớ đánh đến chết.
+
+Khi tỉnh lại lần nữa, ta nhận ra mình đã trở về mùa đông năm ấy.
+
+Trong ngôi miếu đổ nát, người cha đốn mạt cùng hai em gái đang thoi thóp vì sắp chết đói.
+
+Ta lại một lần nữa tìm đến bà mối Tiết, chỉ tay về phía hai muội muội, khóc ròng van xin:
+
+"Cầu xin bà bà hãy rủ lòng thương, giúp các nàng tìm một con đường sống.”`
+  },{
+    id: 785,
+    title: "Quay Đầu Đã Mất Người",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7fed0a43d190dda9ce19a2a8e1848f99.jpg",
+    link: "ngontinh/quay-dau-da-mat-nguoi.html",
+    type: "ngontinh",
+    desc: `Năm thứ năm đính hôn cùng Phó Nghiên Lễ, anh ta lén lút tổ chức một đám cưới hoành tráng với một nữ sinh đại học.
+
+Khi tôi vội vã chạy đến nơi, giữa những tiếng tung hô náo nhiệt của đám đông, hai người bọn họ đang trao nhau nụ hôn sâu lắng.
+
+Thấy tôi xuất hiện, Phó Nghiên Lễ chỉ khẽ nhếch mày đầy vẻ thản nhiên: “Cô bé muốn có một lễ cưới thôi mà. Em yên tâm, chúng anh chưa đăng ký kết hôn đâu.”
+
+Tôi không rơi một giọt nước mắt, cũng chẳng thèm làm ầm ĩ, chỉ lặng lẽ quay lưng bước đi.
+
+Anh ta đinh ninh rằng tôi chỉ đang giận dỗi vu vơ. Cho đến khi đại thiếu gia lừng lẫy xứ Bắc Kinh tung ảnh giấy chứng nhận kết hôn lên mạng xã hội, Phó Nghiên Lễ mới cuống cuồng chạy đến nhà tôi giữa cơn mưa tầm tã, điên cuồng đập cửa.
+
+Tôi mở cửa ra, vệt hồng ửng mặn nồng trên mặt vẫn chưa kịp tan hết:
+
+“Yên tâm đi, tôi chỉ mới đăng ký kết hôn thôi, chưa tổ chức đám cưới chính thức đâu.”
+
+Đúng lúc ấy, Tần Trữ chỉ quấn duy nhất chiếc khăn tắm ngang hông thong thả bước từ trên lầu xuống, nhẹ nhàng ôm lấy eo tôi: “Ừm? Nói vậy hóa ra anh vẫn chưa có danh phận sao?”
+`
+  },{
+    id: 786,
+    title: "Nghe Trộm Tiếng Lòng Của Đối Thủ",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/477ccb2b2cce081964604fcec1721077.jpg",
+    link: "dammy/nghe-trom-tieng-long-cua-doi-thu.html",
+    type: "dammy",
+    desc: `Mễ Dư và bạn cùng phòng Lê Vinh chính là đối thủ một mất một còn từ lâu. Hắn còn sống là tôi còn thù, sống chết nhất định không đội trời chung.
+
+Tôi từng cho rằng hai người chúng tôi sẽ chẳng bao giờ có thể hòa hợp hay sống chung một mái nhà.
+
+Cho đến một ngày nọ...
+
+Tôi vô tình chạm vào người hắn, một giọng nói xa lạ bỗng vang lên trong đầu.
+
+[Ahhh, Mễ Dư đụng tôi kìa, đụng mà không thèm thả ra luôn!]
+
+Tôi ngẩn người, ngẩng đầu lên nhìn thẳng vào khuôn mặt bình tĩnh, thậm chí còn phảng phất vài tia sát khí lạnh lẽo của đối phương.
+
+Chẳng lẽ lúc nãy tôi nghe nhầm sao?
+
+Nhưng không...
+
+[Đúng rồi, đúng rồi, đừng thả ra nhé, thích lắm đấy!]
+
+??? Không phải hắn vốn rất ghét tôi hay sao!?`
+  },{
+    id: 787,
+    title: "Trạng Nguyên Giữ Nam Đức",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f7c923aeda79bc9bd43387f5a148ecbe.jpg",
+    link: "cotrang/trang-nguyen-giu-nam-duc.html",
+    type: "cotrang",
+    desc: `Vô tình bắt gặp biểu tỷ đang ra sức ve vãn phu quân mình, ta chỉ biết đứng ngẩn người.
+
+Tên phu quân vốn dĩ yếu đuối, chẳng thể tự chăm sóc bản thân của ta liền lùi về sau ba thước. Hắn rút cây trâm cài tóc, đặt thẳng vào cổ mình, làm ra vẻ thà chết chứ không chịu khuất phục.
+
+“Ta vốn xem tỷ tỷ như người ruột thịt trong nhà, vậy mà tỷ lại dám mơ tưởng đến thân thể băng thanh ngọc khiết này của ta sao? Đêm nay nếu ta bị tỷ hãm hại mà mất đi sự trong sạch, ngày sau nương tử chán ghét bỏ rơi, ta cũng chẳng buồn sống nữa!” Hắn làm ra bộ dạng liêm chính, một lòng giữ gìn tiết hạnh.
+
+Ta nhìn vị tỷ tỷ đang đứng ngây ra như phượng hoàng đất kia bằng ánh mắt đầy thương hại. Thật là, tự dưng tỷ trêu chọc hắn làm gì cơ chứ?
+`
+  },{
+    id: 788,
+    title: "Chiếc Vòng Tay Trao Nhầm",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e570e1abcc3f2ce2a8d1ebe0116d6543.jpg",
+    link: "ngontinh/chiec-vong-tay-trao-nham.html",
+    type: "ngontinh",
+    desc: `Gã bạn trai cặn bã của tôi phản bội tình cảm, lén lút qua lại với một cô nàng trà xanh. Thế nhưng ông cậu của cô ta lại bất ngờ rung động ngay lần đầu gặp tôi, thậm chí còn nảy ra ý định lấy bản thân ra làm món quà đền bù.
+
+"Em không muốn mỗi lần chạm mặt, đôi mèo mả gà đồng đó phải ngoan ngoãn cúi đầu chào mợ nhỏ sao?"
+
+"Mỗi dịp Tết đến xuân về, em không muốn thấy hai kẻ đó quỳ móp mặt chúc Tết em à?"
+
+"Em không thèm cảm giác vắt chân ngũ ngũ, thong thả cắn hạt dưa uống trà rồi thẳng tay chỉ mặt mắng cho chúng một trận, cuối cùng chốt hạ bằng câu 'Mợ cũng chỉ muốn tốt cho hai đứa thôi' sao?"
+
+Gì chứ.
+
+Thú thật là tôi siêu xiêu lòng rồi đấy.`
+  },{
+    id: 789,
+    title: "Bắt Được Một Em Mèo Tinh",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/09ec329889a14826b1aa41ada2f4d77f.jpg",
+    link: "dammy/bat-duoc-mot-em-meo-tinh.html",
+    type: "dammy",
+    desc: `Tỉnh dậy sau một giấc ngủ sâu, tôi bàng hoàng nhận ra trên giường mình không biết từ lúc nào đã xuất hiện một thiếu niên.
+
+Cậu ta sở hữu mái tóc màu bạc nổi bật, đôi mắt sâu thẳm cùng gương mặt thanh tú đến mức tinh xảo, lúc này đang ngoan ngoãn cuộn tròn trong lòng tôi.
+
+Da đầu tôi lập tức tê dại. Rõ ràng trước khi nhắm mắt, thứ tôi ôm trong tay là một con mèo cơ mà.
+
+Giờ thì cún con bông xù cằn cỗi, suốt ngày rụng lông của tôi đâu rồi? Con mèo mông to ấy đã biến đi đằng nào?
+
+Tên nhóc này rốt cuộc từ đâu chui ra vậy?
+
+Trong lúc tôi còn đang bàng hoàng chưa hiểu chuyện gì, thiếu niên kia đã chầm chậm ngẩng đầu. Đôi mắt tròn xoe mang sắc xanh lam pha lẫn hổ phách trong veo của cậu sáng rực lên dưới ánh nắng ban mai.
+
+“Anh tỉnh rồi sao?”
+
+Cậu hé môi để lộ hàm răng trắng tinh đều đặn, nở một nụ cười ngọt ngào đến bất ngờ.
+
+Ngay sau đó, cậu dạn dĩ nhổm người bò lên ngực tôi, đặt hai bàn tay mềm mại lên vòm ngực rắn rỏi.
+
+Bằng một lực đạo vô cùng đều đặn, cậu bắt đầu nhẹ nhàng xoa nắn.
+
+Thấy tôi cứ trợn tròn mắt nhìn mình mà không thốt ra được lời nào, cậu khẽ nghiêng đầu, gương mặt tràn ngập vẻ ngơ ngác:
+
+“Chủ nhân?”`
+  },{
+    id: 790,
+    title: "Lưỡi Đao Vô Tình",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/243a8ac19c9ab43edad77030119e5bb6.jpg",
+    link: "cotrang/luoi-dao-vo-tinh.html",
+    type: "cotrang",
+    desc: `Ta vào cấm cung làm việc mổ lợn đã tròn bốn năm, một rìu hạ xuống chưa từng thất thủ.
+
+Lần nào ra tay đoạt mạng một con lợn, ta đều nhẩm niệm một câu Phật hiệu.
+
+Tài mổ lợn thạo tay ấy vô tình lọt vào mắt xanh của một vị hoàng tử, hắn lập tức giữ ta lại làm kẻ tâm phúc bên mình.
+
+Ta là lưỡi đao vẫy máu, còn hắn mới chính là kẻ vung đao giật dây.
+
+Giết người lìa cổ, A Di Đà Phật.
+
+Vùi thây tại chỗ, thiện tai thiện tai.`
+  },{
+    id: 791,
+    title: "Đối Thủ Của Idol Là Người Yêu Tôi",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f22f26ce539fedb5d131e1a6ee72be5.jpg",
+    link: "ngontinh/doi-thu-cua-idol-la-nguoi-yeu-toi.html",
+    type: "ngontinh",
+    desc: `Tôi đã thích bạn game của mình nhiều năm rồi, đêm giao thừa nào tôi cũng sẽ gửi cho hắn một tin nhắn tỏ tình: [Thật ra em đã thích anh nhiều năm rồi, chúng mình hẹn hò nhé?]
+
+Hắn: [Đã seen nhưng không rep.]
+
+Tôi: [Vào game đi.]
+
+Hắn: [Tới ngay.]
+
+Hắn xưa nay chưa từng đáp lại lời tỏ tình của tôi, thích thầm nhiều năm không có kết quả khiến tôi dần nản lòng thoái chí. Thế là tôi dứt khoát xóa tài khoản game, chặn bạn bè để không bao giờ gặp lại nữa.
+
+Kết quả tôi phát hiện đối thủ của thần tượng mình điên rồi, tìm kiếm khắp nơi một người bạn qua mạng còn chưa gặp lần nào.
+
+Sau này hắn phát hiện ra thân phận thật của tôi, trực tiếp chặn tôi ở góc tường mà hôn, giọng điệu mơ hồ không rõ: “Sao lại chặn anh?"
+`
+  },{
+    id: 792,
+    title: "Cảm Ứng Ngọt Ngào",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1b784dda1fa65dffaa981f57a9f065ad.jpg",
+    link: "dammy/cam-ung-ngot-ngao.html",
+    type: "dammy",
+    desc: `Bạn cùng phòng mặt lạnh như băng mua một quả đào đồ chơi mềm dẻo. Mỗi lần hắn dùng lực bóp nhẹ, vòng ba của tôi ở đúng vị trí đó cũng trào dâng cảm giác y hệt.
+
+Tay hắn khỏe như trâu, làm mông tôi sưng lên một khoảng rõ to.
+
+Cuối cùng chịu hết nổi, thừa lúc đêm muộn, tôi rón rén mò lên giường hắn để lén đòi lại những gì thuộc về mình.
+
+Lần này, tôi nhất định phải giành lại quả đào mà mẹ sinh ra!`
+  },{
+    id: 793,
+    title: "Dùng Vạn Lượng Vàng Nuôi Mỹ Nam Phản Diện",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/67efa204237431adbf09a1b4b07b56f6.jpg",
+    link: "cotrang/dung-van-luong-vang-nuoi-my-nam-phan-dien.html",
+    type: "cotrang",
+    desc: `Ta xuyên không thành một người qua đường A vô cùng xinh đẹp.
+
+Sau một đêm hoan lạc cùng vị nam phụ sở hữu nhan sắc nghịch thiên nhưng có kết cục bi thảm, người qua đường này liền bốc hơi không vết tích.
+
+Tác dụng duy nhất của ta là làm bàn đạp để hắn vừa nhìn thấy nữ chính đã nảy sinh lòng thương hại, bởi nàng sở hữu đôi mắt y hệt ta. Từ đó, hắn đâm đầu vào một mối tình si cuồng nhưng chẳng nhận lại được gì.
+
+Tuy nhiên, ngày ta xuyên tới, vừa xong trận ân ái thì cơ thể mệt mỏi rã rời nên vơ chăn ngủ thiếp đi.
+
+Đến khi mở mắt ra, tứ chi ta đã bị trói chặt trên giường.
+
+Ngồi ngay bên cạnh, vị nam phụ diễm lệ kia đang đăm đăm nhìn ta bằng ánh mắt lạnh như băng.
+
+“Đêm qua ngươi cố tình dụ dỗ ta, rốt cuộc là có mưu đồ gì?”`
+  },{
+    id: 794,
+    title: "Đánh Mất Anh Mãi Mãi",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dfd93785f40a87f34d474c6c05754c24.jpg",
+    link: "ngontinh/danh-mat-anh-mai-mai.html",
+    type: "ngontinh",
+    desc: `Cậu ấm nhà họ Cố với gia thế hiển hách từng hạ mình theo đuổi tôi suốt nhiều năm liền, nhưng tôi chưa một lần gật đầu chấp nhận.
+
+Đến năm thứ bảy, bên cạnh anh bất ngờ xuất hiện một cô gái khác.
+
+Nghe đâu cô ấy vừa xinh đẹp, dịu dàng, lại sở hữu gia thế tương xứng và dành trọn tình cảm cho Cố Vị Xuyên.
+
+Đám bạn xung quanh anh khi ấy liền giễu cợt bảo tôi rằng:
+
+"Vạn Thù, nếu cậu cứ tiếp tục lạnh nhạt với cậu Cố như thế, coi chừng có ngày bị người ta cướp mất đấy."
+`
+  },{
+    id: 795,
+    title: "Trùng Sinh Gặp Lại Lão Công",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/73027fc59bc7cf8df469b6f785d3bb8a.jpg",
+    link: "dammy/trung-sinh-gap-lai-lao-cong.html",
+    type: "dammy",
+    desc: `Tôi và Phó Nghiễn Thâm vốn nổi tiếng là cặp vợ chồng vừa lạnh lùng vừa tàn nhẫn.
+
+Dây dưa suốt bảy năm, kết hôn năm năm, nhưng những hiểu lầm giữa chúng tôi cũng kéo dài chừng ấy thời gian.
+
+Sau đó, tôi nghĩ thông suốt nên quyết định không cãi ầm ĩ chuyện ly hôn nữa. Tôi chọn giữ chặt người đàn ông luôn giấu kín tâm tư kia bên mình để cùng nhau dằn dằn tổn thương.
+
+Cho đến một ngày, tôi lái xe đi đến điểm hẹn.
+
+Do bị kẻ thù hãm hại, cả người lẫn xe của tôi lao thẳng xuống vách núi, một mạng lìa đời.
+
+Sau khi chết, tôi tận mắt thấy Phó Nghiễn Thâm người vốn luôn lạnh lùng, tự chủ lại hoàn toàn phát điên.
+
+Anh bất chấp mọi hậu quả để báo thù cho tôi, ngày đêm mất ngủ, chỉ biết nhìn ảnh tôi mà ngẩn ngơ rơi lệ, thậm chí còn nuốt cả lọ thuốc ngủ đến mức phải đưa đi rửa dạ dày…
+
+Chỉ đến lúc ấy tôi mới nhận ra những tình cảm sâu kín mà anh vẫn luôn che giấu.
+
+Thì ra, người anh giấu chặt trong tim… lại chính là tôi.
+
+Đáng tiếc, kiếp này chúng tôi đã vô duyên.
+
+Trong cơn mơ hồ, khi mở mắt ra một lần nữa…
+
+Tôi phát hiện mình đã quay trở về đúng cái ngày vừa mới kết hôn với anh.`
+  },{
+    id: 796,
+    title: "Lỡ Hẹn Một Đời",
+        image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e1e049c64f0c907f73cbea46258638b1.jpg",
+    link: "cotrang/lo-hen-mot-doi.html",
+    type: "cotrang",
+    desc: `Năm năm ròng rã, ta tảo tần ngược xuôi gánh từng gánh đậu hũ mưu sinh, chắt chiu từng đồng đơm cơm nuôi Tống Ngọc Hành.
+
+Ngày nhà họ Tống được giải oan rửa hận, vị thanh mai trúc mã của hắn chẳng quản ngại đường xá xa xôi hàng ngàn dặm, tìm về đón hắn hồi kinh.
+
+Nàng ta búi tóc cầu kỳ, khoác lên mình xiêm y lộng lẫy dát ngọc dát vàng. Miệng ngọt ngào gọi ta hai tiếng “tẩu tẩu”, rồi đĩnh đạc tỏ ý muốn vào bếp phụ giúp.
+
+Ta vừa định mở lời từ chối thì Tống Ngọc Hành đã thản nhiên cất lời:
+
+"Dung nương dán lưng làm lụng quen rồi, cứ để nàng ấy lo liệu là được."
+
+"Còn muội, đến trái đào cũng sợ gai cào xước tay, vốn dĩ là tiểu thư đài các kiêu kỳ."
+`
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

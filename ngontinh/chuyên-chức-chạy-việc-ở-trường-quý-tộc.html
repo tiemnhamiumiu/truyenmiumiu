@@ -15,7 +15,8 @@
   <a href="../index.html">Trang chủ</a>
   <a href="../ngontinh.html">Ngôn tình</a>
   <a href="../dammy.html">Đam mỹ</a>
-  <a href="../cotrang.html">Cổ trang</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://truyenxoithitmiumiu.nekoweb.org/" id="xoiThitLink">Xôi Thịt</a>
 </header>
 
 <div class="topbar">
@@ -919,5 +920,187 @@ Dù khi bắt đầu, tôi chỉ là một nữ phụ pháo hôi đầu óc toà
 <script src="../codetruyen/script.js"></script>
 <script src="../codetruyen/audio.js"></script>
 
+
+<!-- ==================================================
+     POPUP CHUYỂN SANG WEB XÔI THỊT
+================================================== -->
+
+
+<!-- ==================================================
+     POPUP CHUYỂN SANG WEB XÔI THỊT
+================================================== -->
+
+<div
+  id="xoiThitPopup"
+  class="xoi-thit-overlay"
+  style="display:none;"
+>
+
+  <div class="xoi-thit-box">
+
+      <img
+    src="../codetruyen/icon.jpg"
+    alt="Truyện Mới Miu Miu"
+    class="xoi-thit-icon"
+  >
+
+  <span class="xoi-thit-arrow">→</span>
+
+  <img
+    src="../codetruyen/iconxoi.jpg"
+    alt="Xôi Thịt Nhà Mui Miu"
+    class="xoi-thit-icon"
+  >
+
+    <div class="xoi-thit-text">
+      Bạn đang chuyển qua web
+      <strong>Xôi Thịt Nhà Mui Miu</strong>
+    </div>
+
+    <div class="xoi-thit-question">
+      Bạn có muốn tiếp tục không?
+    </div>
+
+    <div class="xoi-thit-buttons">
+
+      <button
+        id="xoiThitYes"
+        class="xoi-thit-yes"
+      >
+        Có
+      </button>
+
+      <button
+        id="xoiThitNo"
+        class="xoi-thit-no"
+      >
+        Không
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink =
+  document.getElementById("xoiThitLink");
+
+const xoiThitPopup =
+  document.getElementById("xoiThitPopup");
+
+const xoiThitYes =
+  document.getElementById("xoiThitYes");
+
+const xoiThitNo =
+  document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   ẤN XÔI THỊT
+================================================== */
+
+xoiThitLink.addEventListener(
+  "click",
+  function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  }
+);
+
+
+/* ==================================================
+   CÓ → CHUYỂN WEB
+================================================== */
+
+xoiThitYes.addEventListener(
+  "click",
+  function() {
+
+    window.location.href =
+      "https://truyenxoithitmiumiu.nekoweb.org/";
+
+  }
+);
+
+
+/* ==================================================
+   KHÔNG → ĐÓNG BẢNG
+================================================== */
+
+xoiThitNo.addEventListener(
+  "click",
+  function() {
+
+    xoiThitPopup.style.display = "none";
+
+  }
+);
+
+
+/* ==================================================
+   ẤN RA NGOÀI BẢNG → ĐÓNG
+================================================== */
+
+xoiThitPopup.addEventListener(
+  "click",
+  function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  }
+);
+
+</script>
+</body>
+
+    <div class="xoi-thit-text">
+      Bạn đang chuyển qua web
+      <strong>Xôi Thịt Nhà Mui Miu</strong>
+    </div>
+
+    <div class="xoi-thit-question">
+      Bạn có muốn tiếp tục không?
+    </div>
+
+    <div class="xoi-thit-buttons">
+
+      <button
+        id="xoiThitYes"
+        class="xoi-thit-yes"
+      >
+        Có
+      </button>
+
+      <button
+        id="xoiThitNo"
+        class="xoi-thit-no"
+      >
+        Không
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+</script>
 </body>
 </html>

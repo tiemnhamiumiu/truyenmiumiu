@@ -8,9 +8,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
     const DAILY_PASSES = {
 
-        "2026-09-17": "san",
+        "2026-09-23": "muc",
 
-        "2026-09-16": "chinh"
+        "2026-09-22": "co"
 
     };
 
@@ -21,11 +21,11 @@ window.addEventListener("DOMContentLoaded", function () {
 
     const DAILY_FACEBOOK_POSTS = {
 
-        "2026-09-17":
-            "https://www.facebook.com/photo/?fbid=122108962329467824&set=a.122105998845467824&locale=vi_VN",
+        "2026-09-23":
+            "https://www.facebook.com/photo/?fbid=122112240135467824&set=pcb.122112240423467824&locale=vi_VN",
 
-        "2026-09-16":
-            "https://www.facebook.com/photo/?fbid=122107572453467824&set=p.122107572453467824&locale=vi_VN"
+        "2026-09-22":
+            "https://www.facebook.com/photo/?fbid=122111838345467824&set=pcb.122111839269467824"
 
     };
 
@@ -43,10 +43,10 @@ window.addEventListener("DOMContentLoaded", function () {
     ================================================== */
 
     const TIKTOK_URL =
-        "https://www.tiktok.com/t/ZSVaFpSNR/";
+        "https://vt.tiktok.com/ZS9AhQn6ukYWS-pxrMb/";
 
     const LAZADA_URL =
-        "https://s.lazada.vn/s.MSUCB?c=c&t=p-ixAY3P-sGQ1lgE";
+        "https://s.lazada.vn/s.oVolr?c=d&t=p-ixAY3P-sGQ1lgE";
 
     const TIKTOK_LINKS = [
         TIKTOK_URL
