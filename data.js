@@ -16426,6 +16426,217 @@ Ta vừa định mở lời từ chối thì Tống Ngọc Hành đã thản nhi
 
 "Còn muội, đến trái đào cũng sợ gai cào xước tay, vốn dĩ là tiểu thư đài các kiêu kỳ."
 `
+  },{
+    id: 797,
+    title: "Hoa Lan Nở Trong Mưa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/04a7da2131863108ad79370e17920ffa.jpg",
+    link: "ngontinh/hoa-lan-no-trong-mua.html",
+    type: "ngontinh",
+    desc: `Mẹ tôi sức khỏe vốn đã yếu, lại chẳng thể sinh thêm cho nhà nội một mụn con trai.
+
+Bố lấy cớ đó mà đâm đơn ly hôn.
+
+Bà nội chắp tay sau lưng, dĩ nhiên là hả hê ra mặt: "Để chống mắt lên xem, cái nhà không có đàn ông lại thiếu cả đứa con trai thì nối dõi kiểu gì, rồi sống làm sao cho nổi."
+
+Bố nhếch môi phân trần, giọng nhẹ như không: "Yến Tử à, em đừng trách anh ác. Cái làng này nhà ai chẳng có con trai, đấy cũng là tâm nguyện cuối đời của mẹ..."
+
+Thời gian thấm thoắt trôi, bố tái hôn với người khác nhưng dì ghẻ lại thuộc dạng ghê gớm, dữ dằn.
+
+Cuộc sống mới chẳng như mơ, bố bắt đầu hối hận. Lại lò dò quay về, hạ mình nài nỉ mẹ: "Yến Tử, nghĩ đi nghĩ lại chỉ có em là tốt nhất. Hay là chúng mình tái hôn đi?"
+
+Mẹ dằn thẳng tờ thiệp cưới vào giữa mặt hai người họ, cười nhạt: "Trễ rồi! Tháng sau tôi lên xe hoa, rảnh rỗi thì nhớ mang lễ đến uống rượu mừng nhé!"
+`
+  },{
+    id: 798,
+    title: "Lỡ Tay Ôm Nhầm Kẻ Thù",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/71387a8597ccab661a8ff926def513f5.jpg",
+    link: "dammy/lo-tay-om-nham-ke-thu.html",
+    type: "dammy",
+    desc: `Khi kỳ phát nhiệt đột ngột bộc phát mãnh liệt, tôi không còn giữ được chút lý trí nào, chỉ biết khóc lóc van nài người bạn thanh mai trúc mã giúp mình xoa dịu.
+
+Sau khi bị dòng pheromone áp đảo của đối phương bao phủ từ đầu đến chân, tôi run rẩy nhặt chiếc kính lên đeo vào.
+
+Nhưng ngay giây phút nhìn rõ người trước mắt, tim tôi đã lạnh đi một nửa.
+
+Xong thật rồi, có lẽ tôi nên tính chuyện đặt dịch vụ tang lễ trọn gói là vừa.
+
+Người vừa đánh dấu hoàn toàn tôi, tại sao lại chính là người mà bạn thơ ấu của tôi thầm thương trộm nhớ?
+
+Chẳng phải anh ta là một Omega sao?
+
+Chuyện quái gì thế này, rốt cuộc tôi đã lên giường với chính tình địch của mình ư?!
+`
+  },{
+    id: 799,
+    title: "Nước Mắt Xung Hỉ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/525c92465f0f3c6c02c4eaf5e75bd26b.jpg",
+    link: "cotrang/nuoc-mat-xung-hi.html",
+    type: "cotrang",
+    desc: `Ta là tân nương được đưa về để xung hỉ.
+
+Sau khi Trấn Quốc Tướng quân hôn mê suốt nửa năm, ta được gả cho hắn.
+
+Nhiệm vụ chăm sóc tướng quân chẳng có gì phiền phức, ta thậm chí còn mong hắn sẽ mãi không tỉnh lại.
+
+Thế nhưng tướng quân vẫn tỉnh giấc. Hắn nhìn ta với vẻ nửa cười nửa không:
+
+"Cô có biết vì sao ta lại tỉnh không?"
+
+Ta lắc đầu.
+
+"Bị tiếng cô nói xấu người khác cùng tiếng bấm bàn tính lách cách làm cho giật mình tỉnh dậy đấy."
+`
+  },{
+    id: 800,
+    title: "Lồng Vàng Giam Sai Người",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/63f7b4b742863d97c22c4bfb46212ab2.jpg",
+    link: "ngontinh/long-vang-giam-sai-nguoi.html",
+    type: "ngontinh",
+    desc: `Tôi bao nuôi tài xế nghèo của anh trai.
+
+Anh ấy tuy không có tiền, nhưng lại sở hữu cơ thể cực kỳ phẩm chất: cơ bụng săn chắc, vòng eo gọn gàng cùng bờ mông căng nảy chẳng kém gì Captain America. Cứ mỗi lần đứng yên lặng, thần thái anh ấy chẳng khác nào người mẫu nam cao cấp; ấy thế mà lúc động đậy, biểu cảm lại trông đáng yêu như một chú gấu bông.
+
+Chỉ có một điều làm tôi lấn cấn: gã này tính tình hư vinh quá đỗi, cứ hễ có tiền là lại lao đi mua đồ hiệu giả, mà mỗi lần chốt đơn toàn tốn đến cả trăm triệu.
+
+Một ngày nọ, trong lúc tôi đang đè trói anh ấy trên đầu giường để rèn giũa lại nết nếp thì bất ngờ nhận được cuộc gọi từ anh trai:
+
+“Dạo trước em bảo muốn tìm tài xế của anh để bao nuôi cơ mà, sao tới giờ vẫn chưa thấy mò đến tìm nó?”
+
+Tôi ngơ ngác mất vài giây, sống lưng bỗng dưng lạnh ngắt.
+
+Nếu tài xế còn chưa gặp... vậy thì người đàn ông tôi đang cưỡi trên người hiện tại rốt cuộc là ai?
+`
+  },{
+    id: 801,
+    title: "Bắt Nạt Nam Chính",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8a3d96121ec84fd7e6cddfaed12c3e0d.jpg",
+    link: "dammy/bat-nat-nam-chinh.html",
+    type: "dammy",
+    desc: `Xuyên vào tiểu thuyết cứu rỗi học đường, tôi trở thành trùm trường chuyên bắt nạt nam chính!
+
+Vừa tới nơi đã túm cổ áo định ra tay đánh người.
+
+Đối diện với ánh mắt lạnh băng của hắn, tôi sợ quá liền nhắm mắt hôn luôn lên!
+
+Giọng run lẩy bẩy dọa dẫm: “Nhìn… nhìn cái gì! Tôi… tôi chỉ nếm thử thôi…”
+
+Sau này, tôi khóc lóc cầu xin hắn buông tha: “Ăn… ăn không nổi nữa rồi…”
+`
+  },{
+    id: 802,
+    title: "Nhường Kim Bài Ta Vung Tiền Xưng Đế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c93e9d31881c996d9f943a7f55211d8e.jpg",
+    link: "cotrang/nhuong-kim-bai-ta-vung-tien-xung-de.html",
+    type: "cotrang",
+    desc: `Mấy đời gia tộc ta chịu tội, kéo nhau đi đày nơi cồn cát hoang mạc.
+
+Nhận được tấm Kim Bài Miễn Tử duy nhất do thánh thượng ban cho năm xưa, phụ thân liền giúi thẳng vào tay đứa con gái thứ xuất, vội vã giục nó tìm đường chạy trốn.
+
+Đến lúc trút hơi thở cuối cùng, người mới thều thào căn dặn ta: “Con là đích nữ Mộc gia. Sau khi ta khuất núi, cơ nghiệp này chỉ còn biết bấu víu vào con.”
+
+Chấp nhận gánh nặng, ta dắt díu cả nhà từ già tới trẻ, ốm đau bệnh tật khai sơn phá đá nơi cõi hoang cằn. Trời không phụ lòng, ta đào trúng mỏ vàng, nghiễm nhiên trở thành Thành chủ đứng đầu một phương hoang mạc.
+
+Còn con muội muội thứ xuất kia lại rơi vào cảnh đầu đường xó chợ. Vì nảy lòng tham muốn cướp đoạt ngôi vị Thành chủ, nó nhẫn tâm xuống tay xô ta rơi xuống vực sâu vạn trượng.
+
+Được sống lại một đời, muội muội lập tức ấn tấm Kim Bài Miễn Tử vào tay ta, làm ra vẻ đại nhân đại nghĩa: “Tỷ tỷ, tỷ mau tẩu thoát đi! Mộc gia cứ để ta thay tỷ gánh vác!”
+
+Cầm lấy tấm vé tự do trên tay, ta bật cười sảng khoái.
+
+Cả một giuộc vong ân bội nghĩa ấy, nó đã tha thiết muốn gánh thì cứ việc ôm lấy!
+
+So với cái ghế Thành chủ hoang mạc bé tẹo kia, hoài hoài dã tâm của ta là phải xưng bá cả thiên hạ này!
+`
+  },{
+    id: 803,
+    title: "Lối Thoát Cho Tình Yêu Giả Tạo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/32655cf0bbd5eb824b483dc5294e4608.jpg",
+    link: "ngontinh/loi-thoat-cho-tinh-yeu-gia-tao.html",
+    type: "ngontinh",
+    desc: `Hệ thống chìm trong giấc ngủ sâu bấy lâu nay đột nhiên tỉnh giấc. Nghe tôi nói vậy, nó vô cùng kinh ngạc:
+
+"Ký chủ, nhiệm vụ công lược trước đó cô đã hoàn thành rất xuất sắc mà. Ở lại thế giới này cơm ngon áo đẹp, lại có người chồng giàu có cùng đứa con ngoan ngoãn, cớ sao cô lại muốn quay về?"
+
+Tôi im lặng không đáp. Cuộc đối thoại ngoài sân vẫn tiếp tục vọng vào.
+
+"Con hứa với bố, con nhất định sẽ làm tốt nhiệm vụ! Sớm ngày giúp bố đuổi người mẹ xấu xa kia đi, để cô Sở Sở về làm mẹ con, kết hôn với bố!"
+
+Giang Nghiên bật cười chiều chuộng:
+
+"Giỏi lắm, Nam Nam nhà chúng ta lớn thật rồi, đã là một tiểu nam tử hán rồi đấy."
+
+Tôi ngơ ngác ngước nhìn vầng trăng khuyết treo lơ lửng trên tầng không, khẽ gieo một tiếng thở dài với hệ thống:
+
+"Bởi vì, tôi muốn về nhà."
+
+Hệ thống tỏ ra không hiểu:
+
+"Chẳng phải đây chính là nhà của cô sao?"
+
+Tôi run run siết chặt tờ đơn ly hôn trong tay:
+
+"Sắp không phải nữa rồi."`
+  },{
+    id: 804,
+    title: "Trăng Sáng Vốn Không Thể Chạm Tới",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/838a92ec78ab31cefadbfd14154875a9.jpg",
+    link: "dammy/trang-sang-von-khong-the-cham-toi.html",
+    type: "dammy",
+    desc: `Thái tử gia của giới thượng lưu Kinh thành hoàn toàn không hề hay biết nghệ danh của tôi.
+
+Vừa thấy tổ chương trình cố tình xào nấu, gán ghép hai người thành một cặp, anh lập tức thẳng thừng từ chối: “Dẹp mấy cái trò bẩn thỉu này đi. Cái chương trình rác rưởi gì thế này? Ông đây không quay nữa!”
+
+Thế là, với thân phận “bạch nguyệt quang” thời niên thiếu của anh, tôi vừa từ nước ngoài trở về đã bị người hâm mộ của anh chửi rủa thậm tệ đến mức leo thẳng lên top tìm kiếm.
+
+[Loại đàn ông hãm hại này, chết đi cho rồi! Kẻ đê tiện thì mau cút càng xa càng tốt!]
+
+Tôi cảm thấy không đành lòng, bèn gửi tin nhắn riêng cho anh: [Anh còn nhớ Tần Vọng Thư không?]
+
+Đối phương đáp lại ngay lập tức: [Cái tên này, loại người như cậu không xứng nhắc đến.]
+
+Nói xong câu đó, anh chặn tài khoản của tôi luôn. Mãi cho đến khi tham gia một buổi ghi hình trực tiếp của chương trình thực tế, tôi xuất hiện với vai trò khách mời đặc biệt...
+
+Màn lật mặt hú hồn của cư dân mạng bắt đầu diễn ra:
+
+[Ơ kìa, chuyện này là sao thế chứ? Sao bảo bối không chịu nói mình đẹp trai đến nhường này từ sớm? Làm bọn này hiểu lầm hết cả.]
+
+[Trời đất ơi, tôi xin phép thực hiện combo xoay vòng nhảy múa, lộn nhào 360 độ rồi quỳ trượt chân xuống cầu hôn em ấy luôn!]
+
+[Đợi chút đã, đến mỹ nam nghiêng nước nghiêng thành thế này mà cái tên họ Chung kia còn chê, thế anh ta định yêu thần tiên chắc?]
+
+Về phần Thái tử gia Chung Thời Việt, ngay khoảnh khắc nhìn thấy gương mặt tôi xuất hiện trên sóng truyền hình, đôi bàn tay anh run rẩy vì kích động.
+
+Anh lập tức gọi điện thoại cho đạo diễn: “Để tôi quay lại chương trình thì ông lấy bao nhiêu tiền?”
+
+Đạo diễn ngơ ngác đáp: “Năm triệu tệ.”
+
+Ngay giây tiếp theo, âm thanh thông báo nhận tiền vang lên: “Đã chuyển khoản rồi đấy.”
+
+Đạo diễn ngơ ngác: [?????]
+
+Ủa, chẳng phải tôi mới là người phải trả tiền thù lao cho cậu sao?`
+  },{
+    id: 805,
+    title: "Chiêu Nghi Xấu Xí Của Bệ Hạ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/86f4ef233abb093ab06ba72030da36a7.jpg",
+    link: "cotrang/chieu-nghi-xau-xi-cua-be-ha.html",
+    type: "cotrang",
+    desc: `Thái sư quyền khuynh triều dã, vì muốn làm nhục vị hoàng đế bù nhìn, đã đưa ta, đứa con gái của một tỳ nữ nuôi ngựa, vào cung làm Chiêu nghi của ngài.
+
+Bởi vì ta là kẻ xấu xí và thảm hại nhất trên đời.
+
+Thiên hạ ai ai cũng đoán, Hoàng thượng hẳn sẽ nổi trận lôi đình, một kiếm đâm chết ta ngay lập tức.
+
+Đêm bị đưa vào cung, ta hoảng sợ đến mức nước mắt tuôn rơi không ngừng.
+
+Thế nhưng ta lại nghe thấy ngài bật cười một tiếng, có chút bất đắc dĩ dùng vạt áo lau lệ cho ta:
+
+"Nàng khóc cái gì, trẫm đâu có ăn thịt người."
+
+Về sau ta mới thấu hiểu, ngài là một người vô cùng tốt đẹp.
+
+Tốt đến mức ta nguyện vì ngài xông pha khói lửa, chẳng chút từ nan.
+
+Thế nhưng, ngài ấy lại chẳng cần.`
   },
 
 

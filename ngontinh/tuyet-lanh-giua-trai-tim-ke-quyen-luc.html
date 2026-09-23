@@ -1063,15 +1063,8 @@ Bố tôi cười nhẹ: “Bố cũng yêu con.”
 
 <script src="../codetruyen/script.js"></script>
 <script src="../codetruyen/audio.js"></script>
-
-
 <!-- ==================================================
-     POPUP CHUYỂN SANG WEB XÔI THỊT
-================================================== -->
-
-
-<!-- ==================================================
-     POPUP CHUYỂN SANG WEB XÔI THỊT
+     POPUP XÔI THỊT
 ================================================== -->
 
 <div
@@ -1081,20 +1074,6 @@ Bố tôi cười nhẹ: “Bố cũng yêu con.”
 >
 
   <div class="xoi-thit-box">
-
-      <img
-    src="../codetruyen/icon.jpg"
-    alt="Truyện Mới Miu Miu"
-    class="xoi-thit-icon"
-  >
-
-  <span class="xoi-thit-arrow">→</span>
-
-  <img
-    src="../codetruyen/iconxoi.jpg"
-    alt="Xôi Thịt Nhà Mui Miu"
-    class="xoi-thit-icon"
-  >
 
     <div class="xoi-thit-text">
       Bạn đang chuyển qua web
@@ -1110,6 +1089,7 @@ Bố tôi cười nhẹ: “Bố cũng yêu con.”
       <button
         id="xoiThitYes"
         class="xoi-thit-yes"
+        type="button"
       >
         Có
       </button>
@@ -1117,6 +1097,7 @@ Bố tôi cười nhẹ: “Bố cũng yêu con.”
       <button
         id="xoiThitNo"
         class="xoi-thit-no"
+        type="button"
       >
         Không
       </button>
@@ -1148,103 +1129,85 @@ const xoiThitNo =
 
 
 /* ==================================================
-   ẤN XÔI THỊT
+   KIỂM TRA PHẦN TỬ
 ================================================== */
 
-xoiThitLink.addEventListener(
-  "click",
-  function(event) {
-
-    event.preventDefault();
-
-    xoiThitPopup.style.display = "flex";
-
-  }
-);
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
 
 
-/* ==================================================
-   CÓ → CHUYỂN WEB
-================================================== */
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
 
-xoiThitYes.addEventListener(
-  "click",
-  function() {
+  xoiThitLink.addEventListener(
+    "click",
+    function(event) {
 
-    window.location.href =
-      "https://truyenxoithitmiumiu.nekoweb.org/";
+      event.preventDefault();
 
-  }
-);
+      xoiThitPopup.style.display = "flex";
 
-
-/* ==================================================
-   KHÔNG → ĐÓNG BẢNG
-================================================== */
-
-xoiThitNo.addEventListener(
-  "click",
-  function() {
-
-    xoiThitPopup.style.display = "none";
-
-  }
-);
+    }
+  );
 
 
-/* ==================================================
-   ẤN RA NGOÀI BẢNG → ĐÓNG
-================================================== */
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
 
-xoiThitPopup.addEventListener(
-  "click",
-  function(event) {
+  xoiThitYes.addEventListener(
+    "click",
+    function() {
 
-    if (
-      event.target ===
-      xoiThitPopup
-    ) {
+      window.location.href =
+        "https://truyenxoithitmiumiu.nekoweb.org/";
+
+    }
+  );
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener(
+    "click",
+    function() {
 
       xoiThitPopup.style.display = "none";
 
     }
+  );
 
-  }
-);
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener(
+    "click",
+    function(event) {
+
+      if (
+        event.target ===
+        xoiThitPopup
+      ) {
+
+        xoiThitPopup.style.display = "none";
+
+      }
+
+    }
+  );
+
+}
 
 </script>
-</body>
 
-    <div class="xoi-thit-text">
-      Bạn đang chuyển qua web
-      <strong>Xôi Thịt Nhà Mui Miu</strong>
-    </div>
-
-    <div class="xoi-thit-question">
-      Bạn có muốn tiếp tục không?
-    </div>
-
-    <div class="xoi-thit-buttons">
-
-      <button
-        id="xoiThitYes"
-        class="xoi-thit-yes"
-      >
-        Có
-      </button>
-
-      <button
-        id="xoiThitNo"
-        class="xoi-thit-no"
-      >
-        Không
-      </button>
-
-    </div>
-
-  </div>
-
-</div>
-</script>
 </body>
 </html>
