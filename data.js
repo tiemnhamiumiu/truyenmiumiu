@@ -16637,6 +16637,203 @@ Về sau ta mới thấu hiểu, ngài là một người vô cùng tốt đẹp
 Tốt đến mức ta nguyện vì ngài xông pha khói lửa, chẳng chút từ nan.
 
 Thế nhưng, ngài ấy lại chẳng cần.`
+  },{
+    id: 806,
+    title: "Nữ Phụ Ác Độc Không Muốn Bị Trả Thù",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/62dfaef5d59a766c9a5d72c13fdff52b.jpg",
+    link: "ngontinh/nu-phu-ac-doc-khong-muon-bi-tra-thu.html",
+    type: "ngontinh",
+    desc: `Từ nhỏ, tôi đã bắt nạt ba nam chính, chỉ đợi nữ chính xuất hiện để cứu rỗi họ.
+
+Hệ thống khuyên nhủ: “Nếu cô nhân lúc này cướp lấy vai trò của nữ chính, sau này chẳng phải sẽ có đường sống sao?”
+
+Tôi véo má phúng phính của một người, đá vào mông người kia một cái, rồi cầm dây lưng dọa nạt người còn lại viết bài tập hộ.
+
+Ngỗ nghịch vô pháp vô thiên, sảng khoái vô biên. Vì vậy, tôi vứt bỏ hệ thống.
+
+Sau này, các nam chính đều trưởng thành cũng là lúc nữ chính xuất hiện, tôi định chuồn nhanh, nào ngờ bị véo má. Tôi nhìn dây lưng quen thuộc đến lạ, trong lòng thắt lại.
+
+Tôi hét lên: “Hệ thống! Hệ thống!”
+
+Hệ thống: “Chơi lố rồi? Phạm trù khác nhau, chúc cô may mắn.”
+`
+  },{
+    id: 807,
+    title: "Kẻ Thay Thế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2e16f6497b5e0629be0a8c6d154a5c52.jpg",
+    link: "dammy/ke-thay-the.html",
+    type: "dammy",
+    desc: `Tôi là một beta trong thế giới ABO.
+
+Người đàn ông alpha thực vật mà tôi lặng lẽ dốc lòng chăm sóc suốt ba năm qua rốt cuộc cũng tỉnh lại.
+
+Nhưng nực cười thay, tất cả mọi người lại đồng loạt nói với anh rằng, người luôn tận tụy kề cận bên anh bấy lâu nay chính là cậu em trai omega của tôi.
+
+Cha tôi lạnh lùng tạt một gáo nước lạnh:
+
+“Mày chỉ là một beta tầm thường, còn nó là thiếu tướng trẻ tuổi đầy triển vọng nhất Đế quốc. Mày với nó vĩnh viễn chẳng có kết quả đâu. Chi bằng nhường lại cơ hội liên hôn này cho em trai mày.”
+
+Tôi nuốt hết cay đắng vào trong, im lặng thu dọn hành lý rời đi.
+
+Nhưng tôi không ngờ rằng, đến ngày gặp lại, vị thiếu tướng cao cao tại thượng ấy lại nhìn tôi rồi khẽ mỉm cười:
+
+“Nếu người đó là cậu… tôi lại thấy vô cùng sẵn lòng.”
+
+Vệ Hành tỉnh lại đúng vào ngày đầu tiên tôi xin nghỉ phép.
+
+Nói ra thật trớ trêu, tôi ở bên cạnh túc trực chăm sóc anh suốt ba năm ròng rã không một lời than van, vậy mà ngay lần đầu tiên bước chân ra khỏi cửa, anh lại mở mắt.
+
+Lúc tôi quay về biệt thự nhà họ Vệ, bác quản gia nhìn tôi bằng ánh mắt chan chứa niềm thương hại:
+
+“Ngài Lâm, lão gia đã dặn, thiếu gia hiện tại tạm thời không cần ngài chăm sóc nữa. Cậu… hay là sang phòng khách nghỉ ngơi trước đi?”
+
+Tôi thoáng khựng lại, trong lòng không khỏi hồ nghi:
+
+“Ba năm qua đều một tay tôi lo liệu, gia đình đã mời hộ lý mới rồi sao?”
+
+Quản gia ấp úng, ánh mắt ái ngại như muốn nói lại thôi.
+
+Đúng lúc đó, một giọng nói quen thuộc vang lên từ phía cầu thang:
+
+“Tinh Trạch, tôi đã giúp cậu hủy hợp đồng rồi, sau này cậu không cần đến đây nữa.”`
+  },{
+    id: 808,
+    title: "Hương Quế Thu Nhàn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7e836ddb4039d06a7d7d4858a9c99ae9.jpg",
+    link: "cotrang/huong-que-thu-nhan.html",
+    type: "cotrang",
+    desc: `Bạch nguyệt quang trong lòng hoàng đế trở về rồi, thời điểm lại vô cùng thích hợp, bởi lẽ ta vốn đã chán ngấy vị trí này từ lâu.
+
+Hoàng thượng vì muốn giữ gìn sự trong sạch cho người thương nên lấy ta ra làm lá chắn. Suốt nửa tháng ròng, đêm nào hắn cũng lật thẻ bài của ta, đẩy ta vào tâm bão của chốn hậu cung, trở thành cái gai trong mắt mọi phi tần.
+
+Tối đầu tiên, ta thật sự coi đây là trọng trách khắt khe. Ta túc trực tắm rửa, xông hương thơm ngát, rồi còn lôi cuốn sổ tay kinh nghiệm ra xem lại tỉ mỉ một lượt.
+
+Lần cuối ta thị寝 đã từ thời xửa thời xưa, đến cả chút ngón nghề cơ bản của phận phi tần cũng bị mai một ít nhiều.
+
+Cho dù trái tim ta chẳng thuộc về hoàng đế, nhưng đã khoác lên mình danh xưng phi tử thì vẫn nên tròn trách nhiệm.
+`
+  },{
+    id: 809,
+    title: "Nhặt Nhầm Đại Phản Diện",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f5c0d4f6f7f4f811944973dbafdb6b19.jpg",
+    link: "ngontinh/nhat-nham-dai-phan-dien.html",
+    type: "ngontinh",
+    desc: `Sau khi hoàn thành nhiệm vụ công lược, tôi mới tá hỏa nhận ra mình đã nhắm nhầm mục tiêu.
+
+Trùm phản diện ngụy quân tử bị tôi bỏ bùa mê thuốc lú đến mức chẳng còn biết trời trăng mây sao là gì, thế nhưng bây giờ tôi lại phải tìm cách đá hắn.
+
+Tôi e hắng, ướm hỏi thử: "Nếu có kẻ phản bội anh..."
+
+Hắn đáp lại bằng giọng điệu hờ hững: "Cho làm mồi cho cá."
+
+Tôi sợ đến quéo người, đành phải giật lùi về chiến thuật hóa thân thành yêu tinh bám người, muốn quấy cho hắn phát phiền mà tự động tống cổ tôi đi.
+
+Ngày nào tôi cũng lặp đi lặp lại mấy câu phiền phức: "Anh có yêu em không? Sao anh không trả lời tin nhắn của em ngay lập tức? Có phải anh có mối khác rồi đúng không? Đưa điện thoại đây em kiểm tra."
+
+Tôi ra sức làm loạn, chẳng để hắn yên ổn nổi một ngày, trong lòng chỉ thắp hương khấn nguyện sớm bị hắn đá ra khỏi nhà.
+
+Nào ngờ, tôi lại tình cờ nghe thấy hắn đang than thở với người khác: "Bạn gái tôi bám người dữ quá, chắc tại tôi chưa cho em ấy đủ cảm giác an toàn."
+
+"Tôi tính rồi, ngày mai tôi sẽ cầu hôn em ấy."
+
+Tôi chết lặng tại chỗ.`
+  },{
+    id: 810,
+    title: "Đêm Tối Của Vệ Sĩ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5aaa38d963aa5d9d24f5e2cb5761a10.jpg",
+    link: "dammy/dem-toi-cua-ve-si.html",
+    type: "dammy",
+    desc: `Là một vệ sĩ riêng của cậu chủ nhà họ Kiều, tôi từng xông pha vào sinh ra tử vì anh ta, vậy mà lương thưởng cả năm cộng lại vỏn vẹn chỉ đúng tám vạn tệ. Trong khi đó, với đám tình nhân bên ngoài, anh ta ra tay hào phóng vô cùng, lần nào vung tiền cũng đều là con số hàng trăm nghìn.
+
+Sự bất công ấy khiến tôi nảy ra một ý định táo bạo. Nếu đã như vậy, chi bằng tôi tự mình trèo lên giường cậu chủ để kiếm một khoản tiền cho nhanh gọn.
+
+Chẳng ngờ cơ sự không thành, cậu chủ bắt quả tang tôi khi trên người chẳng có lấy một mảnh vải. Anh ta vừa tức giận vừa cảm thấy mất mặt, lập tức tống cổ tôi ra khỏi phòng và thẳng tay trừ luôn ba tháng lương.
+
+Chuyện giật gân này nhanh chóng lan truyền khắp cả dinh thự. Tôi nghiễm nhiên trở thành chủ đề bàn tán, làm trò cười cho mọi người sau những giờ làm việc.
+
+Đến cả cậu em trai ăn chơi lêu lổng của anh ta cũng mò tới để chế nhạo tôi:
+
+“Bằng cái nhan sắc này mà cũng bày đặt quyến rũ anh Kiều cơ đấy?”
+
+“Không tự soi gương xem bản thân nặng bao nhiêu cân lượng sao? Người tầm cỡ như anh ấy mà cậu cũng dám mơ tưởng à?”
+
+Tôi im lặng hứng chịu toàn bộ những lời dèm pha, mặc cho vô số ánh mắt giễu cợt đang đổ dồn về phía mình.
+
+Sau cùng, tôi nhìn thẳng vào mắt cậu ta rồi thản nhiên đáp:
+
+“Không mơ tưởng anh ấy nữa, vậy tôi mơ tưởng cậu được không?”
+`
+  },{
+    id: 811,
+    title: "Buông Bỏ Đông Cung Gả Cho Đúng Người",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0a7c2016ec925d0291eb46e585f8b78f.jpg",
+    link: "cotrang/buong-bo-dong-cung-ga-cho-dung-nguoi.html",
+    type: "cotrang",
+    desc: `Ngay trước ngày cử hành đại hôn giữa ta và Thái tử, tin tức thứ muội mang thai cốt nhục của hắn chấn động cả phủ.
+
+Phụ thân kiên quyết không đồng ý cho nàng bước chân vào Đông cung.
+
+Đêm ta giăng đèn kết hoa chuẩn bị thành hôn, thứ muội gieo mình xuống hồ tự vẫn.
+
+Kể từ hôm ấy, Thái tử nhiều lần ép ta mang thai, rồi lại chính tay dâng thuốc phá thai bắt ta uống hết lần này đến lần khác.
+
+Hắn đổ vạ cho phụ thân ta, tống ông vào ngục tối, tìm cách tru diệt cả tộc Chu gia.
+
+"Ngươi hãy nhớ cho kỹ, đây là món nợ máu mà toàn bộ gia tộc ngươi phải bồi hoàn cho nàng ấy!"
+
+Ngày hồi sinh trở lại, trước mắt ta là cảnh thứ muội mang bầu quỳ rạp dưới đất, khóc lóc gạt lệ mặn đắng. Ta thản nhiên tiến lên cầu xin phụ thân thành toàn cho nàng gả cho Thái tử: "Dù sao một kẻ không giữ nổi phần con trong người thì chẳng bao giờ làm nên nghiệp lớn. Dẫu có bước lên cao, cũng sớm muộn bị chuyện nữ sắc kéo xuống bùn lầy."
+`
+  },{
+    id: 812,
+    title: "Rủ Bạn Thân Cùng Ly Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5b327d5ec67c8f3a87a14f36888d641f.jpg",
+    link: "ngontinh/ru-ban-than-cung-ly-hon.html",
+    type: "ngontinh",
+    desc: `Kết hôn với anh trai của bạn thân đã nửa năm, vợ chồng tôi vẫn chưa từng có một lần chung phòng thực sự.
+
+Trong cơn ấm ức tột cùng, tôi nhấc điện thoại gọi ngay cho cạ cứng:
+"Tớ chịu hết nổi rồi, tớ phải ly hôn với anh cậu thôi!"
+
+Không ngờ ở đầu dây bên kia, cô ấy cũng đang sụt sùi nức nở:
+"Tớ cũng chạm ngưỡng chịu đựng rồi, sáng mai tớ sẽ đơn phương ly hôn với anh cậu!"`
+  },{
+    id: 813,
+    title: "Chỉ Muốn Bẻ Cong Anh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a0e08f03028d94f212fe158152c9aecb.jpg",
+    link: "dammy/chi-muon-be-cong-anh.html",
+    type: "dammy",
+    desc: `Tôi uống say rồi tuyên bố phải “bẻ cong” Chu Vi Yến, chẳng ngờ lại bị chính chủ nghe thấy.
+
+Anh sở hữu khuôn mặt chuẩn "trai thẳng cực phẩm" trong mắt giới gay, nổi tiếng là trai thẳng xịn và cực kỳ kỳ thị đồng tính.
+
+Lúc đó, anh nhìn tôi bằng vẻ mặt vô cùng kiên quyết: "Tôi không thể thích đàn ông, càng không bao giờ thích cậu."
+
+Sau buổi hôm ấy, tôi lỡ dại đấm nhau với người ta rồi bị đập trúng đầu.
+
+Cũng từ lúc đó, những giấc mơ kỳ lạ bắt đầu xuất hiện.
+
+Tôi liên tục mơ thấy Chu Vi Yến người luôn lạnh lùng khẳng định không thích đàn ông lại đang quấn quýt ân ái bên tôi.
+
+Đau khổ hơn cả là một kẻ thề sống chết phải làm cửa trên như tôi… lại là người nằm dưới.
+
+Hoảng quá, tôi bắt đầu kiếm cớ trốn tránh anh.
+
+Nhưng anh lại tỏ ra không hài lòng, dồn tôi vào góc tường hỏi thẳng: "Không phải em nói muốn bẻ cong anh sao? Bây giờ lại trốn cái gì?"
+`
+  },{
+    id: 814,
+    title: "Vết Bớt Hoa Mai",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/13183a1e38ac6dd8550317088261f7e4.jpg",
+    link: "cotrang/vet-bot-hoa-mai.html",
+    type: "cotrang",
+    desc: `Kiếp trước, chỉ vì tâm tính quá đỗi xót thương người khác, ta đã chuốc lấy kết cục ê chề. Từ Hoan không những trút lên đầu ta đủ loại sỉ nhục mà còn đẩy ta vào chốn lầu xanh, sống chẳng bằng chết.
+
+May mắn thay, kiếp này được tái sinh, ta không chút chần chừ mà dùng chính danh nghĩa của nàng ta để quay về phủ Tướng quân. Ta nghiễm nhiên thụ phong Quận chúa, lại còn được triều đình ban hôn cho Thái tử.
+
+Đúng vào ngày ta nhận vinh hoa ấy, nàng ta lại trong bộ dạng tơi tả, gào khóc giữa chốn đông người rằng ta chỉ là kẻ giả mạo, còn bản thân mới mang dòng máu thật sự.
+
+Ta nghe vậy chỉ khẽ nhếch môi, ánh mắt lạnh lùng soi rọi kẻ phía dưới. Huyết thống thì sao chứ? Nàng ta ngỡ ta bước tới vị trí ngày hôm nay là nhờ vào dăm ba giọt máu đào hay sao?
+`
   },
 
 

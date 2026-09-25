@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         "2026-09-23": "muc",
 
-        "2026-09-22": "co"
+        "2026-09-24": "hoa"
 
     };
 
@@ -24,8 +24,8 @@ window.addEventListener("DOMContentLoaded", function () {
         "2026-09-23":
             "https://www.facebook.com/photo/?fbid=122112240135467824&set=pcb.122112240423467824&locale=vi_VN",
 
-        "2026-09-22":
-            "https://www.facebook.com/photo/?fbid=122111838345467824&set=pcb.122111839269467824"
+        "2026-09-24":
+            "https://www.facebook.com/photo/?fbid=122112895515467824&set=pcb.122112896073467824&locale=vi_VN"
 
     };
 
