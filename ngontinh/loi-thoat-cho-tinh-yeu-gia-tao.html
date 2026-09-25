@@ -851,104 +851,67 @@ Tôi của ngày xưa cũng từng như thế. Vậy thì giờ đây, hãy đ�
 
 </div>
 
-<div id="unlockBox" class="unlock-box">
 
-<div class="unlock-title">🔐 MỞ KHÓA TRUYỆN</div>
-<div class="unlock-heading">📖 Lấy mã để mở khóa truyện</div>
-<div class="unlock-description">Làm theo hướng dẫn bên dưới để lấy mã mở khóa truyện.</div>
-
-<div class="guide-image-wrap">
-<img id="guideImage" class="guide-image" src="../codetruyen/huongdan-pass.jpg" alt="Hướng dẫn lấy mã mở khóa">
-</div>
-
-<button
-    id="facebookLink"
-    class="get-pass-link"
-    type="button"
->
-    👉 Ấn vào đây để lấy link mã
-</button>
-<div class="pass-section">
-
-<div class="pass-title">🔑 Nhập mã mở khóa</div>
-
-<input id="passInput" class="pass-input" type="text" placeholder="Nhập mã tại đây..." autocomplete="off" spellcheck="false">
-
-<!-- CHÚ Ý MÃ MỞ KHÓA -->
-<div class="pass-warning">⚠️ CHÚ Ý BƯỚC 3: <br>
-    MÃ LÀ CHỮ ĐẦU TIÊN, VIẾT THƯỜNG KHÔNG DẤU!!!<br>
-    MÃ LÀ CHỮ ĐẦU TIÊN, VIẾT THƯỜNG KHÔNG DẤU!!!<br>
-    MÃ LÀ CHỮ ĐẦU TIÊN, VIẾT THƯỜNG KHÔNG DẤU!!!
-</div>
-<button id="unlockBtn" class="unlock-button" type="button">🔓 MỞ KHÓA TRUYỆN</button>
-
-<div id="passError" class="pass-error"></div>
 
 </div>
 
-</div>
 
-</div>
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
 
 <script src="../codetruyen/script.js"></script>
 <script src="../codetruyen/audio.js"></script>
+
+
 <!-- ==================================================
      POPUP XÔI THỊT
 ================================================== -->
 
-<div
-  id="xoiThitPopup"
-  class="xoi-thit-overlay"
-  style="display:none;"
->
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
 
-  <div class="xoi-thit-box">
+<div class="xoi-thit-box">
 
-      <img
-    src="../codetruyen/icon.jpg"
-    alt="Truyện Mới Miu Miu"
-    class="xoi-thit-icon"
-  >
+<!-- ICON WEB CŨ -->
 
-  <span class="xoi-thit-arrow">→</span>
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
 
-  <img
-    src="../codetruyen/iconxoi.jpg"
-    alt="Xôi Thịt Nhà Mui Miu"
-    class="xoi-thit-icon"
-  >
 
-    <div class="xoi-thit-text">
-      Bạn đang chuyển qua web
-      <strong>Xôi Thịt Nhà Mui Miu</strong>
-    </div>
+<!-- MŨI TÊN -->
 
-    <div class="xoi-thit-question">
-      Bạn có muốn tiếp tục không?
-    </div>
+<span class="xoi-thit-arrow">→</span>
 
-    <div class="xoi-thit-buttons">
 
-      <button
-        id="xoiThitYes"
-        class="xoi-thit-yes"
-      >
-        Có
-      </button>
+<!-- ICON XÔI THỊT -->
 
-      <button
-        id="xoiThitNo"
-        class="xoi-thit-no"
-      >
-        Không
-      </button>
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
 
-    </div>
 
-  </div>
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
 
 </div>
 
+</div>
+
+</div>
 
 
 <!-- ==================================================
@@ -957,17 +920,10 @@ Tôi của ngày xưa cũng từng như thế. Vậy thì giờ đây, hãy đ�
 
 <script>
 
-const xoiThitLink =
-  document.getElementById("xoiThitLink");
-
-const xoiThitPopup =
-  document.getElementById("xoiThitPopup");
-
-const xoiThitYes =
-  document.getElementById("xoiThitYes");
-
-const xoiThitNo =
-  document.getElementById("xoiThitNo");
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
 
 
 /* ==================================================
@@ -986,70 +942,58 @@ if (
      ẤN XÔI THỊT
   ================================================== */
 
-  xoiThitLink.addEventListener(
-    "click",
-    function(event) {
+  xoiThitLink.addEventListener("click", function(event) {
 
-      event.preventDefault();
+    event.preventDefault();
 
-      xoiThitPopup.style.display = "flex";
+    xoiThitPopup.style.display = "flex";
 
-    }
-  );
+  });
 
 
   /* ==================================================
      CÓ → CHUYỂN WEB
   ================================================== */
 
-  xoiThitYes.addEventListener(
-    "click",
-    function() {
+  xoiThitYes.addEventListener("click", function() {
 
-      window.location.href =
-        "https://truyenxoithitmiumiu.nekoweb.org/";
+    window.location.href = "https://truyenxoithitmiumiu.nekoweb.org/";
 
-    }
-  );
+  });
 
 
   /* ==================================================
      KHÔNG → ĐÓNG BẢNG
   ================================================== */
 
-  xoiThitNo.addEventListener(
-    "click",
-    function() {
+  xoiThitNo.addEventListener("click", function() {
 
-      xoiThitPopup.style.display = "none";
+    xoiThitPopup.style.display = "none";
 
-    }
-  );
+  });
 
 
   /* ==================================================
      ẤN RA NGOÀI BẢNG → ĐÓNG
   ================================================== */
 
-  xoiThitPopup.addEventListener(
-    "click",
-    function(event) {
+  xoiThitPopup.addEventListener("click", function(event) {
 
-      if (
-        event.target ===
-        xoiThitPopup
-      ) {
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
 
-        xoiThitPopup.style.display = "none";
-
-      }
+      xoiThitPopup.style.display = "none";
 
     }
-  );
+
+  });
 
 }
 
 </script>
+
 
 </body>
 </html>
