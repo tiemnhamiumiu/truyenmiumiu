@@ -16889,7 +16889,7 @@ Trong lúc độc phát tràn qua phủ tạng, thân tàn lực kiệt sắp r�
 Ta tức đến mức thổ huyết ra ngực áo, uất nghẹn mắng: "Sao không nói sớm chứ?"
 `
   },{
-    id: 819,
+    id: 818,
     title: "Hợp Đồng Hết Hạn Tình Yêu Bắt Đầu",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1da79a9ffec774a148aa26c1d16f1d2.jpg",
     link: "ngontinh/hop-dong-het-han-tinh-yeu-bat-dau.html",
@@ -16913,7 +16913,7 @@ Anh nghiến chặt răng, siết lấy tay tôi không buông:
 Tôi thong thả gạt tay anh ra, nhại lại đúng cái giọng điệu xa cách năm xưa của anh:
 "Rất tiếc, anh cũng chỉ là một kẻ thế thân mà thôi."`
   },{
-    id: 820,
+    id: 819,
     title: "Thuê Bạn Trai Giá Rẻ",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/725926a496dcbe48500c661071deff0e.jpg",
     link: "dammy/thue-ban-trai-gia-re.html",
@@ -16927,7 +16927,7 @@ Bà đặt thẳng một tờ chi phiếu xuống bàn với thái độ vô cù
 Đó là lần đầu tiên trong đời tôi được tận mắt thấy hình dáng một tờ chi phiếu thực sự cũng coi như nhờ có Lục Quân Triệt mà tôi được mở mang tầm mắt.
 `
   },{
-    id: 821,
+    id: 820,
     title: "Người Xưa Như Mộng",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/40d01f5228869b536a93d39d0533965c.jpg",
     link: "cotrang/nguoi-xua-nhu-mong.html",
@@ -16943,7 +16943,7 @@ Những ngày tháng tự do tự tại ấy tưởng chừng sẽ kéo dài mã
 Này hôm ấy, Thiên tử chấn động phẫn nộ, hạ lệnh cho dù có phải đào sâu ba thước đất cũng quyết truy tìm bằng được tung tích của ta.
 `
   },{
-    id: 822,
+    id: 821,
     title: "Cắn Chặt Không Buông",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6b4088a4e6750a4bd5af9d72e32ebb51.jpg",
     link: "ngontinh/can-chat-khong-buong.html",
@@ -16957,7 +16957,7 @@ Khi tôi đang thích thú nghịch ngợm đôi tai mèo vừa mọc trên đ�
 Người đứng phía sau lóe lên ánh mắt màu xanh lục thẫm, khẽ nhếch môi cười đầy ẩn ý: "Bắt được em rồi, cô gái nhỏ của ta."
 `
   },{
-    id: 823,
+    id: 822,
     title: "Bảy Ngày Nói Lời Tạm Biệt",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c836502fdc902c21ece307d0a910074c.jpg",
     link: "dammy/bay-ngay-noi-loi-tam-biet.html",
@@ -16967,7 +16967,7 @@ Người đứng phía sau lóe lên ánh mắt màu xanh lục thẫm, khẽ nh
 Tôi giữ riêng cho mình một người thương, chẳng muốn ai hay biết. Tôi mong em có thể quên tôi, bởi lẽ tôi đã không còn trên thế gian này nữa.
 `
   },{
-    id: 824,
+    id: 823,
     title: "Xuyên Sách Làm Vương Phi Bất Hảo",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e40e3a11ca37d62dbbcee5f60c4b9de4.jpg",
     link: "cotrang/xuyen-sach-lam-vuong-phi-bat-hao.html",
