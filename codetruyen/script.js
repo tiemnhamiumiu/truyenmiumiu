@@ -12,7 +12,7 @@ const FACEBOOK_ADS = {
         title: "Quảng cáo ShopeeFood",
 
         url:
-            "https://www.facebook.com/photo/?fbid=122114035221467824&set=a.122105998845467824&locale=vi_VN"
+            "https://www.facebook.com/permalink.php?story_fbid=pfbid02igsynfyc8SmkPpvUk2Kbvyhxb4B6BCkMuJdERqeGx3bcEEdz2s3ju54Lf83PXj6Yl&id=61594034743775&locale=vi_VN"
     }
 
 };
@@ -729,7 +729,7 @@ function createFacebookIframe(postUrl) {
             postUrl
         ) +
         "&show_text=true" +
-        "&width=500";
+        "&width=480";
 
 
     iframe.src =
