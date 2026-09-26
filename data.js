@@ -16834,6 +16834,159 @@ May mắn thay, kiếp này được tái sinh, ta không chút chần chừ mà
 
 Ta nghe vậy chỉ khẽ nhếch môi, ánh mắt lạnh lùng soi rọi kẻ phía dưới. Huyết thống thì sao chứ? Nàng ta ngỡ ta bước tới vị trí ngày hôm nay là nhờ vào dăm ba giọt máu đào hay sao?
 `
+  },{
+    id: 815,
+    title: "Vỡ Mộng Vì Lời Thề Tình Yêu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/14ce067ae2f4a8c5fa8c6d9349d71a26.jpg",
+    link: "ngontinh/vo-mong-vi-loi-the-tinh-yeu.html",
+    type: "ngontinh",
+    desc: `Chưa đầy nửa năm, cân nặng của tôi đã vọt từ 50kg lên 65kg.
+
+Bên ngoài, bạn trai tôi luôn miệng bảo không bận tâm.
+
+Thế nhưng, mọi chuyện bắt đầu thay đổi từ ngày anh bạn thân của anh dẫn theo một cô người mẫu thân hình bốc lửa. Anh bắt đầu soi mói, tìm đủ mọi cớ để bắt bẻ tôi:
+
+“Em trang điểm, giảm cân một chút có được không?”
+
+“Sóng đôi cùng em ra ngoài, anh thấy xấu hổ lắm!”`
+  },{
+    id: 816,
+    title: "Rơi Vào Vòng Tay Phản Diện",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8243f8721d3edcf7fff62efdebbd94df.jpg",
+    link: "dammy/roi-vao-vong-tay-phan-dien.html",
+    type: "dammy",
+    desc: `Vừa mở mắt ra, tôi đã thấy mình xuyên thành tên phản diện thuộc tộc người rắn. Oái ăm thay, đúng lúc ấy tôi lại đang túm chặt cái đuôi ngắn tròn ủm của một tiểu quả phụ tai thỏ, chuẩn bị giở trò đồi bại.
+
+Nhẩm tính lại mốc thời gian trong đầu, tôi sởn cả gai ốc khi nhận ra chỉ còn tròn một tháng nữa là gã phản diện này sẽ bị nghiền xương thành tro.
+
+Để bảo toàn tính mạng, tôi hận không thể quỳ sụp xuống dập đầu tạ tội ngay lập tức.
+
+Thế nhưng còn chưa kịp quỳ, em tiểu quả phụ tai thỏ đã sợ hãi còng lưng, hai tay ôm khư khư lấy bụng mà mếu máo cầu xin:
+
+“Thưa tiên sinh, em... em đang mang thai, thật sự không thể làm chuyện này đâu ạ.”
+
+Tôi đứng hình mất vài giây. Dân tinh tế bây giờ ăn chơi phóng túng tới mức này rồi sao?
+
+Chờ chút đã, thỏ đực... mà cũng có thể mang thai được ư?`
+  },{
+    id: 817,
+    title: "Trăng Thượng Huyền Đợi Một Cố Nhân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0c493202c2989c0b373a371a54913303.jpg",
+    link: "cotrang/trang-thuong-huyen-doi-mot-co-nhan.html",
+    type: "cotrang",
+    desc: `Khi gả cho vị phu quân vừa yếu đuối lại xinh đẹp của ta, chàng là đại phu trẻ tuổi nhất trấn Thanh Thủy, còn ta lại là một sát thủ ẩn danh. 
+
+Sau ngày bái đường, hai ta sống chung hòa thuận, tương kính như tân. Ban đầu, ta chỉ muốn tìm một tấm chồng để làm lá chắn vui đùa với đời, nhưng trải qua tháng ngày bình lặng, lòng ta lại lỡ trao trọn cho chàng.
+
+Để hoàn toàn thoát khỏi môn phái, ta buộc phải gánh vác một nhiệm vụ cuối cùng: ám sát đương kim Hoàng thượng. 
+
+Sau khi hành sự thất bại, ta rơi vào vòng vây nghẹt thở của Hắc Giáp Vệ ngay tại cổng hoàng cung. Lẫn trong đám người đó, ta bàng hoàng thấy cả phu quân của mình người vốn dĩ trói gà không chặt, chẳng thể tự lo liệu cho bản thân.
+
+Chàng lạnh nhung nhìn ta, cất lời: "Ám sát Thiên tử, tội phải tru di cửu tộc."
+
+Trong lúc độc phát tràn qua phủ tạng, thân tàn lực kiệt sắp rời cõi đời, ta lại nghe tiếng chàng khấn nguyện cùng bậc đế vương: "Thần là người thân duy nhất của nàng. Nếu phải tru di, xin hãy tru di cả thần."
+
+Ta tức đến mức thổ huyết ra ngực áo, uất nghẹn mắng: "Sao không nói sớm chứ?"
+`
+  },{
+    id: 819,
+    title: "Hợp Đồng Hết Hạn Tình Yêu Bắt Đầu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1da79a9ffec774a148aa26c1d16f1d2.jpg",
+    link: "ngontinh/hop-dong-het-han-tinh-yeu-bat-dau.html",
+    type: "ngontinh",
+    desc: `Tôi đã trải qua chín lần ly hôn, và lạ kỳ thay, lần nào cũng nhờ cùng một vị luật sư đứng ra soạn thảo thỏa thuận.
+
+Đến khi tôi bước vào văn phòng lần thứ mười, anh ta chỉ ngước đôi mắt lạnh như băng lên nhìn, buông một câu mỉa mai:
+"Cô bận rộn cả năm trời không nghỉ nhỉ?"
+
+Tôi nhếch môi, mỉm cười đáp trả:
+"Chẳng phải chính anh là người đã chỉ cho tôi con đường kiếm tiền này sao?"
+
+Giang Tư Niên hừ lạnh một tiếng, ném xấp tài liệu thẳng xuống trước mặt tôi:
+"Tôi là người chồng cũ đầu tiên của cô, chứ chẳng phải gã luật sư riêng cho cô sai bảo. Đừng có hễ ly hôn là lại mò đến tìm tôi."
+
+Về sau, khi chín người chồng cũ rủ nhau tìm tới đòi tái hôn, chính anh lại là người đứng ra chặn đứng tất cả.
+
+Anh nghiến chặt răng, siết lấy tay tôi không buông:
+"Đi, ra nước ngoài đăng ký kết hôn ngay. Lần này tuyệt đối không ly dị nữa!"
+
+Tôi thong thả gạt tay anh ra, nhại lại đúng cái giọng điệu xa cách năm xưa của anh:
+"Rất tiếc, anh cũng chỉ là một kẻ thế thân mà thôi."`
+  },{
+    id: 820,
+    title: "Thuê Bạn Trai Giá Rẻ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/725926a496dcbe48500c661071deff0e.jpg",
+    link: "dammy/thue-ban-trai-gia-re.html",
+    type: "dammy",
+    desc: `Tôi là Hứa Thần Tinh, là nam, và xu hướng tính dục của tôi cũng là nam.
+
+Khi mẹ của Lục Quân Triệt chủ động tìm gặp, tôi hoàn toàn bàng hoàng. 
+
+Bà đặt thẳng một tờ chi phiếu xuống bàn với thái độ vô cùng ngạo mạn, bảo tôi cứ tự do điền số tiền mình muốn. 
+
+Đó là lần đầu tiên trong đời tôi được tận mắt thấy hình dáng một tờ chi phiếu thực sự cũng coi như nhờ có Lục Quân Triệt mà tôi được mở mang tầm mắt.
+`
+  },{
+    id: 821,
+    title: "Người Xưa Như Mộng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/40d01f5228869b536a93d39d0533965c.jpg",
+    link: "cotrang/nguoi-xua-nhu-mong.html",
+    type: "cotrang",
+    desc: `Khi Hoàng đế làm lễ đại hôn cùng vị bạch nguyệt quang trong lòng hắn, ta lại một mình lặng lẽ trút hơi thở cuối cùng nơi lãnh cung u tịnh.
+
+Chốn hoàng cung ai nấy đều ngỡ ta đã tạ thế vì chẳng còn cảm nhận được nhịp thở. Nhưng sự thực là ta đâu có qua đời. Ta vốn sở hữu "bế khí"  một môn tuyệt kỹ giúp thu giấu hơi thở, giả làm cái xác không hồn.
+
+Hoàng đế quỳ bên nấm mộ ta, đau đớn xót xa đến mức rơi lệ thảm thương. Cùng lúc ấy, ta đã dong buồm bôn tẩu tới vùng biên cương xa xôi, thong thả ngồi trong tửu quán nhắm rượu ngon, tiện tay trêu đùa một tiểu lang quân Tây Vực vóc dáng vạm vỡ.
+
+Những ngày tháng tự do tự tại ấy tưởng chừng sẽ kéo dài mãi mãi, cho đến khi một trận địa chấn làm sụp đổ hoàng lăng. Hoàng đế bàng hoàng phát hiện ra trong chiếc quan tài sơn son thiếp vàng kia chẳng hề có thi thể của ta, mà chỉ toàn là khoai tây mục nát.
+
+Này hôm ấy, Thiên tử chấn động phẫn nộ, hạ lệnh cho dù có phải đào sâu ba thước đất cũng quyết truy tìm bằng được tung tích của ta.
+`
+  },{
+    id: 822,
+    title: "Cắn Chặt Không Buông",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6b4088a4e6750a4bd5af9d72e32ebb51.jpg",
+    link: "ngontinh/can-chat-khong-buong.html",
+    type: "ngontinh",
+    desc: `Vì mười nghìn nhân dân tệ, tôi đã gật đầu làm tình nguyện viên cho dự án nghiên cứu của anh trai.
+
+Sau khi uống lọ thuốc thử nghiệm, cơ thể tôi bắt đầu xuất hiện những đặc điểm kỳ lạ của động vật.
+
+Khi tôi đang thích thú nghịch ngợm đôi tai mèo vừa mọc trên đầu, một chiếc đuôi xám xù to bản bất ngờ quấn chặt lấy eo tôi.
+
+Người đứng phía sau lóe lên ánh mắt màu xanh lục thẫm, khẽ nhếch môi cười đầy ẩn ý: "Bắt được em rồi, cô gái nhỏ của ta."
+`
+  },{
+    id: 823,
+    title: "Bảy Ngày Nói Lời Tạm Biệt",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c836502fdc902c21ece307d0a910074c.jpg",
+    link: "dammy/bay-ngay-noi-loi-tam-biet.html",
+    type: "dammy",
+    desc: `Tôi đã qua đời, vì vậy mong em hãy quên tôi đi.
+
+Tôi giữ riêng cho mình một người thương, chẳng muốn ai hay biết. Tôi mong em có thể quên tôi, bởi lẽ tôi đã không còn trên thế gian này nữa.
+`
+  },{
+    id: 824,
+    title: "Xuyên Sách Làm Vương Phi Bất Hảo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e40e3a11ca37d62dbbcee5f60c4b9de4.jpg",
+    link: "cotrang/xuyen-sach-lam-vuong-phi-bat-hao.html",
+    type: "cotrang",
+    desc: `Nói thật là tôi bị mắc kẹt hoàn toàn trong cuốn tiểu thuyết này rồi. Đã vậy lại còn phải sắm vai, hành sự theo đúng những chỉ thị oái oăm nữa chứ.
+
+Ngay lúc này đây, tôi đang khoác lên mình bộ hỷ phục đỏ rực, ngồi chễm chệ trên giường cưới.
+
+Người đàn ông đối diện lộ rõ vẻ thiếu kiên nhẫn, gằn giọng: "Nàng không từ thủ đoạn để gả cho ta, giờ thì vừa lòng rồi chứ?"
+
+Đúng lúc ấy, bên tai tôi đột nhiên vang lên giọng nói của một gã đàn ông: "Cô phải dùng giọng điệu ai oán mà đáp lại: 'Vương gia, thiếp có một bí mật'."
+
+Tôi run rẩy lặp lại đúng từng chữ: "Vương gia, thiếp có một bí mật."
+
+Tên kia lại tiếp tục xui dại: "Sau đó xé toạc vạt áo, ngửa mặt lên trời cười lớn rồi hô: 'Không ngờ chứ gì, lão tử là nam nhân!'"
+
+Hả?!
+
+Cái gã này bị điên rồi sao?!`
   },
 
 

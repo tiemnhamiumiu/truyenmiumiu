@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảy Ngày Nói Lời Tạm Biệt</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://truyenxoithitmiumiu.nekoweb.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Bảy Ngày Nói Lời Tạm Biệt
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_dammy/bay-ngay-noi-loi-tam-biet.wav" data-marker="660" data-marker-label="11:00">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Bảy Ngày Nói Lời Tạm Biệt</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">11:00</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">11:00</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+
+<div id="story">Tôi đã qua đời, vì vậy mong em hãy quên tôi đi.
+
+Tôi giữ riêng cho mình một người thương, chẳng muốn ai hay biết. Tôi mong em có thể quên tôi, bởi lẽ tôi đã không còn trên thế gian này nữa.
+
+-----
+
+Tôi giấu kín một mảnh tình riêng, mong em hãy quên tôi đi, bởi vì tôi đã rời xa cõi đời này rồi.
+
+Hôm nay là ngày thứ bảy kể từ khi tôi mất. Tôi được trở về dương gian vì Diêm Vương nể tích thiện tích đức khi còn sống của tôi, cho phép tôi lưu lại chốn này trọn vẹn bảy ngày.
+
+Quỷ Sai đưa tôi về tới nơi, dặn dò một câu rồi lập tức biến mất: “Đúng bảy ngày sau, ta sẽ đến đón cậu.”
+
+Tôi đứng yên trước cửa nhà. Trên bức tường kế bên dán chằng chịt những tờ quảng cáo vặt. Khung cảnh quen thuộc ấy bỗng nhiên làm lòng tôi dấy lên một cảm giác căng thẳng, hoảng hốt đến lạ kỳ.
+
+Tôi đã trút hơi thở cuối cùng, nhưng người tôi yêu vẫn đang sống.
+
+Tôi hoàn toàn không hay biết những ngày qua em sống ra sao. Người từng bên tôi mỗi ngày, nay đã âm dương cách biệt.
+
+Em có sống tốt không?
+
+Chỉ cần bước qua cánh cửa này, tôi sẽ có được câu trả lời. Thế nhưng tôi lại đột ngột dâng lên niềm sợ hãi.
+
+Nếu câu trả lời ấy chẳng mấy tốt đẹp, tôi có thể làm được gì cơ chứ?
+
+Tôi chẳng thể làm gì cả.
+
+Rốt cuộc, tôi vẫn xuyên qua cánh cửa ấy. Trạng thái hồn ma giúp tôi vượt qua mọi chướng ngại vật. Nghe thấy một tiếng vật thể nặng rơi xuống vang lên trong phòng ngủ, hòa lẫn với âm thanh đồ đạc văng tung tóe trên sàn, tôi vội vã bước vào và nhìn thấy người mà tôi thương nhớ khôn nguôi.
+
+Trong phòng tối ôm, không bật đèn.
+
+Em ngồi bệt dưới đất, một tay vịn vào tủ đầu giường. Mấy viên thuốc màu trắng vãi vung quanh chân, bên cạnh là lọ thuốc vẫn đang lăn lốc trên sàn. Tôi đoán vừa rồi em đã ngã xuống, làm rơi cả lọ thuốc đang cầm trên tay.
+
+Em lúc nào cũng vụng về và bất cẩn như thế.
+
+Trước đây mỗi lần uống thuốc, đều là chính tay tôi đút cho em. Có lẽ do tôi nuông chiều quá mức nên em ngày càng không biết tự chăm sóc bản thân.
+
+Chân mày em nhíu chặt, biểu cảm đầy đau đớn. Em ôm lấy dạ dày, khó khăn nhích người mấy lần rồi dựa hẳn lưng vào thành tủ. Bề mặt góc cạnh xù xì đâm vào lưng em, nhưng em có vẻ chẳng còn sức lực để di chuyển nữa.
+
+Là do đau dạ dày sao?
+
+Nhìn em co quắp che dạ dày rồi nôn mửa, tim tôi thắt lại, niềm bất lực tràn ngập tâm trí.
+
+Em chậm rãi ngẩng đầu, nhìn thẳng về phía trước, hướng ánh mắt về phía cửa phòng. Em nở một nụ cười yếu ớt, vẻ đau đớn trên mặt biến mất, thay vào đó là sự giải thoát và nhẹ nhõm.
+
+Xem ra dạ dày không còn đau nhiều nữa, tôi mới khẽ trút được gánh nặng trong lòng.
+
+Vì tôi đang đứng ngay cửa, nên tôi có cảm giác dường như em đang nhìn tôi, mỉm cười với tôi.
+
+Nhưng làm sao có thể như thế được.
+
+Người sống làm sao thấy được linh hồn, trừ khi em đang ở ranh giới giữa sống và chết, hoặc đã từng chạm ngõ hư vô.
+
+Thực ra, một linh hồn mang theo công đức như tôi hoàn toàn có thể hiện hữu. Tôi có thể chạm vào những vật dụng ở dương gian, có thể xuất hiện trước mặt em, cất tiếng cho em nghe, thậm chí ôm em vào lòng. Nhưng điều đó thì có ý nghĩa gì cơ chứ? Bảy ngày sau, tôi vẫn sẽ tan biến. Tôi không muốn bắt em phải chịu đựng nỗi đau mất mát thêm một lần nào nữa.
+
+“Anh về rồi đây.”
+
+Lần này, tôi chẳng thể nhận lại lời đáp dịu dàng, bình thản từ em như ngày trước.
+
+“Nhưng anh chỉ có thể ở lại đây bảy ngày thôi. Hết bảy ngày, anh phải về âm phủ để đi đầu thai. Ông Diêm Vương bảo lúc sống anh hay làm việc thiện nên tích được nhiều công đức, kiếp sau sẽ được sinh vào gia đình tốt, sống lâu trăm tuổi, cả đời phú quý. Vậy nên em đừng lo lắng cho anh nhé.”
+
+Tôi cứ lẩm bẩm một mình như thế. Đã lâu lắm rồi tôi mới lại được trò chuyện cùng em. Dù chỉ là lời tự thầm thì, dù em chẳng thể nghe thấy, tôi vẫn muốn nói thật nhiều.
+
+“Em phải biết tự chăm sóc bản thân. Không có anh ở bên, chẳng ai dọn dẹp phòng ốc, giặt quần áo hay nấu cơm cho em nữa đâu, em phải tự mình làm lấy thôi...”
+
+“... Anh thật lòng muốn chăm sóc em suốt cả cuộc đời này, anh thật sự không yên tâm về em chút nào.”
+
+Chính vào khoảnh khắc này, tôi mới thấm khía ý nghĩa thực sự của sự chia ly vĩnh viễn. Ngày trút hơi thở cuối cùng, tôi đến âm phủ mà không có quá nhiều cảm xúc. Cơn đau thoáng qua lúc ấy chẳng đủ để tôi nhận ra chết là gì, và suốt bảy ngày ở dưới đó, tôi chỉ sống trong nỗi nhớ nhung mơ hồ.
+
+Cho đến tận giây phút này, tôi mới bừng tỉnh nhận ra cái chết rốt cuộc là thế nào.
+
+Từ đây về sau, tôi đã hoàn toàn tan biến khỏi thế giới của người nam nhân này.
+
+Rõ ràng chúng tôi từng hứa hẹn sẽ bên nhau đến đầu bạc răng long, rõ ràng chẳng một ai phản bội tình cảm này.
+
+Tôi muốn khóc, nhưng linh hồn thì làm sao có lệ. Không có thân xác, không có phản ứng sinh lý, vậy mà cổ họng tôi vẫn nhói đau như thể có ngàn vạn lưỡi dao sắc bén cứa qua.
+
+Ánh mắt em bỗng lóe lên một tia sáng, tựa như sự bừng tỉnh sau cơn mê muội, nỗi mơ hồ dần tan đi.
+
+Giống như một người vừa tỉnh cơn say.
+
+Em nhặt lấy lọ thuốc dưới sàn rồi lao vội ra ngoài. Dáng đi chao đảo, nghiêng ngả như sắp ngã sụp xuống, thân thể va đập vào tường mấy bận. Tôi vô cùng muốn vươn tay ra đỡ lấy em, để em cảm nhận được sự tồn tại của tôi.
+
+Nhưng tôi không thể.
+
+Em vội vã lao đi, thậm chí quên cả đóng cửa. Tôi vội vàng đuổi theo phía sau.
+
+Ra đến mặt đường, em bắt một chiếc xe taxi rồi leo lên. Tôi định leo vào cùng em, nhưng khi linh hồn tôi vừa xuyên qua thân xe, tài xế đã nhấn ga phóng đi theo lời thúc giục của em. Đuôi xe lướt qua hồn thể của tôi, lao đi vun vút.
+
+Tôi dốc sức đuổi theo, nhưng không tài nào bắt kịp.
+
+Tại sao đã biến thành ma rồi mà tôi lại chẳng thể dịch chuyển tức thời? Chạy thì chậm, mà bay cũng chẳng nhanh hơn là bao.
+
+Tôi đúng là một linh hồn vô dụng.
+
+Chẳng còn cách nào khác, tôi đành quay trở về nhà, lặng lẽ ngồi chờ em quay lại.
+
+Một chiếc áo khoác bị vò nát đến mức mất hết phom dáng thu hút sự chú ý của tôi. Đó là chiếc áo tôi vẫn thường hay mặc khi còn sống.
+
+Em nhớ tôi đến nhường này.
+
+Điều đó làm lòng tôi dấy lên một niềm niềm vui nho nhỏ, nhưng rồi ngay sau đó lại xót xa không đành.
+
+Tôi thà rằng em đừng nhớ đến tôi, tốt nhất là hãy quên tôi đi.
+
+Lần này em đi biền biệt suốt hai ngày. Căn nhà trở nên bừa bộn, tôi rất muốn xắn tay dọn dẹp nhưng lại sợ em phát hiện ra điều bất thường nên đành bỏ mặc. Tôi chỉ biết quẩn quanh trong phòng ngủ, ánh mắt không tự chủ được mà cứ hướng về chiếc áo khoác kia.
+
+Chỉ cần nhìn thấy nó, tôi lại hình dung ra cảnh người tôi yêu ôm lấy chiếc áo ấy để chìm vào giấc ngủ suốt hai đêm qua.
+
+Lọ thuốc hôm nọ bị em mang đi, chỉ còn lại cái nắp nằm trơ trọi trên sàn. Tôi nhớ trong nhà làm gì có thuốc dạ dày nào đựng trong lọ, toàn bộ đều là dạng hộp bấm, lọ thuốc đó chắc hẳn là em mới mua.
+
+Thế nhưng khi tôi mở tủ thuốc gia đình ra, những hộp thuốc dạ dày tôi mua trước đây vẫn còn nguyên vẹn.
+
+Nghi vấn này khiến tôi không khỏi suy nghĩ nhiều. Hôm đó tâm trí tôi đều dồn hết vào em, chẳng để ý đến xung quanh, ánh mắt chỉ lướt qua lọ thuốc đúng một giây. Lúc ấy tôi chỉ kịp nhìn thấy một vài chữ, không rõ tên đầy đủ. Lọ thuốc đó rốt cuộc có phải là thuốc dạ dày hay không...
+
+Nhìn lại những chi tiết xâu chuỗi lại thành một sợi dây vô hình trong đầu, phác họa ra hình ảnh lọ thuốc chưa rõ tên hôm ấy, một khả năng tồi tệ chợt lóe lên trong tâm trí tôi.
+
+Không đâu, nhất định là không phải vậy, tôi tự trấn an bản thân.
+
+Em không phải là người tiêu cực hay chán đời.
+
+Lần đầu tiên chúng tôi gặp nhau là trên một con đường rợp bóng cây xanh kéo dài thăm thẳm. Hôm ấy trời trút mưa ngâu, em tay cầm chiếc ô giấy dầu, mái tóc dài được búi gọn gàng bằng một chiếc trâm gỗ, trên người mặc bộ trang phục cổ phong màu trắng thêu hoa văn chìm sắc bạc.
+
+Chỉ một ánh nhìn lướt qua ấy, hình bóng em đã khắc sâu vào tâm trí tôi.
+
+Sau này khi đã thân thiết hơn, em mới kể lại rằng ngày hôm đó em vừa hoàn thành một buổi biểu diễn nên mới mặc bộ đồ ấy. Còn chiếc ô giấy dầu thực chất chỉ là đạo cụ biểu diễn, em tiện tay lấy làm ô che mưa, lúc đó em còn cằn nhằn chiếc ô lợp không đều nên bị dột nước.
+
+Học viện Kỹ thuật và Học viện Nghệ thuật của Đại học A nằm ở hai khu riêng biệt, giữa hai bên có một khoảng sân rất rộng, con đường rợp bóng cây kia chính là ranh giới nối liền. Còn tôi khi ấy là sinh viên của Học viện Kỹ thuật.
+
+Lúc đó tôi chẳng biết tên em, càng không hay em học bên Nghệ thuật. Để có cơ hội gặp lại em, ngày nào tôi cũng đánh liều đi qua con đường ấy vào đúng khung giờ đó.
+
+Thật may mắn, mỗi lần tôi thử vận may thì đều có thể bắt gặp bóng dáng em. 783 lần lướt qua nhau chính là khởi đầu cho tình yêu của chúng tôi. Tôi là một kẻ vụng về, trước khi gặp em chưa từng biết yêu là gì, chẳng rõ phải theo đuổi người mình thích ra sao, thậm chí còn không biết cách làm thế nào để chủ động bắt chuyện. Đám bạn cùng phòng đã bày cho tôi đủ mọi chiêu trò, nhưng cứ hễ giáp mặt em là tim tôi lại đập liên hồi, chữ nghĩa trong đầu rơi rãi sạch sẽ.
+
+Thế là mọi chuyện cứ kéo dài mãi cho đến tận cận ngày tốt nghiệp.
+
+Vào lần thứ 783 bước qua nhau, tôi đã vô tình đụng phải em. Tôi hoàn toàn không cố ý, bởi những lần trước tôi đều giữ khoảng cách vừa đủ để lướt qua, nhưng lần ấy chẳng hiểu sao vai hai người lại va vào nhau.
+
+Tập sách trên tay em rơi xuống đất, kéo theo một tấm thẻ màu hồng kẹp bên trong văng ra ngoài.
+
+Tôi vừa luống cuống xin lỗi vừa cúi xuống nhặt sách và tấm thẻ lên giúp em. Trong khoảnh khắc ấy, tôi vô tình nhìn thấy những dòng chữ viết trên tấm thẻ:
+
+"Một bông hồng đã nở rộ trên mảnh đất cằn cỗi hoang vu trong lòng tôi.
+
+Nó ngát hương ở đây, lặng lẽ chờ đợi một người đến thưởng thức."
+
+Tôi ngẩng mặt lên, vừa vặn chạm phải ánh mắt của em.
+
+Em nhìn tôi và khẽ nói: “Mong anh hãy nhận lấy.”
+
+“Hả?” Tôi ngơ ngác ngay tại chỗ.
+
+“Là thư tình đấy.”
+
+Thế là chúng tôi bên nhau, giấu giếm tất cả mọi người. Đám bạn cùng phòng cứ tưởng cái tên ngốc nghếch như tôi cuối cùng cũng gõ cửa được trái tim cô gái mình thương. Nhưng chỉ có tôi mới hiểu rõ, em không phải là con gái, em là một chàng trai.
+
+Sau khi tốt nghiệp và đi làm, chúng tôi dọn về sống chung một nhà. Trong mắt người ngoài, em là người bạn ở ghép cùng tôi. Chỉ có hai chúng tôi mới biết, mỗi đêm bước vào phòng ngủ, chúng tôi ôm chồm lấy nhau, trao nhau những cử chỉ thân mật và cháy bùng cảm xúc.
+
+Rời đi suốt hai ngày, cuối cùng em cũng trở về nhà, gương mặt trông có phần nhợt nhạt.
+
+Vừa về đến nơi, việc đầu tiên em làm là đi nấu cháo, việc thứ hai là bắt tay vào dọn dẹp nhà cửa. Trước đây em chưa từng làm những việc này, mọi thứ đều do một tay tôi lo liệu. “Cậu công tử nhỏ” này chưa từng động tay vào việc nhà, nên khi thấy em loay hoay vụng về, tôi đứng bên cạnh mà lòng sốt sột. Tôi không kềm được mà cất tiếng nhắc nhở: “Áo sơ mi không được gập lại đâu, em phải treo lên, nếu không lúc mặc vào sẽ nhăn nheo hết đấy. Quần đùi và quần dài phải phân loại ra mà cất chứ...”
+
+Nhưng em chẳng thể nghe thấy, cứ thế tiện đâu quăng đó. Tôi nhìn mà phát điên, chỉ muốn tự tay nhảy vào làm giùm em cho xong.
+
+Em đã thay đổi rồi, trở nên chăm chỉ hơn hẳn. Tôi từng nghĩ sau khi tôi đi, em sẽ chỉ biết sống qua ngày bằng đồ ăn giao tận nơi, nhưng không phải vậy. Em bắt đầu học cách tự bật bếp xào nấu, dù dáng vẻ một tay lướt công thức trên điện thoại, một tay cầm đảo chảo của em khiến tôi vừa buồn cười vừa xót xa.
+
+Em bắt đầu tự giặt quần áo, mặc dù ngay lần đầu tiên đã lỡ tay làm giặt chung khiến chiếc áo sơ mi trắng bị dính lem màu xanh.
+
+Em dọn dẹp sạch sẽ mọi kỷ vật rồi đem cất hết xuống kho hầm. Buổi tối em không còn ôm chiếc áo khoác của tôi để ngủ nữa. Chiếc kệ trên tường giờ đây trống trắc, chẳng còn đặt bức ảnh nào của tôi.
+
+Em đột nhiên nảy sinh sở thích xem những bộ phim tình cảm đẫm nước mắt. Tôi đứng ngay bên cạnh, đã bao lần muốn vươn tay ra lau đi những giọt lệ trên mi em.
+
+Em dán những mảnh giấy ghi chú lên các ngăn kéo để tự nhắc nhở bản thân món đồ nào để ở đâu, cần tìm thì lục ở chỗ nào. Quần áo trong tủ được chia ngăn rõ ràng, đồ ăn trong tủ lạnh cũng được ghi chú tỉ mỉ hạn sử dụng.
+
+Tôi nhớ ngày trước, chỉ cần không tìm thấy đồ đạc hay có chuyện gì xảy ra, em lại gọi tôi í ới:
+
+“Chu Sinh, cái kéo để đâu rồi?”
+
+“Chu Sinh, hộp sữa chua trong tủ lạnh này còn uống được không?”
+
+“Chu Sinh, bộ màu vẽ của em đâu mất rồi?”
+
+“Chu Sinh, chiếc áo len màu xanh nhạt của em đâu rồi nhỉ?”
+
+“Chu...” Trong một khoảnh khắc, tôi nghe thấy em thốt ra một từ. Theo phản xạ tự nhiên, tôi tưởng em đang gọi tên mình nên vội vàng cất tiếng đáp lời: “Anh Chu của em ở đây này.”
+
+Lời tôi vừa dứt, lại nghe thấy em tự nói tiếp câu thoại của mình: “Cháo chắc cũng sắp chín rồi nhỉ.”
+
+Em cúi đầu bước nhanh vào bếp.
+
+Khoảnh khắc đó, tôi chỉ muốn òa khóc. Sự bốc đồng này khiến cổ họng tôi nghẹn đắng. Không thể rơi lệ, chỉ có những tiếng nghẹn ngào chẳng thể kìm nén.
+
+Em đã bắt đầu quen với cuộc sống không có tôi, điều đó tốt biết bao.
+<div id="facebook-point"></div>
+Nhưng sao lòng tôi vẫn muốn khóc đến thế này.
+
+Tôi đã chiều chuộng em thành một người chẳng biết động tay động chân vào việc gì, chăm sóc em suốt mười một năm trời, vậy mà chỉ mới qua vài ngày ngắn ngủi, em đã không còn cần đến tôi nữa.
+
+*****
+
+Suốt cả buổi chiều hôm đó, tôi cứ đứng nhìn em bằng ánh mắt u oán, chẳng khác nào một kẻ bị bỏ rơi. Tôi biết mình đang vô lý, rõ ràng chính tôi là người mong em có thể thích nghi với cuộc sống thiếu vắng tôi, mong em hãy quên tôi đi. Nhưng đến khi em thực sự làm được điều đó, lòng tôi lại nhói đau khôn tả.
+
+Em ngồi trên ghế sofa, tay cầm điều khiển bấm chuyển hết kênh này sang kênh khác. Tôi đứng ngay bên cạnh, ánh mắt đăm đắm nhìn em.
+
+Bỗng nhiên, có tiếng người gọi tên tôi vang lên. Tôi giật mình quay đầu nhìn về phía màn hình tivi, nơi đang phát bản tin thời sự địa phương.
+
+“... Vào sáng ngày 21 tháng 5, do một tài xế họ Vương điều khiển phương tiện trong tình trạng say rượu đã gây ra một vụ tai nạn giao thông nghiêm trọng trên tuyến đường Hòa Bình, khiến một người tử vong, một người bị thương nặng và ba người bị thương nhẹ... Vào thời điểm đó, anh Chu Sinh có mặt tại hiện trường đã dũng cảm lao ra, dùng chính thân mình để che chắn cho đứa trẻ... Anh Chu Sinh đã không may qua đời, hưởng thọ 33 tuổi...”
+
+Thật may mắn vì bé gái đó vẫn bình an vô sự, nếu không thì cái chết của tôi thật vô ích.
+
+Thì ra em đang mở lại bản tin của mấy ngày trước để xem.
+
+Tôi nghe thấy em khẽ thốt lên: “Anh ấy là một anh hùng.”
+
+Mọi cảm giác tủi thân trong tôi lập tức tan biến sạch sẽ, chẳng còn một chút hối hận nào.
+
+Đêm đến.
+
+Tôi ngồi cùng em ở góc tường dưới sân chung cư. Em lặng lẽ ngắm nhìn dòng người qua lại, còn tôi ngồi xổm ngay trước mặt em, dán mắt nhìn em không chớp.
+
+Nhìn em lúc này, tôi lại thấy em giống như một ông lão, tay cầm chiếc quạt nan khẽ phẩy, trên người mặc chiếc áo ba lỗ màu trắng cùng chiếc quần đùi rộng thùng hình. Thế nhưng gương mặt điển xù ấy lại biến tạo hình ông lão thành vẻ lãng tử, tự do tự tại.
+
+Chẳng hiểu vì sao em lại đột nhiên hứng thú với trò giải trí chán ngắt này, có những hôm em có thể ngồi lì ở đây suốt mấy tiếng đồng hồ.
+
+Tôi nhớ dạo bố tôi mới qua đời, tôi cũng rất thích ngồi ở nơi này. Mẹ mất từ khi tôi còn rất nhỏ, tôi và bố nương tựa vào nhau mà sống. Khi ông đột ngột ra đi, ngồi nhìn dòng người qua lại, tôi lại nhớ đến em, nhớ những lời em từng nói, những việc em đã làm cho tôi, từng chuyện từng chuyện một hiện lên rõ mùng mịt trước mắt.
+
+Ngày ấy, người nam nhân cô đơn ngồi ở đây đã luôn bên cạnh vỗ về tôi. Em dùng hơi ấm từ lòng bàn tay để truyền cho tôi niềm tin rằng, tôi không hề đơn độc trên đời này.
+
+Còn bây giờ, em ngồi ở nơi đây, liệu có phải là đang nhớ về tôi?
+
+Ánh mắt em khẽ lướt qua, rồi cất tiếng: “Mẹ, sao mẹ lại sang đây thế này?”
+
+Tôi quay đầu lại thì thấy một người phụ nữ tay xách tay mang đủ loại túi lớn túi nhỏ đang tiến về phía này. Bà đã có tuổi nhưng vẫn giữ được nét đài các, tri thức, ngay cả những nếp nhăn trên gương mặt cũng hiện lên vẻ dịu dàng.
+
+Em giống mẹ vô cùng.
+
+“Mẹ mang ít đồ sang cho con.” Mẹ vợ cất giọng nhẹ nhàng.
+
+“Nhiều thế này mà mẹ bảo ít sao.” Em đỡ lấy những túi đồ trên tay bà, “Sau này mẹ muốn mang đồ sang thì cứ bảo con một tiếng, con qua đón mẹ.”
+
+“Được rồi.” Mẹ vợ mỉm cười đáp, “Trì Nhai nhà chúng ta biết quan tâm người khác rồi đấy.”
+
+Tên đầy đủ của em là Thẩm Trì Nhai.
+
+Khi về đến nhà, mẹ vợ có chút ngạc nhiên. Có lẽ bà bất ngờ vì không thấy phòng ốc chất đống hộp thức ăn nhanh hay quần áo vứt lung tung như trước. Bà cẩn thận xếp từng món đồ mình mang sang vào tủ lạnh, không quên dặn dò Thẩm Trì Nhai món nào cần ăn sớm, món nào có thể để được lâu hơn.
+
+Thẩm Trì Nhai lấy giấy ghi chú ra, tỉ mỉ ghi lại lời mẹ dặn rồi dán lên cửa tủ.
+
+Ánh mắt mẹ vợ nhìn em đã thay đổi. Bà nhìn Thẩm Trì Nhai, dường như không thể kìm nén được cảm xúc thêm nữa, bước đến ôm chồm lấy em, nước mắt lăn dài trên má: “Mẹ biết hết rồi.”
+
+Câu nói ấy làm tôi sững sờ tại chỗ, em cũng lặng người đi.
+
+Mối quan hệ của chúng tôi chưa từng được công khai, càng chưa từng thưa chuyện với phụ huynh hai bên. Bố mẹ em đều là giảng viên đại học, sống trong một gia đình rất truyền thống. Việc con trai mình là người đồng tính là điều mà hầu hết phụ huynh khó lòng chấp nhận, vì thế chúng tôi luôn giữ kín bí mật này.
+
+Thì ra họ đã nhận ra mọi chuyện từ lâu rồi.
+
+“Trì Nhai, con phải hứa với mẹ, tuyệt đối không được làm chuyện gì dại dột đấy nhé. Mẹ chỉ có duy nhất một người con trai là con thôi.” Mẹ vừa ôm em vừa nghẹn ngào khóc lớn.
+
+“Mẹ, mẹ yên tâm đi, con sẽ không làm vậy đâu.” Em cất lời an ủi, “Con đã lớn thế này rồi, đâu còn là trẻ con nữa mà làm trò sống dở chết dở. Con sẽ sống thật tốt. Bây giờ con cũng ít khi nghĩ đến anh ấy rồi, biết đâu chỉ vài ngày nữa thôi, con sẽ quên sạch mọi chuyện.”
+
+Quên đi được thì tốt quá, tôi thầm nghĩ trong lòng.
+
+...
+
+Thời hạn bảy ngày đã cận kề. Em không còn nhắc đến tên tôi thêm một lần nào nữa, cái tên Chu Sinh dường như đã hoàn toàn tan biến khỏi cuộc đời em.
+
+Em đã quen với nhịp sống thiếu vắng bóng hình tôi, có lẽ em đã thực sự quên tôi rồi.
+
+Không có tôi bên cạnh, em vẫn sẽ sống tốt.
+
+Không có tôi, em cũng chẳng còn vương vấn nhớ thương.
+
+Như vậy là tốt nhất rồi.
+
+Ngoài ban công, chậu hoa đinh hương tôi trồng cho em đã bắt đầu tỏa hương khoe sắc. Cơn gió thoảng qua mang theo mùi hương dịu nhẹ lan tỏa khắp không gian. Em búi gọn mái tóc dài, nằm thư giãn trên chiếc ghế mây màu trắng đặt ngoài ban công, trên tay cầm một tập thơ.
+
+Tôi luôn mê đắm dáng vẻ này của em, không chỉ một hay hai lần.
+
+Em mang một vẻ đẹp cổ điển đầy cuốn hút. Lần đầu gặp gỡ trên con đường rợp bóng cây dưới cơn mưa ngâu hôm ấy, tôi đã bất giác liên tưởng đến bài thơ “Ngõ Mưa”, em giống hệt như một quý ngài đinh hương mang nét ưu sầu.
+
+Em chợt ngẩng đầu, ánh mắt hướng thẳng về phía tôi:
+
+“Tôi phải dùng điều gì mới có thể giữ anh lại đây?”
+
+Tôi giật mình lùi lại.
+
+“Tôi trao anh những con đường thưa thớt bóng người, những hoàng hôn tuyệt vọng, và cả ánh trăng vắt ngang nơi hoang vu.”
+
+Tôi liếc nhìn tập thơ trên tay em, thì ra em đang ngâm thơ.
+
+“Tôi trao anh nỗi sầu muộn của một kẻ đã đắm mình nhìn ngắm ánh trăng cô đơn suốt bao năm tháng...”
+
+Giọng em vang lên vô cùng êm dịu, chứa đựng nỗi nghẹn ngào khó kìm nén. Bờ mi em ửng đỏ, trong đôi mắt trong veo ấy đọng lại những giọt lệ chực trào.
+
+Tôi hơi khó hiểu, bài thơ này lại có thể làm em cảm động đến mức ấy sao?
+
+“... Tôi trao anh sự trung thành của một kẻ chưa từng mang trong mình bất kỳ tín ngưỡng nào... Tôi trao anh ký ức về đóa hồng vàng đã từng nở rộ vào một buổi chạng vạng của nhiều năm về trước, rất lâu trước khi anh cất tiếng khóc chào đời...”
+
+Tôi là dân học kỹ thuật, hiểu biết về thơ văn chỉ dừng lại ở mức học thuộc lòng. Tôi chẳng thể cảm nhận hết ý nghĩa sâu xa của những câu từ ấy, chỉ thấy đó là một bài thơ tình dùng để giữ chân ai đó. Khi còn sống, tôi chưa từng nghe em nói những lời ngọt ngào như thế, thậm chí một câu “em thích anh” hay “em yêu anh” em cũng chưa bao giờ cất lời.
+
+Tôi quay người nhìn chậu hoa đinh hương phía sau, tức giận dùng tay quạt quạt mấy cái vào không trung. Đọc thơ tình cho hoa thì có tác dụng gì cơ chứ, sao không đọc cho người thật nghe đây này. Lúc tôi còn sống bằng xương bằng thịt đứng ngay trước mặt, em lại chẳng bao giờ chịu đọc cho tôi nghe.
+
+Chợt một tiếng cười khẽ vang lên. Tôi quay đầu lại thì thấy em vẫn ngồi yên lặng, trên mặt không hề có biểu cảm gì, chắc là tôi đã nghe nhầm.
+
+Tôi trút giận lên mấy cành hoa lá. Dù sao em cũng từng viết thư tình cho tôi, còn cái xô gỗ như tôi lại chưa từng nói với em một lời yêu thương nào tử tế.
+
+Tôi không phải là một người lãng mạn, càng không biết cách tạo ra sự lãng mạn. Với tôi, tình yêu chính là ngay từ lần đầu gặp gỡ đã muốn cùng em đi hết chặng đường còn lại của cuộc đời. Vì vậy, tôi muốn dùng trọn vẹn phần đời còn lại để ở bên em, để chứng minh cho em thấy tôi yêu em nhiều đến nhường nào.
+
+Chỉ tiếc là số mệnh quá ngắn ngủi. Dù tôi đã dành cả phần đời còn lại để yêu em, nhưng khoảng thời gian ít ỏi ấy vẫn chẳng đủ để tôi giãi bày hết tình cảm sâu nặng trong lòng.
+
+Em gấp quyển sách lại, đặt nó lên kệ rồi bước vào phòng khách, tiếp tục mở những bộ phim tình cảm đẫm nước mắt lên xem.
+
+Rối em lại khóc.
+
+Những bộ phim ấy thực sự dễ làm người ta rơi lệ đến thế sao? Tại sao tôi lại chẳng cảm thấy gì cả?
+
+Em co rúc trên chiếc ghế sofa, đôi chân dài co lại, quấn chặt chiếc chăn lông nhỏ, sụt sùi khóc nấc lên. Em vốn là người rất ít khi rơi lệ, ngoại trừ những lúc chúng tôi ân ái trên giường, tôi chưa từng thấy em khóc bao giờ. Nhìn em rơi nước mắt, lòng tôi cũng nặng trĩu.
+
+Đêm hôm đó, em xem phim đến tận khuya rồi thiếp đi ngay trên ghế sofa. Chỉ khi em đã chìm vào giấc ngủ, tôi mới dám tiến lại gần chạm vào em. Bàn tay lạnh ngắt không chút nhiệt độ lướt qua những giọt nước mắt còn đọng trên má em. Trong giấc mơ, em lại khóc, tôi vội ôm lấy em, nhẹ nhàng vỗ về lưng em để an ủi.
+
+Khi em đã ngủ yên giấc, tôi lại chẳng đành lòng buông tay.
+
+Tôi muốn lưu lại một chút kỷ niệm, ít nhất là để nói cho em biết tôi yêu em đến nhường nào. Tôi ngắt lấy một cành hoa đinh hương, đo theo kích thước ngón tay đeo nhẫn của em rồi tỉ mỉ quấn thành một chiếc nhẫn nhỏ.
+
+Vào cái ngày tôi qua đời, tôi đã định đi mua một cặp nhẫn cho hai chúng tôi, nhưng tôi lại gặp tai nạn và ra đi ngay trên đường.
+
+Chẳng thể mua được chiếc nhẫn thật sự, tự tay quấn một chiếc thế này cũng tốt. Tôi còn làm cho em một chiếc thẻ đánh dấu sách, tỉ mỉ viết lên tấm thẻ màu trắng một dòng chữ: "Anh hứa với em, kiếp sau vẫn sẽ yêu em trọn vẹn như kiếp này."
+
+Tôi kẹp chiếc nhẫn cùng tấm thẻ đánh dấu sách vào một cuốn sách em rất ít khi dở ra xem. Có lẽ vào một ngày nào đó của nhiều năm sau này, khi em vô tình mở cuốn sách ra và trông thấy chúng, lúc ấy em sẽ không còn đau buồn nữa, đó chỉ còn là một dòng hồi ức êm đềm cuộn chảy trong tim, nhắc em nhớ rằng đã từng có một người đồng hành cùng em suốt mười một năm thanh xuân. Nếu người đó không may mắn ra đi sớm, họ chắc chắn sẽ cùng em đi đến tận cùng cuộc đời.
+
+Tôi bước xuyên qua cánh cửa nhà, bên ngoài Quỷ Sai đã đứng chờ sẵn.
+
+Đã đến giờ rồi, tôi phải đi thôi.
+
+Người thương của tôi đã không còn trên đời nữa. Vào ngày cuối cùng của tuần đầu tiên sau khi anh ra đi, tôi đã uống một lượng lớn thuốc ngủ. Chỉ khi tự mình trải qua, tôi mới bừng tỉnh nhận ra cách ra đi này lại đớn đau đến nhường nào.
+
+Cảm giác nuốt từng viên thuốc khiến cổ họng tôi đau rát như muốn xé rách, từng viên thuốc như hòa lẫn với vị máu tanh nồng đi xuống dạ dày. Dược tính phát huy tác dụng rất nhanh, khi lọ thuốc trên tay còn chưa uống hết, cảm giác chóng mặt và buồn nôn khủng khiếp đã bủa vằn lấy tôi.
+
+Tôi cắn răng chịu đựng cơn đau đớn tưởng chừng như không thể vượt qua ấy, tiếp tục nuốt thêm mười viên nữa. Nhưng rồi tôi không thể tiếp tục được nữa, thân thể bắt đầu lảo đảo đứng không vững, lọ thuốc trong tay cũng tuột khỏi kẽ tay.
+
+Tôi ngã gục xuống sàn, lọ thuốc rơi vãi làm những viên thuốc màu trắng văng ra tung tóe.
+
+Sự đau đớn hành hạ khiến tôi sống không bằng chết. Tôi cố tìm một tư thế thoải mái hơn để dựa lưng vào thành tủ đầu giường. Góc cạnh xù xì của tủ đâm vào lưng đau nhói, nhưng tôi chẳng còn chút sức lực nào để cử động, chỉ biết nằm đó đếm ngược thời gian.
+
+Trong tầm mắt mờ ảo của tôi bỗng xuất hiện một đôi giày vô cùng quen thuộc. Đó chính là đôi giày tôi đã chọn mua cho anh, và lúc gặp tai nạn ra đi, anh cũng đang mang đôi giày ấy.
+
+Tôi chậm rãi ngẩng đầu lên.
+
+Tôi đã nhìn thấy anh.
+
+Ngay khoảnh khắc ấy, mọi cơn đau đớn dường như đều tan biến sạch sẽ.
+
+Tôi nghe thấy giọng nói ấm áp của anh.
+
+Tôi cứ tưởng anh chỉ là ảo giác do mình tự vẽ ra, nhưng khi nghe những lời anh thầm thì bên tai, tôi mới nhận ra đây hoàn toàn không phải là mộng mị.
+
+Sự tỉnh táo đột ngột dội về, tôi không thể để anh nhìn thấy dáng vẻ tôi đang tự tìm đến cái chết. Tôi vội vàng nhặt lọ thuốc dưới sàn lên, chao đảo lao ra khỏi phòng. Cơ thể dường như không còn tuân theo sự điều khiển của lý trí, hai chân nhũn ra không chút sức lực. Cơn buồn ngủ ập đến cùng sự choáng váng làm tôi chỉ muốn nhắm mắt thiếp đi, dạ dày bỏng rát đau đớn đến mức tôi cảm tưởng như mình sắp trút hơi thở cuối cùng.
+
+Tôi cố ôm lấy chút ý thức tàn gạt cuối cùng để bước lên chiếc xe taxi, ngoái lại nhìn thấy bóng hình anh bị tôi bỏ lại phía sau. Mọi sự gượng ép trong tôi hoàn toàn sụp đổ ngay giây phút ấy, tôi ngã sụp xuống hàng ghế sau, dùng chút hơi tàn cất tiếng: “Đến bệnh viện... làm ơn cứu tôi với... tôi không thể chết lúc này được.”
+
+Tôi phải nằm điều trị trong bệnh viện suốt hai ngày liền. Nhìn gương mặt nhợt nhạt không một cọc máu của mình trong gương, tôi không dám trở về nhà gặp anh, vì sợ anh sẽ nhận ra điều bất thường.
+
+Chờ đến khi sắc mặt trông khá hơn đôi chút, tôi mới lấy hết can đảm quay trở về.
+
+Sau khi về nhà, tôi giả vờ như không nhìn thấy sự tồn tại của anh, lặng lẽ nghe anh cằn nhằn bên tai. Khoảnh khắc ấy, thời gian dường như quay ngược trở lại những ngày anh vẫn còn sống bằng xương bằng thịt bên tôi.
+
+Tôi muốn anh có thể yên lòng ra đi, vì vậy tôi bắt đầu tập cách tự chăm sóc bản thân. Nhưng chính quá trình ấy lại càng làm tôi nhận ra Chu Sinh có vị trí quan trọng đến nhường nào trong cuộc đời mình.
+
+Tôi đã phải nỗ lực biết bao nhiêu mới có thể dần thích nghi với một cuộc sống thiếu vắng bóng hình anh.
+
+Tôi bắt đầu tìm xem những bộ phim tình cảm đẫm nước mắt, không phải vì yêu thích, mà vì tôi cần một lý do chính đáng để thả trôi những giọt lệ của mình.
+
+Tôi bắt đầu thích ra ngồi dưới bóng râm dưới sân chung cư, thẫn thờ ngồi đó suốt nhiều giờ đồng hồ. Bởi vì mỗi lần như thế, anh lại đến ngồi xổm ngay trước mặt tôi, và đó là lúc tôi có thể ngắm nhìn anh một cách danh chính ngôn thuận, chẳng cần phải giấu giếm hay kiêng kề điều gì.
+
+Thỉnh thoảng, tôi lại buột miệng gọi tên anh, nhưng khi vừa thốt ra được một từ, tôi lại vội vàng lấp liếm sang chuyện khác. Cuộc sống của tôi thực sự không thể sống thiếu anh, nhưng tôi tuyệt đối không thể để anh biết điều đó.
+
+Tôi muốn diễn cho anh xem rằng, dù không có anh bên cạnh, tôi vẫn sẽ sống thật tốt, để anh có thể an lòng mà rời đi.
+
+Tác dụng phụ của việc uống một lượng lớn thuốc ngủ khiến tôi phải chịu đựng chứng mất ngủ triệt để mỗi đêm. Vào cái đêm anh chuẩn bị rời đi, tôi cũng đang trằn trọc không sao ngủ được.
+
+Tôi mở mắt, cảm nhận được bàn tay lạnh ngắt không chút hơi ấm của anh đang vỗ về. Tôi chẳng thể nào kìm nén được những giọt nước mắt cứ thế trào ra.
+
+Tôi biết anh đã giấu một món đồ vào cuốn sách mà tôi ít khi dở ra xem nhất. Sau khi anh đi rồi, tôi tìm lại cuốn sách ấy, nhìn thấy dòng chữ ngay ngắn chót vót trên tấm thẻ đánh dấu sách được kẹp bên trong, tôi khẽ mỉm cười.
+
+Tôi đeo chiếc nhẫn do chính tay anh quấn vào ngón tay mình, kích thước vừa vặn đến kỳ lạ.
+
+Có lẽ vào một ngày nào đó trong tương lai, tôi sẽ thực sự quen thuộc với nhịp sống không có anh bên cạnh, nhưng hình bóng anh thì sẽ mãi khắc sâu trong tâm trí tôi.
+
+Tôi sẽ không bao giờ quên anh.
+    
+</div>
+
+</div>
+
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://truyenxoithitmiumiu.nekoweb.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>

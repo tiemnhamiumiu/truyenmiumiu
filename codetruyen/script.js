@@ -1,4 +1,13 @@
 
+if ("scrollRestoration" in history) {
+
+    history.scrollRestoration = "manual";
+
+}
+
+let scrollTrackingReady = true;
+
+
 const FACEBOOK_ADS = {
 
     shopee: {
@@ -451,6 +460,15 @@ function lockStory() {
    MỞ TRUYỆN
 
    KHÔNG ĐỘNG VÀO #lockedContent.
+
+   ĐÃ SỬA LỖI:
+   Trước đây hàm này gọi saveReadingPosition() ngay khi
+   mở khóa, kể cả khi trang vừa tải lại (scrollY = 0),
+   nên vô tình GHI ĐÈ vị trí đọc đã lưu trước đó thành 0,
+   khiến popup "đọc tiếp" không bao giờ hiện ra nữa.
+   Đã bỏ dòng gọi đó — việc lưu vị trí đọc đã được xử lý
+   ở các nơi khác (khi cuộn trang, khi rời tab, khi đóng
+   trang), không cần lưu lại tại thời điểm mở khóa.
 ========================================================= */
 
 function unlockStory() {
@@ -460,8 +478,6 @@ function unlockStory() {
     document.body.classList.remove(
         "facebookStoryLocked"
     );
-
-    saveReadingPosition();
 
     increaseStoryView();
 
@@ -1750,11 +1766,21 @@ function stopActiveTime() {
 
 /* =========================================================
    LƯU VỊ TRÍ ĐỌC
+
+   ĐÃ SỬA LỖI:
+   Thêm kiểm tra scrollTrackingReady để không ghi đè vị trí
+   đã lưu trong lúc đang chờ người dùng trả lời popup
+   "Đọc tiếp?" (xem showResumePopup() bên dưới).
 ========================================================= */
 
 function saveReadingPosition() {
 
     if (!storyUnlocked) {
+        return;
+    }
+
+
+    if (!scrollTrackingReady) {
         return;
     }
 
@@ -1958,6 +1984,22 @@ function restoreAudioPosition() {
 
 /* =========================================================
    POPUP ĐỌC TIẾP
+
+   ĐÃ SỬA LỖI (id/class khớp CSS — giữ như bản gốc):
+   Trước đây JS tạo popup với id "resumeReadingPopup" và các
+   class "resumeReadingBox" / "resumeReadingTitle" / ...
+   nhưng file CSS lại định nghĩa style cho các tên khác hẳn:
+   "#readerResumePopup", ".reader-resume-overlay",
+   ".reader-resume-box", ".reader-resume-btn" v.v.
+   Đã đổi toàn bộ id/class trong JS để khớp đúng với CSS
+   sẵn có, giữ nguyên logic.
+
+   ĐÃ SỬA LỖI THÊM (lần này):
+   Khóa scrollTrackingReady = false ngay khi bắt đầu hiện
+   popup, và chỉ mở lại (= true) sau khi người dùng đã bấm
+   "Đọc tiếp" hoặc "Đọc từ đầu". Nhờ vậy, mọi sự kiện scroll
+   xảy ra trong lúc popup đang chờ người dùng sẽ không ghi
+   đè vị trí đã lưu trong localStorage.
 ========================================================= */
 
 function showResumePopup() {
@@ -1987,6 +2029,15 @@ function showResumePopup() {
     }
 
 
+    /*
+       Tạm khóa việc lưu scroll trong lúc chờ
+       người dùng trả lời popup.
+    */
+
+    scrollTrackingReady =
+        false;
+
+
     const popup =
         document.createElement(
             "div"
@@ -1994,36 +2045,47 @@ function showResumePopup() {
 
 
     popup.id =
-        "resumeReadingPopup";
+        "readerResumePopup";
 
 
     popup.innerHTML = `
 
-        <div class="resumeReadingBox">
+        <div class="reader-resume-overlay">
 
-            <div class="resumeReadingTitle">
-                Bạn có muốn đọc tiếp?
-            </div>
+            <div class="reader-resume-box">
 
-            <div class="resumeReadingText">
-                Hệ thống đã lưu vị trí đọc trước đó.
-            </div>
+                <div class="reader-resume-icon">
+                    📖
+                </div>
 
-            <div class="resumeReadingButtons">
+                <div class="reader-resume-title">
+                    Bạn có muốn đọc tiếp?
+                </div>
 
-                <button
-                    id="resumeReadingYes"
-                    type="button"
-                >
-                    Đọc tiếp
-                </button>
+                <div class="reader-resume-description">
+                    Hệ thống đã lưu vị trí đọc trước đó.
+                    Bạn có muốn tiếp tục từ vị trí đó không?
+                </div>
 
-                <button
-                    id="resumeReadingNo"
-                    type="button"
-                >
-                    Đọc từ đầu
-                </button>
+                <div class="reader-resume-buttons">
+
+                    <button
+                        id="resumeYesBtn"
+                        class="reader-resume-btn reader-resume-yes"
+                        type="button"
+                    >
+                        ▶ Đọc tiếp
+                    </button>
+
+                    <button
+                        id="resumeNoBtn"
+                        class="reader-resume-btn reader-resume-no"
+                        type="button"
+                    >
+                        ↩ Đọc từ đầu
+                    </button>
+
+                </div>
 
             </div>
 
@@ -2039,12 +2101,12 @@ function showResumePopup() {
 
     const yes =
         document.getElementById(
-            "resumeReadingYes"
+            "resumeYesBtn"
         );
 
     const no =
         document.getElementById(
-            "resumeReadingNo"
+            "resumeNoBtn"
         );
 
 
@@ -2057,6 +2119,24 @@ function showResumePopup() {
                 popup.remove();
 
                 restoreReadingPosition();
+
+                /*
+                   Mở lại việc lưu scroll SAU khi
+                   restoreReadingPosition() đã cuộn xong
+                   (setTimeout 300ms bên trong hàm đó),
+                   để lần cuộn tự động này không bị coi
+                   là thao tác của người dùng.
+                */
+
+                setTimeout(
+                    function () {
+
+                        scrollTrackingReady =
+                            true;
+
+                    },
+                    400
+                );
 
             }
         );
@@ -2074,7 +2154,68 @@ function showResumePopup() {
                     readingPositionKey
                 );
 
+                /*
+                   ĐÃ SỬA LỖI:
+                   Trước đây chỉ xóa vị trí CUỘN TRANG
+                   (readingPositionKey), nhưng vị trí AUDIO
+                   (audioPositionKey) vẫn còn nguyên trong
+                   localStorage. Kết quả: bấm "Đọc từ đầu"
+                   thì phần chữ về đầu, nhưng audio vẫn tua
+                   tới đoạn đang nghe dở trước đó.
+
+                   Giờ xóa luôn audioPositionKey, và nếu
+                   đang có thẻ <audio> trên trang thì tua nó
+                   về 0 giây ngay lập tức.
+                */
+
+                localStorage.removeItem(
+                    audioPositionKey
+                );
+
+
+                const audio =
+                    document.querySelector(
+                        "audio"
+                    );
+
+
+                if (audio) {
+
+                    try {
+
+                        audio.currentTime = 0;
+
+                        audio.pause();
+
+                    } catch (error) {
+
+                        console.warn(
+                            "Không thể đưa audio về đầu:",
+                            error
+                        );
+
+                    }
+
+                }
+
+
+                /*
+                   Đưa trang về đầu truyện cho khớp với
+                   việc "đọc từ đầu".
+                */
+
+                window.scrollTo(
+                    {
+                        top: 0,
+                        behavior: "auto"
+                    }
+                );
+
+
                 popup.remove();
+
+                scrollTrackingReady =
+                    true;
 
             }
         );
@@ -2096,6 +2237,11 @@ window.addEventListener(
     function () {
 
         if (!storyUnlocked) {
+            return;
+        }
+
+
+        if (!scrollTrackingReady) {
             return;
         }
 
@@ -2429,9 +2575,30 @@ function initAudioMarkers() {
     audioCards.forEach(
         function (card) {
 
-            card.addEventListener(
+
+
+            const markerButton =
+                card.querySelector(
+                    "#markerBtn"
+                );
+
+
+            if (!markerButton) {
+                return;
+            }
+
+
+            markerButton.addEventListener(
                 "click",
-                function () {
+                function (event) {
+
+                    /*
+                       Không cho click của marker
+                       tiếp tục nổi lên phần tử cha.
+                    */
+
+                    event.stopPropagation();
+
 
                     const audio =
                         document.querySelector(
@@ -2461,9 +2628,17 @@ function initAudioMarkers() {
                     }
 
 
+                    /*
+                       CHỈ NÚT MARKER MỚI TUA AUDIO.
+                    */
+
                     audio.currentTime =
                         marker;
 
+
+                    /*
+                       Phát audio ngay tại marker.
+                    */
 
                     audio.play().catch(
                         function () {}
