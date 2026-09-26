@@ -1,6 +1,129 @@
-Bảy Ngày Nói Lời Tạm Biệt
+<!DOCTYPE html>
+<html lang="vi">
 
-Tôi đã qua đời, vì vậy mong em hãy quên tôi đi.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảy Ngày Nói Lời Tạm Biệt</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://truyenxoithitmiumiu.nekoweb.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Bảy Ngày Nói Lời Tạm Biệt
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_dammy/bay-ngay-noi-loi-tam-biet.wav" data-marker="660" data-marker-label="11:00">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Bảy Ngày Nói Lời Tạm Biệt</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">11:00</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">11:00</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+
+<div id="story">Tôi đã qua đời, vì vậy mong em hãy quên tôi đi.
 
 Tôi giữ riêng cho mình một người thương, chẳng muốn ai hay biết. Tôi mong em có thể quên tôi, bởi lẽ tôi đã không còn trên thế gian này nữa.
 
@@ -191,7 +314,7 @@ Em cúi đầu bước nhanh vào bếp.
 Khoảnh khắc đó, tôi chỉ muốn òa khóc. Sự bốc đồng này khiến cổ họng tôi nghẹn đắng. Không thể rơi lệ, chỉ có những tiếng nghẹn ngào chẳng thể kìm nén.
 
 Em đã bắt đầu quen với cuộc sống không có tôi, điều đó tốt biết bao.
-
+<div id="facebook-point"></div>
 Nhưng sao lòng tôi vẫn muốn khóc đến thế này.
 
 Tôi đã chiều chuộng em thành một người chẳng biết động tay động chân vào việc gì, chăm sóc em suốt mười một năm trời, vậy mà chỉ mới qua vài ngày ngắn ngủi, em đã không còn cần đến tôi nữa.
@@ -387,3 +510,154 @@ Tôi đeo chiếc nhẫn do chính tay anh quấn vào ngón tay mình, kích th
 Có lẽ vào một ngày nào đó trong tương lai, tôi sẽ thực sự quen thuộc với nhịp sống không có anh bên cạnh, nhưng hình bóng anh thì sẽ mãi khắc sâu trong tâm trí tôi.
 
 Tôi sẽ không bao giờ quên anh.
+    
+</div>
+
+</div>
+
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://truyenxoithitmiumiu.nekoweb.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>
