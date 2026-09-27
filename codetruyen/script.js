@@ -14,14 +14,14 @@ const FACEBOOK_ADS = {
         title: "Quảng cáo Shopee",
 
         url:
-            "https://www.facebook.com/photo/?fbid=122114034549467824&set=pcb.122114034717467824&locale=vi_VN"
+            "https://www.facebook.com/photo/?fbid=122114711829467824&set=pcb.122114712207467824&locale=vi_VN"
     },
 
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
 
         url:
-            "https://www.facebook.com/permalink.php?story_fbid=pfbid02igsynfyc8SmkPpvUk2Kbvyhxb4B6BCkMuJdERqeGx3bcEEdz2s3ju54Lf83PXj6Yl&id=61594034743775&locale=vi_VN"
+            "https://www.facebook.com/photo?fbid=122114712777467824&set=pcb.122114713191467824&locale=vi_VN"
     }
 
 };

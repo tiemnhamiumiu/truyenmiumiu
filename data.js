@@ -16987,6 +16987,205 @@ Tên kia lại tiếp tục xui dại: "Sau đó xé toạc vạt áo, ngửa m�
 Hả?!
 
 Cái gã này bị điên rồi sao?!`
+  },{
+    id: 824,
+    title: "Tín Hiệu Rung Động",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2cc50cd0c1d7db898e50116cd4feba65.jpg",
+    link: "ngontinh/tin-hieu-rung-dong.html",
+    type: "ngontinh",
+    desc: `Lần đầu tiên tôi nhìn thấy Cố Hành là những năm tháng còn khoác trên mình chiếc áo đồng phục trung học. Ngày ấy, anh là ngôi sao chói lọi rực rỡ nhất giữa khoảng trời niên thiếu, còn tôi chỉ là một cô gái nhỏ âm thầm cất giấu tâm tư trong biển người ngưỡng mộ anh.
+
+Thế rồi định mệnh đưa lối, lên đại học, chúng tôi lại vô tình chung trường. Người đời đồn đại anh thay người yêu nhanh như trở bàn tay, là một tay chơi tiếng lẫy lừng trong giới thượng lưu.
+
+Nhưng rồi một trò đùa nông nổi đã gắn kết hai con người ở hai thế giới lại với nhau, khiến anh bất ngờ trở thành bạn trai của tôi.
+
+Xung quanh đầy những lời xì xầm, cá cược đầy giễu cợt: “Thử đoán xem cô nữ sinh ngây thơ này giữ chân được Cố Hành bao lâu thì anh ta phát chán?”
+
+Ấy thế mà khi màn đêm buông xuống, tôi lại uất ức bật khóc, nắm tay giáng từng cú đánh vào lồng ngực anh.
+
+Anh nhẹ nhàng vòng tay ôm lấy eo tôi, ghé sát tai thì thầm dịu dàng: “Cứ đánh thoải mái đi, đều là lỗi của anh cả. Chỉ cần em đừng ngoảnh mặt phớt lờ anh, thế nào cũng được.”
+`
+  },{
+    id: 825,
+    title: "Kẻ Thù Truyền Kiếp Đòi Chịu Trách Nhiệm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b95ee674e32ae5bee12f5917793c5c4c.jpg",
+    link: "dammy/ke-thu-truyen-kiep-doi-chiu-trach-nhiem.html",
+    type: "dammy",
+    desc: `Tôi hẹn gã kẻ thù không đội trời chung ra quyết đấu một trận sinh tử, nhưng kết quả sau đó là bụng tôi cứ thế phình to lên một cỗ.
+
+Cực chẳng đã, tôi đành ôm cái bụng bất thường này đến bệnh viện kiểm tra.
+
+Nào ngờ vừa bước vào hành lang, tôi lại chạm mặt ngay gã xui xẻo ấy.
+
+Hắn khoanh tay, giương đôi mắt soi mói nhìn chằm chằm vào vòng bụng lộ rõ của tôi rồi buông lời nhạo báng đầy lạnh lùng: "Chà, dạo này ăn uống kiểu gì mà phát phì ra nông nỗi này?"
+`
+  },{
+    id: 826,
+    title: "Chấp Niệm Quyền Thần",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a2a94cce7403d3685743dde69edaec4e.jpg",
+    link: "cotrang/chap-niem-quyen-than.html",
+    type: "cotrang",
+    desc: `Vốn dĩ ta bị bán vào nhà họ Hoắc làm thiếp, nhưng chưa kịp đến tuổi trưởng thành thì phu quân đã tạ thế. Mấy vị thúc bá trong họ vì muốn chiếm đoạt toàn bộ ruộng đất nên đã nhẫn tâm đuổi ta cùng tiểu thúc mới tám tuổi ra khỏi nhà.
+
+Tiểu thúc ôm chầm lấy lưng ta, khóc nức nở: “Tiểu tẩu, chúng ta chỉ còn cách vào kinh tìm đường huynh đang làm quan thôi”.
+
+Tham chính đương triều Hoắc Đình nhìn hai đứa trẻ hỉ mũi chưa sạch quỳ rũ rượi trước cổng phủ, trong lòng không khỏi phiền muộn, nhưng cuối cùng vẫn rủ lòng thương thu nhận chúng ta.
+
+Chưa đầy hai năm sau, tiểu thúc lại dắt ta đến trước mặt Hoắc Đình, dõng dạc nói: “Người ta thường bảo 'huynh chết đệ nối', ta muốn cưới tiểu tẩu của ta”.
+
+Chỉ mấy ngày sau, tiểu thúc đã bị Hoắc Đình tống cổ đến ở hẳn trong ký túc xá của học đường ngoài ngoại thành.
+
+Ta hừng hực khí thế đến tìm Hoắc Đình để lý luận. Ngài ấy thong thả ngẩng đầu lên khỏi quyển sách, liếc nhìn ta bằng ánh mắt lạnh như băng: “Thằng nhóc ranh đó đang rủa ta chết đấy à?”
+`
+  },{
+    id: 827,
+    title: "Định Mệnh Là Em",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5ecf289bdcb5f14838d16f69b7b6ae46.jpg",
+    link: "ngontinh/dinh-menh-la-em.html",
+    type: "ngontinh",
+    desc: `Tên bạn trai cũ nói lời chia tay tôi chỉ vì cô bạn thanh mai trúc mã đậm chất "trà xanh", để rồi không lâu sau chính anh ta lại nhận về câu nói phũ phàng: "Thực ra em chỉ luôn xem anh như anh trai thôi."
+
+Cứ ngỡ bản thân đã chinh phục được trái tim người đẹp, nào ngờ anh ta chỉ là một con cá tội nghiệp nằm trong ao nuôi của cô ta.
+
+Khi gã đàn ông tồi tệ ấy dính cú sốc tâm lý mới chợt nhớ ra những điểm tốt của tôi, thế là ngày nào anh ta cũng kiên trì gửi hoa đến công ty nhằm phô trương sự chân thành.
+
+Tôi vô cùng phiền lòng nhưng chẳng còn mảy may sức lực để bận tâm đến.
+
+"Bản kế hoạch lần này hoàn toàn không dùng được, mọi người mang về sửa lại rồi thứ Hai trình lên cho tôi."
+
+Trong phòng họp, bầu không khí chùng xuống vô cùng nặng nề.
+
+Tôi cùng các đồng nghiệp trao nhau ánh mắt rưng rưng chực khóc, thật lòng chỉ muốn hỏi vị lãnh đạo mới liệu dạo này anh có ngủ ngon không.
+
+Bởi vì chúng tôi thì chắc chắn là mất ngủ toàn tập rồi.
+
+Vị sếp mới nhậm chức giống hệt một cỗ máy làm việc hoàn toàn thiếu vắng cảm xúc.
+
+Mỗi ngày trải qua với anh ấy chẳng có việc gì khác ngoài phê bình và phê bình.
+
+Tôi quan sát gương mặt trầm ngâm cùng khóe môi mím chặt của anh, lòng bàn tay không tự chủ được mà siết chặt chiếc bút bi.
+
+Hình như nhận ra ánh nhìn của tôi, Chu Nghi lập tức xoay ánh mắt hướng thẳng về phía này.
+
+Ánh nhìn sâu thẳm ấy khiến tôi giật mình, thầm nghĩ có khi nào anh chuẩn bị cất lời: "Tịch Gia, tại sao bài tập đơn giản thế này em cũng không làm xong?"
+
+Vị sếp mới của tôi vốn dĩ là bạn học cũ thời phổ thông.
+
+Chu Nghi từng là một nhân vật vô cùng kỳ diệu, người vừa đủ sức đối đầu với thầy cô lẫn phụ huynh, vừa có thể khiến đám học sinh cá biệt trong trường phải cúi đầu nể phục.
+
+Sau vài năm du học trở về với mớ kiến thức đầy mình, anh ấy chính thức trở thành cơn ác mộng lớn nhất của toàn bộ nhân viên trong bộ phận chúng tôi.
+
+Tôi vội vã cúi đầu tránh đi ánh mắt của Chu Nghi, thế nên cũng vô tình bỏ lỡ tia sáng cười thoáng qua nơi đáy mắt anh.
+
+"Được rồi, giải tán." Khi Chu Nghi đứng dậy bước đi, các đồng nghiệp xung quanh mới dường như trút được gánh nặng mà thở phào nhẹ nhõm.
+
+Tôi vỗ nhẹ lên ngực, suýt nữa thì ngỡ rằng anh sẽ gọi đích danh tôi ra để chỉ trích.
+
+"Gia Gia, Giám đốc Chu thật sự đáng sợ quá," Từ Oánh Oánh ghé sát lại gần tôi, nhỏ giọng thì thào phàn nàn, "Rõ ràng là một anh chàng đẹp trai, vậy mà quanh thân toàn sát khí."
+
+Tôi thì thầm đáp lại: "Đẹp trai đúng không? Đổi bằng việc đánh mất tính người đấy."
+
+Từ Oánh Oánh định cất lời nói tiếp nhưng gương mặt cô ấy đột ngột cứng đờ khi nhìn ra phía sau lưng tôi.
+
+Trong lòng tôi thầm than ngắt, chẳng lẽ Chu Nghi lại đang đứng ngay sau lưng sao?
+
+Chu Nghi cất tiếng: "Tịch Gia, vào văn phòng tôi một chút."`
+  },{
+    id: 828,
+    title: "Kẻ Thù Lại Chuyển Tiền",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/87cd62446de75dbe4f956497ecac9d19.jpg",
+    link: "dammy/ke-thu-lai-chuyen-tien.html",
+    type: "dammy",
+    desc: `Vào đúng ngày Valentine, Lục Kim Dã, kẻ thù không đội trời chung của tôi, đột nhiên chuyển khoản cho tôi 5.200 tệ.
+
+Tôi gõ máy tanh tách: 【Bị điên à? Hôm nay ông đây không rảnh cãi nhau với cậu, tôi phải đi xem mắt rồi.】
+
+Đến buổi tối, người đáng lẽ đang ở cách xa ngàn dặm lại bất ngờ xuất hiện ngay trước cửa nhà tôi với gương mặt u uất:
+
+“Xem mắt cái gì chứ? Chẳng phải cậu từng nói thích tôi sao?”
+
+Tôi cạn cả lời:
+
+“Tôi nói câu đó chỉ để làm cậu gớm chóc thôi, tôi là trai thẳng xịn đấy nhé! Không chơi gay đâu, từ chối thẳng thừng!”
+
+Yết hầu Lục Kim Dã khẽ chuyển động, cậu ta bất ngờ cúi xuống nắm chặt lấy tay tôi, giọng khàn khàn:
+
+“Ừ, không chơi gay… vậy chơi cậu.”`
+  },{
+    id: 829,
+    title: "Đường Sống Nơi Hạn Hán",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2868ac13f0c7ef9fe69e9c9f57676b36.jpg",
+    link: "cotrang/duong-song-noi-han-han.html",
+    type: "cotrang",
+    desc: `Vừa chớp mắt tỉnh lại, ta phát hiện mình đã xuyên thành mụ độc phụ trong một cuốn tiểu thuyết điền văn. Chưa kịp định thần, đứa con trai út đã nhảy chồm lên xúi giục ta đem bán cháu gái để lấy tiền trả nợ lô đề cho nó.
+
+Quá bất bình, ta giơ tay vung cho nó một cú tát cháy má: "Cút ngay! Đồ dại dột!"
+
+Nó mếu máo ôm chặt lấy ống quần ta than thở: "Mẹ ơi, bà Trương đã đưa mụ buôn người tới tận cửa rồi, mẹ không thể lật lọng lúc này được đâu!"
+
+Bà Trương đứng ngoài cổng ngó vào cất giọng: "Tống lão thái này, đứa cháu gái nhà bà mặt mũi sáng sủa thế kia, bán vào chốn lầu xanh ít nhất cũng được ba mươi lượng đấy!"
+
+Ta thản nhiên cất tiếng hỏi: "Thế con trai thì đáng giá bao nhiêu?"
+
+"Đàn ông con trai có sức vóc làm việc nặng, nếu đem bán vào cung làm thái giám thì được hẳn một trăm lượng!"
+
+Ta nghe xong liền "ồ" lên một tiếng, rồi thẳng chân đá văng đứa con út đến tận chân mụ: "Thế thì ta bán Chiêu Muội."
+
+Thằng bé ngơ ngác gào lên: "Mẹ ơi, Chiêu Muội là đứa nào, con là Diệu Tổ cơ mà!"
+`
+  },{
+    id: 830,
+    title: "Hai Chị Em Và Cặp Sinh Đôi Thái Tử Gia",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/981ba8b534a0298a176f6001b7b26385.jpg",
+    link: "ngontinh/hai-chi-em-va-cap-sinh-doi-thai-tu-gia.html",
+    type: "ngontinh",
+    desc: `Chị gái hỏi tôi với vẻ mặt đầy hoang mang: "Em này, sao thái tử gia nhà chị lại chẳng giống như em miêu tả chút nào thế? Anh ấy bảo ghét kiểu tư thế orz, ngày nào cũng bắt chị diện váy đỏ rồi làm người ở trên."
+
+Tôi giật mình ôm lấy đầu: "Làm gì có chuyện đó chứ! Anh ấy vốn dị ứng với sắc đỏ, còn kiểu hay dùng nhất rõ ràng là tư thế orz mà."
+
+Hai chị em tròn mắt nhìn nhau một lúc lâu, sau đó cùng đi đến một kết luận chắc nịch: Vị Thái tử gia lừng lẫy kia chắc chắn bị bệnh đa nhân cách rồi.
+
+Thế là, chúng tôi đồng lòng lên kế hoạch giả chết để cùng nhau cao chạy xa bay.
+
+Mãi đến nửa đêm thanh vắng, tôi mới dám rón rén bò ra khỏi quan tài. Nào ngờ vừa ló đầu ra ngoài, đập vào mắt tôi lại là hai người đàn ông sở hữu diện mạo giống hệt nhau, trên tay mỗi người lăm lăm một chiếc xẻng, ánh mắt lạnh băng nhìn tôi chằm chằm.
+
+"Anh này, anh đoán xem cái ý tưởng dở hơi này là do ai nghĩ ra?"
+
+"Còn ai vào đây nữa, chắc chắn là cô em rồi. Tối qua cô ấy còn hồn nhiên hỏi anh, nếu chẳng may bị chôn sống thì làm cách nào để thoát ra đấy."
+`
+  },{
+    id: 831,
+    title: "Quản Gia Của Cậu Chủ Ngốc",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b83ed0218008288ad6684feca1a44f58.jpg",
+    link: "dammy/quan-gia-cua-cau-chu-ngoc.html",
+    type: "dammy",
+    desc: `Tôi làm quản gia cho một gia đình giàu có.
+
+Thế nhưng cậu chủ nhà tôi lại là một kẻ ngốc nghếch ngây thơ, cả ngày đầu óc chỉ toàn chuyện tình ái.
+
+Chỉ vì thất tình mà cậu ấy nảy ra ý định bán sạch căn biệt thự rộng năm ngàn mét vuông của mình.
+
+Tôi tức mình túm lấy cổ áo cậu ấy:
+
+“Cậu đã hỏi qua ý kiến của căn phòng đôi siêu to có nhà vệ sinh riêng cùng chiếc TV 100 inch của tôi chưa?!”
+
+Về sau, tôi giúp cậu ấy theo đuổi đối phương không thành, căn phòng đôi ước mơ cũng chẳng còn…
+
+Thế nhưng bù lại, tôi lại đường hoàng chuyển vào sống cùng phòng ngủ chính với cậu ấy.
+
+Cố Tuần rúc đầu vào cổ tôi cọ cọ:
+
+“Tiểu Hứa, tối nay mười ba lần nhé~”`
+  },{
+    id: 832,
+    title: "Khói Bếp Nhân Gian",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/721b81ad003ec00410da4686b6bb3585.jpg",
+    link: "cotrang/khoi-bep-nhan-gian.html",
+    type: "cotrang",
+    desc: `Ngày vị tiểu thư đích thực nhà họ Giang trở về, hôn sự của ta bị tráo đổi hoàn toàn. Giang Uyển được đưa vào gả cho Bá phủ, còn ta thay vị trí của nàng, chịu cảnh gả cho một gã đồ tể họ Lý chốn quê mùa.
+
+Trông thấy người phu quân tương lai diện mạo khôi ngô lại vô cùng chất phác, lòng ta ngập tràn niềm vui: "Về sau chàng mổ heo, thiếp đồ thư dạy học, hai ta cùng chí hướng vun vén gia đình."
+`
   },
 
 
