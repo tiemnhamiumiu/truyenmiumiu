@@ -17186,6 +17186,197 @@ Cố Tuần rúc đầu vào cổ tôi cọ cọ:
 
 Trông thấy người phu quân tương lai diện mạo khôi ngô lại vô cùng chất phác, lòng ta ngập tràn niềm vui: "Về sau chàng mổ heo, thiếp đồ thư dạy học, hai ta cùng chí hướng vun vén gia đình."
 `
+  },{
+    id: 833,
+    title: "Mẹ Sếp Bán Cơm Rang Dưới Lầu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a22df21f6cfff381ad35c18b0f5ca168.jpg",
+    link: "ngontinh/me-sep-ban-com-rang-duoi-lau.html",
+    type: "ngontinh",
+    desc: `Công ty phát thông báo cuối tuần này cả phòng phải tiếp tục tăng ca.
+
+Tôi lỡ tay gõ nhanh rồi gửi thẳng vào group chat chung của toàn công ty: "Sếp ngốc."
+
+Ngay phía dưới, sếp chậm rãi thả lại đúng một dấu hỏi chấm.
+
+Xong đời thật rồi, trượt tay gửi nhầm vào group chat chung.
+
+Mồ hôi lạnh lập tức túa ra đầm đìa trên trán tôi.
+
+Liếc qua hộp cơm trưa ăn dở trên bàn, tôi liền nảy ra một kế: "Ông chủ quán cơm rang dưới lầu lại quên bỏ đũa cho tôi rồi, lú lẫn đến thế là cùng!"
+
+Xử lý tình huống quá đỉnh!
+
+Tôi còn đang tự đắc khen ngợi sự nhanh trí của bản thân.
+
+Anh Trương ngồi bên cạnh vỗ vai tôi bằng ánh mắt đầy thương hại.
+
+Chị Triệu trìu mến xoa đầu tôi như muốn an ủi.
+
+Cậu thực tập sinh thậm chí còn ái ngại chìa ra một bản mẫu đơn xin nghỉ việc.
+
+Cứ làm như tôi sắp sửa bị đuổi việc tới nơi không bằng.
+
+Tôi cúi gằm mặt nhìn màn hình điện thoại.
+
+Trong group chat công ty, sếp đã trực tiếp tag tên tôi.
+
+Chu Bác Bì nhắn: "Mẹ tôi bận quá nên chắc quên mất, cô lên văn phòng tôi lấy một đôi nhé."
+
+Hả?`
+  },{
+    id: 834,
+    title: "Cứu Rỗi Thần Tài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/764306f1abb8bcd899c980ad9fa9f03f.jpg",
+    link: "dammy/cuu-roi-than-tai.html",
+    type: "dammy",
+    desc: `“Đồ khốn, không có tôi chắc chắn cậu sẽ chết đói. Toàn bộ tiền của tôi để lại cho cậu hết đấy, cố mà giữ lấy, đừng có tiêu xài phung phí.”
+
+Thế là tôi nghiễm nhiên trở thành người thừa kế mười tỷ từ anh bạn trai quá cố.
+
+Lúc đứng khóc trong tang lễ của anh ấy, tôi suýt chút nữa đã không nén nổi nụ cười.
+
+Rồi chớp mắt một cái, tôi sống lại.
+
+Trở về cái thời anh ấy vẫn còn là một cậu nam sinh trung học.
+
+Năm ấy, Lâu Tầm gầy gộp, xanh xao và yếu ớt.
+
+Anh bị một đám du côn vây đánh, nằm co quắp trên nền đất.
+
+Chưa kịp nghĩ ngợi gì nhiều, tôi đã xông thẳng vào, dang tay che chắn cho anh ở phía sau.
+
+“Mấy thằng ranh, ai cho phép các người đụng vào thần tài tương lai của tao hả?”
+`
+  },{
+    id: 835,
+    title: "Bạc Phận Hồng Nhan",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c8e359b9f1603bdb20c0a5f247cd82b2.jpg",
+    link: "cotrang/bac-phan-hong-nhan.html",
+    type: "cotrang",
+    desc: `Ta vì Thái Hậu quá cố thủ hiếu ba năm, nào ngờ Cửu Hoàng tử Tiêu Vô Mịch lại đòi hủy bỏ hôn ước để sánh đôi cùng người khác.
+
+Mọi người đều tán tụng ta dung mạo mỹ miều, đoan trang thùy mị, duy chỉ có hắn chê ta giả tạo, cứng nhắc trước sau như một, biến ta thành trò cười cho cả Kinh Thành.
+
+Lòng đau như cắt, ta dứt áo quay đầu, gả cho Yên Vương Tiêu Vô Tầm vị vương gia đang trấn giữ dải đất Bắc Cương.
+
+Về sau, Cửu Hoàng tử lặn lội đuổi đến tận Bắc Cương, rơi giọt nước mắt muộn màng cầu xin ta quay lại.
+
+Lúc bấy giờ, ta đang sánh bước cưỡi ngựa bên phu quân, nghe ngài mỉm cười bảo: “Vương phi của ta, vào bếp quán xuyến quán xuyến việc nhà, ra trận cưỡi ngựa giương cung, nàng muốn làm gì, bổn Vương đều chiều theo ý nàng.”
+`
+  },{
+    id: 836,
+    title: "Tôn Trọng Nhân Quả Của Bạn Thân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8eb6a528ffe35ccf1e4db09c419fe538.jpg",
+    link: "ngontinh/ton-trong-nhan-qua-cua-ban-than.html",
+    type: "ngontinh",
+    desc: `Cô bạn thân của tôi trót lòng đem lòng yêu một kẻ mang án sát nhân trên lưng. 
+
+Thế nhưng, mỗi lần đi hẹn hò với hắn, cô ta lại mang tôi ra làm tấm lá chắn để che mắt gia đình.
+
+Tôi đã tốn không biết bao nhiêu lời khuyên ngăn, mong cô ta sớm tỉnh ngộ mà chia tay, nhưng tất cả đều rơi vào khoảng không vô vọng.
+
+Sự việc đẩy lên đỉnh điểm khi cô ta phát hiện mình mang thai và bị gia đình bắt ép đi bỏ đứa bé.
+
+Sau biến cố ấy, cô ta trút hết mọi căm hận lên đầu tôi. 
+
+Cô ta cùng tên bạn trai đã cấu kết, thuê người hãm hại tôi để “dạy cho một bài học”. Kết cục cay đắng, tôi qua đời trong một con hẻm hoang tàn, cô quạnh.
+
+Chưa dừng lại ở đó, cô ta thản nhiên đứng ra thừa kế toàn bộ tài sản tôi để lại, thản nhiên giẫm lên xương máu của tôi để tận hưởng một cuộc sống viên mãn bên người tình.
+
+May mắn thay, ông trời cho tôi cơ hội sống lại một lần nữa. Tôi quay trở về đúng cái ngày mà cô bạn thân lại mở lời nhờ tôi bao che cho cuộc hẹn hò của cô ta.
+
+Lần này, tôi quyết định đứng ngoài cuộc và tôn trọng từng bước đi trên con đường mà cô ta đã chọn. Mong rằng hai người họ sẽ siết chặt tay nhau thật lâu, thật bền lâu.
+`
+  },{
+    id: 837,
+    title: "Sau Một Đêm Tôi Thành Người Của Tình Địch",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/841f919def9542123c9aebd9d748d05d.jpg",
+    link: "dammy/sau-mot-dem-toi-thanh-nguoi-cua-tinh-dich.html",
+    type: "dammy",
+    desc: `Vì để tranh giành một người nữ, tôi và kẻ thù không đội trời chung đã lao vào xô xát một trận kịch liệt.
+
+Nào ngờ ngay sau đó, giữa chúng tôi lại xảy ra một đêm hoang đường ngoài tầm kiểm soát.
+
+Vỏ hộp nhỏ vứt ngổn ngang khắp mặt sàn.
+
+Tình địch với đôi mắt đỏ ngầu, hành động có phần thô bạo xé nát vạt áo tôi, rồi ghì chặt lấy môi tôi mà cắn xé như phát điên:
+
+“Đồ ngốc nghếch này, người tôi thích từ trước đến nay là cậu, là cậu đấy!”
+
+“Cút ngay!”
+
+“Nhà tôi ba đời mới có một mống con trai nối dõi là tôi đấy nhé!”
+`
+  },{
+    id: 838,
+    title: "Tân Nương Xung Hỷ Dạy Phu Quân Thành Tài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f3a19e3fcfcbd688bb2151e9733e2957.jpg",
+    link: "cotrang/tan-nuong-xung-hy-day-phu-quan-thanh-tai.html",
+    type: "cotrang",
+    desc: `Ta là tân nương xung hỷ được gả cho Vệ Vô Dạng.
+
+Sau ngày dạm ngõ kết duyên, hắn trăm phương ngàn kế chê bai ta đủ điều, hết bảo giọng ta thô ráp lại trách sức ta quá mạnh, lúc nào cũng nhăm nhe muốn hưu thê.
+
+Ta thượng cẳng chân hạ cẳng tay với hắn suốt một đêm, dằn mặt một câu:
+
+"Đợi chừng nào chàng đỗ Trạng nguyên, ta tự khắc gật đầu hòa ly."
+
+Sau này, hắn đỗ Trạng nguyên thật.
+
+Ta dẹp chuyện cũ, ôm gói gút bỏ trốn để tính đường chiêu một vị phò mã.
+
+Nào ngờ hắn lại mang theo người hầu rầm rộ đến chặn đường, đôi mắt đỏ ngầu gầm lên:
+
+"Mẹ kiếp, ta biết ngay nàng với cái gã trồng hoa trong phủ đã sớm bén duyên cùng nhau mà!"
+`
+  },{
+    id: 839,
+    title: "Đón Em Về Trong Hoàng Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8e465502df2d8d0a598681b28184b046.jpg",
+    link: "ngontinh/don-em-ve-trong-hoang-hon.html",
+    type: "ngontinh",
+    desc: `Thẩm Thiến Diệp là con gái của người yêu cũ cha tôi.
+
+Sau khi cha mẹ cô ấy qua đời, không còn ai để nương tựa, cha tôi đã đón cô ấy về nhà nuôi dưỡng.
+
+Tôi từng tự thề với lòng mình, nhất định phải tìm mọi cách hành hạ cô ấy cho bằng được.
+
+Cho đến một ngày, tôi chợt nhận ra ánh mắt của người cha vốn luôn tỏ ra đạo mạo kia nhìn cô ấy càng lúc càng kỳ quặc.
+`
+  },{
+    id: 840,
+    title: "Bản Áp Chế Của Enigma",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b98eab17e3bae0eed6c1c0e8c42e69ed.jpg",
+    link: "dammy/ban-ap-che-cua-enigma.html",
+    type: "dammy",
+    desc: `Là một Alpha cấp S, vậy mà tôi lại bị kẻ khác đánh dấu ngay tại quán bar thuộc sở hữu của mình.
+
+Để trả đũa mối nhục này, tôi dẫm đạp hắn dưới chân, nghiền nát chiếc máy trợ thính của hắn và tuyên bố: "Tôi đang thiếu một con chó ngoan, nhìn cậu vừa mắt đấy."
+
+Đôi mắt Alpha đó đỏ ngầu, ghim chặt ánh nhìn vào tôi rồi buộc phải cúi đầu nhận chủ.
+
+Nào ngờ về sau, hắn biến thành Enigma.
+
+Khóe mắt tôi đỏ bừng, run rẩy bảo: "Tôi... không thể bị đánh dấu."
+
+Hắn chỉ nhẹ nhàng ấn lên bụng dưới của tôi mà thì thầm: "Anh sẽ khiến em có thể."
+`
+  },{
+    id: 841,
+    title: "Lừa Gạt Phu Quân Mất Trí Nhớ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7c73c4e4ef35cdf8cf006c58bb6cbdb6.jpg",
+    link: "cotrang/lua-gat-phu-quan-mat-tri-nho.html",
+    type: "cotrang",
+    desc: `Phu quân ta đã mất đi trí nhớ.
+
+Trước kia, khi chưa gặp phải biến cố, gương mặt chàng lúc nào cũng mang nét lạnh lùng như sương tuyết, cao ngạo và xa cách.
+
+Thế nhưng sau khi quên sạch mọi chuyện, chàng lại trở nên nhã nhặn, ôn hòa, dịu dàng và chu đáo đến bất ngờ.
+
+Ta nhìn chàng, khẽ chớp mắt rồi cất lời: “Ta chính là thê tử của chàng, và chàng thì sâu đậm yêu ta.”
+
+Nửa câu đầu là sự thật, nhưng vế sau lại là lời dối gian do ta thêu dệt.
+`
   },
 
 

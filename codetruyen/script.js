@@ -1,178 +1,122 @@
-
 if ("scrollRestoration" in history) {
-
     history.scrollRestoration = "manual";
-
 }
 
 let scrollTrackingReady = true;
 
-
-const FACEBOOK_ADS = {
-
-    shopee: {
-        title: "Quảng cáo Shopee",
-
-        url:
-            "https://www.facebook.com/photo/?fbid=122114711829467824&set=pcb.122114712207467824&locale=vi_VN"
-    },
-
-    shopeefood: {
-        title: "Quảng cáo ShopeeFood",
-
-        url:
-            "https://www.facebook.com/photo?fbid=122114712777467824&set=pcb.122114713191467824&locale=vi_VN"
-    }
-
-};
-
-
 /* =========================================================
-   LINK REDIRECT
+   QUẢNG CÁO FACEBOOK
 ========================================================= */
 
-const TIKTOK_URL = "";
-const LAZADA_URL = "";
+const FACEBOOK_ADS = {
+    shopee: {
+        title: "Quảng cáo Shopee",
+        url: "https://www.facebook.com/photo/?fbid=122115229395467824&set=pcb.122115229527467824"
+    },
+    shopeefood: {
+        title: "Quảng cáo ShopeeFood",
+        url: "https://www.facebook.com/photo/?fbid=122115230199467824&set=pcb.122115230379467824"
+    }
+};
 
+/* =========================================================
+   VÙNG CHO PHÉP CLICK TRONG BÀI FACEBOOK
+
+   top    = khoảng cách (px) từ mép trên khung tới đầu dòng link
+   height = chiều cao (px) của dòng link
+   left   = khoảng cách (px) từ mép trái khung tới đầu chữ link
+   width  = chiều rộng (px) của chữ link
+   Ngoài vùng này bị chặn click → không nhảy sang bài Facebook.
+
+   Đặt FACEBOOK_ZONE_DEBUG = true để thấy 2 lớp chặn màu đỏ,
+   chỉnh top/height cho vùng trong suốt ở giữa khớp dòng link,
+   xong đặt lại false.
+========================================================= */
+
+const FACEBOOK_ZONE_DEBUG = false;
+
+const FACEBOOK_CLICK_ZONE = {
+    shopee: { top: 60, height: 32, left: 10, width: 210 },
+    shopeefood: { top: 60, height: 32, left: 10, width: 210 }
+};
+
+/* =========================================================
+   LINK REDIRECT (mở lần lượt: TikTok -> Lazada)
+========================================================= */
+
+const TIKTOK_URL = "https://shop.tiktok.com/vn/pdp/1732783764793230583?_t=ZS-9A6Bvnpvp5B";
+const LAZADA_URL = "https://s.lazada.vn/s.oSlmx?c=d&t=p-i1ME0Lk-sEGIPzZ";
 
 /* =========================================================
    SUPABASE
 ========================================================= */
 
-const SUPABASE_URL =
-    "https://YOUR-PROJECT.supabase.co";
-
-const SUPABASE_ANON_KEY =
-    "YOUR_SUPABASE_ANON_KEY";
-
+const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
+const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
 
 /* =========================================================
-   CẤU HÌNH QUẢNG CÁO
+   CẤU HÌNH
 ========================================================= */
 
-/*
-   CẢ HAI QUẢNG CÁO ĐỀU PHẢI RỜI TRANG ÍT NHẤT 3 GIÂY.
-*/
-
 const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 3000;
-
 const FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME = 0;
 
-
-/*
-   Thời gian đọc thực tế tối đa.
-*/
-
+/* Đọc đủ 10 phút (tính bằng giây) thì mới kích hoạt link TikTok/Lazada */
 const ACTIVE_TIME_LIMIT = 10 * 60;
-
 
 /* =========================================================
    LOCAL STORAGE KEYS
 ========================================================= */
 
-const unlockDateKey =
-    "reader_unlock_date";
-
-const unlockTimeKey =
-    "reader_unlock_time";
-
-const redirectStageKey =
-    "reader_redirect_stage";
-
-const redirectDateKey =
-    "reader_redirect_date";
-
-const activeTimeKey =
-    "reader_active_time";
-
-const activeTimeDateKey =
-    "reader_active_time_date";
-
-const facebookAdStageKey =
-    "reader_facebook_ad_stage";
-
-const facebookAdStageDateKey =
-    "reader_facebook_ad_stage_date";
-
-const facebookAdCompletedDateKey =
-    "reader_facebook_ad_completed_date";
-
-const facebookAdStartedKey =
-    "reader_facebook_ad_started";
-
-const facebookAdLeftKey =
-    "reader_facebook_ad_left";
-
-const redirectLeavingKey =
-    "reader_redirect_leaving";
-
+const unlockDateKey = "reader_unlock_date";
+const unlockTimeKey = "reader_unlock_time";
+const redirectStageKey = "reader_redirect_stage";
+const redirectDateKey = "reader_redirect_date";
+const activeTimeKey = "reader_active_time";
+const activeTimeDateKey = "reader_active_time_date";
+const facebookAdStageKey = "reader_facebook_ad_stage";
+const facebookAdStageDateKey = "reader_facebook_ad_stage_date";
+const facebookAdCompletedDateKey = "reader_facebook_ad_completed_date";
+const facebookAdStartedKey = "reader_facebook_ad_started";
+const facebookAdLeftKey = "reader_facebook_ad_left";
+const redirectLeavingKey = "reader_redirect_leaving";
 
 /* =========================================================
    STORY ID
 ========================================================= */
 
-const urlParams =
-    new URLSearchParams(
-        window.location.search
-    );
+const urlParams = new URLSearchParams(window.location.search);
+const storyId = urlParams.get("id") || window.location.pathname;
 
-const storyId =
-    urlParams.get("id") ||
-    window.location.pathname;
-
-
-/* =========================================================
-   KEY LƯU VỊ TRÍ
-========================================================= */
-
-const readingPositionKey =
-    "reader_position_" + storyId;
-
-const audioPositionKey =
-    "reader_audio_position_" + storyId;
-
-const readingSessionKey =
-    "reading_session_" + storyId;
-
+const readingPositionKey = "reader_position_" + storyId;
+const audioPositionKey = "reader_audio_position_" + storyId;
+const readingSessionKey = "reading_session_" + storyId;
 
 /* =========================================================
    BIẾN TOÀN CỤC
 ========================================================= */
 
 let facebookAdsModal = null;
-
 let facebookAdHiddenAt = null;
-
 let facebookAdWaiting = false;
-
 let facebookAdCurrentType = null;
 
 let activeSeconds = 0;
-
 let activeTimer = null;
-
 let lastActiveTimestamp = null;
 
 let storyUnlocked = false;
-
 let resumePopupShown = false;
-
 
 /* =========================================================
    NGÀY VIỆT NAM
 ========================================================= */
 
 function getToday() {
-
-    return new Date().toLocaleDateString(
-        "en-CA",
-        {
-            timeZone: "Asia/Ho_Chi_Minh"
-        }
-    );
-
+    return new Date().toLocaleDateString("en-CA", {
+        timeZone: "Asia/Ho_Chi_Minh"
+    });
 }
-
 
 /* =========================================================
    RESET DATA MỖI NGÀY
@@ -180,122 +124,50 @@ function getToday() {
 
 function resetDailyDataIfNeeded() {
 
-    const today =
-        getToday();
+    const today = getToday();
 
-    const savedDate =
-        localStorage.getItem(
-            facebookAdStageDateKey
-        );
-
+    const savedDate = localStorage.getItem(facebookAdStageDateKey);
 
     if (savedDate !== today) {
 
-        localStorage.removeItem(
-            facebookAdStageKey
-        );
+        localStorage.removeItem(facebookAdStageKey);
+        localStorage.removeItem(facebookAdCompletedDateKey);
+        localStorage.removeItem(facebookAdStartedKey);
+        localStorage.removeItem(facebookAdLeftKey);
+        localStorage.removeItem(redirectStageKey);
+        localStorage.removeItem(redirectDateKey);
+        localStorage.removeItem(redirectLeavingKey);
+        localStorage.removeItem(unlockDateKey);
+        localStorage.removeItem(unlockTimeKey);
 
-        localStorage.removeItem(
-            facebookAdCompletedDateKey
-        );
-
-        localStorage.removeItem(
-            facebookAdStartedKey
-        );
-
-        localStorage.removeItem(
-            facebookAdLeftKey
-        );
-
-        localStorage.removeItem(
-            redirectStageKey
-        );
-
-        localStorage.removeItem(
-            redirectDateKey
-        );
-
-        localStorage.removeItem(
-            redirectLeavingKey
-        );
-
-        localStorage.removeItem(
-            unlockDateKey
-        );
-
-        localStorage.removeItem(
-            unlockTimeKey
-        );
-
-        localStorage.setItem(
-            facebookAdStageDateKey,
-            today
-        );
-
+        localStorage.setItem(facebookAdStageDateKey, today);
     }
 
-
-    const activeDate =
-        localStorage.getItem(
-            activeTimeDateKey
-        );
-
+    const activeDate = localStorage.getItem(activeTimeDateKey);
 
     if (activeDate !== today) {
 
-        localStorage.removeItem(
-            activeTimeKey
-        );
-
-        localStorage.setItem(
-            activeTimeDateKey,
-            today
-        );
-
+        localStorage.removeItem(activeTimeKey);
+        localStorage.setItem(activeTimeDateKey, today);
     }
-
 }
 
-
 /* =========================================================
-   KIỂM TRA ĐÃ MỞ KHÓA HÔM NAY
+   MỞ KHÓA HÔM NAY
 ========================================================= */
 
 function isUnlockedToday() {
-
-    return (
-        localStorage.getItem(
-            unlockDateKey
-        ) === getToday()
-    );
-
+    return localStorage.getItem(unlockDateKey) === getToday();
 }
-
-
-/* =========================================================
-   ĐÁNH DẤU ĐÃ MỞ KHÓA
-========================================================= */
 
 function markUnlockedToday() {
-
-    localStorage.setItem(
-        unlockDateKey,
-        getToday()
-    );
-
-    localStorage.setItem(
-        unlockTimeKey,
-        Date.now().toString()
-    );
-
+    localStorage.setItem(unlockDateKey, getToday());
+    localStorage.setItem(unlockTimeKey, Date.now().toString());
     storyUnlocked = true;
-
 }
 
-
 /* =========================================================
-   LẤY STAGE FACEBOOK
-
+   STAGE FACEBOOK
    0 = chưa xong Shopee
    1 = xong Shopee
    2 = xong ShopeeFood
@@ -304,217 +176,83 @@ function markUnlockedToday() {
 
 function getFacebookAdStage() {
 
-    if (
-        localStorage.getItem(
-            facebookAdStageDateKey
-        ) !== getToday()
-    ) {
-
+    if (localStorage.getItem(facebookAdStageDateKey) !== getToday()) {
         return 0;
-
     }
 
-
-    return Number(
-        localStorage.getItem(
-            facebookAdStageKey
-        )
-    ) || 0;
-
+    return Number(localStorage.getItem(facebookAdStageKey)) || 0;
 }
-
-
-/* =========================================================
-   SET STAGE FACEBOOK
-========================================================= */
 
 function setFacebookAdStage(stage) {
-
-    localStorage.setItem(
-        facebookAdStageKey,
-        String(stage)
-    );
-
-    localStorage.setItem(
-        facebookAdStageDateKey,
-        getToday()
-    );
-
+    localStorage.setItem(facebookAdStageKey, String(stage));
+    localStorage.setItem(facebookAdStageDateKey, getToday());
 }
-
-
-/* =========================================================
-   KIỂM TRA ĐÃ XONG QUẢNG CÁO HÔM NAY
-========================================================= */
 
 function isFacebookAdsCompletedToday() {
-
-    return (
-        localStorage.getItem(
-            facebookAdCompletedDateKey
-        ) === getToday()
-    );
-
+    return localStorage.getItem(facebookAdCompletedDateKey) === getToday();
 }
-
-
-/* =========================================================
-   ĐÁNH DẤU HOÀN THÀNH QUẢNG CÁO
-========================================================= */
 
 function markFacebookAdsCompletedToday() {
-
-    localStorage.setItem(
-        facebookAdCompletedDateKey,
-        getToday()
-    );
-
+    localStorage.setItem(facebookAdCompletedDateKey, getToday());
     setFacebookAdStage(3);
-
     markUnlockedToday();
-
 }
 
-
 /* =========================================================
-   LẤY STAGE REDIRECT
+   STAGE REDIRECT
+   0 = chưa mở gì
+   1 = đã mở TikTok
+   2 = đã mở Lazada (xong)
 ========================================================= */
 
 function getRedirectStage() {
 
-    if (
-        localStorage.getItem(
-            redirectDateKey
-        ) !== getToday()
-    ) {
-
+    if (localStorage.getItem(redirectDateKey) !== getToday()) {
         return 0;
-
     }
 
-
-    return Number(
-        localStorage.getItem(
-            redirectStageKey
-        )
-    ) || 0;
-
+    return Number(localStorage.getItem(redirectStageKey)) || 0;
 }
-
-
-/* =========================================================
-   SET STAGE REDIRECT
-========================================================= */
 
 function setRedirectStage(stage) {
-
-    localStorage.setItem(
-        redirectStageKey,
-        String(stage)
-    );
-
-    localStorage.setItem(
-        redirectDateKey,
-        getToday()
-    );
-
+    localStorage.setItem(redirectStageKey, String(stage));
+    localStorage.setItem(redirectDateKey, getToday());
 }
-
-
-/* =========================================================
-   ĐÃ XONG REDIRECT?
-========================================================= */
 
 function isRedirectFinishedToday() {
-
-    return (
-        getRedirectStage() >= 2
-    );
-
+    return getRedirectStage() >= 2;
 }
 
-
 /* =========================================================
-   KHÓA TRUYỆN
-
-   QUAN TRỌNG:
-   KHÔNG ẨN #lockedContent.
-
-   Nội dung HTML truyện vẫn tồn tại và vẫn giữ nguyên.
-
-   Chỉ khóa thao tác trang bằng lớp Facebook Ads.
+   KHÓA / MỞ TRUYỆN
+   (không ẩn #lockedContent, chỉ phủ lớp quảng cáo)
 ========================================================= */
 
 function lockStory() {
-
     storyUnlocked = false;
-
-    document.body.classList.add(
-        "facebookStoryLocked"
-    );
-
+    document.body.classList.add("facebookStoryLocked");
 }
-
-
-/* =========================================================
-   MỞ TRUYỆN
-
-   KHÔNG ĐỘNG VÀO #lockedContent.
-
-   ĐÃ SỬA LỖI:
-   Trước đây hàm này gọi saveReadingPosition() ngay khi
-   mở khóa, kể cả khi trang vừa tải lại (scrollY = 0),
-   nên vô tình GHI ĐÈ vị trí đọc đã lưu trước đó thành 0,
-   khiến popup "đọc tiếp" không bao giờ hiện ra nữa.
-   Đã bỏ dòng gọi đó — việc lưu vị trí đọc đã được xử lý
-   ở các nơi khác (khi cuộn trang, khi rời tab, khi đóng
-   trang), không cần lưu lại tại thời điểm mở khóa.
-========================================================= */
 
 function unlockStory() {
-
     storyUnlocked = true;
-
-    document.body.classList.remove(
-        "facebookStoryLocked"
-    );
-
+    document.body.classList.remove("facebookStoryLocked");
     increaseStoryView();
-
 }
-
-
-/* =========================================================
-   KIỂM TRA KHÓA
-========================================================= */
 
 function checkStoryLock() {
 
     resetDailyDataIfNeeded();
 
-
-    if (
-        isFacebookAdsCompletedToday() ||
-        isUnlockedToday()
-    ) {
-
+    if (isFacebookAdsCompletedToday() || isUnlockedToday()) {
         markUnlockedToday();
-
         unlockStory();
-
         return true;
-
     }
 
-
     lockStory();
-
     startFacebookAdFlow();
-
     return false;
-
 }
-
 
 /* =========================================================
    TẠO MODAL FACEBOOK
@@ -522,254 +260,164 @@ function checkStoryLock() {
 
 function createFacebookAdModal() {
 
-    const existing =
-        document.getElementById(
-            "facebookAdsModal"
-        );
-
+    const existing = document.getElementById("facebookAdsModal");
 
     if (existing) {
-
-        facebookAdsModal =
-            existing;
-
+        facebookAdsModal = existing;
         return existing;
-
     }
 
+    const modal = document.createElement("div");
 
-    const modal =
-        document.createElement(
-            "div"
-        );
-
-
-    modal.id =
-        "facebookAdsModal";
-
-    modal.className =
-        "facebookAdsOverlay";
-
+    modal.id = "facebookAdsModal";
+    modal.className = "facebookAdsOverlay";
 
     modal.innerHTML = `
 
-        <div
-            id="facebookAdsBox"
-            class="facebookAdsBox"
-            role="dialog"
-            aria-modal="true"
-        >
+        <div id="facebookAdsBox" class="facebookAdsBox" role="dialog" aria-modal="true">
 
             <div class="facebookAdsHeader">
-
-                <div
-                    id="facebookAdsTitle"
-                    class="facebookAdsTitle"
-                >
-                    Quảng cáo
-                </div>
-
-                <div
-                    id="facebookAdsProgress"
-                    class="facebookAdsProgress"
-                >
+                <div id="facebookAdsTitle" class="facebookAdsTitle">Quảng cáo</div>
+                <div id="facebookAdsProgress" class="facebookAdsProgress">
                     Vui lòng hoàn thành quảng cáo để tiếp tục đọc
                 </div>
-
             </div>
 
-
-            <div
-                id="facebookAdsSteps"
-                class="facebookAdsSteps"
-            >
-
-                <div
-                    id="facebookStep1"
-                    class="facebookStep"
-                >
-                    1/2 Shopee
-                </div>
-
-                <div
-                    class="facebookStepArrow"
-                >
-                    →
-                </div>
-
-                <div
-                    id="facebookStep2"
-                    class="facebookStep"
-                >
-                    2/2 ShopeeFood
-                </div>
-
+            <div id="facebookAdsSteps" class="facebookAdsSteps">
+                <div id="facebookStep1" class="facebookStep">1/2 Shopee</div>
+                <div class="facebookStepArrow">→</div>
+                <div id="facebookStep2" class="facebookStep">2/2 ShopeeFood</div>
             </div>
 
-
-            <div
-                id="facebookAdInstruction"
-                class="facebookAdInstruction"
-            >
-                Hãy mở quảng cáo và ở lại ít nhất
-                <strong>3 giây</strong>
-                rồi quay lại đây.
+            <div id="facebookAdInstruction" class="facebookAdInstruction">
+                Hãy mở quảng cáo và ở lại ít nhất <strong>3 giây</strong> rồi quay lại đây.
             </div>
 
+            <div id="facebookAdFrame" class="facebookAdFrame"></div>
 
-            <div
-                id="facebookAdFrame"
-                class="facebookAdFrame"
-            ></div>
+            <div id="facebookAdReturnMessage" class="facebookAdReturnMessage" style="display:none;"></div>
 
-
-            <div
-                id="facebookAdReturnMessage"
-                class="facebookAdReturnMessage"
-                style="display:none;"
-            ></div>
-
-
-            <div
-                id="facebookAdFinished"
-                class="facebookAdFinished"
-                style="display:none;"
-            >
-
-                <div
-                    id="facebookFinishedIcon"
-                    class="facebookFinishedIcon"
-                >
-                    ✓
-                </div>
-
-                <p
-                    id="facebookFinishedText"
-                    class="facebookFinishedText"
-                >
+            <div id="facebookAdFinished" class="facebookAdFinished" style="display:none;">
+                <div id="facebookFinishedIcon" class="facebookFinishedIcon">✓</div>
+                <p id="facebookFinishedText" class="facebookFinishedText">
                     Bạn đã hoàn thành 2 bước quảng cáo.
                     Bây giờ có thể tắt quảng cáo và đọc truyện.
                 </p>
-
-                <button
-                    id="facebookAdCloseButton"
-                    type="button"
-                >
+                <button id="facebookAdCloseButton" type="button">
                     ✕ TẮT QUẢNG CÁO → ĐỌC TRUYỆN
                 </button>
-
             </div>
 
         </div>
 
     `;
 
+    document.body.appendChild(modal);
 
-    document.body.appendChild(
-        modal
-    );
+    facebookAdsModal = modal;
 
-
-    facebookAdsModal =
-        modal;
-
-
-    const closeButton =
-        document.getElementById(
-            "facebookAdCloseButton"
-        );
-
+    const closeButton = document.getElementById("facebookAdCloseButton");
 
     if (closeButton) {
 
-        closeButton.addEventListener(
-            "click",
-            function () {
+        closeButton.addEventListener("click", function () {
 
-                if (
-                    getFacebookAdStage() < 2
-                ) {
-
-                    return;
-
-                }
-
-
-                markFacebookAdsCompletedToday();
-
-                closeFacebookAdModal();
-
-                unlockStory();
-
+            if (getFacebookAdStage() < 2) {
+                return;
             }
-        );
 
+            markFacebookAdsCompletedToday();
+            closeFacebookAdModal();
+            unlockStory();
+
+            /* Bắt đầu tính giờ đọc từ lúc này */
+            lastActiveTimestamp = Date.now();
+        });
     }
 
-
     return modal;
-
 }
 
-
 /* =========================================================
-   TẠO IFRAME FACEBOOK
+   IFRAME FACEBOOK
 ========================================================= */
 
 function createFacebookIframe(postUrl) {
 
-    const frame =
-        document.getElementById(
-            "facebookAdFrame"
-        );
-
+    const frame = document.getElementById("facebookAdFrame");
 
     if (!frame) {
         return;
     }
 
-
     frame.innerHTML = "";
 
+    const iframe = document.createElement("iframe");
 
-    const iframe =
-        document.createElement(
-            "iframe"
-        );
-
-
-    const embedUrl =
+    iframe.src =
         "https://www.facebook.com/plugins/post.php" +
-        "?href=" +
-        encodeURIComponent(
-            postUrl
-        ) +
+        "?href=" + encodeURIComponent(postUrl) +
         "&show_text=true" +
         "&width=480";
 
+    iframe.loading = "eager";
+    iframe.allow = "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share";
+    iframe.scrolling = "yes";
+    iframe.frameBorder = "0";
 
-    iframe.src =
-        embedUrl;
+    const zone = FACEBOOK_CLICK_ZONE[facebookAdCurrentType];
 
-    iframe.loading =
-        "eager";
+    if (!zone) {
+        frame.appendChild(iframe);
+        return;
+    }
 
-    iframe.allow =
-        "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share";
+    /*
+       Bọc iframe trong 1 khung, rồi phủ các lớp trong suốt
+       bao quanh ô chứa link Shopee.
+       Click vào các lớp này bị chặn → không nhảy sang bài Facebook.
+       Chỉ vùng ở giữa (zone) là click xuyên xuống được link.
+    */
 
-    iframe.scrolling =
-        "yes";
+    const wrapper = document.createElement("div");
 
-    iframe.frameBorder =
-        "0";
+    wrapper.style.cssText = "position:relative;width:100%;height:100%;overflow:hidden;";
 
+    wrapper.appendChild(iframe);
 
-    frame.appendChild(
-        iframe
-    );
+    /*
+       4 lớp chặn bao quanh đúng ô chứa link:
+       trên, dưới, trái, phải. Chỉ ô ở giữa
+       (top/left/width/height) là bấm xuyên xuống được.
+    */
 
+    const maskBase =
+        "position:absolute;z-index:5;cursor:default;" +
+        (FACEBOOK_ZONE_DEBUG
+            ? "background:rgba(255,0,0,.35);"
+            : "background:transparent;");
+
+    const zoneBottom = zone.top + zone.height;
+    const zoneRight = zone.left + zone.width;
+
+    const maskCss = [
+        "top:0;left:0;right:0;height:" + zone.top + "px;",
+        "top:" + zoneBottom + "px;left:0;right:0;bottom:0;",
+        "top:" + zone.top + "px;left:0;width:" + zone.left + "px;height:" + zone.height + "px;",
+        "top:" + zone.top + "px;left:" + zoneRight + "px;right:0;height:" + zone.height + "px;"
+    ];
+
+    maskCss.forEach(function (css) {
+
+        const mask = document.createElement("div");
+
+        mask.style.cssText = maskBase + css;
+
+        wrapper.appendChild(mask);
+    });
+
+    frame.appendChild(wrapper);
 }
-
 
 /* =========================================================
    CẬP NHẬT 2 BƯỚC
@@ -777,297 +425,113 @@ function createFacebookIframe(postUrl) {
 
 function updateFacebookSteps() {
 
-    const stage =
-        getFacebookAdStage();
+    const stage = getFacebookAdStage();
 
-
-    const step1 =
-        document.getElementById(
-            "facebookStep1"
-        );
-
-    const step2 =
-        document.getElementById(
-            "facebookStep2"
-        );
-
+    const step1 = document.getElementById("facebookStep1");
+    const step2 = document.getElementById("facebookStep2");
 
     if (!step1 || !step2) {
         return;
     }
 
-
-    step1.classList.remove(
-        "active",
-        "done"
-    );
-
-    step2.classList.remove(
-        "active",
-        "done"
-    );
-
+    step1.classList.remove("active", "done");
+    step2.classList.remove("active", "done");
 
     if (stage === 0) {
-
-        step1.classList.add(
-            "active"
-        );
-
+        step1.classList.add("active");
     }
-
 
     if (stage >= 1) {
-
-        step1.classList.add(
-            "done"
-        );
-
-        step2.classList.add(
-            "active"
-        );
-
+        step1.classList.add("done");
+        step2.classList.add("active");
     }
-
 
     if (stage >= 2) {
-
-        step1.classList.add(
-            "done"
-        );
-
-        step2.classList.add(
-            "done"
-        );
-
+        step1.classList.add("done");
+        step2.classList.add("done");
     }
-
 }
-
-
-/* =========================================================
-   CẬP NHẬT HƯỚNG DẪN
-========================================================= */
 
 function updateFacebookInstruction(message) {
 
-    const instruction =
-        document.getElementById(
-            "facebookAdInstruction"
-        );
-
+    const instruction = document.getElementById("facebookAdInstruction");
 
     if (!instruction) {
         return;
     }
 
-
-    instruction.innerHTML =
-        message;
-
+    instruction.innerHTML = message;
 }
 
-
 /* =========================================================
-   MỞ SHOPEE
+   HIỂN THỊ 1 QUẢNG CÁO (dùng chung Shopee / ShopeeFood)
 ========================================================= */
+
+function showFacebookAdStep(type, titleText, progressText, instructionHtml, url) {
+
+    facebookAdCurrentType = type;
+    facebookAdWaiting = false;
+    facebookAdHiddenAt = null;
+
+    const title = document.getElementById("facebookAdsTitle");
+    const progress = document.getElementById("facebookAdsProgress");
+
+    if (title) {
+        title.textContent = titleText;
+    }
+
+    if (progress) {
+        progress.textContent = progressText;
+    }
+
+    updateFacebookInstruction(instructionHtml);
+
+    createFacebookIframe(url);
+
+    const finished = document.getElementById("facebookAdFinished");
+
+    if (finished) {
+        finished.style.display = "none";
+    }
+
+    const frame = document.getElementById("facebookAdFrame");
+
+    if (frame) {
+        frame.style.display = "";
+    }
+
+    const returnMessage = document.getElementById("facebookAdReturnMessage");
+
+    if (returnMessage) {
+        returnMessage.style.display = "none";
+    }
+
+    updateFacebookSteps();
+}
 
 function openShopeeAd() {
 
-    facebookAdCurrentType =
-        "shopee";
-
-    facebookAdWaiting =
-        false;
-
-    facebookAdHiddenAt =
-        null;
-
-
-    const title =
-        document.getElementById(
-            "facebookAdsTitle"
-        );
-
-    const progress =
-        document.getElementById(
-            "facebookAdsProgress"
-        );
-
-
-    if (title) {
-
-        title.textContent =
-            "Quảng cáo Shopee";
-
-    }
-
-
-    if (progress) {
-
-        progress.textContent =
-            "Bước 1/2 — Hãy mở quảng cáo và ở lại ít nhất 3 giây rồi quay lại";
-
-    }
-
-
-    updateFacebookInstruction(
+    showFacebookAdStep(
+        "shopee",
+        "Quảng cáo Shopee",
+        "Bước 1/2 — Hãy mở quảng cáo và ở lại ít nhất 3 giây rồi quay lại",
         '👉 <strong>Hãy mở quảng cáo Shopee và ở lại ít nhất 3 giây rồi quay lại đây.</strong><br>' +
-        'Đây là bước 1/2. Sau khi quay lại, hệ thống sẽ kiểm tra thời gian.'
-    );
-
-
-    createFacebookIframe(
+        'Đây là bước 1/2. Sau khi quay lại, hệ thống sẽ kiểm tra thời gian.',
         FACEBOOK_ADS.shopee.url
     );
-
-
-    const finished =
-        document.getElementById(
-            "facebookAdFinished"
-        );
-
-
-    if (finished) {
-
-        finished.style.display =
-            "none";
-
-    }
-
-
-    const frame =
-        document.getElementById(
-            "facebookAdFrame"
-        );
-
-
-    if (frame) {
-
-        frame.style.display =
-            "";
-
-    }
-
-
-    const returnMessage =
-        document.getElementById(
-            "facebookAdReturnMessage"
-        );
-
-
-    if (returnMessage) {
-
-        returnMessage.style.display =
-            "none";
-
-    }
-
-
-    updateFacebookSteps();
-
 }
-
-
-/* =========================================================
-   MỞ SHOPEEFOOD
-========================================================= */
 
 function openShopeeFoodAd() {
 
-    facebookAdCurrentType =
-        "shopeefood";
-
-    facebookAdWaiting =
-        false;
-
-    facebookAdHiddenAt =
-        null;
-
-
-    const title =
-        document.getElementById(
-            "facebookAdsTitle"
-        );
-
-    const progress =
-        document.getElementById(
-            "facebookAdsProgress"
-        );
-
-
-    if (title) {
-
-        title.textContent =
-            "Quảng cáo ShopeeFood";
-
-    }
-
-
-    if (progress) {
-
-        progress.textContent =
-    "Bước 2/2 — Hãy mở quảng cáo rồi quay lại";
-    }
-
-
-    updateFacebookInstruction(
-    '👉 <strong>Hãy mở quảng cáo ShopeeFood rồi quay lại đây.</strong><br>' +
-    'Đây là bước 2/2. Sau khi quay lại, hệ thống sẽ kiểm tra và hoàn tất.'
-);
-
-
-    createFacebookIframe(
+    showFacebookAdStep(
+        "shopeefood",
+        "Quảng cáo ShopeeFood",
+        "Bước 2/2 — Hãy mở quảng cáo rồi quay lại",
+        '👉 <strong>Hãy mở quảng cáo ShopeeFood rồi quay lại đây.</strong><br>' +
+        'Đây là bước 2/2. Sau khi quay lại, hệ thống sẽ kiểm tra và hoàn tất.',
         FACEBOOK_ADS.shopeefood.url
     );
-
-
-    const finished =
-        document.getElementById(
-            "facebookAdFinished"
-        );
-
-
-    if (finished) {
-
-        finished.style.display =
-            "none";
-
-    }
-
-
-    const frame =
-        document.getElementById(
-            "facebookAdFrame"
-        );
-
-
-    if (frame) {
-
-        frame.style.display =
-            "";
-
-    }
-
-
-    const returnMessage =
-        document.getElementById(
-            "facebookAdReturnMessage"
-        );
-
-
-    if (returnMessage) {
-
-        returnMessage.style.display =
-            "none";
-
-    }
-
-
-    updateFacebookSteps();
-
 }
-
 
 /* =========================================================
    BẮT ĐẦU FACEBOOK ADS
@@ -1077,50 +541,27 @@ function startFacebookAdFlow() {
 
     createFacebookAdModal();
 
+    const stage = getFacebookAdStage();
 
-    const stage =
-        getFacebookAdStage();
+    facebookAdsModal.classList.add("active");
+    facebookAdsModal.style.display = "flex";
 
-
-    facebookAdsModal.classList.add(
-        "active"
-    );
-
-    facebookAdsModal.style.display =
-        "flex";
-
-
-    document.body.classList.add(
-        "facebookAdsOpen"
-    );
-
+    document.body.classList.add("facebookAdsOpen");
 
     if (stage === 0) {
-
         openShopeeAd();
-
         return;
-
     }
-
 
     if (stage === 1) {
-
         openShopeeFoodAd();
-
         return;
-
     }
-
 
     if (stage >= 2) {
-
         showFacebookAdFinished();
-
     }
-
 }
-
 
 /* =========================================================
    GHI NHẬN RỜI TRANG
@@ -1128,59 +569,34 @@ function startFacebookAdFlow() {
 
 function markFacebookAdLeft() {
 
-    if (
-        !facebookAdsModal ||
-        !facebookAdsModal.classList.contains(
-            "active"
-        )
-    ) {
-
+    if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
         return;
-
     }
-
 
     if (facebookAdWaiting) {
         return;
     }
 
+    facebookAdHiddenAt = Date.now();
+    facebookAdWaiting = true;
 
-    facebookAdHiddenAt =
-        Date.now();
+    localStorage.setItem(facebookAdLeftKey, String(facebookAdHiddenAt));
 
-    facebookAdWaiting =
-        true;
+    if (facebookAdCurrentType === "shopeefood") {
 
+        updateFacebookInstruction(
+            '⏳ <strong>Đã ghi nhận bạn rời trang.</strong><br>' +
+            'Hãy quay lại để hoàn tất bước ShopeeFood.'
+        );
 
-    localStorage.setItem(
-        facebookAdLeftKey,
-        String(
-            facebookAdHiddenAt
-        )
-    );
+    } else {
 
-
-    if (
-    facebookAdCurrentType ===
-    "shopeefood"
-) {
-
-    updateFacebookInstruction(
-        '⏳ <strong>Đã ghi nhận bạn rời trang.</strong><br>' +
-        'Hãy quay lại để hoàn tất bước ShopeeFood.'
-    );
-
-} else {
-
-    updateFacebookInstruction(
-        '⏳ <strong>Đang tính 3 giây...</strong><br>' +
-        'Hãy ở lại trang quảng cáo Shopee ít nhất <strong>3 giây</strong> rồi quay lại.'
-    );
-
+        updateFacebookInstruction(
+            '⏳ <strong>Đang tính 3 giây...</strong><br>' +
+            'Hãy ở lại trang quảng cáo Shopee ít nhất <strong>3 giây</strong> rồi quay lại.'
+        );
+    }
 }
-
-}
-
 
 /* =========================================================
    KIỂM TRA QUAY LẠI
@@ -1192,109 +608,52 @@ function checkFacebookAdReturn() {
         return;
     }
 
-
     if (facebookAdHiddenAt === null) {
         return;
     }
 
-
-    const hiddenDuration =
-        Date.now() -
-        facebookAdHiddenAt;
-
+    const hiddenDuration = Date.now() - facebookAdHiddenAt;
 
     const requiredTime =
         facebookAdCurrentType === "shopee"
             ? FACEBOOK_SHOPEE_MIN_LEAVE_TIME
             : FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME;
 
+    if (hiddenDuration < requiredTime) {
 
-    /*
-       Nếu chưa đủ 3 giây,
-       KHÔNG hoàn thành bước.
-    */
-
-    if (
-        hiddenDuration <
-        requiredTime
-    ) {
-
-        const remain =
-            Math.max(
-                1,
-                Math.ceil(
-                    (
-                        requiredTime -
-                        hiddenDuration
-                    ) / 1000
-                )
-            );
-
-
-        facebookAdWaiting =
-            false;
-
-        facebookAdHiddenAt =
-            null;
-
-
-        localStorage.removeItem(
-            facebookAdLeftKey
+        const remain = Math.max(
+            1,
+            Math.ceil((requiredTime - hiddenDuration) / 1000)
         );
 
+        facebookAdWaiting = false;
+        facebookAdHiddenAt = null;
 
-        const message =
-            document.getElementById(
-                "facebookAdReturnMessage"
-            );
+        localStorage.removeItem(facebookAdLeftKey);
 
+        const message = document.getElementById("facebookAdReturnMessage");
 
         if (message) {
-
-            message.style.display =
-                "block";
-
+            message.style.display = "block";
             message.textContent =
-                "Bạn quay lại quá sớm. Hãy ở lại quảng cáo thêm " +
-                remain +
-                " giây.";
-
+                "Bạn quay lại quá sớm. Hãy ở lại quảng cáo thêm " + remain + " giây.";
         }
-
 
         updateFacebookInstruction(
             '⚠️ <strong>Chưa đủ 3 giây.</strong><br>' +
-            'Hãy mở quảng cáo và ở lại thêm ít nhất ' +
-            remain +
-            ' giây rồi quay lại.'
+            'Hãy mở quảng cáo và ở lại thêm ít nhất ' + remain + ' giây rồi quay lại.'
         );
 
-
         return;
-
     }
 
+    facebookAdWaiting = false;
+    facebookAdHiddenAt = null;
 
-    /*
-       ĐỦ 3 GIÂY.
-    */
-
-    facebookAdWaiting =
-        false;
-
-    facebookAdHiddenAt =
-        null;
-
-
-    localStorage.removeItem(
-        facebookAdLeftKey
-    );
-
+    localStorage.removeItem(facebookAdLeftKey);
 
     markFacebookAdCompletedStep();
-
 }
-
 
 /* =========================================================
    HOÀN THÀNH TỪNG BƯỚC
@@ -1302,100 +661,47 @@ function checkFacebookAdReturn() {
 
 function markFacebookAdCompletedStep() {
 
-    const stage =
-        getFacebookAdStage();
+    const stage = getFacebookAdStage();
 
-
-    /* =====================================================
-       SHOPEE
-    ===================================================== */
-
-    if (
-        stage === 0 &&
-        facebookAdCurrentType === "shopee"
-    ) {
+    if (stage === 0 && facebookAdCurrentType === "shopee") {
 
         setFacebookAdStage(1);
 
-
-        const message =
-            document.getElementById(
-                "facebookAdReturnMessage"
-            );
-
+        const message = document.getElementById("facebookAdReturnMessage");
 
         if (message) {
-
-            message.style.display =
-                "block";
-
-            message.textContent =
-                "✓ Đã hoàn thành bước Shopee.";
-
+            message.style.display = "block";
+            message.textContent = "✓ Đã hoàn thành bước Shopee.";
         }
 
-
         updateFacebookSteps();
-
 
         updateFacebookInstruction(
             '✓ <strong>Đã hoàn thành bước 1/2.</strong><br>' +
             'Bây giờ hãy thực hiện tiếp quảng cáo ShopeeFood.'
         );
 
-
-        setTimeout(
-            function () {
-
-                openShopeeFoodAd();
-
-            },
-            500
-        );
-
+        setTimeout(openShopeeFoodAd, 500);
 
         return;
-
     }
 
-
-    /* =====================================================
-       SHOPEEFOOD
-    ===================================================== */
-
-    if (
-        stage === 1 &&
-        facebookAdCurrentType === "shopeefood"
-    ) {
+    if (stage === 1 && facebookAdCurrentType === "shopeefood") {
 
         setFacebookAdStage(2);
 
-
         updateFacebookSteps();
-
 
         updateFacebookInstruction(
             '✓ <strong>Đã hoàn thành bước 2/2.</strong><br>' +
             'Bạn đã hoàn thành đủ hai quảng cáo.'
         );
 
-
-        setTimeout(
-            function () {
-
-                showFacebookAdFinished();
-
-            },
-            300
-        );
-
+        setTimeout(showFacebookAdFinished, 300);
 
         return;
-
     }
-
 }
-
 
 /* =========================================================
    HIỆN HOÀN TẤT
@@ -1403,69 +709,34 @@ function markFacebookAdCompletedStep() {
 
 function showFacebookAdFinished() {
 
-    const frame =
-        document.getElementById(
-            "facebookAdFrame"
-        );
-
-    const finished =
-        document.getElementById(
-            "facebookAdFinished"
-        );
-
-    const title =
-        document.getElementById(
-            "facebookAdsTitle"
-        );
-
-    const progress =
-        document.getElementById(
-            "facebookAdsProgress"
-        );
-
+    const frame = document.getElementById("facebookAdFrame");
+    const finished = document.getElementById("facebookAdFinished");
+    const title = document.getElementById("facebookAdsTitle");
+    const progress = document.getElementById("facebookAdsProgress");
 
     if (frame) {
-
-        frame.style.display =
-            "none";
-
+        frame.style.display = "none";
     }
-
 
     if (finished) {
-
-        finished.style.display =
-            "block";
-
+        finished.style.display = "block";
     }
-
 
     if (title) {
-
-        title.textContent =
-            "Quảng cáo đã hoàn thành";
-
+        title.textContent = "Quảng cáo đã hoàn thành";
     }
-
 
     if (progress) {
-
-        progress.textContent =
-            "Đã hoàn thành đủ 2/2 bước";
-
+        progress.textContent = "Đã hoàn thành đủ 2/2 bước";
     }
 
-
     updateFacebookSteps();
-
 
     updateFacebookInstruction(
         '✓ <strong>Hoàn tất quảng cáo.</strong><br>' +
         'Bạn có thể nhấn nút bên dưới để bắt đầu đọc truyện.'
     );
-
 }
-
 
 /* =========================================================
    ĐÓNG MODAL
@@ -1477,193 +748,78 @@ function closeFacebookAdModal() {
         return;
     }
 
+    facebookAdsModal.classList.remove("active");
+    facebookAdsModal.style.display = "none";
 
-    facebookAdsModal.classList.remove(
-        "active"
-    );
+    document.body.classList.remove("facebookAdsOpen");
 
-    facebookAdsModal.style.display =
-        "none";
-
-
-    document.body.classList.remove(
-        "facebookAdsOpen"
-    );
-
-
-    facebookAdWaiting =
-        false;
-
-    facebookAdHiddenAt =
-        null;
-
+    facebookAdWaiting = false;
+    facebookAdHiddenAt = null;
 }
 
-
 /* =========================================================
-   THEO DÕI TAB / TRANG
+   THEO DÕI TAB / TRANG (quảng cáo Facebook)
 ========================================================= */
 
-document.addEventListener(
-    "visibilitychange",
-    function () {
+document.addEventListener("visibilitychange", function () {
 
-        if (
-            !facebookAdsModal ||
-            !facebookAdsModal.classList.contains(
-                "active"
-            )
-        ) {
-
-            return;
-
-        }
-
-
-        /*
-           NGƯỜI DÙNG RỜI TRANG
-        */
-
-        if (
-            document.visibilityState ===
-            "hidden"
-        ) {
-
-            markFacebookAdLeft();
-
-            return;
-
-        }
-
-
-        /*
-           NGƯỜI DÙNG QUAY LẠI
-
-           KHÔNG DELAY 300ms.
-           Date.now() đã tính thời gian thực.
-        */
-
-        if (
-            document.visibilityState ===
-            "visible"
-        ) {
-
-            checkFacebookAdReturn();
-
-        }
-
+    if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
+        return;
     }
-);
 
-
-/* =========================================================
-   PAGEHIDE
-========================================================= */
-
-window.addEventListener(
-    "pagehide",
-    function () {
-
-        if (
-            !facebookAdsModal ||
-            !facebookAdsModal.classList.contains(
-                "active"
-            )
-        ) {
-
-            return;
-
-        }
-
-
+    if (document.visibilityState === "hidden") {
         markFacebookAdLeft();
-
+        return;
     }
-);
 
+    if (document.visibilityState === "visible") {
+        checkFacebookAdReturn();
+    }
+});
+
+window.addEventListener("pagehide", function () {
+
+    if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
+        return;
+    }
+
+    markFacebookAdLeft();
+});
+
+window.addEventListener("pageshow", function () {
+
+    if (facebookAdWaiting) {
+        checkFacebookAdReturn();
+    }
+});
 
 /* =========================================================
-   PAGESHOW
-========================================================= */
+   ACTIVE TIME (thời gian đọc thực tế)
 
-window.addEventListener(
-    "pageshow",
-    function () {
-
-        if (
-            facebookAdWaiting
-        ) {
-
-            checkFacebookAdReturn();
-
-        }
-
-    }
-);
-
-
-/* =========================================================
-   ACTIVE TIME
+   CHỈ ĐẾM KHI:
+   - truyện đã mở khóa (đã xong quảng cáo Shopee + ShopeeFood)
+   - tab đang hiển thị
 ========================================================= */
 
 function getActiveSeconds() {
 
-    const savedDate =
-        localStorage.getItem(
-            activeTimeDateKey
-        );
-
-
-    if (
-        savedDate !== getToday()
-    ) {
-
-        localStorage.setItem(
-            activeTimeDateKey,
-            getToday()
-        );
-
-        localStorage.setItem(
-            activeTimeKey,
-            "0"
-        );
-
+    if (localStorage.getItem(activeTimeDateKey) !== getToday()) {
+        localStorage.setItem(activeTimeDateKey, getToday());
+        localStorage.setItem(activeTimeKey, "0");
         return 0;
-
     }
 
-
-    return Number(
-        localStorage.getItem(
-            activeTimeKey
-        )
-    ) || 0;
-
+    return Number(localStorage.getItem(activeTimeKey)) || 0;
 }
-
-
-/* =========================================================
-   LƯU ACTIVE TIME
-========================================================= */
 
 function saveActiveSeconds() {
-
-    localStorage.setItem(
-        activeTimeKey,
-        String(activeSeconds)
-    );
-
-    localStorage.setItem(
-        activeTimeDateKey,
-        getToday()
-    );
-
+    localStorage.setItem(activeTimeKey, String(activeSeconds));
+    localStorage.setItem(activeTimeDateKey, getToday());
 }
 
-
-/* =========================================================
-   BẮT ĐẦU ĐẾM THỜI GIAN ĐỌC
-========================================================= */
+function hasReadEnough() {
+    return storyUnlocked && activeSeconds >= ACTIVE_TIME_LIMIT;
+}
 
 function startActiveTime() {
 
@@ -1671,106 +827,197 @@ function startActiveTime() {
         return;
     }
 
+    activeSeconds = getActiveSeconds();
+    lastActiveTimestamp = Date.now();
 
-    activeSeconds =
-        getActiveSeconds();
+    activeTimer = setInterval(function () {
 
-    lastActiveTimestamp =
-        Date.now();
+        /* Chưa mở khóa hoặc đang ẩn tab: không tính giờ */
+        if (document.visibilityState !== "visible" || !storyUnlocked) {
+            lastActiveTimestamp = Date.now();
+            return;
+        }
 
+        const now = Date.now();
+        const elapsed = Math.floor((now - lastActiveTimestamp) / 1000);
 
-    activeTimer =
-        setInterval(
-            function () {
+        if (elapsed > 0) {
 
-                if (
-                    document.visibilityState !==
-                    "visible"
-                ) {
+            activeSeconds += elapsed;
 
-                    lastActiveTimestamp =
-                        Date.now();
+            /* Giữ phần lẻ để không bị mất giây */
+            lastActiveTimestamp += elapsed * 1000;
 
-                    return;
+            if (activeSeconds >= ACTIVE_TIME_LIMIT) {
+                activeSeconds = ACTIVE_TIME_LIMIT;
+            }
 
-                }
+            saveActiveSeconds();
+        }
 
-
-                const now =
-                    Date.now();
-
-
-                const elapsed =
-                    Math.floor(
-                        (
-                            now -
-                            lastActiveTimestamp
-                        ) / 1000
-                    );
-
-
-                if (elapsed > 0) {
-
-                    activeSeconds +=
-                        elapsed;
-
-                    lastActiveTimestamp =
-                        now;
-
-                    saveActiveSeconds();
-
-                }
-
-
-                if (
-                    activeSeconds >=
-                    ACTIVE_TIME_LIMIT
-                ) {
-
-                    activeSeconds =
-                        ACTIVE_TIME_LIMIT;
-
-                    saveActiveSeconds();
-
-                }
-
-            },
-            1000
-        );
-
+    }, 1000);
 }
-
-
-/* =========================================================
-   DỪNG ACTIVE TIME
-========================================================= */
 
 function stopActiveTime() {
 
     if (activeTimer) {
-
-        clearInterval(
-            activeTimer
-        );
-
-        activeTimer =
-            null;
-
+        clearInterval(activeTimer);
+        activeTimer = null;
     }
 
-
     saveActiveSeconds();
-
 }
 
+/* =========================================================
+   REDIRECT: SAU KHI ĐỌC ĐỦ 10 PHÚT
+   Bấm vào NỀN trang:
+     lần 1 → mở TikTok
+     lần 2 → mở Lazada
+   Sau đó không mở nữa (trong ngày).
+========================================================= */
+
+function openRedirectLink(url, nextStage) {
+
+    if (!url) {
+        return false;
+    }
+
+    localStorage.setItem(redirectLeavingKey, Date.now().toString());
+
+    const win = window.open(url, "_blank");
+
+    /* Trình duyệt chặn popup → không tính là đã mở */
+    if (!win) {
+        localStorage.removeItem(redirectLeavingKey);
+        return false;
+    }
+
+    setRedirectStage(nextStage);
+
+    return true;
+}
+
+/* Mở bước tiếp theo theo thứ tự TikTok → Lazada */
+function openNextRedirect() {
+
+    if (!hasReadEnough()) {
+        return false;
+    }
+
+    const stage = getRedirectStage();
+
+    if (stage === 0) {
+        return openRedirectLink(TIKTOK_URL, 1);
+    }
+
+    if (stage === 1) {
+        return openRedirectLink(LAZADA_URL, 2);
+    }
+
+    return false;
+}
+
+/* Các phần tử KHÔNG được coi là "nền" */
+const REDIRECT_IGNORE_SELECTOR = [
+    "a",
+    "button",
+    "input",
+    "textarea",
+    "select",
+    "label",
+    "audio",
+    "video",
+    "iframe",
+    "[data-audio]",
+    "#facebookAdsModal",
+    "#readerResumePopup",
+    "#xoiThitPopup"
+].join(",");
+
+function initBackgroundRedirect() {
+
+    document.addEventListener("click", function (event) {
+
+        /* Chưa mở khóa / chưa đọc đủ 10 phút / đã xong cả hai link */
+        if (!hasReadEnough() || isRedirectFinishedToday()) {
+            return;
+        }
+
+        /* Đang hiện quảng cáo Facebook hoặc popup đọc tiếp */
+        if (
+            (facebookAdsModal && facebookAdsModal.classList.contains("active")) ||
+            document.getElementById("readerResumePopup")
+        ) {
+            return;
+        }
+
+        /* Chỉ nhận click vào nền, bỏ qua nút/link/audio... */
+        if (event.target.closest(REDIRECT_IGNORE_SELECTOR)) {
+            return;
+        }
+
+        openNextRedirect();
+
+    });
+}
+
+/* Nút tiktok-read / lazada-read (nếu có trong HTML) */
+function initRedirectButtons() {
+
+    const tiktokButton = document.getElementById("tiktok-read");
+    const lazadaButton = document.getElementById("lazada-read");
+
+    if (tiktokButton) {
+
+        tiktokButton.addEventListener("click", function () {
+
+            if (!hasReadEnough()) {
+                showNotEnoughTime();
+                return;
+            }
+
+            if (getRedirectStage() >= 1) {
+                return;
+            }
+
+            openRedirectLink(TIKTOK_URL, 1);
+        });
+    }
+
+    if (lazadaButton) {
+
+        lazadaButton.addEventListener("click", function () {
+
+            if (!hasReadEnough()) {
+                showNotEnoughTime();
+                return;
+            }
+
+            if (getRedirectStage() < 1) {
+                alert("Hãy mở link TikTok trước.");
+                return;
+            }
+
+            if (getRedirectStage() >= 2) {
+                return;
+            }
+
+            openRedirectLink(LAZADA_URL, 2);
+        });
+    }
+}
+
+function showNotEnoughTime() {
+
+    const remain = Math.max(0, ACTIVE_TIME_LIMIT - activeSeconds);
+    const m = Math.floor(remain / 60);
+    const s = remain % 60;
+
+    alert("Bạn cần đọc thêm " + m + " phút " + s + " giây nữa để mở link.");
+}
 
 /* =========================================================
-   LƯU VỊ TRÍ ĐỌC
-
-   ĐÃ SỬA LỖI:
-   Thêm kiểm tra scrollTrackingReady để không ghi đè vị trí
-   đã lưu trong lúc đang chờ người dùng trả lời popup
-   "Đọc tiếp?" (xem showResumePopup() bên dưới).
+   LƯU / KHÔI PHỤC VỊ TRÍ ĐỌC
 ========================================================= */
 
 function saveReadingPosition() {
@@ -1779,72 +1026,39 @@ function saveReadingPosition() {
         return;
     }
 
-
     if (!scrollTrackingReady) {
         return;
     }
 
-
-    localStorage.setItem(
-        readingPositionKey,
-        String(
-            window.scrollY
-        )
-    );
-
+    localStorage.setItem(readingPositionKey, String(window.scrollY));
 }
-
-
-/* =========================================================
-   KHÔI PHỤC VỊ TRÍ ĐỌC
-========================================================= */
 
 function restoreReadingPosition() {
 
-    const saved =
-        localStorage.getItem(
-            readingPositionKey
-        );
-
+    const saved = localStorage.getItem(readingPositionKey);
 
     if (saved === null) {
         return;
     }
 
+    const position = Number(saved);
 
-    const position =
-        Number(saved);
-
-
-    if (
-        !Number.isFinite(position) ||
-        position <= 0
-    ) {
-
+    if (!Number.isFinite(position) || position <= 0) {
         return;
-
     }
 
+    setTimeout(function () {
 
-    setTimeout(
-        function () {
+        window.scrollTo({
+            top: position,
+            behavior: "auto"
+        });
 
-            window.scrollTo(
-                {
-                    top: position,
-                    behavior: "auto"
-                }
-            );
-
-        },
-        300
-    );
-
+    }, 300);
 }
 
-
 /* =========================================================
-   LƯU VỊ TRÍ AUDIO
+   AUDIO
 ========================================================= */
 
 function saveAudioPosition(audio) {
@@ -1853,153 +1067,60 @@ function saveAudioPosition(audio) {
         return;
     }
 
-
     if (!storyUnlocked) {
         return;
     }
 
-
-    if (
-        !Number.isFinite(
-            audio.currentTime
-        )
-    ) {
-
+    if (!Number.isFinite(audio.currentTime)) {
         return;
-
     }
 
-
-    localStorage.setItem(
-        audioPositionKey,
-        String(
-            audio.currentTime
-        )
-    );
-
+    localStorage.setItem(audioPositionKey, String(audio.currentTime));
 }
-
-
-/* =========================================================
-   KHÔI PHỤC AUDIO
-========================================================= */
 
 function restoreAudioPosition() {
 
-    const audio =
-        document.querySelector(
-            "audio"
-        );
-
+    const audio = document.querySelector("audio");
 
     if (!audio) {
         return;
     }
 
-
-    const saved =
-        localStorage.getItem(
-            audioPositionKey
-        );
-
+    const saved = localStorage.getItem(audioPositionKey);
 
     if (saved === null) {
         return;
     }
 
+    const position = Number(saved);
 
-    const position =
-        Number(saved);
-
-
-    if (
-        !Number.isFinite(position) ||
-        position <= 0
-    ) {
-
+    if (!Number.isFinite(position) || position <= 0) {
         return;
-
     }
 
+    const restore = function () {
 
-    const restore =
-        function () {
+        try {
 
-            try {
-
-                if (
-                    position <
-                    audio.duration
-                ) {
-
-                    audio.currentTime =
-                        position;
-
-                }
-
-            } catch (error) {
-
-                console.warn(
-                    "Không thể khôi phục audio:",
-                    error
-                );
-
+            if (position < audio.duration) {
+                audio.currentTime = position;
             }
 
-        };
+        } catch (error) {
 
-
-    if (
-        audio.readyState >= 1
-    ) {
-
-        restore();
-
-    } else {
-
-        audio.addEventListener(
-            "loadedmetadata",
-            restore,
-            {
-                once: true
-            }
-        );
-
-    }
-
-
-    audio.addEventListener(
-        "timeupdate",
-        function () {
-
-            saveAudioPosition(
-                audio
-            );
-
+            console.warn("Không thể khôi phục audio:", error);
         }
-    );
+    };
 
+    if (audio.readyState >= 1) {
+        restore();
+    } else {
+        audio.addEventListener("loadedmetadata", restore, { once: true });
+    }
 }
-
 
 /* =========================================================
    POPUP ĐỌC TIẾP
-
-   ĐÃ SỬA LỖI (id/class khớp CSS — giữ như bản gốc):
-   Trước đây JS tạo popup với id "resumeReadingPopup" và các
-   class "resumeReadingBox" / "resumeReadingTitle" / ...
-   nhưng file CSS lại định nghĩa style cho các tên khác hẳn:
-   "#readerResumePopup", ".reader-resume-overlay",
-   ".reader-resume-box", ".reader-resume-btn" v.v.
-   Đã đổi toàn bộ id/class trong JS để khớp đúng với CSS
-   sẵn có, giữ nguyên logic.
-
-   ĐÃ SỬA LỖI THÊM (lần này):
-   Khóa scrollTrackingReady = false ngay khi bắt đầu hiện
-   popup, và chỉ mở lại (= true) sau khi người dùng đã bấm
-   "Đọc tiếp" hoặc "Đọc từ đầu". Nhờ vậy, mọi sự kiện scroll
-   xảy ra trong lúc popup đang chờ người dùng sẽ không ghi
-   đè vị trí đã lưu trong localStorage.
 ========================================================= */
 
 function showResumePopup() {
@@ -2008,45 +1129,20 @@ function showResumePopup() {
         return;
     }
 
+    resumePopupShown = true;
 
-    resumePopupShown =
-        true;
+    const saved = localStorage.getItem(readingPositionKey);
 
-
-    const saved =
-        localStorage.getItem(
-            readingPositionKey
-        );
-
-
-    if (
-        !saved ||
-        Number(saved) <= 50
-    ) {
-
+    if (!saved || Number(saved) <= 50) {
         return;
-
     }
 
+    /* Khóa lưu scroll trong lúc chờ người dùng trả lời */
+    scrollTrackingReady = false;
 
-    /*
-       Tạm khóa việc lưu scroll trong lúc chờ
-       người dùng trả lời popup.
-    */
+    const popup = document.createElement("div");
 
-    scrollTrackingReady =
-        false;
-
-
-    const popup =
-        document.createElement(
-            "div"
-        );
-
-
-    popup.id =
-        "readerResumePopup";
-
+    popup.id = "readerResumePopup";
 
     popup.innerHTML = `
 
@@ -2054,13 +1150,9 @@ function showResumePopup() {
 
             <div class="reader-resume-box">
 
-                <div class="reader-resume-icon">
-                    📖
-                </div>
+                <div class="reader-resume-icon">📖</div>
 
-                <div class="reader-resume-title">
-                    Bạn có muốn đọc tiếp?
-                </div>
+                <div class="reader-resume-title">Bạn có muốn đọc tiếp?</div>
 
                 <div class="reader-resume-description">
                     Hệ thống đã lưu vị trí đọc trước đó.
@@ -2069,19 +1161,11 @@ function showResumePopup() {
 
                 <div class="reader-resume-buttons">
 
-                    <button
-                        id="resumeYesBtn"
-                        class="reader-resume-btn reader-resume-yes"
-                        type="button"
-                    >
+                    <button id="resumeYesBtn" class="reader-resume-btn reader-resume-yes" type="button">
                         ▶ Đọc tiếp
                     </button>
 
-                    <button
-                        id="resumeNoBtn"
-                        class="reader-resume-btn reader-resume-no"
-                        type="button"
-                    >
+                    <button id="resumeNoBtn" class="reader-resume-btn reader-resume-no" type="button">
                         ↩ Đọc từ đầu
                     </button>
 
@@ -2093,137 +1177,55 @@ function showResumePopup() {
 
     `;
 
+    document.body.appendChild(popup);
 
-    document.body.appendChild(
-        popup
-    );
-
-
-    const yes =
-        document.getElementById(
-            "resumeYesBtn"
-        );
-
-    const no =
-        document.getElementById(
-            "resumeNoBtn"
-        );
-
+    const yes = document.getElementById("resumeYesBtn");
+    const no = document.getElementById("resumeNoBtn");
 
     if (yes) {
 
-        yes.addEventListener(
-            "click",
-            function () {
+        yes.addEventListener("click", function () {
 
-                popup.remove();
+            popup.remove();
 
-                restoreReadingPosition();
+            restoreReadingPosition();
 
-                /*
-                   Mở lại việc lưu scroll SAU khi
-                   restoreReadingPosition() đã cuộn xong
-                   (setTimeout 300ms bên trong hàm đó),
-                   để lần cuộn tự động này không bị coi
-                   là thao tác của người dùng.
-                */
-
-                setTimeout(
-                    function () {
-
-                        scrollTrackingReady =
-                            true;
-
-                    },
-                    400
-                );
-
-            }
-        );
-
+            setTimeout(function () {
+                scrollTrackingReady = true;
+            }, 400);
+        });
     }
-
 
     if (no) {
 
-        no.addEventListener(
-            "click",
-            function () {
+        no.addEventListener("click", function () {
 
-                localStorage.removeItem(
-                    readingPositionKey
-                );
+            localStorage.removeItem(readingPositionKey);
+            localStorage.removeItem(audioPositionKey);
 
-                /*
-                   ĐÃ SỬA LỖI:
-                   Trước đây chỉ xóa vị trí CUỘN TRANG
-                   (readingPositionKey), nhưng vị trí AUDIO
-                   (audioPositionKey) vẫn còn nguyên trong
-                   localStorage. Kết quả: bấm "Đọc từ đầu"
-                   thì phần chữ về đầu, nhưng audio vẫn tua
-                   tới đoạn đang nghe dở trước đó.
+            const audio = document.querySelector("audio");
 
-                   Giờ xóa luôn audioPositionKey, và nếu
-                   đang có thẻ <audio> trên trang thì tua nó
-                   về 0 giây ngay lập tức.
-                */
+            if (audio) {
 
-                localStorage.removeItem(
-                    audioPositionKey
-                );
-
-
-                const audio =
-                    document.querySelector(
-                        "audio"
-                    );
-
-
-                if (audio) {
-
-                    try {
-
-                        audio.currentTime = 0;
-
-                        audio.pause();
-
-                    } catch (error) {
-
-                        console.warn(
-                            "Không thể đưa audio về đầu:",
-                            error
-                        );
-
-                    }
-
+                try {
+                    audio.currentTime = 0;
+                    audio.pause();
+                } catch (error) {
+                    console.warn("Không thể đưa audio về đầu:", error);
                 }
-
-
-                /*
-                   Đưa trang về đầu truyện cho khớp với
-                   việc "đọc từ đầu".
-                */
-
-                window.scrollTo(
-                    {
-                        top: 0,
-                        behavior: "auto"
-                    }
-                );
-
-
-                popup.remove();
-
-                scrollTrackingReady =
-                    true;
-
             }
-        );
 
+            window.scrollTo({
+                top: 0,
+                behavior: "auto"
+            });
+
+            popup.remove();
+
+            scrollTrackingReady = true;
+        });
     }
-
 }
-
 
 /* =========================================================
    SCROLL
@@ -2231,46 +1233,23 @@ function showResumePopup() {
 
 let saveScrollTimer = null;
 
+window.addEventListener("scroll", function () {
 
-window.addEventListener(
-    "scroll",
-    function () {
-
-        if (!storyUnlocked) {
-            return;
-        }
-
-
-        if (!scrollTrackingReady) {
-            return;
-        }
-
-
-        if (saveScrollTimer) {
-
-            clearTimeout(
-                saveScrollTimer
-            );
-
-        }
-
-
-        saveScrollTimer =
-            setTimeout(
-                function () {
-
-                    saveReadingPosition();
-
-                },
-                500
-            );
-
-    },
-    {
-        passive: true
+    if (!storyUnlocked) {
+        return;
     }
-);
 
+    if (!scrollTrackingReady) {
+        return;
+    }
+
+    if (saveScrollTimer) {
+        clearTimeout(saveScrollTimer);
+    }
+
+    saveScrollTimer = setTimeout(saveReadingPosition, 500);
+
+}, { passive: true });
 
 /* =========================================================
    SUPABASE - TĂNG LƯỢT XEM
@@ -2282,84 +1261,46 @@ async function increaseStoryView() {
         return;
     }
 
-
     if (
         !SUPABASE_URL ||
         !SUPABASE_ANON_KEY ||
-        SUPABASE_URL.includes(
-            "YOUR-PROJECT"
-        )
+        SUPABASE_URL.includes("YOUR-PROJECT")
     ) {
-
         return;
-
     }
 
-
-    if (
-        sessionStorage.getItem(
-            readingSessionKey
-        )
-    ) {
-
+    if (sessionStorage.getItem(readingSessionKey)) {
         return;
-
     }
-
 
     try {
 
-        const response =
-            await fetch(
-                SUPABASE_URL +
-                "/rest/v1/rpc/increment_story_view",
-                {
-                    method: "POST",
+        const response = await fetch(
+            SUPABASE_URL + "/rest/v1/rpc/increment_story_view",
+            {
+                method: "POST",
 
-                    headers: {
-                        "Content-Type":
-                            "application/json",
+                headers: {
+                    "Content-Type": "application/json",
+                    "apikey": SUPABASE_ANON_KEY,
+                    "Authorization": "Bearer " + SUPABASE_ANON_KEY
+                },
 
-                        "apikey":
-                            SUPABASE_ANON_KEY,
-
-                        "Authorization":
-                            "Bearer " +
-                            SUPABASE_ANON_KEY
-                    },
-
-                    body: JSON.stringify(
-                        {
-                            story_id:
-                                String(
-                                    storyId
-                                )
-                        }
-                    )
-                }
-            );
-
+                body: JSON.stringify({
+                    story_id: String(storyId)
+                })
+            }
+        );
 
         if (response.ok) {
-
-            sessionStorage.setItem(
-                readingSessionKey,
-                "1"
-            );
-
+            sessionStorage.setItem(readingSessionKey, "1");
         }
 
     } catch (error) {
 
-        console.warn(
-            "Không thể tăng lượt xem:",
-            error
-        );
-
+        console.warn("Không thể tăng lượt xem:", error);
     }
-
 }
-
 
 /* =========================================================
    POPUP XÔI THỊT
@@ -2367,145 +1308,29 @@ async function increaseStoryView() {
 
 function initXoiThitPopup() {
 
-    const popup =
-        document.getElementById(
-            "xoiThitPopup"
-        );
-
+    const popup = document.getElementById("xoiThitPopup");
 
     if (!popup) {
         return;
     }
 
-
-    const yes =
-        document.getElementById(
-            "xoiThitYes"
-        );
-
-    const no =
-        document.getElementById(
-            "xoiThitNo"
-        );
-
+    const yes = document.getElementById("xoiThitYes");
+    const no = document.getElementById("xoiThitNo");
 
     if (yes) {
 
-        yes.addEventListener(
-            "click",
-            function () {
-
-                window.location.href =
-                    "https://truyenxoithitmiumiu.nekoweb.org/";
-
-            }
-        );
-
+        yes.addEventListener("click", function () {
+            window.location.href = "https://truyenxoithitmiumiu.nekoweb.org/";
+        });
     }
-
 
     if (no) {
 
-        no.addEventListener(
-            "click",
-            function () {
-
-                popup.style.display =
-                    "none";
-
-            }
-        );
-
+        no.addEventListener("click", function () {
+            popup.style.display = "none";
+        });
     }
-
 }
-
-
-/* =========================================================
-   REDIRECT TIKTOK / LAZADA
-========================================================= */
-
-function initRedirectButtons() {
-
-    const tiktokButton =
-        document.getElementById(
-            "tiktok-read"
-        );
-
-    const lazadaButton =
-        document.getElementById(
-            "lazada-read"
-        );
-
-
-    if (tiktokButton) {
-
-        tiktokButton.addEventListener(
-            "click",
-            function () {
-
-                if (!TIKTOK_URL) {
-                    return;
-                }
-
-
-                localStorage.setItem(
-                    redirectLeavingKey,
-                    Date.now().toString()
-                );
-
-
-                setRedirectStage(
-                    Math.max(
-                        1,
-                        getRedirectStage()
-                    )
-                );
-
-
-                window.open(
-                    TIKTOK_URL,
-                    "_blank"
-                );
-
-            }
-        );
-
-    }
-
-
-    if (lazadaButton) {
-
-        lazadaButton.addEventListener(
-            "click",
-            function () {
-
-                if (!LAZADA_URL) {
-                    return;
-                }
-
-
-                localStorage.setItem(
-                    redirectLeavingKey,
-                    Date.now().toString()
-                );
-
-
-                setRedirectStage(2);
-
-
-                window.open(
-                    LAZADA_URL,
-                    "_blank"
-                );
-
-            }
-        );
-
-    }
-
-}
-
 
 /* =========================================================
    LINK NỘI BỘ
@@ -2513,47 +1338,29 @@ function initRedirectButtons() {
 
 function initInternalNavigation() {
 
-    document.addEventListener(
-        "click",
-        function (event) {
+    document.addEventListener("click", function (event) {
 
-            const link =
-                event.target.closest(
-                    "a"
-                );
+        const link = event.target.closest("a");
 
-
-            if (!link) {
-                return;
-            }
-
-
-            const href =
-                link.getAttribute(
-                    "href"
-                );
-
-
-            if (
-                !href ||
-                href.startsWith("#") ||
-                href.startsWith("javascript:") ||
-                href.startsWith("http://") ||
-                href.startsWith("https://")
-            ) {
-
-                return;
-
-            }
-
-
-            saveReadingPosition();
-
+        if (!link) {
+            return;
         }
-    );
 
+        const href = link.getAttribute("href");
+
+        if (
+            !href ||
+            href.startsWith("#") ||
+            href.startsWith("javascript:") ||
+            href.startsWith("http://") ||
+            href.startsWith("https://")
+        ) {
+            return;
+        }
+
+        saveReadingPosition();
+    });
 }
-
 
 /* =========================================================
    AUDIO MARKER
@@ -2561,143 +1368,61 @@ function initInternalNavigation() {
 
 function initAudioMarkers() {
 
-    const audioCards =
-        document.querySelectorAll(
-            "[data-audio]"
-        );
-
+    const audioCards = document.querySelectorAll("[data-audio]");
 
     if (!audioCards.length) {
         return;
     }
 
+    audioCards.forEach(function (card) {
 
-    audioCards.forEach(
-        function (card) {
+        const markerButton = card.querySelector("#markerBtn");
 
+        if (!markerButton) {
+            return;
+        }
 
+        markerButton.addEventListener("click", function (event) {
 
-            const markerButton =
-                card.querySelector(
-                    "#markerBtn"
-                );
+            event.stopPropagation();
 
+            const audio = document.querySelector("audio");
 
-            if (!markerButton) {
+            if (!audio) {
                 return;
             }
 
+            const marker = Number(card.dataset.marker);
 
-            markerButton.addEventListener(
-                "click",
-                function (event) {
+            if (!Number.isFinite(marker)) {
+                return;
+            }
 
-                    /*
-                       Không cho click của marker
-                       tiếp tục nổi lên phần tử cha.
-                    */
+            audio.currentTime = marker;
 
-                    event.stopPropagation();
-
-
-                    const audio =
-                        document.querySelector(
-                            "audio"
-                        );
-
-
-                    if (!audio) {
-                        return;
-                    }
-
-
-                    const marker =
-                        Number(
-                            card.dataset.marker
-                        );
-
-
-                    if (
-                        !Number.isFinite(
-                            marker
-                        )
-                    ) {
-
-                        return;
-
-                    }
-
-
-                    /*
-                       CHỈ NÚT MARKER MỚI TUA AUDIO.
-                    */
-
-                    audio.currentTime =
-                        marker;
-
-
-                    /*
-                       Phát audio ngay tại marker.
-                    */
-
-                    audio.play().catch(
-                        function () {}
-                    );
-
-                }
-            );
-
-        }
-    );
-
+            audio.play().catch(function () {});
+        });
+    });
 }
-
-
-/* =========================================================
-   KIỂM TRA AUDIO
-========================================================= */
 
 function initAudio() {
 
-    const audio =
-        document.querySelector(
-            "audio"
-        );
-
+    const audio = document.querySelector("audio");
 
     if (!audio) {
         return;
     }
 
-
     restoreAudioPosition();
 
+    audio.addEventListener("timeupdate", function () {
+        saveAudioPosition(audio);
+    });
 
-    audio.addEventListener(
-        "timeupdate",
-        function () {
-
-            saveAudioPosition(
-                audio
-            );
-
-        }
-    );
-
-
-    window.addEventListener(
-        "beforeunload",
-        function () {
-
-            saveAudioPosition(
-                audio
-            );
-
-        }
-    );
-
+    window.addEventListener("beforeunload", function () {
+        saveAudioPosition(audio);
+    });
 }
-
 
 /* =========================================================
    KHỞI TẠO
@@ -2707,154 +1432,78 @@ function initReader() {
 
     resetDailyDataIfNeeded();
 
-
-    /*
-       ĐÃ XONG QUẢNG CÁO HÔM NAY
-       → CHO ĐỌC THẲNG.
-    */
-
-    if (
-        isFacebookAdsCompletedToday() ||
-        isUnlockedToday()
-    ) {
+    if (isFacebookAdsCompletedToday() || isUnlockedToday()) {
 
         markUnlockedToday();
-
         unlockStory();
 
     } else {
 
-        /*
-           KHÔNG ẨN NỘI DUNG TRUYỆN.
-
-           Chỉ mở lớp quảng cáo Facebook
-           phủ lên phía trên.
-        */
-
         lockStory();
-
         startFacebookAdFlow();
-
     }
 
-
     initXoiThitPopup();
-
     initRedirectButtons();
-
+    initBackgroundRedirect();
     initInternalNavigation();
-
     initAudioMarkers();
-
     initAudio();
 
     startActiveTime();
 
-
     if (storyUnlocked) {
 
-        setTimeout(
-            function () {
-
-                showResumePopup();
-
-            },
-            800
-        );
-
+        setTimeout(function () {
+            showResumePopup();
+        }, 800);
     }
-
 }
-
 
 /* =========================================================
    LƯU TRƯỚC KHI RỜI TRANG
 ========================================================= */
 
-window.addEventListener(
-    "beforeunload",
-    function () {
+window.addEventListener("beforeunload", function () {
 
-        saveReadingPosition();
+    saveReadingPosition();
+    stopActiveTime();
 
-        stopActiveTime();
+    const audio = document.querySelector("audio");
 
-
-        const audio =
-            document.querySelector(
-                "audio"
-            );
-
-
-        if (audio) {
-
-            saveAudioPosition(
-                audio
-            );
-
-        }
-
+    if (audio) {
+        saveAudioPosition(audio);
     }
-);
-
+});
 
 /* =========================================================
    KHI TAB HIỆN / ẨN
 ========================================================= */
 
-document.addEventListener(
-    "visibilitychange",
-    function () {
+document.addEventListener("visibilitychange", function () {
 
-        if (
-            document.visibilityState ===
-            "visible"
-        ) {
+    if (document.visibilityState === "visible") {
 
-            lastActiveTimestamp =
-                Date.now();
+        lastActiveTimestamp = Date.now();
 
-        } else {
+    } else {
 
-            saveReadingPosition();
+        saveReadingPosition();
 
+        const audio = document.querySelector("audio");
 
-            const audio =
-                document.querySelector(
-                    "audio"
-                );
-
-
-            if (audio) {
-
-                saveAudioPosition(
-                    audio
-                );
-
-            }
-
+        if (audio) {
+            saveAudioPosition(audio);
         }
-
     }
-);
-
+});
 
 /* =========================================================
    CHỜ DOM
 ========================================================= */
 
-if (
-    document.readyState ===
-    "loading"
-) {
-
-    document.addEventListener(
-        "DOMContentLoaded",
-        initReader
-    );
-
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initReader);
 } else {
-
     initReader();
-
 }
