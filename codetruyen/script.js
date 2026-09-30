@@ -20,24 +20,39 @@ const FACEBOOK_ADS = {
 };
 
 /* =========================================================
+   KÍCH THƯỚC THIẾT KẾ CỦA KHUNG FACEBOOK
+
+   Khung luôn được dựng ở 480 x 355 (giống máy tính),
+   rồi thu phóng bằng transform: scale() cho vừa màn hình.
+   => Điện thoại hiện giống hệt máy tính, chỉ nhỏ hơn.
+========================================================= */
+
+const FB_DESIGN_WIDTH = 480;
+const FB_DESIGN_HEIGHT = 355;
+
+/* =========================================================
    VÙNG CHO PHÉP CLICK TRONG BÀI FACEBOOK
 
-   top    = khoảng cách (px) từ mép trên khung tới đầu dòng link
-   height = chiều cao (px) của dòng link
-   left   = khoảng cách (px) từ mép trái khung tới đầu chữ link
-   width  = chiều rộng (px) của chữ link
-   Ngoài vùng này bị chặn click → không nhảy sang bài Facebook.
+   TOÀN BỘ số ở đây tính theo hệ 480 x 355 (không phải px thật),
+   nên điện thoại và máy tính dùng chung 1 bộ số.
 
-   Đặt FACEBOOK_ZONE_DEBUG = true để thấy 2 lớp chặn màu đỏ,
-   chỉnh top/height cho vùng trong suốt ở giữa khớp dòng link,
-   xong đặt lại false.
+   top    = khoảng cách từ mép trên khung tới đầu dòng link
+   height = chiều cao dòng link
+   left   = khoảng cách từ mép trái khung tới đầu chữ link
+   width  = chiều rộng chữ link
+
+   Chỉ vùng này bấm xuyên xuống được link. Ngoài vùng bị chặn.
+
+   CÁCH CHỈNH: đặt FACEBOOK_ZONE_DEBUG = true → vùng chặn hiện
+   màu đỏ, phần trong suốt ở giữa là vùng bấm được. Chỉnh số sao
+   cho khe trong suốt nằm đúng dòng link, xong đặt lại false.
 ========================================================= */
 
 const FACEBOOK_ZONE_DEBUG = false;
 
 const FACEBOOK_CLICK_ZONE = {
-    shopee: { top: 60, height: 32, left: 10, width: 210 },
-    shopeefood: { top: 60, height: 32, left: 10, width: 210 }
+    shopee: { top: 120, height: 30, left: 10, width: 290 },
+    shopeefood: { top: 120, height: 30, left: 10, width: 290 }
 };
 
 /* =========================================================
@@ -100,6 +115,8 @@ let facebookAdsModal = null;
 let facebookAdHiddenAt = null;
 let facebookAdWaiting = false;
 let facebookAdCurrentType = null;
+
+let fbResizeObserver = null;
 
 let activeSeconds = 0;
 let activeTimer = null;
@@ -339,7 +356,38 @@ function createFacebookAdModal() {
 }
 
 /* =========================================================
+   THU PHÓNG KHUNG FACEBOOK CHO VỪA MÀN HÌNH
+========================================================= */
+
+function fitFacebookFrame() {
+
+    const frame = document.getElementById("facebookAdFrame");
+
+    if (!frame) {
+        return;
+    }
+
+    const scaler = frame.querySelector(".fbScaler");
+
+    if (!scaler || frame.clientWidth === 0) {
+        return;
+    }
+
+    scaler.style.transform =
+        "scale(" + (frame.clientWidth / FB_DESIGN_WIDTH) + ")";
+}
+
+/* =========================================================
    IFRAME FACEBOOK
+
+   Cấu trúc:
+   #facebookAdFrame
+     └─ .fbScaler (480 x 355, bị scale)
+          ├─ iframe (480 rộng)
+          └─ 4 lớp chặn (toạ độ theo hệ 480 x 355)
+
+   Lớp chặn nằm TRONG .fbScaler nên co giãn cùng bài Facebook,
+   luôn khớp dòng link trên cả máy tính lẫn điện thoại.
 ========================================================= */
 
 function createFacebookIframe(postUrl) {
@@ -352,71 +400,81 @@ function createFacebookIframe(postUrl) {
 
     frame.innerHTML = "";
 
+    const scaler = document.createElement("div");
+
+    scaler.className = "fbScaler";
+
     const iframe = document.createElement("iframe");
 
     iframe.src =
         "https://www.facebook.com/plugins/post.php" +
         "?href=" + encodeURIComponent(postUrl) +
         "&show_text=true" +
-        "&width=480";
+        "&width=" + FB_DESIGN_WIDTH;
 
     iframe.loading = "eager";
     iframe.allow = "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share";
-    iframe.scrolling = "yes";
+    iframe.scrolling = "no";
     iframe.frameBorder = "0";
+
+    scaler.appendChild(iframe);
 
     const zone = FACEBOOK_CLICK_ZONE[facebookAdCurrentType];
 
-    if (!zone) {
-        frame.appendChild(iframe);
-        return;
+    if (zone) {
+
+        const maskBase =
+            "position:absolute;z-index:5;cursor:default;" +
+            "-webkit-tap-highlight-color:transparent;" +
+            (FACEBOOK_ZONE_DEBUG
+                ? "background:rgba(255,0,0,.35);"
+                : "background:transparent;");
+
+        const zoneBottom = zone.top + zone.height;
+        const zoneRight = zone.left + zone.width;
+
+        /* trên, dưới, trái, phải — chừa đúng ô chứa link ở giữa */
+        const maskCss = [
+            "top:0;left:0;right:0;height:" + zone.top + "px;",
+            "top:" + zoneBottom + "px;left:0;right:0;bottom:0;",
+            "top:" + zone.top + "px;left:0;width:" + zone.left + "px;height:" + zone.height + "px;",
+            "top:" + zone.top + "px;left:" + zoneRight + "px;right:0;height:" + zone.height + "px;"
+        ];
+
+        maskCss.forEach(function (css) {
+
+            const mask = document.createElement("div");
+
+            mask.style.cssText = maskBase + css;
+
+            /* chặn click / chạm, không cho xuyên xuống bài Facebook */
+            mask.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            });
+
+            scaler.appendChild(mask);
+        });
     }
 
-    /*
-       Bọc iframe trong 1 khung, rồi phủ các lớp trong suốt
-       bao quanh ô chứa link Shopee.
-       Click vào các lớp này bị chặn → không nhảy sang bài Facebook.
-       Chỉ vùng ở giữa (zone) là click xuyên xuống được link.
-    */
+    frame.appendChild(scaler);
 
-    const wrapper = document.createElement("div");
+    fitFacebookFrame();
 
-    wrapper.style.cssText = "position:relative;width:100%;height:100%;overflow:hidden;";
+    if ("ResizeObserver" in window) {
 
-    wrapper.appendChild(iframe);
+        if (fbResizeObserver) {
+            fbResizeObserver.disconnect();
+        }
 
-    /*
-       4 lớp chặn bao quanh đúng ô chứa link:
-       trên, dưới, trái, phải. Chỉ ô ở giữa
-       (top/left/width/height) là bấm xuyên xuống được.
-    */
+        fbResizeObserver = new ResizeObserver(fitFacebookFrame);
+        fbResizeObserver.observe(frame);
 
-    const maskBase =
-        "position:absolute;z-index:5;cursor:default;" +
-        (FACEBOOK_ZONE_DEBUG
-            ? "background:rgba(255,0,0,.35);"
-            : "background:transparent;");
+    } else {
 
-    const zoneBottom = zone.top + zone.height;
-    const zoneRight = zone.left + zone.width;
-
-    const maskCss = [
-        "top:0;left:0;right:0;height:" + zone.top + "px;",
-        "top:" + zoneBottom + "px;left:0;right:0;bottom:0;",
-        "top:" + zone.top + "px;left:0;width:" + zone.left + "px;height:" + zone.height + "px;",
-        "top:" + zone.top + "px;left:" + zoneRight + "px;right:0;height:" + zone.height + "px;"
-    ];
-
-    maskCss.forEach(function (css) {
-
-        const mask = document.createElement("div");
-
-        mask.style.cssText = maskBase + css;
-
-        wrapper.appendChild(mask);
-    });
-
-    frame.appendChild(wrapper);
+        window.removeEventListener("resize", fitFacebookFrame);
+        window.addEventListener("resize", fitFacebookFrame);
+    }
 }
 
 /* =========================================================
@@ -507,6 +565,9 @@ function showFacebookAdStep(type, titleText, progressText, instructionHtml, url)
     }
 
     updateFacebookSteps();
+
+    /* tính lại tỉ lệ sau khi khung hiện ra */
+    fitFacebookFrame();
 }
 
 function openShopeeAd() {
@@ -755,6 +816,11 @@ function closeFacebookAdModal() {
 
     facebookAdWaiting = false;
     facebookAdHiddenAt = null;
+
+    if (fbResizeObserver) {
+        fbResizeObserver.disconnect();
+        fbResizeObserver = null;
+    }
 }
 
 /* =========================================================
