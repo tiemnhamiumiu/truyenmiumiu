@@ -17377,6 +17377,180 @@ Ta nhìn chàng, khẽ chớp mắt rồi cất lời: “Ta chính là thê t�
 
 Nửa câu đầu là sự thật, nhưng vế sau lại là lời dối gian do ta thêu dệt.
 `
+  },{
+    id: 842,
+    title: "Đoạn Tuyệt Tình Thân Hào Môn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/doan-tuyet-tinh-than-hao-mon.jpg",
+    link: "ngontinh/doan-tuyet-tinh-than-hao-mon.html",
+    type: "ngontinh",
+    desc: `Tôi là con gái ruột của Hạng gia, thế nhưng trong căn nhà ấy, từ trên xuống dưới chỉ dành trọn tình thương cho đứa con nuôi giả mạo.
+
+Ở kiếp trước, em trai ruột từng lạnh lùng tuyên bố rằng cả đời này nó chỉ công nhận duy nhất một người chị là cô gái đó. Cha đẻ xua đuổi, mắng tôi là kẻ không biết yên phận. Mẹ ruột lại chỉ mong tôi biến mất, đừng bao giờ quay trở về.
+
+Thế rồi, một biến cố xảy ra khiến toàn bộ người nhà họ Hạng đều được trọng sinh.
+`
+  },{
+    id: 843,
+    title: "Chồng Cũ Là Boss Game Sinh Tồn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/chong-cu-la-boss-game-sinh-ton.jpg",
+    link: "dammy/chong-cu-la-boss-game-sinh-ton.html",
+    type: "dammy",
+    desc: `Xuyên không vào trò chơi kinh dị, trong khi người khác chật vật tìm cách sống sót, tôi đã lao tới ôm chặt lấy một NPC rồi gào toáng lên:
+
+“Tôi mang thai con của đại ca các anh rồi!”
+
+Con ngươi của gã NPC chấn động mãnh liệt, bởi hắn không thể hiểu nổi một thằng đàn ông thì làm sao mà mang thai.
+
+Tôi phớt lờ thái độ đó, ngẩng đầu lén nhìn về phía tên boss viện trưởng đang đứng cách đó không xa.
+
+Hắn ta chính là người chồng cũ từng bị tôi ăn xong chùi mép, sau đó dứt áo ra đi không chút tiếc thương.
+
+Anh chồng cũ bước tới đẩy gã NPC sang một bên, dịu dàng che chở lấy bụng tôi rồi thì thầm:
+
+“Vậy thì em nhất định phải bảo vệ thật tốt mấy đứa nhỏ nhé.”
+`
+  },{
+    id: 844,
+    title: "Vương Phi Trở Lại",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/vuong-phi-tro-lai.jpg",
+    link: "cotrang/vuong-phi-tro-lai.html",
+    type: "cotrang",
+    desc: `Sau khi gieo mình từ thành lầu cao vút xuống, ta bất ngờ được trùng sinh, trở lại đúng vào ngày Thái tử bị thương năm ấy.
+
+Tiêu Trạch vội vã đẩy mạnh ta vào hố nước bẩn, trong mắt hiện rõ sự ghê tởm khôn cùng: “Đừng có chạm vào ta, ngươi làm ta buồn nôn.”
+
+Kiếp trước, chính ta đã liều mạng cõng Tiêu Trạch đang trọng thương ra khỏi chốn hoang vu hẻo lánh, để rồi được Hoàng thượng ban hôn, chính thức trở thành Thái tử phi.
+
+Chẳng ngờ rằng, ta coi hắn như sinh mệnh, trút trọn chân tình, nhưng hắn lại hận ta đến tận xương tủy. Chỉ ba ngày sau ngày đại hôn, hắn đã vội vàng nạp trắc phi cốt để làm ta tức giận.
+
+Nào ngờ sau này nước mất nhà tan, hắn nhẫn tâm bỏ rơi ta, ôm lấy vị trắc phi kia tháo chạy. Đến tận thời khắc ấy ta mới bừng tỉnh nhận ra, trái tim hắn vốn dĩ là tảng đá lạnh ngắt không thể sưởi ấm, nhưng mọi chuyện khi đó đã quá muộn màng.
+
+Trong niềm oán hận ngút trời, ta chẳng còn cách nào khác ngoài việc nhảy xuống thành lầu kết thúc một đời.
+
+Mà kiếp này…
+
+Ta lặng lẽ nhìn Tiêu Trạch thương tích đầy mình, hắn lại một lần nữa đẩy ta ra, nhất quyết không cho ta tới gần.
+
+Khóe môi ta nhếch lên thành một nụ cười lạnh lẽo.
+
+Nếu đã vậy, ngươi cứ ở lại đây mà chờ chết đi.`
+  },{
+    id: 845,
+    title: "Kẻ Bội Bạc Mang Thai Trả Nghiệp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ke-boi-bac-mang-thai-tra-nghiep.jpg",
+    link: "ngontinh/ke-boi-bac-mang-thai-tra-nghiep.html",
+    type: "ngontinh",
+    desc: `Mang thai tới tháng thứ bảy, một đêm nọ tôi dậy đi vệ sinh thì vô tình nghe thấy tiếng chồng mình đang thì thầm với mẹ ở ngoài phòng khách.
+
+Anh ta uất hận than thở:
+
+"Mẹ chẳng biết đâu, từ lúc mang bầu nhìn cô ta xồ xề chẳng khác gì con lợn. Nhìn cái mặt vàng xè ấy là con chỉ muốn nôn!"
+
+Mẹ chồng liền thủ thỉ an ủi:
+
+"Con cố nhịn thêm chút nữa. Đợi cô ta sinh xong thì đệ đơn ly hôn, lúc đó quyền quản lý công ty cũng rơi gọn vào tay con rồi!"
+
+Tôi cay đắng nở nụ cười tủm tỉm. Ngay sau đó, tôi đã lặng lẽ trói buộc lên người kẻ cặn bã ấy một hệ thống mang tên "Chạm vào là có thai".
+
+Chỉ cần hắn đụng vào bất kỳ người phụ nữ nào, hắn sẽ lập tức mang bầu. Chạm càng nhiều người, số thai nhi trong bụng hắn sẽ càng nhân lên!
+`
+  },{
+    id: 846,
+    title: "Mỹ Nhân Omega Của Tôi Lại Là Alpha Giả Danh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/my-nhan-omega-cua-toi-lai-la-alpha-gia-danh.jpg",
+    link: "dammy/my-nhan-omega-cua-toi-lai-la-alpha-gia-danh.html",
+    type: "dammy",
+    desc: `Tôi chỉ là một Beta bình thường, nhưng lại may mắn có được người yêu Omega sở hữu nhan sắc cực kỳ xuất sắc.
+
+Anh không chỉ sở hữu chiều cao ấn tượng cùng đôi chân dài miên man, mà ngay cả khi lơ đãng dùng đôi mắt hồ ly lạnh lùng nhìn người khác cũng đủ tỏa ra sức hút khó cưỡng.
+
+Tính tình anh có hơi khó chịu, lại hay giận dỗi thất thường.
+
+Nhưng điều đó chẳng sao cả, mục đích duy nhất của tôi chỉ là đưa được anh lên giường.
+
+Cuối cùng, sau chuỗi ngày kiên nhẫn chiều chuộng và dỗ dành không biết mệt mỏi, tôi cũng thành công đạt được mục đích.
+
+Thế nhưng vừa lên đến giường, mỹ nhân đã lật ngược thế cờ, đè chặt tôi xuống dưới.
+
+Thế này là sao chứ?
+
+Anh không phải là một Omega sao?
+
+Rốt cuộc tại sao sức lực của anh lại còn lớn hơn cả tôi!
+`
+  },{
+    id: 847,
+    title: "Phu Quân Yếu Ớt",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/phu-quan-yeu-ot.jpg",
+    link: "cotrang/phu-quan-yeu-ot.html",
+    type: "cotrang",
+    desc: `Phu quân của ta tính tình vô cùng nhu nhược, chẳng thể tự mình gánh vác được việc gì. Năm đó, hắn rơi vào cảnh bần hàn, bị người đời khinh khi, phải ra đường bán tranh chữ lấy tiền chôn cất phụ thân. Đúng lúc hắn sa cơ lỡ vận nhất, ta lại lỡ lòng nhìn trúng hắn.
+
+Chẳng vì lý do gì khác, chỉ bởi hắn sở hữu một gương mặt quá đỗi tuấn tú.
+
+Nào ngờ sau này, khi ta dựng chuyện giả chết, hắn lại dám vung kiếm đòi giết người ngay trước linh đường của ta. Hành động ấy khiến ta khiếp vía, phải vội vàng nhòm đầu bò dậy từ trong quan tài.
+`
+  },{
+    id: 848,
+    title: "Tiếng Lòng Của Trúc Mã",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/tieng-long-cua-truc-ma.jpg",
+    link: "ngontinh/tieng-long-cua-truc-ma.html",
+    type: "ngontinh",
+    desc: `Tôi là một kẻ biến thái.
+
+Sau khi thất bại trong việc tỏ tình với cậu bạn trúc mã, tôi đã hạ quyết tâm bắt nhốt anh ấy lại.
+
+Công việc mà tôi yêu thích nhất mỗi ngày chính là ép buộc anh phải ngập ngừng thốt ra lời yêu mình.
+
+Tôi từng ngỡ rằng anh sẽ căm ghét tôi đến tận xương tủy, cho đến khi tôi đột nhiên nghe thấy tiếng lòng của anh.
+
+【Sợi dây thừng trói trên cổ tay sắp đứt rồi, lần sau mình phải chú ý giãy giụa nhẹ nhàng hơn mới được.】
+
+【Hinh Hinh khi nào mới về nhỉ? Mình nhớ em ấy quá.】
+
+【Phải kéo cổ áo rộng ra thêm một chút nữa, trông như thế này mới có sức quyến rũ chứ.】
+`
+  },{
+    id: 849,
+    title: "Say Mùi Lan Nham Thảo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/say-mui-lan-nham-thao.jpg",
+    link: "dammy/say-mui-lan-nham-thao.html",
+    type: "dammy",
+    desc: `Tôi và Cố Thời Dã vốn là thanh mai trúc mã, nhưng chẳng hiểu sao lại nhìn nhau không thuận mắt từ bé.
+
+Cậu ta phân hóa sớm hơn tôi, trở thành Alpha cấp S mạnh nhất toàn trường, làm gì cũng đè đầu cưỡi cổ tôi một bậc.
+
+Cho đến đợt huấn luyện quân sự năm nhất đại học, tôi mới chính thức phân hóa thành Alpha cấp S. Việc đầu tiên tôi làm chính là đè Cố Thời Dã xuống đất, vung đấm đánh cho cậu ta một trận tơi bời.
+
+Cậu ta nằm bẹp dí dưới sàn, đôi mắt ánh lên vẻ cô đơn trần trụi.
+
+“Nếu cậu không phải Alpha thì tốt biết mấy…”
+
+Tôi cười khẩy, mỗi cú đấm tung ra đều dồn hết sức mạnh.
+
+“Nói nhảm! Tôi mà không phải Alpha thì để cậu đè đầu cưỡi cổ cả đời chắc?!”
+
+Cố Thời Dã vội kéo cổ áo xuống, để lộ tuyến thể sau gáy rồi đột ngột tỏa pheromone ngào ngạt.
+
+“Vậy cậu đè tôi đi, tôi nguyện ý.”
+
+`
+  },{
+    id: 850,
+    title: "Cả Triều Đình Mắc Bệnh Lạ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ca-trieu-dinh-mac-benh-la.jpg",
+    link: "cotrang/ca-trieu-dinh-mac-benh-la.html",
+    type: "cotrang",
+    desc: `Trẫm nhận thấy toàn bộ người trong hoàng thành này dường như đều mắc bệnh lạ.
+
+Thái tử đột nhiên nhen nhóm ý định từ hôn, quyết tâm cưới một nữ tử không rõ lai lịch làm thê thất.
+
+Phò mã dám ngang nhiên lăng mạ Công chúa ngay tại cung yến, về tới phủ lại tiếp tục ngược đãi nàng.
+
+Còn một phi tần nơi lãnh cung bỗng nhiên chạy ra, quả quyết tuyên bố bản thân là chân ái của trẫm, lại còn ép trẫm phải uống canh bổ thận.
+
+Trẫm chỉ là tuổi tác đã cao, chứ chưa đến mức không biết vung đao chém người.
+`
   },
 
 
