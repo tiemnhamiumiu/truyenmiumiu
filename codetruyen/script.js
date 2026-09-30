@@ -139,6 +139,286 @@ function getToday() {
 }
 
 /* =========================================================
+   CẢNH BÁO MESSENGER
+
+   Trình duyệt trong Messenger không ghi nhận được việc
+   rời trang / quay lại khi bấm link Shopee, nên quảng cáo
+   sẽ không được tính. Popup này hướng dẫn người đọc bấm
+   nút 3 chấm để mở bằng trình duyệt (Chrome / Safari).
+
+   Chỉ nhận diện Messenger. Facebook không bị ảnh hưởng.
+   CSS của popup được chèn ngay trong JS, không cần sửa file CSS.
+========================================================= */
+
+function isMessengerBrowser() {
+
+    const ua = navigator.userAgent || navigator.vendor || "";
+
+    return /FB_IAB\/MESSENGER|FBAN\/Messenger|MessengerForiOS|MessengerLite|Orca-Android/i.test(ua);
+}
+
+function injectMessengerNoticeStyle() {
+
+    if (document.getElementById("messengerNoticeStyle")) {
+        return;
+    }
+
+    const style = document.createElement("style");
+
+    style.id = "messengerNoticeStyle";
+
+    style.textContent = `
+        #messengerNoticePopup {
+            position: fixed;
+            inset: 0;
+            z-index: 1000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            background: rgba(0, 0, 0, 0.82);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+        .messenger-notice-box {
+            width: 100%;
+            max-width: 400px;
+            max-height: calc(100vh - 36px);
+            max-height: calc(100dvh - 36px);
+            overflow-y: auto;
+            padding: 26px 20px 20px;
+            background: #1d1d1d;
+            border: 1px solid #333333;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            font-family: Arial, sans-serif;
+        }
+
+        .messenger-notice-icon {
+            font-size: 44px;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .messenger-notice-title {
+            color: #ff7043;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .messenger-notice-text {
+            color: #cccccc;
+            font-size: 14px;
+            line-height: 1.65;
+            margin-bottom: 14px;
+        }
+
+        .messenger-notice-text strong {
+            color: #ff9b7a;
+        }
+
+        .messenger-notice-steps {
+            margin: 0 0 16px;
+            padding: 12px 14px;
+            text-align: left;
+            background: rgba(255, 112, 67, 0.07);
+            border: 1px solid rgba(255, 112, 67, 0.2);
+            border-radius: 10px;
+            color: #dddddd;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .messenger-notice-steps b {
+            color: #ffffff;
+        }
+
+        .messenger-notice-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .messenger-notice-btn {
+            width: 100%;
+            min-height: 46px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+
+        .messenger-notice-btn:hover {
+            transform: translateY(-1px);
+            opacity: 0.92;
+        }
+
+        .messenger-notice-copy {
+            background: #ff5722;
+            color: #ffffff;
+        }
+
+        .messenger-notice-close {
+            background: #333333;
+            color: #dddddd;
+        }
+
+        @media (max-width: 380px) {
+            .messenger-notice-box {
+                padding: 22px 14px 16px;
+            }
+
+            .messenger-notice-title {
+                font-size: 18px;
+            }
+
+            .messenger-notice-text,
+            .messenger-notice-steps {
+                font-size: 13px;
+            }
+        }
+    `;
+
+    document.head.appendChild(style);
+}
+
+function copyPageLink(button) {
+
+    const url = window.location.href;
+
+    const done = function () {
+
+        if (!button) {
+            return;
+        }
+
+        button.textContent = "✓ Đã sao chép link";
+
+        setTimeout(function () {
+            button.textContent = "📋 Sao chép link";
+        }, 2000);
+    };
+
+    const fallback = function () {
+
+        try {
+
+            const input = document.createElement("textarea");
+
+            input.value = url;
+            input.style.position = "fixed";
+            input.style.left = "-10000px";
+            input.style.top = "0";
+
+            document.body.appendChild(input);
+
+            input.focus();
+            input.select();
+
+            document.execCommand("copy");
+
+            input.remove();
+
+            done();
+
+        } catch (error) {
+
+            alert("Không thể tự sao chép. Link truyện:\n" + url);
+        }
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+
+        navigator.clipboard.writeText(url).then(done).catch(fallback);
+
+    } else {
+
+        fallback();
+    }
+}
+
+function showMessengerNotice() {
+
+    if (!isMessengerBrowser()) {
+        return;
+    }
+
+    if (document.getElementById("messengerNoticePopup")) {
+        return;
+    }
+
+    injectMessengerNoticeStyle();
+
+    const popup = document.createElement("div");
+
+    popup.id = "messengerNoticePopup";
+
+    popup.innerHTML = `
+
+        <div class="messenger-notice-box" role="dialog" aria-modal="true">
+
+            <div class="messenger-notice-icon">⚠️</div>
+
+            <div class="messenger-notice-title">
+                Bạn đang mở bằng Messenger
+            </div>
+
+            <div class="messenger-notice-text">
+                Trình duyệt trong Messenger <strong>không ghi nhận được quảng cáo Shopee</strong>,
+                nên bạn sẽ không mở khóa được truyện.
+                Hãy chuyển sang trình duyệt (Chrome / Safari) để đọc bình thường.
+            </div>
+
+            <div class="messenger-notice-steps">
+                <b>Cách chuyển:</b><br>
+                1. Bấm nút <b>⋯ (3 chấm)</b> ở góc trên bên phải<br>
+                2. Chọn <b>"Mở trong trình duyệt"</b><br>
+                &nbsp;&nbsp;&nbsp;(hoặc <b>"Mở bằng Chrome" / "Mở bằng Safari"</b>)
+            </div>
+
+            <div class="messenger-notice-buttons">
+
+                <button id="messengerCopyBtn" class="messenger-notice-btn messenger-notice-copy" type="button">
+                    📋 Sao chép link
+                </button>
+
+                <button id="messengerCloseBtn" class="messenger-notice-btn messenger-notice-close" type="button">
+                    Đã hiểu
+                </button>
+
+            </div>
+
+        </div>
+
+    `;
+
+    document.body.appendChild(popup);
+
+    const copyBtn = document.getElementById("messengerCopyBtn");
+    const closeBtn = document.getElementById("messengerCloseBtn");
+
+    if (copyBtn) {
+
+        copyBtn.addEventListener("click", function () {
+            copyPageLink(copyBtn);
+        });
+    }
+
+    if (closeBtn) {
+
+        closeBtn.addEventListener("click", function () {
+            popup.remove();
+        });
+    }
+}
+
+/* =========================================================
    RESET DATA MỖI NGÀY
 ========================================================= */
 
@@ -1000,7 +1280,8 @@ const REDIRECT_IGNORE_SELECTOR = [
     "[data-audio]",
     "#facebookAdsModal",
     "#readerResumePopup",
-    "#xoiThitPopup"
+    "#xoiThitPopup",
+    "#messengerNoticePopup"
 ].join(",");
 
 function initBackgroundRedirect() {
@@ -1510,6 +1791,9 @@ function initReader() {
 
         lockStory();
         startFacebookAdFlow();
+
+        /* Đang mở bằng Messenger: báo người đọc chuyển sang trình duyệt */
+        showMessengerNotice();
     }
 
     initXoiThitPopup();
