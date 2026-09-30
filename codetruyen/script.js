@@ -43,6 +43,9 @@ const FB_DESIGN_HEIGHT = 355;
 
    Chỉ vùng này bấm xuyên xuống được link. Ngoài vùng bị chặn.
 
+   Đã đo từ ảnh chụp thật: dòng link https://s.shopee.vn/...
+   nằm ở y ≈ 66 → 88, x ≈ 8 → 218 (hệ 480 x 355).
+
    CÁCH CHỈNH: đặt FACEBOOK_ZONE_DEBUG = true → vùng chặn hiện
    màu đỏ, phần trong suốt ở giữa là vùng bấm được. Chỉnh số sao
    cho khe trong suốt nằm đúng dòng link, xong đặt lại false.
@@ -51,8 +54,8 @@ const FB_DESIGN_HEIGHT = 355;
 const FACEBOOK_ZONE_DEBUG = false;
 
 const FACEBOOK_CLICK_ZONE = {
-    shopee: { top: 120, height: 30, left: 10, width: 290 },
-    shopeefood: { top: 120, height: 30, left: 10, width: 290 }
+    shopee: { top: 66, height: 24, left: 8, width: 212 },
+    shopeefood: { top: 66, height: 24, left: 8, width: 212 }
 };
 
 /* =========================================================
