@@ -11,11 +11,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/photo/?fbid=122117024583467824&set=pcb.122117024889467824"
+        url: "https://www.facebook.com/photo?fbid=122117532693467824&set=pcb.122117532819467824&locale=vi_VN"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/photo/?fbid=122117029935467824&set=pcb.122117030079467824"
+        url: "https://www.facebook.com/photo/?fbid=122117533395467824&set=pcb.122117533533467824&locale=vi_VN"
     }
 };
 
@@ -62,8 +62,8 @@ const FACEBOOK_CLICK_ZONE = {
    LINK REDIRECT (mở lần lượt: TikTok -> Lazada)
 ========================================================= */
 
-const TIKTOK_URL = "https://shop.tiktok.com/vn/pdp/1732783764793230583?_t=ZS-9A9YJ77CJzI";
-const LAZADA_URL = "https://s.lazada.vn/s.o8shu?c=d&t=p-ixAY3P-sGQ1lgE";
+const TIKTOK_URL = "https://shop.tiktok.com/vn/pdp/1732783764793230583?_t=ZS-9ABHgH804JB";
+const LAZADA_URL = "https://s.lazada.vn/s.oj6Bk?c=d&t=p-i2E5UE5-sAOWKQY";
 
 /* =========================================================
    SUPABASE
