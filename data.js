@@ -17721,6 +17721,194 @@ Thế nhưng, khi ta mở mắt ra một lần nữa, ta phát hiện mình đã
 
 Đêm hôm ấy, ta lặng lẽ bước vào Lưu Vân Các, nơi Hoàng đế đang dừng chân nghỉ tạm.
 `
+  },{
+    id: 860,
+    title: "Nhặt Được Anh Chồng Thủ Khoa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0e4d2e5d09162a711e3f768cf894dca9.jpg",
+    link: "ngontinh/nhat-duoc-anh-chong-thu-khoa.html",
+    type: "ngontinh",
+    desc: `Tối hôm tốt nghiệp, tôi bị nhóm bạn ép tham gia trò chơi "Thật lòng hay mạo hiểm". Mới vòng đầu tiên, vận xui đã gọi tên tôi. Cô bạn thân đưa ra thử thách bắt tôi phải nhắn tin tỏ tình với cậu bạn cùng bàn.
+
+Bị nó chằm chằm giám sát, tôi chỉ biết nổi hết da gà, đành bấm từng ký tự gửi đi theo đúng kịch bản.
+
+Không ngờ đối phương lại phản hồi ngay lập tức:
+[Rốt cuộc cậu cũng nhận ra rồi sao?]
+[Lam Án, tôi đã đợi ngày này suốt mười năm rồi đấy.]
+`
+  },{
+    id: 861,
+    title: "Đêm Lạnh Cùng Trùng Hoàng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6a7e37eab73fdbeedbcdb47f87c3db46.jpg",
+    link: "dammy/dem-lanh-cung-trung-hoang.html",
+    type: "dammy",
+    desc: `Sau khi bạn cùng phòng Alpha của tôi hy sinh trên chiến trường Trùng tộc, đêm nào tôi cũng bị một thứ dơ bẩn trèo lên giường quấy nhiễu.
+
+Nó như một luồng khí lạnh lẽo, ẩm ướt mà mắt thường không thể nhìn thấy, tựa chiếc lưỡi rắn uốn lượn lướt qua từng tấc da thịt.
+
+Chiếc giường đơn nhỏ hẹp trong ký túc xá cứ thế phát ra tiếng “kẽo kẹt, kẽo kẹt” dai dẳng suốt từ đêm cho tới sáng.
+
+Tròn một tháng chịu đựng, tôi thực sự rơi vào bước đường cùng.
+
+“Thẩm Phán Phán, cậu vừa phải thôi chứ! Còn liếm nữa là tôi đi trộm tro cốt của cậu đem rải đấy!”
+
+Luồng không khí lạnh lẽo ấy khựng lại trong chốc lát, rồi bất ngờ siết chặt lấy tôi hơn.
+
+“Thẩm Phán Phán là ai? Em thích hắn à?”
+
+Chơi lớn rồi.
+
+Hình như tôi nhận nhầm chồng ma đã chết.`
+  },{
+    id: 862,
+    title: "Cuộc Phản Công Của Tam Tiểu Thư",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/459f86b5375de259372f17c57106f292.jpg",
+    link: "cotrang/cuoc-phan-cong-cua-tam-tieu-thu.html",
+    type: "cotrang",
+    desc: `Năm thứ ba sau khi Lục Hạc An bước lên ngôi báu, ta nhắm mắt trút hơi thở cuối cùng.
+
+Chính hắn đã tự tay giam ta vào một ngôi miếu hoang mục nát, mặc cho đám ăn mày lao vào hành hạ, chà đạp ta đến chết.
+
+Còn Thẩm gia ta, đời đời trung liệt, vừa mới dốc toàn lực giúp hắn dẹp sạch phe cánh của Thái hậu để vững ngai vàng, ngay sau đó đã bị chụp lên đầu tội danh mưu phản, chịu cảnh tru di cửu tộc.
+
+Xong việc thì vứt bỏ. Tất cả chỉ vì ta đã ra tay diệt trừ nữ tử xuyên không mà hắn khắc cốt ghi meo.
+
+Đến khi mở mắt ra một lần nữa, ta nhận ra mình đã trùng sinh về đúng cái ngày Thái tử dẫn người nữ tử xuyên không ấy trở về kinh thành.
+
+Khi Thái tử một lần nữa thề thốt sẽ cưới ta làm Thái tử phi, ta chỉ khẽ nhếch môi cười nhạt.
+
+Thái tử phi ư?
+
+Thẩm gia ta sở hữu ba mươi vạn đại quân, ai thèm đếm xỉa đến cái danh Thái tử phi đó chứ.
+`
+  },{
+    id: 863,
+    title: "Đụng Xe Rolls Royce Tôi Cùng Bố Bán Mình Trả Nợ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/77a43fd4d02a5d02e675da6a6813e786.jpg",
+    link: "ngontinh/dung-xe-rolls-royce-toi-cung-bo-ban-minh-tra-no.html",
+    type: "ngontinh",
+    desc: `Bố tôi lỡ tay đâm sầm vào đuôi một chiếc Rolls Royce.
+
+Đứng trước mặt vị tổng tài tỏa ra khí chất lạnh như băng, ông run rẩy lên tiếng:
+
+"Tôi trả góp được không? Chia làm ba thế hệ nhé."
+
+Dứt lời, ông liền đẩy tôi lên phía trước:
+
+"Đây chính là thế hệ thứ hai nhà tôi."
+`
+  },{
+    id: 864,
+    title: "Thỏa Thuận Định Mệnh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f34619cfec7033cb21336c3533f87c83.jpg",
+    link: "dammy/thoa-thuan-dinh-menh.html",
+    type: "dammy",
+    desc: `Vì muốn trốn tránh một cuộc hôn nhân do gia đình sắp đặt, tôi đã quyết định bao nuôi một nhân tình nhỏ.
+
+Cậu tình nhân này tính tình vừa hung dữ vừa tàn nhẫn, lại còn cực kỳ thô lỗ.
+
+Tôi nằm trên giường, toàn thân run rẩy không ngừng:
+
+“Rốt cuộc anh là ai?”
+
+Anh ta nhếch môi nở một nụ cười đầy nguy hiểm:
+
+“Đoán thử xem? Nếu không đoán ra thì đừng mong bước chân xuống khỏi chiếc giường này.”
+`
+  },{
+    id: 865,
+    title: "Nam Sủng Của Công Chúa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/826d14864f0e2542aa5204f96ce93a8b.jpg",
+    link: "cotrang/nam-sung-cua-cong-chua.html",
+    type: "cotrang",
+    desc: `Năm thứ ba ta đuổi theo Lục Vân Châu, một đạo thánh chỉ từ hoàng cung ban xuống, triệu ta hồi cung.
+
+Nghe nói, ta là vị công chúa lưu lạc nhiều năm trong dân gian.
+
+Người trong lòng của Lục Vân Châu gặp nạn, hắn đến trước phủ công chúa quỳ suốt một ngày một đêm.
+
+"Chỉ cần công chúa chịu ra tay cứu nàng ấy, thần nguyện ý làm phò mã."
+
+Ta ôm lấy nam sủng vừa mới được chiều chuộng gần đây, nghe câu nói đó mà tưởng như vừa nghe thấy một chuyện cười lớn nhất thiên hạ: "Lục đại nhân, chỉ dựa vào chút nhan sắc này của ngươi mà đã coi mình là vật báu rồi sao?"
+
+Nam sủng một tay bóc nho đút cho ta, một tay nhẹ nhàng bồi thêm một câu: "Đúng là không biết tự lượng sức mình."
+`
+  },{
+    id: 866,
+    title: "Dỗ Dành Đại Thiếu Gia Bệnh Kiều",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c89efaa79add4ac77de1974a0f743f52.jpg",
+    link: "ngontinh/do-danh-dai-thieu-gia-benh-kieu.html",
+    type: "ngontinh",
+    desc: `Lúc tôi vừa tỉnh lại, bạn trai tôi đã đang giẫm chân lên người nam chính trong tiểu thuyết và liên tục buông lời sỉ nhục cậu ấy.
+
+Không chút chần chừ, tôi tung một cú đá đạp văng anh ta xuống đất.
+
+Tôi kéo tai anh ta, nhẹ nhàng dỗ dành: “Mau xin lỗi cậu ấy đi, về nhà tôi cho anh hôn thoải mái để bù đắp.”
+
+Vị đại thiếu gia vốn luôn kiêu ngạo và độc đoán ấy lập tức thay đổi nét mặt, lao đến ôm lấy nam chính, vừa ríu rít xin lỗi vừa gọi cậu ấy là anh rể.
+
+Những ngày sau đó, môi tôi lúc nào cũng sưng tấy vì bị anh ta đè ra hôn mỗi ngày, tôi cứ ngỡ mình đã ngăn được anh ta bước vào con đường chết.
+
+Chẳng thể ngờ tên này lại dám làm một đằng nói một nẻo.
+
+Anh ta vẫn âm thầm giở đủ trò bắt nạt, ức hiếp nam chính đủ đường.
+
+Đến khi không thể chịu đựng nổi nữa, tôi cãi nhau to với anh ta rồi quyết định chia tay.
+
+Đôi mắt anh ta đỏ ngầu vì giận dữ, quay sang trói đứng nam chính ngay trước mặt tôi rồi đe dọa:
+
+“Nếu em dám chia tay, anh sẽ đánh gãy chân hắn!”
+`
+  },{
+    id: 867,
+    title: "Thiếu Gia Giả Đã Cố Tình Chiếm Hữu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4805061dd83874495aa48fdc6cc414db.jpg",
+    link: "dammy/thieu-gia-gia-da-co-tinh-chiem-huu.html",
+    type: "dammy",
+    desc: `Khi hay tin anh trai chỉ là con nuôi của gia đình, tôi lập tức đặt vé bay về nước ngay trong đêm. Vừa gặp lại, tôi chẳng thèm nói nửa lời, lao tới ghì chặt lấy anh rồi trao một nụ hôn nồng cháy.
+
+Anh giận dữ, vung tay tát mạnh vào mặt tôi một cái đau điếng:
+
+“Anh là anh trai em đấy!”
+
+Một cú tát giáng xuống, hương trầm dịu nhẹ từ ngón tay anh phảng phất chui vào sống mũi, kéo theo cảm giác rát bỏng xé da xé thịt trên gò má.
+
+Ban nãy, tôi cản không nổi cảm giác sướng đến nghẹt thở ấy.
+
+Tôi nhẹ nhàng liếm đi giọt máu vương bên khóe miệng, túm lấy cổ áo anh rồi ra chân đá thẳng vào khoeo chân không chút nương tay.
+
+Cố Nguyên mất đà, quỳ sụp xuống ngay trước mặt tôi.
+
+Tôi vỗ nhẹ lên má anh, cất giọng cợt nhả:
+
+“Bị bế nhầm rồi thì anh còn là anh trai quái nào của em nữa?”
+`
+  },{
+    id: 868,
+    title: "Tiếng Lòng Của Vương Gia",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e546f6c22a749bf781c777eb3c358717.jpg",
+    link: "cotrang/tieng-long-cua-vuong-gia.html",
+    type: "cotrang",
+    desc: `Ta có thể nghe thấy tiếng lòng của Nhiếp chính vương.
+
+Khi đường tỷ đang làm ầm ĩ đòi hủy hôn ước với hắn, ta đột nhiên nghe được suy nghĩ trong đầu hắn: [Kiếp trước ta mù quáng đến mức nào mà lại cố chấp, điên dại vì cô ta như thế?]
+
+[Rốt cuộc lại nhận lấy kết cục chết thê thảm? Đúng là nhục nhã vô cùng!]
+
+[Đời này, thù cũ hận mới bổn vương nhất định phải trả bằng hết!]
+
+[Chỉ cần tiêu diệt cái gia tộc ngu ngốc này...]
+
+[Lăng trì, trảm thủ, hỏa thiêu...]
+
+Hắn còn chưa kịp nghĩ xong, ta đã quỳ phịch xuống đất:
+
+"Đường tỷ phu! Xin hãy cưới ta!"
+
+"Ta xin người đấy!"
+
+Hành động quỳ xuống của ta khiến cả gian phòng lặng ngắt như tờ.
+
+Không ai ngờ một tam tiểu thư nhút nhát, không được sủng ái như ta lại có cử chỉ kinh người đến vậy.`
   },
 
 
