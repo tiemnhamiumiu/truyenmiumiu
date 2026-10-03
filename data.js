@@ -17909,6 +17909,194 @@ Hắn còn chưa kịp nghĩ xong, ta đã quỳ phịch xuống đất:
 Hành động quỳ xuống của ta khiến cả gian phòng lặng ngắt như tờ.
 
 Không ai ngờ một tam tiểu thư nhút nhát, không được sủng ái như ta lại có cử chỉ kinh người đến vậy.`
+  },{
+    id: 869,
+    title: "Nợ Anh Một Đời Hạnh Phúc",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5e463f98e5a239856bbd430f05ee71c1.jpg",
+    link: "ngontinh/no-anh-mot-doi-hanh-phuc.html",
+    type: "ngontinh",
+    desc: `Tôi đang loay hoay nhét tờ rơi quảng cáo lên chiếc Rolls Royce đỗ trong hầm thì thót tim vì bị chủ xe bắt quả tang tại trận.
+
+Nhưng điều khiến tôi muốn độn thổ hơn cả chính là danh tính của người đó. Anh ta lại là bạn trai cũ từ năm năm trước, người từng bị tôi nhẫn tâm đá văng chỉ vì cái tội... nghèo.
+
+Người ta vẫn thường bảo nhau câu gì ấy nhỉ?
+
+Không sợ người yêu cũ là siêu sao hàng hiếm, chỉ sợ người yêu cũ đột nhiên công thành danh toại!
+
+Trái ngược với sự bàng hoàng của tôi, anh nhếch môi nở một nụ cười nửa miệng đầy ẩn ý: “Bây giờ anh đã nhiều tiền rồi, em còn cớ gì để đá anh nữa đây?”
+`
+  },{
+    id: 870,
+    title: "Theo Đuổi Ánh Dương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2a1ae7fb470955d0f8533dcc8c1543aa.jpg",
+    link: "dammy/theo-duoi-anh-duong.html",
+    type: "dammy",
+    desc: `Từ năm ba tuổi cho tới lúc bước chân vào đại học, tôi đã luôn quấn quít bên Cận Nguyện suốt hai mươi năm ròng.
+
+Chúng tôi từng cùng nhau hứa hẹn sẽ vĩnh viễn chẳng rời xa.
+
+Thế nhưng ngay khi vừa hoàn thành chương trình đại học, anh ấy lại đột ngột bốc hơi không để lại bất kỳ dấu vết nào.
+
+Đến khi tái ngộ, Cận Nguyện đã khoác trên mình bộ quân phục của quân phản loạn, lặng lẽ đứng bên cạnh giường bệnh của tôi.
+
+Anh khẽ khàng cúi đầu, lén đặt một nụ hôn tràn ngập sự dịu dàng lên trán tôi.
+
+Tôi khi ấy đang cố tình giả vờ hôn mê: ?!
+`
+  },{
+    id: 871,
+    title: "Huyết Sắc Nguyện Cầu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d358a3021a7737d7771eb1352b19814d.jpg",
+    link: "cotrang/huyet-sac-nguyen-cau.html",
+    type: "cotrang",
+    desc: `Ta đã xuyên không rồi.
+
+Tỷ tỷ nâng niu ta trong lòng bàn tay, Thái tử lại đối đãi hết mực ôn nhu.
+
+Các tiểu thư khuê các trong toàn kinh đô đều ghen tị, cho rằng số mệnh của ta thật quá tốt lành.
+
+Cho đến tận ngày hôm đó...
+
+Ta vô tình phát hiện một người xuyên không khác đang bị giam cầm nơi địa lao.
+
+Hóa ra tất cả những dịu dàng ấy, thảy đều là tính toán...
+`
+  },{
+    id: 872,
+    title: "Ngón Tay Đứt",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/99e274f402b329c92dd64889d13921f3.jpg",
+    link: "ngontinh/ngon-tay-dut.html",
+    type: "ngontinh",
+    desc: `Mẹ từng là bạn gái của Từ Bình Nam người đàn ông nắm giữ quyền lực tối cao ở đất Bắc Kinh vào chính những năm tháng ông chật vật, gian nan nhất.
+
+Đến khi ông vượt qua mọi giông bão để danh chính ngôn thuận đón bà về làm vợ, mẹ con tôi lại rơi vào tay kẻ xấu, bị bắt bán ra nước ngoài.
+
+Để bảo vệ tôi, mẹ bị chúng đánh gãy xương sống, chọc mù đôi mắt.
+
+Lúc trút hơi thở cuối cùng, trên người bà chẳng còn lấy một mảnh thịt lành lặn.
+
+Từ Bình Nam tìm đến nơi thì tất cả đã quá muộn, ông chỉ kịp cứu lấy đứa trẻ là tôi khi ấy đang hoảng loạn đến mất đi hồn xách.
+
+Tôi run rẩy chìa ra ngón tay đứt lìa của mẹ.
+
+Trên ngón tay đẫm máu đó vẫn còn lồng chiếc nhẫn đính hôn bằng bạc mà chính tay ông đã đeo cho bà năm nào.
+
+Tôi trố mắt nhìn người đàn ông ấy giật đứt phăng tràng hạt trên cổ tay.
+
+Toàn thân ông tỏa ra sát khí, chính thức hóa thành ma quỷ.
+`
+  },{
+    id: 873,
+    title: "Cạm Bẫy Nước Ấm Nấu Ếch",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a34c7f599aceceaa8ae3eeadc6e239c2.jpg",
+    link: "dammy/cam-bay-nuoc-am-nau-ech.html",
+    type: "dammy",
+    desc: `Từ nhỏ, phản ứng của tôi đã chậm hơn người khác một nhịp.
+
+Thế nhưng anh bạn trúc mã Alpha đỉnh cấp lại luôn ở bên chăm sóc, cưng chiều tôi hết mực.
+
+Từ bé đến lớn, không biết đã có bao nhiêu người trêu chọc hai đứa, ai cũng bảo tôi là “vợ nuôi từ bé” của anh.
+
+Nhưng tôi tự biết mình chỉ là một Beta bình thường, làm sao xứng với đại thiếu gia nhà họ Thẩm.
+
+Thế nên mỗi lần nghe thấy những lời đó, tôi đều nghiêm túc thanh minh:
+
+“Em với anh ấy chỉ là anh em tốt thôi. Alpha và Beta làm sao ở bên nhau được.”
+
+Vì mối quan hệ giữa hai chúng tôi quá đỗi thân thiết, Thẩm Yến Niên rất hay nhờ tôi giúp đỡ.
+
+Anh bảo ban đêm phòng trống vắng, cô đơn lạnh lẽo, rồi đòi ôm tôi ngủ.
+
+Tôi vẫn luôn nghĩ giữa hai người chỉ là tình anh em đơn thuần.
+
+Cho đến một ngày, bạn bè rủ tôi ra ngoài mở mang tầm mắt.
+
+Hôm đó tôi uống say khướt trong quán bar.
+
+Thẩm Yến Niên hay tin liền ghen đến phát điên.
+
+Ngay trước mặt bao nhiêu người, anh bắt trói tôi mang đi. Đôi mắt anh đỏ hoe, vừa cởi bỏ y phục vừa nghẹn ngào tỏ tình:
+
+“Anh không nên tin vào cái trò nước ấm nấu ếch đó. Bên ngoài có bao nhiêu kẻ đang dòm ngó em.”`
+  },{
+    id: 874,
+    title: "Lưu Đày Ba Nghìn Dặm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/48e5814182a41ec5da3cd04640606a5b.jpg",
+    link: "cotrang/luu-day-ba-nghin-dam.html",
+    type: "cotrang",
+    desc: `Khi nhận ra Cố Hàn Chu vốn đã có một người thương trong lòng, ta phát hiện bản thân đã mang giọt máu của hắn.
+
+Ta từng tính chuyện hòa ly, nhưng hắn lại chuốc thuốc mê cho ta uống đến hôn mê bất tỉnh.
+
+Đến lúc tỉnh dậy, hắn đã quyết định ép ta thế chỗ cho người tình trong mộng, thay nàng chịu cảnh lưu đày ba nghìn dặm.
+
+"Vân Nương thể chất vốn mong manh, làm sao chịu nổi nỗi đắng cay nơi đường xa lưu đày?"
+
+"Nàng và cô ấy có tướng mạo hao hao giống nhau, ta cũng chỉ còn cách dùng hạ sách này."
+
+"Ngươi hãy nhẫn nại, rồi ta sẽ đến đón ngươi về."
+
+Nhiều năm sau, khi Cố Hàn Chu trèo lên vị trí quyền lực tột đỉnh giữa triều đình, việc đầu tiên hắn làm là phái người vượt nghìn trùng đến vùng đất lạnh giá phương Bắc để tìm ta.
+
+Nào ngờ, ta đã bỏ mạng từ lâu trên con đường lưu đày nghiệt ngã.
+
+Ta bị người ta ép uống thuốc hồng hoa phá thai, bị vấy bẩn tấm thân, rồi cuối cùng hóa thành mồi ngon cho bầy chó hoang xé xác.
+
+Trời đất nếu đã bất công nhường này, ta còn việc gì phải khiếp sợ chuyện kiếp sau hay oán linh.
+`
+  },{
+    id: 875,
+    title: "Tiếng Khóc Trong Đầm Lầy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/326da28d45681019580a26895e4ea912.jpg",
+    link: "ngontinh/tieng-khoc-trong-dam-lay.html",
+    type: "ngontinh",
+    desc: `Con gái trong làng này chẳng bao giờ phải ra đồng phơi lưng cho nắng.
+
+Làn da trắng nõn nà của chúng tôi chính là món của hồi môn đắt giá nhất.
+
+Bởi lẽ, chúng tôi phải dùng chính cơ thể mình để làm mồi câu cá chạch ngắm trăng.
+
+Giống cá chạch ngắm trăng chuyên ăn thịt thối, toàn thân vàng óng nhưng đôi mắt lại đỏ như máu, ăn vào vô cùng bổ dưỡng.
+
+Ở cái làng này, chỉ những cô gái câu được loài cá ấy mới có tư cách lấy chồng.
+
+Thế nhưng, tôi lại vô tình làm tuột mất con cá chạch ngắm trăng của chị gái...
+`
+  },{
+    id: 876,
+    title: "Bạn Trai Tôi Là Xà Yêu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8d556bced72dc3ab2aa2134b30950dcc.jpg",
+    link: "dammy/ban-trai-toi-la-xa-yeu.html",
+    type: "dammy",
+    desc: `Bạn trai tôi thuộc hệ cấm dục, chỉ được ngắm chứ nhất quyết không cho chạm vào.
+
+Bực mình quá, tôi thẳng tay đá anh ta luôn.
+
+Ai mà ngờ sau đó, tôi lại bị trói chặt trên đầu giường, còn chiếc đuôi rắn của anh thì quấn sít lấy người tôi không chừa một kẽ hở.
+
+“Em có muốn biết… sự khác biệt giữa thân rắn và thân người của một con rắn đực nằm ở đâu không?”
+
+Tôi mếu mào, muốn khóc mà chẳng thể cất thành tiếng:
+
+“Không! Muốn!”`
+  },{
+    id: 877,
+    title: "Mười Lượng Bạc Cưới Được Phu Quân Mỹ Mạo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5960d19344ae9360c85fb1c82247ec60.jpg",
+    link: "cotrang/muoi-luong-bac-cuoi-duoc-phu-quan-my-mao.html",
+    type: "cotrang",
+    desc: `Ta là nữ thợ săn ở thôn lưu đày. Năm xưa, ta bỏ ra hẳn mười lượng bạc để cưới Tiêu Truy  một công tử thế gia sa cơ thất thế.
+
+Nói về ưu điểm của hắn, ngoài vẻ ngoài đẹp đến mê đắm lòng người thì chẳng còn gì khác.
+
+Sau khi thành thân, ta không cho hắn về thăm nhà mẹ đẻ, ngày ngày chỉ muốn cùng hắn sinh con đẻ cái.
+
+Thế nhưng sau này, gia tộc hắn được giải oan, hắn lại quay về làm vị công tử cao quý như trước.
+
+Hắn từng hỏi ta: "A Tú, chúng ta cùng về kinh thành, có được không?"
+
+Ta nhẹ nhàng ôm lấy bụng, hỏi lại hắn: "Vậy đứa nhỏ sinh ra vẫn mang họ của ta chứ?"
+`
   },
 
 
