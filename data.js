@@ -18097,6 +18097,188 @@ Hắn từng hỏi ta: "A Tú, chúng ta cùng về kinh thành, có được kh
 
 Ta nhẹ nhàng ôm lấy bụng, hỏi lại hắn: "Vậy đứa nhỏ sinh ra vẫn mang họ của ta chứ?"
 `
+  },{
+    id: 878,
+    title: "Đừng Tin Lời Đàn Ông Giả Dối",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8a6066bac9c6eccaaa663c9fcaded38b.jpg",
+    link: "ngontinh/dung-tin-loi-dan-ong-gia-doi.html",
+    type: "ngontinh",
+    desc: `Kẻ từng bắt nạt tôi thời đi học vừa mãn hạn tù đã bị người của vị hôn phu bắt đi.
+
+Tấn Trạch giam cô ta trong căn biệt thự ở ngoại ô, dùng chính những thủ đoạn tàn nhẫn mà cô ta từng hành hạ tôi để trả đũa. Đầu điếu thuốc đang cháy đỏ rực dí chặt vào làn da, khiến cô ta đau đớn đến mức toàn thân run rẩy.
+
+Nhưng chẳng bao lâu sau, tôi lại bắt gặp hai người bọn họ ôm hôn thắm thiết giữa mảng hoa rực rỡ.
+
+Tấn Trạch ôm chặt lấy cô ta, quay sang nhìn tôi bằng ánh mắt lạnh như băng:
+
+“Đừng nghĩ có thể lừa dối tôi thêm lần nào nữa. Chuyện năm xưa thực sự ra sao, em tưởng tôi không biết sao?”
+`
+  },{
+    id: 879,
+    title: "Nợ Một Lời Cám Ơn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/838d1aac8de3271cf9f00a18f39dd196.jpg",
+    link: "dammy/no-mot-loi-cam-on.html",
+    type: "dammy",
+    desc: `Anh trai và chị gái tôi đều là những người thuộc giới tính thứ ba.
+
+Mọi kỳ vọng nối dõi tông đường của gia đình, cha tôi đều dồn hết lên vai đứa con út là tôi.
+
+Sau này, tôi thực sự đã dẫn “vợ” về ra mắt gia đình. Thật trùng hợp làm sao, nửa kia của tôi lại là một người nam.
+
+Cơn thịnh nộ bùng lên, cha tôi vơ lấy gậy gia pháp định đòn roi nện cho tôi một trận nên thân. Nhưng vừa liếc thấy vòng bụng lùm lùm ẩn sau lớp áo của vợ tôi, ông liền khựng lại, hạ chiếc gậy rồng xuống rồi ngơ ngác: "Hả? Mày đùa tao đấy à? Giả đúng không?"
+
+Bác sĩ gia đình lập tức đính chính: "Báo cáo chủ tịch, là thật đấy ạ. Cậu ấy sở hữu cơ địa song tính vô cùng hiếm gặp."
+
+Nghe xong câu đó, nét mặt cha tôi thay đổi trong chớp mắt. Ông nở một nụ cười đắt giá nhưng trông vô cùng dị hợm với vợ tôi: "Ôi dào, con dâu mau vào đây, mời cháu lên ghế trên ngồi!"
+
+Thật đúng là bộ mặt lật lọng khó coi.`
+  },{
+    id: 880,
+    title: "Ngoảnh Lại Tựa Khói Mây",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/34ee4155573cef38121876ddb6323baf.jpg",
+    link: "cotrang/ngoanh-lai-tua-khoi-may.html",
+    type: "cotrang",
+    desc: `Kiếp trước, Diêu Viễn Nghĩa bị bãi quan, xét nhà, trở thành kẻ tội đồ bị người đời phỉ báng.
+
+Ta đã ngược xuôi bôn ba suốt ba tháng trời mới có thể giúp hắn phục chức, từng bước đưa hắn trở thành quyền thần nắm giữ trọng quyền, danh tiếng lẫy lừng.
+
+Nào ngờ, đến cuối cùng, chính tay hắn lại đâm một đao chí mạng vào ngực ta.
+
+Hắn buông lời lạnh nhạt: “Ta đã cho nàng vinh hoa phú quý, vậy mà nàng vẫn không biết đủ, thật khiến ta quá đỗi thất vọng.”
+
+Được sống lại một đời, ta quyết định sẽ không cùng hắn đồng cam cộng khổ, càng không muốn cùng hắn làm lại từ đầu nữa.
+
+Bức thư từ hôn đã được đặt sẵn trên bàn. Ta quay lưng bước đi, không một chút vương vấn: “Diêu đại nhân thất thế nghèo túng, e rằng không còn xứng với ta nữa.”
+
+Hắn nhìn ta bằng ánh mắt đong đầy thất vọng, gằn từng chữ: “Không ngờ rằng, vào lúc ta sa cơ lỡ vận, người đầu tiên ngoảnh mặt quay đi lại chính là nàng! Diệp Thư Vọng, rồi nàng nhất định sẽ phải hối hận.”
+`
+  },{
+    id: 881,
+    title: "Chú Rể Không Phải Là Anh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e3582300ea9c0b7832d58d3c9712537a.jpg",
+    link: "ngontinh/chu-re-khong-phai-la-anh.html",
+    type: "ngontinh",
+    desc: `Bị hôn phu ghẻ lạnh suốt ba năm, cuối cùng tại bữa tiệc thượng lưu hiếm có mười năm mới diễn ra một lần ở Hồng Kông, anh ta công khai cầu hôn mối tình đầu.
+
+Về sau, tôi đăng một dòng trạng thái lên WeChat: [Sắp kết hôn rồi.]
+
+Nửa đêm, anh ta gọi điện đến hỏi với giọng điệu giễu cợt: “Giang Uyển, tôi đâu có nói sẽ cưới cô.”
+
+Tôi khẽ cười: “Tôi cũng đâu có bảo chú rể là anh.”
+
+Ngay sau đó, một bộ ảnh tràn ngập khắp các trang mạng khiến toàn thành phố chấn động.
+
+Người đàn ông quyền lực bậc nhất Hồng Kông dang rộng vòng tay, nuông chiều ôm trọn tôi vào lòng, còn chủ động cúi đầu mặc cho tôi hôn lên môi anh.
+`
+  },{
+    id: 882,
+    title: "Theo Đuổi Nhầm Người Bị Nam Thần Bệnh Kiều Giam Cầm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e4c73b89ba678b4670abda243b2927a6.jpg",
+    link: "dammy/theo-duoi-nham-nguoi-bi-nam-than-benh-kieu-giam-cam.html",
+    type: "dammy",
+    desc: `Tôi xuyên không vào một cuốn tiểu thuyết đam mỹ "thịt văn" của khu Hoa Thị.
+
+Đang yên đang lành là trai thẳng, tôi lại phải sắm vai kẻ theo đuổi mê mệt của nhân vật chính công. Để hoàn thành cốt truyện và thuận lợi trở về nhà, tôi đem hết kinh nghiệm đọc truyện tích lũy bao năm ra thực hành, kiên trì bám đuổi đến mức nổi danh khắp trường.
+
+Đáng tiếc, đóa hoa cao lãnh nhân vật chính công kia, chẳng mảy may động lòng. Đồ tôi tặng đều nằm gọn trong thùng rác. Cho đến khi Hệ Thống quay trở lại và thông báo rằng tôi đã theo đuổi sai người.
+
+Tôi đảo mắt khinh bỉ, lập tức quay đầu sang bám lấy đúng đối tượng nhiệm vụ thực sự. Thế nhưng sau đó, trong tầng hầm tối tăm, nam thần của trường lại bóp chặt mặt tôi, gương mặt lộ rõ vẻ bệnh kiều điên loạn.
+
+Đến lúc này tôi mới hiểu, tại sao anh ta lại là nhân vật bước ra từ khu Hoa Thị...
+`
+  },{
+    id: 883,
+    title: "Trò Chơi Cứu Rỗi Của Những Nữ Xuyên Không",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/205df960f2e799671ba0223b29399475.jpg",
+    link: "cotrang/tro-choi-cuu-roi-cua-nhung-nu-xuyen-khong.html",
+    type: "cotrang",
+    desc: `Ta là nữ phụ phản diện trong tiểu thuyết.
+
+Vậy mà lại phải trơ mắt nhìn hết nữ xuyên không này đến nữ xuyên không khác chiếm lấy thân thể mình, tự hạ thấp bản thân, cực kỳ hèn mọn lấy lòng, chăm sóc, cứu vớt một tên tiểu súc sinh mục nát trong vũng bùn.
+
+Mỹ miều gọi là cứu rỗi phản diện, để hắn cảm nhận được sự ấm áp và tốt đẹp của thế giới.
+
+Kết cục cuối cùng, không ngoại lệ đều bị tên tiểu súc sinh kia phản bội sau khi leo lên vị trí cao, chết không toàn thây.
+
+Lại một lần nữa sống lại.
+
+Ban đầu ta cứ nghĩ lại là một màn cứu rỗi buồn cười, nào ngờ nữ xuyên không lần này, ngay khi tên tiểu súc sinh kia còn chưa kịp trưởng thành, đã một đao xuyên tim hắn.
+
+Vài giọt máu bắn lên mặt nữ xuyên không, khiến sắc mặt nàng ta trông vô cùng quỷ dị âm u: "Đằng nào cũng đã đắc tội với hắn quá sâu rồi, giết hắn chẳng phải sẽ chấm dứt hậu họa hay sao? Cái trò chơi cứu rỗi này thật sự quá nhàm chán."
+`
+  },{
+    id: 884,
+    title: "Bị Trói Lên Xe Hoa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a2a8099277ba9a57cca7f1c6aec27339.jpg",
+    link: "ngontinh/bi-troi-len-xe-hoa.html",
+    type: "ngontinh",
+    desc: `Mỗi ngày, tôi đều vô tư mặc những bộ đồ thoải mái đi lại quanh nhà. Có nhiều lúc, tôi còn chẳng buồn khoác lên mình thứ gì.
+
+Anh ta ngồi ở sofa, im lặng và điềm tĩnh. Thế nhưng đôi dái tai lúc nào cũng đỏ ửng, đôi khi mũi còn chảy máu không rõ nguyên nhân.
+
+Cho đến một ngày, tôi đột nhiên nghe được suy nghĩ trong đầu anh ta.
+
+【Có nên nói cho vợ biết là mắt mình đã khỏi rồi không nhỉ?】
+
+【Mà eo vợ nhìn mỏng thật đấy.】
+
+【Không biết ôm vào sẽ có cảm giác thế nào...】
+
+【Chân vợ cũng thật dài.】
+
+【Không biết gác lên vai mình thì...】
+
+"Đừng nói nữa!" Tôi nhanh chóng lao đến bịt chặt miệng anh ta.
+`
+  },{
+    id: 885,
+    title: "Bí Mật Dưới Đuôi Rắn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/20c1f60dd000548eef9c64d84e20cc30.jpg",
+    link: "dammy/bi-mat-duoi-duoi-ran.html",
+    type: "dammy",
+    desc: `Uống say rồi, tôi ôm chặt lấy người bạn cùng phòng cao lãnh mà mình thầm thương trộm nhớ, mượn rượu bộc bạch:
+
+"Cậu biết không, tôi là người song tính. Không biết người tôi thích có thấy tôi ghê tởm không nữa..."
+
+Hơi thở của Thi Thứ Châu lập tức trở nên dồn dập và nặng nề, nhưng biểu cảm trên mặt hắn vẫn lạnh nhạt, thậm chí có phần chán ghét mà xách cổ áo tôi lôi xềnh xệch vào phòng tắm.
+
+Làn nước lạnh ngắt dội thẳng từ đỉnh đầu xuống làm tôi rùng mình, vừa há miệng định chửi hắn bị điên thì đột nhiên lại nghe thấy tiếng lòng của hắn vang lên rõ mùng một:
+
+【Rắn ghét nhất là mùi rượu.】
+
+【Chết thật, cái đuôi rắn sắp lòi ra mất rồi.】
+
+【Nhưng mà nếu em ấy là song tính thì mình có tới hai cái, chẳng phải có thể...】
+
+【Trời đất ơi, mình với em ấy đúng là trời sinh một đôi!】
+`
+  },{
+    id: 886,
+    title: "Tiếng Lòng Của Bông Sen Núi Tuyết",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/50e8cf02b2e2cea27a558c6965eab5b8.jpg",
+    link: "cotrang/tieng-long-cua-bong-sen-nui-tuyet.html",
+    type: "cotrang",
+    desc: `Xuyên thành nữ phụ ngu ngốc hạ thuốc nam chính, đột nhiên trong đầu tôi vang lên một loạt âm thanh hỗn loạn.
+
+[Sao bé ngoan vẫn chưa hành động, có phải mình chủ động quá rồi không?]
+
+[Lần này nên cắn ít thuốc lại, không lại không nhịn được.]
+
+[Muốn hôn bé ngoan quá...]
+
+???
+
+Tôi giật mình, viên thuốc vô tình rơi vào miệng hắn.
+
+Nam chính lập tức nuốt ực một cái.
+
+Ủa anh trai? Nữ chính của anh còn chưa tới đâu đó!
+
+Tôi vội vàng chạy trốn, nhưng bị hắn ôm chặt vào lòng.
+
+Cạch.
+
+Tiếng khóa cửa vang lên.`
   },
 
 

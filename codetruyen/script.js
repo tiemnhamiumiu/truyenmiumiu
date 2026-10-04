@@ -11,11 +11,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/photo/?fbid=122118782913467824&set=pcb.122118783141467824&locale=vi_VN"
+        url: "https://www.facebook.com/photo/?fbid=122119331703467824&set=pcb.122119331853467824&locale=vi_VN"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/photo/?fbid=122118783639467824&set=pcb.122118783783467824&locale=vi_VN"
+        url: "https://www.facebook.com/photo/?fbid=122119332159467824&set=pcb.122119332387467824&locale=vi_VN"
     }
 };
 
@@ -76,7 +76,7 @@ const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
    CẤU HÌNH
 ========================================================= */
 
-const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 3000;
+const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 2000;
 const FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME = 0;
 
 /* Đọc đủ 10 phút (tính bằng giây) thì mới kích hoạt link TikTok/Lazada */
