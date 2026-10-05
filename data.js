@@ -18279,6 +18279,179 @@ Tôi vội vàng chạy trốn, nhưng bị hắn ôm chặt vào lòng.
 Cạch.
 
 Tiếng khóa cửa vang lên.`
+  },{
+    id: 887,
+    title: "Xóa Sổ Hệ Thống Cực Hạn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9f48526720bf559ff94342ceb0a91941.jpg",
+    link: "ngontinh/xoa-so-he-thong-cuc-han.html",
+    type: "ngontinh",
+    desc: `Tôi và em gái cùng bị ràng buộc với một hệ thống.
+
+Sau khi hoàn thành nhiệm vụ, em ấy dồn toàn bộ điểm kỹ năng vào ngoại hình, nhờ đó trở thành một "bình hoa di động" nổi tiếng trong giới giải trí.
+
+Còn tôi, tôi chọn dùng hết điểm tích lũy vào trí tuệ. Nhờ vậy, khi tuổi đời còn rất trẻ, tôi đã được chọn tham gia vào dự án nghiên cứu bí mật của quốc gia.
+
+Đến khi hoàn thành dự án và trở lại với cuộc sống bình thường, tôi mới phát hiện em gái mình đang là tâm điểm hứng chịu làn sóng tẩy chay trên mạng xã hội. Em ấy bị vu khống, đặt điều, thậm chí bị gắn mác tiểu tam khiến ai ai cũng đòi tẩy chay.
+
+Đúng lúc này, bạn trai của em ấy, thái tử gia của giới Kinh Khuyên, đăng một dòng trạng thái lên Weibo: "Không quen biết, xin đừng quấy rầy."
+
+Tôi nhìn màn hình mà trào dâng vô số dấu chấm hỏi.
+
+Cậu ta bảo không quen? Thế cái kẻ đang đứng ngơ ngác dưới sân nhà tôi, tha thiết cầu xin em tôi ra gặp mặt một lần là ai vậy?
+`
+  },{
+    id: 888,
+    title: "Cậu Thư Ký Cực Phẩm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b87fb838a635390d0fffe6b653f3e354.jpg",
+    link: "dammy/cau-thu-ky-cuc-pham.html",
+    type: "dammy",
+    desc: `Là một pháo hôi nam thứ trong một cuốn tiểu thuyết đam mỹ, tôi bất ngờ thức tỉnh.
+
+Đáng nói là, nhân vật thụ thanh lãnh nhạt nhẽo trong nguyên tác vốn dĩ chẳng phải mẫu người tôi thích.
+
+Cho đến khi cậu thư ký eo thon, chân dài, vòng ba săn chắc bước vào phòng làm việc.
+
+Trời ơi! Đây mới chính là chân ái cuộc đời tôi!
+`
+  },{
+    id: 889,
+    title: "Phò Mã Ép Nạp Thiếp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dc00c926933c5e4c4b4fa9192e929735.jpg",
+    link: "cotrang/pho-ma-ep-nap-thiep.html",
+    type: "cotrang",
+    desc: `Phò mã dắt theo hoàng muội đang mang thai đến trước mặt, yêu cầu ta gật đầu cho hắn nạp thiếp.
+
+Ta không khóc, chẳng náo, cũng không thắt dải lụa trắng lên xà nhà, mà dứt khoát ban cái chết cho cặp cẩu nam nữ này!
+
+Vừa nghe tin phò mã dẫn theo nữ nhân có thai về, Cúc Nguyệt tỳ nữ thân cận của ta đã mài dao sắc lẹm, hăm hở chờ lệnh:
+
+"Điện hạ, chúng ta có cần đi xử lý cặp cẩu nam nữ đó ngay không?"
+
+Ta thản nhiên: "Không vội."
+
+Cúc Nguyệt hơi khựng lại, nụ cười trên mặt thoáng cứng đờ, gật đầu tắp lự: "Dạ."
+
+Ta ngáp một cái: "Buồn ngủ rồi, đỡ bản cung đi nghỉ. Cứ để phò mã và nữ nhân kia quỳ ngoài chính điện, nếu dám chống lệnh, hộ vệ trong phủ cứ thẳng tay trừng trị, không cần nương tay."
+
+Trần nữ quan ngập ngừng: "Nhưng phò mã dù sao cũng là con cháu thế gia... nếu chuyện truyền ra ngoài, liệu có ảnh hưởng đến danh dự của điện hạ?"
+
+Ta cười nhạt: "Trong cái phủ công chúa này, bản cung mới là người lớn nhất."
+
+Trần nữ quan hiểu ý, mãn nguyện cúi đầu lui ra.
+
+Cúc Nguyệt nhổ một bãi nước bọt về hướng phò mã rồi mới đỡ ta vào trong.
+
+Tẩm phòng của ta, từ bàn ghế đến từng đồ vật trang trí đều xa hoa lộng lẫy, ngập tràn hơi thở của tiền bạc. Mỗi lần Thẩm Hoài Minh bước chân vào đây, hắn chưa từng che giấu vẻ khinh ghét trên mặt.
+
+Ta cố nén sự bực bội trong lòng. Chỉ cần nghĩ đến việc sắp sửa thoát khỏi tên nam nhân vô vị, thiếu thẩm mỹ này, lòng ta liền rộn rã niềm vui!
+
+Nhớ tới cảnh sắp sửa xử lý luôn cả Triệu Tĩnh Nhi, niềm vui ấy lại nhân lên gấp bội!
+
+Mang theo tâm trạng phấn khởi đó, ta ngả lưng xuống chiếc giường mềm mại lót ba lớp chăn tơ tằm, vùi đầu vào gối rồi chìm sâu vào giấc ngủ.
+`
+  },{
+    id: 890,
+    title: "Bí Mật Ba Đời Chồng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/16c9a70eeb3e47acaa1ce55fc5a3685e.jpg",
+    link: "ngontinh/bi-mat-ba-doi-chong.html",
+    type: "ngontinh",
+    desc: `Hình tượng tiểu bạch hoa trong làng giải trí của Ôn Uẩn sụp đổ rồi! Antifan đã lật tung quá khứ và phát hiện cô từng trải qua tận ba cuộc hôn nhân.
+
+Người quản lý bật cười: “Phụt... Haha! Thật buồn cười! Cứ gửi thư luật sư cho họ đi!”
+
+Cô lập tức cản quản lý lại, oà khóc: “Đừng nói nữa... Tất cả đều là thật đấy...”
+`
+  },{
+    id: 891,
+    title: "Nhặt Xà Phòng Nhặt Được Chồng Sát Thủ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c52aa141bdaaf814da9b7e235f0b08b.jpg",
+    link: "dammy/nhat-xa-phong-nhat-duoc-chong-sat-thu.html",
+    type: "dammy",
+    desc: `Sát thủ lẻn vào nhà tắm tập kích tôi đúng lúc tôi đang cúi xuống nhặt cục xà phòng.
+
+Hắn buông một câu lạnh như băng:
+
+“Tôi không phải gay, cậu có vểnh mông lên trời cũng hoài công!”
+
+Tôi ngơ ngác quay lại, hít vào một hơi.
+
+Hắn lập tức đỏ bừng mặt:
+
+“M… mẹ kiếp… thủ đoạn cao tay thật!”`
+  },{
+    id: 892,
+    title: "Nợ Nàng Một Kiệu Hoa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1efb4bab7a0c5ba2a5409704ef80bbe6.jpg",
+    link: "cotrang/no-nang-mot-kieu-hoa.html",
+    type: "cotrang",
+    desc: `Khi Ký Thư Nghiên lên kinh ứng thí, ta đã giao toàn bộ số tiền tích góp của mình cho hắn.
+
+Trao đi chẳng giữ lại chút nào.
+
+Nơi bến nước chia phôi, hắn ôm chặt ta vào lòng, thầm thì hứa hẹn:
+
+"Đợi mùa xuân năm sau liễu rợp bóng hồ, ta nhất định sẽ cưỡi ngựa cao đầu quay về đón nàng."
+
+Tháng ba năm sau, tin vui quả nhiên truyền tới: Ký Thư Nghiên đã đỗ Trạng nguyên.
+
+Hắn cho người đánh xe ngựa về quê đón ta vào kinh.
+
+Thế nhưng ngay thời điểm ta vừa đặt chân đến kinh thành, triều đình lại hạ thánh chỉ ban hôn cho hắn.
+
+Ta nhìn Ký Thư Nghiên cúi đầu tiếp nhận thánh chỉ, trong mắt đong đầy vẻ bất đắc dĩ.
+
+Đêm đó, ta ngồi trong gian phòng nhỏ lặng lẽ đợi trời sáng, tay không ngừng lau chùi thanh đao đã bên mình suốt bao năm.
+`
+  },{
+    id: 893,
+    title: "Bạn Trai Độc Miệng Chuyên Trị Trà Xanh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4007b7b7869bfc581a6a0a155049821f.jpg",
+    link: "ngontinh/ban-trai-doc-mieng-chuyen-tri-tra-xanh.html",
+    type: "ngontinh",
+    desc: `Trong hội bạn thân của bạn trai tôi có một cô em gái vô cùng nổi tiếng.
+
+Rất nhiều đôi tình nhân đã phải ngậm ngùi chia tay cũng chỉ vì cô "nữ huynh đệ" này xuất hiện.
+
+Lần đầu tiên tôi đi cùng bạn trai đến buổi tụ họp, cô ta đã kéo tay anh rồi bĩu môi:
+
+“Sao lại dẫn con gái đến buổi tụ tập anh em của chúng ta vậy chứ? Ồ, bạn gái cậu trang điểm à? Hẳn là cậu đã phải đợi rất lâu rồi nhỉ?”
+
+Tôi còn chưa kịp phản ứng thì bạn trai tôi đã lập tức ra tay trước:
+
+“Ồ? Hóa ra cô không trang điểm sao? Thảm nào nhìn thô như vậy, chẳng trách mãi mà không tìm được bạn trai.”
+`
+  },{
+    id: 894,
+    title: "Cùng Bàn Đến Nhẫn Cưới",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c65ce376172d87bb1029a9bf7b556e0.jpg",
+    link: "dammy/cung-ban-den-nhan-cuoi.html",
+    type: "dammy",
+    desc: `Bạn thân của tôi đang hẹn hò với một nam nhân lớn hơn cậu ấy đến mười tuổi.
+
+Vì lo sợ cha mẹ không chấp thuận, cậu ấy liền tìm tôi nhờ tư vấn cách giải quyết.
+
+Tôi hiến kế: "Cứ dẫn một người con trai về nhà trước đi, mấy chuyện sau đó bảo đảm sẽ dễ thở hơn nhiều."
+
+Thế là cậu ấy dắt luôn tôi về ra mắt gia đình.
+
+Ngờ đâu, cha mẹ cậu ấy lại gật đầu đồng ý thật.
+`
+  },{
+    id: 895,
+    title: "Hậu Cung Đâu Chỉ Có Tranh Sủng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/558ca80298cd7e82e9b1f448fdd4703f.jpg",
+    link: "cotrang/hau-cung-dau-chi-co-tranh-sung.html",
+    type: "cotrang",
+    desc: `Lần đầu tiên gặp Hoàng hậu, ta đã lỡ tay làm hỏng cây trâm phượng của nàng.
+
+Hoàng hậu tức giận, mắng ta ỷ sủng sinh kiêu rồi định cho người đánh ta, nhưng cuối cùng lại bị Hoàng thượng ngăn lại.
+
+"Thôi, đầu óc nàng ta không được tốt lắm."
+
+Hoàng hậu nghe vậy thì nghiến răng cười khẩy, bảo Hoàng thượng đã bị sắc đẹp làm cho mờ mắt.
+
+Sau này Hoàng hậu mới phát hiện, ra là đầu óc ta không được tốt thật.
+`
   },
 
 
