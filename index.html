@@ -1,100 +1,563 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sa Sa Home</title>
-  <link rel="stylesheet" href="style.css?v=13">
-  <link rel="stylesheet" href="codetruyen/khoa.css">
-  <link rel="icon" type="image/png" href="codetruyen/iconxoi.jpg">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Truyện Mới Miu Miu</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css?v=13"
+  >
+<link rel="icon" type="image/png" href="codetruyen/icon.jpg">
 </head>
+
 <body>
 
-<header class="topbar">
-  <a href="index.html">Home</a>
-  <a href="romance.html">Romance</a>
-  <a href="lgbt.html">LGBT</a>
-  <a href="eastern.html">Eastern</a>
+
+<!-- ==================================================
+     TOP MENU
+================================================== -->
+
+<header class="menu">
+
+  <a href="index.html">
+    Trang chủ
+  </a>
+
+  <a href="ngontinh.html">
+    Ngôn tình
+  </a>
+
+  <a href="dammy.html">
+    Đam mỹ
+  </a>
+
+    <a href="cotrang.html">Cổ trang</a>
+  <a href="https://truyenxoithitmiumiu.nekoweb.org/" id="xoiThitLink">Xôi Thịt</a>
+
 </header>
 
-<h1 style="text-align:center; color:#ff5722;">NEW STORIES</h1>
+
+<!-- ==================================================
+     TITLE
+================================================== -->
+
+<h1 style="
+  text-align:center;
+  color:#ff5722;
+">
+  TRUYỆN MỚI
+</h1>
+
+
+<!-- ==================================================
+     SEARCH
+================================================== -->
 
 <div class="search-box">
-  <input type="text" id="search" placeholder="🔍 Search by title or story number" autocomplete="off">
+
+  <input
+    type="text"
+    id="search"
+    placeholder="🔍 Tìm Tên Hoặc Số Truyện"
+    autocomplete="off"
+  >
+
 </div>
 
-<div class="container" id="list"></div>
+
+<!-- ==================================================
+     LIST
+================================================== -->
+
+<div
+  class="container"
+  id="list"
+></div>
+
+
+<!-- ==================================================
+     DATA
+================================================== -->
 
 <script src="data.js"></script>
-<script src="script.js"></script>
-<script>
-const list = document.getElementById("list");
-const search = document.getElementById("search");
 
-/* ===== NORMALIZE KEYWORD ===== */
+<!-- ==================================================
+     SCRIPT VIEW
+================================================== -->
+
+<script src="script.js"></script>
+
+
+<script>
+
+
+/* ==================================================
+   ELEMENTS
+================================================== */
+
+const list =
+  document.getElementById("list");
+
+const search =
+  document.getElementById("search");
+
+
+/* ==================================================
+   CHUẨN HÓA TỪ KHÓA
+================================================== */
+
 function normalizeText(str) {
+
   return String(str || "")
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/đ/g, "d")
-    .replace(/Đ/g, "D")
+    .replace(
+      /[\u0300-\u036f]/g,
+      ""
+    )
+    .replace(
+      /đ/g,
+      "d"
+    )
+    .replace(
+      /Đ/g,
+      "D"
+    )
     .toLowerCase()
     .trim();
+
 }
 
-/* ===== BUILD SEARCH TITLE ===== */
-stories.forEach(item => {
-  if (!item) return;
-  item.searchTitle = normalizeText(item.title);
-});
 
-/* ===== RENDER ===== */
+/* ==================================================
+   TẠO SEARCH TITLE
+================================================== */
+
+stories.forEach(
+  item => {
+
+    if (!item) {
+      return;
+    }
+
+
+    item.searchTitle =
+      normalizeText(
+        item.title
+      );
+
+  }
+);
+
+
+/* ==================================================
+   RENDER
+================================================== */
+
 function render(data) {
+
   list.innerHTML = "";
-  const sorted = data.filter(item => item).sort((a, b) => b.id - a.id);
 
-  sorted.forEach((item, index) => {
-    if (!item) { console.log("Error at:", index); return; }
-    list.innerHTML += `
-      <a class="book" href="detail.html?id=${item.id}">
-        <img src="${item.image}" alt="${item.title}">
-        <div class="view-count"></div>
-        <h2>${item.title}</h2>
-      </a>
-    `;
-  });
 
-  /* Only reads current view counts, never increments */
-  if (typeof loadViewCounts === "function") { loadViewCounts(); }
+  const sorted =
+    data
+
+      .filter(
+        item =>
+          item
+      )
+
+      .sort(
+        (a, b) =>
+          b.id - a.id
+      );
+
+
+  sorted.forEach(
+    (item, index) => {
+
+      if (!item) {
+
+        console.log(
+          "Lỗi ở:",
+          index
+        );
+
+        return;
+
+      }
+
+
+      list.innerHTML += `
+
+        <a
+          class="book"
+          href="detail.html?id=${item.id}"
+        >
+
+          <!-- ẢNH -->
+
+          <img
+            src="${item.image}"
+            alt="${item.title}"
+          >
+
+
+          <!-- LƯỢT XEM -->
+
+          <div class="view-count">
+
+            
+
+          </div>
+
+
+          <!-- TÊN TRUYỆN -->
+
+          <h2>
+
+            ${item.title}
+
+          </h2>
+
+        </a>
+
+      `;
+
+    }
+  );
+
+
+  /* ==================================================
+     CẬP NHẬT VIEW
+
+     Chỉ đọc số view hiện tại.
+     Không tự cộng view.
+  ================================================== */
+
+  if (
+    typeof loadViewCounts ===
+    "function"
+  ) {
+
+    loadViewCounts();
+
+  }
+
 }
 
-/* ===== DEBUG ===== */
-console.log("Total stories:", stories.length);
-stories.forEach((item, index) => {
-  if (!item) { console.log("Empty item at index:", index); }
-});
 
-render(stories);
+/* ==================================================
+   DEBUG
+================================================== */
 
-/* ===== SEARCH BY TITLE OR ID ===== */
-search.addEventListener("input", function () {
-  const value = normalizeText(this.value);
-  if (!value) { render(stories); return; }
+console.log(
+  "Số truyện:",
+  stories.length
+);
 
-  const filtered = stories.filter(item => {
-    if (!item) return false;
-    const titleMatch = item.searchTitle.includes(value);
-    const idMatch = String(item.id).toLowerCase().includes(value);
-    return titleMatch || idMatch;
-  });
 
-  render(filtered);
-});
+stories.forEach(
+  (item, index) => {
 
-search.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") { event.preventDefault(); this.blur(); }
-});
+    if (!item) {
+
+      console.log(
+        "Phần tử rỗng ở vị trí:",
+        index
+      );
+
+    }
+
+  }
+);
+
+
+/* ==================================================
+   LOAD BAN ĐẦU
+================================================== */
+
+render(
+  stories
+);
+
+
+/* ==================================================
+   TÌM KIẾM THEO:
+
+   1. TÊN TRUYỆN
+   2. ID TRUYỆN
+================================================== */
+
+search.addEventListener(
+  "input",
+  function () {
+
+    const value =
+      normalizeText(
+        this.value
+      );
+
+
+    /* ==================================================
+       Ô TÌM KIẾM TRỐNG
+    ================================================== */
+
+    if (!value) {
+
+      render(
+        stories
+      );
+
+      return;
+
+    }
+
+
+    /* ==================================================
+       LỌC
+    ================================================== */
+
+    const filtered =
+      stories.filter(
+        item => {
+
+          if (!item) {
+            return false;
+          }
+
+
+          /* ------------------------------------------
+             TÌM THEO TÊN
+          ------------------------------------------ */
+
+          const titleMatch =
+            item.searchTitle
+              .includes(
+                value
+              );
+
+
+          /* ------------------------------------------
+             TÌM THEO ID
+
+             Ví dụ nhập:
+             703
+             → tìm truyện ID 703
+
+             Nhập:
+             70
+             → tìm 70, 700, 701, 702, 703...
+          ------------------------------------------ */
+
+          const idMatch =
+            String(
+              item.id
+            )
+            .toLowerCase()
+            .includes(
+              value
+            );
+
+
+          return (
+            titleMatch ||
+            idMatch
+          );
+
+        }
+      );
+
+
+    /* ==================================================
+       HIỂN THỊ KẾT QUẢ
+    ================================================== */
+
+    render(
+      filtered
+    );
+
+  }
+);
+
+
+/* ==================================================
+   ENTER
+================================================== */
+
+search.addEventListener(
+  "keydown",
+  function(event) {
+
+    if (
+      event.key ===
+      "Enter"
+    ) {
+
+      event.preventDefault();
+
+      this.blur();
+
+    }
+
+  }
+);
+
+
 </script>
-<script src="codetruyen/script.js"></script>
+
+
+
+<!-- ==================================================
+     POPUP CHUYỂN SANG WEB XÔI THỊT
+================================================== -->
+
+<div
+  id="xoiThitPopup"
+  class="xoi-thit-overlay"
+  style="display:none;"
+>
+
+  <div class="xoi-thit-box">
+
+      <img
+    src="codetruyen/icon.jpg"
+    alt="Truyện Mới Miu Miu"
+    class="xoi-thit-icon"
+  >
+
+  <span class="xoi-thit-arrow">→</span>
+
+  <img
+    src="codetruyen/iconxoi.jpg"
+    alt="Xôi Thịt Nhà Mui Miu"
+    class="xoi-thit-icon"
+  >
+
+    <div class="xoi-thit-text">
+      Bạn đang chuyển qua web
+      <strong>Xôi Thịt Nhà Mui Miu</strong>
+    </div>
+
+    <div class="xoi-thit-question">
+      Bạn có muốn tiếp tục không?
+    </div>
+
+    <div class="xoi-thit-buttons">
+
+      <button
+        id="xoiThitYes"
+        class="xoi-thit-yes"
+      >
+        Có
+      </button>
+
+      <button
+        id="xoiThitNo"
+        class="xoi-thit-no"
+      >
+        Không
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink =
+  document.getElementById("xoiThitLink");
+
+const xoiThitPopup =
+  document.getElementById("xoiThitPopup");
+
+const xoiThitYes =
+  document.getElementById("xoiThitYes");
+
+const xoiThitNo =
+  document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   ẤN XÔI THỊT
+================================================== */
+
+xoiThitLink.addEventListener(
+  "click",
+  function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  }
+);
+
+
+/* ==================================================
+   CÓ → CHUYỂN WEB
+================================================== */
+
+xoiThitYes.addEventListener(
+  "click",
+  function() {
+
+    window.location.href =
+      "https://truyenxoithitmiumiu.nekoweb.org/";
+
+  }
+);
+
+
+/* ==================================================
+   KHÔNG → ĐÓNG BẢNG
+================================================== */
+
+xoiThitNo.addEventListener(
+  "click",
+  function() {
+
+    xoiThitPopup.style.display = "none";
+
+  }
+);
+
+
+/* ==================================================
+   ẤN RA NGOÀI BẢNG → ĐÓNG
+================================================== */
+
+xoiThitPopup.addEventListener(
+  "click",
+  function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  }
+);
+
+</script>
 </body>
 </html>
