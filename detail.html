@@ -1,71 +1,496 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sa Sa Home</title>
-  <link rel="stylesheet" href="codetruyen/khoa.css">
-  <link rel="icon" type="image/png" href="codetruyen/iconxoi.jpg">
-  <link rel="stylesheet" href="style.css?v=3">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Tiệm Nhà Miu Miu</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css?v=3"
+  >
+<link rel="icon" type="image/png" href="codetruyen/icon.jpg">
+
   <style>
-    .tag { margin: 15px 0 5px; }
-    .detail-view-count { margin: 0 0 10px; color:#8f8f8f; font-size:13px; line-height:1.4; text-align:left; }
-    .detail-view-count span { color:#a0a0a0; font-weight:normal; }
-    .desc { margin-top:0; color:#ddd; line-height:1.9; white-space:pre-line; max-height:220px; overflow-y:auto; padding-right:10px; }
+
+    /* ==================================================
+       GIẢM KHOẢNG CÁCH GIỮA TYPE → VIEW
+    ================================================== */
+
+    .tag {
+      margin:
+        15px 0 5px;
+    }
+
+
+    /* ==================================================
+       LƯỢT XEM
+    ================================================== */
+
+    .detail-view-count {
+      margin:
+        0 0 10px;
+
+      color:#8f8f8f;
+
+      font-size:13px;
+
+      line-height:1.4;
+
+      text-align:left;
+    }
+
+    .detail-view-count span {
+      color:#a0a0a0;
+
+      font-weight:normal;
+    }
+
+
+    /* ==================================================
+       VĂN ÁN
+    ================================================== */
+
+    .desc {
+      margin-top:0;
+
+      color:#ddd;
+
+      line-height:1.9;
+
+      white-space:pre-line;
+
+      max-height:220px;
+
+      overflow-y:auto;
+
+      padding-right:10px;
+    }
+
   </style>
+
 </head>
+
+
 <body>
 
+
+<!-- ==================================================
+     TOPBAR
+================================================== -->
+
 <div class="topbar">
-  <a href="index.html">Home</a>
-  <a href="romance.html">Romance</a>
-  <a href="lgbt.html">LGBT</a>
-  <a href="eastern.html">Eastern</a>
+
+  <a href="index.html">
+    Trang chủ
+  </a>
+
+  <a href="ngontinh.html">
+    Ngôn tình
+  </a>
+
+  <a href="dammy.html">
+    Đam mỹ
+  </a>
+
+    <a href="cotrang.html">Cổ trang</a>
+  <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
+
 </div>
 
-<div class="detail-page" id="detail"></div>
+
+<!-- ==================================================
+     DETAIL
+================================================== -->
+
+<div
+  class="detail-page"
+  id="detail"
+></div>
+
+
+<!-- ==================================================
+     DATA
+================================================== -->
 
 <script src="data.js?v=2"></script>
+
 <script src="script.js"></script>
+
+
 <script>
-const params = new URLSearchParams(location.search);
-const id = params.get("id");
-const story = stories.find(item => item && item.id == id);
-const detail = document.getElementById("detail");
+
+const params =
+  new URLSearchParams(
+    location.search
+  );
+
+
+const id =
+  params.get("id");
+
+
+const story =
+  stories.find(
+    item =>
+      item &&
+      item.id == id
+  );
+
+
+const detail =
+  document.getElementById(
+    "detail"
+  );
+
+
+/* ==================================================
+   KHÔNG TÌM THẤY TRUYỆN
+================================================== */
 
 if (!story) {
-  detail.innerHTML = `
-    <div style="text-align:center; padding:100px 20px; color:white;">
-      <h1>❌ Story not found</h1>
-    </div>
-  `;
-} else {
-  /* Genre name + link */
-  let typeName = "Romance";
-  let typeLink = "romance.html";
-  if (story.type === "lgbt")   { typeName = "LGBT";    typeLink = "lgbt.html"; }
-  if (story.type === "eastern") { typeName = "Eastern"; typeLink = "eastern.html"; }
-
-  /* Synopsis (trim leading/trailing whitespace) */
-  const storyDesc = story.desc ? String(story.desc).trim() : "No synopsis yet";
 
   detail.innerHTML = `
-    <div class="detail-card">
-      <img src="${story.image}" class="detail-img" alt="${story.title}">
-      <div class="detail-info">
-        <h1>${story.title}</h1>
-        <a class="tag" href="${typeLink}">${typeName}</a>
-        <div class="detail-view-count"></div>
-        <div class="desc">${storyDesc}</div>
-        <a href="${story.link}" class="read-btn">Read now</a>
-      </div>
+
+    <div style="
+      text-align:center;
+      padding:100px 20px;
+      color:white;
+    ">
+
+      <h1>
+        ❌ Không tìm thấy truyện
+      </h1>
+
     </div>
+
   `;
 
-  /* Display views only, do not count here */
-  if (typeof loadViewCounts === "function") { loadViewCounts(); }
 }
+
+
+/* ==================================================
+   CÓ TRUYỆN
+================================================== */
+
+else {
+
+
+  /* ==================================================
+     TÊN THỂ LOẠI
+  ================================================== */
+
+  let typeName =
+    "Ngôn tình";
+
+
+  if (
+    story.type ===
+    "dammy"
+  ) {
+
+    typeName =
+      "Đam mỹ";
+
+  }
+
+
+  if (
+    story.type ===
+    "cotrang"
+  ) {
+
+    typeName =
+      "Cổ trang";
+
+  }
+
+
+  /* ==================================================
+     LINK THỂ LOẠI
+  ================================================== */
+
+  let typeLink =
+    "ngontinh.html";
+
+
+  if (
+    story.type ===
+    "dammy"
+  ) {
+
+    typeLink =
+      "dammy.html";
+
+  }
+
+
+  if (
+    story.type ===
+    "cotrang"
+  ) {
+
+    typeLink =
+      "cotrang.html";
+
+  }
+
+
+  /* ==================================================
+     VĂN ÁN
+     
+     trim() để loại bỏ khoảng trắng /
+     xuống dòng thừa đầu và cuối.
+  ================================================== */
+
+  const storyDesc =
+    story.desc
+      ? String(story.desc).trim()
+      : "Chưa có văn án";
+
+
+  /* ==================================================
+     HTML DETAIL
+  ================================================== */
+
+  detail.innerHTML = `
+
+    <div class="detail-card">
+
+
+      <!-- ẢNH -->
+
+      <img
+        src="${story.image}"
+        class="detail-img"
+        alt="${story.title}"
+      >
+
+
+      <!-- INFO -->
+
+      <div class="detail-info">
+
+
+        <!-- TÊN TRUYỆN -->
+
+        <h1>
+          ${story.title}
+        </h1>
+
+
+        <!-- THỂ LOẠI -->
+
+        <a
+          class="tag"
+          href="${typeLink}"
+        >
+          ${typeName}
+        </a>
+
+
+        <!-- LƯỢT XEM -->
+
+        <div
+          class="detail-view-count"
+        >
+
+          
+
+        </div>
+
+
+        <!-- VĂN ÁN -->
+
+        <div class="desc">${storyDesc}</div>
+
+
+        <!-- ĐỌC NGAY -->
+
+        <a
+          href="${story.link}"
+          class="read-btn"
+        >
+          Đọc ngay
+        </a>
+
+
+      </div>
+
+    </div>
+
+  `;
+
+
+  /* ==================================================
+     CHỈ HIỂN THỊ VIEW
+     KHÔNG TÍNH VIEW Ở ĐÂY
+  ================================================== */
+
+  if (
+    typeof loadViewCounts ===
+    "function"
+  ) {
+
+    loadViewCounts();
+
+  }
+
+}
+
 </script>
-<script src="codetruyen/script.js"></script>
+
+
+
+<!-- ==================================================
+     POPUP CHUYỂN SANG WEB XÔI THỊT
+================================================== -->
+
+<div
+  id="xoiThitPopup"
+  class="xoi-thit-overlay"
+  style="display:none;"
+>
+
+  <div class="xoi-thit-box">
+
+      <img
+    src="codetruyen/icon.jpg"
+    alt="Truyện Mới Miu Miu"
+    class="xoi-thit-icon"
+  >
+
+  <span class="xoi-thit-arrow">→</span>
+
+  <img
+    src="codetruyen/iconxoi.jpg"
+    alt="Xôi Thịt Nhà Mui Miu"
+    class="xoi-thit-icon"
+  >
+
+    <div class="xoi-thit-text">
+      Bạn đang chuyển qua web
+      <strong>Xôi Thịt Nhà Mui Miu</strong>
+    </div>
+
+    <div class="xoi-thit-question">
+      Bạn có muốn tiếp tục không?
+    </div>
+
+    <div class="xoi-thit-buttons">
+
+      <button
+        id="xoiThitYes"
+        class="xoi-thit-yes"
+      >
+        Có
+      </button>
+
+      <button
+        id="xoiThitNo"
+        class="xoi-thit-no"
+      >
+        Không
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink =
+  document.getElementById("xoiThitLink");
+
+const xoiThitPopup =
+  document.getElementById("xoiThitPopup");
+
+const xoiThitYes =
+  document.getElementById("xoiThitYes");
+
+const xoiThitNo =
+  document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   ẤN XÔI THỊT
+================================================== */
+
+xoiThitLink.addEventListener(
+  "click",
+  function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  }
+);
+
+
+/* ==================================================
+   CÓ → CHUYỂN WEB
+================================================== */
+
+xoiThitYes.addEventListener(
+  "click",
+  function() {
+
+    window.location.href =
+      "https://tiemnhamiumiu.neocities.org/";
+
+  }
+);
+
+
+/* ==================================================
+   KHÔNG → ĐÓNG BẢNG
+================================================== */
+
+xoiThitNo.addEventListener(
+  "click",
+  function() {
+
+    xoiThitPopup.style.display = "none";
+
+  }
+);
+
+
+/* ==================================================
+   ẤN RA NGOÀI BẢNG → ĐÓNG
+================================================== */
+
+xoiThitPopup.addEventListener(
+  "click",
+  function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  }
+);
+
+</script>
 </body>
 </html>
