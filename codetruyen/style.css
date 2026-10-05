@@ -76,11 +76,149 @@ body {
 }
 
 /* ==================================================
-   LOCKED CONTENT
+   KHÓA / MỞ TRUYỆN
+   (JS gắn class "storyLocked" lên <body> khi chưa mở khóa)
 ================================================== */
 
 #lockedContent {
   display: block;
+}
+
+body.storyLocked #lockedContent {
+  display: none;
+}
+
+body:not(.storyLocked) #passwordGate {
+  display: none;
+}
+
+/* ==================================================
+   CỔNG NHẬP MẬT KHẨU
+================================================== */
+
+.password-gate {
+  width: 100%;
+  max-width: 480px;
+  margin: 10px auto 30px;
+  padding: 26px 20px 22px;
+  background: #181818;
+  border: 1px solid #353535;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.5);
+}
+
+.password-gate h2 {
+  margin: 0 0 16px;
+  color: #ff7043;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.password-guide {
+  margin: 0 0 16px;
+}
+
+.password-guide img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.password-instruction {
+  margin: 0 0 16px;
+  color: #bdbdbd;
+  font-size: 14px;
+  line-height: 1.6;
+}.password-ghi {
+  margin: 0 0 16px;
+  color: #ff5722;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.password-link {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 13px 14px;
+  border-radius: 10px;
+  background: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.password-link:hover {
+  background: #ff5722;
+  border-color: #ff5722;
+}
+
+.password-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+#storyPassword {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+  background: #101010;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#storyPassword::placeholder {
+  color: #777777;
+}
+
+#storyPassword:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 0 3px rgba(255, 112, 67, 0.18);
+}
+
+#unlockStoryBtn {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff7043 0%, #ff5722 100%);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+#unlockStoryBtn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+#unlockStoryBtn:active {
+  transform: translateY(0);
+}
+
+.password-error {
+  min-height: 20px;
+  margin: 10px 0 0;
+  color: #ff8a80;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 /* ==================================================
@@ -140,939 +278,6 @@ body {
 
 .fb-btn:hover {
   background: #0d65d9;
-}
-
-/* ==================================================
-   AUDIO CARD
-================================================== */
-
-.audio-card {
-  width: 100%;
-  max-width: 680px;
-  margin: 25px auto;
-  padding: 20px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  border-radius: 20px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-}
-
-.audio-header {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  margin-bottom: 18px;
-}
-
-.audio-icon {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  background: #fff0f5;
-  border-radius: 14px;
-  font-size: 23px;
-}
-
-.audio-title {
-  min-width: 0;
-}
-
-.audio-name {
-  color: #333333;
-  font-size: 17px;
-  font-weight: 700;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.audio-subtitle {
-  margin-top: 3px;
-  color: #999999;
-  font-size: 12px;
-}
-
-/* ==================================================
-   HIDE YOUTUBE
-================================================== */
-
-#storyAudio {
-  position: fixed;
-  width: 1px;
-  height: 1px;
-  left: -10000px;
-  top: 0;
-  overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-#youtubePlayer {
-  width: 1px;
-  height: 1px;
-}
-
-#youtubePlayer iframe {
-  width: 1px !important;
-  height: 1px !important;
-  border: 0;
-  opacity: 0;
-}
-
-/* ==================================================
-   PROGRESS
-================================================== */
-
-.audio-progress-wrap {
-  position: relative;
-  width: 100%;
-  padding-top: 10px;
-}
-
-.audio-progress {
-  width: 100%;
-  height: 6px;
-  margin: 0;
-  appearance: none;
-  background: #eeeeee;
-  border-radius: 10px;
-  cursor: pointer;
-  accent-color: #ff6b9a;
-}
-
-.audio-progress::-webkit-slider-runnable-track {
-  height: 6px;
-  background: #eeeeee;
-  border-radius: 10px;
-}
-
-.audio-progress::-webkit-slider-thumb {
-  appearance: none;
-  width: 15px;
-  height: 15px;
-  margin-top: -4.5px;
-  border: none;
-  border-radius: 50%;
-  background: #ff6b9a;
-  cursor: pointer;
-}
-
-.audio-progress::-moz-range-track {
-  height: 6px;
-  background: #eeeeee;
-  border-radius: 10px;
-}
-
-.audio-progress::-moz-range-progress {
-  height: 6px;
-  background: #ff6b9a;
-  border-radius: 10px;
-}
-
-.audio-progress::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
-  border: none;
-  border-radius: 50%;
-  background: #ff6b9a;
-  cursor: pointer;
-}
-
-/* ==================================================
-   TIME BUBBLE
-================================================== */
-
-.audio-time-bubble {
-  position: absolute;
-  top: -22px;
-  left: 0;
-  transform: translateX(-50%);
-  display: block;
-  padding: 3px 7px;
-  background: #333333;
-  color: #ffffff;
-  border-radius: 5px;
-  font-size: 11px;
-  line-height: 1.3;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.12s ease;
-  z-index: 10;
-}
-
-.audio-time-bubble::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -4px;
-  transform: translateX(-50%);
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-top: 4px solid #333333;
-}
-
-.audio-time {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 7px;
-  color: #888888;
-  font-size: 12px;
-}
-
-/* ==================================================
-   MAIN CONTROLS
-================================================== */
-
-.audio-main-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-  margin-top: 15px;
-}
-
-.audio-control-btn {
-  min-width: 55px;
-  height: 38px;
-  border: 1px solid #eeeeee;
-  background: #fafafa;
-  border-radius: 12px;
-  color: #555555;
-  font-size: 12px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.audio-control-btn:hover {
-  background: #fff0f5;
-  border-color: #ffb3c9;
-}
-
-.audio-play {
-  width: 52px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: none;
-  border-radius: 50%;
-  background: #ff6b9a;
-  color: #ffffff;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(255, 107, 154, 0.3);
-  transition: 0.2s;
-}
-
-.audio-play:hover {
-  transform: scale(1.05);
-  background: #ff82aa;
-}
-
-/* ==================================================
-   SPEED
-================================================== */
-
-.audio-speed {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 7px;
-  margin-top: 18px;
-}
-
-.speed-title {
-  margin-right: 4px;
-  color: #888888;
-  font-size: 12px;
-}
-
-.speed-btn {
-  padding: 6px 12px;
-  border: 1px solid #eeeeee;
-  background: #fafafa;
-  color: #555555;
-  border-radius: 20px;
-  font-size: 12px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.speed-btn:hover {
-  background: #fff0f5;
-  border-color: #ffb3c9;
-}
-
-.speed-btn.active {
-  background: #ff6b9a;
-  border-color: #ff6b9a;
-  color: #ffffff;
-}
-
-/* ==================================================
-   NHẠC NỀN
-================================================== */
-
-.background-music {
-  width: 100%;
-  margin-top: 18px;
-}
-
-.music-toggle-btn {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 14px;
-  border: 1px solid #eeeeee;
-  border-radius: 12px;
-  background: #fafafa;
-  color: #555555;
-  font-size: 13px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.music-toggle-btn:hover {
-  background: #fff0f5;
-  border-color: #ffb3c9;
-}
-
-.music-toggle-left {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
-
-.music-arrow {
-  font-size: 11px;
-  color: #999999;
-  transition: transform 0.2s;
-}
-
-.music-arrow.open {
-  transform: rotate(180deg);
-}
-
-/* ==================================================
-   MUSIC PANEL
-================================================== */
-
-.music-panel {
-  margin-top: 8px;
-  padding: 14px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  border-radius: 13px;
-  animation: musicPanelOpen 0.18s ease;
-}
-
-@keyframes musicPanelOpen {
-  from {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.music-panel-title {
-  margin-bottom: 10px;
-  color: #444444;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.music-list {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  max-height: 230px;
-  overflow-y: auto;
-  padding-right: 2px;
-}
-
-.music-item {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  padding: 10px 11px;
-  border: 1px solid #dddddd;
-  border-radius: 10px;
-  background: #ffffff;
-  color: #333333;
-  text-align: left;
-  font-size: 12px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.music-item:hover {
-  background: #fff5f8;
-  border-color: #ffb3c9;
-}
-
-.music-item.active,
-.music-item.selected {
-  background: #fff0f5;
-  border-color: #ff6b9a;
-  color: #e75480;
-  font-weight: 600;
-}
-
-.music-item-icon {
-  width: 25px;
-  height: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  border-radius: 7px;
-  background: #f1f1f1;
-  color: #666666;
-}
-
-.music-item.active .music-item-icon,
-.music-item.selected .music-item-icon {
-  background: #ff6b9a;
-  color: #ffffff;
-}
-
-.music-item-name {
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.selected-music {
-  margin-top: 11px;
-  padding: 9px 10px;
-  border-radius: 8px;
-  background: #f7f7f7;
-  border: 1px solid #dddddd;
-  color: #666666;
-  font-size: 11px;
-  line-height: 1.5;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/* ==================================================
-   VOLUME
-================================================== */
-
-.music-volume-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.music-volume-icon {
-  font-size: 14px;
-}
-
-.music-volume {
-  flex: 1;
-  height: 5px;
-  margin: 0;
-  appearance: none;
-  background: #eeeeee;
-  border-radius: 10px;
-  cursor: pointer;
-  accent-color: #ff6b9a;
-}
-
-.music-volume::-webkit-slider-runnable-track {
-  height: 5px;
-  background: #eeeeee;
-  border-radius: 10px;
-}
-
-.music-volume::-webkit-slider-thumb {
-  appearance: none;
-  width: 13px;
-  height: 13px;
-  margin-top: -4px;
-  border: none;
-  border-radius: 50%;
-  background: #ff6b9a;
-  cursor: pointer;
-}
-
-.music-volume-value {
-  width: 38px;
-  color: #888888;
-  font-size: 11px;
-  text-align: right;
-}
-
-/* ==================================================
-   MUSIC CONTROLS
-================================================== */
-
-.music-controls {
-  display: flex;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.music-control-btn {
-  flex: 1;
-  padding: 9px 8px;
-  border: 1px solid #eeeeee;
-  border-radius: 9px;
-  background: #fafafa;
-  color: #555555;
-  font-size: 11px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.music-control-btn:hover:not(:disabled) {
-  background: #fff0f5;
-  border-color: #ffb3c9;
-}
-
-.music-control-btn:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-}
-
-.music-use-btn.active,
-.music-use-btn.enabled {
-  background: #ff6b9a;
-  border-color: #ff6b9a;
-  color: #ffffff;
-}
-
-/* ==================================================
-   MARKER
-================================================== */
-
-.audio-marker {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 18px;
-  padding: 13px;
-  background: #fff8fa;
-  border: 1px solid #ffe1ea;
-  border-radius: 14px;
-}
-
-.marker-info {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  min-width: 0;
-}
-
-.marker-icon {
-  font-size: 18px;
-}
-
-.marker-title {
-  color: #444444;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.marker-description {
-  margin-top: 2px;
-  color: #999999;
-  font-size: 11px;
-  line-height: 1.5;
-}
-
-.marker-btn {
-  flex-shrink: 0;
-  border: none;
-  background: #ff6b9a;
-  color: #ffffff;
-  padding: 8px 14px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.marker-btn:hover {
-  background: #ff82aa;
-  transform: translateY(-1px);
-}
-
-/* ==================================================
-   FACEBOOK ADS — MODAL
-================================================== */
-
-#facebookAdsModal,
-.facebookAdsOverlay {
-  position: fixed;
-  inset: 0;
-  z-index: 999999;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
-  background:
-    radial-gradient(
-      circle at 50% 35%,
-      rgba(70, 70, 70, 0.22),
-      rgba(0, 0, 0, 0.91) 70%
-    );
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  animation: facebookModalFadeIn 0.2s ease;
-}
-
-#facebookAdsModal.active,
-.facebookAdsOverlay.active {
-  display: flex;
-}
-
-/* ==================================================
-   FACEBOOK ADS BOX
-================================================== */
-
-#facebookAdsBox,
-.facebookAdsBox {
-  position: relative;
-  width: min(510px, 100%);
-  max-height: calc(100vh - 36px);
-  max-height: calc(100dvh - 36px);
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  overflow-y: auto;
-  background: #181818;
-  border: 1px solid #353535;
-  border-radius: 18px;
-  box-shadow:
-    0 24px 70px rgba(0, 0, 0, 0.72),
-    0 0 0 1px rgba(255, 255, 255, 0.025);
-  animation: facebookBoxShow 0.22s ease;
-}
-
-/* ==================================================
-   HEADER
-================================================== */
-
-#facebookAdsHeader,
-.facebookAdsHeader {
-  flex-shrink: 0;
-  padding: 17px 20px 13px;
-  text-align: center;
-  background: linear-gradient(180deg, #202020 0%, #181818 100%);
-  border-bottom: 1px solid #303030;
-}
-
-#facebookAdsTitle,
-.facebookAdsTitle {
-  margin: 0 0 3px;
-  color: #ff7043;
-  font-size: 20px;
-  line-height: 1.25;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-#facebookAdsProgress,
-.facebookAdsProgress {
-  margin: 0;
-  color: #8e8e8e;
-  font-size: 12px;
-  line-height: 1.4;
-  font-weight: 400;
-}
-
-/* ==================================================
-   STEPS
-================================================== */
-
-#facebookAdsSteps,
-.facebookAdsSteps {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  padding: 12px 15px 7px;
-}
-
-#facebookStep1,
-#facebookStep2,
-.facebookStep {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 30px;
-  padding: 5px 12px;
-  border-radius: 20px;
-  background: #242424;
-  border: 1px solid #343434;
-  color: #777777;
-  font-size: 12px;
-  line-height: 1.2;
-  white-space: nowrap;
-  transition:
-    background 0.2s ease,
-    color 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease;
-}
-
-#facebookStep1.active,
-#facebookStep2.active {
-  color: #ffffff;
-  background: rgba(255, 112, 67, 0.12);
-  border-color: rgba(255, 112, 67, 0.55);
-  font-weight: 700;
-  box-shadow: 0 0 0 2px rgba(255, 112, 67, 0.04);
-}
-
-#facebookStep1.done,
-#facebookStep2.done {
-  color: #8be28f;
-  background: rgba(76, 175, 80, 0.10);
-  border-color: rgba(76, 175, 80, 0.40);
-  font-weight: 700;
-}
-
-.facebookStepArrow {
-  flex-shrink: 0;
-  color: #555555;
-  font-size: 14px;
-  line-height: 1;
-}
-
-/* ==================================================
-   HƯỚNG DẪN
-================================================== */
-
-#facebookAdInstruction,
-.facebookAdInstruction {
-  flex-shrink: 0;
-  margin: 7px 15px 10px;
-  padding: 11px 13px;
-  border-radius: 10px;
-  background: rgba(255, 112, 67, 0.065);
-  border: 1px solid rgba(255, 112, 67, 0.18);
-  color: #bdbdbd;
-  font-size: 12px;
-  line-height: 1.55;
-  text-align: center;
-}
-
-#facebookAdInstruction strong,
-.facebookAdInstruction strong {
-  color: #ff9b7a;
-  font-weight: 700;
-}
-
-/* ==================================================
-   FACEBOOK FRAME
-
-   Khung luôn được dựng ở 480 x 355 (kích thước máy tính)
-   rồi thu phóng bằng JS (transform: scale) cho vừa màn hình.
-   Nhờ vậy điện thoại hiện giống hệt máy tính, chỉ nhỏ hơn,
-   và các lớp chặn click (nằm trong .fbScaler) luôn khớp vị trí.
-================================================== */
-
-#facebookAdFrame,
-.facebookAdFrame {
-  position: relative;
-  flex: 0 0 auto;
-  width: calc(100% - 30px);
-  max-width: 480px;
-
-  /* tỉ lệ khớp với thiết kế 480 x 355 */
-  aspect-ratio: 480 / 355;
-  height: auto;
-
-  margin: 0 auto 13px;
-  overflow: hidden;
-  background: #ffffff;
-  border-radius: 12px;
-
-  /* dùng shadow thay border để tỉ lệ scale chính xác */
-  box-shadow:
-    0 0 0 1px #383838,
-    0 4px 16px rgba(0, 0, 0, 0.20);
-}
-
-.facebookAdFrame .fbScaler {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 480px;
-  height: 355px;
-  overflow: hidden;
-  transform-origin: 0 0;
-}
-
-.facebookAdFrame iframe {
-  display: block;
-  width: 480px;
-  min-width: 480px;
-  height: 430px;
-  min-height: 430px;
-
-  /* cắt phần Facebook dư phía trên (giữ đúng như máy tính) */
-  margin-top: -55px;
-
-  border: 0;
-  background: #ffffff;
-}
-
-/* ==================================================
-   THÔNG BÁO QUAY LẠI QUÁ SỚM
-================================================== */
-
-#facebookAdReturnMessage,
-.facebookAdReturnMessage {
-  flex-shrink: 0;
-  margin: 0 15px 12px;
-  padding: 9px 12px;
-  border-radius: 9px;
-  background: rgba(255, 193, 7, 0.08);
-  border: 1px solid rgba(255, 193, 7, 0.20);
-  color: #e0bd64;
-  font-size: 12px;
-  line-height: 1.45;
-  text-align: center;
-}
-
-/* ==================================================
-   KHU VỰC HOÀN THÀNH
-================================================== */
-
-#facebookAdFinished,
-.facebookAdFinished {
-  flex-shrink: 0;
-  margin: 0 15px 15px;
-  padding: 22px 18px 18px;
-  text-align: center;
-  background: linear-gradient(180deg, #202020 0%, #191919 100%);
-  border: 1px solid #333333;
-  border-radius: 13px;
-  animation: facebookFinishedShow 0.22s ease;
-}
-
-#facebookFinishedIcon,
-.facebookFinishedIcon {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 11px;
-  border-radius: 50%;
-  background: rgba(76, 175, 80, 0.11);
-  border: 1px solid rgba(76, 175, 80, 0.35);
-  color: #7ee787;
-  font-size: 25px;
-  line-height: 1;
-}
-
-#facebookFinishedText,
-.facebookFinishedText {
-  margin: 0 0 15px;
-  color: #d5d5d5;
-  font-size: 13px;
-  line-height: 1.55;
-}
-
-#facebookAdCloseButton {
-  width: 100%;
-  min-height: 46px;
-  padding: 10px 14px;
-  border: 0;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #ff7043 0%, #ff5722 100%);
-  color: #ffffff;
-  font-size: 13px;
-  line-height: 1.3;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 7px 18px rgba(255, 87, 34, 0.20);
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    filter 0.18s ease;
-}
-
-#facebookAdCloseButton:hover {
-  transform: translateY(-1px);
-  filter: brightness(1.06);
-  box-shadow: 0 10px 22px rgba(255, 87, 34, 0.28);
-}
-
-#facebookAdCloseButton:active {
-  transform: translateY(0);
-}
-
-/* ==================================================
-   KHÔNG CHO CUỘN TRANG PHÍA SAU
-================================================== */
-
-body.facebookAdsOpen,
-body.facebookStoryLocked {
-  overflow: hidden;
-}
-
-/* ==================================================
-   ANIMATION FACEBOOK
-================================================== */
-
-@keyframes facebookModalFadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes facebookBoxShow {
-  from {
-    opacity: 0;
-    transform: translateY(12px) scale(0.985);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes facebookFinishedShow {
-  from {
-    opacity: 0;
-    transform: translateY(7px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 /* ==================================================
@@ -1332,138 +537,17 @@ body.facebookStoryLocked {
     line-height: 1.8;
   }
 
-  .audio-card {
-    padding: 15px;
-    border-radius: 16px;
+  .password-gate {
+    padding: 22px 14px 18px;
+    border-radius: 14px;
   }
 
-  .audio-name {
-    font-size: 15px;
+  .password-gate h2 {
+    font-size: 20px;
   }
 
-  .audio-main-controls {
-    gap: 13px;
-  }
-
-  .audio-play {
-    width: 48px;
-    height: 48px;
-  }
-
-  .audio-control-btn {
-    min-width: 50px;
-  }
-
-  .audio-marker {
-    padding: 11px;
-    align-items: flex-start;
-  }
-
-  .marker-description {
-    max-width: 170px;
-  }
-
-  /* ---------- FACEBOOK MOBILE ---------- */
-
-  #facebookAdsModal,
-  .facebookAdsOverlay {
-    padding: 9px;
-  }
-
-  #facebookAdsBox,
-  .facebookAdsBox {
-    width: 100%;
-    max-height: calc(100vh - 18px);
-    max-height: calc(100dvh - 18px);
-    border-radius: 15px;
-  }
-
-  #facebookAdsHeader,
-  .facebookAdsHeader {
-    padding: 14px 12px 10px;
-  }
-
-  #facebookAdsTitle,
-  .facebookAdsTitle {
-    font-size: 18px;
-    line-height: 1.25;
-    margin-bottom: 3px;
-  }
-
-  #facebookAdsProgress,
-  .facebookAdsProgress {
-    font-size: 11px;
-    line-height: 1.35;
-  }
-
-  #facebookAdsSteps,
-  .facebookAdsSteps {
-    gap: 5px;
-    padding: 9px 9px 5px;
-  }
-
-  #facebookStep1,
-  #facebookStep2,
-  .facebookStep {
-    min-height: 27px;
-    padding: 4px 9px;
-    font-size: 11px;
-  }
-
-  .facebookStepArrow {
-    font-size: 12px;
-  }
-
-  #facebookAdInstruction,
-  .facebookAdInstruction {
-    margin: 5px 9px 8px;
-    padding: 9px 10px;
-    font-size: 11px;
-    line-height: 1.5;
-  }
-
-  /* khung Facebook: chỉ đổi lề/bo góc, kích thước do JS thu phóng */
-  #facebookAdFrame,
-  .facebookAdFrame {
-    width: calc(100% - 18px);
-    margin: 0 auto 9px;
-    border-radius: 10px;
-  }
-
-  #facebookAdReturnMessage,
-  .facebookAdReturnMessage {
-    margin: 0 9px 9px;
-    padding: 8px 9px;
-    font-size: 11px;
-  }
-
-  #facebookAdFinished,
-  .facebookAdFinished {
-    margin: 0 9px 9px;
-    padding: 19px 13px 14px;
-    border-radius: 11px;
-  }
-
-  #facebookFinishedIcon,
-  .facebookFinishedIcon {
-    width: 46px;
-    height: 46px;
-    margin-bottom: 9px;
-    font-size: 23px;
-  }
-
-  #facebookFinishedText,
-  .facebookFinishedText {
-    font-size: 12px;
-    line-height: 1.5;
-    margin-bottom: 12px;
-  }
-
-  #facebookAdCloseButton {
-    min-height: 44px;
-    padding: 9px 10px;
-    border-radius: 9px;
-    font-size: 12px;
+  .password-link {
+    font-size: 14px;
   }
 
   .reader-resume-box {
@@ -1483,8 +567,6 @@ body.facebookStoryLocked {
     min-height: 46px;
     font-size: 15px;
   }
-
-  /* ---------- XÔI THỊT MOBILE ---------- */
 
   .xoi-thit-box {
     max-width: 340px;
@@ -1523,109 +605,6 @@ body.facebookStoryLocked {
   .container {
     padding-left: 7px;
     padding-right: 7px;
-  }
-
-  .audio-card {
-    padding: 12px;
-  }
-
-  .audio-main-controls {
-    gap: 9px;
-  }
-
-  .audio-control-btn {
-    min-width: 46px;
-    font-size: 11px;
-  }
-
-  /* ---------- FACEBOOK VERY SMALL ---------- */
-
-  #facebookAdsModal,
-  .facebookAdsOverlay {
-    padding: 6px;
-  }
-
-  #facebookAdsBox,
-  .facebookAdsBox {
-    max-height: calc(100vh - 12px);
-    max-height: calc(100dvh - 12px);
-    border-radius: 13px;
-  }
-
-  #facebookAdsHeader,
-  .facebookAdsHeader {
-    padding: 12px 9px 8px;
-  }
-
-  #facebookAdsTitle,
-  .facebookAdsTitle {
-    font-size: 17px;
-  }
-
-  #facebookAdsProgress,
-  .facebookAdsProgress {
-    font-size: 10px;
-  }
-
-  #facebookAdsSteps,
-  .facebookAdsSteps {
-    padding: 7px 6px 4px;
-    gap: 3px;
-  }
-
-  #facebookStep1,
-  #facebookStep2,
-  .facebookStep {
-    min-height: 25px;
-    padding: 3px 7px;
-    font-size: 10px;
-  }
-
-  .facebookStepArrow {
-    font-size: 10px;
-  }
-
-  #facebookAdInstruction,
-  .facebookAdInstruction {
-    margin: 4px 6px 6px;
-    padding: 8px 7px;
-    font-size: 10px;
-  }
-
-  #facebookAdFrame,
-  .facebookAdFrame {
-    width: calc(100% - 12px);
-    margin: 0 auto 6px;
-    border-radius: 8px;
-  }
-
-  #facebookAdReturnMessage,
-  .facebookAdReturnMessage {
-    margin: 0 6px 6px;
-    font-size: 10px;
-  }
-
-  #facebookAdFinished,
-  .facebookAdFinished {
-    margin: 0 6px 6px;
-    padding: 17px 10px 11px;
-  }
-
-  #facebookFinishedIcon,
-  .facebookFinishedIcon {
-    width: 42px;
-    height: 42px;
-    font-size: 21px;
-  }
-
-  #facebookFinishedText,
-  .facebookFinishedText {
-    font-size: 11px;
-  }
-
-  #facebookAdCloseButton {
-    min-height: 42px;
-    font-size: 11px;
   }
 
   .xoi-thit-icon {

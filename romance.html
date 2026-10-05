@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romance Stories</title>
+  <link rel="stylesheet" href="style.css?v=12">
+<link rel="icon" type="image/png" href="codetruyen/iconxoi.jpg">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="index.html">Home</a>
+  <a href="romance.html">Romance</a>
+  <a href="lgbt.html">LGBT</a>
+  <a href="eastern.html">Eastern</a>
+</header>
+
+<h2 style="text-align:center; color:#ff5722; margin:15px;">Romance Stories</h2>
+
+<div class="container" id="list"></div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+<script>
+const list = document.getElementById("list");
+
+/* ===== TRUNCATE TITLE ===== */
+function clampBookTitle(element) {
+  const fullTitle = String(element.dataset.fullTitle || "").trim();
+  if (!fullTitle) { element.textContent = ""; return; }
+  element.textContent = fullTitle;
+  element.style.whiteSpace = "normal";
+  element.style.overflow = "visible";
+  element.style.height = "auto";
+  element.style.maxHeight = "none";
+  const style = window.getComputedStyle(element);
+  const lineHeight = parseFloat(style.lineHeight) || 21;
+  const paddingTop = parseFloat(style.paddingTop) || 0;
+  const paddingBottom = parseFloat(style.paddingBottom) || 0;
+  const maxHeight = lineHeight * 2 + paddingTop + paddingBottom;
+  if (element.scrollHeight <= maxHeight + 1) return;
+  const words = fullTitle.split(/\s+/);
+  let bestText = "";
+  for (let i = 0; i < words.length; i++) {
+    element.textContent = words.slice(0, i + 1).join(" ") + "...";
+    if (element.scrollHeight <= maxHeight + 1) { bestText = words.slice(0, i + 1).join(" "); }
+    else { break; }
+  }
+  if (!bestText) bestText = words[0] || "";
+  element.textContent = bestText + "...";
+  element.style.height = maxHeight + "px";
+  element.style.maxHeight = maxHeight + "px";
+  element.style.overflow = "hidden";
+}
+function clampAllBookTitles() {
+  document.querySelectorAll(".book-title").forEach(el => clampBookTitle(el));
+}
+function refreshViewCounts() {
+  if (typeof loadViewCounts === "function") { loadViewCounts(); }
+}
+
+/* ===== RENDER ===== */
+function render(data) {
+  list.innerHTML = "";
+  const items = data
+    .filter(item => item && item.type === "romance")
+    .sort((a, b) => b.id - a.id);
+
+  items.forEach(item => {
+    list.innerHTML += `
+      <a class="book" href="detail.html?id=${item.id}">
+        <img src="${item.image}" alt="${item.title}">
+        <div class="view-count"></div>
+        <h2 class="book-title" data-full-title="${String(item.title).replace(/"/g, '&quot;')}">
+          ${item.title}
+        </h2>
+      </a>
+    `;
+  });
+
+  requestAnimationFrame(() => {
+    clampAllBookTitles();
+    refreshViewCounts();
+  });
+}
+
+render(stories);
+
+/* ===== RESIZE ===== */
+let resizeTimer;
+window.addEventListener("resize", function () {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(clampAllBookTitles, 100);
+});
+</script>
+<script src="codetruyen/script.js"></script>
+</body>
+</html>
