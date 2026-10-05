@@ -17541,15 +17541,17 @@ Cố Thời Dã vội kéo cổ áo xuống, để lộ tuyến thể sau gáy r
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ca-trieu-dinh-mac-benh-la.jpg",
     link: "cotrang/ca-trieu-dinh-mac-benh-la.html",
     type: "cotrang",
-    desc: `Trẫm nhận thấy toàn bộ người trong hoàng thành này dường như đều mắc bệnh lạ.
+    desc: `Trẫm là Hoàng thượng.
 
-Thái tử đột nhiên nhen nhóm ý định từ hôn, quyết tâm cưới một nữ tử không rõ lai lịch làm thê thất.
+Trẫm luôn cảm thấy người trong hoàng cung này hình như ai nấy đều có bệnh.
 
-Phò mã dám ngang nhiên lăng mạ Công chúa ngay tại cung yến, về tới phủ lại tiếp tục ngược đãi nàng.
+Thái tử đột nhiên đòi từ hôn, nằng nặc muốn cưới một nữ nhân không rõ lai lịch về làm thê tử.
 
-Còn một phi tần nơi lãnh cung bỗng nhiên chạy ra, quả quyết tuyên bố bản thân là chân ái của trẫm, lại còn ép trẫm phải uống canh bổ thận.
+Phò mã ngay giữa tiệc mừng công lại dám sỉ nhục công chúa, thậm chí ở trong phủ còn ngược đãi con gái trẫm.
 
-Trẫm chỉ là tuổi tác đã cao, chứ chưa đến mức không biết vung đao chém người.
+Lại thêm một phi tần từ lãnh cung bất ngờ xuất hiện, tự nhận là chân ái của trẫm, rồi ép trẫm phải uống canh đại bổ thận.
+
+Trẫm chỉ là đã già rồi, chứ đâu phải không còn cầm nổi đao nữa!
 `
   },{
     id: 851,
