@@ -18454,6 +18454,197 @@ Hoàng hậu nghe vậy thì nghiến răng cười khẩy, bảo Hoàng thượ
 
 Sau này Hoàng hậu mới phát hiện, ra là đầu óc ta không được tốt thật.
 `
+  },{
+    id: 896,
+    title: "Góc Tối Nhà Tri Thức",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/620754d2357685cd73eab7e461faf59e.jpg",
+    link: "ngontinh/goc-toi-nha-tri-thuc.html",
+    type: "ngontinh",
+    desc: `Tôi có một người chị gái song sinh tên là Lương Đình.
+
+Từ nhỏ, chị đã sống như một nàng công chúa giữa lòng thành phố phồn hoa, còn tôi vừa chào đời đã bị gửi về quê cho bà nội nuôi dưỡng.
+
+Năm mười lăm tuổi, sau khi bà nội qua đời, tôi mới được đón trở lại thành phố.
+
+Ai nấy nhìn vào đều bảo tuy hai đứa mang gương mặt giống hệt nhau, nhưng chị là tiểu thư đài các, còn tôi chỉ là một đứa con gái quê mùa.
+
+Năm mười tám tuổi, kết quả thi đại học trả về. Tôi chỉ đỗ cao đẳng, trong khi chị xuất sắc trúng tuyển vào Đại học Thanh Hoa.
+
+Mẹ tôi tự hào thốt lên: “Năm đó chọn giữ Đình Đình đúng là quyết định sáng suốt. Con bé giỏi giang quá, còn thi đỗ cả Thanh Hoa nữa!”
+
+Nghe vậy, tôi nhẹ nhàng mỉm cười: “Bố, mẹ, hai người thật sự phân biệt được đâu là con, đâu là Lương Đình sao?”
+`
+  },{
+    id: 897,
+    title: "Gửi Nhầm Ảnh Chân Cho Kẻ Thù",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a246697c5b4e173f3952a406cfbd95f7.jpg",
+    link: "dammy/gui-nham-anh-chan-cho-ke-thu.html",
+    type: "dammy",
+    desc: `Là một pháo hôi nam thứ trong một cuốn tiểu thuyết đam mỹ, tôi bất ngờ thức tỉnh.
+
+Đáng nói là, nhân vật thụ thanh lãnh nhạt nhẽo trong nguyên tác vốn dĩ chẳng phải mẫu người tôi thích.
+
+Cho đến khi cậu thư ký eo thon, chân dài, vòng ba săn chắc bước vào phòng làm việc.
+
+Trời ơi! Đây mới chính là chân ái cuộc đời tôi!`
+  },{
+    id: 898,
+    title: "Nữ Tử Trọng Sinh Thành Nam Nhân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/05198beddc062af92460c24381385100.jpg",
+    link: "cotrang/nu-tu-trong-sinh-thanh-nam-nhan.html",
+    type: "cotrang",
+    desc: `Kiếp trước, Hà Hy vì muốn cưới công chúa nên đã ra tay hạ độc giết ta  người vợ tào khang từng cùng hắn chia ngọt sẻ bùi.
+
+Kiếp này, ta được tái sinh, nhưng lại trong thân xác của một nam tử. Hơn thế nữa, ta còn thi đỗ Trạng nguyên trước hắn một bước.
+
+Công chúa vừa nhìn thấy ta đã xiêu lòng, quyết định hạ giá gả cho ta.
+
+Ngày đại hôn, Hà Hy níu lấy tay ta, đôi mắt đỏ ngầu nghẹn ngào: “Đừng cưới nàng ấy... Quay về bên ta được không?”
+
+Ta cười lạnh: “To gan! Dám đùa bỡn thượng quan! Người đâu, kéo hắn xuống đánh hai mươi trượng cho ta!”
+`
+  },{
+    id: 899,
+    title: "Ánh Sao Của Riêng Anh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/028d440cf23194c25e27ec1b56e7bff7.jpg",
+    link: "ngontinh/anh-sao-cua-rieng-anh.html",
+    type: "ngontinh",
+    desc: `Năm thứ ba trong cuộc hôn nhân với vị tổng tài giàu có, tôi cay đắng nhận ra anh ta đã đem lòng yêu cô trợ lý mới người vừa cứu anh ta một mạng.
+
+Anh ta bao trọn hoa tươi khắp thành phố cho cô ta, điều máy bay không người lái xếp thành tên cô ta trên bầu trời.
+
+Anh ta dung túng để cô ta gửi những tin nhắn ngạo mạn khiêu khích tôi:
+
+“Trong tình yêu, kẻ không được yêu mới chính là kẻ thứ ba.”
+
+“Cô Tần à, cô chẳng thắng nổi tôi đâu, nghĩ lại tôi thấy thương cô quá cơ.”
+
+Mọi chuyện chỉ bùng nổ khi anh ta tận mắt bắt gặp tôi bước ra từ khách sạn cùng một thanh niên lạ mặt.
+
+Trong cơn cuồng giận, anh ta gọi điện quát tháo qua điện thoại:
+
+“Tần Tinh, cô dám ra ngoài tìm kẻ thứ ba đấy à?”
+
+Nhưng anh ta đâu biết rằng, ngay từ đầu tôi gật đầu làm vợ anh ta chỉ để chạy trốn gã anh trai điên loạn người từng ép tôi vào mối tình trái cấm tám năm trước.
+
+Và ngay lúc này, người anh trai điên rồ ấy đang ôm trọn tôi vào lòng, thản nhiên bấm ngắt cuộc gọi của anh ta.
+
+“Gã nào đang sủa bậy thế?”
+
+“Chẳng phải kẻ không được yêu mới là kẻ thứ ba sao?”
+`
+  },{
+    id: 900,
+    title: "Alpha Mất Trí Đòi Làm Người Thứ Ba",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/48986b26820742030f5dd8af3c31a773.jpg",
+    link: "dammy/alpha-mat-tri-doi-lam-nguoi-thu-ba.html",
+    type: "dammy",
+    desc: `Năm thứ ba chung sống cùng Sở Tầm, em ấy bỗng nhiên mất trí nhớ.
+
+Em ấy không tài nào tin nổi sự thật rằng mình đã kết hôn.
+
+"Cưới một Omega ư? Không thể nào!"
+
+"Thứ tôi chán ghét nhất chính là hạng Omega yếu đuối mong manh!"
+
+"Mềm yếu, vô dụng, hễ gặp chuyện là chỉ biết khóc lóc."
+
+"Bảo tôi cưới hạng người đó, tôi thà cô độc đến già còn hơn!"
+
+"Ly hôn! Tôi muốn ly hôn!"
+
+Người anh em chí cốt của em ấy khuyên can: "Cậu theo đuổi bấy lâu mới rước được người ta về dinh, chắc chắn không muốn gặp mặt một lần rồi mới quyết định sao?"
+
+Sở Tầm chẳng chút do dự: "Gặp cái gì mà gặp! Cả đời này tôi sẽ không bao giờ có hứng thú với Omega!"
+
+Tôi lặng thinh không nói, trong lòng thầm tính toán sẽ tặng cho Sở Tầm một đấm để em ấy tỉnh táo lại.
+
+Thế nhưng vừa nhìn thấy tôi, đôi mắt em ấy bỗng sáng rực lên: "Chào anh, chúng ta có thể làm quen chút được không?"
+
+Tôi cười lạnh: "Tiếc quá, tôi là người đã có gia đình."
+`
+  },{
+    id: 901,
+    title: "Nhật Ký Đọc Tâm Chốn Hoàng Cung",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e99366c3df8b7d793241774373463dd7.jpg",
+    link: "cotrang/nhat-ky-doc-tam-chon-hoang-cung.html",
+    type: "cotrang",
+    desc: `Ta cùng đích mẫu vào cung dự tiệc, vô tình nghe được suy nghĩ trong đầu Lục hoàng tử.
+
+[Nữ nhi Thừa tướng trông cũng bình thường, chẳng đẹp bằng muội muội ta.]
+
+[Sao nữ nhi La tướng quân chân lại đi vòng kiềng thế kia? Chẳng lẽ do họ La nên chân mới thành hình chữ La?]
+
+...
+
+Ta vốn thích cười, nghe tới đây liền bật cười thành tiếng, lập tức thu hút sự chú ý của Lục hoàng tử.
+
+[Tiểu nha đầu ngốc nhà ai thế kia? Cười toe toét như hoa cúc nở rộ.]
+
+Bề ngoài ta giả vờ vô tội, nhưng trong lòng thầm mắng hắn tàn nhẫn.
+
+Ánh mắt Lục hoàng tử tràn ngập sát khí: [Nha đầu kia còn dám mắng ta trong lòng!]
+
+Trời đất ơi, hắn cũng nghe được suy nghĩ của ta!
+`
+  },{
+    id: 902,
+    title: "Thức Tỉnh Làm Mẹ Kế Buông Xõa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/adda8c120edb5d001e8169fcb1bf3774.jpg",
+    link: "ngontinh/thuc-tinh-lam-me-ke-buong-xoa.html",
+    type: "ngontinh",
+    desc: `Sau khi thức tỉnh và nhận ra mình là một nữ phụ phản diện trong một cuốn tiểu thuyết, tôi quyết định buông xõa hoàn toàn.
+
+Thế nên, lúc đưa đứa con kế bảy tuổi tham gia chương trình thực tế về nuôi dạy con cái, tôi mặc kệ tất cả.
+
+Trong khi các bà mẹ khác chăm sóc con tỉ mỉ từng bữa ăn dinh dưỡng và tỏ ra hết sức tận tâm, tôi lại cày game đến khuya rồi ngủ một mạch tới trưa.
+
+Thực ra, tôi chẳng ngủ trọn giấc nổi vì giữa chừng bị nhóc con gọi dậy hai lần.
+
+Một lần là thằng bé đã chuẩn bị xong bữa sáng, lần còn lại là bữa trưa.
+
+Cậu nhóc gọi tôi dậy chỉ để ăn hai bữa cơm đó.
+
+Không ngờ, mẹ con tôi lại bỗng nhiên nổi tiếng trên mạng.
+
+Cư dân mạng bình luận rôm rả:
+
+“Để chăm sóc người mẹ già không hiểu chuyện, bé con tuổi còn nhỏ đã phải hao tâm tổn trí rồi, ha ha ha~”
+`
+  },{
+    id: 903,
+    title: "Chú Chó Trung Thành",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/841f919def9542123c9aebd9d748d05d.jpg",
+    link: "dammy/chu-cho-trung-thanh.html",
+    type: "dammy",
+    desc: `6 năm sau ngày chia tay, tôi tình cờ gặp lại người yêu cũ.
+
+Khi trông thấy đứa con trai năm tuổi đứng cạnh tôi, đôi mắt hắn chợt đỏ ngầu, giọng nghẹn ngào cất tiếng hỏi:
+
+“Đứa bé này… là con của anh đúng không?”
+
+Tôi ngơ ngác: Ủa?
+
+Chắc đầu óc hắn có vấn đề thật rồi.
+
+Mẹ kiếp, tôi là đàn ông mười mươi, làm sao mà “mang thai ôm bụng bầu bỏ chạy” cho được!
+`
+  },{
+    id: 904,
+    title: "Đêm Đêm Nhập Mộng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cd45facf3fc64eb12cc18eb1ff99ee58.jpg",
+    link: "cotrang/dem-dem-nhap-mong.html",
+    type: "cotrang",
+    desc: `Phí Thái phó vốn luôn thanh cao lạnh nhạt, thế nhưng đêm đêm lại tiến vào giấc mộng của ta, cùng ta quấn quít làm những việc hoan lạc khôn cùng.
+
+Ban ngày, y lại tỏ ra như không hề có chuyện gì xảy ra, nhíu mày nghiêm giọng răn dạy: “Sư đồ có tôn ti, xin Điện hạ cẩn trọng lời nói.”
+
+Về sau, Hoàng đế ban hôn cho y. Trong lòng ta phiền muộn, đành ra ngoài tìm chút vui vẻ giải sầu.
+
+Khi y tìm tới, ta đang bịt mắt vui đùa cùng một đám nam sủng.
+
+Y giận tới mức bật cười, dùng dây buộc tóc trói chặt hai cổ tay ta lại, giọng nói trầm khàn: “Cầu xin Điện hạ thương xót.”
+`
   },
 
 

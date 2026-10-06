@@ -11,11 +11,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/photo/?fbid=122119766781467824&set=pcb.122119767093467824"
+        url: "https://www.facebook.com/photo/?fbid=122120271411467824&set=pcb.122120271543467824"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/photo/?fbid=122119767729467824&set=pcb.122119767873467824"
+        url: "https://www.facebook.com/photo/?fbid=122120271759467824&set=pcb.122120271921467824"
     }
 };
 
@@ -24,7 +24,6 @@ const FACEBOOK_ADS = {
 
    Khung luôn được dựng ở 480 x 355 (giống máy tính),
    rồi thu phóng bằng transform: scale() cho vừa màn hình.
-   => Điện thoại hiện giống hệt máy tính, chỉ nhỏ hơn.
 ========================================================= */
 
 const FB_DESIGN_WIDTH = 480;
@@ -32,23 +31,10 @@ const FB_DESIGN_HEIGHT = 355;
 
 /* =========================================================
    VÙNG CHO PHÉP CLICK TRONG BÀI FACEBOOK
-
-   TOÀN BỘ số ở đây tính theo hệ 480 x 355 (không phải px thật),
-   nên điện thoại và máy tính dùng chung 1 bộ số.
-
-   top    = khoảng cách từ mép trên khung tới đầu dòng link
-   height = chiều cao dòng link
-   left   = khoảng cách từ mép trái khung tới đầu chữ link
-   width  = chiều rộng chữ link
-
-   Chỉ vùng này bấm xuyên xuống được link. Ngoài vùng bị chặn.
-
-   Đã đo từ ảnh chụp thật: dòng link https://s.shopee.vn/...
-   nằm ở y ≈ 66 → 88, x ≈ 8 → 218 (hệ 480 x 355).
+   (tính theo hệ 480 x 355)
 
    CÁCH CHỈNH: đặt FACEBOOK_ZONE_DEBUG = true → vùng chặn hiện
-   màu đỏ, phần trong suốt ở giữa là vùng bấm được. Chỉnh số sao
-   cho khe trong suốt nằm đúng dòng link, xong đặt lại false.
+   màu đỏ, phần trong suốt ở giữa là vùng bấm được.
 ========================================================= */
 
 const FACEBOOK_ZONE_DEBUG = false;
@@ -81,6 +67,13 @@ const FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME = 0;
 
 /* Đọc đủ 10 phút (tính bằng giây) thì mới kích hoạt link TikTok/Lazada */
 const ACTIVE_TIME_LIMIT = 10 * 60;
+
+/* Hai lần chạm cách nhau ít hơn số ms này chỉ tính là 1 lần
+   (tránh 1 cú chạm bắn cả TikTok lẫn Lazada) */
+const REDIRECT_GESTURE_COOLDOWN = 1500;
+
+/* Ngón tay di chuyển quá số px này thì coi là vuốt/cuộn (vẫn được tính) */
+const TOUCH_SCROLL_THRESHOLD = 10;
 
 /* =========================================================
    LOCAL STORAGE KEYS
@@ -128,6 +121,8 @@ let lastActiveTimestamp = null;
 let storyUnlocked = false;
 let resumePopupShown = false;
 
+let lastRedirectGestureAt = 0;
+
 /* =========================================================
    NGÀY VIỆT NAM
 ========================================================= */
@@ -140,14 +135,6 @@ function getToday() {
 
 /* =========================================================
    CẢNH BÁO MESSENGER
-
-   Trình duyệt trong Messenger không ghi nhận được việc
-   rời trang / quay lại khi bấm link Shopee, nên quảng cáo
-   sẽ không được tính. Popup này hướng dẫn người đọc bấm
-   nút 3 chấm để mở bằng trình duyệt (Chrome / Safari).
-
-   Chỉ nhận diện Messenger. Facebook không bị ảnh hưởng.
-   CSS của popup được chèn ngay trong JS, không cần sửa file CSS.
 ========================================================= */
 
 function isMessengerBrowser() {
@@ -525,7 +512,6 @@ function isRedirectFinishedToday() {
 
 /* =========================================================
    KHÓA / MỞ TRUYỆN
-   (không ẩn #lockedContent, chỉ phủ lớp quảng cáo)
 ========================================================= */
 
 function lockStory() {
@@ -662,15 +648,6 @@ function fitFacebookFrame() {
 
 /* =========================================================
    IFRAME FACEBOOK
-
-   Cấu trúc:
-   #facebookAdFrame
-     └─ .fbScaler (480 x 355, bị scale)
-          ├─ iframe (480 rộng)
-          └─ 4 lớp chặn (toạ độ theo hệ 480 x 355)
-
-   Lớp chặn nằm TRONG .fbScaler nên co giãn cùng bài Facebook,
-   luôn khớp dòng link trên cả máy tính lẫn điện thoại.
 ========================================================= */
 
 function createFacebookIframe(postUrl) {
@@ -730,7 +707,6 @@ function createFacebookIframe(postUrl) {
 
             mask.style.cssText = maskBase + css;
 
-            /* chặn click / chạm, không cho xuyên xuống bài Facebook */
             mask.addEventListener("click", function (event) {
                 event.preventDefault();
                 event.stopPropagation();
@@ -849,7 +825,6 @@ function showFacebookAdStep(type, titleText, progressText, instructionHtml, url)
 
     updateFacebookSteps();
 
-    /* tính lại tỉ lệ sau khi khung hiện ra */
     fitFacebookFrame();
 }
 
@@ -1219,10 +1194,13 @@ function stopActiveTime() {
 
 /* =========================================================
    REDIRECT: SAU KHI ĐỌC ĐỦ 10 PHÚT
-   Bấm vào NỀN trang:
+   Chạm / vuốt / cuộn / bấm vào NỀN trang:
      lần 1 → mở TikTok
      lần 2 → mở Lazada
    Sau đó không mở nữa (trong ngày).
+
+   Lắng nghe cả "touchend" và "pointerup" (không chỉ "click"),
+   vì vuốt để cuộn trên điện thoại KHÔNG sinh ra "click".
 ========================================================= */
 
 function openRedirectLink(url, nextStage) {
@@ -1284,31 +1262,62 @@ const REDIRECT_IGNORE_SELECTOR = [
     "#messengerNoticePopup"
 ].join(",");
 
+/* Xử lý chung cho mọi loại cử chỉ (click / chạm / vuốt) */
+function handleRedirectGesture(event) {
+
+    /* Chưa mở khóa / chưa đọc đủ 10 phút / đã xong cả hai link */
+    if (!hasReadEnough() || isRedirectFinishedToday()) {
+        return;
+    }
+
+    /* Đang hiện quảng cáo Facebook hoặc popup đọc tiếp */
+    if (
+        (facebookAdsModal && facebookAdsModal.classList.contains("active")) ||
+        document.getElementById("readerResumePopup") ||
+        document.getElementById("messengerNoticePopup")
+    ) {
+        return;
+    }
+
+    /* Bỏ qua nút / link / audio... */
+    if (event.target && event.target.closest &&
+        event.target.closest(REDIRECT_IGNORE_SELECTOR)) {
+        return;
+    }
+
+    /* Một cú chạm sinh nhiều sự kiện (touchend → pointerup → click),
+       chỉ tính 1 lần, tránh mở cả TikTok lẫn Lazada cùng lúc */
+    const now = Date.now();
+
+    if (now - lastRedirectGestureAt < REDIRECT_GESTURE_COOLDOWN) {
+        return;
+    }
+
+    lastRedirectGestureAt = now;
+
+    openNextRedirect();
+}
+
 function initBackgroundRedirect() {
 
-    document.addEventListener("click", function (event) {
+    /* Chuột / chạm nhanh trên máy tính */
+    document.addEventListener("click", handleRedirectGesture);
 
-        /* Chưa mở khóa / chưa đọc đủ 10 phút / đã xong cả hai link */
-        if (!hasReadEnough() || isRedirectFinishedToday()) {
+    /* Điện thoại: nhấc tay sau khi chạm HOẶC sau khi vuốt cuộn.
+       touchend được trình duyệt chấp nhận để mở tab mới
+       (nếu không bị chặn popup). */
+    document.addEventListener("touchend", handleRedirectGesture, { passive: true });
+
+    /* Dự phòng cho trình duyệt dùng pointer events */
+    document.addEventListener("pointerup", function (event) {
+
+        if (event.pointerType === "mouse") {
             return;
         }
 
-        /* Đang hiện quảng cáo Facebook hoặc popup đọc tiếp */
-        if (
-            (facebookAdsModal && facebookAdsModal.classList.contains("active")) ||
-            document.getElementById("readerResumePopup")
-        ) {
-            return;
-        }
+        handleRedirectGesture(event);
 
-        /* Chỉ nhận click vào nền, bỏ qua nút/link/audio... */
-        if (event.target.closest(REDIRECT_IGNORE_SELECTOR)) {
-            return;
-        }
-
-        openNextRedirect();
-
-    });
+    }, { passive: true });
 }
 
 /* Nút tiktok-read / lazada-read (nếu có trong HTML) */
