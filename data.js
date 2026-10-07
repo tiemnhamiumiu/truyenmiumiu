@@ -18645,6 +18645,159 @@ Khi y tìm tới, ta đang bịt mắt vui đùa cùng một đám nam sủng.
 
 Y giận tới mức bật cười, dùng dây buộc tóc trói chặt hai cổ tay ta lại, giọng nói trầm khàn: “Cầu xin Điện hạ thương xót.”
 `
+  },{
+    id: 905,
+    title: "Tiếng Lòng Của Người Cha",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d353dbd6addcf0f1649bf4bfc81c72b9.jpg",
+    link: "ngontinh/tieng-long-cua-nguoi-cha.html",
+    type: "ngontinh",
+    desc: `Trời sinh ra tôi không mẹ, chỉ có cha. Một bên tai ông bị điếc.
+
+Tôi vốn chỉ là đứa trẻ bị dòng nước cuốn trôi được ông vớt lên. Ngày ấy, người trong làng khuyên ngăn: "Trẻ hoang nhặt về nuôi dạy sao nổi." 
+
+Nhưng cha vẫn kiên quyết ôm tôi về. Ông nuôi tôi lớn khốn khổ, cho đến ngày ngã bệnh nặng, còn người cô họ lại muốn bỏ ra ba vạn đồng để "rước" tôi về làm vợ cho đứa con trai ngốc nghếch của bà…
+`
+  },{
+    id: 906,
+    title: "Nuôi Nhầm Sói Con Cấp S",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47c65ea89f7eebfaa4c75565d8ab30ea.jpg",
+    link: "dammy/nuoi-nham-soi-con-cap-s.html",
+    type: "dammy",
+    desc: `Tôi xuyên tới "Vườn Địa Đàng" trạm lưu đày giữa không gian liên tinh.
+
+Công việc của tôi là chăm sóc một ấu tể thú nhân bị đánh giá là phế phẩm. Hệ thống đưa ra lời hứa: chỉ cần bồi dưỡng nó đạt đến cấp S, tôi sẽ tích đủ điểm để đổi lấy tấm vé rời khỏi đây.
+
+Thế là tôi dành trọn mười năm dốc hết tâm huyết, biến con sói con bệnh tật ốm yếu năm nào thành kẻ đứng trên đỉnh cao nhất của chuỗi thức ăn nơi Vườn Địa Đàng.
+
+Mười năm sau, điểm số đã tích đủ, tôi gửi đơn xin điều chuyển công tác nhưng lại bị thẳng tay bác bỏ.
+
+【Tên nam phụ ác độc này định làm gì thế? Không thấy nam chính công đang trong kỳ phát nhiệt sao? Cứ cố tình sáp lại gần làm gì không biết!】
+
+【Nếu hắn va chạm với công chính, vậy bảo bối thụ đáng yêu của chúng ta biết tính sao? Thế này thì còn đâu là song khiết nữa!】
+
+【Yên tâm đi, dù hắn có lỡ chạm vào thì khi công chính tỉnh lại cũng sẽ ra tay kết liễu hắn thôi. Dù sao mười năm qua nam phụ cũng hành hạ cậu ấy đủ đường rồi.】
+
+Bàn tay đang đặt trên tay nắm cửa của tôi khựng lại, xoay người tính bước đi.
+
+Nhưng ngay lập tức, một chiếc đuôi bạc dài phía sau đã cuộn chặt lấy eo tôi…
+`
+  },{
+    id: 907,
+    title: "Hoa Hòe Nở Đợi Người Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4febab75d46d9691973a8f862e865bce.jpg",
+    link: "cotrang/hoa-hoe-no-doi-nguoi-tinh.html",
+    type: "cotrang",
+    desc: `Tiểu thư thường nói với ta rằng, thiên hạ này vạn dân bình đẳng, nàng chưa bao giờ coi ta là kẻ hầu người hạ mà luôn đối xử như tỷ muội ruột thịt.
+
+Nàng nhất quyết không cho phép ta hành lễ, khiến ta bị phu nhân phạt đánh gậy nghiêm trị.
+
+Nàng chẳng bao giờ ban thưởng tiền bạc, bảo rằng không muốn coi ta là hạ nhân, để rồi khi mẫu thân ta lâm bệnh nặng, gia đình lại chẳng có nổi một đồng mua thuốc khiến bà đành phải qua đời.
+
+Nàng cũng ngăn cản ta làm thiếp cho đại thiếu gia, luôn miệng nói rằng con người phải sống theo chân lý một đời một kiếp một đôi người, hoàn toàn dập tắt con đường sống duy nhất của ta.
+
+Về sau, khi ta liều mạng cứu nàng khỏi dòng nước xiết rồi tự mình gánh chịu trận bệnh nặng, nàng khóc lóc thảm thiết như đứt từng đoạn ruột.
+
+Nhưng đến lúc biết ta mắc phải bệnh lao lây nhiễm, nàng liền sai người thẳng tay đuổi ta ra khỏi phủ, thậm chí chẳng cho lấy một đồng bạc vụn để chữa trị.
+
+Ta co quắp trong tấm chiếu cỏ rách nát, nhắm mắt trút hơi thở cuối cùng trong sự uất hận.
+
+Khi mở mắt ra lần nữa, ta bàng hoàng nhận ra mình đã trọng sinh, trở về thời điểm còn làm nha hoàn thân cận cho tiểu thư.
+`
+  },{
+    id: 908,
+    title: "Tình Cũ Không Rủ Cũng Đến",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1033a29b79953e8000f2dde875e2ab2e.jpg",
+    link: "ngontinh/tinh-cu-khong-ru-cung-den.html",
+    type: "ngontinh",
+    desc: `Tôi và ảnh đế lạnh lùng cùng tham gia một chương trình hẹn hò thực tế. Tôi cố gắng tránh né khắp nơi vì sợ ảnh hưởng đến việc cậu ấy và tiểu hoa đang nổi tạo hiệu ứng cặp đôi.
+
+Nhưng không ngờ, cư dân mạng thời nay lại nghĩ ngược đời như vậy.
+
+Sau khi chương trình phát sóng, tiểu hoa đang nổi và ảnh đế bị chế giễu là cặp đôi công nghiệp.
+
+Còn "cặp đôi né tránh" giữa tôi và ảnh đế lại bất ngờ nổi đình nổi đám, bùng nổ khắp mạng xã hội.
+
+Khán giả bình luận: "Chỉ cần nhìn nhau là đã lảng tránh, ánh mắt còn đong đầy cảm xúc! Nếu hai người họ không phải là thật thì tôi chính là đồ giả!"
+`
+  },{
+    id: 909,
+    title: "Bạn Học Của Thiếu Gia",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9c4288d1775721ac506365fb7e718e0b.jpg",
+    link: "dammy/ban-hoc-cua-thieu-gia.html",
+    type: "dammy",
+    desc: `Tôi là bạn học từ nhỏ của thiếu gia. Mọi người ai cũng khen tôi còn trẻ mà đã gặt hái được nhiều thành tựu, kiếm ra không ít tiền.
+
+Tôi đỏ bừng mặt, chẳng tiện nói ra sự thật rằng bản thân vốn chỉ là bạn học kiểu “ba ấm” của anh: làm ấm chăn, làm ấm lưỡi, rồi làm ấm cả cơ thể anh.
+
+Vào cái năm thiếu gia yêu tôi sâu đậm nhất, tôi lại nhận một khoản tiền rồi chọn cách rời đi. Người thiếu gia vốn luôn lý trí và dịu dàng ấy lập tức mất kiểm soát, phát điên lên vì tôi.
+
+Anh ôm ghì lấy tôi, dính chặt không rời, vừa hôn vừa cắn.
+
+Tôi choáng váng cất lời cầu xin, đáp lại chỉ là giọng nói trầm khàn của anh:
+
+“Nhìn vào gương xem, em có biết tôi đang làm gì không? Đứng không vững rồi đúng không bảo bối, để tôi bế em lên nhé?”
+`
+  },{
+    id: 910,
+    title: "Kịch Bản Của Đế Hậu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4311f6da36c9db30d97817cc5399b3ea.jpg",
+    link: "cotrang/kich-ban-cua-de-hau.html",
+    type: "cotrang",
+    desc: `“Hoàng hậu nương nương, Hoàng thượng đã nạp Hiền Vương phi làm phi rồi ạ! Ngài đặc biệt sai nô tỳ đến bẩm báo với nương nương một tiếng.”
+
+Cung nữ mới được điều đến chưa nắm rõ tính khí của ta, chỉ sợ ta nghe xong sẽ bực bội rồi giận cá chém thớt. Nàng ta quỳ mọp xuống đất dập đầu liên tục, đến cả thở mạnh cũng không dám.
+
+Kỳ thực, đối với mấy chuyện này, ta sớm đã chẳng còn thấy kinh ngạc hay lạ lẫm gì nữa.
+`
+  },{
+    id: 911,
+    title: "Con Đường Phía Trước Tràn Đầy Tươi Sáng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b577c33a74bc1e110841056c1abb7801.jpg",
+    link: "ngontinh/con-duong-phia-truoc-tran-day-tuoi-sang.html",
+    type: "ngontinh",
+    desc: `Khi đến đón Tần Tư Lễ, Lục Mãn Mãn tình cờ nghe thấy cuộc trò chuyện giữa anh và bạn thân.
+
+"Lâm Sam hôm qua vừa về nước, cậu không định cố gắng thêm lần nữa sao?"
+
+Tần Tư Lễ im lặng hồi lâu mới đáp: "Năm đó chính cô ấy chủ động bỏ đi, chẳng lẽ không phải cô ấy nên là người quay lại tìm tôi sao?"
+
+Người bạn lại lên tiếng khuyên nhủ: "Lục Mãn Mãn chẳng hợp với cậu chút nào. Nếu cậu quyết định cưới cô ấy, hội anh em chúng tôi sẽ không tới dự cưới đâu."
+
+Tần Tư Lễ chỉ giữ im lặng.
+
+Tối hôm đó, trên ghi chú điện thoại của anh xuất hiện một dòng chữ mới: [Dù giây sau có phải bước vào lễ đường, chỉ cần em lên tiếng dỗ dành, cô dâu đứng cạnh anh sẽ chẳng bao giờ là người khác.]
+`
+  },{
+    id: 912,
+    title: "Liều Thuốc Dịu Dàng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5487db762ad379afa577135fc6bc40e.jpg",
+    link: "dammy/lieu-thuoc-diu-dan.html",
+    type: "dammy",
+    desc: `Hạ Thịnh Huyền mắc chứng cuồng bạo rất nặng, mà tôi lại là liều thuốc duy nhất có thể giúp anh xoa dịu những cơn bùng nổ cảm xúc.
+
+Ai trong giới cũng đều biết rõ, chỉ cần có tôi ở bên cạnh, anh sẽ không bao giờ rơi vào trạng thái mất kiểm soát hay gây tổn thương cho bất kỳ ai.
+
+Anh đưa tôi bước vào thế giới riêng của mình, chủ động giới thiệu tôi với bố mẹ, đồng thời tuyên bố với tất cả mọi người rằng tôi là người anh em thân thiết nhất của anh.
+
+Thế nhưng, anh đâu hay biết rằng sâu thẳm trong lòng tôi luôn chôn giấu một mối tình thầm kín, mãnh liệt và không thể nào kìm nén.
+
+Tôi hiểu quá rõ anh là một người đàn ông thẳng.
+
+Chính vì vậy, ngay khi tốt nghiệp đại học, tôi đã chọn cách âm thầm rút lui khỏi cuộc đời anh.
+`
+  },{
+    id: 913,
+    title: "Ngày Nữ Đế Đoạt Lại Giang Sơn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9c69866bef24e0235d9743cb5bd86c24.jpg",
+    link: "cotrang/ngay-nu-de-doat-lai-giang-son.html",
+    type: "cotrang",
+    desc: `Trong thân thể ta từng có một linh hồn xuyên không trú ngụ, tự xưng là đến để thay ta chuộc tội.
+
+Nàng ta nhân danh ta mà sống hiền lành, nhún nhường, dốc lòng hàn gắn thứ gọi là tình thân, rồi lại tự ý gả ta cho người khác. Nhưng rốt cuộc, kết cục của nàng ta lại là chết không toàn thây.
+
+Dẫu vậy, ta đã trở về.
+
+Và ta chưa từng là một kẻ thiện lương.`
   },
 
 
