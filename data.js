@@ -18798,6 +18798,178 @@ Nàng ta nhân danh ta mà sống hiền lành, nhún nhường, dốc lòng hà
 Dẫu vậy, ta đã trở về.
 
 Và ta chưa từng là một kẻ thiện lương.`
+  },{
+    id: 914,
+    title: "Liên Minh Diệt Tra Nam",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/18482aa2394a9b3db6ed9a5b450ec432.jpg",
+    link: "ngontinh/lien-minh-diet-tra-nam.html",
+    type: "ngontinh",
+    desc: `Nhân tình của chồng gửi cho tôi ảnh siêu âm thai, khuyên tôi chủ động ly hôn và ra đi tay trắng.
+
+Sau đó, tôi đột nhiên được kéo vào một nhóm có tên "Liên minh trừng phạt tra nam".
+
+Cứ tưởng đây chỉ là nơi để chị em hỗ trợ, than thở và trút giận, trong lúc bộc phát, tôi đã nguyền rủa cho "của quý" của chồng bị chó cắn mất.
+
+Hôm sau, chồng tôi đi ăn đêm, miếng thịt nướng vô tình rơi xuống đũng quần. Một con chó hoang hung dữ từ đâu nhảy xổ tới, một phát cắn trúng, ăn sạch cả miếng thịt nướng lẫn phần thịt xương của anh ta.
+
+Ngay khi tôi nhận được tin báo, trưởng nhóm đã gửi tin nhắn riêng cho tôi: "Nhiệm vụ bạn đăng đã hoàn thành, đến lượt bạn nhận đơn hàng rồi!"
+
+Tiếp đó, cô ta gửi riêng thông tin của tôi, cùng với nhiệm vụ tiếp theo...
+`
+  },{
+    id: 915,
+    title: "Đổi Đêm Lỡ Dở Lấy Tình Sâu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7f55ca1c728bae00c4a644fd379fdcaa.jpg",
+    link: "dammy/doi-dem-lo-do-lay-tinh-sau.html",
+    type: "dammy",
+    desc: `Vị hôn thê của ta đã bỏ trốn ngay trong ngày đại hôn.
+
+Ta trở thành trò cười cho toàn kinh thành.
+
+Đêm khuya, ta mang đôi mắt đỏ hoe chặn vị ca ca lạnh lùng của nàng ngay trước cửa.
+
+"Ca ca, nàng không cần ta nữa... huynh phải bồi thường cho ta."
+
+Đáy mắt hắn ngập tràn sự áy náy, đành mặc kệ ta bước vào cửa, để ta ngày đêm quấn quýt dây dưa.
+
+Ta dọn thẳng vào viện của hắn, tiêu ngân phiếu của hắn, ngủ trên giường hắn. Ta từng chút một sưởi ấm tảng băng ngàn năm ấy, biến hắn thành chỗ dựa vững chắc để bản thân mặc sức làm càn.
+
+Mọi chuyện cứ thế tiếp diễn, cho đến khi hắn phát hiện ra, đường chạy trốn của muội muội là do ta vạch sẵn, và ngay cả lộ phí cũng là do một tay ta đưa.
+`
+  },{
+    id: 916,
+    title: "Cung Nữ Xuyên Không Và Công Chúa Tàn Tật",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4b32f3688e87a1f2d90d35bf560656a6.jpg",
+    link: "cotrang/cung-nu-xuyen-khong-va-cong-chua-tan-tat.html",
+    type: "cotrang",
+    desc: `Hoàng tỷ hại ta ngã gãy chân, khiến ta phải gắn chặt đời mình với chiếc xe lăn, trở thành một vị công chúa tàn phế.
+
+Vì quá đỗi nhàm chán, ta giữ lại một cô nàng xuyên không bên mình cho vui.
+
+Nha đầu này chẳng hiểu chút quy củ nào, gan lại nhỏ đến lạ.
+
+Ngày nào nàng cũng khóc lóc tỉ tê: "Sao lúc trước mình không đọc thêm mấy cuốn tiểu thuyết chứ, cứ cắm đầu học y khoa làm cái gì không biết..."
+
+Ta nhìn mà phiền lòng, thầm nghĩ cô nàng xuyên không này quả thực ngu ngơ hết chỗ nói.
+
+Về sau, chính nàng đã chữa khỏi đôi chân cho ta. Ta liền tiện tay tống hoàng tỷ sang Bắc Man hòa thân.
+`
+  },{
+    id: 917,
+    title: "Khẽ Hôn Chiếc Đuôi Cá Của Anh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d75cca5049cd37ba4ea9253bca63ccd5.jpg",
+    link: "ngontinh/khe-hon-chiec-duoi-ca-cua-anh.html",
+    type: "ngontinh",
+    desc: `Để cứu công ty của bạn trai, tôi đã kết hôn với một người cá.
+
+Người cá có bản tính lạnh lùng, dội dạt dục vọng, lại luôn tự ti vì chiếc đuôi của mình.
+
+Tôi đã vô số lần dùng điểm này để nhục nhã anh: "Cái đuôi cá nhớp nháp của anh, chỉ nhìn thôi đã khiến tôi cảm thấy ghê tởm. Nó y hệt như con người anh vậy."
+
+Sau đó, tôi bị bạn trai hại chết.
+
+Vì cứu tôi, người cá đã nhổ sạch toàn bộ vảy trên người, tự nguyện hóa thành bọt biển, tan biến không còn nguyên vẹn.
+
+Mở mắt ra lần nữa, tôi trở lại đêm kết hôn với anh.
+
+Anh che giấu sự tự ti và vỡ vụn nơi đáy mắt, lạnh giọng hỏi: "Em lại muốn nói gì?"
+
+"... Em muốn nói."
+
+Tôi ngẩng đầu nhìn anh, cất lời: "Em có thể hôn lên chiếc đuôi cá xinh đẹp này của anh được không?"
+`
+  },{
+    id: 918,
+    title: "Thoát Kịch Bản Để Bên Em",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/05498326507a7f5127e217b4b29e0e6f.jpg",
+    link: "dammy/thoat-kich-ban-de-ben-em.html",
+    type: "dammy",
+    desc: `Khoảnh khắc cậu thư ký Omega mới ngã nhào vào lòng tôi, những dòng chữ kỳ lạ lại tiếp tục nhảy múa trong không trung:
+
+【Bảo bối của chúng ta ngã cái “bịch” vào lòng chồng rồi kìa.】
+
+【Mặt anh công nhìn bình tĩnh thế thôi, chứ chắc máy đo nhịp tim nổ tung rồi ấy chứ!】
+
+【Cái tay bảo bối đặt đúng chỗ chưa kìa! Ôi chao, phê quá đi mất!】
+
+Trong quyển tiểu thuyết cũ kỹ này, tôi mang thiết lập của một tổng tài bá đạo, còn cậu thư ký Omega vừa xuất hiện kia lại được ấn định là “chân ái” đời tôi.
+
+Thế nhưng, nhìn vẻ ngoài ẻo lả cùng dáng điệu cố tình làm mẩy của cậu ta, trong lòng tôi chỉ dâng lên một niềm chán ghét tột cùng.
+
+Vị hôn phu của tôi là một Omega danh gia vọng tộc, thanh mai trúc mã từ nhỏ. Cậu ấy không chỉ sở hữu diện mạo thanh tú, lạnh lùng mà còn rất mực tinh tế, chu toàn. Tôi đã phải kiên trì theo đuổi suốt bao nhiêu năm trời mới có thể đường đường chính chính nắm tay cậu ấy.
+
+Nên làm sao tôi có thể vì một kẻ tầm thường mà buông bỏ đóa hoa quý giá mà mình luôn trân trọng chứ?
+`
+  },{
+    id: 919,
+    title: "Tuyết Tàn Sơn Lạc Duyên Nợ Còn Mang",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/23fb2958ce8db6b53c543c7bf17ed350.jpg",
+    link: "cotrang/tuyet-tan-son-lac-duyen-no-con-mang.html",
+    type: "cotrang",
+    desc: `Ta không biết vì lý do gì mà bản thân lại xuyên vào một cuốn tiểu thuyết điền văn, đã vậy còn đóng đúng vai nữ phụ ác độc.
+
+Trong truyện, ta là một cô thôn nữ quê mùa, lợi dụng ân cứu mạng để ép buộc nam chính phải thành thân với mình. Vai trò duy nhất của ta chỉ là tạo ra đủ loại phiền phức cho nữ chính.
+
+Sống trong thế giới này, ta đành tuân theo diễn biến của cốt truyện, ra tay cứu mạng thế tử Dung Quyết, sau đó ngày đêm mòn mỏi ngóng chờ nữ chính xuất hiện.
+
+Để giữ gìn danh tiết cho bản thân, ta bèn nhờ đại ca đồ tể trong trấn giả làm vị hôn phu tương lai.
+
+Đến ngày nam nữ chính cùng nhau rời đi, ta nằm dài thư thái, mỉm cười mãn nguyện vì sắp được tự do.
+
+Thế nhưng, khi mở mắt tỉnh dậy, ta lại bàng hoàng phát hiện mình đang nằm trong một gian phòng hỷ đỏ rực rỡ.
+
+Dung Quyết cất giọng lạnh lẽo hỏi:
+
+"Ngoài ta ra, Thụy Nương còn muốn gả cho ai nữa?"
+`
+  },{
+    id: 920,
+    title: "Lật Mặt Chị Dâu Đào Mỏ Trà Xanh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/898442960075a121868a30e13842338d.jpg",
+    link: "ngontinh/lat-mat-chi-dau-dao-mo-tra-xanh.html",
+    type: "ngontinh",
+    desc: `Đêm giao thừa, Chu Vân vui vẻ bắt xe về quê ăn Tết. 
+
+Thế nhưng chị dâu tương lai Từ Nhiễm chẳng những chê chiếc khăn Hermes cô tặng là đồ giả, mà còn buông lời mỉa mai quái gở: “Con gái lớn gả đi rồi, sao cô còn về nhà mẹ đẻ ăn Tết làm gì?”.
+
+Buồn cười thật, thời buổi nào rồi mà còn có người giữ tư tưởng con gái lấy chồng như bát nước đổ đi?
+
+Chu Vân lập tức đáp trả ngay tại chỗ: “Chưa về làm dâu đã tự ý dọn đến nhà người ta ở, chị lấy tư cách gì mà chỉ trỏ tôi?”.
+`
+  },{
+    id: 921,
+    title: "Nhặt Được Xà Thần Trong Ổ Trứng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/44ce22ade2dbb8929015de2edb7363e4.jpg",
+    link: "dammy/nhat-duoc-xa-than-trong-o-trung.html",
+    type: "dammy",
+    desc: `Tôi là một con rắn đực nhiệt tình và vô cùng chu đáo.
+
+Nhà hàng xóm một cặp vợ chồng trăn đẻ ra hơn chục con rắn con. Đúng lúc đang bận rộn chuẩn bị cho kỳ ngủ đông, họ đành gửi gắm nhờ tôi ấp giúp một quả trứng.
+
+Quả trứng này trông chẳng giống bất kỳ đứa trẻ nào trước đây của họ. Toàn thân nó đỏ rực như một ngọn lửa.
+
+Thế nhưng khi trứng nở ra, ba mẹ nó lại kiên quyết từ chối tiếp nhận đứa nhỏ.
+
+Không sao cả, họ không nuôi thì tôi sẽ nuôi nó.
+`
+  },{
+    id: 922,
+    title: "Thiếu Niên Của Ta Đã Thành Đại Anh Hùng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/102bd5eac06678f63f9049ca9f8a1c12.jpg",
+    link: "cotrang/thieu-nien-cua-ta-da-thanh-dai-anh-hung.html",
+    type: "cotrang",
+    desc: `Người mà ta căm ghét nhất trên đời này không ai khác chính là Giang Nam Thu, độc nhất mẫu tử của phủ Trấn Viễn Tướng quân.
+
+Hắn luôn giễu cợt ta tính tình thô bạo, chẳng hề có lấy một phần dịu dàng đoan trang như trưởng tỷ. Ta cũng chẳng vừa, lập tức mắng hắn là kẻ thô lỗ, chẳng biết chu đáo ân cần như Thái tử điện hạ.
+
+Từ đầu phố đến cuối ngõ, hai chúng ta đụng độ là đánh nhau, trở thành trò cười tiêu khiển cho toàn bộ nhân sĩ Kinh thành.
+
+Thế nhưng sau này, giữa chốn sa trường bụi mờ mịt mùng, ta và Giang Nam Thu đã kề vai sát cánh, đánh đuổi lũ ngoại tộc xâm phạm bờ cõi lui xa đến năm trăm dặm.
+
+Ta ngoảnh đầu lại, cười hỏi hắn: "Bây giờ ngươi còn dám chê ta thô bạo nữa không?"
+
+Thế nhưng phía sau lưng ta chỉ còn lại một khoảng không thăm thẳm, chẳng còn thấy bóng dáng quen thuộc của hắn đâu nữa.
+`
   },
 
 
