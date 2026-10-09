@@ -18970,6 +18970,191 @@ Ta ngoảnh đầu lại, cười hỏi hắn: "Bây giờ ngươi còn dám ch�
 
 Thế nhưng phía sau lưng ta chỉ còn lại một khoảng không thăm thẳm, chẳng còn thấy bóng dáng quen thuộc của hắn đâu nữa.
 `
+  },{
+    id: 923,
+    title: "Lời Di Thư Ở Độ Cao Mười Nghìn Mét",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9d3812da96cca301b01dd33e4249fd75.jpg",
+    link: "ngontinh/loi-di-thu-o-do-cao-muoi-nghin-met.html",
+    type: "ngontinh",
+    desc: `Lục Thì Vũ đi máy bay đến thăm người yêu xa thì gặp phải vùng nhiễu động không khí dữ dội.
+
+Cô bị nôn mửa liên tục, thậm chí còn viết cả di thư.
+
+Khi máy bay hạ cánh an toàn, cô hào hứng kể lại trải nghiệm hãi hùng này cho bạn trai nghe.
+
+Anh nghe xong, chỉ thản nhiên hỏi: “Em kể xong chưa?”
+
+“Kể xong rồi thì anh đi đọc tài liệu đây.”
+
+Câu nói “Chúng ta kết hôn nhanh đi” nghẹn lại nơi cổ họng cô.
+
+Về sau, anh nhíu mày hỏi cô: “Tại sao lại chia tay? Chỉ vì anh không nói chuyện phiếm với em sao?”
+
+Lục Thì Vũ đáp: “Đúng vậy, em còn phải cảm ơn anh nữa.”
+
+“Nếu không rời xa anh, em sẽ chẳng bao giờ biết được...”
+
+“Sẽ có người khắc ghi từng lời em nói vào lòng.”`
+  },{
+    id: 924,
+    title: "Cưa Đổ Nam Thần Rồi Đá",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7d67c3ec0d08c90010fe0500c24ababc.jpg",
+    link: "dammy/cua-do-nam-than-roi-da.html",
+    type: "dammy",
+    desc: `Vừa nhập học đã lỡ rới vào tầm mắt của nam thần học đường, tôi phút chốc trở thành cái gai trong mắt toàn trường. Trong cơn phẫn uất, tôi quyết định dùng chiêu "gậy ông đập lưng ông".
+
+Tôi sẽ bẻ cong đàn anh Alpha lạnh lùng, cao ngạo đó, Cố Bắc Thần. Tôi sẽ khiến uy tín của anh tan rã từ bên trong, sau đó sẽ đá anh một cú thật đau!
+
+Gửi đồ ăn đêm, cổ vũ trên sân bóng, giả vờ tình cờ gặp gỡ... mọi chiêu trò đều được tung ra. Kết quả là tôi đã thành công cưa đổ được người.
+
+Thế nhưng càng ở bên nhau lâu, tôi nhận ra mình bắt đầu lún sâu vào đoạn tình cảm này.
+
+Ngay lúc tôi vội vàng đề nghị chia tay, tôi lại bị Cố Bắc Thần chặn đứng ở góc tường. Người đàn ông ấy đuôi mắt ửng hồng, gông cùm chặt lấy tôi, giọng khàn đặc gằn từng chữ: “Bảo bối, em còn dám đùa kiểu này lần nữa thì lần tới không chỉ đơn giản là nằm viện đâu.”
+`
+  },{
+    id: 925,
+    title: "Ngày Tỷ Tỷ Thất Sủng Ta Mang Quân Vây Thành",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7f046bc850d547c2f1218f1f4f392315.jpg",
+    link: "cotrang/ngay-ty-ty-that-sung-ta-mang-quan-vay-thanh.html",
+    type: "cotrang",
+    desc: `Kiếp trước, đích tỷ vào cung làm Hoàng hậu. Lúc chia ly, tỷ ấy từng cúi đầu ân cần dạy bảo: “A Đinh, tỷ không có ở đây, muội phải biết tự bảo vệ bản thân.”
+
+Ta rưng rưng vâng lời.
+
+Năm năm sau, Hoàng hậu thất sủng, bị kẻ gian hãm hại đến mức mất đi trinh tiết, rồi treo cổ tự sát trong đêm.
+
+Thiên tử hạ lệnh, phế hậu Mạnh thị là kẻ vô đức, toàn thành không một ai được phép mặc đồ trắng để tang.
+
+Ta đại diện cho Mạnh gia đến tạ tội với triều đình. Vì có dung mạo nổi bật, ta bị Bệ hạ giữ lại trong cung, sau đó nhận được sủng ái vô bờ, đứng đầu khắp lục cung.
+
+Vào ngày ta kéo thiên tử cùng táng thân trong biển lửa, hắn giận dữ bóp cổ ta: “Trẫm đối xử với Mạnh gia các ngươi không tệ, chưa từng so đo việc phế hậu thất trinh!”
+
+Ta để mặc ngọn lửa hung tàn bao trùm lấy toàn thân, giống như chẳng hề cảm nhận được nỗi đau đớn: “Nhưng ta so đo.”
+
+Khi tỉnh lại, ta đã quay về đúng ngày đích tỷ sửa sang y phục chuẩn bị vào cung.
+
+Nàng ấy dịu dàng xoa đầu ta, rồi quay người bước đi, tiến về phía hoàng thành.
+
+Ta cởi bỏ hoa phục cùng trang sức lộng lẫy, quay đầu tiến thẳng vào quân doanh đẫm máu.
+
+Ta muốn nhìn xem, đến khi ta dẫn binh vây chặt lấy hoàng thành, liệu tên cẩu hoàng đế ấy có còn dám thốt ra hai chữ “phế hậu” nữa hay không.
+`
+  },{
+    id: 926,
+    title: "Tình Cũ Thành Chồng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/917afed0702f85f9398fec541b952605.jpg",
+    link: "ngontinh/tinh-cu-thanh-chong.html",
+    type: "ngontinh",
+    desc: `Quán cà phê treo bảng giảm giá 50% cho trẻ em dưới 5 tuổi và cựu chiến binh. Tôi nháy mắt liên tục ra hiệu cho cậu con trai 6 tuổi của mình.
+
+Thấy mẹ ra hiệu, Quả Quả dạn dĩ cất tiếng:
+“Chào chú, cháu là cựu chiến binh ạ.”
+
+Chủ quán cà phê, vốn là bạn trai cũ của tôi, mỉm cười đầy mỉa mai:
+“Con trai cô đấy à? Thông minh đấy.”
+
+Tôi lập tức đáp trả:
+“Thừa hưởng từ anh cả đấy.”
+
+...
+
+Được rồi, để tôi giải thích một chút về chuyện này.
+`
+  },{
+    id: 927,
+    title: "Tình Cũ Muộn Màng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/728b08136746b9813800ce89d482a1e8.jpg",
+    link: "dammy/tinh-cu-muon-mang.html",
+    type: "dammy",
+    desc: `Bước sang năm thứ ba của cuộc hôn nhân với Hứa Tấn Tây, tình cảm anh dành cho tôi rút cuộc cũng cạn sạch, chỉ còn lại sự chán ghét.
+
+Vào ngày sinh nhật tôi, anh thản nhiên vắng mặt. Thế nhưng ở một nơi khác, anh lại ôm chồm lấy một omega mềm mại, buông những lời tình tứ âu ếm.
+
+"Omega vẫn là nhất, chơi cùng mới thú vị. Cậu vợ beta ở nhà vừa cứng nhắc vừa nhạt nhẽo, tôi đã chịu đựng tới giới hạn rồi."
+
+Bảy năm gắn bó sâu đậm tan thành mây khói, tôi lặng lẽ và bình thản ký tên vào đơn ly hôn.
+
+Về sau, Hứa Tấn Tây kẻ từng ngạo mạn đứng trên đỉnh cao quyền lực lại chịu quỳ gối trước cửa nhà tôi trong kỳ dễ cảm. Anh run rẩy vục mặt hít hà chiếc áo ngủ cũ của tôi, thiết tha cầu xin một sự tha thứ.
+
+Thế nhưng Bàng Tịch Diên, người mà anh ta từng coi như cái gai trong mắt, chỉ nhẹ nhàng nắm lấy tay tôi rồi thẳng chân đạp mạnh vào ngực anh ta.
+
+"Còn dám tơ tưởng đến vợ tôi nữa, tôi phế luôn cả ba chân của anh!"
+`
+  },{
+    id: 928,
+    title: "Năm Năm Gánh Tiếng Hay Ghen",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fcaca1117378bbadd7be6b1f393ab95f.jpg",
+    link: "cotrang/nam-nam-ganh-tieng-hay-ghen.html",
+    type: "cotrang",
+    desc: `Năm năm gả làm vợ người mà bụng vẫn không hề có động tĩnh, lại thêm việc nhất quyết không đồng ý cho phu quân nạp thiếp, ta trở thành người đàn bà hay ghen nổi tiếng khắp kinh thành.
+
+Nhưng mấy ai biết được, kẻ thực sự không thể sinh con lại chẳng phải là ta.
+
+Vì giữ gìn thể diện cho phu quân, ta cắn răng ôm lấy bí mật ấy vào lòng.
+
+Thế nhưng sau này, khi gặp được một nữ nhân có y thuật cao siêu chữa khỏi căn bệnh thầm kín cho mình, hắn lại quay sang bảo với ta:
+
+“Uyển Uyển có ơn rất lớn với ta, ta không thể phụ lòng nàng ấy.”
+
+Thật nực cười làm sao. Chẳng lẽ những lời lăng mạ, gièm pha mà ta gánh chịu thay hắn suốt ngần ấy năm lại không phải là ơn?
+
+Rốt cuộc, ta bị giáng từ chính thất xuống làm thiếp, rồi mang theo uất oán cay đắng mà chết đi.
+
+Đời này sống lại, ta quyết không gánh tội thay cho kẻ khác nữa!
+`
+  },{
+    id: 929,
+    title: "Chẳng Cần Sữa Ấm Lần Hai",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0467253f4fe4845c6b1f3c258a1581f8.jpg",
+    link: "ngontinh/chang-can-sua-am-lan-hai.html",
+    type: "ngontinh",
+    desc: `Từ nhỏ, tôi đã được định sẵn là con dâu tương lai của Hoắc gia.
+
+Năm hai mươi tuổi, tôi gả cho Hoắc Khuynh.
+
+Đến năm hai mươi bốn tuổi, tôi sinh ra Hoắc Tự Thời.
+
+Thằng bé giống hệt Hoắc Khuynh, trầm lặng ít nói và chẳng mấy khi thân thiết với tôi.
+
+Đều đặn mỗi đêm trước khi đi ngủ, tôi luôn hâm sẵn ba ly sữa nóng cho họ.
+
+Thế nhưng tối nay, Hoắc Khuynh lại lỡ tay làm đổ ly sữa, còn Hoắc Tự Thời thì lén đem đi dội bỏ.
+
+Trong khoảnh khắc ấy, tôi đột nhiên cảm thấy kiệt sức.
+
+Lúc tôi đưa đơn ly hôn cho Hoắc Khuynh, anh nhíu mày vẻ bất mãn: "Chỉ vì chuyện này thôi sao?"
+
+"Đúng vậy, chỉ vì chuyện này".`
+  },{
+    id: 930,
+    title: "Ai Mới Là Kẻ Dính Câu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aeabb013f8eefb3b1eddbe97d1dddd97.jpg",
+    link: "dammy/ai-moi-la-ke-dinh-cau.html",
+    type: "dammy",
+    desc: `Tôi gửi cho anh một tấm ảnh chụp bắp đùi của mình.
+
+“Học trưởng, anh có thể giúp em viết bài luận thực hành không ạ?”
+
+Anh lập tức phản hồi:
+
+“Bé cưng, đừng nói là bài luận, ngay cả mạng sống của anh cũng trao trọn cho em!”
+`
+  },{
+    id: 931,
+    title: "Ma Tôn Sống Lại Tranh Giành Đồ Đệ Với Tiên Tôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1a6c41a67fac9d12d15b875a600adf15.jpg",
+    link: "cotrang/ma-ton-song-lai-tranh-gianh-do-de-voi-tien-ton.html",
+    type: "cotrang",
+    desc: `Thuần Thú Các phát thần thú.
+
+Vì đến muộn, ta chỉ nhận được một con quái vật tứ bất tượng. Dung mạo nó xấu xí nhất, tính tình tệ hại nhất, mà linh lực cũng thấp nhất.
+
+Sau một năm bị ta huấn luyện bằng gậy gộc, nó đột nhiên biến mất.
+
+Ba tháng sau, Ma Tôn giáng lâm Thiên Giới, đích danh muốn kết thân cùng một vị “Tiên tử ngốc nghếch”.
+
+Mà con thần thú thất lạc của ta vốn tên là Xấu Xí, trước đây nó cũng hay quen miệng gọi ta như thế.
+`
   },
 
 
