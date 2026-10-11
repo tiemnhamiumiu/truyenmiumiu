@@ -19155,6 +19155,194 @@ Ba tháng sau, Ma Tôn giáng lâm Thiên Giới, đích danh muốn kết thân
 
 Mà con thần thú thất lạc của ta vốn tên là Xấu Xí, trước đây nó cũng hay quen miệng gọi ta như thế.
 `
+  },{
+    id: 932,
+    title: "Bản Nhạc Cuối Cho Kẻ Tội Đồ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4026a52f9832000d1ae0f4dc7e2edbef.jpg",
+    link: "ngontinh/ban-nhac-cuoi-cho-ke-toi-do.html",
+    type: "ngontinh",
+    desc: `Trước khi kết hôn, anh luôn tỏ ra thiếu kiên nhẫn, còn thẳng thừng tuyên bố sau này đường ai nấy đi, tuyệt đối không can thiệp vào cuộc sống của nhau.
+
+Tôi nâng ly, khẽ mỉm cười: “Thế thì tốt quá.”
+
+Từ khoảnh khắc ấy, cuộc sống hôn nhân của chúng tôi biến thành một trận chiến giữa hai kẻ kiêu ngạo. Ai động lòng trước, kẻ đó thua.
+
+Nào ngờ... vào đúng ngày sinh nhật mình, anh lại cúi đầu, giọng nói thoáng chút ngập ngừng: “Anh chịu thua rồi. Đừng chơi trò này nữa, được không?”
+`
+  },{
+    id: 933,
+    title: "Chiếc Nhẫn Từ Tay Kẻ Khác",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/67739ed0adcc4a78eea6b2c5cdf92484.jpg",
+    link: "dammy/chiec-nhan-tu-tay-khac-ten.html",
+    type: "dammy",
+    desc: `Để có tiền trang trải chi phí thuốc nom chữa bệnh cho mẹ, tôi gật đầu nhận làm người chăm sóc cho vị thiếu gia nhà giàu mắc hội chứng rối loạn tâm lý.
+
+Cậu thiếu gia ấy từ nhỏ đã mang bản tính tàn nhẫn và quái ác. Cậu ta từng ném một con chuột xơ xác vào người tôi, thậm chí còn trộn những viên đá nhọn vào bát cơm tôi đang ăn.
+
+Đến năm tôi tròn mười tám tuổi, tôi lại trở thành món quà sinh nhật được dâng tặng cho cậu ta. Kể từ khoảnh khắc ấy, tôi lún sâu vào một mối quan hệ không lối thoát, cay đắng chấp nhận phận làm đồ chơi tình dục trên giường cho cậu thiếu gia ấy dày vò.
+
+Về sau, khi sức khỏe của mẹ đã hoàn toàn bình phục, tôi lập tức đệ đơn xin nghỉ việc rồi âm thầm thu dọn hành lý trốn khỏi thành phố này.
+
+Thế nhưng, ngay khoảnh khắc mở cửa bước vào căn hộ mới thuê, tôi đã thấy Phó Tuần ung dung ngồi trên sofa từ bao giờ, im lặng chờ đợi tôi tự sa lưới.
+`
+  },{
+    id: 934,
+    title: "Cố Chấp Yêu Hai Đời",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/753b61deceee65e686781cd26060a8e6.jpg",
+    link: "cotrang/co-chap-yeu-hai-doi.html",
+    type: "cotrang",
+    desc: `Thời kiếp trước, Tần Yến qua đời đúng vào đêm ta gả cho hắn để xung hỷ.
+
+Khi hắn còn sống, ta hận hắn thấu xương vì đã giam cầm ta nơi biệt viện sâu thẳm, cắt đứt nhân duyên giữa ta và Thái tử.
+
+Ta càng hận hắn hơn vì cho rằng hắn đã bày mưu hãm hại cả gia tộc mình.
+
+Nhưng đến cuối cùng ta mới nhận ra…
+
+Người cứu mạng ta, người từng hứa sẽ cùng ta đi đến bạc đầu chính là hắn.
+
+Người nhẫn nhục chịu đựng mọi đắng cay để bảo vệ toàn bộ gia tộc ta cũng chính là hắn.
+
+Thế nhưng hắn đã chết rồi.
+
+Nằm giữa biển lửa ngập tràn vì chính tay ta phóng hỏa, ta leo vào quan tài của hắn, cùng hắn đi trên con đường Hoàng Tuyền lạnh lẽo:
+
+“Tần Yến, đêm nay là ngày ta và ngươi thành hôn. Quan tài này tuy chật hẹp, nhưng cũng đủ để hai ta chung gối.”
+
+…
+
+Đến khi mở mắt ra lần nữa, ta phát hiện mình đã trọng sinh trở về thời điểm bảy năm trước.
+
+Thiếu niên anh tuấn bên giường đang lười biếng cúi đầu, lạnh lùng nhìn ta:
+
+“Tô tiểu thư ngộ ra từ khi nào mà lại biết tự ngã vào lòng người khác, rồi còn tự đề nghị gối chung thế này?”
+`
+  },{
+    id: 935,
+    title: "Sự Trở Lại Rực Rỡ Của Nữ Thần",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dcdb895de763cebd8decc0c1e5813e91.jpg",
+    link: "ngontinh/su-tro-lai-ruc-ro-cua-nu-than.html",
+    type: "ngontinh",
+    desc: `Lớp tôi tổ chức bình chọn "nữ sinh xấu nhất", và tôi nhận được nhiều phiếu bầu nhất.
+
+Trong danh sách những người bình chọn cho tôi, cái tên Chu Tuấn hiện lên đầy nổi bật.
+
+Khi ấy, tôi đã thầm yêu anh suốt sáu năm, luôn coi anh như ánh mặt trời rực rỡ.
+
+Chính anh đã đặt bút viết những dòng chữ chế giễu tôi, cho rằng tôi không biết lượng sức mình khi ngỏ lời tỏ tình với anh.
+
+Nhiều năm sau, trong một buổi phỏng vấn tài chính, người dẫn chương trình hỏi Chu Tuấn liệu có điều gì hối tiếc trong đời hay không.
+
+Anh nhìn thẳng vào ống kính và nói: "Thời trung học, tôi đã nhầm lẫn giữa ngọc trai và đá cội, lỡ tay để người khác giành mất cô ấy. Bảy năm qua, ngày đêm tôi đều chìm trong hối hận. May mắn là hiện tại cô ấy vẫn độc thân, tôi vẫn còn cơ hội."
+
+"Người khác" mà anh nhắc đến lúc này đang ngồi ăn tối cùng tôi. Nghe thấy vậy, anh ấy lịch sự đặt dao nĩa xuống, đẩy đĩa thịt bò Wagyu đã cắt sẵn sang phía tôi, rồi nói cần ra ngoài nghe điện thoại.
+
+Đứng trên ban công hướng ra biển, anh lạnh lùng ra lệnh: "Vòng gọi vốn C của Hoàn Vũ đã hoàn tất rồi đúng không? Bảo Bắc Đầu, Lợi Nhật và Trì Sinh rút toàn bộ vốn về."
+`
+  },{
+    id: 936,
+    title: "Kim Chủ Mất Trí Nhớ Bắt Tôi Chịu Trách Nhiệm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/10ced3f9aef3cf7934cb675cd31454ee.jpg",
+    link: "dammy/kim-chu-mat-tri-nho-bat-toi-chiu-trach-nhiem.html",
+    type: "dammy",
+    desc: `Sau khi phá sản, tôi bị kẻ thù không đội trời chung cưỡng ép cưới về nhà. Những ngày tháng sau đó trôi qua trong sự thù hận và tủi hờn.
+
+Thế nhưng, đến năm thứ ba làm “chim hoàng yến” của hắn, tôi bất ngờ mang thai. Đúng lúc ấy, hắn lại gặp tai nạn giao thông và mất đi trí nhớ.
+
+Tôi siết chặt tờ giấy siêu âm vừa lấy từ khoa sản, vội vàng chạy sang khu nội trú thăm hắn. Thế nhưng, vừa tới gần phòng bệnh, tôi đã nghe thấy tiếng hắn gào lên trong tuyệt vọng: “Ly hôn! Tôi phải ly hôn ngay lập tức! Thà chết chứ tôi không đời nào chịu sống chung với tên Alpha đó! Ghê tởm chết đi được!”
+
+Nhìn tờ kết quả trên tay, lòng tôi lạnh ngắt.
+
+Ngay khoảnh khắc tôi xoay người định đi làm phẫu thuật bỏ đứa trẻ, Bùi Hằng từ đâu bò lê lết dưới đất, giơ tay túm chặt lấy cổ chân tôi.
+
+Hắn đưa tay xoa xoa mũi, khuôn mặt hiện rõ vẻ ngượng ngùng: “Ahihi, Giang Thanh Nghiên, anh đến rồi đấy à? Tôi nghe người ta nói nhà tôi phá sản rồi. Hay là anh cưới tôi về làm rể đi... Rồi anh cứ tha hồ hành hạ, sỉ nhục tôi cho hả giận, được không?”
+`
+  },{
+    id: 937,
+    title: "Bán Thịt Nuôi Dưỡng Thành Ngự Y",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cc2a8d5d1663a0e1444366e115066bb0.jpg",
+    link: "cotrang/ban-thit-nuoi-duong-thanh-ngu-y.html",
+    type: "cotrang",
+    desc: `Phụ thân ta đi làm dể nhà người ta.
+
+Còn ta chỉ là đứa con riêng bị ông giấu ở bên ngoài.
+
+Năm ta tròn năm tuổi, phụ thân cùng mẫu thân bỏ trốn, bỏ mặc ta lại một mình bơ vơ.
+
+Những ngày tháng đói khát, ta từng phải nhai rơm khô rút từ mái nhà, từng đi húp từng ngụm nước canh loãng sót lại trong thùng cặn.
+
+Lúc ta bị lũ trẻ ăn mày đánh cho nhừ tử, gần như sắp chết, một người đàn bà ở chợ xuất hiện tựa như thần linh giáng thế. Bà là một mụ đồ tể nổi danh hung dữ.
+
+Bà chính là chính thê của phụ thân ta, người phụ nữ không có con cái.
+
+Người đời thường chỉ trỏ sau lưng, chửi bà là "mụ cọp cái cô độc", cuộc sống của bà cũng chẳng dễ dàng gì.
+
+Ta theo bà học nghề mổ lợn, bán thịt, cùng nhau trải qua bao nhiêu biến cố chiến tranh, cuối cùng cũng khổ tận cam lai.
+
+Sau này, ta trở thành một nữ ngự y được Hoàng đế ban danh, còn bà thì thong thả hưởng niềm vui con cháu quây quần bên gối.
+
+Đúng lúc ấy, phụ thân ta bỗng nhiên xuất hiện, nói muốn bù đắp cho ta, lại còn đòi nối lại tình xưa với bà.
+
+Ta chỉ cười lạnh, đưa ra tờ văn thư đoạn tuyệt quan hệ, còn bà thì rút ngay con dao mổ lợn, đuổi phụ thân ta chạy trăng trối qua năm dãy phố.
+`
+  },{
+    id: 938,
+    title: "Công Lược Ông Trùm Bằng Một Nồi Lẩu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5de69d0300d69f95f5edfa1f2719fd03.jpg",
+    link: "ngontinh/cong-luoc-ong-trum-bang-mot-noi-lau.html",
+    type: "ngontinh",
+    desc: `Tôi đã bắt cóc được thái tử gia mười tám tuổi của giới thượng lưu Bắc Kinh vào khách sạn.
+
+Hệ thống lập tức phát ra cảnh báo bằng điện giật:
+
+"Ký chủ xin hãy chú ý, mục tiêu công lược của cô là ông trùm Thẩm Mục Bạch, không phải cháu trai hắn, Thẩm Ngôn Nhất! Cứ tiếp tục như vậy, tôi sẽ..."
+
+Tôi thản nhiên đẩy cậu thiếu niên lên giường, vén áo lên rồi đút kẹo cho cậu ta ăn.
+
+"Rầm!"
+
+Cửa phòng bị đá tung, hàng chục vệ sĩ áo đen xông vào.
+
+Thẩm Mục Bạch khoác chiếc áo vest may riêng trị giá hàng trăm triệu lên người tôi, nghiến răng nghiến lợi nói:
+
+"Đăng ký kết hôn, làm thím của nó rồi, xem em còn dám làm loạn nữa không?"
+
+Tôi luyến tiếc rụt tay lại, lao vào lòng người đàn ông vốn bị đồn là máu lạnh vô tình, ngoan ngoãn đáp:
+
+"Vâng, chồng yêu."
+
+Nhìn hắn đỏ mặt tía tai, hệ thống hoàn toàn chết lặng. Nó không thể ngờ rằng kẻ phản diện thương cháu như mạng sống lại dính chiêu này.
+`
+  },{
+    id: 939,
+    title: "Bản Hợp Đồng Đánh Dấu Tạm Thời",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d2dd30d422bd36570f4503bf58e10850.jpg",
+    link: "dammy/ban-hop-dong-danh-dau-tam-thoi.html",
+    type: "dammy",
+    desc: `Quên mang theo thuốc ức chế, tôi chỉ biết vừa khóc vừa mống cầu kẻ thù không đội trời chung cắn lấy cổ mình.
+
+Cậu ta chợt khựng lại trong giây lát, rồi từ từ hé nở một nụ cười ranh mãnh đầy xấu xa:
+
+“Được thôi, nhưng tôi có điều kiện.”
+
+“Từ giờ trở đi, ngày nào tôi cũng muốn ngắm nhìn khuôn mặt kiều diễm này của cậu, được chứng kiến dáng vẻ… nôn nóng đến mức chẳng thể chờ thêm của cậu.”
+`
+  },{
+    id: 940,
+    title: "Nối Lại Cơ Nghiệp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4ad02af224fac6aaf3c6b5c529c71277.jpg",
+    link: "cotrang/noi-lai-co-nghiep.html",
+    type: "cotrang",
+    desc: `Trọng sinh trở về, ta nhìn đứa con trai bất hiếu Thẩm Độ đang quỳ gối dưới chân.
+
+Hắn đang hết lời tâng bốc ả ngoại thất của mình, dìm hàng đích nữ của Thanh Hà Thôi thị mà ta dày công sắp xếp để cưới về làm vợ cho hắn.
+
+Ta chỉ mỉm cười: "Con ngoan, lại đây nào."
+
+Hắn khom người tiến lại gần.
+
+Ta không chút do dự, giáng cho hắn một cái tát: "Lôi ra ngoài, đánh ba mươi trượng, xem hắn có chịu sửa lời không."
+`
   },
 
 
