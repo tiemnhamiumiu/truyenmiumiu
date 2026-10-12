@@ -19343,6 +19343,207 @@ Hắn khom người tiến lại gần.
 
 Ta không chút do dự, giáng cho hắn một cái tát: "Lôi ra ngoài, đánh ba mươi trượng, xem hắn có chịu sửa lời không."
 `
+  },{
+    id: 941,
+    title: "Khi Hối Hận Là Quá Trễ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7fbd2e1db82a8b07642208f0c983a21c.jpg",
+    link: "ngontinh/khi-hoi-han-la-qua-tre.html",
+    type: "ngontinh",
+    desc: `Tôi là thiên kim thật, chị là thiên kim giả.
+
+Tôi là đứa trẻ đáng thương lớn lên trong đòn roi bạo hành.
+
+Còn chị lại là "kho lưu trữ trái tim" trong kịch bản ngược luyến tàn tâm của tên tổng tài bá đạo.
+
+Kiếp trước, cả hai chúng tôi đều từ chối hoán đổi thân phận. Bởi chúng tôi biết rõ nơi mình đang sống vốn là địa ngục, không ai muốn kéo người kia vào vũng lầy.
+
+Sau đó, tôi ra tay kết liễu kẻ ác ma của đời mình, còn chị trút hơi thở cuối cùng trên bàn mổ.
+
+"Có lẽ cả hai chúng ta đều sai rồi?"
+
+Đó là suy nghĩ cuối cùng của tôi trước khi nhắm mắt.
+
+Được sống lại một đời, thân phận hoán đổi, thời gian quay ngược để chúng tôi sửa chữa sai lầm.
+
+Tôi chìm đắm trong nhung lụa xa hoa, còn chị ở nơi đầy rẫy ác ý đại sát tứ phương.
+
+Chúng tôi vẫn ở trong địa ngục, nhưng giờ đây đã trở thành ánh sáng cứu rỗi lẫn nhau.
+
+Đây là khúc ca báo thù thuộc về hai chúng tôi.
+`
+  },{
+    id: 942,
+    title: "Ranh Giới Hai Nửa Trái Tim",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6cd295cb53af52d97ab0f2d164ad4bf3.jpg",
+    link: "dammy/ranh-gioi-hai-nua-trai-tim.html",
+    type: "dammy",
+    desc: `Sau khi đoạn tình cảm với anh trai khác cha khác mẹ đổ vỡ, mọi chuyện náo loạn đến mức chẳng còn chút mặt mũi nào.
+
+Anh nhốt tôi dưới tầng hầm suốt bảy ngày bảy đêm.
+
+“Chia tay thì được, nhưng em phải sinh cho anh một đứa con.”
+
+Tôi có chết cũng chẳng thể nào sinh nổi…
+
+Ngày tôi trốn chạy, anh điên cuồng lái xe đuổi theo rồi gặp tai nạn kinh hoàng.
+
+Chấn thương đó khiến anh mất đi ký ức.
+
+Anh chấp nhận cuộc hôn nhân sắp đặt theo ý gia đình. Ngay thời điểm mọi người tưởng rằng anh đã trở lại quỹ đạo của một người bình thường…
+
+Thì chính trong đêm đính hôn, anh bỏ mặc vị hôn thê, xông thẳng vào phòng tôi.
+
+“Không chúc mừng anh đính hôn sao, em trai?”
+
+“Chúc anh… đính hôn vui vẻ.”
+
+Anh dập tắt điếu thuốc, bóp chặt cằm tôi:
+
+“Vậy thì hôn một cái đi, xem như lời chúc mừng?”
+`
+  },{
+    id: 943,
+    title: "Yêu Nghiệt Nguyện Làm Thần Tiên",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/15c3759ac21430bef4e32759806c54c3.jpg",
+    link: "cotrang/yeu-nghiet-nguyen-lam-than-tien.html",
+    type: "cotrang",
+    desc: `Thèm rượu làm liều, đêm khuya mò vào Thái Học tính sổ tên bạc tình Trần Hoán, nào ngờ ta lại vào nhầm phòng, nhận nhầm người.
+
+Sáng ra tỉnh dậy, người nằm cạnh ta là nhân tài kiệt xuất của Thái Học, kẻ được thiên hạ xưng tụng là "Kỳ Lân Tử" Mạnh Ngự Lam. Y phục hắn xộc xệch, trên mình chằng chịt những dấu vết đỏ hồng...
+
+"Thành thân, hoặc là báo quan." Mạnh Ngự Lam nheo đôi mắt phượng dài hẹp, lạnh lùng nhìn ta: "Tự nàng chọn đi."
+`
+  },{
+    id: 944,
+    title: "Tình Yêu Đích Thực Của Chồng Cũ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e0a0dc2c412fba77286dec78a0020bab.jpg",
+    link: "ngontinh/tinh-yeu-dich-thuc-cua-chong-cu.html",
+    type: "ngontinh",
+    desc: `Khi tai nạn xảy ra, tôi đã cố hết sức đẩy chồng mình ra khỏi đầu xe, còn bản thân thì bị đâm đến mức trở thành người thực vật.
+
+Kẻ gây ra tai nạn lại chính là bạch nguyệt quang mà chồng tôi luôn thầm thương trộm nhớ.
+
+Ngay tại tòa, anh ta sẵn sàng tha thứ cho cô ta, rồi sau đó lén đến bệnh viện rút ống thở của tôi.
+
+Sau khi tôi trút hơi thở cuối cùng, anh ta chẳng hề tỏ ra đau buồn, lập tức tái hôn và sinh con cùng người phụ nữ đó.
+
+Được sống lại vào đúng ngày xảy ra tai nạn, lần này tôi quyết định sẽ không cứu anh ta nữa.
+`
+  },{
+    id: 945,
+    title: "Bức Ảnh Mặc Váy Đêm Đó",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/00ae72031ff182873a4d940d856b9e62.jpg",
+    link: "dammy/buc-anh-mac-vay-dem-do.html",
+    type: "dammy",
+    desc: `Ngày hôm sau, tấm hình tôi diện chiếc váy biểu diễn bất ngờ xuất hiện trên trang "Tường tỏ tình" của trường kèm dòng nhắn:
+
+"Ai cung cấp thông tin chính xác sẽ nhận thưởng tám triệu đồng, không cần ẩn danh."
+
+Kẻ đăng bài chẳng phải ai xa lạ, chính là gã bạn cùng phòng chẳng ưa gì tôi, kẻ hằng đêm vẫn ngủ ngay ở giường tầng trên.
+
+Đêm hôm đó, điện thoại tôi rung lên một tin nhắn quấy rối đầy thô bỉ:
+
+【Em mặc chiếc váy đó đẹp lắm, đẹp đến mức khiến tôi không thể ngừng tưởng tượng cảnh em trần trụi trước mặt tôi.】
+
+Tôi nhếch môi nở nụ cười lạnh ngắt.
+
+Chẳng thể ngờ nổi gã đạo mạo thường ngày lại giấu giếm một bản chất biến thái đến nhường này.
+
+Sẵn sự tức giận, tôi dùng tài khoản phụ cố tình buông lời lôi cuốn, chủ động hẹn gặp rồi liên tục cho gã leo cây.
+
+Cho đến một ngày, vì quá hoảng sợ khi vô tình phá hỏng buổi tranh cử quan trọng của gã, tôi liền dứt khoát chặn toàn bộ liên lạc.
+
+Thế nhưng, tôi đột nhiên bàng hoàng nhận ra… kẻ gửi tin nhắn quấy rối và gã đăng bài tìm người trên trang tỏ tình chưa chắc đã là một.
+
+Đêm ấy, gã khóa chặt cửa phòng ký túc xá.
+
+Gã dồn tôi vào tận góc tường, đôi mắt hằn lên những tia u ám cùng chất giọng trầm đục:
+
+"Không muốn ra ngoài thì thôi. Nhưng cớ sao lại xóa liên lạc với tôi?"
+`
+  },{
+    id: 946,
+    title: "Nơi Chim Sẻ Trở Về",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d9d486a685694c63ba9959ae148f6a42.jpg",
+    link: "cotrang/noi-chim-se-tro-ve.html",
+    type: "cotrang",
+    desc: `Ta gả cho Hứa Minh Trạch bốn năm, người người đều bảo ta có phúc.
+
+Hứa Minh Trạch là đại thần thân tín trước mặt Bệ hạ, lại là Thám hoa thời tiền triều. Mọi thứ ở chàng đều hoàn hảo, duy chỉ có một điều: chàng không yêu ta.
+
+Trong tiệc cung đình, ta và Khương Vân Phù đệ nhất mỹ nhân cùng lúc rơi xuống nước. Thế nhưng phu quân ta lại lo lắng ôm chặt lấy nàng ta.
+
+Nhìn hai người họ thân thiết quấn lấy nhau, mặt ta không chút cảm xúc, xoay người rời đi.
+
+Trong thiên điện nghi ngút khói trầm, chiếc long bào đượm hương long diên ấm áp bao bọc lấy thân thể đang run rẩy vì lạnh của ta.
+
+Vị tân đế đăng cơ ba năm cúi đầu nhìn ta, trầm giọng hứa hẹn:
+
+"Trẫm nguyện làm tấm khiên chắn sau lưng, làm gã lính hầu trung thành, chỉ mong đổi lại được làm người tri kỷ bên gối, làm người trong lòng phu nhân."
+`
+  },{
+    id: 947,
+    title: "Sếp Tôi Là Rắn Thành Tinh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f936eb41749a0f88eec4101c37abe6c8.jpg",
+    link: "ngontinh/sep-toi-la-ran-thanh-tinh.html",
+    type: "ngontinh",
+    desc: `Tôi và sếp đã làm thủ tục đăng ký kết hôn.
+
+Sống chung một nhà nhưng mỗi người ngủ một phòng, anh thiếu một người vợ, còn tôi lại đang rất cần tiền.
+
+Một đêm nọ, Tần Mặc ôm lấy chiếc đuôi rắn của mình, ánh mắt uất khuất nhìn tôi rồi nhỏ giọng hỏi:
+
+“Vợ ơi, em có muốn thử cảm giác hạnh phúc nhân đôi không?”
+`
+  },{
+    id: 948,
+    title: "Tướng Quân Bắt Mạch Tìm Long Thai",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/713aa0f8368344a5db6ee0a04f67774b.jpg",
+    link: "dammy/tuong-quan-bat-mach-tim-long-thai.html",
+    type: "dammy",
+    desc: `Trẫm cùng Tần Trạm trải qua một đêm xuân nồng thắm.
+
+Ngay ngày hôm sau, hắn bị điều động đến trấn giữ nơi biên khương.
+
+Ba năm chớp mắt trôi qua, vị tướng quân ấy dẫn theo hai mươi vạn đại quân trở về kinh thành.
+
+Văn võ bá quan trong triều khiếp sợ đến mức hồn xiêu phách lạc, ai nấy đều thầm nghĩ hắn mang lòng phản nghịch, muốn tạo phản.
+
+Trẫm khẽ xoa cái bụng đã nhô cao của mình, thong dong đáp: "Mọi người vội gì, hắn tuyệt đối không dám làm phản đâu..."
+
+Vài ngày sau trên điện Kim Loan, trong lúc trẫm đang gật gù ngái ngủ, Tần Trạm bước lên bắt mạch rồi bàng hoàng phát hiện ra trẫm đang mang thai.
+
+Hắn nghiến răng ken kẹt, đôi mắt đỏ ngầu gầm lên: "Bệ hạ, rốt cuộc đứa con này là của kẻ nào?"
+”
+`
+  },{
+    id: 949,
+    title: "Bạch Nguyệt Quang Của Phụ Thân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/50ad6db974147587e7fdc3e791ba7de4.jpg",
+    link: "cotrang/bach-nguyet-quang-cua-phu-than.html",
+    type: "cotrang",
+    desc: `Cả kinh thành đều biết, trong lòng phụ thân ta chỉ khắc sâu hình bóng vị nữ Tướng quân anh dũng người là bạch nguyệt quang duy nhất của ông.
+
+Thế nhưng, mẫu thân ta lại lén bỏ thuốc vào rượu, leo lên giường ông.
+
+Sau đêm đó, bà mang thai ta.
+
+Mẫu thân tưởng rằng có con rồi sẽ nhận được sủng ái và ân ban. Nhưng phụ thân ta chưa từng chấp nhận chuyện này.
+
+Nhờ có lão phu nhân đứng ra bảo vệ, ta mới có cơ hội cất tiếng khóc chào đời.
+
+Vài năm sau, nữ Tướng quân thắng trận trở về trong vinh quang.
+
+Phụ thân không chút tiếc thương, lập tức đuổi cả hai mẹ con ta ra khỏi phủ.
+
+Mẫu thân oán hận ta, xem ta là gánh nặng phiền phức nên cũng chẳng buồn cần ta nữa.
+
+Nhưng đúng lúc bà ra tay vứt bỏ ta, vị nữ Tướng quân ấy đã xuất hiện.
+
+Bà bước đi dưới ánh sáng rực rỡ, vươn tay về phía ta.
+
+"Ngươi có muốn theo ta về nhà không?"
+`
   },
 
 
