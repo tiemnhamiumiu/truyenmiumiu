@@ -19544,6 +19544,209 @@ Bà bước đi dưới ánh sáng rực rỡ, vươn tay về phía ta.
 
 "Ngươi có muốn theo ta về nhà không?"
 `
+  },{
+    id: 950,
+    title: "Mang Danh Con Của Tiểu Tam",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7b6d28c6f53fdda76fc78981580ed258.jpg",
+    link: "ngontinh/mang-danh-con-cua-tieu-tam.html",
+    type: "ngontinh",
+    desc: `Tôi xuyên sách vào vai con gái của tiểu tam.
+
+Khi tôi vừa tới nơi, người mẹ tiểu tam đã khóc lóc thảm thiết.
+
+Tôi hỏi: "Có chuyện gì vậy mẹ?"
+
+Bà sụt sịt: "Nhà họ Kỳ vừa gửi thư sang, bắt hoặc là hủy hôn ước với con, hoặc đổi người đính hôn thành Bạch Trác."
+
+Tôi xoa xoa thái thái dương: "Tưởng chuyện gì, thế mà cũng coi là việc lớn sao?"
+
+Mẹ tôi ngơ ngác nhìn tôi: "Sao lại không lớn chứ? Con vất vả học hành bao năm chẳng phải để thi vào đại học danh tiếng, sau đó danh chính ngôn thuận sánh đôi cùng đại thiếu gia nhà họ Kỳ hay sao? Ôi, cả đời này mẹ đã không tranh nổi với bà ta, chẳng lẽ đến đời con gái mẹ cũng chịu thua con gái bà ta?"
+`
+  },{
+    id: 951,
+    title: "Trả Nợ Bằng Cả Trái Tim",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3ecdb7669e66554c40091ea4eb9712c1.jpg",
+    link: "dammy/tra-no-bang-ca-trai-tim.html",
+    type: "dammy",
+    desc: `Ba năm sau khi đường ai nấy đi với Lục Triệu Ngôn bằng sự tuyệt tình đến tàn nhẫn, duyên phận oái oăm lại biến anh thành bên A của tôi.
+
+Tại buổi lễ ký kết hợp đồng, tôi chật vật ngã quỵ ngay dưới chân anh.
+
+"Bây giờ mới biết quỳ xuống cầu xin sự tha thứ, liệu có quá muộn rồi không?" Lục Triệu Ngôn đứng khoanh tay, bình thản quan sát tôi từ trên cao với vẻ giễu cợt: "Giang đại thiết kế sư, chẳng lẽ cậu đang chờ tôi ra tay đỡ dậy?"
+
+"Không phải." Tôi tịnh tiến bàn tay chống vào đùi phải, gian nan tự mình đứng dậy. Tôi không chờ anh đỡ, cũng chẳng hề có ý cầu xin sự tha thứ. Chỉ là... tôi đứng không vững mà thôi.
+
+Bởi vì trên người tôi lúc này, chân phải vốn đã chẳng còn nguyên vẹn.
+`
+  },{
+    id: 952,
+    title: "Vì Nàng Chờ Cả Trăm Kiếp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c977e1c8eb58d418d3af6e1b58656a0d.jpg",
+    link: "cotrang/vi-nang-cho-ca-tram-kiep.html",
+    type: "cotrang",
+    desc: `Mười vạn năm trước, ta từng bị kẻ khác tước đi tiên tủy.
+
+Trong suốt những năm tháng lưu lạc nghèo khó nơi nhân gian, ta chẳng hề hay biết ở Cửu Trùng Thiên xa xôi, có kẻ đang mang tiên tủy của ta để hưởng trọn vinh hoa thịnh vượng.
+
+Cho đến khi ta chạm mặt Thần nữ Minh Hoa, một người tài sắc kinh diễm, tiên tủy mới nhận lại chủ nhân mà tự động trở về cơ thể ta.
+
+Thế nhưng Minh Hoa lại khăng khăng vu cho ta là kẻ phàm trần hèn kém đã trộm đi tiên tủy của nàng.
+
+Nàng dựa vào sự chống lưng của Thần quân, phế bỏ đôi chân ta rồi ném ta vào Quỷ Vực để làm mồi cho lũ ác quỷ.
+
+Vào ngày khôi phục ký ức, ta trở lại Thiên giới. Ta giẫm Minh Hoa đang hoảng sợ tuyệt vọng dưới chân, mỉm cười hỏi:
+
+"Chạy đi đâu? Đã dùng đồ của bản Điện hạ suốt bao nhiêu năm, cớ sao không nói một lời cảm tạ?"
+`
+  },{
+    id: 953,
+    title: "Định Mệnh Đã An Bài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c63a277178b6e114f98f837ef41b395.jpg",
+    link: "ngontinh/dinh-menh-da-an-bai.html",
+    type: "ngontinh",
+    desc: `Vào năm thứ ba kết hôn với Châu Dĩ Sanh, anh ta có tình nhân mới.
+
+Đêm bị tôi phát hiện, anh ta còn thản nhiên khuyên bảo.
+
+“Niệm Niệm, đời sống hôn nhân cần có chút kích thích hợp lý để cân bằng.”
+
+“Chồng sắp cưới của Kiều Lộ là một người đàn ông rất tuyệt.”
+
+“Em có muốn... thử với anh ta không?”
+
+Tối hôm đó, bốn người ngồi trong phòng bao kín đáo, không khí trôi qua trong sự ngầm hiểu đầy dịu kỳ.
+
+Giọng Hoắc Kỳ Sâm lạnh đến thấu xương: “Xin lỗi, tôi không có hứng thú với vợ của người khác.”
+
+Châu Dĩ Sanh trút được gánh nặng, cười nói: “Vậy thì tiếc thật.”
+
+Tôi lại không kìm được mà lén liếc nhìn Hoắc Kỳ Sâm.
+
+Đêm hôm trước ở trên giường, khao khát cuồng nhiệt của anh quấn lấy tôi không rời.
+
+Nào có giống vẻ thờ ơ, xa cách như bây giờ.
+`
+  },{
+    id: 954,
+    title: "Đừng Cố Diễn Chân Thành",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ffbe260588f2d8df12c0bd4c6450113d.jpg",
+    link: "dammy/dung-co-dien-chan-thanh.html",
+    type: "dammy",
+    desc: `Tôi và Lăng Dịch là cặp đôi nhan sắc cực phẩm thống trị các bảng xếp hạng trong giới giải trí suốt một năm trời, khiến cho hội đẩy thuyền mê muội đến mức say mê cuồng nhiệt. Những đoạn video cắt ghép hay các mẩu chuyện xào nấu cặp đôi bay ngập tràn trên mạng xã hội.
+
+Thế nhưng, chỉ có hai người trong cuộc mới biết rõ một điều: Khoảng cách giữa chúng tôi và việc kết hôn chỉ thiếu đúng một bước duy nhất, đó là làm quen với nhau.
+
+Lần đầu tiên tôi gặp Lăng Dịch là khi cùng đứng trên sân khấu nhận giải. Phía dưới khán đài, tiếng hò reo của người hâm mộ vang động cả một vùng trời, màu đèn tiếp ứng của cặp đôi thắp sáng rực rỡ một góc khán phòng. 
+
+Lăng Dịch nắm lấy tay tôi, thần thái dịu dàng vô hạn, rồi khẽ ghé sát tai tôi thì thầm: “Cậu có thể cách xa tôi ra một chút không? Bị ké nhiệt kiểu này thực sự rất buồn nôn.”
+`
+  },{
+    id: 955,
+    title: "Muội Muội Cướp Hôn Gả Cho Kẻ Thích Nam Sắc",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/05290158f9c750a8fabad6b84691045b.jpg",
+    link: "cotrang/muoi-muoi-cuop-hon-ga-cho-ke-thich-nam-sac.html",
+    type: "cotrang",
+    desc: `Ở Thượng Kinh này, ta chính là vị cô nương có cuộc sống thong thả, tự tại nhất.
+
+Mẫu thân ta qua đời năm ta mới lên năm, kế mẫu thương ta chịu cảnh mồ côi sớm nên đối xử vô cùng khoan dung, nuông chiều.
+
+Những ngày đông giá rét, khi muội muội cùng cha khác mẹ phải đội tuyết đến thư viện chăm chỉ học hành, ta lại thong thả nằm cuộn mình trên giường sưởi đọc thoại bản.
+
+Những ngày hè oi ả, khi muội muội phải phơi nắng khổ luyện từng động tác múa, ta lại ôm bát nước đá mát lạnh, thong dong lật từng trang truyện.
+
+Mọi người trong thiên hạ khi ấy ai nấy đều khen ngợi kế mẫu có tấm lòng nhân từ như mẹ ruột.
+
+Sự việc chỉ vỡ lở vào năm ta mười bảy tuổi, khi kế mẫu ra tay tráo đổi hôn ước. Bà đem mối duyên mà mẫu thân ta định sẵn từ lúc lâm chung với tiểu thế tử phủ An Quốc Công trao lại cho con gái ruột của mình.
+
+Mãi đến lúc ấy, người đời mới nhận ra mưu đồ sâu xa mà bà đã cẩn thận giăng ra suốt bao nhiêu năm qua.
+
+Thế nhưng, kế mẫu dù có tính toán sâu xa đến đâu thì tầm mắt cũng chỉ quẩn quanh nơi hậu viện hẹp thòi.
+
+Nếu bà chịu bỏ chút công sức ra ngoài dò hỏi, hẳn sẽ biết vị tiểu thế tử kia vốn thích nuôi nam sủng, việc cưới vợ chẳng qua cũng chỉ để hoàn thành nghĩa vụ nối dõi tông đường mà thôi.
+`
+  },{
+    id: 956,
+    title: "Chuyện Tình Lén Lút Với Anh Trai Bạn Thân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7d9be96c4acce7a04e72849351eceaff.jpg",
+    link: "ngontinh/chuyen-tinh-len-lut-voi-anh-trai-ban-than.html",
+    type: "ngontinh",
+    desc: `Bạn thân hẹn hò với người yêu, nhất quyết kéo tôi đi làm bóng đèn.
+
+Giờ thì hay rồi, cả ba chúng tôi đều bị đội chống tệ nạn đưa về đồn công an khi đang ở quán bar.
+
+Nhìn thấy vị đội trưởng đang rảo bước tới, mặt bạn thân tôi cắt không còn một giọt máu: "Chết rồi, anh trai tớ!"
+
+Cô ấy nhanh tay đẩy gã bạn trai tóc vàng về phía tôi.
+
+Sau đó quay sang cười gượng gạo với anh trai mình: "Anh... Hạ Hạ đi hẹn hò với bạn trai, nhất quyết kéo em đi cùng đấy chứ."
+
+Người đàn ông dời ánh mắt sang tôi.
+
+Tôi chỉ biết ngửa mặt nhìn trần nhà, giả vờ như không liên quan.
+
+Tối hôm đó, hơi thở ấm nóng của người đàn ông bao trùm lấy tôi. Anh siết chặt eo tôi như muốn đòi lại cả vốn lẫn lời: "Bé cưng, ngoài anh ra, em còn bạn trai khác nữa sao?"
+`
+  },{
+    id: 957,
+    title: "Kẻ Cưỡng Chế Trở Thành Kẻ Bị Cưỡng Chế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5658d6025e24a5da1927cc327a045d5.jpg",
+    link: "dammy/ke-cuong-che-tro-thanh-ke-bi-cuong-che.html",
+    type: "dammy",
+    desc: `Sau khi cưỡng ép yêu người anh kế lạnh lùng, tôi gặp tai nạn giao thông rồi rơi vào tình trạng mất trí nhớ.
+
+Anh tới bệnh viện thăm tôi, tiếng xích sắt nơi cổ tay vang lên những âm thanh leng keng lạch cạch.
+
+“Tạ Từ, em lại muốn giở trò gì nữa đây?”
+
+Tôi ngắm nhìn gương mặt tuấn tú tuyệt mỹ của anh thật lâu, ngẩn ngơ cảm thán: “Anh đẹp thật đấy, trông rất giống mối tình đầu của em.”
+
+Sắc mặt anh lập tức sầm xuống, ánh mắt tối sầm lại.
+
+“Vậy ra, tôi chỉ là một kẻ thay thế?”
+
+Tôi vội vàng lên tiếng xin lỗi, còn ngỏ ý sẵn sàng trả lại tự do cho anh.
+
+Anh nghiến răng nghiến lợi đáp lời: “Đuổi tôi đi để rộng đường quay về bên hắn ta đúng không?”
+
+“Tôi nói cho em biết, đừng mơ!”
+
+Chàng nam thần lạnh lùng ngày nào chỉ trong chớp mắt đã biến thành người chồng đầy tuyệt vọng.
+
+Sau này, chỉ cần tôi về nhà trễ quá nửa tiếng, điện thoại sẽ liên tục nhận được những dòng tin nhắn dồn dập từ anh.
+
+【Em muốn làm gì là tự do của em, bạn bè của em tôi sẽ không can thiệp.】
+
+【Em là một cá thể độc lập. Tôi yêu em, nhưng tôi không bao giờ giam cầm em.】
+
+【Chơi vui vẻ nhé, em yêu.】
+
+Chỉ hai phút sau.
+
+【Tôi chết cho em xem.】`
+  },{
+    id: 958,
+    title: "Nước Sông Minh Hà",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cc319bae9ea561cdeeca67b4acd9808f.jpg",
+    link: "cotrang/nuoc-song-minh-ha.html",
+    type: "cotrang",
+    desc: `Công chúa muốn gả cho phu quân của ta.
+
+Phu quân ta là Mã Tư An một mực không chịu, còn lên tiếng chỉ trích Nhàn Dương công chúa cướp chồng người khác.
+
+Thế nhưng thánh chỉ ban hôn vẫn truyền xuống.
+
+Phu quân nắm tay ta, xót xa nói: "Quy Nhạn, hay là chúng ta cùng chết, xuống âm phủ làm một đôi vợ chồng."
+
+Ta gật đầu đồng ý. Đêm hôm ấy, hai chúng ta cùng nhau gieo mình xuống dòng sông lạnh.
+
+Vậy mà ta đợi ở địa phủ suốt ba ngày đêm vẫn không thấy bóng dáng chàng đâu.
+
+Đến khi ta trôi dạt trở lại dương gian xem thử, lại vừa hay gặp đúng ngày đại hôn của công chúa.
+
+Phu quân của ta mặt mày hớn hở, rạng rỡ hỉ hoan, chẳng thấy nửa điểm gượng ép hay không đành lòng.
+
+Vừa lúc trong gian nhà kho ở phủ công chúa có một nha hoàn đang thoi thóp sắp trút hơi thở cuối cùng, ta liền nhập vào thân xác nàng.
+`
   },
 
 
