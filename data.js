@@ -19747,6 +19747,173 @@ Phu quân của ta mặt mày hớn hở, rạng rỡ hỉ hoan, chẳng thấy 
 
 Vừa lúc trong gian nhà kho ở phủ công chúa có một nha hoàn đang thoi thóp sắp trút hơi thở cuối cùng, ta liền nhập vào thân xác nàng.
 `
+  },{
+    id: 959,
+    title: "Sức Sống Của Bồ Công Anh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a05463d2975844858e35181525ba9c9e.jpg",
+    link: "ngontinh/suc-song-cua-bo-cong-anh.html",
+    type: "ngontinh",
+    desc: `Các bạn có biết, trước đây ở quê tôi, những gia đình không sinh được con trai rơi vào cảnh thê thảm đến mức nào không?
+
+Trong các buổi họp làng, ba tôi chẳng bao giờ có cất nổi một tiếng nói.
+
+Đến mâm cơm đêm giao thừa, mẹ tôi cũng không được phép bước lên bàn ngồi chung.
+
+Ngay cả khi phân chia tài sản, gia đình tôi cũng chỉ nhận lại căn nhà đất cũ kỹ, mái lợp rơm rạ dột nát bốn bề.
+
+Đến năm tôi lên năm, mẹ lại mang thai...
+`
+  },{
+    id: 960,
+    title: "Bạn Thân Cùng Phòng Cưỡng Hôn Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a93b3d351061c4649b1c03bf1d3cfe22.jpg",
+    link: "dammy/ban-than-cung-phong-cuong-hon-toi.html",
+    type: "dammy",
+    desc: `Trận đấu bóng rổ kết thúc, tôi vừa vặn mời người em họ của mình đến xem. Chẳng ngờ sau đó, cậu em lại để ý ngay Tống Hoài Cẩn thằng bạn thân thiết nhất của tôi.
+
+Vốn tính rộng rãi, tôi nghĩ bụng làm người tốt thì làm cho trót, thuận nước đẩy thuyền gửi tài khoản WeChat của Hoài Cẩn qua cho cậu ấy để cả hai làm quen.
+
+Nào ngờ chưa đầy hai ngày sau, em họ đã nhắn tin mếu mào bảo rằng bạn thân tôi đã thẳng tay xóa kết bạn.
+
+Tôi giận điên người, lập tức hùng hổ chạy đi hỏi tội.
+
+Rốt cuộc, thằng bạn thân lại đè tôi ra cưỡng hôn.
+
+Thật sự muốn bùng nổ!
+`
+  },{
+    id: 961,
+    title: "Phu Quân Bỏ Trốn Là Tiêu Dao Vương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7de0aaa2b300019f0ec52e30a64289bd.jpg",
+    link: "cotrang/phu-quan-bo-tron-la-tieu-dao-vuong.html",
+    type: "cotrang",
+    desc: `Ta vốn xuất thân từ một gia đình quan lại danh giá, nhưng chẳng may lại thất lạc từ năm lên ba tuổi.
+
+Sau khi ta mất tích, phụ mẫu nhận nuôi một nữ nhi khác để thay thế vị trí của ta.
+
+Đến khi trưởng thành, ta thành thân với người phu quân luôn kề cận bên mình. Nào ngờ, chàng chẳng những yếu đuối, không có khả năng tự gánh vác gia đình mà còn lén cuỗm sạch tiền bạc của ta rồi bỏ trốn.
+
+Ông Trời trêu ngươi ta đó ư? Rõ ràng là đang ép ta không thể làm người tốt được mà!
+
+Ta tức giận đuổi theo phu quân vượt ngàn dặm đường tới tận Kinh thành, quyết đòi lại công đạo. Thế nhưng đến nơi, ta mới bàng hoàng phát hiện ra phu quân của mình lại là nhi tử ruột thịt của Hoàng đế, chính là Tiêu Dao Vương tự tại tiếng tăm lừng lẫy khắp triều đình.
+
+Thôi vậy, trải qua bao nhiêu chuyện, ta thấy mình vẫn nên trở về quê nhà trồng trọt thì hơn.
+`
+  },{
+    id: 962,
+    title: "Nuông Chiều Kẻ Nghiện Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0d0366a5ab80406ccb0b26006512bec0.jpg",
+    link: "ngontinh/nuong-chieu-ke-nghien-tinh.html",
+    type: "ngontinh",
+    desc: `Yêu Lục Hằng một năm, số lần anh hôn tôi chỉ đếm trên đầu ngón tay. Lần nào anh cũng viện cớ mình là người sống nội tâm, lãnh cảm, rồi quay sang trách tôi là cô bạn gái đòi hỏi quá nhiều, hoàn toàn không hợp với anh.
+
+Cho đến tận buổi tiệc sinh nhật của Tống Nhiễm, cô em khóa dưới.
+
+Khi Tống Nhiễm ước có được một nụ hôn kiểu Pháp từ Lục Hằng, anh lại mỉm cười gật đầu.
+
+Tôi tiến đến ngăn cản, Lục Hằng liền nhíu mày đầy khó chịu.
+
+"Nguyễn Nặc, ai cũng có quyền được thực hiện điều ước sinh nhật mà."
+
+"Nếu em thấy không thoải mái, cứ xem như hôm nay anh làm bạn trai cô ấy một ngày đi."
+
+Tôi nhìn chằm chằm vào chuỗi hạt trầm hương trên cổ tay anh, giọng chùng xuống: "Nhưng Lục Hằng, hôm nay cũng là sinh nhật của em."
+
+Lục Hằng ngơ ra vài giây, rồi quay sang nhìn đám bạn xung quanh, bật cười giễu kẹt.
+
+"Mọi người thấy chưa? Tôi đã nói rồi mà, cô ấy lúc nào cũng đòi hỏi thái quá. Chỉ là cái sinh nhật thôi, làm gì mà phải làm quá lên như thế?"
+
+Tôi siết chặt chai rượu trên bàn, dốc ngược cạn sạch trong một hơi.
+
+"Sinh nhật có thể không cần quà hay tiệc tùng, nhưng em nhất định phải ước một điều."
+
+"Em ước đêm nay sẽ có một người đàn ông có ham muốn mãnh liệt ở bên em."
+
+Bầu không khí trong phòng lập tức lặng đi.
+
+Tống Nhiễm cười đến mức chảy cả nước mắt: "Chị Nguyễn Nặc ơi, trong cái phòng này toàn những đỉnh cao lạnh lùng cao ngạo, chị tìm đâu ra người như thế chứ..."
+
+Đúng lúc đó, một giọng nói trầm thấp vang lên từ góc khuất.
+
+"Tôi."`
+  },{
+    id: 963,
+    title: "Độ Tương Thích Pheromone 10%",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3fc92b3f8a04fb745c04d4c4af5aae2f.jpg",
+    link: "dammy/do-tuong-thich-pheromone-10.html",
+    type: "dammy",
+    desc: `Tôi là Omega cấp S, thanh mai trúc mã lạnh lùng của tôi cũng là một Alpha cấp S.
+
+Để trốn tránh cuộc hôn nhân do đế quốc sắp đặt, chúng tôi quyết định kết hôn với nhau.
+
+Thế nhưng, độ tương thích pheromone giữa hai đứa lại cực kỳ thấp.
+
+Cho đến một ngày, người trong lòng năm xưa của anh trở về. Người ấy bất ngờ phân hóa thành Alpha, và oái oăm thay lại sở hữu mức độ tương thích rất cao với tôi.
+
+Anh bạn trúc mã vốn lạnh lùng bỗng cầm chiếc dao nhỏ, gương mặt lạt lẽo nhìn tôi: "Em thích mùi hương của hắn? Vậy anh sẽ cắt tuyến thể của hắn tặng em."
+`
+  },{
+    id: 964,
+    title: "Ngọc Lắng Tâm Bình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/98c6192f21efda5343c4928bd4d90312.jpg",
+    link: "cotrang/ngoc-lang-tam-binh.html",
+    type: "cotrang",
+    desc: `Phụ thân ta vì muốn leo lên cành cao, sẵn sàng bỏ lại ba mẹ con ta để về làm rể phủ tướng quân.
+
+Mười năm sau, hài cốt của ông ta mới được gửi về.
+
+Mẫu thân ta ngồi dưới hiên nhà, tay vẫn thoăn thoắt thêu thùa, cười nhạt một tiếng: “Chết đúng là khéo.”
+
+Tiểu thư phủ tướng quân dùng kim khẽ gãi phía sau đầu, đáp lại: “Phải, chết thật là đúng lúc.”
+`
+  },{
+    id: 965,
+    title: "Hóa Ra Chồng Tôi Không Phải Trai Bao",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/56786a5a0cab9ba246be09cd3f978827.jpg",
+    link: "ngontinh/hoa-ra-chong-toi-khong-phai-trai-bao.html",
+    type: "ngontinh",
+    desc: `Xuyên thành nữ phụ trong một cuốn truyện đam mỹ, Cố Linh Khê phát hiện người chồng mới cưới của mình lại ra ngoài làm trai bao.
+
+Thế nhưng cô chẳng dám thốt ra dù chỉ một lời, chỉ sợ anh dừng lại rồi không cho cô tiền tiêu nữa.
+
+Mãi về sau, khi đã dành dụm đủ năm mươi triệu, cô ngỏ ý muốn ly hôn để giải thoát cho anh. Ai ngờ, anh lại đẩy cô ngã nhào xuống giường, áp sát thân mình lên người cô.
+
+Anh chậm rãi nới lỏng cà vạt, gương mặt lộ rõ vẻ lạnh nhạt:
+
+“Lý do ly hôn?”
+
+Nhìn khuôn mặt tuấn tú gần trong tầm mắt, cô run rẩy đáp:
+
+“Em sợ cứ tiếp tục thế này sẽ yêu anh mất. Đến lúc đó, người đàn ông của anh mà nổi giận thì biết làm sao?”
+`
+  },{
+    id: 966,
+    title: "Ký Ức Đàn Hương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e46083213c9526ff9d92ab489fd24362.jpg",
+    link: "dammy/ky-uc-dan-huong.html",
+    type: "dammy",
+    desc: `Tôi là một Omega cấp thấp, nhưng độ tương thích pheromone với đại gia giới thượng lưu Hồng Kông lại cực kỳ cao.
+
+Anh nuôi tôi bên cạnh suốt tám năm trời, chữa trị tuyến thể bị tổn thương cho tôi. Thế nhưng chỉ vì một câu nói của đối tượng liên hôn, anh sẵn sàng đuổi tôi đi một cách tuyệt tình.
+
+Anh ấn mạnh vào tuyến thể của tôi, gằn giọng cảnh cáo: “Cất hết những ý đồ đê tiện của em đi.”
+
+Để rồi sau khi tôi giả chết trốn chạy, chính anh lại lật tung cả Cảng Thành lên để tìm kiếm.
+
+Rốt cuộc, anh đứng ở lối cầu thang khu nhà trọ chật hẹp, chặn đứng đường lui của tôi: “Độ tương thích chín mươi tám phần trăm, em nghĩ mình có thể chạy thoát khỏi tôi sao?”
+`
+  },{
+    id: 967,
+    title: "Vương Phi Không Tranh Sủng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ff298257dd25922ed1ba141ccabb66f2.jpg",
+    link: "cotrang/vuong-phi-khong-tranh-sung.html",
+    type: "cotrang",
+    desc: `Đêm tân hôn, vương gia bị biểu muội mời sang viện nhỏ. 
+
+Còn ta, sớm đã cởi bỏ áo cưới, ngủ ngon lành suốt cả đêm. 
+
+Dù sao chúng ta đều chẳng phải nữ chính, đã là nữ phụ thì hà cớ gì phải làm khó lẫn nhau.
+`
   },
 
 
