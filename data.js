@@ -19914,6 +19914,177 @@ Còn ta, sớm đã cởi bỏ áo cưới, ngủ ngon lành suốt cả đêm.
 
 Dù sao chúng ta đều chẳng phải nữ chính, đã là nữ phụ thì hà cớ gì phải làm khó lẫn nhau.
 `
+  },{
+    id: 968,
+    title: "Năm Tháng Bảo Vệ Anh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/304cdae93e0e25df222ec04a4ea01170.jpg",
+    link: "ngontinh/nam-thang-bao-ve-anh.html",
+    type: "ngontinh",
+    desc: `Chồng tôi say rượu, tủi thân kể lại chuyện ngày trước từng bị bắt nạt ở trường.
+
+Đột nhiên trọng sinh về thời cấp ba, tôi vội vã chuẩn bị hành trang đi bảo vệ đứa nhỏ nhà mình.
+
+Thế nhưng, đập vào mắt tôi lại là một thiếu niên ngông cuồng lạnh lùng với mái tóc đỏ rực, tai trái còn đeo hẳn ba chiếc khuyên.
+
+Tôi thật sự không biết phải nói gì.
+
+Mấy tên đàn em bên cạnh anh lại tỏ vẻ không hài lòng: "Con nhóc ranh! Nhìn cái gì mà nhìn! Lão đại nhà chúng tôi là đại ca trường Cấp hai số 11 đấy! Nhìn nữa là đập vỡ đầu cô bây giờ!"
+`
+  },{
+    id: 969,
+    title: "Vòng Tay Của Giáo Sư Alpha",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4979bb052a1a10ad77f89dd0bc9a9e57.jpg",
+    link: "dammy/vong-tay-cua-giao-su-alpha.html",
+    type: "dammy",
+    desc: `Tên trà xanh Omega giả làm Alpha để nhập học, miệng lúc nào cũng rêu rao Omega phải độc lập tự cường, nhưng sau lưng lại âm thầm hưởng trọn sự chăm sóc cưng chiều từ bạn trai tôi.
+
+Về sau, bạn trai tôi thậm chí bỏ mặc tôi đang trong kỳ mẫn cảm chỉ để chạy đi bảo vệ cậu ta.
+
+“Cậu đang trong kỳ mẫn cảm thì tùy tiện cắn ai chẳng được? Một Alpha mà làm quá lên làm gì? Người ta là Omega, cần được chăm sóc!”
+
+Nhưng hắn không hề hay biết, chính Omega đó đã lén tráo thuốc của tôi, khiến bệnh hen suyễn bùng phát ngay giữa kỳ mẫn cảm, khiến tôi suýt chút nữa bỏ mạng.
+
+Nửa năm sau gặp lại, hắn quỳ gối van xin tôi tha thứ.
+
+Vị giáo sư Alpha cao lớn ôm chặt lấy tôi vào lòng, chủ động hạ thấp cổ để tôi cắn đánh dấu, ánh mắt đong đầy vẻ chiều chuộng:
+
+“Người yêu tôi đang trong kỳ mẫn cảm, không rảnh để tâm tới cậu đâu. Tốt nhất đừng chọc vào em ấy, tối qua tôi lỡ làm em ấy khóc, đến giờ vẫn chưa dỗ xong đây.”
+`
+  },{
+    id: 970,
+    title: "Thay Duyên Đổi Phận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f5137fbd175a0a12242414ca551f9ba6.jpg",
+    link: "cotrang/thay-duyen-doi-phan.html",
+    type: "cotrang",
+    desc: `Ta là đại tiểu thư của phủ Lăng Dương Bá. Kiếp trước, đích mẫu vì thiên vị con gái ruột mà ép ta phải tráo đổi hôn sự với đích muội.
+
+Bà gả ta vào Từ gia một gia tộc đã sa sút, cốt để giữ trọn hôn ước; còn đích muội thì được bà dọn đường đưa thẳng vào cung.
+
+Thế nhưng bà đâu ngờ rằng, hoàng đế vốn không gần nữ sắc, hậu cung lại chẳng có hoàng hậu. Quý phi nắm trọn quyền hành, nên chẳng bao lâu sau khi nhập cung, đích muội đã đắc tội với Quý phi rồi bị cấm túc ba tháng.
+
+Chưa đầy ba tháng ấy, muội muội đã uất ức mà qua đời, hương tiêu ngọc vẫn.
+
+Trong khi đó, Từ lang liên tiếp đỗ đầu cả ba kỳ thi, được thánh thượng hết lời khen ngợi. Ngài còn tán dương phụ thân và ta là người cao thượng, giữ trọn lời hứa mà không màng giàu nghèo. Chỉ trong chớp mắt, ta trở thành tấm gương cho khắp quý nữ kinh thành, vinh hoa không xiết.
+
+Đích mẫu nhìn thấy cảnh này thì hối hận khôn gôi. Từ ngày đích muội mất, bà khóc thương thảm thiết, sức khỏe ngày một suy kiệt, rồi chưa đầy một năm sau cũng nhắm mắt đi theo con gái.
+
+Khi mở mắt ra lần nữa, ta đã trở lại đúng cái ngày phu nhân Từ gia là Ngô thị đến phủ thăm hỏi.
+
+Sau khi tiễn khách ra về bằng vẻ cung kính, đích mẫu liền kín đáo bàn bạc với phụ thân, muốn để đích muội đứng ra thực hiện hôn ước năm xưa.
+
+Ta thấy thật buồn cười. Kiếp trước, đích mẫu qua đời sớm nên chỉ kịp nhìn thấy vinh quang của Từ gia.
+
+Nhưng làm sao bà biết được, gả đích muội vào Từ gia thực chất lại là đẩy nàng vào hố sâu?
+`
+  },{
+    id: 971,
+    title: "Trúc Mã Là Đỉnh Lưu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9e2c16f1fff1d7d0e2704a03e8970d51.jpg",
+    link: "ngontinh/truc-ma-la-dinh-luu.html",
+    type: "ngontinh",
+    desc: `Trúc mã là đỉnh lưu nói ống nước nhà hắn bị vỡ nên chạy sang nhà tôi tắm nhờ.
+
+Ai ngờ tôi lại bấm nghe nhầm cuộc gọi video từ một tiểu hoa đang tham gia chương trình thực tế:
+
+"Anh đang làm gì vậy?"
+
+"Cậu ấy đang tắm, hay là lát nữa cô gọi lại nhé?"
+
+Đúng lúc này, Trầm Cận Bạch từ trong phòng tắm bỗng gọi lớn ra: "Lấy giúp tớ cái khăn tắm với."
+
+Chỉ một câu nói đó đã khiến toàn bộ cộng đồng mạng bùng nổ.
+
+Hình tượng cấm dục độc thân của nam thần đỉnh lưu hóa ra chỉ là vỏ bọc, việc anh giấu mỹ nhân trong nhà mới là sự thật.
+`
+  },{
+    id: 972,
+    title: "Chưa Tỉnh Mộng Đã Thành Tần Phu Nhân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ca7881d5667e96065c91912bb59bc3d6.jpg",
+    link: "dammy/chua-tinh-mong-da-thanh-tan-phu-nhan.html",
+    type: "dammy",
+    desc: `Tôi cực kỳ ghét cái kiêu “về hưu rồi mà vẫn bị réo tên quay lại làm việc”.
+
+Đã thế còn rơi vào cảnh bị ép buộc, khuyến mãi thêm một cái tội danh từ trên trời rơi xuống.
+
+Hệ thống đưa ra thông báo: Ở thế giới trước, tôi đóng vai tra nam quá tay, làm cho nam chính bị ép hắc hóa nghiêm trọng, chút nữa là kéo cả vị diện lao xuống vực thẫm sụp đổ.
+
+Cục Xuyên Viện lập tức phát tối hậu thư: Nếu tôi không chịu quay lại khắc phục chỉ số sụp đổ đó, phần đời còn lại tôi sẽ phải làm công không lương để đền bù thiệt hại.
+
+Đúng là đụng phải bọn tư bản bóc lột. Chuyện đó thì liên quan quái gì đến tôi chứ?
+
+Chưa kể, giờ mà quay lại, chắc chắn tôi sẽ bị nam chính chém ra thành trăm mảnh.
+
+Tôi thèm tiền thật, nhưng đâu có nghĩa là tôi không cần cái mạng nhỏ này!
+`
+  },{
+    id: 973,
+    title: "Nghịch Chuyển Trọng Sinh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f607ccd78e00ea599e21db443dedc1bf.jpg",
+    link: "cotrang/nghich-chuyen-trong-sinh.html",
+    type: "cotrang",
+    desc: `Sau khi trùng sinh, ta lại gặp Tống Thời Hành.
+
+Toàn thân hắn bê bết thương tích, gục ở cuối con hẻm nhỏ chật hẹp, hơi thở thoi thóp như sắp lìa đời.
+
+Ta biết rõ, chỉ ba năm sau, người đàn ông này sẽ trở thành bậc đế vương thống nhất thiên hạ.
+
+Còn ta, chính là Hoàng hậu của hắn.
+
+Quyền lực tối cao, phú quý vinh hoa khi ấy đều nằm gọn trong tay ta.
+
+Thế nhưng kiếp này, ta không muốn cứu hắn nữa.
+`
+  },{
+    id: 974,
+    title: "Giấu Nhẫn Cưới Lên Show Hẹn Hò",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a91183bffb9ce454f4fa784a612ff216.jpg",
+    link: "ngontinh/giau-nhan-cuoi-len-show-hen-ho.html",
+    type: "ngontinh",
+    desc: `Sau khi kết hôn bí mật với vị Ảnh đế thâm trầm bá đạo, tôi và anh lại tình cờ chạm mặt nhau ngay trên một show giải trí hẹn hò.
+
+Trong chương trình, anh đảm nhận vị trí giám khảo, còn tôi chỉ là một ngôi sao hết thời đang cố bám lấy một tiểu thịt tươi để hâm nóng tên tuổi.
+
+Đột nhiên, vị Ảnh đế cất lời: “Có người đeo nhẫn cưới tham gia show hẹn hò, không sợ bị cư dân mạng đào ra sao?”
+
+Tôi giật mình tưởng anh đang ám chỉ mình nên vội vã giấu tay ra sau lưng.
+
+Thế nhưng ngay khoảnh khắc tiếp theo, người đàn ông vốn nổi tiếng với hình tượng quý ông độc thân hoàng kim ấy lại chủ động đưa bàn tay mình ra trước ống kính.
+
+Chiếc nhẫn đôi trên ngón áp út của anh tỏa sáng lấp lánh, khiến toàn bộ khán giả sững sờ.
+`
+  },{
+    id: 975,
+    title: "Nam Chính Phản Diện Đều Muốn Cứu Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2cb06ba75c5c9386d026aa10d19264fb.jpg",
+    link: "dammy/nam-chinh-phan-dien-deu-muon-cuu-toi.html",
+    type: "dammy",
+    desc: `Tôi là một kẻ đi theo làm đuôi cho nam chính.
+
+Tên phản diện đích thân xuống bếp nấu nướng, vậy mà cậu ta vẫn lạnh lùng quay đi từ chối.
+
+Hắn nổi giận đùng đùng, nhét tợn đĩa thức ăn vào tay tôi rồi gằn giọng đe dọa: “Cậu ăn đi!”
+
+Nhìn khối đen thui lù lù trong lòng bàn tay, tôi hết sức chống đối: “Tôi không…”
+
+“Hửm? Không ăn sao?”`
+  },{
+    id: 976,
+    title: "Ngược Dòng Thời Gian Trả Mối Thù Xưa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/581544224d33cff54171a14207ad63fd.jpg",
+    link: "cotrang/nguoc-dong-thoi-gian-tra-moi-thu-xua.html",
+    type: "cotrang",
+    desc: `Việc đầu tiên Tạ Sở Tử làm sau khi ngồi vững trên ngai vàng hoàng đế chính là sai người gạt thuốc độc vào miệng ta, đồng thời tru di cửu tộc Ôn gia.
+
+Hắn ôm lấy ả nha hoàn của ta, giọng điệu ngập tràn ghen tức và độc ác:
+
+“Tất cả những thứ này vốn dĩ phải thuộc về Nguyệt Nguyệt.”
+
+Chút tàn niệm của ta vẫn chưa tan hết. Đến ngày thất đầu, vị Tam hoàng tử mà ta luôn né tránh không kịp lại toàn thân dính đầy máu tươi, xách theo thủ cấp của đôi cẩu nam nữ ấy đến trước linh cữu ta. Khóe mắt huynh ấy đọng lại vết lệ chưa khô.
+
+Nào ngờ khi mở mắt ra, ta đã quay trở lại đúng ngày Thái tử đến cầu hôn.
+
+Lần này, ta trực tiếp xoay người xin gả cho Tam hoàng tử.
+`
   },
 
 
