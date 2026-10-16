@@ -20085,6 +20085,207 @@ Nào ngờ khi mở mắt ra, ta đã quay trở lại đúng ngày Thái tử �
 
 Lần này, ta trực tiếp xoay người xin gả cho Tam hoàng tử.
 `
+  },{
+    id: 977,
+    title: "Bác Sĩ Thú Y Ở Thế Giới Thú Nhân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2badda7ae2e9bd9f47f7e7b10acaad14.jpg",
+    link: "ngontinh/bac-si-thu-y-o-the-gioi-thu-nhan.html",
+    type: "ngontinh",
+    desc: `Tôi là bác sĩ thú y xuyên vào truyện thú nhân.
+
+Mở mắt ra, tôi đã thấy ba thú nô. Một người đang bị tôi dùng chân trần giẫm lên ngực, hai tay bị trói chặt bằng cà vạt. Tôi hoảng đến mức buột tay ném văng con dao găm đang cầm.
+
+Trời ạ, phải biết rằng ba thú nô này sau này sẽ trở thành những nhân vật phản diện hô mưa gọi gió! Sau khi công thành danh toại, bọn họ sẽ quay lại tra tấn nguyên chủ đến chết.
+
+Lúc này, mấy thú nhân ấy khó nhọc mở to mắt, trừng nhìn tôi với vẻ căm ghét tột cùng rồi bảo tôi cút đi. Nhưng sau này, chính bọn họ lại tự nguyện đeo vòng cổ, thần phục quỳ nửa gối trước giường tôi.
+
+“Thê chủ, đêm nay có thể ở lại không?”
+`
+  },{
+    id: 978,
+    title: "Anh Chẳng Thể Đi Cùng Em Đến Hết Đời",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/10ced3f9aef3cf7934cb675cd31454ee.jpg",
+    link: "dammy/anh-chang-the-di-cung-em-den-het-doi.html",
+    type: "dammy",
+    desc: `Ba năm trước, tôi từng bao nuôi một người vừa câm vừa điếc.
+
+Thính lực của cậu ấy rất kém. Những lúc tôi bảo dừng lại, cậu ấy nghe không hiểu; khi tôi gằn giọng “tới đây thôi”, cậu ấy chỉ biết lắc đầu, gương mặt dù không chút biểu cảm nhưng nước mắt lại rơi lã chã. Bất đắc dĩ, tôi đành giữ cậu ấy bên mình một thời gian, rồi sau đó nhẫn tâm đá cậu ấy đi.
+
+Lần gặp lại này là khi tôi đưa Thường Tiểu Niên đến bệnh viện nhi.
+
+Trong phòng khám, có người lên tiếng trêu chọc:
+
+“Bác sĩ Lý, người quen à?”
+
+Lý Đường Ẩn nhàn nhạt liếc nhìn tôi một cái:
+
+“Ngủ rồi.”
+
+Tôi sững sờ ngẩng đầu, vừa vặn đối diện với đôi mắt quen thuộc năm nào.
+`
+  },{
+    id: 979,
+    title: "Cố Nhân Như Giày Chật",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ee6ec9689d7f77cab973b5d4f5b2a622.jpg",
+    link: "cotrang/co-nhan-nhu-giay-chat.html",
+    type: "cotrang",
+    desc: `Tin tức Bạch Nguyệt Quang của Bùi Hoài hòa ly vừa truyền tới kinh thành, ta đã biết ngày ta và hắn đường ai nấy đi cũng chẳng còn xa nữa.
+
+Sau hơn một tháng chiến tranh lạnh, hắn mua điểm tâm cho nàng ta, tiện tay nhét vào lòng ta một hộp bánh vân phiến rồi buông một câu lạnh nhạt:
+"Chẳng phải chưa từng quên nàng sao, còn làm bộ làm tịch làm gì."
+
+Ta không tranh cãi, chỉ mỉm cười lặng lẽ nhận lấy.
+
+Hắn dường như hơi kinh ngạc, vô thức đưa tay sờ vào hộp bánh cua vàng giấu trước ngực.
+
+Đó là món bánh mà người trong lòng hắn thích nhất.
+
+Hôm nay là sinh thần của nàng ta, Bùi Hoài đã bôn ba khắp kinh thành chỉ để mua quà lấy lòng người đẹp.
+
+Còn hộp bánh vân phiến trong tay ta, chẳng qua chỉ là chút đồ thừa mua kèm cho tiện tay.
+
+Nếu là trước đây, ta nhất định sẽ làm ầm ĩ một trận cho ra lẽ.
+
+Nhưng lần này, ta thực sự đã quá mệt mỏi rồi.
+`
+  },{
+    id: 980,
+    title: "Trọng Sinh Làm Nô Tì Cho Đại Tiểu Thư",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6e290ebde5b95d14a02b4ba314927a9e.jpg",
+    link: "ngontinh/trong-sinh-lam-no-ti-cho-dai-tieu-thu.html",
+    type: "ngontinh",
+    desc: `Ký túc xá tôi có một đại tiểu thư chính hiệu.
+
+Nhờ tôi xách cơm một lần, cô ấy trả hẳn năm trăm tệ. Nhờ điểm danh giúp một buổi, cô ấy chuyển liền một ngàn tệ. Còn nếu dọn dẹp vệ sinh phòng một bận, tiền công lên tới hai ngàn tệ.
+
+Chị gái tôi tự cho mình thanh cao, không chỉ khinh khỉnh coi thường mà còn lôi kéo, cấm đoán tôi không được giúp đỡ cô ấy:
+
+"Em gái, nhà mình tuy nghèo nhưng phải có cốt khí, quyết không thể chiều cái bệnh công chúa của cô ta."
+
+Thế nhưng sau này, chính chị ấy lại cặp kè với một gã đại gia hơn mình tới tám tuổi, rồi quay sang cười nhạo tôi là kẻ chẳng hiểu gì về tình yêu.
+
+Còn tôi, vì không lo nổi mười ba vạn tiền phẫu thuật, đã trút hơi thở cuối cùng trong căn nhà trọ lạnh lẽo đúng đêm giao thừa.
+
+Mở mắt ra lần nữa, tôi thấy mình đã trở lại năm nhất đại học, đúng vào ngày đầu tiên khai giảng.
+
+Đại tiểu thư gửi một tin nhắn vào nhóm chung:
+
+[Ngày mai ai giúp tôi chuyển hành lý, tôi trả năm ngàn tệ tiền công vất varl.]
+
+Giữa không gian im lặng của nhóm, ngón tay tôi nhanh chóng gõ phím:
+
+[Sấm chớp đùng đùng, nô tì xin phép xuất hiện!]
+`
+  },{
+    id: 981,
+    title: "Nguyện Làm Mây Trắng Ôm Trăng Lạnh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/28f54185c17079a694e16b84a5737220.jpg",
+    link: "dammy/nguyen-lam-may-trang-om-trang-lanh.html",
+    type: "dammy",
+    desc: `Cả đời này, ta luôn coi Sư tôn là tín ngưỡng duy nhất để hướng về. Vì Người, ta chẳng quản ngại bưng trà rót nước, hạ mình hầu hạ cẩn thận, dẫu có phải nhận lại những lời lẽ lạnh nhung cay đắng cũng chưa từng oán than.
+
+Tất cả chỉ bởi vì trái tim ta đã sớm trao trọn cho Người.
+
+Thế nhưng, sự xuất hiện của vị Tiểu sư đệ ấy đã dập tắt hoàn toàn chút hi vọng cuối cùng trong ta. Hóa ra từ đầu đến cuối đều do ta đơn phương tình nguyện, vậy thì từ đây xin thu lại tình ý, chính thức từ biệt.
+
+Đêm hôm đó, ta lặng lẽ thu dọn vài món hành trang đơn sơ rồi trốn xuống núi. Ta tìm đến một trấn nhỏ thanh bình ở vùng sông nước Giang Nam, nơi cách xa núi Bất Hàn nhất để bắt đầu cuộc sống mới.
+
+Vào đúng đêm tân hôn theo giao ước cùng một thiếu nữ Giang Nam, vị Tiên tôn cao cao tại thượng vốn luôn khoác trên mình bộ bạch bào tinh khôi ấy lại đạp lên máu tươi mà đột ngột xuất hiện.
+
+Người tuốt thanh kiếm Tố Sương lạnh lẽo ép ta ngã gục xuống giường, xé rách bộ hỷ phục rực rỡ trên người ta thành từng mảnh vụn.
+
+Trong gian phòng ngập tràn ánh nến đỏ lay động, dưới thứ ánh sáng mờ ảo ấy, Người ghé sát ngậm lấy vành tai ta. Hơi thở nóng hổi phả thẳng vào cổ, những ngón tay chai sần mơn trớn nhịp nhàng nơi hầu lưỡi ta, giọng nói trầm thấp cất lên: "Bách Lý Tranh Ương, thiên hạ rộng lớn là thế, ngươi tính chạy đi đâu?"
+`
+  },{
+    id: 982,
+    title: "",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dbecc7adbae1311db2e02e107a921bd0.jpg",
+    link: "cotrang/tieng-long-cua-duong-mau.html",
+    type: "cotrang",
+    desc: `Phụ thân mang về một người dưỡng mẫu. Bà ấy đối xử với ta vô cùng chu đáo, còn khẳng định sẽ xem ta như con gái ruột thịt mà yêu thương.
+
+Nào ngờ, ta lại nghe được tiếng lòng thầm kín của bà ấy:
+
+[Hệ thống, đây hẳn là đứa con nuôi mà ta phải chinh phục đúng không? Chỉ cần lấy lòng được nó, hai cha con nhà này rồi sẽ phải quay lại cầu xin ta thôi!]
+
+Đêm hôm đó, ta nằm mộng thấy chuyện của kiếp trước.
+
+Trong giấc mơ, dưỡng mẫu bế ta vào nội thành. Ngay trước mặt Hoàng đế cùng tiểu công chúa, bà nâng ta lên cao, còn không ngần ngại tỏ ra thân mật với phụ thân ta.
+
+Tiểu công chúa ghen tức đến đỏ mắt, lập tức quỳ xuống ôm lấy chân dưỡng mẫu, cất tiếng gọi mẫu phi. Nàng khóc lóc nhận sai, chỉ mong được mẫu phi ôm vào lòng một lần.
+
+Đến cả Hoàng đế cũng rưng rưng hàng lệ, hạ mình van xin dưỡng mẫu tha thứ.
+
+Thấy vậy, dưỡng mẫu liền thẳng tay vứt bỏ ta, hân hoan chuẩn bị hồi cung. Mặc cho ta khóc lóc van nài bà đừng đi, bà chỉ nở nụ cười lạnh lẽo:
+
+"Ngươi chẳng qua cũng chỉ là một thứ công cụ để ta trả đũa gã tàn nhẫn và đứa con ngỗ ngược kia mà thôi! Ngươi tưởng ta thật lòng muốn làm mẫu thân của ngươi sao? Mau cút đi!"
+
+Sau khi trở lại hoàng cung, bà ấy được sắc phong làm Hoàng hậu. Cùng ngày hôm đó, phụ thân ta vì sự ghen tuông của Hoàng đế mà bị dìm chết dưới nước.
+
+Còn ta, kẻ từng "tranh giật" mẫu thân với tiểu công chúa, đã bị xe ngựa nghiền đứt cả tay chân.
+
+Tiểu công chúa chỉ tay vào mặt ta, nũng nịu hỏi: "Mẫu hậu, người thương nó hay thương con hơn?"
+
+Dưỡng mẫu cưng chiều dỗ dành: "Con mới là hòn ngọc quý do ta sinh ra, còn đứa nhỏ đó chỉ là chút rác rưởi ta tiện tay nhặt ngoài đường mà thôi."
+
+Ta giật mình tỉnh giấc khỏi cơn mộng mị. Trước mắt ta lúc này là người dưỡng mẫu trong bộ dạng nghèo túng, đang đưa sang một miếng bánh ngọt để dỗ dành.
+
+Và ta lại nghe thấy giọng nói trong lòng bà ấy:
+
+[Đây là món bánh ngọt ta cố tình mang từ trong cung ra. Chỉ cần đứa con hoang này ăn vào, chắc chắn nó sẽ nhận ta làm mẫu thân!]
+`
+  },{
+    id: 983,
+    title: "Liên Minh Của Những Kẻ Ác",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/25ee17200ddef5abe6055665a49d8b5c.jpg",
+    link: "ngontinh/lien-minh-cua-nhung-ke-ac.html",
+    type: "ngontinh",
+    desc: `Hàng xóm ngày nào cũng phát điên, đã thế còn chửi rủa tôi trong nhóm chat chung cư.
+
+Quay đi, tôi liền đem nhà cho thuê:
+
+Người vừa ra tù giảm giá 500, ai có tiền sử bệnh tâm thần giảm 600, còn bà lão thích cãi nhau giảm 700.
+
+Rất nhanh sau đó, một anh lớn xăm trổ, một em nhỏ u ám cùng một bà lão siêu hung dữ đã tụ họp về căn hộ của tôi.
+
+Lần này, đến lượt hàng xóm phải quỳ xuống cầu xin tôi.
+`
+  },{
+    id: 984,
+    title: "Thiếu Gia Mặt Lạnh Chỉ Biết Làm Nũng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5c65ce376172d87bb1029a9bf7b556e0.jpg",
+    link: "dammy/thieu-gia-mat-lanh-chi-biet-lam-nung.html",
+    type: "dammy",
+    desc: `Dì nhỏ gả vào hào môn, tiện thể mang cả tôi theo.
+
+Nhà họ Tô có một cậu thiếu gia nhỏ, tính tình kiêu ngạo lại xấu xa, coi tôi như người giúp việc sai khiến. Tôi lại coi cậu ấy như thiếu gia mà nuông chiều.
+
+Sau này, nghe tôi gọi "thiếu gia" phát phiền, Tô Mộ Thâm liền hung hăng chặn miệng tôi lại.
+
+"Không được gọi thế! Gọi là chồng."
+
+Rồi sau nữa, cậu ấy đè tôi xuống, bá đạo lại ngang ngược. Thấp giọng khàn khàn: "Bảo bối ngoan, em nóng quá…"
+`
+  },{
+    id: 985,
+    title: "Ngai Vàng Của Tiện Dân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/532a07d9a819ff5912aaab3567469b34.jpg",
+    link: "cotrang/ngai-vang-cua-tien-dan.html",
+    type: "cotrang",
+    desc: `Ta là một thiếu nữ xuất thân từ khu ổ chuột, nhưng lại sở hữu khuôn mặt giống hệt Công chúa đương triều.
+
+Một ngày trước đại hôn, Công chúa bỏ trốn.
+
+Thái tử không biết nghe tin từ đâu, tìm đến tận cửa nhà ta.
+
+Hắn cao ngạo, chẳng cho ta cơ hội từ chối:
+
+"Ta muốn ngươi giả làm Công chúa, thay muội ấy hoàn thành hôn lễ, cho đến khi tìm được người trở về."
+
+Ta quỳ rạp xuống đất, ngoan ngoãn đáp vâng.
+
+Hắn đâu hay biết rằng, ngay trong căn phòng phía sau lưng ta, chỉ cách vài bước chân, đang giam giữ vị muội muội "bỏ trốn" của hắn.
+`
   },
 
 
