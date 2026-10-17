@@ -20361,7 +20361,7 @@ Ta im lặng hồi lâu, sau đó bất ngờ tung một cước, đá thẳng h
   },{
     id: 989,
     title: "Đại Tiểu Thư Vạn Người Mê",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e75a59479686e4472294ba8c1b0234ad.jpg.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e75a59479686e4472294ba8c1b0234ad.jpg",
     link: "ngontinh/dai-tieu-thu-van-nguoi-me.html",
     type: "ngontinh",
     desc: `Tôi vốn là nữ phụ phản diện chuyên trị các dòng tiểu thuyết ngôn tình sủng ngọt.
