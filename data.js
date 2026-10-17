@@ -20358,6 +20358,115 @@ Ta im lặng hồi lâu, sau đó bất ngờ tung một cước, đá thẳng h
 
 “Ngươi mới bình đẳng với chó ấy! Hai người các ngươi cứ một đời một kiếp, làm một đôi chó đi!”
 `
+  },{
+    id: 989,
+    title: "Đại Tiểu Thư Vạn Người Mê",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e75a59479686e4472294ba8c1b0234ad.jpg.jpg",
+    link: "ngontinh/dai-tieu-thu-van-nguoi-me.html",
+    type: "ngontinh",
+    desc: `Tôi vốn là nữ phụ phản diện chuyên trị các dòng tiểu thuyết ngôn tình sủng ngọt.
+
+Ngay thời điểm kết nối với hệ thống bình luận, dàn fan mama của tôi đang khẩu chiến nảy lửa với người hâm mộ của nữ chính.
+
+[Chẳng phải nữ phụ vừa giáng một tát làm mặt nam chính đỏ bừng lên rồi sao?]
+[Anh ta còn đang sướng điên lên được ấy chứ.]
+[Nữ chính nhìn nữ phụ bằng ánh mắt mếu máo như sắp khóc đến nơi rồi kìa.]
+[Cô ấy chỉ muốn liếm tay nữ phụ thôi đấy.]
+[Nữ phụ x anh trai nuôi, CP phát cơm chó loạn luân giả thế này mà mấy người cũng ship được hả?]
+[Thôi đừng cãi nhau nữa! Cả bốn người họ sống vui vẻ hạnh phúc bên nhau mới là điều quan trọng nhất!]
+
+Ấy thế mà không hiểu sao về sau, ánh mắt tất cả bọn họ nhìn tôi đều trở nên kỳ quặc và biến chất...
+
+Hừm, bị kẹp ở giữa thế này thật sự phiền phức chết đi được.
+`
+  },{
+    id: 990,
+    title: "Thuốc Lá Và Hoa Hồng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/04064a1aef2708f74ca81c992205f7b5.jpg",
+    link: "dammy/thuoc-la-va-hoa-hong.html",
+    type: "dammy",
+    desc: `Tôi là một Omega bị xếp nhầm vào phòng ký túc xá toàn Alpha.
+
+Ngủ dậy sau một đêm, cổ tôi xuất hiện vết cắn.
+
+Không những thế, trên người tôi… lại vương vãi tận ba mùi pheromone hoàn toàn khác biệt.
+
+Chết tiệt thật.
+
+Rốt cuộc là kẻ nào đã đánh dấu tôi?!
+`
+  },{
+    id: 991,
+    title: "Công Chúa Cường Đoạt Trói Mỹ Nam Về Phủ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3edc231fe94732e3d081ce9826656a80.jpg",
+    link: "cotrang/cong-chua-cuong-doat-troi-my-nam-ve-phu.html",
+    type: "cotrang",
+    desc: `Ta đã nịnh bợ Thôi Yển suốt ba tháng liền, nhưng hắn vẫn nhất quyết không chịu khuất phục.
+
+Thế là ta đành phải dùng đến hạ sách cuối cùng: cưỡng đoạt!
+
+Thế nhưng ta nào đâu hay biết, vào cái ngày bị ta trói chặt mang về phủ, trái tim hắn lại đập liên hồi vì sướng rên.
+`
+  },{
+    id: 992,
+    title: "Cái Giá Của Sự Nuông Chiều",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4e22621403688498c5d1a67bd2ca83ac.jpg",
+    link: "ngontinh/cai-gia-cua-su-nuong-chieu.html",
+    type: "ngontinh",
+    desc: `Cháu trai tôi sinh ra đã mang tính khí hung hãn, tàn nhẫn, nhưng cả nhà tôi lại chẳng ai chịu nhìn nhận sự thật ấy.
+
+Nó đòi đi ăn lẩu, thế là cả gia đình lập tức chiều theo.
+
+Đến quán, nó cố tình quậy phá, gây sự với bàn bên cạnh. Tôi vội vàng đứng lên thay nó xin lỗi, nhưng mẹ lại thẳng tay tát vào mặt tôi rồi bênh vực cháu trai hết lời.
+
+Không ngờ, người ngồi ở bàn bên lại là kẻ sát nhân ma ranh. Hắn tức giận bưng nguyên nồi lẩu đang sôi sùng sục hắt thẳng vào người cháu tôi.
+
+Trong lúc hoảng loạn, anh trai dứt khoát kéo tôi ra chắn phía trước. Nước lẩu nóng giãy dội lên người khiến tôi đau đớn lăn lộn trên sàn. Còn chưa kịp gượng dậy, tôi đã bị chém chết trong cảnh hỗn loạn.
+
+Khi mở mắt ra một lần nữa, tôi thấy cháu trai lại đang khiêu khích bàn bên cạnh.
+
+Tôi lập tức bật dậy, tìm đại một cớ rồi nhanh chân bỏ chạy.
+
+Chẳng bao lâu sau, mẹ gọi điện đến khóc lóc thảm thiết, nói rằng cháu trai đã bị người ta ấn đầu vào nồi lẩu.
+`
+  },{
+    id: 993,
+    title: "Cướp Lấy Bạch Nguyệt Quang Của Tình Địch",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47aa170769f0e49b260856ab5e18a2db.jpg",
+    link: "dammy/cuop-lay-bach-nguyet-quang-cua-tinh-dich.html",
+    type: "dammy",
+    desc: `Bạch nguyệt quang trở về nước, tôi kẻ mang danh thế thân liền đứng trước nguy cơ thất nghiệp. Thế là tôi mò tới tận nơi đập phá để thị uy:
+
+“Bảo bối, em đến đón anh về nhà này~”
+
+Sắc mặt Tô Du lập tức sa sầm:
+
+“Đây không phải nơi cậu nên đến.”
+
+Đám bạn của anh ta liền nhao nhao hùa theo:
+
+“Chim hoàng yến nhà cậu chẳng nghe lời chút nào, dám tới tận đây khiêu khích ngay trước mặt chính chủ cơ đấy.”
+
+Giữa một trận cười nhạo rộ lên, người được coi là bạch nguyệt quang vốn ngồi sâu bên trong bất ngờ đứng dậy. Anh bước nhanh tới kéo tôi vào lòng, cái miệng xinh đẹp thốt ra toàn lời cay độc:
+
+“Nhận vơ cái gì mà nhận.”
+
+“Bảo bối của em ấy đang ở đây này, cậu ừ hữ cái gì mà ừ?”
+`
+  },{
+    id: 994,
+    title: "Đoạt Lương Duyên",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f43e440a0882a46e853604c0cc610a26.jpg",
+    link: "cotrang/doat-luong-duyen.html",
+    type: "cotrang",
+    desc: `Khoác lên mình phượng quan hà bội, ta mang danh nghĩa của đích tỷ để gả cho thanh mai trúc mã của nàng trưởng tử phủ Thừa tướng, Bùi Thanh Viễn.
+
+Ta những tưởng khi sự việc bại lộ, bản thân sẽ bị đuổi ra khỏi phủ. Nhưng ngạc nhiên thay, cả Thừa tướng phủ lại yên ắng đến lạ kỳ, dường như chẳng có chuyện gì xảy ra.
+
+Đến khi ta vừa định mở miệng giải thích, hắn đã mỉm cười ngăn lại:
+
+"Phu nhân, đã uống rượu giao bôi rồi thì không thể hối hận được nữa đâu."
+`
   },
 
 

@@ -1055,24 +1055,55 @@
        MARKER
     ========================================================= */
 
-    let markerSeconds =
-        parseFloat(
-            audioCard.getAttribute(
-                "data-marker"
-            )
-        );
+    function parseMarkerTime(value) {
 
-
-    if (
-        !Number.isFinite(
-            markerSeconds
-        )
-    ) {
-
-        markerSeconds =
-            0;
-
+    if (value === null || value === undefined) {
+        return 0;
     }
+
+    value = String(value).trim();
+
+    if (value === "") {
+        return 0;
+    }
+
+    /* Dạng 12:57 hoặc 1:12:57 */
+    if (value.indexOf(":") !== -1) {
+
+        const parts = value.split(":").map(Number);
+
+        if (
+            parts.length > 3 ||
+            parts.some(function (n) {
+                return !Number.isFinite(n) || n < 0;
+            })
+        ) {
+            return 0;
+        }
+
+        let seconds = 0;
+
+        parts.forEach(function (n) {
+            seconds = seconds * 60 + n;
+        });
+
+        return seconds;
+    }
+
+    /* Dạng số giây như 777 (truyện cũ) */
+    const num = parseFloat(value);
+
+    return Number.isFinite(num) ? num : 0;
+
+}
+
+
+let markerSeconds =
+    parseMarkerTime(
+        audioCard.getAttribute(
+            "data-marker"
+        )
+    );
 
 
     const markerLabel =
