@@ -1785,10 +1785,67 @@ function initAudio() {
 }
 
 /* =========================================================
+   TỰ ĐỘNG TẠO ĐIỂM ĐÁNH DẤU FACEBOOK
+
+   - Truyện cũ: đã có <div id="facebook-point"></div> → giữ nguyên
+   - Truyện mới: không có thẻ div → tự tìm dòng ***** đầu tiên
+     trong #story và gắn id="facebook-point" vào đó
+========================================================= */
+
+function initFacebookPoint() {
+
+    /* Truyện cũ đã tự đặt thẻ div → không làm gì */
+    if (document.getElementById("facebook-point")) {
+        return;
+    }
+
+    const story = document.getElementById("story");
+
+    if (!story) {
+        return;
+    }
+
+    const walker = document.createTreeWalker(story, NodeFilter.SHOW_TEXT);
+
+    let node;
+
+    while ((node = walker.nextNode())) {
+
+        const match = /\*{3,}/.exec(node.nodeValue);
+
+        if (!match) {
+            continue;
+        }
+
+        /* Tách riêng đoạn ***** ra thành 1 text node */
+        const markerNode = node.splitText(match.index);
+
+        markerNode.splitText(match[0].length);
+
+        /* Bọc đoạn ***** bằng span có id facebook-point */
+        const span = document.createElement("span");
+
+        span.id = "facebook-point";
+
+        markerNode.parentNode.insertBefore(span, markerNode);
+        span.appendChild(markerNode);
+
+        /* Nếu người dùng vào thẳng link có #facebook-point thì cuộn tới luôn */
+        if (window.location.hash === "#facebook-point") {
+            span.scrollIntoView();
+        }
+
+        return;
+    }
+}
+
+/* =========================================================
    KHỞI TẠO
 ========================================================= */
 
 function initReader() {
+
+    initFacebookPoint();
 
     resetDailyDataIfNeeded();
 

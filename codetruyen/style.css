@@ -143,6 +143,34 @@ body {
 }
 
 /* ==================================================
+   ĐIỂM ĐÁNH DẤU FACEBOOK (truyện mới)
+
+   Truyện mới: JS tự bọc dòng ***** thành <span id="facebook-point">.
+   scroll-margin-top = chiều cao menu + số dòng truyện muốn
+   hiện phía trên dòng *****.
+
+   Mỗi dòng truyện cao 1.9em (điện thoại: 1.8em).
+   Đang để hiện 2 dòng phía trên:
+     - Máy tính : 75px + 3.8em  (2 x 1.9em)
+     - Điện thoại: 90px + 3.6em (2 x 1.8em)
+
+   Muốn hiện nhiều dòng hơn → tăng số em
+   (3 dòng = 5.7em / 5.4em, 4 dòng = 7.6em / 7.2em).
+
+   Truyện cũ dùng <div id="facebook-point"> không bị ảnh hưởng.
+================================================== */
+
+span#facebook-point {
+  scroll-margin-top: calc(75px + 3.8em);
+}
+
+@media (max-width: 600px) {
+  span#facebook-point {
+    scroll-margin-top: calc(90px + 3.6em);
+  }
+}
+
+/* ==================================================
    AUDIO CARD
 ================================================== */
 

@@ -20286,6 +20286,78 @@ Ta quỳ rạp xuống đất, ngoan ngoãn đáp vâng.
 
 Hắn đâu hay biết rằng, ngay trong căn phòng phía sau lưng ta, chỉ cách vài bước chân, đang giam giữ vị muội muội "bỏ trốn" của hắn.
 `
+  },{
+    id: 986,
+    title: "Mười Năm Vướng Bận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b62df0f90964505afb3857d4d68e72f5.jpg",
+    link: "ngontinh/muoi-nam-vuong-ban.html",
+    type: "ngontinh",
+    desc: `Mười năm ở bên Lương Tự Bạch, anh vẫn chưa chơi đủ.
+
+Mỗi lần tôi đề cập đến chuyện kết hôn, anh chỉ cười rồi né tránh. Thế nhưng, hết lần này đến lần khác, anh lại bắt tôi phải dành cho anh những lời ngọt ngào sâu đậm.
+
+Năm hai mươi bảy tuổi, tôi đem tất cả vốn liếng của cuộc đời ra để đánh cược, chủ động cầu hôn anh. Đáp lại sự đường đột ấy chỉ là những tiếng cười nhạo từ đám bạn bè của anh, họ bảo tôi mơ mộng hão huyền.
+
+Lương Tự Bạch cũng bật cười, thản nhiên hỏi lại: “Anh nhớ hôm nay đâu phải ngày Cá tháng Tư?”
+
+Cho đến năm ba mươi tuổi, tôi chính thức công khai thừa nhận tin đồn hẹn hò với vị Ảnh đế nổi tiếng.
+
+“Nếu không có gì bất ngờ, chúng tôi sẽ kết hôn.”
+
+Thông tin tràn ngập khắp các mặt báo. Đám bạn bè đua nhau chúc mừng Lương Tự Bạch vì cuối cùng cũng thoát khỏi biển khổ.
+
+Anh im lặng không nói một lời, chỉ bất ngờ đập vỡ chiếc bàn gỗ trước mặt.
+`
+  },{
+    id: 987,
+    title: "Vợ Mới Cưới Của Tôi Là Alpha",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ebea72fab731160a74265f73c3906181.jpg",
+    link: "dammy/vo-moi-cuoi-cua-toi-la-alpha.html",
+    type: "dammy",
+    desc: `Bảy năm ròng rã đóng giả Alpha, tôi lại bất ngờ kết hôn liên hôn với Văn Khâm Thời, một Omega cấp bạch nguyệt quang mà vô số thế gia ở kinh thành khao khát có được.
+
+Lo sợ người vợ Omega mới cưới phát hiện điểm bất thường trên cơ thể mình, ngay từ đầu tôi đã vội vàng chìa bản thỏa thuận tiền hôn nhân ra trước mặt cậu ấy, áy náy mở lời:
+
+“Thật xin lỗi em, tôi đã có người trong lòng mất rồi. Tôi muốn giữ sự trong sạch này cho người ấy.”
+
+Cậu ấy ngẩn ra trong giây thoáng, sau đó liền dịu giọng đáp lời:
+
+“Vâng, em hiểu rồi.”
+
+Cho đến một ngày nọ.
+
+Kỳ phát tình bất ngờ ập đến làm toàn thân tôi tràn ngập mùi hương pheromone của Omega.
+
+Bị người vợ thân yêu bắt quả tang tại trận, cậu ấy liền thu lại nụ cười, gương mặt không chút cảm xúc vươn tay bóp chặt lấy sau gáy tôi:
+
+“Chồng à… người trong lòng của anh muốn chen chân làm kẻ thứ ba sao?”
+
+Tôi còn chưa kịp mở miệng giải thích.
+
+Thì đã ngửi thấy trên người người “vợ” dịu dàng của mình tỏa ra luồng pheromone Alpha tràn đầy tính áp đảo và công kích.
+
+Tôi ngẩn ngơ: “?”
+
+Khoan đã nào…
+
+Này bro, cậu cũng giả O đấy à???
+`
+  },{
+    id: 988,
+    title: "Công Chúa Nắm Cầm Quyền",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/99f84aded72fd842a95f6b0ff7d74a6f.jpg",
+    link: "cotrang/cong-chua-nam-cam-quyen.html",
+    type: "cotrang",
+    desc: `Phò mã dẫn về một cô nương. Ta còn chưa kịp đợi nàng ta hành lễ, nàng ta đã lớn tiếng hô hào: “Người người sinh ra đều bình đẳng.”
+
+Ta ngỏ ý để nàng ta làm thiếp, nàng ta lập tức níu lấy phò mã, một mực đòi hỏi: “Một đời một kiếp, một đôi người.”
+
+Phò mã chẳng những không trách nàng ta mà còn quay sang bảo ta nhường nhịn.
+
+Ta im lặng hồi lâu, sau đó bất ngờ tung một cước, đá thẳng hắn xuống con mương nước hôi thối.
+
+“Ngươi mới bình đẳng với chó ấy! Hai người các ngươi cứ một đời một kiếp, làm một đôi chó đi!”
+`
   },
 
 
