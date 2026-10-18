@@ -20467,6 +20467,175 @@ Ta những tưởng khi sự việc bại lộ, bản thân sẽ bị đuổi ra
 
 "Phu nhân, đã uống rượu giao bôi rồi thì không thể hối hận được nữa đâu."
 `
+  },{
+    id: 995,
+    title: "Thiên Kim Thanh Cao Bị Cả Nhà Nghe Lén Tiếng Lòng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fc4cc55c18785fa1f600506f8d0208d6.jpg",
+    link: "ngontinh/thien-kim-thanh-cao-bi-ca-nha-nghe-len-tieng-long.html",
+    type: "ngontinh",
+    desc: `Tôi mở mắt ra, phát hiện mình đã xuyên thành một thiên kim giả tính cách thanh cao. Nữ chính đã gán cho tôi hệ thống đọc tâm.
+
+Nữ chính tranh giành chiếc váy với tôi.
+
+Mắt tôi đờ đẫn nhìn chiếc váy: “Thèm ăn cam quá... Mà thôi, phải giữ vẻ thanh cao, tí nữa trốn trong chăn lén ăn vậy.”
+
+Nữ chính đứng bên cạnh: “?”
+
+Sau đó có kẻ nhảy ra bất bình thay cho nữ chính, trỏ mặt mắng tôi.
+
+Tôi liếc nhìn chiếc ghế xếp bên cạnh hắn: “Chiếc ghế này trông êm ái ghê. Muốn xin link mua quá nhưng phải giữ thể diện, lát nữa lén chụp hình rồi lên mạng tìm sau.”
+
+Người ra mặt giúp cô ta: “?”
+
+Về sau, khi có người lại công kích tôi là kẻ giả tạo thích làm màu, nữ chính bất lực lắc đầu: “... Không phải đâu, cô ấy không quan tâm thật đấy.”
+`
+  },{
+    id: 996,
+    title: "Kế Hoạch Cửa Đổ Bác Sĩ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8dc6a96a92195f521f56bf01c6249d42.jpg",
+    link: "dammy/ke-hoach-cua-do-bac-si.html",
+    type: "dammy",
+    desc: `Nhị thiếu gia nhà họ Trình nổi tiếng là kẻ phong lưu thành tính, lúc nào xung quanh cũng ngập tràn ong bướm.
+
+Vậy mà gia đình lại bắt một Beta như tôi đi xem mắt với hắn.
+
+Mẹ tôi than thở: “Mẹ hắn đã nhờ vả đến thế, mẹ cũng thật sự khó từ chối. Con cứ đi cho phải phép là được.”
+
+Dù cảm thấy rất phiền phức, nhưng vì phép lịch sự tối thiểu, tôi vẫn đến điểm hẹn.
+
+Vừa bước vào quán, tôi đã vô tình nghe thấy Trình Quật đang nói chuyện điện thoại.
+
+“Chẳng qua là đi đối phó với mẹ tao thôi. Tao đâu có điên mà đi cưới một Beta. Dù cho cậu ta có đẹp như tiên giáng trần thì tao cũng chẳng thèm.”
+
+“Rượu cứ để đó chờ tao đến rồi hẵng mở. Đợi cái cậu Beta đó đến, tao sẽ bảo không hợp rồi bảo cậu ta cút đi cho xong.”
+
+Tôi thong thả bước lại gần, ngón tay gõ nhẹ lên mặt bàn.
+
+“Tôi cũng thấy chúng ta không hợp lắm, bữa này chắc khỏi cần ăn nữa nhỉ?”
+
+Trình Quật trừng mắt nhìn tôi, ngẩn người ra một lúc lâu. Mãi đến khi tôi hơi nhíu mày, hắn mới như bừng tỉnh khỏi cơn mê.
+
+Lỗ tai hắn đỏ rực lên, nói năng bắt đầu ấp úng.
+
+“Vậy… vậy cậu thích ăn ngọt hay ăn cay? Hay là tôi gọi hết cả cái menu ở đây cho cậu thử nhé, được không?”
+`
+  },{
+    id: 997,
+    title: "Tâm Cơ Của Chén Trà Xanh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6a3f79779b8882b956ae24c9c03c90af.jpg",
+    link: "cotrang/tam-co-cua-chen-tra-xanh.html",
+    type: "cotrang",
+    desc: `Ta vốn là kẻ giỏi đóng kịch, bề ngoài luôn giữ vẻ thuần khiết, ngoan ngoãn như một tiểu mỹ nhân không chút hại ai.
+
+Năm xảy ra nạn đói, ta tình cờ gặp được Tướng quân. Ánh mắt dịu dàng cùng cử chỉ ấm áp của ngài khiến ta chú ý. Ngài cứu ta, đưa ta về phủ, lại còn hứa sẽ nhận ta làm nghĩa muội.
+
+Thú thực, ngay từ đầu ta đã nhắm đến vị trí chính thất phu nhân, muốn cùng ngài sánh bước với tư cách là người vợ đàng hoàng.
+
+Nào ngờ, ngay ngày đầu tiên bước chân vào phủ, ta mới bàng hoàng nhận ra Tướng quân phu nhân không ai khác chính là vị tỷ tỷ Bạch Nguyệt Quang mà ta luôn khắc khoải nhớ mong suốt mười năm qua.
+`
+  },{
+    id: 998,
+    title: "Kiếp Này Tự Gánh Lấy Hậu Quả",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e8bca7ba373de7f8ce5dafbcd140eef7.jpg",
+    link: "ngontinh/kiep-nay-tu-ganh-lay-hau-qua.html",
+    type: "ngontinh",
+    desc: `Tôi từng đánh mất đôi chân chỉ vì xả thân cứu Thẩm Ý Chi.
+
+Suốt ba năm kết hôn, anh ta mặc kệ người thân cùng bè bạn miệt thị tôi.
+
+Đến khi tôi chất vấn, anh ta chỉ day day thái dương đầy phiền muộn rồi lạnh nhạt đáp: “Họ cũng chỉ nói đúng sự thật thôi. Năm đó tôi đâu có cầu xin em cứu? Chẳng ai hỏi xem tôi có muốn điều đó hay không.”
+
+Mọi tình cảm tôi dành cho anh ta từ thời thiếu nữ tan thành tro bụi ngay trong khoảnh khắc ấy.
+
+Tối hôm đó, tôi lén pha thuốc ngủ vào ly sữa của anh ta. Đợi anh ta thiếp đi, tôi dùng dao chặt đứt đôi chân anh ta.
+
+Tôi ôm lấy cơ thể đang rên rỉ đau đớn của anh ta rồi chìm vào giấc ngủ. Thế nhưng khi mở mắt ra lần nữa, tôi đã quay về thời điểm vụ tai nạn kinh hoàng năm xưa còn chưa xảy ra.
+`
+  },{
+    id: 999,
+    title: "Đều Là Omega Nhưng Cậu Ấy Lại Khen Tôi Thơm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/16d799d56ab078fbd2e93f60204ec04e.jpg",
+    link: "dammy/deu-la-omega-nhung-cau-ay-lai-khen-toi-thom.html",
+    type: "dammy",
+    desc: `Xuyên thành nam phụ pháo hôi có kết cục vô cùng thê thảm trong cuốn tiểu thuyết vạn nhân mê, tôi lập tức hạ quyết tâm: Muốn giữ mạng sống, bắt buộc phải ôm chặt chiếc đùi vàng của nam chính.
+
+Lần đầu tiên chủ động tiếp cận, tôi mỉm cười thân thiện đề nghị với Phí Hành Chi: “Cậu là O, tôi cũng là O, chi bằng chúng ta kết làm bạn tốt nhé?”
+
+Đôi môi Phí Hành Chi khẽ cong lên một đường cung gợn sóng: “Được thôi.”
+
+Thế nhưng sau đó, khi tôi bất ngờ rơi vào kỳ mẫn cảm và nhờ cậu ấy lấy giúp thuốc ức chế, Phí Hành Chi lại dứt khoát xé bỏ miếng dán che tuyến thể sau cổ tôi. Cậu cúi đầu, kề sát tai tôi thì thầm bằng chất giọng trầm thấp: “Bảo bối, em thật sự rất thơm.”
+`
+  },{
+    id: 1000,
+    title: "Nữ Chính Truyện Ngược Không Bị Câm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f84e8bd490a03f6c2b6fe8e08de524bd.jpg",
+    link: "cotrang/nu-chinh-truyen-nguoc-khong-bi-cam.html",
+    type: "cotrang",
+    desc: `Ta xuyên không thành nữ chính trong một bộ ngược văn thời cổ đại, lại mắc phải căn bệnh quái gở: chỉ có thể nói thật.
+
+Thứ tỷ bỏ trốn cùng thư sinh nghèo, cha bắt ta phải gả thay, nam chính não tàn tức giận bán ta vào lầu xanh làm hoa khôi.
+
+Nửa tháng sau hắn đến, ta định giả vờ khóc lóc hối hận, thế nhưng vừa mở miệng ra lại thành:
+
+"Ồ! Vương gia, đến chơi gái à?"
+
+Nam chính não tàn: "..."
+
+Ta: "..."
+
+Mọi người: "..."
+`
+  },{
+    id: 1001,
+    title: "Chiêu Trị Trà Xanh Của Anh Bạn Trai Thẳng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f07014cb5285806e4bc1d8701dbcd3c5.jpg",
+    link: "ngontinh/chieu-tri-tra-xanh-cua-anh-ban-trai-thang.html",
+    type: "ngontinh",
+    desc: `Bạn trai tôi có một cô em gái khóa dưới luôn tìm cách giật anh ấy khỏi tay tôi. Không thể chịu đựng thêm được nữa, tôi đành bày cho anh một chiêu.
+
+"Hiểu rồi," anh bảo.
+
+Ngay ngày hôm sau.
+
+Cô em trà xanh nọ đon đả: "Chào buổi sáng anh, lại gặp anh rồi, thật trùng hợp quá."
+
+Bạn trai tôi thản nhiên: "Chào buổi sáng, anh là gay."
+
+Trà xanh: ???`
+  },{
+    id: 1002,
+    title: "Chú Chó Nhỏ Của Tổng Tài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/968186b46cd92e45bad23bc33485bc41.jpg",
+    link: "dammy/chu-cho-nho-cua-tong-tai.html",
+    type: "dammy",
+    desc: `Ngày Diệp Tịch tự trèo lên giường tôi, em ấy vẫn là một thiếu niên chưa tròn hai mươi tuổi.
+
+Toàn thân cậu nhóc đầy thương tích, khóe miệng bầm tím, chỉ có thể nhìn mang mợt ra một gương mặt tuấn tú cùng đôi mắt sắc lẹm đang chằm chằm xoáy vào tôi.
+
+Thế nhưng sau này, chính đứa trẻ từng được tôi một tay nuôi dưỡng thành "cún nhỏ ngoan ngoãn" ấy lại đè chặt tôi lên bàn làm việc. Giọng em khàn đục, tràn ngập vẻ quyến rũ chết người: "Eo của anh, có thể hạ thấp xuống thêm một chút được không?"
+`
+  },{
+    id: 1003,
+    title: "Mỹ Nam Bạch Liên Hoa Giả Vờ Phế Nhân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a11695d08070331d7bf3c5a010540e1f.jpg",
+    link: "cotrang/my-nam-bach-lien-hoa-gia-vo-phe-nhan.html",
+    type: "cotrang",
+    desc: `Đại sư huynh nổi danh nhất Tu chân giới nay đã biến thành một kẻ phế nhân. Không chỉ tay trói gà không chặt, đôi mắt của huynh ấy cũng chẳng còn nhìn thấy ánh sáng.
+
+Ta vâng sư mệnh, đến chăm sóc vị đại sư huynh tội nghiệp này.
+
+Ngày đầu tiên, nửa đêm huynh ấy thức dậy, vô tình ngã đè lên người ta.
+
+"Xin lỗi sư muội, mắt ta không thấy đường."
+
+Ngày thứ hai, lúc tắm rửa, huynh ấy lại vô tình kéo ta vào thùng tắm.
+
+"Xin lỗi sư muội, ta không thể khống chế được tay chân."
+
+Ngày thứ ba, huynh ấy bị tên trộm hoa hạ xuân dược liều cao.
+
+"Xin lỗi sư muội, muội mau đi đi! Cứ để ta khí huyết đảo ngược, chết bất đắc kỳ tử cho xong."
+`
   },
 
 
