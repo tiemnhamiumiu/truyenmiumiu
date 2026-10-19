@@ -20636,6 +20636,206 @@ Ngày thứ ba, huynh ấy bị tên trộm hoa hạ xuân dược liều cao.
 
 "Xin lỗi sư muội, muội mau đi đi! Cứ để ta khí huyết đảo ngược, chết bất đắc kỳ tử cho xong."
 `
+  },{
+    id: 1004,
+    title: "Sau Khi Thức Tỉnh Chồng Tôi Chỉ Biết Kiếm Tiền",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e71eaca31089cdbaf42f0fa98191c471.jpg",
+    link: "ngontinh/sau-khi-thuc-tinh-chong-toi-chi-biet-kiem-tien.html",
+    type: "ngontinh",
+    desc: `Chồng tôi đã thức tỉnh.
+
+Là một nam phụ ác độc, anh không hề nghĩ đến chuyện hãm hại nam chính hay đuổi theo nữ chính. 
+
+Ngày nào anh cũng chỉ biết vùi đầu kiếm tiền, đã vậy còn suốt ngày muốn gần gũi với tôi.
+`
+  },{
+    id: 1005,
+    title: "Kỳ Động Dục Của Rắn Thần",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f885d5da87361fad106a1813b875d4b8.jpg",
+    link: "dammy/ky-dong-duc-cua-ran-than.html",
+    type: "dammy",
+    desc: `Thế giới rơi vào thảm họa ô nhiễm, khiến tất cả mọi người đều ngẫu nhiên thức tỉnh đặc tính của động vật.
+
+Lục Thời Xuyên, người bạn cùng phòng kiêm nam thần trong mơ của toàn trường, vừa hay thức tỉnh đặc tính loài rắn.
+
+Vì quá tò mò, tôi ghé sát lại hỏi xem cậu ấy có biến chuyển gì mới không.
+
+Cậu ấy khẽ nhếch môi, nụ cười nửa tối nửa sáng đầy ẩn ý rồi nhả ra đúng một từ:
+
+"Hai."
+
+Mặt tôi bừng đỏ vì tức giận. Đã không muốn chia sẻ thì thôi, sao tự dưng lại chửi thề với tôi như thế chứ!
+
+Ấm ức suốt cả đêm, đến ngày hôm sau, tôi cũng chính thức thức tỉnh… đặc tính thỏ.
+
+Vừa phát hiện ra sự thay đổi của tôi, đôi mắt Lục Thời Xuyên lập tức tối sầm lại. Cậu ấy bước tới, giọng trầm xuống:
+
+"Cậu đang lục tìm cái gì đấy?"
+
+Tôi ngơ ngác trả lời theo bản năng: "Thì tìm cỏ chứ tìm gì nữa."
+`
+  },{
+    id: 1006,
+    title: "Phụ Lòng Cả Thiên Hạ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2ff17ac15239360cf76f66e289f6f5de.jpg",
+    link: "cotrang/phu-long-ca-thien-ha.html",
+    type: "cotrang",
+    desc: `Ta là Thái tử phi, nhưng Thái tử lại chẳng yêu ta.
+
+Chuyện này vốn không có gì đáng lo, điều đáng sợ thực sự là ngài ấy mang mệnh khắc thê.
+
+Trước ta, trong phủ đã có ba đời Thái tử phi qua đời.
+
+Đầu tiên là ái nữ của Tể tướng, gả cho Thái tử vừa tròn ba tháng thì đột ngột trút hơi thở cuối cùng.
+
+Kế đến là con gái Hộ bộ Thượng thư, cũng chỉ trụ được vỏn vẹn hai tháng rồi ra đi.
+
+Người thứ ba là cháu gái Hình bộ Thượng thư, sống chưa đầy một tháng đã mất mạng.
+
+Chỉ trong chớp mắt, khắp kinh thành đâu đâu cũng đồn đại rằng Thái tử, người vốn được ví như long phượng giữa chốn nhân gian, lại mang số mệnh khắc thê tai quái, làm hại ba vị tiểu thư tài sắc vẹn toàn phải bỏ mạng oan uổng.
+
+Đến lượt ta, một Thái tử phi thứ tư, kém ngài ấy bốn tuổi.
+
+Con số bốn này nghe qua đã thấy chẳng lành.
+
+Mọi người đều đinh ninh rằng một nữ tử như ta, con gái của một viên quan nhỏ hèn cửu phẩm, không biết sẽ cầm cự được bao lâu.
+`
+  },{
+    id: 1007,
+    title: "Đứa Con Mang Nợ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8b2d6591ba8318467d9d37b439dc0b91.jpg",
+    link: "ngontinh/dua-con-mang-no.html",
+    type: "ngontinh",
+    desc: `Từ nhỏ, tôi đã biết gia đình mình chẳng giống ai. Nhà tôi không có cha.
+
+Năm xưa, khi mẹ tôi đang mang thai, cha tôi đã trèo cao thành công bằng cách vội vàng cưới con gái yêu của sếp.
+
+Tất cả những gì tôi biết về ông chỉ vỏn vẹn có thế, chẳng rõ tên họ, tuổi tác hay mặt mũi ra sao.
+
+Thế rồi hai mươi năm sau, ông lại xuất hiện, muốn tôi nhường bạn trai cho con gái ông ta.
+
+Mới đầu, ông ta mở lời bằng giọng điệu khá ôn hòa:
+
+“Tiểu Ngư này, con cũng đến tuổi yêu đương rồi, có cần cha giới thiệu đối tượng cho không?”
+
+Tôi bình tĩnh đáp:
+
+“Không cần đâu, tôi có bạn trai rồi.”
+
+Ông ta cười:
+
+“Con đang nói đến Trình Tĩnh sao?”
+
+Gần như ngay sau đó, ông ta tiếp lời bằng giọng điệu đầy ẩn ý:
+
+“Con có biết gia thế của Trình Tĩnh thế nào không? Người như cậu ta sau này kết hôn nhất định phải tìm một cô gái môn đăng hộ đối. Đối với con, cậu ta chỉ đùa giỡn thôi.”
+
+Tôi cười như không cười:
+
+“Phương Nhược Nhã thì môn đăng hộ đối sao?”
+
+Gương mặt ông ta hiện rõ vẻ tự mãn:
+
+“Tất nhiên, con và Nhược Nhã sao có thể so sánh được...”
+`
+  },{
+    id: 1008,
+    title: "Bản Tính Ghen Tuông Của Tổng Tài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/060b2af38f957c12a1dbe4296639bb7a.jpg",
+    link: "dammy/ban-tinh-ghen-tuong-cua-tong-tai.html",
+    type: "dammy",
+    desc: `Trong buổi livestream của một nam diễn viên nổi tiếng, người hâm mộ tò mò hỏi lý do vì sao anh lại đột ngột đổi nghệ danh sau ba năm bước chân vào giới giải trí.
+
+Anh rưng rưng nước mắt trả lời: “Tại vì người yêu cũ không chịu yêu người cùng họ.”
+
+Nói xong, anh đưa chứng minh thư của mình ra trước ống kính: “Em yêu, giờ anh đổi họ rồi, chúng mình quay lại với nhau được không?”
+
+Cõi mạng bùng nổ tức thì. Dân tình nháo nhào rủ nhau truy tìm danh tính cô người yêu cũ bí ẩn kia.
+
+Lướt nhìn đám đông fan đang phát cuồng và tài khoản mạng xã hội bị mình cho vào danh sách đen của anh, tôi thầm thấy may mắn. May mà nghệ danh của tôi không dùng tên thật…
+`
+  },{
+    id: 1009,
+    title: "Thiên Hậu Tái Thiết Trảm Não Tình Yêu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/af5504c6bfc0dad98142ce77256945ac.jpg",
+    link: "cotrang/thien-hau-tai-thiet-tram-nao-tinh-yeu.html",
+    type: "cotrang",
+    desc: `Tất cả thần tiên, bao gồm cả Thiên Đế, đều phải tham gia đánh giá hiệu quả công việc.
+
+Ta là Thiên Hậu. Đừng hỏi vì sao ta có quyền này.
+
+Phu quân nhà ta bị não tình yêu đầu độc, mải mê đuổi theo bạch nguyệt quang xuống hạ giới chơi trò ngược luyến tàn tâm rồi.
+
+Hiện tại, ở toàn bộ Thiên Đình này, ta là người lớn nhất.
+
+Lần này, ta nhất định phải đập tan não tình yêu, chấn chỉnh lại tiên phong.
+`
+  },{
+    id: 1010,
+    title: "Trao Em Cả Bầu Trời Sao",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b904e9c91cc14e6172a273670488c792.jpg",
+    link: "ngontinh/trao-em-ca-bau-troi-sao.html",
+    type: "ngontinh",
+    desc: `Tôi là một “bình hoa di động” nổi tiếng trong giới giải trí, nguồn cơn chỉ vì một lần phỏng vấn tôi lỡ thừa nhận mình chưa từng tham gia kỳ thi đại học. Thế là cư dân mạng lấy đó làm cái cớ giễu cợt tôi suốt bao năm.
+
+Trái ngược với tôi, nữ diễn viên học bá Kiều An Triệt lại vô cùng được lòng công chúng. Người hâm mộ của cô ta rất thích réo tên tôi ra làm nền để tôn thần tượng của họ lên.
+
+Mọi chuyện bắt đầu xôn xao khi một vị giáo sư danh tiếng của Đại học Bắc Kinh cập nhật dòng trạng thái trên mạng xã hội: “Hai đứa học trò giỏi nhất của tôi đều bỏ đi đóng phim cả rồi! Chẳng còn ai chịu ở lại phòng thí nghiệm nữa! Thật sự tức chết mất thôi!”
+
+Bài đăng ấy lập tức leo thẳng lên vị trí top đầu hot search ngay trong đêm.
+
+Đến buổi phỏng vấn ngày hôm sau, Kiều An Triệt hãnh tiến than thở trước ống kính: “Thầy ơi, thầy cũng phải giữ chút thể diện cho em chứ! Em đi đóng phim thì đâu có ảnh hưởng gì tới việc làm thí nghiệm đâu nào!”
+
+Tôi ngồi nghe mà ngơ ngác lục lại ký ức. Tôi từng theo học khoa Vật lý ở Đại học Bắc Kinh, nhưng sao chẳng nhớ nổi mình từng chạm mặt vị đồng môn này bao giờ nhỉ?
+`
+  },{
+    id: 1011,
+    title: "Mùa Hạ Của Chúng Ta",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f5d22108231ec6b326f475c6276244de.jpg",
+    link: "dammy/mua-ha-cua-chung-ta.html",
+    type: "dammy",
+    desc: `Tôi là một kẻ nghiện em trai chính hiệu, trong khi đó, em trai tôi lại thuộc tuýp người luôn đặt tình yêu lên hàng đầu.
+
+Vì vậy, khi hoa khôi của trường đem lòng thầm thương gã bạn thanh mai trúc mã của chúng tôi, còn em trai tôi lại mê đắm hoa khôi, tôi đã chẳng ngần ngại tự biến mình thành kẻ quấy rối chen ngang giữa ba người họ.
+
+Nhằm bảo vệ hạnh phúc cả đời cho em trai, tôi vác theo đống hành lý dọn thẳng vào phòng ký túc xá của Bạch Phong, giả vờ cảm thấy cô đơn để xin ngủ chung giường với hắn.
+
+Khi màn đêm buông xuống, hoa khôi gọi điện hẹn Bạch Phong xuống tầng gặp mặt. Tôi lập tức hoảng hốt quấn chặt lấy eo hắn, nũng nịu ngăn cản:
+
+“Đừng đi mà... Cậu mà đi là tôi thấy cô đơn lắm, ở lại đây với tôi đi~”
+
+Tôi siết lấy hắn thật chặt, khiến chiếc áo sơ mi đang mặc trên người trượt sang một bên. Ánh mắt hắn bất ngờ tối sầm lại.
+
+Ngay khoảnh khắc tiếp theo, tôi bị hắn đè chặt xuống giường, chỉ còn biết đón nhận những nụ hôn dồn dập, cuồng nhiệt phủ xuống như bão táp.
+`
+  },{
+    id: 1012,
+    title: "Như Châu Như Ngọc",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6d90339df05222f2240adaa353e7c3b3.jpg",
+    link: "cotrang/nhu-chau-nhu-ngoc.html",
+    type: "cotrang",
+    desc: `Người bạn duy nhất của ta là một cô gái xuyên không đến từ thế giới khác. Nàng từng nói, sứ mệnh của nàng khi xuất hiện ở nơi đây chính là để cứu rỗi ta.
+
+Nàng dành trọn cho ta sự tin tưởng cùng bảo vệ, thậm chí dốc hết tâm sức hỗ trợ phu quân ta bước lên ngai vàng.
+
+Rốt cuộc, nàng cũng tìm được một người đàn ông yêu thương nàng sâu sắc.
+
+Nàng bảo rằng thế giới này đã mang lại cho nàng cảm giác ấm áp, nên nàng muốn dừng chân ở lại nơi đây.
+
+Thế nhưng sau đó, khi ta phi ngựa cấp tập từ biên cương trở về...
+
+Ta chỉ còn thấy thân thể gầy gò, nhợt nhạt của nàng nằm đơn độc trong cỗ quan tài ngọc lạnh như băng.
+
+Bên cạnh quan tài, phu quân của nàng đứng im lặng, chẳng nói lấy một lời.
+
+Đứa con trai nhỏ của nàng lại thì thầm bằng giọng điệu vui mừng: "Thật tốt quá, ta không cần một người mẹ điên như thế nữa."
+
+Ta liếc nhìn người phụ nữ đang đứng bên cạnh hai cha con họ, kẻ đang giả vờ lau đi giọt nước mắt.
+
+Trong lòng ta tự nhủ, ta chẳng cần phải giữ vẻ thùy mị nết na làm gì nữa.
+
+Sau ngày hôm nay, bọn họ sẽ biết thế nào mới là một kẻ điên thực sự.
+`
   },
 
 
