@@ -20836,6 +20836,163 @@ Trong lòng ta tự nhủ, ta chẳng cần phải giữ vẻ thùy mị nết n
 
 Sau ngày hôm nay, bọn họ sẽ biết thế nào mới là một kẻ điên thực sự.
 `
+  },{
+    id: 1013,
+    title: "Công Lược Tình Yêu Lần Thứ Tám",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f438ade381dd587caa42b31e2b8084a3.jpg",
+    link: "ngontinh/cong-luoc-tinh-yeu-lan-thu-tam.html",
+    type: "ngontinh",
+    desc: `Bảy năm công lược khép lại bằng một viên đạn tôi đỡ thay Chu Minh Sinh, vào đúng lúc hắn yêu tôi nhất, và tôi rời khỏi thế giới này một cách thành công. 
+
+Đến ngày hắn trở thành tài phiệt giàu có, tôi lại được trọng sinh ngay tại nơi này. 
+
+Hệ thống thông báo nhiệm vụ của tôi đã thất bại, lý do là Chu Minh Sinh đã đem lòng yêu một người khác.
+`
+  },{
+    id: 1014,
+    title: "Nhật Ký Nuôi Vợ Của Anh Chồng Xuyên Không",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b95ce38971432aaa55b34da7028ea159.jpg",
+    link: "dammy/nhat-ky-nuoi-vo-cua-anh-chong-xuyen-khong.html",
+    type: "dammy",
+    desc: `Sau một giấc ngủ dài tỉnh dậy, tính nết cậu bạn cùng phòng của tôi đột nhiên xoay chuyển một trăm tám mươi độ.
+
+Từ một kẻ vốn lạnh lùng, xa cách, hắn bắt đầu giở trò bới lông tìm vết. Trong mắt hắn, tôi làm cái gì cũng thấy chướng gai gai mắt, chê bai đủ điều từ sợi tóc lởm chởm cho tới chiếc quần lót đã cũ.
+
+Đúng lúc tôi siết chặt nắm đấm, sự kiên nhẫn sắp chạm tới giới hạn thì hắn lại đột ngột đổi giọng. Hắn ngập ngừng, ấp úng cất lời:
+
+"Dù cậu hơi keo kiệt thật, nhưng tôi vẫn sẵn lòng cưới cậu. Chỉ cần cậu chịu đồng ý với tôi một điều thôi."
+
+"Sau khi kết hôn, cho tôi xin thêm chút tiền tiêu vặt được không? Không thì tôi phải chắt chiu gom góp cả nửa năm mới đủ tiền mua cho cậu món quà kỷ niệm."
+
+Tôi: "..."
+`
+  },{
+    id: 1015,
+    title: "Đêm Nay Phu Nhân Lại Muốn Trốn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d70d88b007616d3e325ef56f968998cc.jpg",
+    link: "cotrang/dem-nay-phu-nhan-lai-muon-tron.html",
+    type: "cotrang",
+    desc: `Ngày Vương gia thắng trận khải hoàn trở về, hắn lại mang theo một nữ tử đang mang thai.
+
+Nghe được tin ấy, ngay trong ngày hôm đó, ta liền vội vã giả chết rồi âm thầm bỏ trốn.
+
+Nào ngờ, Vương gia không chỉ đào tung ngôi mộ cũ của ta, mà còn đích thân dựng nên một ngôi mộ mới rồi bảo: “Chúng ta đã là phu thê thì sống chung chăn, chết chung huyệt. Hôm nay nàng muốn cùng ta chung giường hay cùng ta chung mộ, tự mình chọn đi.”
+`
+  },{
+    id: 1016,
+    title: "Định Mệnh Ở Thanh Hoa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/66462816c55f04d040704336cc79b2f7.jpg",
+    link: "ngontinh/dinh-menh-o-thanh-hoa.html",
+    type: "ngontinh",
+    desc: `Khi nhận được điểm thi tốt nghiệp, tôi nhắn tin cho người ấy:
+
+“Anh ơi, em trượt Bắc Đại rồi, tạm biệt.”
+
+Nhắn xong, tôi thẳng tay chặn liên lạc, rồi thu dọn hành lý lên đường nhập học Thanh Hoa.
+
+Nào ngờ ngay ngày đầu tiên của năm nhất đại học, tôi đã bị một anh nghiên cứu sinh gọi tên đích danh:
+
+“Đến đây, làm thử câu này đi. Dù sao anh cũng từng hướng dẫn em rồi mà.”
+
+Tôi: “...”`
+  },{
+    id: 1017,
+    title: "Cừu Ngoan Vào Hang Cọp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/54132464b0d68ff7f2f7c1f51a1feca3.jpg",
+    link: "dammy/cuu-ngoan-vao-hang-cop.html",
+    type: "dammy",
+    desc: `Chu Kỳ Việt bảo tôi hãy quyến rũ rồi bẻ cong anh trai hắn.
+
+Nhiệm vụ xong xuôi, hắn sẽ trao tay tôi một triệu tệ.
+
+Anh trai hắn nhìn bề ngoài thì lạnh lùng khó gần, nhưng hóa ra lại cực kỳ dễ xiêu lòng.
+
+Tôi còn chưa kịp trổ hết tài nghệ, hắn đã tự nguyện bẻ cong mình thành hình nhang muỗi.
+
+Mãi sau này, tôi vô tình nghe thấy cuộc trò chuyện riêng tư giữa hai anh em bọn họ.
+
+“Anh, vẫn chưa bắt được chị dâu sao? Em diễn xuất cũng không tệ đấy chứ?”
+
+“Rất tốt.”
+
+“Thế chuyện lúc trước anh hứa với em…”
+
+“Đợi chị dâu em gật đầu gả vào nhà này, lập tức sắp xếp.”
+
+Ngay giây tiếp theo, điện thoại tôi nảy lên tin nhắn của Chu Kỳ Việt.
+
+[Thêm một triệu nữa, kết hôn với anh trai tôi. Mách nhỏ này, anh ấy thích hầu gái play.]
+`
+  },{
+    id: 1018,
+    title: "Bỏ Trốn Cùng Nhiếp Chính Vương Trong Ngày Đại Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/481c7987f989d786fd831d4e742783b5.jpg",
+    link: "cotrang/bo-tron-cung-nhiep-chinh-vuong-trong-ngay-dai-hon.html",
+    type: "cotrang",
+    desc: `Lúc bà mối vừa hô to “Nhất bái...”, Nhiếp chính vương tay cầm trường kiếm nhuốm máu, đứng sừng sững ngay cửa điện. Vẻ mặt âm trầm của hắn khiến mọi người có mặt đều im bặt, không ai dám hít thở mạnh.
+
+“Cố tiểu thư đại hôn, sao lại không gửi thiệp mời cho ta?”
+
+Bộ cẩm bào đỏ thẫm hắn khoác trên người còn rực rỡ và chói mắt hơn cả tân lang.
+`
+  },{
+    id: 1019,
+    title: "Dụ Dỗ Tổng Tài Sa Cơ Rồi Bỏ Chạy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bcc664e05ece832c49bbaf3579490a17.jpg",
+    link: "ngontinh/du-do-tong-tai-sa-co-roi-bo-chay.html",
+    type: "ngontinh",
+    desc: `Tôi là nữ phụ thiên kim giả trong một cuốn truyện ngôn tình cẩu huyết.
+
+Sau khi tỉnh ngộ, nhìn thấy nam chính sa cơ lỡ vận có vẻ ngoài u sầu đẹp trai, lòng tôi đột nhiên nảy sinh ham muốn.
+
+Sau khi dụ dỗ và có được anh, tôi liền lập tức bỏ trốn.
+
+Về sau, tại buổi tiệc mai mối do nhà họ Quý tổ chức cho tôi, người đàn ông ngồi trên ghế cao nhìn tôi với gương mặt u ám. Giọng anh lạnh lùng vang lên:
+
+"Dương Dương ngồi xa thế làm gì?
+
+Sợ mọi người biết mối quan hệ giữa chúng ta sao?"
+`
+  },{
+    id: 1020,
+    title: "Đã Bảo Là Bạn Thân Mà",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5d9356c90b2186178b6e315606fbf3be.jpg",
+    link: "dammy/da-bao-la-ban-than-ma.html",
+    type: "dammy",
+    desc: `Hệ thống chọn nhầm đối tượng câu dẫn, nhưng bản tính nó vốn ương bạnh, nhất quyết bắt tôi phải đâm lao theo lao.
+
+"Bớt đùa đi anh bạn, cậu bảo một thằng đực rựa như tôi đi quyến rũ nam chính á?"
+
+Giọng điệu của hệ thống phẳng lặng như đã chết rồi:
+
+[Chỉ là công việc thôi mà, ai làm ăn chẳng có lúc sai sót.]
+
+[Cứ đi hết quy trình là được, anh ta có thèm ngủ thật với cậu đâu mà phải xoắn.]
+
+Đêm hôm đó, tôi khoác lên người chiếc áo sơ mi mỏng tang mặc cũng như không, đeo thêm sợi xích trước ngực rồi leo lên giường của nam chính.
+
+Vừa nhìn thấy tôi, gương mặt hung bạo của hắn lập tức chuyển sang mừng rỡ đến điên cuồng, lao vào vồ lấy tôi như chó thấy xương.
+
+Hệ thống! Cái đồ hại người không dao, cậu báo tôi rồi!
+`
+  },{
+    id: 1021,
+    title: "Thức Tỉnh Trước Lần Cứu Thứ 100",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6a4b38414f89f5c6cfc791538b3fdcba.jpg",
+    link: "cotrang/thuc-tinh-truoc-lan-cuu-thu-100.html",
+    type: "cotrang",
+    desc: `Ta là Giang Vũ Nhu, Đại tiểu thư của Tàng Kiếm sơn trang. Giang hồ ai ai cũng biết ta là đệ nhất mỹ nhân, vừa có nhan sắc lại vừa lắm tiền nhiều bạc.
+
+Người nam nhân đang vội vã bế ta đi tìm đại phu tên là Tạ Diễn. Hắn là một thiếu hiệp nổi danh trong giới võ lâm, chẳng những võ công cao cường mà dung mạo còn phong nhã tuấn tú.
+
+Đây đã là lần thứ chín mươi chín ta được Tạ Diễn cứu khỏi tay Ma giáo.
+
+Không phải ta tự tìm đường chết, mà là do... ta bị mắc kẹt trong vòng lặp thời gian.
+
+Trải qua chín mươi tám lần lặp lại, sau khi được nam chính cứu tới lần thứ chín mươi chín, ta mới bừng tỉnh ngộ ra một điều.
+
+Ta hoàn toàn không phải là nữ chính của một câu chuyện tình cảm chính thống.
+`
   },
 
 
