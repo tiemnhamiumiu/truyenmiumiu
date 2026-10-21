@@ -20993,6 +20993,202 @@ Trải qua chín mươi tám lần lặp lại, sau khi được nam chính cứ
 
 Ta hoàn toàn không phải là nữ chính của một câu chuyện tình cảm chính thống.
 `
+  },{
+    id: 1022,
+    title: "Bức Ảnh Chụp Lén Năm Ấy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f305e3d5d5b99ea355ba07c5e4b5f7e.jpg",
+    link: "ngontinh/buc-anh-chup-len-nam-ay.html",
+    type: "ngontinh",
+    desc: `Một năm trước, tôi tình cờ nghe đám bạn trêu chọc Lục Tử Hằng: “Tính chơi trò thế thân đấy à? Thích chị gái mà lại quay sang chăm sóc cô em? Cẩn thận làm người ta hiểu nhầm bây giờ.”
+
+Anh xoay xoay chiếc bật lửa trong tay, thản nhiên đáp bằng giọng đều đều: “Vốn dĩ có phải thật lòng đâu.”
+
+Một năm sau, tôi đi cùng bạn trai đến buổi họp lớp. Anh khẽ nhếch môi nhìn tôi: “Đây là thứ em muốn đấy à?”
+
+Tôi siết chặt nắm tay, đáp lời: “Phải.”
+
+Thế nhưng ngay đêm hôm đó, anh lại đứng im dưới lầu nhà tôi không chịu rời đi.
+
+“Chia tay với cậu ta đi, rồi em muốn anh làm gì cũng được.”`
+  },{
+    id: 1023,
+    title: "Chồng Enigma Cố Chấp Giam Lữ Cả Đời",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b93d98eddbfc29b21b7342918d4e29f5.jpg",
+    link: "dammy/chong-enigma-co-chap-giam-lu-luon-ca-doi.html",
+    type: "dammy",
+    desc: `Alpha và Omega mới là chân ái.
+
+Tôi thật sự may mắn vì cuối cùng mình đã phân hoá muộn.
+
+May mắn vì kết quả cuối cùng là một Beta.
+
+Dù sao thì, Alpha bạn trai tôi đáng sợ đến mức nào, chỉ mình tôi biết.
+
+Anh từng nói rằng đợi đến khi tôi phân hoá thành Omega, anh sẽ nhốt tôi lại.
+
+Để tôi mang thai, rồi cấm tôi đặt chân ra khỏi cửa.
+
+Cái ngày tôi cầm kết quả xét nghiệm trong tay, đúng là khéo đến mức trớ trêu, Alpha bạn trai tôi cũng vừa gặp được một Omega có độ tương thích lên tới chín mươi chín phần trăm.
+
+Tôi ngồi đối diện anh, nước mắt giàn giụa: “Xin lỗi… chúng ta chia tay đi. Em không thể cho anh một đứa con đáng yêu.”
+
+Bạn trai tôi vẫn bình thản như không.
+
+Anh đặt xuống một bản báo cáo xét nghiệm khác hẳn, chậm rãi nói: “Không sao. Anh vừa phát hiện mình là Enigma, có khả năng khiến Beta mang thai.”
+
+Tôi: “……”`
+  },{
+    id: 1024,
+    title: "Đệ Nhất Sát Thủ Là Vị Hôn Phu Của Ta",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ace9afd964e733dc0de8ecbbb5ab29ee.jpg",
+    link: "cotrang/de-nhat-sat-thu-la-vi-hon-phu-cua-ta.html",
+    type: "cotrang",
+    desc: `Ta đã làm một chuyện cực kỳ táo bạo.
+
+Đó là bỏ tiền thuê sát thủ số một giang hồ đi ám sát kẻ thù không đội trời chung của mình.
+
+Dưới màn đêm u uất, thiếu niên sát thủ tuấn tú nở nụ cười tươi đến mức đôi mắt cong cong: "Quận chúa cứ yên tâm, việc giết Từ Yến Xuyên cứ giao cho ta."
+
+Ta tràn đầy tin tưởng vào hắn, ngày ngày mòn mỏi chờ đợi tin tức về cái chết của kẻ thù.
+
+Nào ngờ lần nào ám sát cũng thất bại, kẻ thù chẳng những không chết mà ngược lại tinh thần ngày càng phấn chấn.
+
+Ta hoàn toàn mất hết kiên nhẫn, tức giận đuổi thiếu niên sát thủ đi: "Ngươi đi đi! Ta muốn đổi sát thủ khác."
+
+Thiếu niên sát thủ bỗng sa sầm mặt, không nói không rằng trèo lên giường của ta.
+
+Hắn ghé sát cắn nhẹ vào tai ta, giọng nói tràn đầy tủi thân: "Hắn thích người, có thể không giết hắn được không?"
+
+Ta đang định giận dữ đáp "Không thể", thì khóe mắt lại vô tình liếc thấy một vết bớt trên cánh tay thiếu niên.
+
+Vết bớt này... trên người kẻ thù của ta cũng có một cái giống hệt như vậy.
+`
+  },{
+    id: 1025,
+    title: "Nước Mắt Muộn Màng Của Kẻ Phản Bội",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/efa362741e45b67003ccf75701f0e17e.jpg",
+    link: "ngontinh/nuoc-mat-muon-mang-cua-ke-phan-boi.html",
+    type: "ngontinh",
+    desc: `Vào ngày kỷ niệm năm năm ngày cưới, cô thư ký xinh đẹp của Bùi Sơ đột nhiên tìm đến tôi và tuyên bố: “Em có thai rồi, chị nhường chỗ đi.”
+
+Nhìn vẻ tự tin đầy đắc ý của cô ta, tôi bất giác sững người.
+
+Năm 15 tuổi, tôi và Bùi Sơ quen biết.
+
+Năm 18 tuổi, chúng tôi chính thức yêu nhau.
+
+Năm 20 tuổi, vì muốn được ở bên nhau, cả hai đã phải chống đối lại gia đình.
+
+Năm 24 tuổi, chúng tôi bước vào lễ đường kết hôn.
+
+Năm 26 tuổi, tôi sinh cho anh một cô con gái kháu khỉnh đúng như nguyện vọng.
+
+Mọi giông bão đã qua.
+
+Thế nhưng khi tôi 28 tuổi, anh lại ngoại tình.
+`
+  },{
+    id: 1026,
+    title: "Bất Ngờ Gặp Lại Sếp Trên Giường",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7b3848020f7c35109a80f5cc59561fbb.jpg",
+    link: "dammy/bat-ngo-gap-lai-sep-tren-giuong.html",
+    type: "dammy",
+    desc: `Tôi là người song tính, một điều mà bản thân tôi chưa bao giờ xem là đáng xấu hổ.
+
+Vì nhu cầu sinh lý khá cao, tôi quyết định tìm một bạn giường qua ứng dụng hẹn hò.
+
+Ai ngờ ngay buổi hẹn đầu tiên, vận may đã mỉm cười với tôi, trúng hẳn giải độc đắc.
+
+Đối phương là một người đàn ông có cơ bụng tám múi, vòng eo thon gọn và đôi chân dài miên man.
+
+Gương mặt anh ta khuất sau chiếc mặt nạ hồ ly màu đen, chỉ riêng điều đó thôi cũng đủ toát ra sức quyến rũ chết người.
+
+Trên giường, miệng anh ta chẳng lúc nào ngơi những lời dâm đãng, khi thì gọi tôi là cục cưng, lúc lại ngọt ngào xưng “vợ”.
+
+Về sau, giữa một buổi họp ở công ty, tôi lén rút điện thoại ra nhắn tin cho anh ta.
+
+Đúng vào khoảnh khắc ấy, chiếc điện thoại đặt trên bàn họp cũng vang lên âm báo quen thuộc.
+
+… Đó là điện thoại của sếp tôi.
+`
+  },{
+    id: 1027,
+    title: "Đưa Con Bỏ Trốn Nơi Thị Trấn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/48d6863a1dc75f779fe71334377d126b.jpg",
+    link: "cotrang/dua-con-bo-tron-noi-thi-tran.html",
+    type: "cotrang",
+    desc: `Thiếu gia vốn không thông hiểu chuyện phòng thế.
+
+Ta tận tâm tận lực chỉ dạy cho hắn.
+
+Từ đó hắn đắm chìm không dứt, đêm nào cũng gọi ta đến hầu hạ.
+
+Thế nhưng khi ta mang thai, hắn lại thản nhiên khoe khoang với bằng hữu:
+
+"Chỉ là một nha hoàn chơi đùa chút thôi, sau này ta muốn nữ nhân thế nào mà chẳng có."
+
+Ta đau lòng đến tột cùng, lặng lẽ biến mất khỏi Thẩm phủ.
+
+Ba năm sau, giữa chốn thị tứ náo nhiệt, chúng ta vô tình gặp lại.
+
+Hắn sững sờ nhìn đứa trẻ có khuôn mặt giống mình đến bảy phần.
+
+Giọng nói run run: "Cha con bé là ai?"
+
+Đứa trẻ ngây thơ cất lời:
+
+"Mẫu thân nói, cha con mắc bệnh hoa liễu, chết từ lâu rồi."
+`
+  },{
+    id: 1028,
+    title: "Bạn Trai Qua Mạng Đổi Họ Tìm Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e9369ac0e64847c93b7881589da16bbb.jpg",
+    link: "ngontinh/ban-trai-qua-mang-doi-ho-tim-toi.html",
+    type: "ngontinh",
+    desc: `Trong buổi livestream của một nam diễn viên nổi tiếng, người hâm mộ tò mò hỏi lý do vì sao anh lại đột ngột đổi nghệ danh sau ba năm bước chân vào giới giải trí.
+
+Anh rưng rưng nước mắt trả lời: “Tại vì người yêu cũ không chịu yêu người cùng họ.”
+
+Nói xong, anh đưa chứng minh thư của mình ra trước ống kính: “Em yêu, giờ anh đổi họ rồi, chúng mình quay lại với nhau được không?”
+
+Cõi mạng bùng nổ tức thì. Dân tình nháo nhào rủ nhau truy tìm danh tính cô người yêu cũ bí ẩn kia.
+
+Lướt nhìn đám đông fan đang phát cuồng và tài khoản mạng xã hội bị mình cho vào danh sách đen của anh, tôi thầm thấy may mắn. May mà nghệ danh của tôi không dùng tên thật…
+`
+  },{
+    id: 1029,
+    title: "Ba Năm Bên Nhau Cuối Cùng Nhận Lại Hai Từ Đồ Nghèo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b6d987b2ac5bd07f6b806c0256b9b43e.jpg",
+    link: "dammy/ba-nam-ben-nhau-cuoi-cung-nhan-lai-hai-tu-do-ngheo.html",
+    type: "dammy",
+    desc: `Năm tôi ngông cuồng nhất, tôi từng bao nuôi một nam sinh nhà nghèo, chỉ để bắt cậu ta làm “chó ngoan” cho tôi sai khiến.
+
+Về sau công ty phá sản, tôi phải ra công trường khuân gạch, dốc sạch những đồng tiền cuối cùng nuôi cậu ta học tiếp cao học.
+
+Cho đến một ngày, tôi tận mắt nhìn thấy Trần Tuế mặc vest chỉnh tề đến thị sát công trường.
+`
+  },{
+    id: 1030,
+    title: "Kiếp Này Ta Chọn Thái Tử",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/87a8d7249f4389e8baf00b49a7d04636.jpg",
+    link: "cotrang/kiep-nay-ta-chon-thai-tu.html",
+    type: "cotrang",
+    desc: `Muội muội vì toan tính bám víu Thái tử mà giả vờ gieo mình xuống nước, nào ngờ lại rơi đúng vào vòng tay của gã công tử bột khét tiếng nhất kinh thành.
+
+Sợ phải gả cho gã, muội muội bèn vu oan giá họa, đổ thừa người rơi xuống nước là ta.
+
+Kết tóc se duyên đã nhiều năm, ta một lòng vun vén, thay hắn quán xuyến nội viện, dọn đường cho hắn thăng tiến.
+
+Ấy vậy mà, đổi lại chỉ là sự oán hận ngập tràn trong ánh mắt hắn.
+
+"Nếu không phải tại ngươi, ta sớm đã cùng Uyển Nhi nên duyên phu thê, nàng ấy há phải chịu cảnh cô quạnh nơi Đông cung!"
+
+Ta cười lạnh, trao cho hắn một tờ hưu thư.
+
+Nào ngờ đâu, khi mở mắt ra lần nữa, ta lại được quay về quá khứ.
+
+Kiếp này, ta chọn Thái tử.
+`
   },
 
 
