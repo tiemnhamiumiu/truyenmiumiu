@@ -21189,6 +21189,155 @@ Nào ngờ đâu, khi mở mắt ra lần nữa, ta lại được quay về qu�
 
 Kiếp này, ta chọn Thái tử.
 `
+  },{
+    id: 1031,
+    title: "Trọng Sinh Thành Học Sinh Yếu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6e3db91afb98bd5017108a0651b2d5ce.jpg",
+    link: "ngontinh/trong-sinh-thanh-hoc-sinh-yeu.html",
+    type: "ngontinh",
+    desc: `Tôi vừa tốt nghiệp đại học với thành tích thủ khoa toàn trường thì phát hiện em gái kế đã bí mật sửa toàn bộ nguyện vọng thi của tôi.
+
+Mẹ quỳ rạp xuống đất, van xin tôi đừng báo cảnh sát: “Nó còn nhỏ, có biết gì đâu! Con báo công an là hủy hoại cả đời em đấy, tha cho nó lần này đi con!”
+
+Tôi nhìn đứa em gái kế đang rúc trong lòng mẹ với ánh mắt đầy đắc ý mà toàn thân run lên vì uất hận.
+
+Thế rồi khi mở mắt ra một lần nữa, tôi nhận ra mình đã trọng sinh về năm lớp 11.
+
+Lúc ấy, em gái kế vừa cầm bài kiểm tra Toán 38 điểm bước vào phòng, nghênh ngang yêu cầu tôi phải giảng bài cho nó.
+
+Tôi im lặng hồi lâu rồi chậm rãi mở bài thi 8 điểm của mình ra, tỏ vẻ ngây thơ đáp: “Xin lỗi nha, chị cũng chỉ là học sinh yếu kém thôi.”
+`
+  },{
+    id: 1032,
+    title: "Trúc Mã Nhà Tôi Hóa Ra Là Enigma",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2b53d1dc330a9207715893f13635ac58.jpg",
+    link: "dammy/truc-ma-nha-toi-hoa-ra-la-enigma.html",
+    type: "dammy",
+    desc: `Từ thuở nhỏ, tôi đã quen miệng gọi trúc mã của mình là “vợ”, dù cậu ấy là một thiếu niên đa cảm, hễ có chuyện gì là mít ướt ngay, chẳng bao giờ khác được.
+
+Đến ngày định mệnh ấy, khi cậu bước qua ngưỡng cửa phân hóa để trở thành một Enigma, cậu vừa khóc nấc lên vừa nghẹn ngào dò hỏi tôi: “…Nếu tôi thật sự là một Enigma, cậu còn có thể yêu tôi nữa không?”
+
+Còn tôi, một Alpha cấp S chính hiệu, khi ấy chỉ biết ngẩn ngơ gật đầu một cách cứng đờ, như thể cả người đã hóa đá. Trong lòng chua xót đến mức muốn khóc, vậy mà một giọt nước mắt cũng không rơi nổi.
+
+Ai đó làm ơn đến cứu lấy cuộc đời tôi với… Rốt cuộc là vì sao người vợ nhỏ nhắn, mềm mại và thơm ngọt trong tưởng tượng của tôi, bỗng chốc lại hóa thành một gã cao lớn thế này chứ?
+`
+  },{
+    id: 1033,
+    title: "Phúc Bảo Bị Bỏ Rơi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9899dadee3fdf28fe0a5a4d430905ed1.jpg",
+    link: "cotrang/phuc-bao-bi-bo-roi.html",
+    type: "cotrang",
+    desc: `Khi xưa, cha mẹ nuôi của ta vô cùng nghèo túng, về sau lại bất ngờ phất lên vô cùng giàu có.
+
+Đến khi sinh được con trai, họ bèn nhẫn tâm bỏ rơi ta.
+
+Ta lưu lạc nơi góc phố xó chợ, may mắn gặp được một đôi phu phụ lương thiện cưu mang, đưa về nhà chăm sóc.
+
+Dù gia cảnh họ vô cùng túng thiếu, nhưng đối đãi với ta hết sức chân thành và chu đáo.
+
+Thực ra, ta chính là một con cá chép may mắn mang lại điềm lành cho những người xung quanh.
+
+Ai đối xử tốt với ta, phúc lộc của người đó sẽ càng thêm dồi dào.
+`
+  },{
+    id: 1034,
+    title: "Tôi Nuôi Nữ Chính Truyện H Thành Võ Sĩ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2c6fbacfef3d367888c0d4bd8ba116d5.jpg",
+    link: "ngontinh/toi-nuoi-nu-chinh-truyen-h-thanh-vo-si.html",
+    type: "ngontinh",
+    desc: `Xuyên vào thân phận mẹ của nữ chính trong một bộ truyện H, tôi cho con bé theo học Muay Thái, Boxing lẫn Vịnh Xuân Quyền.
+
+Mười năm sau, nam chính nhếch môi cười đầy toan tính: “Lạt mềm buộc chặt nhỉ?”
+
+Nữ chính chỉ cần một đòn phản thủ khóa tay là quật hắn xuống đất, rồi cười lạnh: “Buộc thế này à?”
+`
+  },{
+    id: 1035,
+    title: "Dưới Lớp Áo Chỉnh Tề",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1dae9b060fe0126dbd6d553ec92881de.jpg",
+    link: "dammy/duoi-lop-ao-chinh-te.html",
+    type: "dammy",
+    desc: `Tôi là thư ký cho một đại ca xã hội đen.
+
+Đại ca thích giương vây múa võ, tôi là người đi dọn dẹp hậu quả. Đại ca dẫn người đi thanh trừng, người đứng ra xử lý êm đẹp vẫn luôn là tôi. Đến cả chuyện cháu trai đại ca vướng vào yêu đương đồng giới mẹ kiếp, rốt cuộc vẫn đến lượt tôi phải thu dọn tàn cuộc.
+
+Nhiều năm sau, đại ca từ nước ngoài gọi điện về thăm hỏi tình hình con trai:
+"Thằng bé giờ lớn rồi nhỉ?"
+
+Tôi hơi cúi đầu, trầm ngâm suy nghĩ: "Khá là lớn."
+
+"Nó ăn uống có tốt không?"
+
+Tôi vươn tay túm lấy cái đầu đang dụi loạn trên ngực mình, khẽ cười lạnh một tiếng: "Tốt lắm."
+`
+  },{
+    id: 1036,
+    title: "Vạch Mặt Kẻ Lừa Tình Cướp Tài Sản",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/73bb6395141d19c3653b8e6f5de8f761.jpg",
+    link: "cotrang/vach-mat-ke-lua-tinh-cuop-tai-san.html",
+    type: "cotrang",
+    desc: `Phu quân của ta lừa sạch gia sản, lại còn bán ta vào thanh lâu, đày đọa ta đến tận cùng nhục nhã. Khi ta sắp trút hơi thở cuối cùng, hắn mới nở nụ cười lạnh lẽo, thốt ra sự thật nghiệt ngã: “Năm đó, trên đường nàng đi chùa cầu phúc gặp phải sơn tặc, được ta ra tay cứu giúp nên mới đem lòng yêu ta sâu nặng. Nhưng nàng có biết không, đám sơn tặc ấy chính là huynh đệ kết nghĩa của ta?”
+
+Thì ra từ đầu đến cuối, ta chỉ là một trò cười cho kẻ khác.
+
+Uất hận ngập tràn, ta lao đầu vào cột tự sát. Nào ngờ khi mở mắt ra, ta phát hiện mình đã trọng sinh, quay về đúng ngày tương phùng vị tiểu tướng quân thanh mai trúc mã sau nhiều năm xa cách.
+
+Hắn có nhiệm vụ hộ tống ta lên chùa cầu phúc.
+
+Kiếp trước, ta thẳng thừng từ chối ý tốt của hắn. Nhưng kiếp này, ta lại nhìn hắn bằng ánh mắt rực lửa:
+
+“Xin tướng quân mang thêm nhiều binh mã. Nếu lỡ gặp sơn tặc, nhất định phải bắt sống toàn bộ.”
+`
+  },{
+    id: 1037,
+    title: "Anh Muốn Em Ở Lại",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f58f9a9ec640b3f7f7042b5697f578be.jpg",
+    link: "ngontinh/anh-muon-em-o-lai.html",
+    type: "ngontinh",
+    desc: `Xuyên thành người vợ đầu của nhân vật phản diện bệnh kiều, giờ tôi đang hơi hoảng loạn.
+
+Lúc đầu thì chưa. Tôi chỉ cần làm đúng theo kịch bản là có thể rời khỏi nhà tên phản diện mà không bị mất tay mất chân. Theo cốt truyện, về sau hắn sẽ quay sang theo đuổi nữ chính, người vốn là bạch nguyệt quang trong lòng hắn. Chỉ cần chịu đựng đủ ba năm, hết ba năm chúng tôi sẽ ly hôn.
+
+Vậy mà lúc này, nhìn que thử thai trong tay, tôi chỉ muốn chọc thủng hai lỗ trên nó cho hả giận.
+
+Mẹ kiếp, mới có một năm thôi, sao tôi đã có con rồi?!
+`
+  },{
+    id: 1038,
+    title: "Alpha Yếu Đuối Chạy Trốn Khỏi Vòng Omega",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c1f164a10144bf3d2caf25a6acb9c6d8.jpg",
+    link: "dammy/alpha-yeu-duoi-chay-tron-khoi-vong-omega.html",
+    type: "dammy",
+    desc: `Xuyên vào thế giới ABO, tôi được hệ thống cho chọn giữa hai thân phận: một Alpha yếu đuối vô dụng, hoặc một Omega sở hữu sức mạnh vượt trội. Vốn sùng bái sức mạnh tuyệt đối, tôi chẳng chút do dự nào mà vỗ ngực chọn ngay Omega.
+
+Ai ngờ ngay sau đó, hệ thống liền cất giọng cảnh báo: [Cưng ơi, thân phận nào cũng có tác dụng phụ đi kèm đấy nhé. Alpha hay Omega gì thì hương pheromone đặc trưng trên người cậu cũng đều mang sức quyến rũ chết người đối với tất cả mọi người...]
+
+Nghe tới đó, tôi hoảng hồn giáng thẳng một cú lên nút chọn Alpha, bởi chỉ nghĩ đến chuyện bản thân bị cuốn vào mấy kịch bản cưỡng ép yêu đương cũ rích là tôi đã thấy sợ.
+
+Vậy mà rồi đến một ngày nọ, vẫn có kẻ ép sát tôi vào tường, bàn tay thon dài khẽ lướt qua ngực tôi, giọng thủ thỉ: “Anh à, nếu anh không muốn đánh dấu em, hay là để em đánh dấu anh vĩnh viễn nhé?”
+`
+  },{
+    id: 1039,
+    title: "Xuyên Không Cùng Bạn Thân Người Làm Thái Tử Kẻ Làm Thái Giám",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a8b3b249b9e5b9d765a86dcf60404402.jpg",
+    link: "cotrang/xuyen-khong-cung-ban-than-ke-lam-thai-tu-nguoi-lam-thai-giam.html",
+    type: "cotrang",
+    desc: `Ta cùng cô bạn thân Giang Ninh, hai người cùng lúc xuyên không đến nơi này.
+
+Nàng ấy xuyên thành Thái tử.
+
+Còn ta cũng chẳng thua kém là bao, xuyên thẳng vào thân phận của một tên thái giám.
+
+Bạn thân ta vung tay rất hào phóng, hứa sau này sẽ để ta cùng hưởng vinh hoa phú quý với nàng ấy.
+
+Ta vốn không tham đến thế, chỉ lắc đầu đáp: “Ta chỉ muốn sang Dưỡng Cực Điện làm việc thôi.”
+
+Giang Ninh gật đầu đồng ý ngay.
+
+Ai ngờ mới ba ngày sau, ta đã bị thống lĩnh cấm quân Lục Phong Nhiên đỏ mặt tía tai, xách cổ áo lôi xềnh xệch đến trước mặt Giang Ninh.
+
+Giang Ninh mặt đen như đáy nồi, nghiêm giọng chất vấn ta: “Cậu đã bao giờ nói với tớ Dưỡng Cực Điện thực ra là một cái nhà tắm to đùng chưa hả?!”
+`
   },
 
 
