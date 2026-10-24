@@ -795,7 +795,7 @@ function showFacebookAdStep(type, titleText, progressText, instructionHtml, url)
     const progress = document.getElementById("facebookAdsProgress");
 
     if (title) {
-        title.textContent = titleText;
+        title.innerHTML = titleText;
     }
 
     if (progress) {
@@ -833,7 +833,7 @@ function openShopeeAd() {
 
     showFacebookAdStep(
         "shopee",
-        "Quảng cáo Shopee",
+        "Quảng cáo Shopee <br> Vui lòng nhấn thẳng vào LINK",
         "Bước 1/2 — Hãy mở quảng cáo và ở lại ít nhất 3 giây rồi quay lại",
         '👉 <strong>Hãy mở quảng cáo Shopee và ở lại ít nhất 3 giây rồi quay lại đây.</strong><br>' +
         'Đây là bước 1/2. Sau khi quay lại, hệ thống sẽ kiểm tra thời gian.',
@@ -845,7 +845,7 @@ function openShopeeFoodAd() {
 
     showFacebookAdStep(
         "shopeefood",
-        "Quảng cáo ShopeeFood",
+        "Quảng cáo ShopeeFood <br> Vui lòng nhấn thẳng vào LINK",
         "Bước 2/2 — Hãy mở quảng cáo rồi quay lại",
         '👉 <strong>Hãy mở quảng cáo ShopeeFood rồi quay lại đây.</strong><br>' +
         'Đây là bước 2/2. Sau khi quay lại, hệ thống sẽ kiểm tra và hoàn tất.',
