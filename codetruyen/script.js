@@ -63,7 +63,7 @@ const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
    CẤU HÌNH
 ========================================================= */
 
-const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 2000;
+const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 1500;
 const FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME = 0;
 
 /* Đọc đủ 10 phút (tính bằng giây) thì mới kích hoạt link TikTok/Lazada */
