@@ -21338,6 +21338,199 @@ Ai ngờ mới ba ngày sau, ta đã bị thống lĩnh cấm quân Lục Phong 
 
 Giang Ninh mặt đen như đáy nồi, nghiêm giọng chất vấn ta: “Cậu đã bao giờ nói với tớ Dưỡng Cực Điện thực ra là một cái nhà tắm to đùng chưa hả?!”
 `
+  },{
+    id: 1040,
+    title: "Cơn Đói Của Mị Ma Nhỏ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47316e9d7e1cad91d6502f748419fad1.jpg",
+    link: "ngontinh/con-doi-cua-mi-ma-nho.html",
+    type: "ngontinh",
+    desc: `Vừa bước qua ngưỡng cửa trưởng thành, cơ thể tôi đã thức tỉnh, và từ đó tôi chính thức trở thành một mị ma. 
+
+Người bạn trúc mã lớn lên cùng tôi từ thuở nhỏ có ký khế ước chủ tớ với tôi, vậy mà hắn keo kiệt đến mức chưa một lần cho tôi ăn tử tế. 
+
+Rồi đến một đêm khuya, khi cơn đói cào xé đến tận ruột gan không thể chịu nổi nữa, tôi quyết định lẻn lên giường hắn.
+
+“Thẩm Hoài, tôi đói......”
+
+Hắn thô bạo hất tôi ra, đẩy mạnh đến mức lưng tôi đập vào bức tường lạnh ngắt, và trong giọng nói của hắn chất đầy sự bực bội lẫn giận dữ:
+
+“Cậu không tự kiềm chế được à? Đừng có hành xử y như một con thú như thế.”
+
+Nói xong, hắn dọn ra ngoài trọ, bỏ mặc tôi bị nhốt lại trong căn phòng ký túc xá trống trải. Nhưng hắn tuyệt nhiên không thể ngờ tới rằng, ngay trong đêm hôm ấy, người bạn cùng phòng vốn tính khí khó chịu của hắn lại đột ngột quay về phòng.
+
+“Lại đây, anh cho em ăn.”`
+  },{
+    id: 1041,
+    title: "Cắt Đứt Tình Bạn Đào Mỏ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ddc565bdf2520ff9bc020b1c37048390.jpg",
+    link: "dammy/cat-dut-tinh-ban-dao-mo.html",
+    type: "dammy",
+    desc: `Tôi đã đọc mười năm Thẩm Luật, từng bước giúp hắn trèo lên ghế quản lý cấp cao tại tập đoàn Tần thị.
+
+Thế nhưng, chính bàn tay hắn lại ra tay đập tan doanh nghiệp của gia đình tôi, thậm chí còn đẩy tôi vào chốn tù Tày.
+
+“Điều tởm lợm nhất trong cuộc đời tôi là từng làm bạn với một kẻ đồng tính.”
+
+Chỉ đến những giây phút cuối cùng, tôi mới bàng hoàng nhận ra Thẩm Luật oán giận tôi bởi năm xưa tôi từng xua đuổi người đàn bà đào mỏ đã dụ dỗ, kéo hắn vào đường lầm lỡ.
+
+Trong mắt hắn, tôi là kẻ vì ích kỷ cá nhân mà cố tình chia rẽ duyên nợ của họ.
+
+Bởi vậy, ngay khi mở mắt hồi sinh, tôi dứt khoát chúc hai người họ gắn bó bên nhau trọn đời trọn kiếp.
+
+Xoay người lại, tôi gom toàn bộ số tiền trước kia từng hoang phí để đuổi theo Thẩm Luật, ném hết vào tay vị đàn anh nghèo đang chật vật gây dựng sự nghiệp.
+
+Nào ngờ sau đó, Thẩm Luật lại kiên trì đập cửa nhà tôi suốt cả đêm dài.
+
+“Tần Thâm! Giờ tôi sẵn sàng thử bắt đầu với cậu rồi đây!”
+
+Phong Thời đứng sát ngay sau lưng tôi, vươn tay ra dứt khoát sập mạnh cánh cửa lại.
+
+“Rất tiếc. Hiện tại, từ con người cho đến tài sản của em ấy, đều thuộc quyền quản lý của tôi.”
+`
+  },{
+    id: 1042,
+    title: "Giả Ngốc Một Đời Để Trả Thù Cho Trưởng Tỷ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fe5d4ee6e31be6f4b669b111a6539771.jpg",
+    link: "cotrang/gia-ngo-mot-doi-de-tra-thu-cho-truong-ty.html",
+    type: "cotrang",
+    desc: `Ta vốn là một kẻ lừa đảo lăn lộn khắp chốn giang hồ. Chỉ vì hai lượng bạc, ta đã giả làm Nhị tiểu thư đã mất của Đô đốc phủ, rụt rè cất tiếng gọi Lục Yểu Yểu một câu trưởng tỷ. Ai ngờ nàng ấy thật sự đón ta vào phủ, đối đãi với ta như muội muội ruột thịt, hết mực thương yêu.
+
+Suốt hai năm trời, ngày nào nàng cũng tận tâm dạy ta lục nghệ bát nhã, tứ tu ngũ đức, trước sau vẫn như một.
+
+Thế mà rồi nàng ấy chết.
+
+Lúc thi thể được khiêng ra khỏi cung, toàn thân đã thối rữa, giòi bọ bò đầy người. Cả thai nhi vừa thành hình trong bụng nàng cũng bị hạ độc đến biến dạng.
+
+Ta tự nhốt mình trong linh đường, ngồi thẫn thờ suốt một đêm.
+
+Sáng hôm sau, hoàng cung có thêm một cung nữ bình thường, chẳng có gì nổi bật.
+`
+  },{
+    id: 1043,
+    title: "Kẻ Vô Hiệu Gian Lận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/610057d1eba5bca420c06d799f7f7d15.jpg",
+    link: "ngontinh/ke-vo-hieu-gian-lan.html",
+    type: "ngontinh",
+    desc: `Trước kỳ thi đại học, tôi mơ thấy tương lai của mình.
+
+Cố Kiều An, đứa em gái sống nương tựa cùng tôi bấy lâu, bị một bạn cùng lớp hoán đổi kết quả thi, cướp mất suất tuyển thẳng, thậm chí đến cả đơn đăng ký nguyện vọng cũng bị chỉnh sửa chỉ trong một đêm.
+
+Cuối tháng 7 năm đó, em ôm lá thư tuyệt mệnh nhảy xuống từ sân thượng. Nhưng dư luận nhanh chóng bị dập tắt chỉ sau ba ngày, hoàn toàn rơi vào im lặng.
+
+Tới tận lúc ấy tôi mới biết, những kẻ như vậy được che chở bởi một thứ gọi là "hệ thống". Bắt bài trước, thay đổi điểm số, chỉnh sửa nguyện vọng, những việc con người không thể làm nổi thì nó lại thực hiện dễ như trở bàn tay.
+
+Thời điểm tỉnh dậy, tôi phát hiện bản thân đã trói định với một hệ thống vô danh.
+
+“Đây là số phận nguyên bản của hai người. Bạn có cần sự giúp đỡ của tôi không?”
+
+“Cậu có thể thay đổi điểm thi đại học sao?”
+
+“Không thể.”
+
+“Cậu có thể cho tôi quyền lực và sự giàu có?”
+
+“Không thể.”
+
+“Cậu có thể sửa lại nguyện vọng?”
+
+“Rất tiếc, cũng không thể.”
+
+Tôi bật cười: “Vậy cậu làm được gì?”
+
+“Tôi có thể khiến tất cả những năng lực trên biến mất trong phạm vi của mình. Gian lận vô hiệu, đặc quyền bị cấm.”
+`
+  },{
+    id: 1044,
+    title: "Mùi Thơm Của Bạn Cùng Phòng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/31c78049871d54df6a319d35509fbc2d.jpg",
+    link: "dammy/mui-thom-cua-ban-cung-phong.html",
+    type: "dammy",
+    desc: `Muốn biết rốt cuộc là đứa nào lén dùng ké nước giặt của mình, tôi quyết định đem mũi đi kiểm tra từng bộ đồ của mấy thằng bạn cùng phòng.
+
+Đúng lúc Sở Từ đẩy cửa bước vào, tôi đang cúi sát mũi, cẩn thận hít hà chiếc quần lót của cậu ta.
+
+“Sở cẩu, có phải cậu không đấy?”
+
+Vậy mà cậu ta chẳng những không hề hoảng hốt, lại còn hăng hái tháo phăng thắt lưng ra: “Mẹ nó, anh em không nói sớm! Tôi chờ cậu đến dài cả cổ rồi đây này!”
+
+Dứt lời, cậu ta ấn đầu tôi xuống, trong mắt lóe lên vẻ hoang dã như con sói vừa chộp được mồi: “Lại đây mau!”
+`
+  },{
+    id: 1045,
+    title: "Trạng Nguyên Hưu Thê Ta Tái Giá Hầu Môn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9bd64694d96e4d12789493c11ab35a37.jpg",
+    link: "cotrang/trang-nguyen-huu-the-ta-tai-gia-hau-mon.html",
+    type: "cotrang",
+    desc: `Sau khi đỗ Trạng nguyên, việc đầu tiên Lục Tướng làm chính là bỏ vợ.
+
+“Nàng họ Thẩm vốn là người hiền đức, nhưng lại quá đỗi tẻ nhạt.”
+
+Sau đó, hắn cưới một kỹ nữ chốn phong trần, còn ta gả cho một vị công tử ăn chơi chác táng.
+
+Lục Tướng luôn nghĩ ta vì hờn giận nên mới nhắm mắt lấy một kẻ ngông cuồng, không nghề không nghiệp. Hắn tin rằng một nữ tử gia giáo, coi trọng nữ đức như ta, thế nào cũng bị tên phu quân phóng túng ấy chán ghét rồi ruồng bỏ.
+
+Thế nhưng nửa năm trôi qua, ngày ta bị phu quân đuổi khỏi cửa vẫn chẳng thấy đâu.
+
+Lục Tướng không kìm được, đành tự mình đến tìm ta. Khi ấy, ta đang cầm thước gõ nhè nhẹ lên đầu phu quân, giọng vừa bất lực vừa trách hờn:
+
+“Phu tử giảng đến lần thứ ba rồi, chàng vẫn chưa hiểu sao?”
+
+Tên phu quân kia lại chẳng hề bận lòng, vươn tay kéo ta vào lòng rồi cười đùa vô lại:
+
+“Không hiểu, ta chỉ muốn hôn nương tử thôi.”
+`
+  },{
+    id: 1046,
+    title: "Cùng Bạn Trai Trọng Sinh Về Mười Năm Trước",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a7e7ebb9479571e91b31a7df69b21fa7.jpg",
+    link: "ngontinh/cung-ban-trai-trong-sinh-ve-muoi-nam-truoc.html",
+    type: "ngontinh",
+    desc: `Bạn trai tôi vừa thút thít vừa sụt sùi: “Giá mà anh gặp em sớm hơn thì tốt biết bao.”
+
+Sau một giấc ngủ, tôi quay ngược thời gian trở về mười năm trước. Khi ấy tôi mới học lớp bốn, còn anh đã là sinh viên năm hai đại học.
+
+Cả hai cùng tham gia một chương trình thực tế dành cho cha mẹ và con cái. Anh là đứa con ngỗ ngược của nữ ảnh hậu tên tuổi, còn tôi lại là đứa con gái đố kỵ của kẻ bị coi là đối thủ không đội trời chung với mẹ anh.
+
+Cư dân mạng liên tục để lại bình luận: [Cả ma cà rồng lớn lẫn ma cà rồng nhỏ mau cút khỏi giới giải trí đi!]
+
+Nữ ảnh hậu đành lên tiếng đáp lại: [Đừng mắng nữa, mọi người mà mắng tiếp thì con trai tôi không cưới nổi vợ mất.]
+`
+  },{
+    id: 1047,
+    title: "Chiếm Hữu Tuyệt Đối",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a5658d6025e24a5da1927cc327a045d5.jpg",
+    link: "dammy/chiem-huu-tuyet-doi.html",
+    type: "dammy",
+    desc: `Thì ra bạn cùng phòng chỉ chịu chơi với mỗi mình tôi.
+
+Cứ tưởng bản thân giấu giếm rất kỹ, chẳng ngờ cũng có ngày bị cậu ấy bắt quả tang ngay tại trận.
+
+Tôi cuống quýt tìm lời giải thích:
+
+“Tôi thấy mấy người đó cứ làm phiền cậu mãi nên mới giúp cậu chặn hết. Cậu không cần cảm ơn đâu! Sau này nếu muốn chơi thì cậu cứ chơi với một mình tôi là được rồi.”
+
+Thế nhưng Hằng Thường lại ép chặt tôi vào tường. Cậu ấy cúi đầu cắn nhẹ lên vành tai tôi, cất giọng trầm thấp:
+
+“Cậu đã không muốn tôi chơi với người khác, vậy thì từ nay tôi đành phải chơi với một mình cậu thôi.”
+`
+  },{
+    id: 1048,
+    title: "Kẻ Định Hãm Hại Ta Cuối Cùng Phải Quỳ Gối",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/93e40fa9d1bf7a46fcbad5edc1cde4f6.jpg",
+    link: "cotrang/ke-dinh-ham-hai-ta-cuoi-cung-phai-quy-goi.html",
+    type: "cotrang",
+    desc: `Ngày tôi được sắc phong làm Thái tử phi, có kẻ ngầm ra tay hãm hại, đẩy tôi rơi xuống nước.
+
+Tôi biết rõ các tiểu thư quyền quý trong kinh thành đều coi thường mình. Họ xuất thân cao sang, tài sắc vẹn toàn.
+
+Trong mắt họ, tôi chỉ là một con nha đầu bán hoành thánh ở chốn thôn quê, làm sao xứng đứng cạnh Thái tử, người rực rỡ như sao trên trời.
+
+Cả kinh thành, kẻ kín đáo người công khai, ai nấy đều chực chờ xem tôi thành trò cười.
+
+Tiếc là họ đã tính sai. Kẻ cam chịu làm chim hoàng yến ngoan ngoãn trong lồng son ấy, không phải là tôi.
+
+Từ trước đến nay, tôi chưa bao giờ dễ bắt nạt như họ tưởng.
+`
   },
 
 
