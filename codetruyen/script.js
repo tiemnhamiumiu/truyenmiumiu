@@ -11,11 +11,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/photo/?fbid=122128805727467824&set=pcb.122128805853467824"
+        url: "https://www.facebook.com/photo/?fbid=122129719137467824&set=pcb.122129719281467824"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/photo/?fbid=122128806093467824&set=pcb.122128806279467824"
+        url: "https://www.facebook.com/photo?fbid=122128806093467824&set=pcb.122128806279467824"
     }
 };
 
@@ -49,7 +49,7 @@ const FACEBOOK_CLICK_ZONE = {
    LINK REDIRECT (mở lần lượt: TikTok -> Lazada)
 ========================================================= */
 
-const TIKTOK_URL = "https://www.tiktok.com/t/ZSgywCoKG/";
+const TIKTOK_URL = "https://www.tiktok.com/t/ZSgCkSCJF/";
 const LAZADA_URL = "";
 
 /* =========================================================

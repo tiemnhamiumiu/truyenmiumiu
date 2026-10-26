@@ -21531,6 +21531,224 @@ Tiếc là họ đã tính sai. Kẻ cam chịu làm chim hoàng yến ngoan ngo
 
 Từ trước đến nay, tôi chưa bao giờ dễ bắt nạt như họ tưởng.
 `
+  },{
+    id: 1049,
+    title: "Bắc Đại Mùa Hạ Ấy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3669a2df7bd28a609491aae622d157ab.jpg",
+    link: "ngontinh/bac-dai-mua-ha-ay.html",
+    type: "ngontinh",
+    desc: `Vừa có kết quả thi đại học, tôi cay đắng nhận ra mình chỉ còn thiếu đúng 3 điểm nữa là đủ điều kiện vào Bắc Đại. Trái lại, gã bạn trai của tôi lại xuất sắc có tên trong top 3 toàn tỉnh.
+
+Ngay đêm hôm đó, đại diện tuyển sinh của hai ngôi trường danh giá là Thanh Hoa và Bắc Đại đã hối hả tìm đến tận nhà hắn để giành giật nhân tài.
+
+Đang giữa buổi trò chuyện, hắn bất ngờ lên tiếng hỏi: “Thầy cô có thể cho phép tôi đưa bạn gái đi cùng được không ạ?”
+
+Lúc ấy tôi đang ngồi trước màn hình xem livestream, trong lòng háo hức vô cùng.
+
+Nhưng chỉ một giây sau, tôi sững sờ nhìn hắn vươn tay kéo từ phía sau ra một cô gái, rồi dõng dạc tuyên bố: “Chúng tôi sẽ cùng nhau dắt tay vào đại học.”
+
+Cái trò gì đang diễn ra thế này? Vậy rốt cuộc ai mới là bạn gái của hắn đây?
+
+Ngay lúc đó, anh chàng thủ khoa toàn tỉnh đang đứng bên cạnh khẽ bật cười nhạt, thản nhiên nói: “Còn tôi thì muốn cùng bạn gái cũ của cậu ấy vào Thanh Hoa.”
+
+Mọi chuyện xảy ra quá đột ngột, tôi sốc nặng đến mức ngất xỉu ngay tại chỗ.
+`
+  },{
+    id: 1050,
+    title: "Bảo Mẫu Vạn Năng Của Tổng Tài Ngạo Kiều",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/78cd17d38dadc0c4541217c9a4ef7566.jpg",
+    link: "dammy/bao-mau-van-nang-cua-tong-tai-ngao-kieu.html",
+    type: "dammy",
+    desc: `Tôi là một sinh viên thể thao, sở hữu thân hình cơ bắp cuồn cuộn.
+
+Tốt nghiệp xong thì túng tiền, nên tôi đành nhận làm bảo mẫu nam cho Lục Hạc Xuyên, người từng ở chung phòng với tôi hồi đại học.
+
+Vị thiếu gia này mắc chứng “bệnh công chúa” nặng đến mức hết thuốc chữa, nặng đến mức người bình thường khó mà chịu nổi.
+
+Khi thì hắn chê sàn nhà không sạch, bắt tôi phải quỳ xuống lau lại bằng khăn. Khi thì hắn than giường quá cứng, tối nào cũng mò sang nằm sấp lên người tôi mà ngủ, thậm chí còn đòi... mút nữa chứ.
+
+Cứ thế cày cuốc vất vả suốt nửa năm trời, đến lúc này tôi mới được nghỉ phép trước Tết.
+
+Cuối cùng cũng có được kỳ nghỉ này.
+
+Đúng lúc ấy, thiếu gia lại chợt nhớ ra tôi, liền gọi điện tới để kiểm tra:
+
+“Cậu đang làm gì đấy?”
+
+Tôi chẳng nghĩ ngợi gì, chỉ biết thật thà đáp lại:
+
+“Tôi đang nhồi lạp xưởng.”
+
+Ở đầu dây bên kia, nhịp thở của hắn bỗng trở nên dồn dập và nặng nề hẳn lên. Tôi còn nghe rõ cả một tiếng nuốt nước bọt.
+
+“Tôi qua giúp cậu.”
+
+Thiếu gia nhà giàu mà cũng biết làm việc này sao?
+
+Tôi thật sự không nghĩ tới.
+
+Tôi còn chưa kịp mở miệng từ chối thì tiếng động cơ xe nổ máy đã vang lên từ phía bên kia điện thoại.
+
+Tôi ngơ ngác đứng đó, nhìn khúc lạp xưởng vừa nhồi xong còn đang cầm trên tay mà chưa kịp hiểu chuyện gì đang xảy ra.
+
+Thèm ăn đến mức này cơ à?
+
+Chẳng lẽ nhà giàu mỗi dịp trước Tết lại không tự làm lạp xưởng rồi đem phơi khô hay sao?`
+  },{
+    id: 1051,
+    title: "Mộng Yến Ngày Xuân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/38c51311880f58a6153cd9771672d08a.jpg",
+    link: "cotrang/mong-yen-ngay-xuan.html",
+    type: "cotrang",
+    desc: `Ta thay thế tỷ tỷ gả cho Cảnh Hành một vị quyền thần mang tiếng ác khắp kinh thành. Tỷ tỷ là đích nữ, được cả nhà cưng chiều hết mực, nhưng lại là một người câm.
+
+Vì vậy, ta cũng chỉ có thể giả làm người câm.
+
+Đêm tân hôn, ta ở trong phòng đợi đến khi sắp ngủ thiếp đi, cuối cùng mới có người đẩy cửa bước vào. Khăn voan đỏ trên đầu ta được vén lên.
+
+Ngẩng đầu nhìn, ta thấy một khuôn mặt đẹp đến mức không thể tin nổi. Ta suýt nữa thì thốt lên: “Đẹp quá!”, nhưng đột nhiên nhớ ra thân phận hiện tại của mình.
+
+À phải rồi, bây giờ ta là một người câm.
+
+Thế là ta chỉ đành ngây ngốc nhìn hắn, cố gắng dùng ánh mắt để truyền đạt những suy nghĩ trong lòng.
+
+Cảnh Hành khẽ nhếch khóe môi, đưa tay nâng cằm ta lên, như đang cẩn thận quan sát: “Nghe nói phu nhân ba năm trước từng bị một trận ốm nặng, giờ không nói chuyện được nữa. Xem ra, cũng không kêu được chữ ‘đau’ rồi phải không?”
+
+Ta lập tức hoảng sợ. Hắn nổi tiếng tàn ác, chắc không có sở thích kỳ quái nào đâu nhỉ?
+
+Đang suy nghĩ, hắn bỗng cười khẽ rồi nói tiếp: “Nhưng ta nghe nói, cho dù là người câm, ít nhất cũng có thể phát ra một số âm thanh nhỏ.”
+
+Sau khi tỷ tỷ trở thành người câm, ta chỉ gặp nàng một lần trước khi gả đi, cũng không biết rõ tỷ ấy phát ra âm thanh như thế nào.
+
+Nghe Cảnh Hành nói vậy, ta liền tin là thật, bèn ừ ừ hai tiếng. Hắn đột nhiên cười rộ lên, đôi mắt long lanh như chiếc chén lưu ly phản chiếu ánh sáng, nhìn ta với ánh mắt đầy tình ý.
+
+Hắn cúi đầu hôn ta, thì thầm: “Như vậy cũng đủ rồi.”
+
+Gương mặt ta bỗng chốc đỏ bừng.`
+  },{
+    id: 1052,
+    title: "Xuyên Thành Thế Thân Cùng Bạn Thân Ôm Tiền Trốn Chạy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/81ecdb43f0f0d7ea8ba68e35401bdb13.jpg",
+    link: "ngontinh/xuyen-thanh-the-than-cung-ban-than-om-tien-tron-chay.html",
+    type: "ngontinh",
+    desc: `Tôi và cô bạn thân đều là người đã xuyên vào một thế giới tiểu thuyết. 
+
+Cô ấy mang thân phận kẻ si tình mù quáng, bám riết lấy nam chính phúc hắc Cố Bách Xuyên, còn tôi thì đóng vai thế thân cho tên phản diện bệnh kiều Trì Vọng. 
+
+Ngoài mặt, hai đứa lúc nào cũng làm ra vẻ hờ hững, thậm chí đấu đá lẫn nhau, nhưng sau lưng lại hùa nhau tiêu tiền như nước. 
+
+Ba năm vung tay quá trán trôi qua, nữ chính bạch nguyệt quang thực sự rốt cuộc cũng đường hoàng quay về với cốt truyện. 
+
+Nghe tin nam phụ lẫn phản diện sắp vì cô ta mà si mê đến phát cuồng, vào một đêm muộn, cô bạn thân đeo chiếc túi nhỏ đến gõ cửa phòng tôi: “Tớ gom đủ tiền rồi, còn cậu thì sao, Hạ Nhan?”
+
+Tôi thành thật đáp: “Tớ vẫn thiếu một chút, nhưng không sao, tớ tiêu tiền của cậu được mà.”
+
+Thế là hai đứa chúng tôi bàn bạc với nhau, cùng bày ra một màn giả chết để có thể trốn chạy khỏi nơi này. Ba năm sau đó, bạn thân tôi không may chạm mặt chồng cũ ở một góc phố. Tôi hốt hoảng gọi với theo: “Để tớ ở lại câu giờ, cậu mau chạy đi!”
+
+Vậy mà vừa quay đầu, tôi đã đâm sầm vào một lồng ngực rắn chắc quen thuộc. Trì Vọng chẳng hề luống cuống hay ngạc nhiên, hắn điềm tĩnh gỡ chiếc cà vạt trên cổ xuống, rồi trói tay tôi ra sau lưng.
+
+Hắn ghé sát xuống, giọng trầm trầm: “Hạ Nhan, lo cho bản thân em trước đi, rồi hẵng nghĩ đến chuyện giúp người khác.”
+`
+  },{
+    id: 1053,
+    title: "Trốn Cưới Chạm Mặt Oan Gia",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9efc44961a183f5b7af5556c714ffa36.jpg",
+    link: "dammy/tron-cuoi-cham-mat-oan-gia.html",
+    type: "dammy",
+    desc: `Vào ngày diễn ra hôn lễ, tôi lén bỏ trốn, hớt hải mua đại tấm vé của chuyến bay sớm nhất để ra nước ngoài.
+
+Nào ngờ người ngồi ngay cạnh tôi trên khoang máy bay lại cũng đang mặc nguyên bộ lễ phục chú rể. Nhìn bộ dạng ấy, tôi đoán có lẽ gã cũng vừa đào hôn giống hệt như mình, không sai đi đâu được.
+
+Tôi mỉm cười thân thiện chào hỏi gã, miệng cười rất tươi. Vậy mà thử nhìn nét mặt gã lúc ấy xem, trông chẳng khác nào vừa gặp ma giữa ban ngày ban mặt.
+`
+  },{
+    id: 1054,
+    title: "Trù Tính Nhân Duyên",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ef0934f390584e44d8547aee145a2241.jpg",
+    link: "cotrang/tru-tinh-nhan-duyen.html",
+    type: "cotrang",
+    desc: `Trưởng công chúa vậy mà lại muốn gả cho người nam nhân ta thích!
+
+Ta tức giận đến mức muốn đoạn tuyệt quan hệ với nàng.
+
+Công chúa nắm cằm ta, tức giận mắng: “Bổn công chúa sủng ái nàng mười năm, vậy mà còn không bằng một gã nam nhân bên ngoài kia!”
+
+“A Viên, nàng thật sự khiến ta đau lòng!”
+
+Ta không kìm được lòng, liền buột miệng nói: “Nếu người là nam nhân, ta sẽ không yêu ai khác, ta sẽ gả cho người!”
+
+Công chúa nghe vậy liền bật cười, nắm lấy tay ta đặt lên lồng ngực nàng.
+`
+  },{
+    id: 1055,
+    title: "Vực Thẳm Chiếm Hữu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cf84f2eb4e24f6dfd25e846d45fc50a4.jpg",
+    link: "ngontinh/vuc-tham-chiem-huu.html",
+    type: "ngontinh",
+    desc: `Khi tôi đề nghị chia tay, Lộ Chinh liền ép tôi sát vào tường còn tôi thì giãy giụa tìm cách thoát thân.
+
+“Sao, em không cho anh hôn à?”
+
+“Anh cút đi!”
+
+Bàn tay anh ta siết chặt lấy gáy tôi.
+
+“Vậy anh…”
+
+Trong mắt tôi, anh vẫn luôn là một người bạn trai hoàn hảo không tì vết.
+
+Anh trẻ tuổi, gia thế tốt, lịch thiệp lại ngoại hình sáng sủa, hoàn toàn không có thói trăng hoa và luôn đối xử với tôi vô cùng chu đáo, dịu dàng.
+
+Chỉ đến tận đêm trước ngày đính hôn, tôi mới vô tình phát hiện ra thuở niên thiếu anh từng là kiểu người mà tôi chán ghét nhất.
+
+Hồi đó, anh hiền lành, ít nói, trong ánh mắt nhìn người khác luôn âm ỉ một ngọn lửa khó hiểu cùng nụ cười kỳ quái lạ lùng.
+
+Chưa kể, dưới đáy chiếc thùng kín của anh lại cất giấu bức ảnh của người bạn trai cũ đã khuất của tôi.
+`
+  },{
+    id: 1056,
+    title: "Đuôi Sói Sưởi Ấm Ngày Đông",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cc2f4743c6c21b51433f924abc9a411a.jpg",
+    link: "dammy/duoi-soi-suoi-am-ngay-dong.html",
+    type: "dammy",
+    desc: `Người tôi nhận nuôi là một nhân thú sói Séc, lúc nào cũng mặc cảm về bản thân và mang trong mình dị tật.
+
+Vào ngày đầu tiên đưa cậu ấy về, qua lớp kính ngăn cách, tôi đã bắt gặp cậu ấy đang ôm cái đuôi xù xù to đùng của mình để nghịch trong tay.
+
+Thân hình cậu ấy vạm vỡ khác thường, nếu đứng thẳng lên thì chắc phải cao gần tới hai mét. Nghe ông chủ nơi ấy kể lại, cậu ấy từng bị trường đấu thú thải ra, hai chân đã gãy gập và rất khó có thể hồi phục được như trước.
+
+Chỉ một thoáng ngắm nhìn ấy thôi, tôi đã quyết định đưa cậu ấy về nhà ngay tức khắc, không chần chừ thêm một giây nào.
+
+Cặp tai sói lông xù dựng trên đầu, cậu ấy ngồi thu mình trong chiếc xe lăn, cúi gằm mặt không dám ngẩng lên nhìn tôi.
+
+Thậm chí đến cả lúc quấn quýt cầu hoan bên tôi, trên gương mặt cậu ấy vẫn đầy vẻ dè dặt, như thể từng cử chỉ đều phải cân nhắc kỹ lưỡng rồi mới dám làm.
+
+Cậu ấy ngồi yên trên xe lăn, ánh mắt thoáng buồn khi nhìn xuống đôi chân mình: “Chân em không cử động được, em không làm được như những thú nhân khác đâu...”
+
+“Không sao cả.”
+
+Tôi chủ động trèo lên đùi cậu ấy, thì thầm: “Anh tự cử động là được.”
+`
+  },{
+    id: 1057,
+    title: "Vị Hôn Phu Giả Mù",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/244509ed6b6a6f0814708219e5a36d7e.jpg",
+    link: "cotrang/vi-hon-phu-gia-mu.html",
+    type: "cotrang",
+    desc: `Ta nhặt được một người mù bị mất trí nhớ. Chàng dung mạo quyến rũ, võ công lại cao cường.
+
+Thấy chàng lâm vào cảnh đường cùng, ta đành giữ chàng lại bên mình làm thị vệ.
+
+Đột nhiên Bệ hạ ban hôn, muốn ta gả cho đương kim Thủ phụ Tạ Tuần.
+
+Ngày cưới ngày một đến gần, ta tha thiết cầu xin người mù đưa mình rời khỏi kinh thành, nhưng lại bị chàng lạnh lùng từ chối: "Tiểu thư và Tạ Tuần là duyên do trời định, chẳng ai có thể chia rẽ hai người."
+
+Không còn cách nào khác, ta đành quay sang cầu xin người khác. Nhưng ngay trên đường bỏ trốn, ta lại bị người ta bắt trọn về Tạ phủ.
+
+Đứng trước mặt ta, người mù Tạ Tuần dùng ánh mắt u tối nhìn xoáy vào ta. Đôi mắt ấy rõ ràng chẳng hề mù chút nào, giọng nói chàng còn vương đôi phần buốt giá: "Ta đã nói rồi, không một ai có thể chia rẽ chúng ta."
+
+Ngón tay chàng nhẹ nhàng trượt dọc theo cổ ta: "Nàng đã chuẩn bị xong để nhận hình phạt của ta chưa?"
+`
   },
 
 
