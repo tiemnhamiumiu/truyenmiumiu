@@ -21749,6 +21749,167 @@ Không còn cách nào khác, ta đành quay sang cầu xin người khác. Như
 
 Ngón tay chàng nhẹ nhàng trượt dọc theo cổ ta: "Nàng đã chuẩn bị xong để nhận hình phạt của ta chưa?"
 `
+  },{
+    id: 1058,
+    title: "Kế Hoạch Báo Thù Hoàn Hảo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cc074e14306aa2c0802149ce7a89143a.jpg",
+    link: "ngontinh/ke-hoach-bao-thu-hoan-hao.html",
+    type: "ngontinh",
+    desc: `Trong buổi dạ hội kỷ niệm của trường, đoạn video ghi lại cảnh hoa khôi bắt nạt người khác đã được tôi chiếu công khai lên màn hình lớn.
+
+Sự thật bị phơi bày ngay trước mắt mọi người khiến cô hoa khôi, người xưa nay vẫn giữ hình tượng nữ sinh ngoan hiền, hoảng sợ đến mức ngã sụp xuống sàn.
+
+Vừa biết chuyện, người bố giàu có và quyền thế của cô ta lập tức ra tay đe dọa, buộc tôi phải thôi học. Chưa hết, ông ta còn gọi cả một nhóm côn đồ tới để dạy cho tôi một bài học.
+
+Nhưng kết cục lại đảo ngược hoàn toàn, khi bố tôi dẫn theo một dàn vệ sĩ áo đen cao lớn đến vây kín bọn chúng.
+
+Không ai trong số họ biết rằng, mọi diễn biến này đều nằm gọn trong kế hoạch tôi đã sắp đặt từ trước.
+`
+  },{
+    id: 1059,
+    title: "Nuông Chiều Thiếu Gia Giả",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5af903a5a4bc15e19152a0ab5165b1c5.jpg",
+    link: "dammy/nuong-chieu-thieu-gia-gia.html",
+    type: "dammy",
+    desc: `Hồi nhỏ, tôi vốn là đứa mít ướt có tiếng, hơi một tí là nước mắt đã chực trào. 
+
+Hễ thấy anh đi đâu là tôi lon ton chạy theo sau, giơ cả hai tay lên đòi ôm cho bằng được. 
+
+Mãi đến khi thân thế bị phơi bày, rằng tôi chỉ là kẻ mạo danh bị bỏ mặc trong một gia đình hào môn lạnh lẽo, cái thói làm nũng ấy mới bị tôi chôn chặt hẳn đi. 
+
+Vậy mà người anh lạnh như băng tuyết kia lại không ít lần kéo tôi vào lòng, ôm cho ấm người, nhất là những lúc tôi cắn chặt môi, run rẩy chịu đựng mà không dám bật thành tiếng.
+
+“Tiểu Khất, hôm nay sao không khóc nữa? Khóc to lên một chút đi, anh muốn nghe giọng em.”
+
+“Nếu thật sự chịu không nổi, hay là lần này anh nhường em ở trên nhé?”
+`
+  },{
+    id: 1060,
+    title: "Nữ Sơn Tặc Keo Kiệt Bỏ Tiền Chuộc Thế Tử",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/80830099825145b6b0552a7aab825ec0.jpg",
+    link: "cotrang/nu-son-tac-keo-kiet-bo-tien-chuoc-the-tu.html",
+    type: "cotrang",
+    desc: `Vị hôn phu cao quý của ta rốt cuộc cũng rơi vào cảnh xiềng xích đầy mình, nếm trải đủ mọi cay đắng.
+
+Hắn bị đánh đến điếc mất một bên tai, rồi bị người ta vứt giữa chốn đầu đường xó chợ, chẳng khác nào món hàng rẻ mạt đang chờ kẻ qua người lại mặc cả.
+
+Ta bước đến trước mặt hắn, cúi đầu nhìn một lúc lâu rồi khẽ hỏi: “Ta chọn đúng lúc này đến từ hôn, ngươi có nghĩ ta đang nhân lúc nhà ngươi gặp nạn mà đâm thêm một đao không?”
+
+Trời đất chứng giám!
+
+Mới hôm qua thôi, khi ta tìm đến vương phủ, hắn vẫn là vị Thế tử cao ngạo nổi danh, kiêu hãnh chẳng ai sánh bằng.
+
+Sao chỉ qua một đêm giông bão, hắn lại ra nông nỗi thê thảm thế này?
+
+Hắn mở to mắt, đón lấy ánh nhìn của ta bằng vẻ bình thản đến lạ.
+
+Sau lưng ta, tiếng xì xào bắt đầu rộ lên: “Rốt cuộc có mua hay không? Không mua thì tránh ra cho người khác xem với!”
+
+Đám tú bà khắp kinh thành lúc này đều nôn nóng chực chờ để được ngắm hắn. Cũng phải thôi, mua được một người như hắn về tay chẳng khác nào ôm trọn một mỏ vàng mỏ bạc.
+
+“Nhìn bộ dạng nghèo túng của cô nương kia kìa, chưa chắc đã gom đủ tiền mà mua nổi đâu!”
+
+Những lời miệt thị lọt vào tai khiến máu nóng trong ta bốc lên tận đầu.
+
+“Coi thường ai chứ! Người này, ta mua!”
+`
+  },{
+    id: 1061,
+    title: "Nữ Phụ Hào Môn Thức Tỉnh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c43ccc9613fd21de6df450b051d4b7df.jpg",
+    link: "ngontinh/nu-phu-hao-mon-thuc-tinh.html",
+    type: "ngontinh",
+    desc: `Tôi là nữ phụ nhà giàu, tính tình hống hách lại độc ác.
+
+Ngay ngày khai giảng đầu tiên, tôi đã vung tiền để bắt nam chính xách hành lý hộ mình.
+
+Chuyện ấy lập tức bị nữ chính lập tức bước ra lên tiếng chỉ trích, giọng điệu đầy vẻ chính nghĩa:
+
+“Bạn học này, phẩm giá của con người có giá trị hơn tiền bạc rất nhiều, sao cô lại có thể dùng tiền để hạ thấp và sỉ nhục người khác như vậy?”
+
+Đúng khoảnh khắc thức tỉnh, thứ đập vào mắt tôi là gương mặt đầy ghét bỏ của nam chính..
+
+Tôi chẳng buồn bận tâm. Quay sang vị đàn anh đang đứng hóng chuyện gần đó, tôi nói: “Em trả anh hai triệu, anh xách giúp em đống hành lý này xuống nhé.”
+
+Thấy vậy, nữ chính bất bình bước tới chặn đàn anh lại: “Đừng tưởng có chút tiền là cô muốn làm gì thì làm!”
+
+Anh học trưởng gạt tay cô ta ra rồi đáp: “Chị gái ơi, chị tránh sang một bên mà phát điên, đừng có cản đường kiếm tiền của tôi.”
+`
+  },{
+    id: 1062,
+    title: "Nam Thần Thể Dục Bám Người Không Buông",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8db5530a24100f14433569bc406f5258.jpg",
+    link: "dammy/nam-than-the-duc-bam-nguoi-khong-buong.html",
+    type: "dammy",
+    desc: `Tôi vốn là học bá có tiếng cao lãnh khắp trường, và cũng ghét cay ghét đắng sự ồn ào của đám sinh viên Khoa Thể dục. Vậy mà trớ trêu thay, đúng đợt bị xáo trộn sang ký túc xá hỗn hợp các khoa, tôi lại bị một gã to xác ngốc nghếch của chính cái khoa ấy để mắt tới.
+
+Hắn không chỉ cả gan giành luôn chiếc chăn đang đắp trên người tôi, mà còn khen cơ thể tôi có mùi dễ chịu, rồi ôm riết lấy tôi như một chú chó lớn quấn chủ. Không chịu nổi nữa, tôi tung chân đạp hắn rơi xuống đệm giường, giọng lạnh tanh: “Còn dám táy máy tay chân lần nữa là tôi báo cáo nhà trường đấy.”
+
+Quý Kiêu ôm cái mông vừa bị va đập, mặt mày tủi thân hết sức: “Nếu tôi không dùng tay chân nữa, vậy chuyển sang dùng miệng được không?”
+
+Kết quả là hôm sau, khắp các ngóc ngách trong trường đã rộ lên một tin đồn chấn động: nam thần kiêu kỳ lẫy lừng của Khoa Thể dục đang bám sát từng bước để đút cơm cho tôi ở căn tin.
+`
+  },{
+    id: 1063,
+    title: "Tân Nương Nhìn Thấy Tiểu Thế Tử",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3c1f6e206e241d9a33dd2999650ba05b.jpg",
+    link: "cotrang/tan-nuong-nhin-thay-tieu-the-tu.html",
+    type: "cotrang",
+    desc: `Ta bị kế mẫu đánh ngất rồi ép thay tỷ tỷ bước vào Đoan Vương phủ, gả cho vị tiểu thế tử đang hôn mê, sống chết chưa rõ. Vậy mà ngay trong phòng tân hôn, ta lại đang trợn mắt nhìn một thiếu niên ngồi vắt vẻo trên xà nhà.
+
+“Nàng thấy ta rồi,” thiếu niên nhẹ nhàng nhảy xuống, giọng chắc như đinh đóng cột.
+
+Ta lắc đầu lia lịa chối bay chối biến: “Không, ta chẳng thấy gì hết.”
+
+“Đã không thấy, sao lại nghe được tiếng ta?”
+
+“Hả? Ta có nói gì đâu, chắc là đang tự lẩm bẩm một mình thôi.”
+
+Thiếu niên bị cái lối chống chế ấy chọc cho bật cười: “Cô nương tên Biệt Cửu Ca, phải không? Đêm nay tiểu gia sẽ vào báo mộng cho mẫu phi đấy!”
+
+Ta cạn lời: “…”`
+  },{
+    id: 1064,
+    title: "Ôm Lấy Vết Thương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/41436597e43cc9259ab345f6826bd679.jpg",
+    link: "ngontinh/om-lay-vet-thuong.html",
+    type: "ngontinh",
+    desc: `Từ thuở bé, tôi đã được nhà họ Hoắc nuôi dạy để sau này trở thành con dâu của họ.
+
+Trong giới thượng lưu, ai cũng bảo tôi sinh ra là để thuộc về Hoắc Khuynh, để làm tròn bổn phận của một người vợ hoàn hảo. Vậy mà chỗ yếu duy nhất của tôi lại nằm ngay ở đó: tôi hoàn hảo quá mức.
+`
+  },{
+    id: 1065,
+    title: "Vợ Cũ Độc Ác Hôm Nay Đòi Ly Hôn Với Ảnh Đế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c5c9d86fe0c5c0826f0b3b1b846ed700.jpg",
+    link: "dammy/vo-cu-doc-ac-hom-nay-doi-ly-hon-voi-anh-de.html",
+    type: "dammy",
+    desc: `Tôi là một fan cuồng nổi tiếng trong giới giải trí, lại còn theo đuổi thần tượng thành công khi kết hôn với Ảnh đế.
+
+Thế nhưng vừa chợp mắt tỉnh dậy, tôi bàng hoàng nhận ra mình lại là người chồng cũ độc ác của nam chính công trong một cuốn tiểu thuyết đam mỹ.
+
+Lợi dụng lúc nam chính thụ ra nước ngoài, nhân vật này đã bày mưu tính kế ép buộc nam chính công, để rồi cuối cùng nhận kết cục chết thảm đúng chuẩn vai phản diện.
+
+Oái ăm thay, ngay lúc này đây, tôi lại đang cùng anh ta tham gia một chương trình truyền hình thực tế du lịch dành cho các cặp đôi.
+
+Một khách mời trong đoàn hớn hở trêu đùa: “Tô Ninh Diệc, đứng trước bờ biển bao la này, điều anh muốn làm nhất lúc này là gì?”
+
+Tôi nhìn thẳng vào ống kính máy quay, bình thản nhè ra hai chữ: “Ly hôn.”
+
+Chỉ một câu nói ấy lập tức khiến cộng đồng mạng bùng nổ.
+`
+  },{
+    id: 1066,
+    title: "Bán Mình Mười Lạng Được Mỹ Nam Tuyệt Sắc",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3dcf22da30c01f477132255cf7b80851.jpg",
+    link: "cotrang/ban-minh-muoi-lang-duoc-my-nam-tuyet-sac.html",
+    type: "cotrang",
+    desc: `Phụ thân định bán ta vào kỹ viện, giá chỉ vỏn vẹn năm lạng bạc. Thế nên ta tự bán mình làm thê tử cho một kẻ ngốc, đổi lấy mười lạng.
+
+Ta cứ ngỡ cuộc đời mình đến đây là chấm hết.
+
+Nào ngờ chẳng ai nói trước cho ta biết, kẻ ngốc ấy lại mang dung mạo “tuấn tú, đáng thưởng thức” đến vậy.
+`
   },
 
 

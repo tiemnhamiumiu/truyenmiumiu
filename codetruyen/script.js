@@ -11,11 +11,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/photo/?fbid=122129719137467824&set=pcb.122129719281467824"
+        url: "https://www.facebook.com/photo/?fbid=122130166521467824&set=pcb.122130166725467824"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/photo?fbid=122128806093467824&set=pcb.122128806279467824"
+        url: "https://www.facebook.com/photo/?fbid=122130167115467824&set=pcb.122130167319467824"
     }
 };
 
