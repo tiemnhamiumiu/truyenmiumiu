@@ -21910,6 +21910,209 @@ Ta cứ ngỡ cuộc đời mình đến đây là chấm hết.
 
 Nào ngờ chẳng ai nói trước cho ta biết, kẻ ngốc ấy lại mang dung mạo “tuấn tú, đáng thưởng thức” đến vậy.
 `
+  },{
+    id: 1067,
+    title: "Nhận Nhầm Chồng Tổng Tài Trên Giường Bệnh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/20298f5f96ebb731c2431905d0b3031a.jpg",
+    link: "ngontinh/nhan-nham-chong-tong-tai-tren-giuong-benh.html",
+    type: "ngontinh",
+    desc: `Sau vụ tai nạn xe kinh hoàng ấy, cú chấn động mạnh đã khiến trí nhớ của tôi xáo trộn hoàn toàn, mọi thứ trong đầu cứ đảo lộn, chẳng còn theo trật tự nào nữa.
+
+Trong cơn mơ hồ ấy, đầu óc tôi rối bời đến mức nhận nhầm vị đại thiếu gia đang hôn mê bất tỉnh ở chiếc giường bên cạnh, người vừa liều mình cứu tôi, thành vị hôn phu của mình.
+
+Vì thế, suốt bao nhiêu ngày liền sau đó, cứ đến giờ là tôi lại thẫn thờ ngồi bên giường bệnh mà khóc lóc thảm thiết, ngày nào cũng như ngày nào.
+
+“Chồng ơi, anh mau tỉnh lại đi mà. Chúng ta còn chưa kịp kết hôn với nhau, cũng chưa có đứa con nào nữa, anh đừng đi như thế chứ.”
+
+Tôi nghẹn ngào gọi, nước mắt rơi lã chã: “Chồng ơi, anh nhẫn tâm muốn em thành góa phụ trẻ tuổi thật sao? Anh nói với em một câu thôi cũng được, anh nói đi chứ.”
+
+Mãi đến ngày được phép xuất viện, khi trí nhớ đã hồi phục hoàn toàn, tôi mới nhận ra mình đã làm gì suốt thời gian qua. Tôi hoảng hốt, chỉ muốn tìm cách chạy trốn cho thật nhanh, càng xa càng tốt.
+
+Vậy mà chỉ sang đến ngày hôm sau, chưa kịp chạy xa được bao nhiêu, tôi đã bị người ta trói chặt lên chính chiếc giường bệnh của người đàn ông ấy.
+
+Gã đàn ông đang nằm trên giường bỗng nhếch môi, nở một nụ cười đầy nguy hiểm, rồi cất giọng chậm rãi: “Vợ à, nụ hôn chào buổi sáng hôm nay của anh đâu rồi?”
+`
+  },{
+    id: 1068,
+    title: "Paparazzi Tự Sa Chân Vào Lưới Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5a2414f4294956ccc733d338eacd94a6.jpg",
+    link: "dammy/paparazzi-tu-sa-chan-vao-luoi-tinh.html",
+    type: "dammy",
+    desc: `Vốn là một tay săn ảnh nam, tôi hoàn toàn không ngờ rằng sau khoảnh khắc vô tình trông thấy cảnh mờ ám giữa vị tổng tài nọ cùng nữ thần màn ảnh, bản thân lại rơi vào cảnh bị hắn ném lên giường.
+
+“Sếp cậu phái cậu tới đây để câu dẫn tôi đấy à?”
+
+“Tổng giám đốc Tần, tôi là trai thẳng hoàn toàn mà, anh không thể làm thế này…!”
+
+Lời thỉnh cầu chưa kịp dứt trọn câu, bàn tay băng giá của Tần Bạc đã luồn thẳng vào trong lớp áo của tôi.
+
+Mặc cho tôi hết sức giãy giụa và tung chân đá loạn xạ, hắn vẫn dễ dàng dùng một tay chế ngự chặt hai cổ tay tôi khiến tôi hoàn toàn bất động. Chóp mũi hắn áp sát gò má tôi, đôi môi lạnh lẽo lúc chạm lúc rời trên bờ môi tôi, mang theo cảm giác tê dại cùng nỗi thẹn thùng lan tràn khắp toàn thân.
+
+Lúc ấy, tôi chỉ biết khóc không ra nước mắt. Chuyến này quả thật đã chơi một vố quá lớn, lớn đến mức tự đem thân mình ném thẳng lên giường đối phương.
+`
+  },{
+    id: 1069,
+    title: "Yêu Hồn Bái Sư",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d592e343ab203543caf31e3edd952755.jpg",
+    link: "cotrang/yeu-hon-bai-su.html",
+    type: "cotrang",
+    desc: `Ta bị kế mẫu đánh ngất rồi ép thay tỷ tỷ bước vào Đoan Vương phủ, gả cho vị tiểu thế tử đang hôn mê, sống chết chưa rõ. Vậy mà ngay trong phòng tân hôn, ta lại đang trợn mắt nhìn một thiếu niên ngồi vắt vẻo trên xà nhà.
+
+“Nàng thấy ta rồi,” thiếu niên nhẹ nhàng nhảy xuống, giọng chắc như đinh đóng cột.
+
+Ta lắc đầu lia lịa chối bay chối biến: “Không, ta chẳng thấy gì hết.”
+
+“Đã không thấy, sao lại nghe được tiếng ta?”
+
+“Hả? Ta có nói gì đâu, chắc là đang tự lẩm bẩm một mình thôi.”
+
+Thiếu niên bị cái lối chống chế ấy chọc cho bật cười: “Cô nương tên Biệt Cửu Ca, phải không? Đêm nay tiểu gia sẽ vào báo mộng cho mẫu phi đấy!”
+
+Ta cạn lời: “…”
+`
+  },{
+    id: 1070,
+    title: "Hôn Nam Thần Hàng Xóm Bị Bắt Chịu Trách Nhiệm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2a26bff1a8d96d595815d739cd6ae157.jpg",
+    link: "ngontinh/hon-nam-than-hang-xom-bi-bat-chiu-trach-nhiem.html",
+    type: "ngontinh",
+    desc: `Là một nữ diễn viên vô danh, chẳng mấy ai nhớ mặt trong giới giải trí, tôi bất ngờ bị cuốn vào tâm bão dư luận. Nguyên do là tin đồn tình cảm giữa tôi và vị đại thần được tôn sùng bậc nhất làng thể thao điện tử ngày một lan rộng.
+
+Để giữ được cái mạng trước cơn thịnh nộ của cư dân mạng, thứ đang ập xuống đầu mình, tôi không dám chần chừ thêm giây nào, vội vã lên tiếng phủ nhận sạch sành sanh mọi chuyện.
+
+Thế mà bài đính chính vừa đăng xong, chân sau vị đại thần ấy đã đứng sừng sững chặn trước cửa nhà tôi, đôi mắt rơm rớm nước, nhìn tôi đầy oán trách: “Mấy hôm trước em vừa hôn anh xong, sao hôm nay lại thẳng thừng tuyên bố giữa chúng ta chẳng có quan hệ gì là thế nào?”
+`
+  },{
+    id: 1071,
+    title: "Bạn Cùng Phòng Tự Ảo Tưởng Tôi Thích Hắn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/88d46c5f7d66835c4f7dcd1501c29bb1.jpg",
+    link: "dammy/ban-cung-phong-tu-ao-tuong-toi-thich-han.html",
+    type: "dammy",
+    desc: `Tôi đốt sạch cuốn nhật ký đầy rẫy tên mình của gã bạn cùng phòng cũ, rồi quyết định lên miền Bắc học đại học.
+
+Bạn cùng phòng mới của tôi là một gã “hung thần Đông Bắc” cao gần mét chín, ánh mắt nhìn tôi chẳng khác nào nhìn một đống rác rưởi. Cậu ta chê tôi thấp, chê tôi yếu, lại còn kỳ thị tôi là dân miền Nam lắm chuyện.
+
+Tôi cố tình khiến cậu ta phát tởm:
+
+“Tôi là gay, thích đàn ông đấy. Tốt nhất cậu mau đổi phòng đi, không thì tôi sẽ thích cậu mất, rồi hôn cậu đến ngất luôn cho xem.”
+
+Cậu ta lập tức xù lông, nét mặt ngập tràn vẻ chán ghét:
+
+"Mẹ kiếp! Tránh xa tôi ra! Xui xẻo thật đấy!"
+
+Thế nhưng, tôi lại nghe thấy rõ mồn một tiếng lòng cậu ta đang gào thét điên cuồng trong đầu:
+
+“Gay? Vợ? Hôn mình?”
+
+“Chỉ nói với một mình mình thôi nhỉ? Chắc chắn là thầm thích mình rồi? Da mặt mỏng nên không dám nói thẳng?”
+
+“Á à, mắt đỏ lên sắp khóc rồi kìa! Muốn hôn thì cho hôn là được chứ gì, khóc cái gì, tính xé nát lòng ông đây chắc!”
+
+Sau này, trúc mã quỳ trước mặt tôi, cầu xin tôi cho hắn một cơ hội yêu lại từ đầu. Gã “hung thần” bạn cùng phòng lập tức kéo xốc tôi vào lòng, ánh mắt đằng đằng sát khí như muốn giết người:
+
+“Cút, đây là vợ tôi!”
+
+Cùng lúc đó, tiếng lòng cậu ta lại bùng nổ trong đầu tôi:
+
+“Ôm được rồi, ôm được rồi! Vợ mềm quá, thơm quá, sắp không khống chế nổi rồi!”`
+  },{
+    id: 1072,
+    title: "Thứ Nữ Trùng Sinh Hủy Diệt Tất Cả",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/433e778babffa079a9c1679b5fddf385.jpg",
+    link: "cotrang/thu-nu-trung-sinh-huy-diet-tat-ca.html",
+    type: "cotrang",
+    desc: `Sau khi ta liều mình cứu Tạ Chiêu thoát khỏi trận hỏa hoạn đang hoành hành, đích tỷ lại nhẫn tâm nhốt ta giữa biển lửa rực cháy để bịt miệng ta lại.
+
+Dung mạo ta bị hủy hoại hoàn toàn. Chưa hết, ta còn phải gánh thêm nỗi oan rằng mình đã khiêu khích, mưu toan hãm hại đích tỷ, lại cố ý quyến rũ thế tử.
+
+Người đời cười chê, bảo ta vừa xấu xí vừa thích sinh sự.
+
+Đích tỷ thì gán cho ta cái danh không biết liêm sỉ.
+
+Đến phụ thân cũng ép ta gả cho một gã mã phu độc nhãn ở trang trại, tất cả chỉ để giữ gìn thể diện cho gia tộc.
+
+Khi ấy, nhìn Tạ Chiêu thản nhiên đứng một bên, ta cay đắng cất lời:
+
+“Ta đã cứu ngươi, vậy mà kết cục của ta lại ra nông nỗi này, có đáng không?”
+
+Hắn đáp lại bằng một ánh mắt hết sức lãnh đạm:
+
+“Cứu ư? Ta còn chưa tính sổ với ngươi vì đã phá đám lúc ta gặp A Dao đấy.”
+
+Trái tim ta vỡ vụn. Đến ngày hai người họ thành thân, ta đã kéo tất cả cùng nhau bước vào một kết cục bi thảm.
+
+Khi mở mắt ra lần nữa, ta mới nhận ra mình đã quay về đúng lúc ngọn lửa vừa bùng lên.
+
+Lần này, ta tự tay khóa kín cổng viện, mặc cho lửa cháy mỗi lúc một dữ dội hơn.
+`
+  },{
+    id: 1073,
+    title: "Hoàng Yến Bị Ép Thành Tổng Tài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2473baaa2bf8e14329ab9b2036c9e4df.jpg",
+    link: "ngontinh/hoang-yen-bi-ep-thanh-tong-tai.html",
+    type: "ngontinh",
+    desc: `Mỗi tháng, Chu Đình Dược chi ra cả trăm nghìn chỉ để biến tôi thành con chim hoàng yến trong lồng kính. Nhận tiền của anh ta rồi, tôi hớn hở gật đầu đồng ý.
+
+Ai ngờ đời chẳng đẹp như mơ. Những cô nàng hoàng yến khác ngày ngày quây quần bên các đại gia, ăn chơi xả láng, sống giữa nhung lụa xa hoa; còn tôi thì bị dồn đến đường cùng bởi hàng đống bài tập tiếng Anh, lý thuyết quản lý và cả núi sổ sách kế toán...
+
+Tôi là chim hoàng yến cơ mà, đâu phải sinh viên đại học chính quy!
+
+Nghĩ đến mà cay đắng, ngày nào tôi cũng thắp hương khấn nguyện, mong sao mình được làm một con chim hoàng yến đúng nghĩa.
+
+Vậy mà đời cứ xô đẩy, rốt cuộc tôi lại hóa thành một nữ tổng tài bá đạo chẳng kém gì anh ta.
+`
+  },{
+    id: 1074,
+    title: "Bạn Trai Chiến Tranh Lạnh Vì Tấm Ảnh Cũ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/be173df39e63c8cd884c9108781f8db9.jpg",
+    link: "dammy/ban-trai-chien-tranh-lanh-vi-tam-anh-cu.html",
+    type: "dammy",
+    desc: `Tôi với Lăng Tiêu cãi nhau rồi.
+
+Nguyên nhân là anh phát hiện trong ngăn kéo của tôi vẫn còn giữ tấm ảnh của người mà trước kia tôi từng thầm thích.
+
+“Nguyên Tùy, trong lòng em, anh có phải mãi mãi cũng không bằng cậu ta không?”
+
+Nghe anh hỏi vậy, tôi sững người, nhưng ngay sau đó cơn nóng giận cũng bùng lên không kịp kiềm.
+
+“Chuyện đó qua bao lâu rồi? Mà chẳng phải anh biết từ sớm sao!”
+
+Theo ấn tượng của tôi, Lăng Tiêu chưa từng thật sự nổi giận với ai.
+
+Thế nhưng lần này thì có vẻ là thật.
+
+Tôi nghĩ đủ mọi cách để dỗ anh, mà hiệu quả chẳng đáng là bao.
+
+Đến cuối cùng, chính tôi cũng cáu lên:
+
+“Mẹ nó, tôi không dỗ nữa!”
+
+Vậy mà tối hôm ấy, tin nhắn của anh lại đến:
+
+[Mở cửa đi, anh đang đứng trước phòng ký túc xá của em.]
+
+[Anh mang theo hai hộp rồi, tối nay mà không dùng hết thì đừng hòng anh tha thứ.]`
+  },{
+    id: 1075,
+    title: "Gả Cho Gian Thần Mưu Mô",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8c56a60813d77c85d3469e7a2e752a5b.jpg",
+    link: "cotrang/ga-cho-gian-than-muu-mo.html",
+    type: "cotrang",
+    desc: `Ta gả cho một tên gian thần quyền khuynh triều dã.
+
+Hắn nắm trọn quyền thế trong tay, việc ác nào cũng dám làm. Chưa hết, khắp kinh thành còn đồn ầm lên rằng hắn mang thói đoạn tụ.
+
+Bởi vậy, ai nấy đều xót xa bảo nhau, nữ tử Trần gia mà gả cho hắn thì coi như cả đời bỏ đi.
+
+Vậy mà ta lại mừng đến mức miệng cười không khép lại được. Nghĩ cho cùng, đời này ta có bạc tiêu hoài không hết, mà phu quân thì chẳng khác nào một người vô hình.
+
+Trên đời này, làm gì có ai lại không thích cuộc sống như thế chứ?
+
+Ấy thế mà giờ đây, mỗi khi thấy hắn ngày ngày vùi đầu trong thư phòng lo toan quốc sự, ta lại bất giác ngẫm nghĩ: “Đúng là lời đồn tai hại, làm khổ biết bao nhiêu người...”
+
+Thậm chí đêm đêm, hắn còn ghé sát tai ta thủ thỉ gọi tên, gọi mãi không biết mệt: “Nguyệt Nguyệt...”
+
+Ta thật sự chịu hết nổi, bèn xông tới túm chặt cổ áo hắn, phẫn nộ gào lên: “Rốt cuộc là ai! Là kẻ nào đã tung ra tin đồn thất thiệt hại người đến mức này!”`
   },
 
 

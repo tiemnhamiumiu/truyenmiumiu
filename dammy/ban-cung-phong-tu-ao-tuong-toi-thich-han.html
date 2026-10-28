@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bạn Cùng Phòng Tự Ảo Tưởng Tôi Thích Hắn</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Bạn Cùng Phòng Tự Ảo Tưởng Tôi Thích Hắn
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_dammy/ban-cung-phong-tu-ao-tuong-toi-thich-han.mp3" data-marker="14:02" data-marker-label="14:02">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Bạn Cùng Phòng Tự Ảo Tưởng Tôi Thích Hắn</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">14:02</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">14:02</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Tôi đốt sạch cuốn nhật ký đầy rẫy tên mình của gã bạn cùng phòng cũ, rồi quyết định lên miền Bắc học đại học.
+
+Bạn cùng phòng mới của tôi là một gã “hung thần Đông Bắc” cao gần mét chín, ánh mắt nhìn tôi chẳng khác nào nhìn một đống rác rưởi. Cậu ta chê tôi thấp, chê tôi yếu, lại còn kỳ thị tôi là dân miền Nam lắm chuyện.
+
+Tôi cố tình khiến cậu ta phát tởm:
+
+“Tôi là gay, thích đàn ông đấy. Tốt nhất cậu mau đổi phòng đi, không thì tôi sẽ thích cậu mất, rồi hôn cậu đến ngất luôn cho xem.”
+
+Cậu ta lập tức xù lông, nét mặt ngập tràn vẻ chán ghét:
+
+"Mẹ kiếp! Tránh xa tôi ra! Xui xẻo thật đấy!"
+
+Thế nhưng, tôi lại nghe thấy rõ mồn một tiếng lòng cậu ta đang gào thét điên cuồng trong đầu:
+
+“Gay? Vợ? Hôn mình?”
+
+“Chỉ nói với một mình mình thôi nhỉ? Chắc chắn là thầm thích mình rồi? Da mặt mỏng nên không dám nói thẳng?”
+
+“Á à, mắt đỏ lên sắp khóc rồi kìa! Muốn hôn thì cho hôn là được chứ gì, khóc cái gì, tính xé nát lòng ông đây chắc!”
+
+Sau này, trúc mã quỳ trước mặt tôi, cầu xin tôi cho hắn một cơ hội yêu lại từ đầu. Gã “hung thần” bạn cùng phòng lập tức kéo xốc tôi vào lòng, ánh mắt đằng đằng sát khí như muốn giết người:
+
+“Cút, đây là vợ tôi!”
+
+Cùng lúc đó, tiếng lòng cậu ta lại bùng nổ trong đầu tôi:
+
+“Ôm được rồi, ôm được rồi! Vợ mềm quá, thơm quá, sắp không khống chế nổi rồi!”
+
+-----
+
+Tôi đẩy nhẹ cánh cửa kẽo kẹt mở ra, luồng không khí khô hanh phương Bắc ùa vào mặt mang theo mùi bụi bặm, hoàn toàn khác xa cảm giác ẩm ướt thoang thoảng hương cỏ xanh và mưa rơi ở miền Nam.
+
+Phòng ký túc xá tiêu chuẩn bốn người, dạng giường tầng bàn dưới. Hiện tại chỉ có một bóng người trong phòng. Cậu ta quay lưng về phía cửa, khom người dọn dẹp chiếc bàn học ở góc trong cùng. Chiếc áo ba lỗ đen bó sát vào tấm lưng rộng, cơ vai cuồn cuộn theo từng chuyển động, đường nét cứng như đá tảng. Tóc cắt ngắn, phần cổ lộ ra nhuộm màu nâu rám nắng khỏe khoắn. Chỉ nhìn tấm lưng thôi đã toát lên vẻ hung dữ khó gần.
+
+Tôi kéo chiếc vali nặng trịch, bánh xe lăn ầm ầm trên sàn nhà. Cậu ta khựng lại, chặc một tiếng đầy bực dọc rồi quay phắt người lại. Lông mày rậm, hốc mắt sâu, ánh mắt sắc như dao phóng thẳng vào tôi từ đầu đến chân. Càng nhìn, cậu ta càng nhíu mày tỏ vẻ ghê tởm.
+
+“Người mới à? Đàn ông con trai gì mà da dẻ mịn màng thế?” Giọng nói thô ráp đầy gai góc.
+
+Tôi ghét cái cách cậu ta dùng từ “da dẻ mịn màng”. Dù đúng là tôi có làn da như thế, nhưng nghe thốt ra từ miệng cậu ta cứ thấy kỳ quái thế nào.
+
+“Ừ, chào cậu. Tôi là Thẩm Ngôn.” Tôi cố giữ giọng điệu bình thản. Người phương Bắc ăn gì mà cao thế không biết, tôi phải ngửa mặt lên mới nhìn thấy rõ mặt cậu ta.
+
+Cậu ta khịt mũi đáp lời, tay chỉ đại vào chiếc giường sát cửa, nơi chật chội nhất: “Chỗ đấy còn trống. Giường nhỏ, cậu cũng bé, đủ chỗ ngủ rồi.”
+
+Nói xong, cậu ta quay lưng tiếp tục ầm ầm dọn đồ. Quả tạ đặt chỏng chơ ngay giữa lối đi, chặn đứng đường kéo vali của tôi.
+
+Mẹ kiếp... Muốn chửi thề quá!
+
+Ánh mắt khinh bỉ của cậu ta như mũi kim đâm thẳng vào tim. Đêm thi đại học xong, Cố Thần cũng nhìn tôi như vậy, như nhìn một đống rác rưởi. “Đồ bê đê, kinh tởm!” Câu nói ấy lại vang vọng bên tai khiến tim tôi thắt lại. Những uất ức dồn nén suốt mấy ngày qua bỗng bùng lên trước thái độ của tên bạn cùng phòng xa lạ này.
+
+Tôi hít sâu cố kiềm lòng, nép người cẩn thận đẩy vali qua khe hẹp giữa quả tạ và giường sắt. Nhưng vali quá nặng, tôi vụng về làm đụng ầm một tiếng.
+
+“Đậu má!” Cậu ta quay lại gầm gừ: “Cậu mù à? Đàn ông con trai gì mà đi đường cũng không xong?”
+
+Cậu ta bước tới nhấc quả tạ lên kiểm tra, ánh mắt càng thêm khinh miệt: “Đồ con trai miền Nam yếu ớt, chân tay mảnh khảnh, vô dụng!”
+
+Chân tay mảnh khảnh... Vô dụng... Mấy từ ấy như ngòi nổ. Nỗi nhục từ Cố Thần, nỗi bất an suốt chặng đường dài, nỗi sợ môi trường mới, tất cả bùng nổ. Sợi dây lý trí đứt tung.
+
+Tôi ngẩng đầu lên, máu dồn lên mặt nhưng giọng lạnh băng: “Ừ, tôi đến từ miền Nam, xin lỗi cậu nhé.”
+
+Cậu ta ngạc nhiên vì tôi dám cãi lại. Tôi không cho cậu ta kịp phản ứng, nghiến răng ném ra câu nói vạch rõ giới hạn: “Không chỉ phiền phức, tôi còn là gay, thích đàn ông. Tốt nhất cậu đi đổi phòng ngay đi, không tôi sẽ thích cậu mất, thích đến mức hôn cho ngất, rồi làm đủ trò đấy.”
+
+Không khí lập tức đóng băng. Mặt cậu ta biến sắc, từ ngạc nhiên chuyển sang kinh hãi rồi đen kịt lại. Ánh mắt hằn học không giấu giếm, cậu ta lùi một bước như tránh thứ bệnh dịch, mép môi nhếch lên đầy khinh bỉ: “Đậu má! Tránh xa tôi ra!”
+
+Lại là phản ứng này, lại là những lời này. Dù đã đoán trước nhưng tim tôi vẫn như bị búa đập, đau tê tái. Trong cơn tức giận, tôi đá thẳng vào bắp chân cậu ta: “Cậu mới bệnh ấy!”
+
+Cổ chân tôi lập tức bị bàn tay sắt kẹp chặt. Cậu ta kéo mạnh khiến tôi loạng choạng suýt ngã.
+
+“Cậu dám đánh tôi?” Cậu ta sấn tới, bóng người cao lớn bao trùm, mắt hung dữ: “Muốn ăn đòn à?”
+
+Tôi giãy giụa nhưng chân đau không cựa quậy được. Thế là xong, ngày đầu đại học đã phải nhận kỷ luật vì đánh nhau sao?
+
+Nhưng ngay lúc ấy, một giọng nói đầy kinh ngạc và ham muốn kỳ quặc vang lên rõ ràng trong đầu tôi:
+
+“Mẹ nó! Cậu ta đá mình? Lực đấy kha khá đấy!”
+
+“Cổ chân sao mảnh thế? Một tay mình nắm gọn!”
+
+“Da trắng thế? Qua tất vẫn thấy mịn...”
+
+“Đây thật sự là chân đàn ông? Thơm phức...”
+
+“Giận dữ mắt tròn xoe, môi mím lại... Sao... sao muốn hôn quá vậy?”
+
+“Mình điên rồi chăng?”
+
+“Nhưng cái chân này... hình như... còn muốn liếm nữa...”
+
+Tôi cứng đờ, máu dồn thẳng lên đầu. Tôi ngước nhìn gã hung thần đang giận dữ như muốn xé xác tôi. Miệng cậu ta vẫn mím chặt, chỉ có hơi thở gấp gáp phả vào mặt tôi. Nhưng cái giọng nói đầy kinh ngạc, tự hỏi và nội dung quái gở kia rành rành vang lên trong đầu!
+
+Cậu ta muốn liếm? Bề ngoài muốn bóp cổ tôi, nhưng trong lòng lại muốn liếm chân tôi?
+
+Kể từ hôm đó, Lăng Hiểu thỉnh thoảng vẫn liếc về phía tôi với ánh mắt cảnh cáo đầy vẻ “đừng có dại mà lại gần”.
+
+Nhưng tôi đã không thể nhìn thẳng vào cậu ta được nữa. Chỉ cần thấy cậu ta, đặc biệt là đôi bàn tay gân guốc đầy sức mạnh kia, trong đầu tôi lại tự động lặp đi lặp lại câu nói: “Hình như muốn liếm một cái.”
+
+Tôi chỉ ước có thể định dạng lại não mình ngay lập tức. Thế là ngày nào tôi cũng tìm cách tránh mặt cậu ta, ở ký túc xá cũng cố hạn chế nói chuyện, giảm thiểu sự tồn tại của bản thân.
+
+Kỳ huấn luyện quân sự đến như dự kiến. Cái nắng mùa thu phương Bắc gay gắt khủng khiếp, mặt trời chói chang trên bầu trời chẳng khác nào chiếc đèn nướng khổng lồ. Đứng tư thế nghiêm, bước đều, đứng nguyên một chỗ suốt nửa tiếng đồng hồ. Người lớn lên trong khí trời ẩm ướt Giang Nam như tôi chưa từng trải qua cảnh tượng này. Mồ hôi đổ như tắm, sau lưng bộ đồ ngụy trang ướt rồi khô, khô rồi lại ướt, đóng thành lớp muối trắng xóa. Đầu óc tôi quay cuồng, chân mềm nhũn, cảm giác như giây tiếp theo sẽ tan thành nước bốc hơi mất.
+
+Lăng Hiểu đứng ngay chếch phía trước tôi. Cậu ta dường như sinh ra để sống dưới ánh mặt trời, thể lực kinh người, động tác chuẩn xác mạnh mẽ, lưng thẳng tắp như cây dương liễu.
+
+Huấn luyện viên thường xuyên lấy cậu ta làm mẫu mắng chúng tôi: “Nhìn Lăng Hiểu kia kìa! Rồi nhìn lại các cậu xem! Yếu ớt như tôm búng tay!”
+
+Mỗi lần như vậy, bề ngoài Lăng Hiểu vẫn mắt không liếc ngang, mặt mũi đầy chính khí. Nhưng tôi có thể nghe thấy tiếng lòng cậu ta đang vênh váo tự đắc:
+
+“Nghe thấy chưa vợ yêu? Chồng giỏi không nào? Người chồng này toàn thân tràn đầy sinh lực.”
+
+“Chà, dáng người bé nhỏ của vợ yêu lung lay khiến lòng anh loạn cả lên, không biết có chịu nổi không?”
+
+“Vợ yêu sắp ngất à? Để anh có cớ ôm em vào phòng y tế, cái kiểu bế công chúa ấy!”
+
+Tôi câm nín. Làm ơn đi, bình thường một chút được không? Ai là vợ cậu thế hả?
+
+Tiếng còi giải lao vang lên, tôi gần như lập tức ngồi bệt xuống bóng râm, vặn nắp chai nước uống ừng ực, cổ họng khô như có lửa đốt. Lăng Hiểu bị mấy nam sinh vây quanh, hình như đang thảo luận động tác vừa rồi. Cậu ta hời hợt đáp lại, nhưng ánh mắt cứ vô tình hữu ý lướt qua chỗ tôi.
+
+Tôi nhắm mắt lại, mệt đến mức không muốn động đậy. Đột nhiên, một bóng đen phủ xuống. Tôi mở mắt, Lăng Hiểu đứng ngay trước mặt, thân hình cao lớn che khuất ánh nắng chói chang. Trong tay cậu ta cầm hai chai nước đá chưa mở nắp, vẻ mặt vẫn cau có, thậm chí hơi hung dữ.
+
+“Này.” Giọng cậu ta cứng nhắc, ném một chai nước vào lòng tôi gần như bằng động tác quăng: “Nhìn cái dáng sắp chết đến nơi kia, đừng có chết ở đây mà vướng víu. Nước cho cậu đấy. Người phương Bắc bọn tôi vốn nhiệt tình.”
+
+“Uống nhanh đi! Tôi ướp lạnh đấy! Đặc biệt mang cho cậu!”
+
+“Tay mình sao cứ run thế? Đồ vô dụng, đưa nước cho vợ mà run cầm cập!”
+
+Tôi cầm lấy chai nước đá lạnh buốt, nghe thấy những suy nghĩ này của cậu ta liền khựng lại một chút. Thấy tôi không động đậy, cậu ta nhíu mày lại, gằn giọng đầy bực dọc: “Nhìn cái gì? Sợ tôi bỏ thuốc à? Không uống thì trả lại đây!”
+
+“Dám trả lại xem! Tôi sẽ mớm cho cậu bằng miệng đấy tin không?”
+
+Tôi giật bắn người vì tiếng lòng này, vội vàng vặn nắp chai tu ừng ực mấy ngụm lớn. Dòng nước lạnh trôi xuống cổ họng, lập tức dập tắt cơn khát cháy lòng, dễ chịu hẳn.
+
+Cậu ta nhìn chằm chằm động tác uống nước của tôi, yết hầu có vẻ không tự chủ lăn một cái.
+
+“Cổ tay thon thế, ngửa cổ lên uống nước... muốn hôn quá đi...”
+
+“Giọt nước trên cổ vợ yêu, muốn liếm quá à, không kiềm chế được rồi làm sao đây?”
+
+Cậu ta đột nhiên quay phắt người, bước về phía nhóm bạn, dáng lưng toát lên vẻ bực bội. Tôi nắm chặt chai nước, nhìn theo bóng lưng cậu ta, gương mặt nóng bừng lên.
+
+Phơi nắng hai ngày, quả báo của tôi đã đến. Cổ, cánh tay, gò má lộ ra ngoài bộ quân phục ngụy trang đều rát bỏng như lửa đốt. Tối về cởi quần áo ra xem, da đỏ ửng cả mảng, sờ vào nóng rẫy, rõ ràng là bị cháy nắng nghiêm trọng. Lúc tắm, vừa để nước nóng xối vào đã đau đến mức tôi nhăn nhó.
+
+Sáng hôm sau tỉnh dậy, tình hình còn tệ hơn, da đỏ rực lên lại sưng phồng, chạm nhẹ cũng rít lên đau đớn. Tôi cắn răng chịu đựng, lê từng bước nặng nề ra bãi tập. Cả ngày huấn luyện, vải thô ráp của bộ đồ ngụy trang cọ xát vào vùng da cháy nắng, chẳng khác nào một cực hình. Mặt tôi tái nhợt, mồ hôi lạnh túa ra, động tác đều biến dạng hết cả.
+
+Lăng Hiểu đứng ngay phía trước tôi, mỗi lần quay người lại, ánh mắt hằn học như dao cứa qua người tôi.
+
+Bề ngoài: “Yếu đuối thật đấy. Cơm gì nuôi cậu lớn vậy? Gầy nhẳng, yếu xìu, chẳng giống đàn ông chút nào.”
+
+Nội tâm:
+
+“Vợ tôi còn xinh hơn cả con gái ấy, đôi môi căng mọng thế kia, muốn hôn quá đi. Da mặt trắng nõn mịn màng. Hu hu, nhìn thêm chút nữa là "cậu bé" dựng đứng lên mất.”
+
+“Tối nay đợi vợ ngủ say sẽ...”
+
+Tôi bất lực hoàn toàn.
+
+Tối nay, tôi lê bước về ký túc xá với thân thể rã rời cùng những cơn đau nhức toàn thân, thiếu sức sống vật vã trên ghế. Hai đứa bạn cùng phòng khác vẫn chưa về. Lăng Hiểu đang lục lọi ầm ĩ gì đó trong tủ, rồi cậu ta đột ngột bước tới trước mặt tôi, đập rầm một tuýp thuốc mỡ xuống bàn, vẻ mặt hung dữ như chủ nợ đến đòi tiền.
+
+“Chặc...” Giọng cậu ta đầy bực dọc: “Đàn ông con trai gì mà yếu ớt thế, bôi nhanh đi, kẻo ngày mai ngất xỉu giữa sân tập bắt tôi cõng về đấy.”
+
+Tôi cúi nhìn, đó là tuýp kem trị cháy nắng còn nguyên tem. Ngẩng lên nhìn cậu ta, ánh mắt Lăng Hiểu thoáng chớp rồi liếc đi chỗ khác, rồi đột nhiên càng trở nên dữ tợn hơn: “Nhìn cái gì! Mua lỡ tay thừa ra đấy!”
+
+“Chạy mấy hiệu thuốc mới mua được loại đắt nhất xịn nhất đó! Huhu, vợ tôi tội nghiệp quá, da đỏ lừ hết cả rồi.”
+
+“Huhu, sao cậu ấy không chịu bôi vào...”
+
+“Sau gáy tự cậu ấy làm sao với tới. Hay là mình giúp?”
+
+“Chạm vào thịt mềm mại thế kia, không biết cậu ấy có rên lên không?”
+
+“Aaaaa, lại rạo rực hết cả người rồi, không kìm được nữa mất.”
+
+Dòng suy nghĩ nội tâm ngày càng quá đà, mặt cậu ta đen sì lại nhưng đầu tai lại đỏ ửng lên thật kỳ lạ.
+
+Tôi lặng lẽ lùi lại. Nhìn tuýp thuốc rồi lại ngước lên thấy bộ dạng “anh đây hào hiệp tùy hứng thôi, đừng có ảo tưởng” của cậu ta, nỗi ấm ức vì cháy nắng bỗng chốc tan biến, thay vào đó là thứ cảm xúc kỳ lạ khó tả.
+
+Tôi cầm lấy tuýp thuốc, khẽ thốt lên: “Cảm ơn. Tôi tự bôi được.”
+
+Cậu ta giật thót người như bị bỏng, lùi phắt một bước, giọng cộc cằn: “Lắm chuyện! Mau lên!”
+
+Nói xong cậu ta gần như chạy bán sống bán chết vào nhà vệ sinh. Không biết cậu ta chạy vội vào nhà vệ sinh để làm gì nữa.
+
+Trong phòng tắm vọng ra tiếng nước chảy róc rách, kéo dài mãi không dứt. Tôi bóp chặt tuýp thuốc mỡ trong tay, cảm giác bỏng rát trên da dường như càng thêm rõ rệt, người nóng bừng lên.
+
+Cổ và sau cánh tay tôi thật sự khó tự bôi thuốc, nhưng lại ngại làm phiền người khác, nhất là Lăng Hiểu. Cuối cùng, tôi chỉ gượng bôi thuốc lên má và cánh tay trước, phần lưng và sau cổ đành bỏ mặc.
+
+Tiếng nước ngừng chảy. Lăng Hiểu bước ra với hơi nước lạnh buốt còn bám đầy người. Tóc cậu ta vẫn nhỏ nước, ánh mắt cố tình lảng tránh tôi. Không nói một lời, cậu ta trèo lên giường mình, nằm quay lưng lại phía tôi.
+
+Ghét tôi đến thế sao? Nhìn thêm một giây nữa liệu có làm cậu ta mù mắt không? Vậy những tâm tư kia của cậu ta có ý gì? Đa nhân cách à?
+
+Hai đứa bạn cùng phòng kia cũng chẳng biết đi đâu. Trong phòng chỉ còn hai chúng tôi, yên tĩnh đến mức nghe rõ tiếng côn trùng ngoài cửa sổ và cả nhịp tim mình đập thình thịch. Tôi mệt lả, người đau nhức, chẳng muốn đoán già đoán non nữa. Nhưng trằn trọc mãi vẫn không sao ngủ được.
+
+Không biết bao lâu sau, khi ý thức mơ hồ, tôi sắp chìm vào giấc ngủ thì... sột soạt. Tiếng động cực kỳ khẽ khàng. Chiếc thang bên giường tôi như bị đè nhẹ.
+
+Tôi bỗng tỉnh táo, tim đập thình thịch, cơn buồn ngủ tan biến. Có người! Tôi hoảng sợ nín thở, toàn thân căng cứng, không dám nhúc nhích, mắt nhắm chặt giả vờ đang ngủ say.
+
+Mùi hương quen thuộc đến gần, mùi sữa tắm thoang thoảng trên người Lăng Hiểu hòa lẫn khí chất đàn ông đầy xâm lấn đặc trưng của cậu ta. Cậu ta trèo lên giường tôi? Cậu ta muốn làm gì? Ghét tôi đến mức phải lén lút giữa đêm khuya như thế này sao?
+
+Vừa định hét lên, tôi liền cảm nhận cậu ta vô cùng cẩn thận kéo tấm chăn mỏng đang đắp ngang hông tôi. Không khí mát lạnh chạm vào vùng da cháy nắng sau lưng và cánh tay khiến tôi sởn hết gai ốc. Rồi đầu ngón tay mát lạnh thấm đẫm thuốc mỡ nhẹ nhàng đặt lên sau gáy tôi.
+
+Cậu ta đang bôi thuốc cho tôi?
+
+Tim tôi đập loạn xạ như muốn nhảy khỏi lồng ngực, chỉ còn cách cố thở đều đặn, giả vờ không hay biết. Đồng thời, những tâm tư điên cuồng không kiềm chế được lại vang lên trong đầu tôi:
+
+“Mịn thật. Chỉ tiếc nóng quá. Đau lắm hả? Hu hu, đều tại mặt trời, làm hỏng hết người yêu của anh rồi.”
+
+“Nhẹ thôi. Nhẹ nữa vào. Đừng đánh thức cậu ấy.”
+
+“Chiếc hõm lưng này. Chết mất thôi.”
+
+“Vuốt dọc xương sống xuống. Cảm giác sướng thật.”
+
+“Sao chăn lại phồng lên thế? Mông thế này, muốn vỗ một cái quá.”
+
+“Hừ... Được rồi. Áp sát ngửi một chút... Thơm mùi sữa quá, muốn ôm chặt lắm, rồi làm đủ trò.”
+
+Tôi dở khóc dở cười. Động tác cậu ta dịu dàng khó tin, hoàn toàn trái ngược vẻ ngoài thô lỗ cùng giọng điệu hung dữ. 
+
+*****
+
+Thuốc mỡ mát lạnh xoa dịu làn da rát bỏng. Nhưng nơi ngón tay cậu ta chạm qua tựa như châm lên ngọn lửa khác, khiến tai tôi nóng bừng. Những lời thầm nghĩ ấy như sóng nhiệt cuộn trào, công kích lý trí mong manh của tôi.
+
+Tôi nghiến răng chịu đựng, ép mình bất động, đóng vai xác chết ngoan ngoãn. Cả quá trình dài dằng dặc như tra tấn. Đến khi cậu ta bôi xong thuốc, lại nhẹ nhàng kéo chăn đắp cho tôi, dường như còn ngắm nghía tôi rất lâu.
+
+“Ngủ ngoan thế này, miệng hơi hé. Hôn một cái liệu có tỉnh không?”
+
+“Chắc là không, đêm tối gió lộng, hôn một cái chẳng ai biết.”
+
+Rồi, môi tôi bỗng ấm nóng...
+
+Vì nụ hôn ấy, suốt đêm đó tôi trằn trọc không sao chợp mắt được. Tôi đã bị hôn, dù cảm giác có vẻ không tệ lắm.
+
+Sáng hôm sau, tôi đội đôi mắt thâm quầng, tranh thủ lúc Lăng Hiểu đi tập thể dục sáng, lập tức tìm đến cố vấn học tập. Tôi lấy lý do “khác biệt thói quen sinh hoạt quá lớn, ảnh hưởng nghiêm trọng đến nghỉ ngơi và học tập” để kiên quyết xin chuyển ký túc xá. Nhìn vẻ tiều tụy của tôi, cố vấn không hỏi nhiều, đúng lúc có phòng trống ở dãy khác nên nhanh chóng phê duyệt.
+
+Tôi gần như chạy trốn, thu dọn đồ đạc với tốc độ nhanh nhất, dọn vào phòng bốn người ở tòa nhà khác dưới ánh mắt tò mò của các bạn cùng phòng mới. Bầu không khí phòng mới bình thường hơn hẳn. Mọi người lịch sự giữ khoảng cách, nhưng ít nhất không có cảm giác ngột ngạt khó hiểu như trước. Tôi cố gạt bỏ hình ảnh tên hung thần phương Bắc cùng những suy nghĩ lệch lạc của cậu ta ra khỏi đầu.
+
+Thế nhưng, chiều hôm đó vừa tan học về phòng chưa được bao lâu, cửa đã bị đẩy mạnh ầm một tiếng. Lăng Hiểu ôm gối và chăn, gương mặt đen như bão tố đứng chặn cửa như tượng đồng. Ánh mắt cậu ta xuyên thẳng vào tôi, ngùn ngụt ngọn lửa giận dữ cùng nỗi uất ức khó hiểu.
+
+Các bạn cùng phòng mới đều kinh ngạc trước khí thế này.
+
+“Thẩm Ngôn!” Giọng cậu ta gầm vang khắp tầng: “Ý cậu là gì? Sao lại đổi phòng?”
+
+“Hu hu, vợ không cần tôi nữa rồi, hu hu, muốn nhốt vợ lại, giam lại.”
+
+“Hừ, đã hôn rồi thì chính là vợ của tôi!”
+
+“Phòng tồi này có mùi gì thế? Có thơm bằng tôi không? Tôi kỳ cọ đến tróc da rồi, dùng hết cả lọ sữa tắm.”
+
+“Sao vợ không ngửi thấy mùi thơm của tôi?”
+
+Những suy nghĩ ấy khiến tôi choáng váng. Vừa định mở miệng thì một giọng nói dù có chết tôi cũng không quên vang lên đầy ngập ngừng và kinh ngạc phía sau Lăng Hiểu: “Tiểu Ngôn?”
+
+Toàn thân tôi cứng đờ, ngẩng phắt lên nhìn. Là Cố Thần. Hắn mặc áo sơ mi trắng, đứng dưới ánh đèn hành lang ký túc xá mờ ảo, gương mặt lộ vẻ mệt mỏi vì đường xa xen lẫn sự bồn chồn dè dặt, ánh mắt phức tạp nhìn tôi.
+
+“Tôi tìm được cậu rồi. Cậu định học đại học ở phương Bắc à? Chẳng phải chúng ta đã hẹn cùng học một trường sao?” Giọng hắn khàn khàn: “Chúng ta nói chuyện được không? Trước đây là tôi sai, tôi...”
+
+Lời hắn không kịp dứt, bởi Lăng Hiểu đột ngột xoay người, che kín tôi sau lưng. Cánh tay ôm chăn căng cứng cơ bắp, ánh mắt hung tợn như muốn ăn tươi nuốt sống Cố Thần.
+
+“Cậu là ai?” Giọng Lăng Hiểu lạnh như băng: “Tìm cậu ấy làm gì?”
+
+Cố Thần bị khí thế của cậu ta lấn áp, mặt tái nhợt nhưng vẫn cố giữ bình tĩnh nhìn tôi: “Tiểu Ngôn, đây là...?”
+
+Lăng Hiểu căn bản không cho hắn nói hết, cũng chẳng cho tôi cơ hội trả lời. Cậu ta kéo mạnh tôi vào lòng, mặt tôi gần như đập vào bờ ngực rắn chắc của cậu, ngập tràn hơi thở đàn ông. Cậu ta nhìn thẳng vào Cố Thần, tuyên bố chủ quyền từng chữ một:
+
+“Cút xa ra! Không hiểu tiếng người à? Đây là vợ tôi! Đồ rác rưởi này từ đâu chui ra thế?”
+
+Gần như đồng thời, não tôi nổ tung những suy nghĩ ghen tuông điên cuồng của cậu ta:
+
+“Ôm được rồi! Của tôi! Thằng công tử bột này từ đâu chui ra vậy? Nhìn đã thấy không phải đồ tốt!”
+
+“Còn dám gọi Tiểu Ngôn? Thân mật thế! Tôi còn chưa gọi thế!”
+
+“Vợ mềm mại thật, sợ rồi à? Đừng sợ, chồng đây rồi.”
+
+“Thằng ngu này sao chưa cút? Nhìn đã ghét! Khóc lóc gì? Giả bộ thảm hại cho ai xem? Không biết vợ tôi dễ mềm lòng nhất sao? Vợ đừng có thèm để ý hắn!”
+
+“Vợ đừng mềm lòng! Không thì tôi... tôi sẽ hôn em đến khóc ngay trước mặt hắn!”
+
+Tôi bị Lăng Hiểu siết chặt trong vòng tay. Bên tai là nhịp tim sấm rền cùng những suy nghĩ ầm ĩ hơn cả sấm. Trước mặt là Cố Thần mặt mày tái mét, há hốc mồm. Cả thế giới dường như trong khoảnh khắc này nổ tung như pháo hoa.
+
+Ba người bạn cùng phòng mới há hốc mồm nhìn cảnh tượng hỗn loạn trước cửa, quên cả nhai đồ ăn vặt trên tay. Cố Thần sắc mặt từ kinh ngạc, chấn động ban đầu nhanh chóng biến thành vẻ tái nhợt khó tin và tổn thương. Hắn nhìn tôi, ánh mắt ngập tràn sự tan vỡ và chất vấn, môi khẽ run rẩy: “Tiểu Ngôn, cậu, cậu ta nói thật sao? Cậu yêu đương với đàn ông rồi? Sao cậu có thể như vậy? Cậu...”
+
+Giọng nói hắn nghẹn ngào, nghe thật tội nghiệp mà tủi thân. Nếu là trước kia, có lẽ tôi đã mềm lòng, đau lòng, sợ hắn không vui. Nhưng bây giờ: “Yêu đương với đàn ông thì sao? Phạm pháp à? Có phạm pháp cũng đã có cảnh sát lo, liên quan gì đến cậu?”
+
+“Tiểu Ngôn, không phải. Tôi không có ý đó. Tôi vốn tưởng lời tỏ tình của cậu là đùa, lúc đó tôi không cố ý. Cậu thích tôi mà? Cậu với người này chỉ là đùa giỡn thôi đúng không?” Cố Thần vừa nói vừa suýt khóc, định giơ tay kéo tôi lại.
+
+Nhưng hắn không cao bằng cũng chẳng khỏe như Lăng Hiểu, mà Lăng Hiểu lại còn mang bộ mặt vô cùng hung dữ. Thấy bàn tay hắn đưa tới, Lăng Hiểu lườm một cái làm hắn chần chừ. Nhưng hắn giỏi diễn, liền khóc lóc: “Ngôn Ngôn, tôi ngồi tàu mười lăm tiếng tìm cậu, bỏ cả buổi học. Tôi sai rồi, tôi biết lỗi rồi, cậu tha thứ cho tôi được không? Tôi không thích đàn ông, nhưng nếu là cậu thì tôi có thể miễn cưỡng chấp nhận.”
+
+“Câm miệng! Cậu bị điên à?” Lăng Hiểu quát lớn, giọng đầy uy hiếp: “Thẩm Ngôn là người của tôi. Cậu từ đâu đến thì lăn về đó, đừng ở đây chướng mắt. Không tôi đập nát mồm, đập gãy chân cậu đấy!”
+
+“Vợ à đừng nhìn hắn! Nhìn anh! Cơ bụng anh cứng hơn hắn! Giọng anh hay hơn hắn! Anh còn bôi thuốc cho em được! Anh khỏe lắm, làm tình cũng...”
+
+Cố Thần bị khí thế Lăng Hiểu ép lùi nửa bước, mặt mày tái mét. Hắn không nhìn Lăng Hiểu nữa, chỉ khăng khăng nhìn tôi bằng ánh mắt sầu thảm, giọng tuyệt vọng van xin: “Ngôn Ngôn, ngày thi đại học tôi là đồ khốn, tôi chỉ sợ hãi, tôi không cố ý. Cậu cho tôi thêm cơ hội nữa, chúng ta bắt đầu lại được không? Cậu đừng dùng cách này trêu tức tôi, chúng ta lớn lên cùng nhau mà.”
+
+“Trêu tức cậu?” Lần này, tôi không để Lăng Hiểu lên tiếng trước. Tôi gắng sức bẻ tay cậu ta ra, thoát khỏi vòng tay cậu ta rồi ngẩng đầu nhìn thẳng Cố Thần.
+
+Trong lòng tôi vẫn còn chút tức ngực, nhưng nhiều hơn là sự lạnh lùng buông bỏ: “Cố Thần, cậu tự đề cao mình quá rồi.”
+
+Tôi nghe giọng mình bình thản khác thường, thậm chí pha chút mỉa mai: “Tôi rời miền Nam không phải để trêu tức ai. Tôi đổi phòng, kết bạn mới, đều không liên quan đến cậu. Chuyện cũ tôi quên rồi, cậu cũng nên quên đi.”
+
+Cố Thần như bị lời tôi đâm trúng, loạng choạng lùi bước, mắt đỏ hoe: “Tình cảm bao nhiêu năm, sao cậu có thể nói quên là quên? Chúng ta đã hứa với nhau, Ngôn Ngôn, cậu đừng như thế. Chúng ta sẽ là anh em tốt cả đời...”
+
+“Tình cảm? Anh em?” Tôi ngắt lời, cảm thấy thật buồn cười: “Khi cậu mắng tôi kinh tởm, ôm người khác bắt tôi gọi chị dâu, sao không nghĩ tới tình cảm anh em? Cậu không có tình ý với tôi, sao lần nào cũng trêu ghẹo tôi? Nhìn tôi mua đồ cho cậu, nhìn tôi bênh vực cậu khắp nơi, cậu rất khoái đúng không? Cậu không có tình ý, sao cuốn nhật ký lại viết đầy tên tôi?”
+
+Câu nói như búa tạ khiến Cố Thần câm nín, mặt chỉ còn nét hối hận tàn tạ.
+
+Lăng Hiểu rõ ràng hết kiên nhẫn. Cậu ta kéo tôi trở lại bên người, lần này động tác khẽ hơn chút như dán nhãn tuyên bố chủ quyền: “Diễn xong chưa?”
+
+Cậu ta nhếch mép nhìn Cố Thần, giọng đầy châm chọc: “Khóc lóc lảm nhảm, không nghe vợ tôi bảo không liên quan đến cậu à?” Cậu ta dừng lại, nhếch cằm về phía tôi, nện từng chữ: “Giờ cậu ấy do tôi quản. Khôn hồn thì cút ngay!”
+
+“Môi cậu ấy, tôi hôn! Eo cậu ấy, tôi ôm! Toàn thân cậu ấy đều là của tôi!”
+
+Tôi muốn chọn cách không nghe thấy suy nghĩ của cậu ta, nhưng tiếng lòng cậu ta cứ luồn vào tai. Cậu ta không thèm nhìn cảnh thảm hại của Cố Thần, ôm tôi, vác chăn gối xoay người bước tới giường trống trong phòng mới như tên cướp chiến thắng trở về. Mấy đứa bạn cùng phòng vội tránh đường.
+
+Lăng Hiểu tự nhiên quăng chăn lên giường trống rồi ngồi phịch xuống ghế bên tôi với dáng vẻ “Tôi ở đây rồi đấy”, đôi mắt sắc lẹm nhìn chằm chằm Cố Thần đang thất thần ngoài cửa.
+
+Cố Thần đứng đó rất lâu như pho tượng đông cứng: “Ngôn Ngôn, cậu thật sự thích đàn ông? Thật sự yêu đương với đàn ông rồi? Ngôn Ngôn, đây là bệnh, tôi đưa cậu đi chữa nhé? Chắc chắn là thằng đó dụ dỗ cậu phải không? Chắc chắn...”
+
+Hắn định vào phòng, không biết đứa bạn cùng phòng nào đã đóng sập cửa phòng ầm một tiếng lại.
+
+Lăng Hiểu bước đến trước mặt tôi, bóng dáng cao lớn của cậu ta lại một lần nữa bao trùm lấy tôi. Nhưng lần này, khí thế hung dữ trước đó đã vơi đi, thay vào đó là một thứ gì đó khác lạ. Cậu ta hỏi bằng giọng cộc cằn: “Thằng khốn đó... trước đây hay bắt nạt cậu à?”
+
+“Đậu má! Dám chửi vợ tôi! Vừa nãy đáng lẽ nên đấm cho hắn một trận!”
+
+“Tim đau quặn thắt! Không trách da dẻ trắng bệch thế này, có phải vì tức giận không?”
+
+“Từ nay tôi sẽ nấu canh táo đỏ kỷ tử cho cậu mỗi ngày! Phải bồi bổ cho hồng hào lên! Người nhà của tôi sắp khóc rồi, muốn hôn khóe mắt cậu ấy.”
+
+Tôi nhìn ánh mắt quan tâm khó nhận ra trong đáy mắt cậu ta, nghe thấy những suy nghĩ hỗn độn nhưng vô cùng chân thành trong đầu cậu, lòng dâng lên cảm giác phức tạp khó tả. Con người này, thái độ thì hung dữ, lời nói thô lỗ, nhưng trong lòng lại...
+
+Tôi thở dài, cảm thấy mệt mỏi chưa từng có: “Lăng Hiểu, cảm ơn cậu vừa nãy đã giúp tôi giải vây. Cậu yên tâm, tôi sẽ nói với mọi người rằng cậu chỉ giúp tôi nên mới nói tôi là vợ của cậu.”
+
+Lăng Hiểu nhìn tôi chằm chằm mấy giây, bất ngờ cúi người ôm chặt lấy tôi bế bổng lên!
+
+“Này! Cậu làm gì thế!” Tôi kinh hãi kêu lên, vô thức ôm lấy cổ cậu ta.
+
+Mấy người bạn cùng phòng mới trố mắt há hốc. Bỏ mặc sự giãy giụa của tôi và ánh mắt của mọi người, cậu ta bế tôi đến chiếc giường trống vừa bị chăn đệm của cậu ta tra tấn trước đó, nhẹ nhàng đặt xuống. Cậu ta kéo chiếc ghế lại, ngồi vắt ngược người lên đó, hai tay khoanh trước ngực tựa vào lưng ghế như tên cướp làm giám công, ngang nhiên canh giữ bên giường tôi.
+
+“Được rồi, ngủ đi.” Cậu ta ra lệnh bằng giọng điệu không cho phép từ chối: “Mặt trắng bệch như ma vậy.”
+
+Tôi nhìn tư thế chiếm dụng ký túc xá mới, giường mới của tôi một cách đương nhiên của cậu ta, cảm thấy nhức đầu: “Lăng Hiểu... Đây là phòng ký túc xá mới của tôi, phòng cậu ở bên kia.”
+
+Cậu ta nhíu mày: “Bên nào? Tôi không biết. Cậu ở đâu, tôi ở đó.”
+
+“Chia phòng ư? Không đời nào! Cả đời này đừng hòng chia phòng!”
+
+“Vợ ở đâu, nhà ở đó!”
+
+“Cái giường này hơi cứng, ngày mai tôi sẽ mang đệm sang! Không được để vợ mình bị đau.”
+
+Tôi câm nín, với con người này hoàn toàn không thể giao tiếp bằng lý lẽ thông thường. Thân thể mệt mỏi rã rời, dưới ánh mắt cháy bỏng của cậu ta cùng những suy nghĩ nội tâm còn nồng nhiệt hơn, tôi thực sự cảm nhận được một chút an toàn kỳ quặc. Có lẽ vì quá mệt, hoặc do thuốc trị cháy nắng phát huy tác dụng, mí mắt tôi ngày càng trĩu nặng. Cuối cùng, tôi thực sự chìm vào giấc ngủ mơ màng dưới sự giám sát của cậu ta.
+
+Trong cơn mơ màng, dường như có ngón tay thô ráp chạm nhẹ vào lông mi tôi, cùng tiếng thở dài nén xuống đầy thỏa mãn.
+
+Ngày đầu tiên ở ký túc xá mới, tôi đã đối mặt với thử thách khó nhằn. Vòi sen trong nhà vệ sinh hỏng, dòng nước chảy yếu ớt như tuyến tiền liệt của ông lão bảy tám mươi, lại còn lúc nóng lúc lạnh thất thường. Cơ sở vật chất Đại học Phương Bắc đúng là danh bất hư truyền.
+
+Mấy đứa bạn cùng phòng đã quá quen với cảnh này, Vương Lỗi vừa mặc áo vừa hô hào: “Đi thôi đi thôi, ra nhà tắm công cộng, nước ở đấy nóng hổi mà xả láng luôn!”
+
+Nhà tắm công cộng... Nghe ba từ ấy thôi, da đầu tôi đã dựng đứng. Ký ức lần trước sau kỳ quân sự tôi vẫn còn nhớ rõ như in, nhất là mấy suy nghĩ điên rồ của Lăng Hiểu.
+
+Tôi vô thức liếc nhìn Lăng Hiểu. Cậu ta đang ngồi bệt trên giường chùi đôi giày bóng rổ, nghe thấy thế bỗng dừng tay ngẩng đầu lên, ánh mắt đánh trúng ngay vẻ kháng cự trên mặt tôi. Cậu ta nhíu mày, vẻ mặt đầy ghét bỏ không giấu giếm: “Đi thôi đi thôi, nhà tắm công cộng bọn tôi tốt lắm.”
+
+“Nhà tắm công cộng! Tốt! Quá tốt!”
+
+“Được công khai ngắm nghía rồi! Lần này nhất định phải nhìn cho rõ!”
+
+“Vợ ngại ngùng chắc đỉnh lắm! Tai đỏ lên nhỉ? Cổ đỏ lên nhỉ? Người đỏ hết cả nhỉ?”
+
+“He he he he he...”
+
+Tôi ngán ngẩm, nghe mấy suy nghĩ này thôi ngón chân tôi đã cuộn quắp lại: “Lát nữa tôi xách xô múc nước tắm tạm vậy.” Tôi cố gắng chống cự.
+
+“Tạm cái con khỉ!” Lăng Hiểu quăng giày đứng phắt dậy, thân hình cao lớn toát ra khí thế áp đảo: “Người đầy mồ hôi, tính làm ai ngạt thở hả? Nhanh lên, đừng lề mề!”
+
+Miệng cậu ta chửi đùng đùng, nhưng mắt lại không ngừng liếc về phía cổ áo tôi.
+
+“Xương quai xanh lộ ra rồi… trắng lóa cả mắt...”
+
+“Phải đi! Không đi tôi vác đi!”
+
+Cuối cùng, tôi vẫn bị Lăng Hiểu nửa ép buộc, lại bị mấy đứa bạn cùng phòng lôi đi tiến về nơi khiến lòng tôi khiếp sợ.
+
+Trong nhà tắm công cộng hơi nước mù mịt, tiếng người ồn ào, từng thân hình trần truồng qua lại. Tôi cứng đờ cởi quần áo, chậm rãi như con lười. Lăng Hiểu đứng ngay bên cạnh, chỉ trong chốc lát cậu ta đã lột sạch quần áo, phô ra thân hình cơ bắp cuồn cuộn đầy sức bật, những giọt nước lăn dài trên làn da nâu rám nắng.
+
+Cậu ta liếc tôi chép miệng: “Lề mề gì thế? Như con gái ấy.”
+
+“Cởi nhanh lên! Cho tôi ngắm nào!”
+
+“Eo có thực thon hơn nhìn không? Mông có thực căng hơn sờ không?”
+
+“Chân chắc trắng lại thẳng... nuốt nước miếng...”
+
+Tôi quay lưng lại, cởi nốt trong chớp mắt, túm lấy khăn che trước ngực, cúi đầu định lao vào gian tắm vắng người. Cổ sau bỗng bị bàn tay to nóng bỏng túm chặt.
+
+“Chạy đi đâu?” Giọng Lăng Hiểu hoà trong tiếng nước khàn khàn: “Bên này.”
+
+Cậu ta gần như nhấc bổng tôi nhét vào gian kế bên, tự mình mở vòi nước. Dòng nước ào ào trút xuống người cậu ta. Tôi đứng chôn chân, nước nóng xối xả nhưng chẳng làm vơi đi chút căng thẳng. Dù gian tắm có vách ngăn nửa người nhưng chẳng che được gì. Tôi nghe rõ mồn một tiếng động Lăng Hiểu tắm rửa cùng dòng suy nghĩ cuồn cuộn trong đầu hắn:
+
+“Hơi nước mù mịt thế này... nhìn chẳng rõ... góc độ không tốt...”
+
+“Nhón chân xem nào… ôi ôi thấy được vai rồi... trơn tru quá... muốn...”
+
+“Cậu ấy thoa sữa tắm chưa? Mùi gì thế? Mùi sữa? Chắc thơm lắm...”
+
+“Có tạo bọt chưa? Bọt trôi xuống trông thế nào nhỉ... không nghĩ nữa. Đầu mình sắp nổ tung mất.”
+
+“Cái vách ngăn chết tiệt này! Ngày nào đó phải tháo phăng nó! Lát nữa dẫn vợ đi nhà tắm lớn, bỏ cái vách vô dụng này đi.”
+
+Tôi vội vàng thoa sữa tắm, chỉ mong nhanh chóng kết thúc. Đột nhiên, bánh xà phòng tuột khỏi tay tôi, rơi bịch xuống đất rồi lăn ngay dưới vách ngăn.
+
+Tôi lặng người. Tiếng nước bên Lăng Hiểu tắt lịm, cậu ta chắc chắn đã thấy bánh xà phòng. Không khí đông cứng mấy giây. Tôi nghe hắn ho giả bộ, giọng đầy bực dọc và khó chịu: “Đậu má! Cẩn thận chút được không? Cái gì cũng không cầm nổi! Tự lại đây mà nhặt.”
+
+“Trời giúp mình! Xà phòng! Là xà phòng!”
+
+“Vợ lại nhặt, mình có thể...”
+
+“Không đúng không đúng, vợ chắc ngại, vậy để mình nhặt, mình không ngại...”
+
+Sau đó, tôi trố mắt nhìn đôi chân dài cơ bắp cuồn cuộn của cậu ta khuỵu xuống. Cậu ta ngồi xổm, đầu và bờ vai rộng thò qua khe dưới vách ngăn. Ánh mắt cậu ta chính xác, nóng bỏng, dán chặt lên đôi chân trần của tôi rồi dần leo lên... Thời gian như giãn ra. Cậu ta ngồi xổm đó, tay nắm chặt bánh xà phòng, mắt như bị đóng đinh.
+
+“Lấy nhanh lên!”
+
+Trong lòng: “Trời ơi!!!!!! Chân! Chân! Chân! Đây là chân à? Là lưỡi dao câu hồn! Giết chết mình rồi! Lên nữa! Lên chút nữa! Xin đó! Mình không chịu nổi... khí huyết dồn xuống... sắp xỉu...”
+
+Mặt tôi bừng đỏ, hơi nóng từ lòng bàn chân xông thẳng lên đỉnh đầu! Tôi giật phắt bánh xà phòng từ tay cậu ta: “Cảm, cảm ơn!” Giọng run bần bật.
+
+Lăng Hiểu giật mình tỉnh giấc, vội rụt đầu lại, đứng phắt dậy mở vòi nước. Cậu ta dội nước lạnh thẳng vào đầu gáy, cố hạ nhiệt cơ thể đang bốc lửa.
+
+“Thấy rồi thấy rồi thấy rồi! Đời này coi như không uổng!”
+
+“Phải chịu trách nhiệm! Nhất định phải chịu trách nhiệm! Ngày mai lập tức nộp đơn kết hôn!”
+
+“Vợ mình giành xà phòng mà cũng hung dữ, càng khiến mình thích.”
+
+Tôi cuống cuồng xả sạch bọt xà phòng, lau người mặc quần áo nhanh nhất đời, chuồn thẳng khỏi phòng tắm như kẻ trộm bị đuổi. Sau lưng vẫn vẳng lại tiếng lòng tiếc rẻ của Lăng Hiểu: “Sao chạy nhanh thế? Không tắm thêm chút nữa...”
+
+Vừa bước ra ngoài, gió đêm lạnh buốt thổi qua khiến gò má nóng bừng của tôi dịu đi chút ít. Đang định thở phào nhẹ nhõm dưới hàng cây gần ký túc xá, một bóng người chợt lao ra chặn đường. Cố Thần.
+
+Đôi mắt hắn đỏ hoe, tóc tai bù xù, mặt mày dập nát. Quần áo nhàu nhĩ, lấm lem bụi đất như vừa bị ai đánh đập.
+
+“Ngôn Ngôn...” Giọng hắn khàn đặc, nhuốm vẻ tuyệt vọng đến đáng thương: “Nói chuyện một chút thôi, chỉ năm phút... được không?”
+
+Lòng tôi thắt lại, lùi về sau một bước: “Chúng ta không còn gì để nói.”
+
+“Tại sao?” Hắn đột nhiên kích động, tóm chặt cổ tay tôi đến mức đau điếng: “Vì thằng Lăng Hiểu đó sao? Cậu mới đến phương Bắc được mấy ngày? Cậu hiểu gì về hắn? Loại người như hắn hoàn toàn không xứng với cậu! Hắn chỉ là thứ vũ phu thô lỗ! Cậu cố tình tiếp cận hắn để trêu tức tôi đúng không? Dù có muốn yêu đương với đàn ông, cũng đừng chọn loại người như hắn! Cậu...”
+
+Cái chạm của hắn khiến tôi buồn nôn, tôi cố giật tay ra: “Buông ra! Cậu làm tôi đau rồi! Chuyện này không liên quan đến cậu ta!”
+
+“Không liên quan sao được?” Cố Thần gầm lên, hai mắt đỏ ngầu: “Trước đây cậu đâu như thế! Cậu rõ ràng chỉ thích mình tôi. Tình cảm bao nhiêu năm, chỉ vì một câu nói sai lầm mà cậu kết án tử hình, rồi quay sang tìm thằng khác? Lại còn là đàn ông? Bắt tôi chấp nhận thế nào đây? Đã là đàn ông với nhau, sao không yêu tôi mà đi tìm kẻ khác? Tôi vượt ngàn dặm đến tìm cậu, cậu còn muốn gì nữa? Cậu còn để người ta đánh tôi? Cậu rõ ràng luôn quan tâm tôi nhất, giờ lại để người khác hành hạ tôi? Cậu gặp phải thứ ô uế gì rồi phải không? Nhà tôi có quen thầy pháp, về đó trừ tà nhé?”
+
+Lý lẽ của hắn khiến tôi ngạt thở đến buồn cười.
+
+“Cố Thần, người kết án cậu không phải tôi.” Giọng tôi băng giá: “Mà là chính cậu, từ khoảnh khắc cậu gọi tôi là 'đồ kinh tởm', ôm người khác nhục mạ tôi trước mặt mọi người. Tôi thích ai, ở bên ai, đều không liên quan đến cậu.”
+
+“Tôi không tin!” Hắn lắc đầu điên cuồng, nước mắt giàn giụa: “Cậu đang giận tôi đúng không? Ngôn Ngôn, tôi biết lỗi rồi, thật sự biết lỗi rồi, cho tôi cơ hội nữa đi mà...”
+
+Hắn níu cổ tay tôi không buông, van xin thảm thiết đến mức vài sinh viên qua đường ngoái lại nhìn. Đúng lúc tôi bẽ bàng đến cực điểm, một bàn tay to lớn chợt vươn ra từ phía sau, kẹp chặt như kìm sắt vào cổ tay Cố Thần, giật phắt hắn ra xa!
+
+“Đậu má điếc tai à? Bảo cậu tránh xa cậu ấy ra!”
+
+Lăng Hiểu xuất hiện như mãnh thần giáng thế. Tóc cậu còn ướt sũng sau khi tắm, nhưng ánh mắt sắc lẹm như dao găm. Cậu kéo tôi lùi về phía sau, dùng thân hình lực lưỡng che chắn hoàn toàn, từng chữ nghiến ra từ kẽ răng: “Dám đụng vào tay vợ tôi? Muốn tôi chặt đứt tay không? Thứ chó điên cắn bậy!”
+
+“Dám chạm vào vợ tôi! Hư hết cả người vợ yêu rồi!”
+
+“Khóc lóc cái đếch gì! Tôi còn chưa khóc đây! Suýt nữa là được ngắm trọn vẹn rồi lại bị cái thằng ngu này phá đám!”
+
+Cố Thần mặt mày tái mét vì đau đớn, nhưng vẫn cố gượng gạo: “Lăng Hiểu đúng không? Cảnh cáo cậu, tránh xa Ngôn Ngôn ra! Cậu không hiểu chuyện giữa bọn tôi...”
+
+“Giữa hai người các người?” Lăng Hiểu cắt ngang, giọng đầy khinh bỉ: “Có cái đéo gì đâu. Cút!” Cậu ta liếc nhìn tôi với ánh mắt phức tạp, rồi quay sang Cố Thần, ném xuống câu nói chấn động: “Tôi đếch quan tâm chuyện cũ của hai người. Nhưng giờ, Thẩm Ngôn đứa ngủ cạnh tôi mỗi đêm, là người của tôi. Cậu dám quấy rầy cậu ấy thêm lần nữa, tôi gặp cậu một lần, đập một lần. Không tin thì cứ thử.”
+
+“Ngủ cạnh có nghĩa là cùng phòng, như vậy đúng rồi! Mình không nói dối!”
+
+“Dọa cho hắn biết đường lui!”
+
+“Vợ ơi nhìn chồng này! Ngầu không? Oai phong không?”
+
+Nhìn bờ lưng rộng của Lăng Hiểu, nghe lời bảo vệ thô kệch nhưng đầy kiên định, rồi so với sự níu kéo yếu ớt của Cố Thần, tim tôi bỗng loạn nhịp.
+
+Cố Thần như chết lặng trước cụm từ “ngủ cạnh tôi mỗi đêm”. Sắc mặt tái nhợt không còn giọt máu, hắn nhìn tôi rồi nhìn Lăng Hiểu, ánh mắt hoàn toàn vỡ vụn, cuối cùng lảo đảo bỏ đi.
+
+Lăng Hiểu mới buông nắm đấm đang siết chặt, quay sang nhìn tôi từ đầu đến chân, giọng vẫn gắt gỏng: “Không sao chứ? Lần sau thấy thằng khốn đó thì tránh xa, nghe chưa? Người mảnh khảnh thế này, đánh nhau không lại bọn chúng, lỡ bị thương thì...”
+
+“Có sợ không? Mau để chồng xem nào!”
+
+“Cổ tay đỏ chưa? Để tôi thổi cho?”
+
+“Vừa rồi tôi đỉnh không? Khen tôi đi!”
+
+“Lăng Hiểu, cậu thích tôi đúng không?”
+
+Câu hỏi của tôi vang lên, không khí đặc quánh như bị hút cạn. Vẻ mặt cau có giả vờ bình tĩnh của Lăng Hiểu đóng băng như bị bấm nút tạm dừng. Đồng tử cậu ta co rút mạnh như vừa nghe thấy chuyện kinh khủng nhất đời. Tôi thấy rõ cổ họng cậu ta lăn nhẹ một cái. Cậu há miệng định nói gì, nhưng chỉ phát ra tiếng nghẹn ngào kỳ quái.
+
+Một giây sau, gã hung thần phương Bắc cao gần mét chín, cơ bắp cuồn cuộn từng khiến Cố Thần phải khiếp sợ bỗng quay người chạy mất dép. Chạy thật, chân nam đá chân chiêu, bước loạng choạng suýt vấp phải gạch lồi, bóng lưng thất thểu biến mất sau góc ký túc xá. Chỉ còn tôi đứng đó trong gió đêm lạnh buốt.
+
+Tôi câm nín. Vậy ra mấy cái suy nghĩ vớ vẩn kia là ảo à? Bản chất cậu ta vẫn thấy tôi kinh tởm, vẫn ghét cay ghét đắng loại người như tôi, nên khi bị đâm thẳng vào tim đen cậu ta mới phản ứng thế.
+
+Thấy chưa Thẩm Ngôn, mày lại ảo tưởng nữa rồi. Như lần trước tưởng nhật ký của Cố Thần là tình yêu, giờ lại nhầm tiếng lòng quái gở của Lăng Hiểu thành tình cảm. Chút hơi ấm vì được cậu ta bênh vực vừa chớm nở bỗng nguội lạnh dần, chua xót và nhục nhã.
+
+Hôm sau, tôi cố tránh mọi lộ trình có thể gặp Lăng Hiểu. Sáng nhịn ăn sáng nhai vội mẩu bánh mì, đi học vòng đường xa, leo cầu thang phụ. Hiệu quả rõ rệt, cả ngày không thấy bóng dáng khiến lòng tôi dậy sóng. Quả nhiên cậu ta cũng đang trốn tôi.
+
+Chiều tan học, bụng đói cồn cào nên tôi đành ra căng tin. Tôi cúi đầu mua cơm, ngồi vào góc khuất nhất nhai cơm như sáp. Bỗng xung quanh xôn xao. Tôi ngẩng lên, tim chùng xuống. Ở quầy gần đó, bóng dáng cao lớn của Lăng Hiểu đang đứng đó. Bên cạnh cậu là cô gái váy vàng tươi, tóc cột đuôi ngựa, cười rạng rỡ. Cô ta vừa cười nói vừa vỗ nhẹ vào tay cậu. Lăng Hiểu không nhăn nhó như thường lệ, nhưng vẻ mặt đờ đẫn, ánh mắt liếc ngang liếc dọc.
+
+Tim tôi chìm nghỉm. Hóa ra cậu ta không trốn tôi, cậu ta đã có người “bạn” mới, một người bình thường có thể dắt ra ngoài ăn tối. Đúng rồi, gã đàn ông thẳng tuột như cậu ta, sao có thể thật lòng thích tôi? Những lần bênh vực hôm qua có lẽ chỉ vì tình bạn cùng phòng hay cái gọi là “nghĩa khí”? Những tiếng lòng kia chỉ là lảm nhảm lúc cậu ta điên máu.
+
+Tôi đúng là trò hề. Tôi cúi gằm mặt, bỏ dở bữa, thu dọn khay ăn chuồn thẳng.
+
+Về phòng, tôi quyết định lên mạng tìm phòng trọ gần trường. Không đổi phòng được thì ra ngoài ở, tránh cậu ta càng xa càng tốt.
+
+Đang lướt web thì Lăng Hiểu về. Cậu ta đẩy cửa, thấy tôi liền dừng chân. Ánh mắt ngập ngừng như muốn nói gì nhưng chỉ cắn môi, lầm lũi về giường lôi điện thoại ra gõ tạch tạch, ra vẻ “đang bận, đừng quấy”. Không biết giờ cậu ta có đang độc thoại nội tâm không, nhưng tôi bắt mình phớt lờ, tập trung vào màn hình.
+
+Đúng lúc đó, cửa phòng bị gõ. Bạn phòng đối diện thập thò: “Thẩm Ngôn đâu? Có người tìm cậu dưới lầu, hình như có chuyện gấp!”
+
+Tim tôi đập loạn. Ý nghĩ đầu tiên hiện lên: Cố Thần! Hắn không cam tâm, quay lại trả thù? Dẫn xã hội đen đến gây sự?
+
+Lăng Hiểu cũng bật dậy, mặt đen sì: “Ai tìm? Chuyện gì?”
+
+“Không rõ, chỉ bảo gặp Thẩm Ngôn gấp, hình như nghiêm trọng lắm!”
+
+Đầu óc tôi trống rỗng, nỗi sợ siết chặt tim. Không kịp suy nghĩ, tôi vứt điện thoại phóng xuống lầu. Lăng Hiểu đuổi theo, túm chặt cánh tay tôi, giọng căng như dây đàn: “Tôi theo với!”
+
+Hai đứa chạy như bay xuống cầu thang. Dưới ký túc xá đông nghẹt người chỉ trỏ xì xào. Tim đập thình thịch, tôi chen qua đám đông, hoảng hốt nhìn về phía trước.
+
+Không có xã hội đen, không có Cố Thần. Chỉ có... khoảng sân trước ký túc xá, vô số ngọn nến xếp thành hình trái tim khổng lồ méo mó mà ngớ ngẩn.
+
+Lăng Hiểu chạy vội vào giữa trái tim lửa. Trong tay cậu ta không hiểu từ đâu xuất hiện cái loa phóng thanh, các ngón tay siết chặt đến bạc trắng. Cậu ta hít sâu như chuẩn bị lên đoạn đầu đài, giơ cao loa lên.
+
+Mọi ánh mắt đổ dồn về phía cậu ta. Mặt đỏ bừng, mồ hôi trán lấm tấm, nhưng ánh mắt cậu ta dán chặt vào tôi, giọng run rẩy qua loa vang vọng khắp sân:
+
+“Thẩm Ngôn!”
+
+“Câu hỏi hôm qua...”
+
+“Tôi trả lời ngay đây!”
+
+“Ừ! Tôi thích cậu!”
+
+“Thích từ cái nhìn đầu tiên! Thích điên cuồng! Thích đến mất ngủ! Thích đến đầu óc chỉ còn mỗi cậu!”
+
+“Tôi tỏ vẻ ghét cậu vì tôi sợ! Tôi là thằng hèn! Sợ cậu ghê tởm! Sợ cậu chán ghét!”
+
+“Những tiếng lòng kia toàn là thật lòng!”
+
+“Con bé căng tin là em gái tôi! Cùng cha cùng mẹ đấy!”
+
+“Cậu không được chuyển ra ngoài! Không được trốn tôi!”
+
+“Từ nay ai dám bắt nạt cậu, chửi cậu, tôi xử đẹp!”
+
+“Tôi thích cậu! Muốn hôn cậu! Muốn ôm cậu! Muốn, muốn chịu trách nhiệm với cậu cả đời! Làm người yêu tôi được không?”
+
+“Cậu nói một lời cho tôi yên tâm!”
+
+Cậu ta hét xong câu cuối, ngực phập phồng, mắt không chớp nhìn tôi như tội nhân chờ án tử. Cả sân im phăng phắc, tất cả bị cú tỏ tình xuyên lục địa này làm choáng váng.
+
+Còn tôi đứng đó, nhìn gã hung thần phương Bắc trong ánh nến run rẩy mà cố đứng thẳng, nghe tiếng hét thô ráp đầy tình cảm. Những tiếng lòng từng khiến tôi đỏ mặt, ngượng chảy nước mắt bỗng tìm được chỗ về.
+
+Hóa ra tất cả đều thật. Gã đầu gấu đa tình trông hung tợn này đang dùng tất cả sự hồn nhiên và vụng về để yêu tôi.
+
+“Chết rồi chết rồi! Mình lỡ miệng rồi!”
+
+“Vợ sẽ sợ bỏ chạy mất!”
+
+“Sao không nói gì? Định từ chối à?”
+
+“Vợ ơi, gật đầu đi mà, mình nguyện làm trâu ngựa.”
+
+Gió thổi, nến lung lay. Nhìn vẻ mặt sắp khóc của hắn, tôi không nhịn được, khẽ cong môi.
+
+Sân vận động yên tĩnh đến mức có thể nghe thấy tiếng nến cháy lách tách, cùng hơi thở gần như rách thanh quản của Lăng Hiểu. Ánh mắt mọi người như những ngọn đèn sân khấu đổ dồn về phía tôi. Tôi cảm thấy má mình nóng bừng, trái tim đập thình thịch như muốn nhảy khỏi lồng ngực.
+
+Lăng Hiểu vẫn giơ chiếc loa, đôi mắt tròn xoe chứa đầy sự căng thẳng, mong đợi và cả nỗi sợ bị từ chối.
+
+Thầm nghĩ:
+
+“Nói đi em ơi!”
+
+“Gật đầu cũng được! Chớp mắt cũng được!”
+
+“Không nói nữa là tôi quỳ đấy! Quỳ thật đấy!”
+
+Nhìn vẻ vụng về như chuẩn bị lên đoạn đầu đài của cậu ta, chút nghi ngờ và chua xót cuối cùng trong lòng tôi bỗng tan biến, thay vào đó là cảm xúc ấm áp tràn đầy.
+
+Tôi hít sâu, từng bước tiến về phía vòng trái tim bằng nến tuy sến súa nhưng chân thành, về phía tên hung thần phương Bắc đang căng thẳng đến nỗi cơ bắp run rẩy. Dừng trước mặt cậu, tôi ngẩng đầu nhìn vào đôi mắt sáng rực ấy, rồi nhẹ nhàng cầm lấy chiếc loa đang kêu cót két trong tay cậu.
+
+Lăng Hiểu cứng đờ người. Ánh mắt cậu vụt tối lại, ngay cả nội tâm cũng nghẹn ngào: “Xong rồi, cậu ấy sẽ từ chối mất thôi, làm sao bây giờ?”
+
+Tôi đưa loa lên miệng, giọng nhỏ nhưng rõ ràng: “Lăng Hiểu. Anh làm ồn tai em đấy.”
+
+Cậu ta ngẩng phắt đầu, sững sờ. Tôi dừng một nhịp, nhìn thẳng vào mắt cậu tiếp tục: “Còn nữa, từ nay về sau bôi thuốc không được lén lút nửa đêm. Phải công khai. Vì em đã đồng ý rồi.”
+
+Nói xong, tôi đẩy chiếc loa vào tay cậu, hai má nóng như có thể rán trứng. Lăng Hiểu như bị một cái bánh từ trên trời rơi trúng đầu, đờ đẫn mất mấy giây.
+
+Rồi niềm vui bùng nổ:
+
+“Á á á! Đồng ý rồi! Vợ đồng ý rồi!”
+
+“Công khai! Em ấy nói là công khai!”
+
+“Mình có danh phận rồi! Ha ha ha!”
+
+Cậu ta ném cái loa xuống, dang rộng tay ôm chặt lấy tôi. Vòng tay siết mạnh đến mức như muốn nhấn tôi vào xương thịt!
+
+“Ha ha! Của mình rồi! Em ấy là của mình rồi!”
+
+Lăng Hiểu bế tôi xoay hai vòng giữa sân, hưng phấn như đứa trẻ 150kg, mặc kệ những tiếng huýt sáo, cổ vũ xung quanh. Tôi áp mặt vào lồng ngực nóng hổi, mùi mồ hôi của cậu, nghe nhịp tim đập thình thịch cùng dòng nội tâm ầm ĩ, không nhịn được bật cười. Đúng là đồ ngốc!
+
+Kể từ hôm đó, mối quan hệ của chúng tôi chính thức công khai nhờ sự tuyên truyền rầm rộ một phía của Lăng Hiểu. Cậu như muốn khắc bốn chữ “Thuộc về Thẩm Ngôn” lên trán. Đi đâu cũng nắm tay, ăn cơm ngồi cạnh, thậm chí lên lớp cũng chiếm chỗ liền kề dù chuyên ngành khác nhau.
+
+Tôi hỏi: “Lúc đầu em nói thích con trai, anh bảo là ghê tởm mà?”
+
+Cậu quỳ cộp một tiếng xuống đất: “Anh xin lỗi, vợ à, để anh tự tát ba cái, em đừng giận nhé?”
+
+Đúng là đồ ngốc!
+
+Những ngày tháng ồn ào mà ngọt ngào trôi qua, cho đến một hôm khi tôi và Lăng Hiểu bước ra từ thư viện, chạm mặt Cố Thần. Hắn gầy guộc hốc hác, ánh mắt vô hồn như người mất hồn. Thấy bàn tay đan chặt của chúng tôi, mặt Cố Thần tái mét, môi run run muốn nói điều gì.
+
+Lăng Hiểu lập tức kéo tôi ra sau lưng, ánh mắt cảnh giác như gà mẹ bảo vệ con, gườm mặt đối phương. Nhưng Cố Thần như không thấy thái độ thù địch, chỉ nhìn tôi giọng khàn đặc: “Ngôn Ngôn, tôi sắp đi nước ngoài rồi.”
+
+Tôi khẽ giật mình, rồi bình thản gật đầu: “Ừ, chúc cậu thuận buồm xuôi gió.”
+
+Không hận thù, không lưu luyến, như nghe tin người xa lạ. Sự thờ ơ tột độ này khiến Cố Thần còn đau hơn mọi lời cay độc.
+
+Mắt hắn đỏ hoe, giọng nghẹn ứ: “Tôi thật sự biết sai rồi, tôi sẵn sàng móc tim cho cậu xem. Sao không thể cho tôi thêm cơ hội? Chúng ta từng có bao nhiêu năm tình cảm...”
+
+Lăng Hiểu bực dọc ngắt lời: “Móc tim? Móc ra cũng toàn màu đen, chó còn chê. Đừng diễn bi kịch ở đây, ghê tởm lắm! Cút đi! Đừng ngăn bố với vợ bố làm chuyện chính đáng!”
+
+Cố Thần co rúm người. Hắn cắn chặt môi nhìn tôi, hy vọng mong manh cuối cùng.
+
+Tôi thở dài, lên tiếng bình thản mà dứt khoát: “Cố Thần, chuyện cũ tôi bỏ qua hết rồi. Hiện tại tôi rất hạnh phúc. Nhưng tôi không bao giờ mong cậu hạnh phúc, tôi sẽ hận cậu cả đời.”
+
+Nói xong, tôi kéo tay Lăng Hiểu: “Đi thôi, đói bụng rồi.”
+
+“Được thôi! Vợ muốn ăn gì?”
+
+“Ăn anh được không?”
+
+“Được chứ, hôm nay anh tắm rửa thơm tho lắm, không hôi đâu...”
+
+Lăng Hiểu cười toe toét, liếc nhìn Cố Thần mặt mày tái mét rồi ôm tôi bỏ đi.
+    
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>
