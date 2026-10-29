@@ -22113,6 +22113,215 @@ Trên đời này, làm gì có ai lại không thích cuộc sống như thế 
 Thậm chí đêm đêm, hắn còn ghé sát tai ta thủ thỉ gọi tên, gọi mãi không biết mệt: “Nguyệt Nguyệt...”
 
 Ta thật sự chịu hết nổi, bèn xông tới túm chặt cổ áo hắn, phẫn nộ gào lên: “Rốt cuộc là ai! Là kẻ nào đã tung ra tin đồn thất thiệt hại người đến mức này!”`
+  },{
+    id: 1076,
+    title: "Ao Cá Của Cô Nàng Trà Xanh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7c6c10312c44cedd9cabd27fb9687739.jpg",
+    link: "ngontinh/ao-ca-cua-co-nang-tra-xanh.html",
+    type: "ngontinh",
+    desc: `Tôi là cô gái mang danh “trà xanh”, cái danh nổi tiếng khắp trường đại học. Bên cạnh tôi lúc nào cũng có đám cậu ấm trong giới quyền quý Bắc Kinh vây quanh, hết người này đến người khác, tôi khéo léo xoay chuyển từng người một, nhưng chưa bao giờ để ai thật sự nắm bắt hay làm chủ được mình.
+
+Chỉ có một mình Cố Thời Thâm là theo đuổi tôi nghiêm túc, và anh kiên trì như thế suốt một quãng thời gian dài.
+
+Mọi chuyện cứ thế êm đềm trôi đi như một dòng nước chảy xuôi, cho đến một đêm nọ. Hôm ấy anh say khướt, và trong cơn say, anh thì thầm gọi tên một người phụ nữ khác bằng giọng đầy tình cảm.
+
+“Anh đã học được cách phân biệt ‘trà xanh’ rồi, em quay lại với anh được không?”
+
+Cổ họng tôi nghẹn đắng lại ngay tức khắc. Câu nói ấy ập đến quá đột ngột, khiến tôi không kịp nghĩ thêm điều gì khác ngoài nỗi nghẹn ấy.
+
+Trời đất ơi, hóa ra suốt bấy lâu nay, tôi chỉ là đối tượng để anh ta thực hành cách nhận biết “trà xanh” thôi sao! Cả quãng thời gian anh theo đuổi tôi, hóa ra chỉ là một cuộc thử nghiệm!
+
+Đến khi gặp lại mối tình đầu vừa mới trở về nước, một nỗi tủi thân bất chợt trào lên trong lòng tôi, mạnh đến mức tôi chẳng kịp che giấu: “Thẩm Vị Phàm, lòng em đau quá.”
+
+Anh ấy khẽ nở nụ cười, giọng nói vẫn dịu dàng như thế: “Em bỏ chặn anh khỏi danh sách đen trước đã.”
+
+“Còn chuyện cũ, chúng ta tính sau.”
+
+Về sau, mỗi lần cúi xuống nhìn vòng bụng ngày một lớn dần của mình, tôi chỉ biết khóc không ra nước mắt, cười cũng chẳng nổi.
+
+Đúng là “tính sau” thật mà...
+
+Ngày Cố Thời Thâm mắt đỏ ngầu, hạ mình cầu xin tôi tha thứ thêm một lần nữa, mối tình đầu của tôi chỉ nhướng mày giễu cợt: “Bụng vợ tôi đã lớn thế này rồi, cậu vẫn chưa quên được sao?”
+`
+  },{
+    id: 1077,
+    title: "Bốn Tên Tình Địch Đều Có Tình Ý",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/687eee4685f4e9ea5d3cc3917e18ea7b.jpg",
+    link: "dammy/bon-ten-tinh-dich-deu-co-tinh-y.html",
+    type: "dammy",
+    desc: `Trong phòng ký túc xá, Phỉ Huyền đúng là một “tiểu đáng thương” chính hiệu.
+
+Gia cảnh của cậu ấy bi thảm đến cùng cực, thân thể lại gầy yếu mong manh.
+
+Ở hội F4 lừng danh của học viện, chẳng ai là không động lòng thương mến cậu ấy.
+
+Dĩ nhiên, tôi cũng nằm trong số những kẻ si mê đó.
+
+Cả gian ký túc xá chỉ vỏn vẹn năm người, vậy mà có tới bốn kẻ điên cuồng xòe đuôi để lấy lòng cùng một người.
+
+Mỗi lần trong lớp tôi muốn ngồi xuống cạnh cậu ấy, hội trưởng hội sinh viên Đồ Nam luôn nhanh chân chen vào chiếm chỗ trước.
+
+Lúc tôi toan hẹn cậu ấy đi xem nhạc kịch, Quý Thanh Lâm đã ra tay sớm hơn tôi một bước.
+
+Đến cả cơ hội làm bạn đồng hành của cậu ấy trong dạ hội hóa trang, chẳng biết từ khi nào cũng đã lọt vào tay Du Huyên.
+
+Tôi thực sự bó tay với bọn họ.
+
+Tôi không khỏi thắc mắc, dựa vào đâu chứ?
+
+Ai cũng chỉ dựa vào bản lĩnh của riêng mình, vậy mà cớ gì bọn họ lúc nào cũng chĩa mũi nhọn về phía tôi?
+
+Mãi về sau, khi tôi vô tình sa vào cảnh tù tội và tưởng như đã mất sạch mọi thứ trên đời, tôi mới chợt tỉnh ngộ trước một sự thật…
+
+Người mà bọn họ nhắm tới, từ đầu đến cuối chưa từng là tôi.
+`
+  },{
+    id: 1078,
+    title: "Phong Hoa Nữ Sơn Trưởng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/37a9a8a45c65c0636e41b9a05ef4e477.jpg",
+    link: "cotrang/phong-hoa-nu-son-truong.html",
+    type: "cotrang",
+    desc: `Bùi Nghi Chi vốn là vị hôn phu mà cha ta đã một tay nuôi nấng, chăm lo từ thuở hắn còn bé dại.
+
+Thế nhưng, hắn vừa đỗ Trạng nguyên đã vội vã kết duyên với một vị công chúa cao quý.
+
+Đáng lẽ ra, ta phải xông thẳng vào hôn lễ của bọn họ mà làm loạn một phen cho thỏa nỗi uất ức trong lòng.
+
+Để rồi bị đám gia đinh tàn nhẫn của phủ công chúa đuổi đánh, cuối cùng chết bờ chết bụi nơi đầu đường xó chợ.
+
+Nhưng kiếp này thì khác. Ta đã quyết, tuyệt đối sẽ không đi lại vết xe đổ ấy thêm một lần nào nữa.
+`
+  },{
+    id: 1079,
+    title: "Người Chồng Yếu Đuối Giả Vờ Đáng Thương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7b4d7240f8ca5056171d744d1fbe146.jpg",
+    link: "ngontinh/nguoi-chong-yeu-duoi-gia-vo-dang-thuong.html",
+    type: "ngontinh",
+    desc: `Đoạn video ghi lại cảnh tôi mắng người suốt hai tiếng đồng hồ liền mà không lặp lại một từ tục tĩu nào bỗng nổ ra thành hiện tượng trên mạng xã hội.
+
+Đúng lúc ấy, một quý bà sang trọng đột ngột tìm đến tận nơi để gặp tôi.
+
+Bà ta đưa ra một lời đề nghị làm người nghe sửng sốt: “Một tháng mười triệu tệ, gả cho con trai tôi.”
+
+Tôi suýt nữa đã buột miệng mắng thẳng vào mặt bà ta rằng đây là trò của một kẻ lừa đảo chuyên nghiệp.
+
+Một tháng mười triệu tệ chỉ để cưới vợ cho con trai, nghe thế nào cũng giống một trò lừa đảo được dựng sẵn. Tôi đã sẵn sàng mắng cho bà ta một trận ngay tại chỗ, không chừa lại chút thể diện nào.
+
+Nhưng ngay khoảnh khắc đó, người phụ nữ trung niên đưa tay quệt giọt nước mắt đọng nơi khóe mi, nghẹn ngào giải thích: “Con trai tôi vốn hiền lành, từ sau trận tai nạn quái ác ấy lại càng hay bị người ta bắt nạt. Cái miệng sắc sảo lanh lợi của cô, nói cho cùng lại rất hợp để che chở cho nó.”
+
+Rồi tôi bước vào bữa tiệc xa hoa kia, tận mắt thấy người đàn ông tuấn tú ngồi thẫn thờ trên xe lăn, bất lực nhẫn nhịn trước những lời chế giễu nhục mạ cay nghiệt mà không dám hé răng.
+
+Đáy lòng tôi dậy lên một nỗi trắc ẩn khó gọi thành tên.
+
+Chính phút mềm lòng ấy đã khiến tôi gật đầu nhận bản hợp đồng hôn nhân vô lý này.
+
+Nếu không có khoảnh khắc ấy, chắc chắn tôi đã chẳng bao giờ gật đầu ký vào bản hợp đồng này. Tất cả cũng chỉ vì lòng tôi bỗng mềm đi một chút trước người đàn ông kia.
+
+Thế nhưng đến một ngày nọ, tôi tình cờ bắt gặp người chồng mang tiếng bệnh tật yếu đuối, vô dụng của mình đang ngồi cao cao tại thượng ở ghế chủ tọa.
+
+Gương mặt anh lạnh đến cực điểm. Đôi mắt sắc bén đầy uy nghiêm của anh lặng lẽ nhìn xuống đám người từng bị anh chơi đến phá sản, giờ đang quỳ rạp dưới đất xin tha.
+
+Đầu óc tôi lúc ấy trống rỗng, chỉ còn lại sự kinh ngạc.
+
+Mọi điều tôi từng biết về người chồng này bỗng đảo lộn hoàn toàn. Tôi đứng đó, kinh ngạc đến mức chẳng nghĩ nổi nên phản ứng thế nào cho phải.
+
+Trời ạ, mẹ chồng yêu quý của con ơi, mẹ có chắc người đang ngồi kia thật sự là đứa con trai yếu đuối đến mức tự lo cho mình cũng không nổi của mẹ không?`
+  },{
+    id: 1080,
+    title: "Cố Gắng Trốn Thoát Khỏi Bạo Quân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/04ee588b04fb2508345c1f6ddaead8c5.jpg",
+    link: "dammy/co-gang-tron-thoat-khoi-bao-quan.html",
+    type: "dammy",
+    desc: `Một ngày nọ, vừa mở mắt ra, tôi đã thấy mình bị ném vào một cuốn sách, lại còn làm Giám chính của Khâm Thiên Giám dưới trướng một vị bạo quân. Muốn sống sót, tôi buộc phải tự tìm đường cứu lấy mình.
+
+Vì nằm lòng từng tình tiết trong cốt truyện, tôi không chỉ trải qua những tháng ngày vô cùng thoải mái, tự tại nơi Khâm Thiên Giám mà còn từng bước gây dựng được lòng tin sâu đậm từ hắn.
+
+Nhờ đặc quyền ấy, tôi lặng lẽ thu xếp cho cả nhà rời đi từ trước, đồng thời tẩu tán toàn bộ tài sản mà không để ai hay biết. Giờ chỉ còn việc kiên nhẫn chờ thời cơ chín muồi để chuồn khỏi kinh thành.
+
+Ngờ đâu, đúng ngày bỏ trốn, tôi vừa thò đầu ra khỏi xe ngựa định hít thở chút không khí tự do thì bị một kẻ nào đó bất ngờ gõ cho một cú đao, ngất lịm tại chỗ.
+
+Khi tỉnh lại, tôi phát hiện mình đang nằm trên một chiếc giường hoàn toàn xa lạ, chẳng biết đây là nơi nào.
+
+Trước mặt tôi lúc này là bạo quân, ánh mắt u uất sâu hun hút.
+
+Hắn đè thấp giọng: “Liên Thanh, khanh định chạy đi đâu?”
+`
+  },{
+    id: 1081,
+    title: "Tâm Cơ Sâu Sắc Của Vị Công Tử Nho Nhã",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6751ff30a4a5df8cf6f9a5c9d9b5e1c2.jpg",
+    link: "cotrang/tam-co-sau-sac-cua-vi-cong-tu-nho-nha.html",
+    type: "cotrang",
+    desc: `Chỉ còn vài ngày ngắn ngủi nữa, vị hôn phu của ta sẽ đưa nữ chính thật sự của đời hắn trở về phủ.
+
+Còn ta, giữa mối tình thắm thiết ngọt ngào của hai người họ, chỉ là hòn đá ngáng chân phiền phức nhất.
+
+Từ sau giấc mơ kỳ lạ phơi bày toàn bộ diễn biến tương lai, ta đã quyết định buông xuôi, không tranh giành cũng chẳng bận tâm thêm nữa.
+
+Nói thật lòng, nếu không vì món nợ ân nghĩa lớn lao năm xưa, ta đã sớm từ bỏ vị hôn phu chẳng ra gì này.
+`
+  },{
+    id: 1082,
+    title: "Từ Bộ Đồng Phục Đến Váy Cưới",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c34a9c60687613621b253a2c8ba3fb0c.jpg",
+    link: "ngontinh/tu-bo-dong-phuc-den-vay-cuoi.html",
+    type: "ngontinh",
+    desc: `Trong buổi họp lớp tổ chức ngay sau kỳ thi đại học, tôi đã từng đứng trước cả đám bạn mà tỏ tình với Giang Việt.
+
+Cậu ấy thậm chí chẳng buồn ngẩng đầu lên, chỉ thờ ơ buông một câu lạnh tanh: “Bùi Tân Vũ, chúng ta không hợp nhau.”
+
+Tôi phẩy tay ra vẻ chẳng sao, cười xòa đáp lại: “Không sao, tôi chỉ thua cược trò xúc xắc thôi mà.”
+
+Bảy năm dài đằng đẵng trôi qua, lại đến một buổi họp lớp nữa.
+
+Thấy tôi và Giang Việt cùng bước vào cửa, đám bạn học cũ liền tò mò xúm lại, tranh nhau hỏi xem giữa hai chúng tôi là quan hệ gì.
+
+Gương mặt tôi không chút biểu cảm, giọng đều đều và bình thản đến lạ: “Cậu ấy là sếp của tôi.”
+
+Nghe xong câu trả lời đó, cả đám người xung quanh thở dài thất vọng.
+
+Đúng lúc ấy, Giang Việt đứng bên cạnh cất giọng lạnh tanh: “Tôi phải nhắc em một điều, chúng ta đã kết hôn rồi.”
+
+Cậu ấy chậm rãi quay sang, nhìn thẳng vào mắt tôi rồi nói rành rọt từng chữ: “Giang, phu, nhân.”
+`
+  },{
+    id: 1083,
+    title: "Kẹo Gừng Của Người Miêu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2448687513e5e2228985ee14637a48eb.jpg",
+    link: "dammy/keo-gung-cua-nguoi-mieu.html",
+    type: "dammy",
+    desc: `Tôi là người dân tộc Miêu.
+
+Sau khi bạn cùng phòng lại lạnh mặt với tôi thêm một lần nữa, tôi lướt thấy một bài đăng đang rất xôn xao trên mạng:
+
+“Người Miêu có biết hạ tình cổ không?”
+
+“Tôi hình như trúng rồi, phải làm sao đây?”
+
+“Đúng vậy, tôi đã biến người yêu cũ thành số không như thế đó.”
+
+“Để bạn cùng phòng cậu dạy tôi với, tôi cũng muốn hạ cho crush.”
+
+“Người Miêu bọn tôi đều như vậy, thích là làm liền, tối cậu ngủ đừng say quá.”
+`
+  },{
+    id: 1084,
+    title: "Giấc Mộng Hão Huyền",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3dab30d53fcece7060e6ce15036788c6.jpg",
+    link: "cotrang/giac-mong-hao-huyen.html",
+    type: "cotrang",
+    desc: `Đến khoảnh khắc sắp lìa đời, trong lòng ta vẫn còn giữ lại một chút ích kỷ nhỏ nhoi.
+
+Ta siết chặt vạt áo thấm đẫm máu của Sở Hành Chu, tuyệt vọng van nài: “Chàng gọi ta là Chiêu Chiêu... thêm một lần nữa, được không?”
+
+Thế nhưng hắn chẳng hề nhìn xuống ta, đôi môi run rẩy chỉ liên tục gọi Thái y đến cứu.
+
+Ta nở một nụ cười chua chát. Hóa ra tất cả chỉ là ảo mộng.
+
+Nhan Chiêu thật sự đã chết từ nhiều năm trước.
+
+Vậy thì thân xác đang nằm đây, rốt cuộc là ai?
+`
   },
 
 
