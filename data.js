@@ -22322,6 +22322,200 @@ Nhan Chiêu thật sự đã chết từ nhiều năm trước.
 
 Vậy thì thân xác đang nằm đây, rốt cuộc là ai?
 `
+  },{
+    id: 1085,
+    title: "Trùm Trường Bá Đạo Cưng Chiều Cậu Bạn Cùng Phòng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/47cbf9913b775e1711468012f0231293.jpg",
+    link: "ngontinh/trum-truong-ba-dao-cung-chieu-cau-ban-cung-phong.html",
+    type: "ngontinh",
+    desc: `Tôi đi học thay anh trai song sinh, rồi bị xếp ở chung phòng với tên đầu gấu khét tiếng của trường.
+
+Gã dữ dằn đến mức khó tin, mở miệng ra là gọi tôi là đồ tiểu bạch kiểm.
+
+Vậy mà càng về sau, ánh mắt gã nhìn tôi càng nóng rực.
+
+Đến lúc say rượu, gã dồn tôi vào sát góc tường, giọng trầm khàn thì thào:
+
+“Làm sao bây giờ, hình như anh thích em mất rồi...”
+`
+  },{
+    id: 1086,
+    title: "Tôi Cùng Bạch Nguyệt Quang Bạn Trai Cũ Bỏ Trốn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/24d6f6afcf2c2599ac751239aa1f78b8.jpg",
+    link: "dammy/toi-cung-bach-nguyet-quang-ban-trai-cu-bo-tron.html",
+    type: "dammy",
+    desc: `Sau khi nhận ra mình thích đàn ông, tôi ôm theo cuốn sổ tiết kiệm lên huyện tìm đối tượng.
+
+Rốt cuộc tôi cũng gặp được một người đẹp tựa tiên nhân giáng thế, tên là Bùi Hoán.
+
+Anh ta có gương mặt cuốn hút đến khó rời mắt, kỹ thuật điêu luyện, lại còn xuất thân giàu có tột bậc.
+
+Chỉ tiếc cái miệng của anh ta độc địa quá mức, hễ mở lời là tôi lại nhói lên đau tức ngực.
+
+Chưa hết, tôi còn bàng hoàng phát hiện mình chỉ là kẻ thế thân trong mắt anh ta.
+
+Nghĩ tới nghĩ lui, tôi tự nhủ thôi bỏ đi, không thể tiếp tục yêu đương với một kẻ xem tình cảm như trò đùa như thế này nữa.
+
+Tôi dứt khoát quay về thu dọn hành lý, rồi bắt xe khách về quê.
+
+Không ngờ sau đó mẹ tôi chịu nhượng bộ, tìm cho tôi một mối xem mắt, mà đối tượng cũng là nam. Tôi vừa gật đầu: “Được...”
+
+Bùi Hoán chẳng biết từ đâu lao tới, nắm chặt lấy tay tôi, mắt đỏ ngầu như sắp khóc: “Được cái gì mà được! Không được! Em tuyệt đối không được ở bên người khác!”
+
+Tôi tròn mắt, lẩm bẩm: “Nhưng anh ấy đâu phải người khác... là anh em thân thiết của anh mà.”
+`
+  },{
+    id: 1087,
+    title: "Làm Nô Tỳ Trị Tra Nam",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/800503407563b306a7b10b3b60324687.jpg",
+    link: "cotrang/lam-no-ty-tri-tra-nam.html",
+    type: "cotrang",
+    desc: `Cuối cùng thì ta cũng thành một nô tỳ đạt chuẩn.
+
+Lão phu nhân và Nhị gia cãi vã không dứt, ta bèn đứng ra dàn xếp cho êm. Ta quỳ rạp xuống đất, hai tay ôm chặt chân Nhị gia, khẩn khoản van xin hắn đừng vì nóng nảy mà buông ra những lời sai quấy.
+
+Nhị gia bỗng siết lấy cằm ta, nở một nụ cười tàn nhẫn: “Ta biết thừa Tam đệ vẫn luôn để mắt đến ngươi. Nhưng ta đã quyết bắt ngươi làm thiếp của ta, hắn có biết cũng chẳng làm gì được ta.”
+
+Tam gia đương nhiên sẽ không gây khó dễ gì với Nhị gia. Hắn chỉ âm thầm tìm cách trừng phạt ta mà thôi.
+
+Ta là người của Tam gia, nên dù có phải chết cũng không được phép để kẻ khác vấy bẩn.
+
+Trong mắt đám quyền quý này, ta chỉ là một con hầu, một món đồ chơi để bọn chúng mặc sức giành giật.
+`
+  },{
+    id: 1088,
+    title: "Em Chưa Từng Là Duy Nhất",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5682855a7f02786530ad4abc57481962.jpg",
+    link: "ngontinh/em-chua-tung-la-duy-nhat.html",
+    type: "ngontinh",
+    desc: `Ngày thứ ba sau khi chồng tôi mất trí nhớ, tôi dứt khoát đề nghị ly hôn.
+
+Lâm Dư gật đầu ngay, không mất đến một giây cân nhắc.
+
+Hắn quên sạch sự tồn tại của tôi, vậy mà chuyện cô người yêu cũ vừa ly dị thì lại nhớ rành rọt đến từng chi tiết.
+
+Thành ra lời đề nghị chia tay của tôi vô tình bắc cầu, tác thành trọn vẹn cho hai người họ.
+
+Một tháng sau, Lâm Dư cầm bản hồ sơ bệnh án của bệnh viện đến tìm tôi.
+
+“Chúng ta từng có một đứa con.”
+
+Tôi gật đầu xác nhận: “Ừ, chúng ta từng có một đứa con.”
+
+Mắt Lâm Dư đỏ lên: “Vậy đứa bé đâu rồi?”
+
+Tôi bật cười, giọng thản nhiên: “Tôi đã không cần anh nữa thì giữ đứa bé lại làm gì? Chiều hôm bước ra khỏi cục dân chính, tôi đã giải quyết xong xuôi rồi.”
+`
+  },{
+    id: 1089,
+    title: "Omega Duy Nhất Trong Giới Giải Trí",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/79640661383bdef57b31d8448e5bb247.jpg",
+    link: "dammy/omega-duy-nhat-trong-gioi-giai-tri.html",
+    type: "dammy",
+    desc: `Giới giải trí tổ chức bầu chọn Omega đẹp nhất.
+
+Tôi nhếch môi cười khinh bỉ: “Đàn ông đích thực không ai đi giả làm Omega cả.”
+
+Quay người một cái, tôi đã ngã quỵ xuống đất vì kỳ phát tình ập tới.
+
+Ai hiểu cho tôi đây?
+
+Bọn họ chỉ giả làm Omega, còn tôi là Omega thật!
+
+Ngay lúc ấy, giọng của kẻ không đội trời chung với tôi vang lên:
+
+“Thầy Lộ, bộ dạng này của cậu… là đang dụ dỗ tôi sao?”
+
+Dụ dỗ cái đầu anh!`
+  },{
+    id: 1090,
+    title: "Trọng Sinh Hưu Phu Đoạn Tuyệt Tình Xưa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/54183b021e0779f64f1616857481522c.jpg",
+    link: "cotrang/trong-sinh-huu-phu-doan-tuyet-tinh-xua.html",
+    type: "cotrang",
+    desc: `Ta và Cố Ngự có hôn ước suốt mười sáu năm. Vậy mà một ngày nọ, hắn bất thình lình bảo rằng nhân duyên do cha mẹ sắp đặt vốn không thể gượng ép, rồi một mực đòi từ hôn.
+
+Phụ thân hắn lại không chịu buông. Ông trực tiếp lên triều, thỉnh Hoàng thượng ban xuống một đạo thánh chỉ tứ hôn.
+
+Ngày ấy, ta hân hoan chuẩn bị xuất giá, còn hắn thì mang vẻ mặt miễn cưỡng đến đón dâu.
+
+Sau khi thành thân, hắn đối với ta lạnh nhạt vô cùng, suốt một thời gian dài chưa từng đặt chân vào phòng ta lấy một bước. Mãi đến một hôm, hắn dẫn về một nữ tử, thẳng thừng tuyên bố hai người họ mới là chân ái của nhau, còn nhất quyết đòi hưu thê để tái giá cùng nàng ta.
+
+Ta không đồng ý. Thế mà chưa đầy mấy ngày sau, Cố Ngự đã dẫn quan binh đến lục soát Hứa gia, tấu lên tội danh nhà ta cấu kết với Địch quốc.
+
+Hắn thừa biết gia đình ngoại tổ ta cả nhà đều trung liệt, Hứa gia ta làm sao có thể làm ra chuyện cấu kết với Địch quốc được!
+
+Đúng đêm tân hôn của hắn và nữ tử kia, ta phóng hỏa thiêu rụi toàn bộ Trường Ninh Bá phủ.
+
+Đến khi mở mắt ra lần nữa, ta phát hiện mình đã trở về thời điểm ba tháng trước ngày thành thân.
+
+Lần này, ta không đợi hắn kịp mở lời từ hôn. Ta chủ động xin vào cung, dập đầu cầu xin Thái hậu ban một đạo thánh chỉ: “Thần nữ và Cố tiểu công tử hữu duyên vô phận, xin Thái hậu thành toàn cho hủy bỏ hôn ước này, để mỗi người tự tìm lấy hạnh phúc riêng.”
+
+Hôn ước đã giải trừ, lẽ ra Cố Ngự phải mừng rỡ khôn xiết mới phải. Nhưng lạ thay, sau khi nhận thánh chỉ, hắn lại nhiều lần tìm đến Hứa gia, đòi gặp ta.
+
+Phiền không chịu nổi, ta bảo nha hoàn Tiểu Oanh ra nhắn lại với hắn: “Chàng vốn chẳng muốn cưới ta, nay ta làm vậy chẳng phải đúng ý chàng rồi sao? Cớ gì còn đến quấn quýt mãi không thôi, chàng bày ra bộ dạng này là để cho ai xem?”
+
+Tối hôm đó, ca ca bước vào phòng tìm ta: “Nghiên Nghiên, Cố Ngự từ nhỏ đã cùng chúng ta học ở tộc học, giao tình hai bên thâm hậu, hai nhà lại hiểu rõ nhau. Vì sao muội đột nhiên muốn từ hôn? Chẳng lẽ hắn đã làm điều gì có lỗi với muội?”
+`
+  },{
+    id: 1091,
+    title: "Thanh Xuân Của Bà Để Cháu Trả Lại",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e2eac31bfc1b1a6e1609350c675c9334.jpg",
+    link: "ngontinh/thanh-xuan-cua-ba-de-chau-tra-lai.html",
+    type: "ngontinh",
+    desc: `Bà nội vừa trút hơi thở cuối cùng, ông nội đã vội vàng lo liệu một lễ cưới thật linh đình để đón người tình cũ vừa mất chồng về nhà.
+
+Tiếng nhạc đám cưới rộn ràng vang lên ngay bên linh cữu người đã khuất. Giữa khung cảnh ấy, tôi mới lần đầu thấy ông nội nhìn một người phụ nữ bằng ánh mắt nuông chiều đến vậy.
+
+Ba tôi đứng cạnh cũng vỗ tay tán thưởng. Theo ông, người mất thì thuộc về quá khứ, còn người sống phải biết hướng về phía trước.
+
+Chỉ riêng tôi đứng chết lặng, ngón tay mân mê chiếc nhẫn vàng nhỏ xíu đã móp méo, di vật duy nhất bà để lại. Nỗi tuyệt vọng cứ thế dâng lên, nhấn chìm tôi.
+
+Ông nội đã quên sạch người bạn đời cả đời lam lũ bên mình.
+
+Ba tôi cũng chẳng còn nhớ đến người mẹ một sương hai nắng, thương ông hết lòng hết dạ.
+
+Đến khi mở mắt ra lần nữa, tôi thấy mình đã trở về năm hai mươi ba tuổi.
+
+Lúc ấy ông nội đang nằm dài trên ghế sofa, hất hàm chỉ trỏ bà nội, gắt gỏng bắt bà Thục Phân mau đi mua cho ông chai rượu.
+
+Bà nội bằng xương bằng thịt đang đứng sờ sờ trước mắt tôi. Nước mắt nghẹn lại rồi bất giác lăn dài trên má.
+
+Tôi vội nắm lấy tay bà, kéo nhanh ra phía cửa và hỏi: “Bà nội, bà đã bao giờ nghĩ đến chuyện ly hôn chưa?”`
+  },{
+    id: 1092,
+    title: "Giam Cầm Ánh Trăng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/dcdf3147d1dbfed6e834da9fb5e6e036.jpg",
+    link: "dammy/giam-cam-anh-trang.html",
+    type: "dammy",
+    desc: `Vị nam thần lạnh lùng của trường tin chắc rằng tôi thầm thích cậu ta, và chỉ trong chốc lát, tên tôi đã bị lôi lên diễn đàn trường cho thiên hạ bàn tán.
+
+Cả đám người xúm vào công kích không chút nương tay, kẻ thì chửi tôi là thứ biến thái xảo quyệt, ngày đêm mơ mộng đeo bám nam thần, kẻ thì gào lên đòi tống cổ tôi ra khỏi Đại học A cho bằng được.
+
+Nghĩ tới Khương Kim, người bạn cùng phòng mà tôi thật lòng thầm thương và cũng nổi tiếng là cực kỳ kỳ thị đồng tính, chỉ cần hình dung ánh mắt khinh bỉ của hắn là tôi đã rùng mình ớn lạnh.
+
+Vì thế ngay trong đêm đó, tôi cuống quýt gom hết đồ đạc, dốc toàn bộ sức lực để dọn ra ngoài ở tạm cho thật nhanh.
+
+Ấy vậy mà chỉ ngay sau đó, người nhốt tôi vào tầng hầm lại chính là hắn.
+
+“Trói em lại, em sẽ chỉ thuộc về riêng mình anh.”`
+  },{
+    id: 1093,
+    title: "Nữ Pháo Hôi Hóa Điên Trị Cả Nhà Cực Phẩm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3b0772d29159d10ca4e75aaf0e8c1c12.jpg",
+    link: "cotrang/nu-phao-hoi-hoa-dien-tri-ca-nha-cuc-pham.html",
+    type: "cotrang",
+    desc: `Ta vốn sống trong bệnh viện tâm thần u tối suốt một thời gian dài, nào ngờ lại vô tình xuyên không, trở thành nữ nhi của nhị phòng một nhà nông, kẻ luôn phải chịu ấm ức trong một quyển tiểu thuyết điền văn.
+
+Tổ mẫu và tổ phụ thiên vị đến cùng cực. Đại bá phụ lười nhác thành tính, tam thúc gian xảo quỷ quyệt, còn cô mẫu thì tâm cao khí ngạo.
+
+Phụ mẫu ta lại chẳng khác nào hai quả hồng mềm, người ta muốn nhào nặn ra sao cũng đành cam chịu.
+
+Riêng ta, kẻ phải làm thân trâu ngựa trong căn nhà này, ngày ngày dậy sớm hơn gà, ngủ muộn hơn chó.
+
+Ta không những phải lo cơm nước cho cả nhà mười mấy miệng ăn, mà còn bị cô mẫu cùng đường tỷ vu oan tội ăn trộm trứng gà. Tổ mẫu đánh ta đến mức thừa sống thiếu chết, rồi quăng thẳng vào chuồng bò, nhốt suốt ba ngày ba đêm.
+
+Chứng bệnh tâm thần của ta tái phát. Ta bèn giả vờ bị yêu quái nhập thân, ra tay giết sạch đàn gà của bà tổ mẫu cực phẩm kia, rồi dõng dạc tuyên bố: “Mỗi ngày ta phải ăn một con gà, nếu thiếu dù chỉ một con, ta sẽ lấy mạng cả nhà các ngươi!”`
   },
 
 
