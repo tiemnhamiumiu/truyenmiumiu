@@ -11,11 +11,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/photo/?fbid=122131667913467824&set=pcb.122131668033467824"
+        url: "https://www.facebook.com/photo?fbid=122132083143467824&set=pcb.122132083287467824"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/photo/?fbid=122131668585467824&set=pcb.122131668675467824"
+        url: "https://www.facebook.com/photo?fbid=122131668585467824&set=pcb.122131668675467824"
     }
 };
 
@@ -39,9 +39,16 @@ const FB_DESIGN_HEIGHT = 355;
 
 const FACEBOOK_ZONE_DEBUG = false;
 
+
 const FACEBOOK_CLICK_ZONE = {
-    shopee:     { top: 67, height: 18, left: 10, width: 212 },  // spf: 32 ký tự, link kết thúc x ≈ 231
-    shopeefood: { top: 67, height: 18, left: 10, width: 215 }   // s: 30 ký tự, link kết thúc x ≈ 217
+    shopee: {
+        left: 11, width: 204,
+        rows: [ { top: 50, height: 20 }, { top: 71, height: 14 } ]
+    },
+    shopeefood: {
+        left: 11, width: 212,
+        rows: [ { top: 50, height: 14 }, { top: 71, height: 14 } ]
+    }
 };
 
 
@@ -691,22 +698,18 @@ function createFacebookIframe(postUrl) {
                 ? "background:rgba(255,0,0,.35);"
                 : "background:transparent;");
 
-        const zoneBottom = zone.top + zone.height;
-        const zoneRight = zone.left + zone.width;
+        const addMask = function (top, left, width, height) {
 
-        /* trên, dưới, trái, phải — chừa đúng ô chứa link ở giữa */
-        const maskCss = [
-            "top:0;left:0;right:0;height:" + zone.top + "px;",
-            "top:" + zoneBottom + "px;left:0;right:0;bottom:0;",
-            "top:" + zone.top + "px;left:0;width:" + zone.left + "px;height:" + zone.height + "px;",
-            "top:" + zone.top + "px;left:" + zoneRight + "px;right:0;height:" + zone.height + "px;"
-        ];
-
-        maskCss.forEach(function (css) {
+            if (width <= 0 || height <= 0) {
+                return;
+            }
 
             const mask = document.createElement("div");
 
-            mask.style.cssText = maskBase + css;
+            mask.style.cssText =
+                maskBase +
+                "top:" + top + "px;left:" + left + "px;" +
+                "width:" + width + "px;height:" + height + "px;";
 
             mask.addEventListener("click", function (event) {
                 event.preventDefault();
@@ -714,8 +717,45 @@ function createFacebookIframe(postUrl) {
             });
 
             scaler.appendChild(mask);
+        };
+
+        let cursorY = 0;
+
+        zone.rows.forEach(function (row) {
+
+            addMask(cursorY, 0, FB_DESIGN_WIDTH, row.top - cursorY);
+            addMask(row.top, 0, zone.left, row.height);
+            addMask(row.top, zone.left + zone.width, FB_DESIGN_WIDTH - (zone.left + zone.width), row.height);
+
+            cursorY = row.top + row.height;
         });
+
+        addMask(cursorY, 0, FB_DESIGN_WIDTH, FB_DESIGN_HEIGHT - cursorY);
+
+        /* Nút MUA NGAY phủ lên cả 2 dòng, cú chạm xuyên xuống link */
+        const firstRow = zone.rows[0];
+        const lastRow = zone.rows[zone.rows.length - 1];
+
+        const cta = document.createElement("div");
+
+        cta.className = "fbBuyNow";
+        cta.textContent = "🛒 MUA NGAY";
+
+        cta.style.cssText =
+            "position:absolute;z-index:6;pointer-events:none;" +
+            "display:flex;align-items:center;justify-content:center;" +
+            "border-radius:8px;" +
+            "background:linear-gradient(135deg,#ff7043 0%,#ff5722 100%);" +
+            "color:#ffffff;font-size:18px;font-weight:700;letter-spacing:0.5px;" +
+            "box-shadow:0 4px 12px rgba(255,87,34,0.45);" +
+            "top:" + firstRow.top + "px;" +
+            "left:" + zone.left + "px;" +
+            "width:" + zone.width + "px;" +
+            "height:" + (lastRow.top + lastRow.height - firstRow.top) + "px;";
+
+        scaler.appendChild(cta);
     }
+    
 
     frame.appendChild(scaler);
 
