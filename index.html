@@ -119,18 +119,9 @@ function normalizeText(str) {
 
   return String(str || "")
     .normalize("NFD")
-    .replace(
-      /[\u0300-\u036f]/g,
-      ""
-    )
-    .replace(
-      /đ/g,
-      "d"
-    )
-    .replace(
-      /Đ/g,
-      "D"
-    )
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
     .toLowerCase()
     .trim();
 
@@ -148,7 +139,6 @@ stories.forEach(
       return;
     }
 
-
     item.searchTitle =
       normalizeText(
         item.title
@@ -159,89 +149,81 @@ stories.forEach(
 
 
 /* ==================================================
-   RENDER
+   RENDER TỪNG ĐỢT
+
+   Thay vì vẽ 1102 truyện cùng lúc, chỉ vẽ
+   PAGE_SIZE truyện đầu. Cuộn xuống gần cuối
+   thì tự vẽ thêm đợt tiếp theo.
 ================================================== */
 
-function render(data) {
+const PAGE_SIZE = 40;
 
-  list.innerHTML = "";
-
-
-  const sorted =
-    data
-
-      .filter(
-        item =>
-          item
-      )
-
-      .sort(
-        (a, b) =>
-          b.id - a.id
-      );
+let currentData = [];
+let shown = 0;
 
 
-  sorted.forEach(
-    (item, index) => {
+/* ---------- 1 thẻ truyện ---------- */
 
-      if (!item) {
+function makeCard(item) {
 
-        console.log(
-          "Lỗi ở:",
-          index
-        );
+  return `
 
-        return;
+    <a
+      class="book"
+      href="detail.html?id=${item.id}"
+    >
 
-      }
+      <!-- ẢNH -->
 
-
-      list.innerHTML += `
-
-        <a
-          class="book"
-          href="detail.html?id=${item.id}"
-        >
-
-          <!-- ẢNH -->
-
-          <img
-            src="${item.image}"
-            alt="${item.title}"
-          >
+      <img
+        src="${item.image}"
+        alt="${item.title}"
+        loading="lazy"
+        decoding="async"
+      >
 
 
-          <!-- LƯỢT XEM -->
+      <!-- LƯỢT XEM -->
 
-          <div class="view-count">
-
-            
-
-          </div>
+      <div class="view-count"></div>
 
 
-          <!-- TÊN TRUYỆN -->
+      <!-- TÊN TRUYỆN -->
 
-          <h2>
+      <h2>${item.title}</h2>
 
-            ${item.title}
+    </a>
 
-          </h2>
+  `;
 
-        </a>
+}
 
-      `;
 
-    }
+/* ---------- Vẽ thêm 1 đợt ---------- */
+
+function renderMore() {
+
+  const next =
+    currentData.slice(
+      shown,
+      shown + PAGE_SIZE
+    );
+
+  if (!next.length) {
+    return;
+  }
+
+  /* Gắn HTML vào trang 1 lần cho cả đợt */
+
+  list.insertAdjacentHTML(
+    "beforeend",
+    next.map(makeCard).join("")
   );
 
+  shown += next.length;
 
-  /* ==================================================
-     CẬP NHẬT VIEW
 
-     Chỉ đọc số view hiện tại.
-     Không tự cộng view.
-  ================================================== */
+  /* Cập nhật view (chỉ đọc, không tự cộng) */
 
   if (
     typeof loadViewCounts ===
@@ -252,33 +234,79 @@ function render(data) {
 
   }
 
+
+  /* Nếu màn hình còn trống thì vẽ tiếp */
+
+  requestAnimationFrame(fillViewport);
+
+}
+
+
+/* ---------- Còn trống màn hình → vẽ tiếp ---------- */
+
+function fillViewport() {
+
+  if (shown >= currentData.length) {
+    return;
+  }
+
+  if (
+    sentinel.getBoundingClientRect().top <
+    window.innerHeight + 800
+  ) {
+
+    renderMore();
+
+  }
+
+}
+
+
+/* ---------- Vẽ lại từ đầu với 1 danh sách ---------- */
+
+function render(data) {
+
+  currentData =
+    data
+      .filter(Boolean)
+      .sort(
+        (a, b) =>
+          b.id - a.id
+      );
+
+  shown = 0;
+
+  list.innerHTML = "";
+
+  renderMore();
+
 }
 
 
 /* ==================================================
-   DEBUG
+   CUỘN GẦN CUỐI → VẼ THÊM
 ================================================== */
 
-console.log(
-  "Số truyện:",
-  stories.length
-);
+const sentinel =
+  document.createElement("div");
+
+sentinel.style.height = "1px";
+
+list.after(sentinel);
 
 
-stories.forEach(
-  (item, index) => {
+new IntersectionObserver(
+  entries => {
 
-    if (!item) {
-
-      console.log(
-        "Phần tử rỗng ở vị trí:",
-        index
-      );
-
+    if (entries[0].isIntersecting) {
+      renderMore();
     }
 
+  },
+  {
+    rootMargin: "800px"
   }
-);
+).observe(sentinel);
 
 
 /* ==================================================
@@ -295,94 +323,62 @@ render(
 
    1. TÊN TRUYỆN
    2. ID TRUYỆN
+
+   Tìm trên toàn bộ danh sách, kết quả
+   cũng hiện theo từng đợt.
 ================================================== */
+
+let searchTimer;
 
 search.addEventListener(
   "input",
   function () {
 
-    const value =
-      normalizeText(
-        this.value
-      );
+    clearTimeout(searchTimer);
 
+    searchTimer = setTimeout(
+      () => {
 
-    /* ==================================================
-       Ô TÌM KIẾM TRỐNG
-    ================================================== */
-
-    if (!value) {
-
-      render(
-        stories
-      );
-
-      return;
-
-    }
-
-
-    /* ==================================================
-       LỌC
-    ================================================== */
-
-    const filtered =
-      stories.filter(
-        item => {
-
-          if (!item) {
-            return false;
-          }
-
-
-          /* ------------------------------------------
-             TÌM THEO TÊN
-          ------------------------------------------ */
-
-          const titleMatch =
-            item.searchTitle
-              .includes(
-                value
-              );
-
-
-          /* ------------------------------------------
-             TÌM THEO ID
-
-             Ví dụ nhập:
-             703
-             → tìm truyện ID 703
-
-             Nhập:
-             70
-             → tìm 70, 700, 701, 702, 703...
-          ------------------------------------------ */
-
-          const idMatch =
-            String(
-              item.id
-            )
-            .toLowerCase()
-            .includes(
-              value
-            );
-
-
-          return (
-            titleMatch ||
-            idMatch
+        const value =
+          normalizeText(
+            this.value
           );
 
+
+        /* Ô tìm kiếm trống */
+
+        if (!value) {
+
+          render(
+            stories
+          );
+
+          return;
+
         }
-      );
 
 
-    /* ==================================================
-       HIỂN THỊ KẾT QUẢ
-    ================================================== */
+        /* Lọc theo tên hoặc ID */
 
-    render(
-      filtered
+        const filtered =
+          stories.filter(
+            item =>
+              item &&
+              (
+                item.searchTitle
+                  .includes(value) ||
+                String(item.id)
+                  .toLowerCase()
+                  .includes(value)
+              )
+          );
+
+        render(
+          filtered
+        );
+
+      },
+      200
     );
 
   }

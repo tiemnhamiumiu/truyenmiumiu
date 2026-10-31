@@ -67,6 +67,8 @@
 const list =
   document.getElementById("list");
 
+const STORY_TYPE = "dammy";
+
 
 /* ==================================================
    CẮT TÊN
@@ -215,7 +217,7 @@ function clampBookTitle(element) {
 
 
 /* ==================================================
-   TẤT CẢ TÊN
+   TẤT CẢ TÊN (dùng khi đổi kích thước cửa sổ)
 ================================================== */
 
 function clampAllBookTitles() {
@@ -250,75 +252,182 @@ function refreshViewCounts() {
 
 
 /* ==================================================
-   RENDER
+   RENDER TỪNG ĐỢT
+
+   Thay vì vẽ cả nghìn truyện cùng lúc, chỉ vẽ
+   PAGE_SIZE truyện đầu. Cuộn xuống gần cuối
+   thì tự vẽ thêm đợt tiếp theo.
 ================================================== */
+
+const PAGE_SIZE = 40;
+
+let currentData = [];
+let shown = 0;
+
+
+/* ---------- 1 thẻ truyện ---------- */
+
+function makeCard(item) {
+
+  return `
+
+    <a
+      class="book"
+      href="detail.html?id=${item.id}"
+    >
+
+      <img
+        src="${item.image}"
+        alt="${String(item.title).replace(/"/g, '&quot;')}"
+        loading="lazy"
+        decoding="async"
+      >
+
+      <div class="view-count"></div>
+
+      <h2
+        class="book-title"
+        data-full-title="${String(item.title)
+          .replace(/"/g, '&quot;')}"
+      >
+        ${item.title}
+      </h2>
+
+    </a>
+
+  `;
+
+}
+
+
+/* ---------- Vẽ thêm 1 đợt ---------- */
+
+function renderMore() {
+
+  const next =
+    currentData.slice(
+      shown,
+      shown + PAGE_SIZE
+    );
+
+  if (!next.length) {
+    return;
+  }
+
+  const before =
+    list.children.length;
+
+  /* Gắn HTML vào trang 1 lần cho cả đợt */
+
+  list.insertAdjacentHTML(
+    "beforeend",
+    next.map(makeCard).join("")
+  );
+
+  shown += next.length;
+
+  const newCards =
+    Array.from(list.children)
+      .slice(before);
+
+  requestAnimationFrame(() => {
+
+    /* Chỉ cắt tên cho các thẻ vừa thêm */
+
+    newCards.forEach(card => {
+
+      const title =
+        card.querySelector(
+          ".book-title"
+        );
+
+      if (title) {
+        clampBookTitle(title);
+      }
+
+    });
+
+    refreshViewCounts();
+
+    /* Nếu màn hình còn trống thì vẽ tiếp */
+
+    fillViewport();
+
+  });
+
+}
+
+
+/* ---------- Còn trống màn hình → vẽ tiếp ---------- */
+
+function fillViewport() {
+
+  if (shown >= currentData.length) {
+    return;
+  }
+
+  if (
+    sentinel.getBoundingClientRect().top <
+    window.innerHeight + 800
+  ) {
+
+    renderMore();
+
+  }
+
+}
+
+
+/* ---------- Vẽ lại từ đầu ---------- */
 
 function render(data) {
 
-  list.innerHTML = "";
-
-
-  const dammy =
+  currentData =
     data
       .filter(
         item =>
           item &&
           item.type ===
-          "dammy"
+          STORY_TYPE
       )
       .sort(
         (a, b) =>
           b.id - a.id
       );
 
+  shown = 0;
 
-  dammy.forEach(
-    item => {
+  list.innerHTML = "";
 
-      list.innerHTML += `
-
-        <a
-          class="book"
-          href="detail.html?id=${item.id}"
-        >
-
-          <img
-            src="${item.image}"
-            alt="${item.title}"
-          >
-
-          <div class="view-count">
-
-            
-            </span>
-
-          </div>
-
-          <h2
-            class="book-title"
-            data-full-title="${String(item.title)
-              .replace(/"/g, '&quot;')}"
-          >
-            ${item.title}
-          </h2>
-
-        </a>
-
-      `;
-
-    }
-  );
-
-
-  requestAnimationFrame(() => {
-
-    clampAllBookTitles();
-
-    refreshViewCounts();
-
-  });
+  renderMore();
 
 }
+
+
+/* ==================================================
+   CUỘN GẦN CUỐI → VẼ THÊM
+================================================== */
+
+const sentinel =
+  document.createElement("div");
+
+sentinel.style.height = "1px";
+
+list.after(sentinel);
+
+
+new IntersectionObserver(
+  entries => {
+
+    if (entries[0].isIntersecting) {
+      renderMore();
+    }
+
+  },
+  {
+    rootMargin: "800px"
+  }
+).observe(sentinel);
 
 
 render(stories);
