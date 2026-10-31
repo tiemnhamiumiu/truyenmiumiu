@@ -1665,5 +1665,13 @@ body.facebookStoryLocked {
     font-size: 25px;
     margin: 0 10px;
   }
+}.facebookAdFrame .fbBuyNow {
+  animation: fbBuyNowPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes fbBuyNowPulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.04); }
+
 
 }
