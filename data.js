@@ -22516,6 +22516,207 @@ Riêng ta, kẻ phải làm thân trâu ngựa trong căn nhà này, ngày ngày
 Ta không những phải lo cơm nước cho cả nhà mười mấy miệng ăn, mà còn bị cô mẫu cùng đường tỷ vu oan tội ăn trộm trứng gà. Tổ mẫu đánh ta đến mức thừa sống thiếu chết, rồi quăng thẳng vào chuồng bò, nhốt suốt ba ngày ba đêm.
 
 Chứng bệnh tâm thần của ta tái phát. Ta bèn giả vờ bị yêu quái nhập thân, ra tay giết sạch đàn gà của bà tổ mẫu cực phẩm kia, rồi dõng dạc tuyên bố: “Mỗi ngày ta phải ăn một con gà, nếu thiếu dù chỉ một con, ta sẽ lấy mạng cả nhà các ngươi!”`
+  },{
+    id: 1094,
+    title: "Đá Nhỏ Cũng Có Thể Tỏa Sáng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cb85c2c50424f20c920e87d41fc2a89e.jpg",
+    link: "ngontinh/da-nho-cung-co-the-toa-sang.html",
+    type: "ngontinh",
+    desc: `Tôi là đứa con xấu xí nhất trong nhà.
+
+Hôm ấy chị gái đăng lên mạng xã hội một tấm ảnh chụp cả gia đình.
+
+Bên dưới có người để lại bình luận: “Em gái cậu không phải con ruột đúng không?”
+
+“Hai chị em mà sao khác nhau một trời một vực thế này.”`
+  },{
+    id: 1095,
+    title: "Nuôi Tình Nhân Lại Trúng Ngay Thiếu Gia Thật",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4979bb052a1a10ad77f89dd0bc9a9e57.jpg",
+    link: "dammy/nuoi-tinh-nhan-lai-trung-ngay-thieu-gia-that.html",
+    type: "dammy",
+    desc: `Là một kẻ mang danh thiếu gia giả, tôi đã vất vả dốc sức tìm kiếm thiếu gia thật suốt nhiều năm trời.
+
+Thế nhưng đến cuối cùng, tôi lại bàng hoàng phát hiện ra người đó đang nằm ngay trong số những tình nhân do chính tay tôi bao nuôi.
+
+Vẻ ngoài của cậu ta vừa quyến rũ lại vừa tràn ngập cảm giác bạo lực, gương mặt lúc nào cũng phủ một tầng băng giá lạnh lùng, song chỉ cần giơ tay lên là đã thừa sức bóp chết tươi những tên tình nhân khác của tôi.
+
+Điều đó làm tôi không khỏi chột dạ, lập tức hạ quyết tâm từ nay về sau phải đối xử thật tốt với cậu ta mới được.
+
+Nào ngờ, thiếu gia thật lại đột ngột áp chặt tôi xuống giường, tức giận đến mức nghiến răng ken kẹt:
+
+“Nói mau! Dạo gần đây anh tự nhiên lại đối xử tốt với tôi như vậy… có phải bên ngoài anh đã có người khác rồi đúng không?!”
+`
+  },{
+    id: 1096,
+    title: "Nữ Tướng Biên Cương Xưng Bá Và Quý Phi Thâm Cung Thao Túng Triều Đình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1f1d2b6d5a4b6c0e8ed82c38c076f3a7.jpg",
+    link: "cotrang/nu-tuong-bien-cuong-xung-ba-va-quy-phi-tham-cung-thao-tung-trieu-dinh.html",
+    type: "cotrang",
+    desc: `Kiếp trước, ta và đệ đệ từng là niềm hy vọng lớn lao của cả gia tộc.
+
+Cha ta đưa đệ ấy đến chốn biên cương hiểm trở, mong nó lập nên sự nghiệp nơi sa trường.
+
+Thế nhưng đệ ấy trời sinh nhát gan, chỉ quen thêu thùa đàn hát, rốt cuộc đã bỏ mạng thảm thương trong một trận chiến khốc liệt.
+
+Còn ta thì bị ép gả vào chốn thâm cung sâu thẳm, làm vị Quý phi cao quý.
+
+Tính ta vốn nóng như lửa, hơi một chút là rút đao chém giết. Kết cục chẳng ra gì: ta bị loạn tiễn bắn chết ngay lúc đang đuổi theo Hoàng đế ở tận Ngự Hoa Viên.
+
+Đến khi mở mắt ra lần nữa, ta và đệ đệ lại cùng nhau trọng sinh, trở về những ngày xưa cũ.
+
+Thánh chỉ sắc phong Quý phi vừa đưa đến tận cửa nhà, đệ đệ đã vội vã chạy tới ôm chặt lấy chân ta, khóc lóc thảm thiết.
+
+“Tỷ ơi, tỷ là tỷ tỷ duy nhất của đệ!”
+
+“Cầu xin tỷ, tỷ ra trận đánh giặc đi, để đệ thay tỷ vào cung làm Quý phi!”`
+  },{
+    id: 1097,
+    title: "Bình Luận Tiết Lộ Kịch Bản",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/004e2853e955cf50829198ef4dbb58f1.jpg",
+    link: "ngontinh/binh-luan-tiet-lo-kich-ban.html",
+    type: "ngontinh",
+    desc: `Vì muốn quyến rũ người anh trai vốn lạnh lùng cấm dục, tôi đã lén bỏ thuốc vào ly nước của anh.
+
+Ngờ đâu ngay lúc ấy, hàng loạt dòng bình luận chẳng rõ từ đâu bỗng hiện ra, cứ thế liên tục trôi ngang qua trước mắt tôi.
+
+【Không cần bỏ thuốc đâu, anh ấy thích em đến phát điên rồi còn gì!】
+
+【Cưng ơi! Thuốc nào mà hiệu nghiệm bằng chính cơ thể em chứ!】
+
+【Tội nghiệp mỹ nhân ngốc nghếch, làm chuyện xấu không thành mà rốt cuộc còn bị...】
+
+Tôi còn đang hoang mang đến ngơ ngác thì một lồng ngực ấm nóng bất ngờ áp sát sau lưng.
+
+“Em cho anh uống thuốc Đông y xong rồi, bước tiếp theo định làm gì đây?”
+`
+  },{
+    id: 1098,
+    title: "Thừa Kế Nghìn Tỷ Cùng Chú Nhỏ Đỉnh Cấp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2bc7023317c019ae26046d99954f13f9.jpg",
+    link: "dammy/thua-ke-nghin-ty-cung-chu-nho-dinh-cap.html",
+    type: "dammy",
+    desc: `Anh trai tôi là AA luyến chính hiệu.
+
+Em trai tôi lại là OO luyến đích thực.
+
+Còn tôi, một Beta nhạt nhòa đến mức gần như vô hình trong cái nhà này.
+
+Ông bố tỷ phú đang nắm khối tài sản nghìn tỷ của chúng tôi bỗng tuyên bố một cách trắng trợn: “Đứa nào sinh được con thì hưởng toàn bộ tài sản thừa kế. Đứa nào không sinh nổi thì cút hết khỏi nhà này cho ta.”
+
+Thoạt đầu, cả ba anh em chẳng đứa nào buồn để tâm.
+
+Suy cho cùng… trong ba đứa, có đứa nào sinh nổi đâu cơ chứ?
+
+Lẽ nào ông lại nỡ tay đuổi sạch ba đứa con ruột ra khỏi nhà thật?
+
+Ai ngờ chỉ qua một đêm, một tin chấn động đã nổ ra trên khắp các mặt báo.
+
+Thì ra ở bên ngoài, bố tôi còn giấu tới một trăm linh tám đứa con riêng.
+
+Vậy thì chuyện này…
+
+Tôi là một Beta cực kỳ khó thụ thai, bị dồn đến đường cùng rồi, chẳng còn cách nào khác ngoài gõ cửa phòng người chú nhỏ không chung huyết thống với mình.
+
+Tôi run rẩy lên tiếng: “Chú nhỏ… xin chú giúp tôi với.”
+
+“Chú giới thiệu cho tôi một Alpha đỉnh cấp được không?”
+
+Chú nhỏ thong thả tháo kính, đôi mắt sâu thẳm khóa chặt lấy tôi: “Việc gì phải đi tìm người ngoài.”
+
+“Anh giúp được em.”
+
+“Chỉ một lần là trúng ngay.”
+
+Tôi sững người: “Sao cơ?”
+
+“Chú nhỏ… chú vừa nói cái gì vậy?!”`
+  },{
+    id: 1099,
+    title: "Sương Tan Trăng Sáng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/98b998d4bb4e2ad86eaac8b044fc9e2c.jpg",
+    link: "cotrang/suong-tan-trang-sang.html",
+    type: "cotrang",
+    desc: `Năm ấy, để cứu Vệ Tuân thoát hiểm, ta bị gãy một bên chân.
+
+Từ đó, khắp Kinh thành chỉ biết xì xào sau lưng ta, gọi ta bằng cái danh "cô gái què".
+
+Vệ Tuân cùng ta lập hôn ước, vậy mà hắn hết lần này đến lần khác viện cớ, kéo dài chuyện cưới xin mãi không dứt.
+
+Đến mùa đông năm thứ năm, ta tình cờ bắt gặp hắn đang cùng người khác ngắm tuyết trên lầu cao.
+
+Khi bằng hữu nhắc đến ta, giọng hắn lạnh nhạt vô cùng: “Một kẻ què ngoặt, cưới hay không cưới thì có gì quan trọng.”
+
+Nghe xong, ta lặng lẽ đốt tờ hôn thư thành tro, rồi một mình tìm đến Vệ gia để từ hôn.
+
+Ngày ta rời Kinh thành, nắng trên cao rực rỡ chan hòa.
+
+Vệ Tuân cuống quýt đuổi theo, ra sức khuyên ta đừng giận dỗi nông nổi mà bỏ lỡ cành cao Vệ gia.
+
+Ta chỉ khẽ lắc đầu, dằn lòng quất mạnh roi ngựa.
+
+“Trong mắt chàng, ta chẳng khác nào con ếch ngồi đáy giếng ngước nhìn trăng sáng trên trời. Nhưng cửa cao nhà giàu Vệ gia, ta chưa từng tơ tưởng.”`
+  },{
+    id: 1100,
+    title: "Cố Sức Trèo Cao Để Trả Thù Kẻ Phản Bội",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a8b50c964aaccedf7ceebc3036dc6b3f.jpg",
+    link: "ngontinh/co-suc-treo-cao-de-tra-thu-ke-phan-boi.html",
+    type: "ngontinh",
+    desc: `Kiếp trước, tôi chết dưới tay chính người bạn thân nhất của mình.
+
+Được sống lại thêm một lần nữa, tôi đã nhanh chân hơn cô ta một bước. Tôi chạy thẳng tới Cục dân chính, kết hôn chớp nhoáng với Phó Ôn Từ, vị thái tử gia danh tiếng lừng lẫy của Bắc Kinh.
+
+Ngay hôm sau, Phó Ôn Từ đặt trước mặt tôi một bản thỏa thuận mà tôi hoàn toàn không ngờ tới.
+
+“Chúng ta sẽ ký một bản hợp đồng hôn nhân có thời hạn một năm. Trong khoảng thời gian đó, em cần đứng ra giúp tôi dàn xếp ổn thỏa những rắc rối bên phía Phó gia.”
+
+“Còn nếu tình hình thật sự đòi hỏi, hai bên sẽ phải tiến tới việc hợp tác... để sinh một đứa con.”
+
+Tôi đang gật đầu lia lịa như gà mổ thóc, nghe đến đây thì khựng hẳn lại, không nhúc nhích thêm được chút nào.
+
+Kiếp trước, cô bạn thân của tôi từng khao khát có một đứa con để trói chặt Phó Ôn Từ bên mình. Thế nhưng dù đã dốc hết tâm sức, mọi cố gắng của cô ta vẫn chẳng đi đến đâu.
+
+Còn tôi vào thời điểm đó, thứ duy nhất tôi để tâm chỉ là khoản bồi thường năm mươi triệu được ghi rõ trong thỏa thuận ly hôn.
+
+Vậy mà bây giờ, chính anh lại muốn cùng tôi sinh con đẻ cái sao?`
+  },{
+    id: 1101,
+    title: "Người Đi Tìm Ký Ức Đánh Rơi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f1c95c30607abd30a96ecf2740de8713.jpg",
+    link: "dammy/nguoi-di-tim-ky-uc-danh-roi.html",
+    type: "dammy",
+    desc: `Tôi là con út trong nhà, đứa bị ghét nhất, kẻ mà ai cũng coi thường.
+
+Sinh ra là đã phải sống dưới cái bóng của các anh trai.
+
+Tự ti, cô độc, tầm thường, ba từ ấy gói trọn cả cuộc đời tôi.
+
+Việc “điên rồ” nhất tôi từng làm, chính là vào đúng lúc cậu nhóc nghèo khổ Yến Tùy rơi xuống đáy vực, tôi đã ép cậu ấy ký hợp đồng bạn đời với mình.
+
+Bốn năm sau đó, giữa những ngày bị cậu ấy lạnh nhạt hết lần này đến lần khác, cuối cùng tôi cũng hiểu ra: cậu ấy chưa từng yêu tôi.
+
+Vậy mà cả đời tôi chỉ cố chấp đúng một lần này, nên dù đau đến mấy cũng không chịu buông tay.
+
+Cho đến một ngày, căn bệnh bắt đầu gặm nhấm trí nhớ của tôi.
+
+Tôi quên mất lần đầu gặp Yến Tùy.
+
+Cậu trai trẻ đeo máy trợ thính nhìn tôi bằng ánh mắt gần như điên cuồng, nói: “Cậu phải mãi mãi yêu tôi, cậu đã hứa rồi.”`
+  },{
+    id: 1102,
+    title: "Lén Nghe Tiếng Lòng Của Vương Gia Tự Luyến",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c89deedcc266fa82d9d2ca8a32b55f7e.jpg",
+    link: "cotrang/len-nghe-tieng-long-cua-vuong-gia-tu-luyen.html",
+    type: "cotrang",
+    desc: `Ta là của hồi môn theo chân đích trưởng tỷ xuất giá, bước vào vương phủ với thân phận tiểu thiếp.
+
+Đúng ngày thành hôn, bên tai ta bỗng vang lên giọng nói của vương gia:
+
+[Cuối cùng cũng bắt được kẻ nói dối nhỏ bé này rồi.]
+
+[Đêm nay bổn vương nhất định phải trừng phạt nàng thật nghiêm mới được!]
+
+[Còn phải tính xem làm cách nào qua mặt được vị tỷ tỷ phiền phức của nàng nữa.]`
   },
 
 
