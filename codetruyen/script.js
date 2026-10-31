@@ -873,7 +873,7 @@ function openShopeeAd() {
 
     showFacebookAdStep(
         "shopee",
-        "Quảng cáo Shopee <br> Vui lòng nhấn thẳng vào LINK",
+        "Quảng cáo Shopee <br> Vui lòng nhấn vào Mua Ngay",
         "Bước 1/2 — Hãy mở quảng cáo và ở lại ít nhất 3 giây rồi quay lại",
         '👉 <strong>Hãy mở quảng cáo Shopee và ở lại ít nhất 3 giây rồi quay lại đây.</strong><br>' +
         'Đây là bước 1/2. Sau khi quay lại, hệ thống sẽ kiểm tra thời gian.',
@@ -885,7 +885,7 @@ function openShopeeFoodAd() {
 
     showFacebookAdStep(
         "shopeefood",
-        "Quảng cáo ShopeeFood <br> Vui lòng nhấn thẳng vào LINK",
+        "Quảng cáo ShopeeFood <br> Vui lòng nhấn vào Mua Ngay",
         "Bước 2/2 — Hãy mở quảng cáo rồi quay lại",
         '👉 <strong>Hãy mở quảng cáo ShopeeFood rồi quay lại đây.</strong><br>' +
         'Đây là bước 2/2. Sau khi quay lại, hệ thống sẽ kiểm tra và hoàn tất.',
