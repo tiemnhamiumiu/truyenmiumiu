@@ -43,14 +43,13 @@ const FACEBOOK_ZONE_DEBUG = false;
 const FACEBOOK_CLICK_ZONE = {
     shopee: {
         left: 11, width: 210,
-        rows: [ { top: 50, height: 20 }, { top: 71, height: 14 } ]
+        rows: [ { top: 71, height: 14 } ]
     },
     shopeefood: {
         left: 11, width: 215,
-        rows: [ { top: 50, height: 14 }, { top: 71, height: 14 } ]
+        rows: [ { top: 71, height: 14 } ]
     }
 };
-
 
 /* =========================================================
    LINK REDIRECT (mở lần lượt: TikTok -> Lazada)
