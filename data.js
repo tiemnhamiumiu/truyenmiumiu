@@ -22826,8 +22826,8 @@ Tiểu O mỉm cười, xán lại gần, vén chăn lên rồi móc “hàng”
     id: 1108,
     title: "Xuyên Không Làm Marketing Chấn Động Hậu Cung",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/debc131b3eed6cec154b117e6c84ffa7.jpg",
-    link: "dammy/xuyen-khong-lam-marketing-chan-dong-hau-cung.html",
-    type: "dammy",
+    link: "cotrang/xuyen-khong-lam-marketing-chan-dong-hau-cung.html",
+    type: "cotrang",
     desc: `Vừa xuyên vào một cuốn truyện cung đấu, ta đã tình cờ nghe được quý phi dặn dò kẻ tâm phúc của mình: “Muốn người trong cung tâm phục khẩu phục, điều cốt yếu nhất là phải biết rải bạc, có thế người ta mới chịu tận tâm tận lực làm việc cho ngươi!”
 
 Ta chẳng chút ngần ngại, lập tức xông tới ôm chặt lấy đùi quý phi: “Nương nương! nô tì xin đi nướng chân heo, nấu lẩu cay dâng cho nữ chính ngay! Để con tiện tỳ đó ăn xong nổi đầy mụn, chẳng thể nào hầu hạ Hoàng thượng được nữa!”
