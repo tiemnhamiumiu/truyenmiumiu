@@ -22717,6 +22717,203 @@ Cậu trai trẻ đeo máy trợ thính nhìn tôi bằng ánh mắt gần như 
 [Đêm nay bổn vương nhất định phải trừng phạt nàng thật nghiêm mới được!]
 
 [Còn phải tính xem làm cách nào qua mặt được vị tỷ tỷ phiền phức của nàng nữa.]`
+  },{
+    id: 1103,
+    title: "Hệ Thống Bắt Tôi Dùng Mười Tỷ Cứu Rỗi Thế Giới",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8e1eeafb3d40fd479adf32cd824daa71.jpg",
+    link: "ngontinh/he-thong-bat-toi-dung-muoi-ty-cuu-roi-the-gioi.html",
+    type: "ngontinh",
+    desc: `Tôi vô tình được liên kết với một hệ thống mang tên “Nhà Từ Thiện”.
+
+Tin vui là tài khoản của tôi tự dưng ngập trong những khoản tiền khổng lồ.
+
+Tin xấu là toàn bộ số tiền ấy chỉ được dùng để giúp đỡ người khác, còn bản thân tôi thì không thể tiêu lấy một đồng.
+
+Năm nọ, tôi từng chìa tay kéo một thiếu niên đang vừa rửa bát vừa lau sàn trước cổng trường để trả nợ. Về sau, cậu ấy trở thành một nhà khoa học thiên tài nổi danh khắp cả nước.
+
+Tôi cũng từng tài trợ để một đứa trẻ nghèo ở vùng núi hẻo lánh được đến trường. Ngày trở về quê, cô bé đem theo cả niềm vinh quang ấy, và lập nên một quỹ từ thiện mang chính tên tôi.
+
+Tôi còn che chở cho một nữ diễn viên trẻ nhất quyết không chịu cúi đầu trước những quy tắc ngầm tàn nhẫn. Nhờ vậy, cô ấy mới có thể đường hoàng đứng trên bục nhận giải Nữ diễn viên chính xuất sắc nhất, rồi thành thật nói rằng tôi là người cô kính trọng nhất đời.
+
+Có lần, tôi quyết định rót vốn vào một dự án phát triển nông thôn mà chẳng ai tin tưởng. Rốt cuộc, người sáng lập dự án ấy lại trở thành doanh nhân trẻ nổi tiếng nhất cả nước.
+
+Đến lúc hệ thống tổng kết kết quả, chỉ số tích đức của tôi đã bỏ xa 99,99% người dùng trên toàn hệ thống, vững vàng chiếm vị trí dẫn đầu tuyệt đối.
+
+Hệ thống “Nhà Từ Thiện” kinh ngạc thốt lên: “Rốt cuộc cô đã làm điều đó bằng cách nào vậy???”
+
+Tôi mỉm cười khẽ đáp: “Có lẽ… tất cả chỉ nhờ chút may mắn thôi.”`
+  },{
+    id: 1104,
+    title: "Sếp Tổng Alpha Lại Ép Tôi Cầu Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9451f9f6771eb77205ca0d5e8786360f.jpg",
+    link: "dammy/sep-tong-alpha-lai-ep-toi-cau-hon.html",
+    type: "dammy",
+    desc: `Tôi là một Beta, và chính nhờ khả năng miễn nhiễm hoàn toàn với pheromone mà năm năm liền tôi trụ vững được ở vị trí thư ký thân cận của Alpha công chính.
+
+Trong mắt người ngoài, chỗ đứng ấy của tôi là một trường hợp hiếm có. Ai nhìn vào cũng thấy lạ, ai cũng cho đó là một ngoại lệ không dễ gặp.
+
+Riêng tôi thì hiểu rất rõ lý do thật sự: chẳng qua Omega thụ chính của câu chuyện vẫn chưa đến lúc xuất hiện mà thôi.
+
+Ngày Omega ấy chính thức bước vào kịch bản, tôi lập tức nộp đơn thôi việc, vội vã thu dọn hành lý rồi chạy lấy người.
+
+Ai ngờ mới về quê được đúng ba ngày, vị Alpha công chính kia đã tìm đến tận cửa. Tôi còn chưa kịp thở phào vì tưởng đã thoát thân thì anh ta đã đứng ngay trước mặt.
+
+Anh ta đang trong kỳ mẫn cảm, phát điên đến mức mất hết lý trí, nhốt chặt tôi trên gác xép tối om.
+
+Mọi sự chống cự đau đớn của tôi chỉ đổi lại những vết cắn chằng chịt, rỉ máu ở sau gáy. Càng vùng vẫy, tôi lại càng phải trả giá bằng thêm nhiều vết cắn nữa.
+
+Anh ta kề sát tai tôi, hạ giọng dỗ dành: “Bảo bối biết không? Một Beta mà cứ bướng bỉnh không chịu nghe lời thì sẽ bị bắt nạt đến mức phân hóa thành Omega đấy.”`
+  },{
+    id: 1105,
+    title: "Phản Bội Ân Tình Thiếu Thời",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/63f9fb12e67865d1e47b2ed5473afae2.jpg",
+    link: "cotrang/phan-boi-an-tinh-thieu-thoi.html",
+    type: "cotrang",
+    desc: `Kiếp trước, ta một lòng yêu thương Tề Vương, dốc hết sức giúp hắn tranh đoạt thiên hạ, dựng yên giang sơn. Nào ngờ hắn vừa bước lên ngôi báu đã lập tức trở mặt, qua cầu rút ván.
+
+Hắn thay lòng đổi dạ, cưới kẻ khác làm vợ, lại còn ngụy tạo chứng cứ, vu cho nhà ta tội thông đồng với địch, để rồi tàn sát sạch sẽ toàn bộ Sở gia.
+
+Ta từng tin rằng tình nghĩa từ thuở thiếu thời, nghĩa vợ chồng kết từ buổi thiếu niên, sẽ giúp hai ta ân ái đến bạc đầu. Mãi đến khi tỉnh khỏi giấc mộng lớn ấy, ta mới bàng hoàng hiểu ra, đó chỉ là một cơn ác mộng tàn khốc.
+
+Một lần nữa được sống lại, ta đã chặt đứt mọi đường sống của hắn.
+
+Trong thủy lao thiên gia, hắn cười như kẻ điên dại: “Sớm biết người đó là ngươi, nếu có thể quay lại, ta nhất định sẽ trừ khử ngươi đầu tiên!”
+
+Đáng tiếc thay, người được trao cơ hội quay lại lần này lại chính là ta.
+
+Ngươi sẽ chẳng bao giờ còn cơ hội nào nữa.`
+  },{
+    id: 1106,
+    title: "Đóa Thược Dược Héo Úa Ngày Ly Biệt",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1588067aa361cec999f30ca775a7ddf6.jpg",
+    link: "ngontinh/doa-thuoc-duoc-heo-ua-ngay-ly-biet.html",
+    type: "ngontinh",
+    desc: `Vào những năm tháng nam chính chìm sâu trong nghịch cảnh tăm tối nhất, tôi từng dùng tiền để bắt hắn khuất phục, và nhờ đó giành được cơ hội sống cho chính mình.
+
+Giờ đây, người cha kính yêu của tôi đã phá sản rồi qua đời, còn vị nam chính ngày ấy thì vươn lên thành một đại gia giàu có mới nổi.
+
+Đúng lúc hắn lạnh lùng ném bản thỏa thuận ly hôn về phía tôi, tiếng chuông cảnh báo của hệ thống vang lên, báo hiệu những ngày sống sót của tôi đã bắt đầu đếm ngược...
+
+“A Khôn, anh có thể đừng ly hôn với em được không?”`
+  },{
+    id: 1107,
+    title: "Nhặt Được Vợ Lực Lưỡng Trong Ruộng Bắp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/002ac442da871e5f95d76b299d401224.jpg",
+    link: "dammy/nhat-duoc-vo-luc-luong-trong-ruong-bap.html",
+    type: "dammy",
+    desc: `Sau khi đại thiếu gia nhà họ Tạ mất tích, tôi nhặt được một Omega ngay giữa ruộng bắp.
+
+Tôi đưa cậu về nhà, thuốc thang chăm sóc cho đến khi cậu lành bệnh. Vừa khỏe lại, cậu đã nhất quyết đòi lấy thân báo đáp.
+
+Đêm ấy, hai chúng tôi cùng chui vào chăn. Tôi ngượng ngùng nhìn gương mặt tuấn tú của cậu: “Tôi nghe nói chỉ cần ngủ chung một giấc là có thể có thai, mà tụi mình còn chưa cưới xin gì, như vậy có phải không hay lắm không?”
+
+“?”
+
+“Nhưng Alpha là đàn ông mà, nếu cậu thật sự có thai, tôi nhất định sẽ chịu trách nhiệm đến cùng!”
+
+“Em là Enigma.”
+
+“Enigma là cái gì? Cũng có thể có thai hả?”
+
+Tiểu O mỉm cười, xán lại gần, vén chăn lên rồi móc “hàng” của mình ra: “Có thể, nhưng em phải là người ở trên.”
+
+“Hả?!”
+
+“Là kiểu ở trên có thể khiến cả Alpha cũng mang thai đó nha!”
+
+“HẢ!!!!!!!”`
+  },{
+    id: 1108,
+    title: "Xuyên Không Làm Marketing Chấn Động Hậu Cung",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/debc131b3eed6cec154b117e6c84ffa7.jpg",
+    link: "dammy/xuyen-khong-lam-marketing-chan-dong-hau-cung.html",
+    type: "dammy",
+    desc: `Vừa xuyên vào một cuốn truyện cung đấu, ta đã tình cờ nghe được quý phi dặn dò kẻ tâm phúc của mình: “Muốn người trong cung tâm phục khẩu phục, điều cốt yếu nhất là phải biết rải bạc, có thế người ta mới chịu tận tâm tận lực làm việc cho ngươi!”
+
+Ta chẳng chút ngần ngại, lập tức xông tới ôm chặt lấy đùi quý phi: “Nương nương! nô tì xin đi nướng chân heo, nấu lẩu cay dâng cho nữ chính ngay! Để con tiện tỳ đó ăn xong nổi đầy mụn, chẳng thể nào hầu hạ Hoàng thượng được nữa!”
+
+Quý phi liền phán: “Thưởng cho nàng một trăm lạng vàng!”
+
+Ít lâu sau, ta lại tìm đến gõ cửa cung của quý phi.
+
+Ta tâu: “Nương nương, sáng nay nô tì đã dùng nước sôi tưới chết cây phát tài của nữ chính rồi. Nàng ta khóc đến sưng cả mắt, tuyệt đối không thể cướp mất phong thái của người trong buổi yến tiệc!”
+
+Quý phi phán: “Xuống lãnh một ngàn lạng thưởng bạc! Bản cung thích nhất là những cung nữ làm việc đắc lực như ngươi!”
+
+Ta hớn hở ngồi đếm bạc, trong lòng vui sướng khôn xiết. Số bạc ấy vào tay rồi, ta càng thấy việc mình làm quả không uổng công. Đếm mãi vẫn chẳng thấy chán, lòng cứ lâng lâng sung sướng.
+
+Đây đâu phải nữ phụ độc ác gì, rõ ràng là Thần Tài tái thế mà!`
+  },{
+    id: 1109,
+    title: "Ánh Trăng Sáng Dối Trá",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c9d1bee6d85c6e882632fae65b267e39.jpg",
+    link: "ngontinh/anh-trang-sang-doi-tra.html",
+    type: "ngontinh",
+    desc: `Đến năm thứ bảy ở bên nhau, Lục Chi Thiệu đã có cho mình một niềm vui mới.
+
+Anh ta nhìn tôi rồi nói: “Mẹ Bùi Miểu vừa mới mất, giờ mà chia tay thì chẳng khác nào ép chết cô ấy.”
+
+“Ngoan nào, đợi thêm một thời gian nữa, anh sẽ nói với cô ấy!”
+
+Tôi vốn là người biết điều, nên không đợi anh ta phải mở lời trước, mà tự mình chủ động nói ra chuyện chia tay.
+
+Vậy mà Lục Chi Thiệu lại quát lên với tôi, giọng nói phũ phàng đến tàn nhẫn: “Anh đã đi cùng em bảy năm, thỉnh thoảng ra ngoài chơi bời một chút thì có làm sao?”
+
+“Cha em yêu mẹ em cả một đời, thế mà chẳng phải vẫn có đứa con riêng lớn hơn em đó sao!”`
+  },{
+    id: 1110,
+    title: "Bẫy Ngọt Lừa Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e23488484a679e4aab4f5c7c860a70bc.jpg",
+    link: "dammy/bay-ngot-lua-hon.html",
+    type: "dammy",
+    desc: `Tôi là một alpha cấp thấp.
+
+Vậy mà mẹ tôi lại chuẩn bị sẵn cho tôi một người vợ là omega cấp cao.
+
+Bà ra hạn trong vòng hai tháng, tôi phải làm cho đối phương mang thai.
+
+Nào ngờ người vợ omega ấy thà chết cũng không cho tôi đụng vào.
+
+Không đụng vào thì sinh con kiểu gì?
+
+Nóng ruột quá, tôi định dùng chút vũ lực, nhưng lần nào cũng bị đối phương đạp thẳng xuống khỏi giường.
+
+Bực mình, tôi chạy ra quán bar tìm một omega dịu dàng hơn.
+
+Đang lúc quấn quýt âu yếm thì cửa phòng bất ngờ bị đạp tung.
+
+Thẩm Kỷ Lâm đứng sừng sững ngay ngưỡng cửa.
+
+Sắc mặt hắn âm trầm đến cực điểm. Hắn quăng thẳng tiểu O kia ra ngoài, rồi túm lấy cổ áo tôi đúng lúc tôi định lén chuồn đi.
+
+“Chạy cái gì? Chẳng phải anh muốn sinh con sao?”
+
+Dứt lời, một luồng pheromone alpha đặc quánh ập xuống, nặng nề như núi thái sơn đè đỉnh.
+
+“Tôi cho anh sinh cho đủ!”
+
+Khoan đã, không phải chứ?
+
+Cậu ta không phải omega sao?
+
+Với lại… ai sinh cơ?`
+  },{
+    id: 1111,
+    title: "Đích Nữ Trọng Sinh Đoạt Lại Hồi Môn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/451159b1de518a578fd98ce1e9826be2.jpg",
+    link: "cotrang/dich-nu-trong-sinh-doat-lai-hoi-mon.html",
+    type: "cotrang",
+    desc: `Quốc tang còn chưa mãn, trưởng tỷ của ta đã không kìm nổi lòng xuân, lén lút tư tình với vị hôn phu của ta.
+
+Chuyện xảy ra ngay trước mắt, bị ta dẫn người đến bắt gặp tại trận.
+
+Phụ thân ta vốn bất tài vô dụng, quanh năm chỉ biết ăn tiêu phung phí bằng tiền của ta. Vì muốn giữ chút thể diện mục nát cho gia tộc, ông ta gạt bỏ chuyện đúng sai, ép ta giơ cao đánh khẽ, chừa cho trưởng tỷ một đường sống.
+
+Ta đưa khăn tay lên, nhẹ nhàng chấm khóe mắt vốn chẳng có lấy một giọt lệ, giọng nghẹn ngào tủi hổ: “Nữ nhi và Ngũ hoàng tử vốn đã có hôn ước từ lâu. Nay tỷ tỷ làm ra chuyện thế này, nữ nhi còn biết đặt mình vào đâu nữa…”
+
+Mặt phụ thân lập tức tái xanh tái xám. Ông ta sốt ruột gặng hỏi, rốt cuộc ta phải thế nào mới chịu yên chuyện.
+
+Ta cầm chiếc bàn tính bằng vàng lên, gõ lách cách từng tiếng giòn giã, thản nhiên đáp: “Phải thêm tiền!”`
   },
 
 
