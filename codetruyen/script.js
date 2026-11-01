@@ -42,11 +42,11 @@ const FACEBOOK_ZONE_DEBUG = false;
 
 const FACEBOOK_CLICK_ZONE = {
     shopee: {
-        left: 11, width: 210,
+        left: 10, width: 210,
         rows: [ { top: 71, height: 14 } ]
     },
     shopeefood: {
-        left: 11, width: 215,
+        left: 10, width: 215,
         rows: [ { top: 71, height: 14 } ]
     }
 };
