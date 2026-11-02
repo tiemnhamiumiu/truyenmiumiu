@@ -738,7 +738,7 @@ function createFacebookIframe(postUrl) {
         const cta = document.createElement("div");
 
         cta.className = "fbBuyNow";
-        cta.textContent = "🛒 MUA NGAY";
+        cta.textContent = "🛒 XEM NGAY";
 
         cta.style.cssText =
             "position:absolute;z-index:6;pointer-events:none;" +
