@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hộ Vệ Nguyện Bảo Vệ Chủ Nhân</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Hộ Vệ Nguyện Bảo Vệ Chủ Nhân
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_dammy/ho-ve-nguyen-bao-ve-chu-nhan.mp3" data-marker="15:16" data-marker-label="15:16">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Hộ Vệ Nguyện Bảo Vệ Chủ Nhân</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">15:16</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">15:16</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Ta là hộ vệ của Tống Lễ.
+
+Ban ngày, ta lo giữ cho cậu ấy được bình an vô sự. Đêm đến, ta lại nhận thêm phần việc đáp ứng nhu cầu sinh lý của chủ nhân.
+
+Một thân gánh ba suất tiền lương, cuộc sống của ta vì thế mà sung sướng vô cùng.
+
+Chỉ có điều, mấy hôm nay trong phủ râm ran lời đồn rằng cậu ấy sắp thành thân. Nghe nói đối tượng là vị tiểu thư độc nhất của Thừa tướng, dung mạo xinh đẹp nhưng tính khí nóng nảy muôn phần.
+
+Kẻ hầu người hạ hễ đi ngang qua ta đều nhìn bằng ánh mắt chan chứa thương hại, như thể sớm mai ta sẽ phải bỏ mạng thảm thương ngoài đường.
+
+Riêng ta, trước tin ấy lòng vẫn yên ả, chẳng gợn một nhịp sóng. Không phải vì được sủng ái mà sinh kiêu ngạo, chỉ đơn giản là đầu óc ta vốn chậm chạp, nghĩ không nổi những chuyện phức tạp.
+
+-----
+
+Ta theo hầu Tống Lễ từ khi còn rất nhỏ.
+
+Năm ấy, cậu ấy nhặt được ta, một đứa trẻ thoi thóp bên vệ đường, rồi đem về phủ giao cho sư phụ dạy võ nghệ. Trong số những đứa trẻ cùng được cứu về hôm đó, ta là một trong số ít người may mắn sống sót, và cứ thế tự nhiên trở thành kẻ hầu cận đi theo Tống Lễ.
+
+Còn chuyện ta leo lên giường cậu ấy, nói cho cùng cũng là một sự tình hồ đồ.
+
+Cha của Tống Lễ là Hoàng đế, mà bậc cửu ngũ chí tôn thì đương nhiên có vô số phi tần nơi hậu cung. Tống Lễ lớn lên giữa vòng vây của biết bao phụ nữ, tận mắt chứng kiến đủ trò tranh giành đấu đá tàn khốc, thậm chí có lần suýt mất mạng dưới tay một tiểu thiếp của cha mình.
+
+Cũng vì thế, từ tận đáy lòng cậu ấy đã sinh ra nỗi sợ cực độ đối với nữ nhân.
+
+Đến năm mười tám tuổi, theo quy củ nghiêm ngặt trong cung, cậu ấy buộc phải tìm một cô nương dạy cho chuyện phòng sự. Thế nhưng hết người này đến người khác bước vào phòng đều bị cậu ấy thẳng tay ném ra ngoài.
+
+Cuối cùng, cậu ấy gọi ta vào, đôi mắt cong cong nở nụ cười: “Trong số họ, ta không tin ai cả, chỉ tin mình ngươi thôi. Nếu nhất định phải có người leo lên giường ta, thì ta chỉ chấp nhận ngươi. Thử một lần xem sao, nghe nói chuyện đó thoải mái lắm. Ta sẽ trả ngươi gấp ba lần tiền lương, thế là ngươi có thể tự tay mua thanh kiếm mà ngươi hằng ao ước rồi.”
+
+Lúc ấy ta thấy khó hiểu vô cùng: hai người nam nhân thì làm sao cùng nhau thực hiện chuyện phòng sự được? Nhưng thanh kiếm kia cám dỗ quá lớn, mà ta lại nghĩ đây chẳng qua là chuyện trên giường, lẽ nào còn khó hơn luyện võ?
+
+Thế là ta nghiến răng gật đầu.
+
+Vậy mà chuyện mới được một nửa, ta đã hối hận, khóc lóc om sòm. Công tử vừa dịu dàng lau nước mắt cho ta, vừa nhẹ giọng dỗ dành: “Không làm nữa.”
+
+Nhưng ngay sau đó, cậu ấy lại cúi xuống hôn lên môi ta rồi tiếp tục.
+
+Ban đầu quả thực thảm khốc, song về sau kỹ thuật của công tử ngày một tiến bộ, dần dần chính ta cũng tìm được đôi chút niềm vui trong chuyện ấy.
+
+Với thân phận hộ vệ, ta hiếm khi nảy ra suy nghĩ riêng. Mạng của kẻ làm hộ vệ vốn mỏng manh, sống hay chết, đi hay ở, tất thảy đều tùy vào một ý niệm chợt đến của chủ nhân.
+
+Chỉ riêng bà vú Tần là mỗi lần thấy ta đều thở dài thườn thượt: “Đợi đến khi chủ mẫu chính thức bước qua cửa, sau này kẻ như ngươi biết sống làm sao đây?”
+
+Nghe bà nhắc quá nhiều lần, ngay cả cái đầu đơn giản của ta cũng bị phủ một lớp bóng mờ u uất. Đêm đêm ta mơ thấy nữ quỷ tóc đen áo đỏ cười ghê rợn, lao tới xé xác ta thành từng mảnh.
+
+Gặp ác mộng liền mấy ngày, quầng thâm dưới mắt ta ngày một đậm. Đến tối, khi đối diện với Tống Lễ, tâm trí ta có phần lơ đãng.
+
+Cậu ấy tỏ vẻ không hài lòng, cau mày cắn mạnh vào vai ta: “Chuyên tâm một chút đi.”
+
+Để phạt cái tội lơ đãng, đêm ấy cậu ấy ra sức hơn hẳn, khiến ta chẳng còn thời gian lẫn sức lực để nghĩ ngợi linh tinh.
+
+Xong việc, cậu ấy nằm gọn trong lòng ta, đưa tay nghịch vài lọn tóc rồi hỏi: “Vừa nãy trong đầu ngươi nghĩ gì thế?”
+
+Ta vốn không biết nói dối, hễ thốt ra lời gian dối là mặt lập tức đỏ bừng. Vì vậy ta chỉ biết thật thà đáp: “Đợi người thành thân rồi, ta có bị người ta đánh chết không?”
+
+Có lẽ câu hỏi ấy ngô nghê quá, cậu ấy bật cười thành tiếng: “Ta thích A Trạch của ta nhất. Dù sau này ta có thành thân hay không, ta vẫn sẽ luôn bảo vệ ngươi.”
+
+Cậu ấy đã hứa như vậy, và ta cũng tin tưởng trọn vẹn. Ngày qua ngày, ta vui vẻ ngóng chờ tiểu thư nhà họ Vương gả đến cửa.
+
+Tiểu thư nhà họ Vương đến phủ đúng lúc hoa cúc nở rộ khắp sân. Nàng khoác một thân hồng y rực rỡ, đứng trước biển cúc vàng đang khoe sắc, đẹp đến mức một kẻ chậm chạp như ta cũng phải đỏ mặt ngẩn người.
+
+Bà vú Tần đặc biệt dặn ta tìm chỗ thật kín mà trốn, kẻo làm chướng mắt quý nhân mới đến. Ta vốn đã trèo lên cây ẩn nấp từ sớm, nào ngờ hôm nay trong yến tiệc lại có người biểu diễn múa kiếm.
+
+Làm hộ vệ bấy nhiêu năm, đôi khi thân thể còn phản ứng nhanh hơn cả suy nghĩ. Ta lao vút ra, hất văng thanh kiếm trong tay kẻ múa, rồi đứng chắn ngay trước mặt Tống Lễ.
+
+Khoảnh khắc ấy, ánh mắt của tất cả mọi người có mặt đều dồn về phía ta. Vương tiểu thư nhìn ta, nở một nụ cười tuyệt đẹp khiến ta ngơ ngác.
+
+Nhưng ngay sau đó, cây roi trong tay nàng đã xé gió quất thẳng vào người ta.
+
+Ta phản ứng rất nhanh, giơ một tay chộp chặt cây roi rồi giật mạnh ra ngoài. Một tiểu thư khuê các được nuông chiều từ nhỏ như nàng thì làm sao là đối thủ của ta. Nàng giằng mấy lần mà roi vẫn không nhúc nhích, còn tự làm mình loạng choạng suýt ngã.
+
+Vương cô nương dường như bị hành động ấy của ta chọc giận tột cùng, mặt đỏ bừng, nước mắt rơi lã chã: “Ai nấy đều bắt nạt ta! Ta phải về mách phụ thân!”
+
+Tuy không am hiểu chuyện triều chính, ta cũng biết rõ công tử mang chí hướng lớn lao. Vương cô nương lại là con gái độc nhất của Thừa tướng đương triều, chắc chắn sẽ giúp ích cho sự nghiệp của cậu ấy rất nhiều.
+
+Ta nhận ra mình vừa phạm phải sai lầm nghiêm trọng, nhất thời tay chân luống cuống, chẳng biết phải làm sao.
+
+Phải một lúc lâu sau công tử mới lên tiếng. Ánh mắt người nhìn ta nghiêm nghị, giọng trầm xuống đầy sức nặng: “Thưởng hay phạt, ngươi đều phải nghiêm chỉnh nhận lấy. Buông tay ra.”
+
+Thật ra khi chủ tử nổi giận, kẻ hầu chịu chút ủy khuất là chuyện thường tình ở đời. Chỉ là không hiểu sao lòng ta lại dâng lên một nỗi buồn thắt nghẹn.
+
+Có lẽ vì suốt bao năm Tống Lễ đối đãi với ta quá tốt, khiến ta... cái từ ấy gọi là gì nhỉ? À phải, “ỷ sủng mà kiêu.” Người đời vẫn bảo ta là tâm can bảo bối của cậu ấy, và ta cũng thật lòng coi mình là người có vị trí vô cùng quan trọng.
+
+Ta ngước nhìn người, nhoẻn miệng cười, rồi ngoan ngoãn buông lỏng bàn tay đang giữ cây roi.
+
+Ngay giây sau, roi mang theo tiếng gió rít quất mạnh xuống người ta. Roi của Vương cô nương thuộc hàng binh khí cao cấp, mỗi nhát giáng xuống đều rít lên ghê người, chỉ một roi đã đủ rách da nát thịt.
+
+Ta vẫn đứng thẳng lưng, không để lọt ra nửa tiếng rên.
+
+Đánh một hồi, có lẽ nàng cũng thấm mệt, lại thấy ta trơ như khúc gỗ chẳng phản ứng gì, bèn tức tối bỏ đi. Nàng vừa quay lưng, ta đã không chống đỡ nổi nữa mà ngã quỵ xuống đất.
+
+Khi nãy nhờ một luồng khí giữ lấy mà gượng được, giờ luồng khí ấy tan mất, ta cũng gục hẳn.
+
+Bà vú Tần vừa khóc vừa mắng: “Cái đồ đầu óc rỗng tuếch này, chẳng biết giả vờ ngã xuống một chút, cứ đứng trơ ra đó cho người ta đánh!”
+
+Về sau bà còn mắng thêm những gì, ta không nghe thấy nữa, bởi đã chìm vào hôn mê sâu.
+
+Lúc Tống Lễ bước vào phòng, bà vú đang cẩn thận bôi thuốc cho ta, miệng vẫn không ngừng thở dài: “Nàng ấy ra tay nặng quá, trên người ngươi chẳng còn lấy một chỗ lành.”
+
+Ta chỉ mỉm cười nhẹ, hoàn toàn không để tâm đến mấy vết thương ấy. Dù sao thân ta vốn đã chằng chịt thương tích, bao năm bên cạnh cậu ấy trải qua vô số cuộc ám sát liên miên, võ nghệ có giỏi đến đâu cũng khó tránh mang thương trên mình.
+
+Đang lúc ta ngẩn ngơ nghĩ ngợi, Tống Lễ đã sải bước đi vào. Người khẽ phất tay bảo bà vú lui ra, trong phòng chỉ còn lại ta và công tử.
+
+Hiếm khi ta u sầu đến thế, lần đầu tiên không biết phải đối diện với cậu ấy ra sao, bèn rúc sâu vào chăn giả vờ đã ngủ say.
+
+Sau lưng bỗng vang lên tiếng cười khẽ đầy chiều chuộng: “Ngủ rồi sao? Vậy gói bánh mới mua này đành để tiểu Chu ăn mất thôi.”
+
+Mùi thơm ngọt ngào của bánh mới nướng len vào mũi. Ta cố nhịn thêm một lúc rồi mới rầu rĩ lên tiếng: “Người làm ta tỉnh giấc rồi.”
+
+Công tử nhìn ta, đôi mắt cong cong đong đầy ý cười, đưa chiếc bánh đến tận miệng ta: “Bao năm nay, bên cạnh ta chỉ có một mình ngươi. Sau này khi nàng ấy chính thức vào phủ, nhất định sẽ tìm cách gây khó dễ cho ngươi. Chi bằng hôm nay cứ để nàng trút hết cơn giận, những ngày sau sẽ chẳng còn cớ nào làm khó ngươi nữa.”
+
+Người nhẹ nhàng xoa lên mái tóc ta, giọng trầm ấm dịu dàng: “A Trạch, tất cả đều là vì tốt cho ngươi.”
+
+Ta nghĩ, chuyện trên đời này quả thực phức tạp. Một người dung túng cho kẻ khác đánh ta suýt chết lại có thể quả quyết rằng làm vậy là vì muốn tốt cho ta. Có điều công tử vốn là người thông minh nhất thế gian, người đã nói thế thì ta một mực tin theo.
+
+Đêm ấy, vết thương trên người ta nhiễm trùng nặng, khiến ta sốt cao mê man suốt cả đêm dài. Trong cơn mơ chập chờn, ta thấy Tống Lễ vừa ôm chặt ta vào lòng, giây sau đã cầm cặp song kiếm đâm xuyên lồng ngực ta.
+
+Ta giật mình tỉnh khỏi cơn ác mộng, mồ hôi lạnh vã ra như tắm, hiếm hoi lắm mới thấy lòng dâng lên một nỗi u sầu lặng lẽ.
+
+Những ngày sau đó, có lẽ muốn bù đắp cho ta, công tử ngày nào cũng kỳ công nghĩ cách mang đến đủ loại đồ ăn thức uống ngon lành. Nằm dưỡng thương trên giường suốt một tháng, mặt ta tròn xoe lên trông thấy.
+
+Sư phụ nhìn vòng eo của ta mà lo lắng, thở ngắn than dài rằng nếu ta cứ béo lên thế này thì e đến khinh công cũng chẳng thi triển nổi. Cuối cùng không chịu đựng thêm được, ông giao cho ta đi áp tải chuyến tiêu này, coi như một cách để giảm cân.
+
+Khi đoàn áp tiêu đi được nửa chặng đường, bỗng có một vị đại hiệp bịt mặt chặn lối. Ta vội dặn những người khác mau chuyển hàng đi trước, còn mình ở lại giải quyết kẻ cản đường.
+
+Đối phương đầu đội đấu lạp, mình khoác bạch y, dáng vẻ lười nhác nằm vắt vẻo trên cành cây, mặc cho đám người phía dưới hoảng hốt tháo chạy.
+
+Đợi mọi người rút hết, ta mới giật mình nhận ra mục tiêu của hắn hẳn là nhắm thẳng vào ta. Ta tự nghĩ mình chỉ là một hộ vệ nhỏ bé, nào đủ tư cách để người ta cất công phái sát thủ đến lấy mạng. Nhất thời trong lòng còn dâng lên cảm giác... hơi “được sủng mà kinh.”
+
+Vị đại hiệp nhẹ nhàng đáp xuống trước mặt ta, buông một câu gọn lỏn: “Rời bỏ Tống Lễ, ta tha mạng cho ngươi.”
+
+Ta chưa từng gặp sát thủ nào ngông cuồng đến thế, liền rút kiếm lao lên nghênh chiến. Nhưng mới giao thủ chừng hai chiêu, ta đã vội giơ tay thề với trăng sao: “Ta sẽ lập tức rời khỏi Tống Lễ.”
+
+Sau đó ta nhanh chóng trở về phủ tìm sư phụ, muốn nhờ ông ra tay báo thù giúp. Thế nhưng dù đã phái đi biết bao cao thủ, nửa tháng trôi qua vẫn chẳng có chút tin tức nào hồi đáp.
+
+Một tháng sau, ta ra đầu ngõ tìm ăn móng giò thì lại tình cờ chạm mặt hắn lần nữa. Ý nghĩ đầu tiên xẹt qua đầu ta là: “Lần này tiêu đời rồi.” Chắc lần này ta sẽ không may mắn như lần trước nữa.
+
+Vừa nghĩ, ta vừa từ từ lùi lại, rồi bất thình lình quay người cắm đầu chạy thục mạng.
+
+Chẳng biết đã chạy bao lâu, đến khi kiệt sức không bước nổi nữa, ta mới đành dừng lại, chuẩn bị tinh thần liều mạng một trận sống còn.
+
+Hắn dường như thấy mình bị trêu chọc, trên mặt thoáng giận dữ, giọng trầm xuống: “Ngươi dám lừa ta.”
+
+Ta biết rõ mình không phải đối thủ của hắn, lần này khó thoát khỏi cái chết. Vì thế ta ngạo nghễ đáp: “Lừa ngươi đấy thì sao.”
+
+Hắn cau chặt chân mày, hình như bị thái độ “dầu muối không vào” của ta chọc giận hẳn, chẳng buồn nói thêm lời nào mà rút kiếm lao tới.
+
+Trong khoảnh khắc điện quang hỏa thạch, ta và hắn nhanh chóng giao đấu được vài chiêu...
+
+Chẳng biết từ đâu lại xuất hiện một đứa trẻ nhỏ, ngơ ngác đứng ngây ra giữa hiện trường. Đúng là cảnh “nhà dột lại gặp mưa đêm”, ta chỉ còn cách vội thu kiếm về để tránh làm hại đứa bé.
+
+Ngay giây sau, một tia sáng lạnh lẽo lóe lên, mũi kiếm sắc bén của đối phương đã kề sát cổ ta. Hắn cất giọng lạnh băng, chẳng chút dao động: “Ngươi thua rồi.”
+
+Đứa trẻ thấy cảnh ấy liền ngồi bệt xuống đất, khóc òa lên. Ta vốn rất ghét loại người thích chém giết nhưng lại luôn làm ra vẻ ta đây thượng đẳng.
+
+Ta giữ nguyên gương mặt không chút biến sắc, nhạt giọng: “Muốn giết thì giết đi, đừng bày trò này trước mặt trẻ con.”
+
+Đối phương nhìn ta với vẻ như đang suy tính điều gì, rồi dùng thân kiếm gõ nhẹ lên cổ ta vài cái. Đến khi ta nhắm mắt thản nhiên chờ chết, hắn lại bất ngờ thu kiếm, chắp hai tay sau lưng, giọng đầy ung dung: “Ngươi tưởng Tống Lễ thật sự sẽ ra tay bảo hộ ngươi sao? Ngươi từ lâu đã là một quân cờ bị người ta vứt bỏ rồi. Bằng không, vì sao toàn bộ lực lượng Vương phủ xuất động mà vẫn không tìm ra tung tích của ta?”
+
+Giọng hắn mang theo vài phần dụ dỗ: “Hay là chúng ta cùng đánh cược một ván. Xem nếu ngươi đột nhiên mất tích, Tống Lễ sẽ phản ứng ra sao.”
+
+Gió thu thổi qua làm rặng trúc xào xạc, hòa lẫn trong đó là tiếng nấc nghẹn của đứa trẻ. Ta vốn rất ghét phải chịu thử thách, bởi ngay từ khoảnh khắc thử thách bắt đầu thì đã là một sự thất bại.
+
+Nhưng hắn hoàn toàn không cho ta cơ hội lựa chọn.
+
+Hắn giật lấy chiếc ngọc bội đeo bên hông ta, rồi nhốt ta vào một căn viện của nhà nông hộ ở ngoại thành, mỗi ngày đều mang đến một ít đồ ăn.
+
+Thật ra ngày tháng ở đây cũng chẳng đến nỗi tệ: có rượu ngon, có thịt ngon, chỉ là không gian nhỏ hẹp, khiến ta lại béo thêm một vòng. Nhìn hình ảnh mình trong gương đồng, hiếm hoi lắm ta mới nếm được vài phần u sầu của một kẻ trung niên bắt đầu phát phì.
+
+Người nhốt ta tên là Thẩm Bất Vi, vốn là thị tòng thân cận của Vương Tường, muốn giết ta để dọn đường cho tiểu thư nhà mình. Ta biết hắn thầm thích Vương Tường, bởi mỗi lần nhắc đến tên nàng, trong mắt hắn lại hiện lên vẻ y hệt bà vú Tần khi nhắc về Vương bá: đong đầy nhớ thương tha thiết.
+
+Thỉnh thoảng Thẩm Bất Vi mang rượu ngon đến viện, hai chúng ta cùng ngồi dưới ánh trăng nâng chén. Khi hơi men đã thấm, hắn lại khuyên ta: “Ta đã ném chiếc ngọc bội dính máu của ngươi ngay trước cửa Vương phủ. Vậy mà bao ngày qua, Tống Lễ kia chẳng hề có động tĩnh gì. Khuyên ngươi một câu chân thành, mau buông bỏ hắn đi. Nếu ngươi quyết trở về, với tính tình của A Tường, chắc chắn ngươi sẽ chết thảm. Hà tất phải đâm đầu vào đường chết như vậy? Ngươi là người tốt, ta thực sự không muốn ra tay giết ngươi.”
+
+Ta ngơ ngác ngước nhìn vầng trăng trên cao, trong lòng chỉ mải nghĩ: không biết hôm nay Tống Lễ có gặp nguy hiểm gì không, không biết khi thiếu vắng ta, những người khác trong phủ có bảo vệ tốt cho cậu ấy hay không.
+
+Đời hộ vệ, sống là vì chủ tử của mình. Tống Lễ là chỗ dựa duy nhất trong cuộc đời ta, nếu phải rời xa cậu ấy, ta chưa từng nghĩ mình sẽ tiếp tục sống ra sao.
+
+Thẩm Bất Vi thấy thái độ của ta vẫn “dầu muối không vào”, giận dữ rút kiếm muốn lấy mạng. Lưỡi kiếm kề sát cổ ta đến mấy lần, nhưng rốt cuộc hắn vẫn không hạ thủ nổi, chỉ đành mắng: “Ngươi đúng là kẻ ngu ngốc nhất trên đời này!”
+
+Ta bị giam suốt mấy tháng, mãi đến khi vị tiểu thư nhà hắn chính thức cử hành hôn lễ với Tống Lễ thì mới được thả tự do.
+
+Trước lúc chia tay, Thẩm Bất Vi nhìn ta, giọng nặng nề: “Tiểu thư nhà ta và chủ tử ngươi giờ đã chính thức kết duyên phu thê. Sau này Vương gia chắc chắn là lực lượng trợ giúp lớn nhất cho Tống Lễ trên con đường tranh đoạt ngôi vị. Sự xuất hiện của ngươi chỉ làm hỏng tình cảm vợ chồng họ mà thôi. Ngươi mất tích lâu như vậy mà Tống Lễ chưa từng phái lấy một người đi tìm. Tống Trạch à, ngươi vốn không quan trọng như ngươi vẫn tưởng đâu. Chỉ là một hộ vệ, Vương phủ chưa bao giờ thiếu. Ngươi hoàn toàn không phải kẻ không thể thay thế. Ta không muốn sau này phải thấy xác ngươi nằm ngổn ngang ở bãi tha ma ngoài thành.”
+
+Nụ cười đón nhận tự do trên mặt ta dần tắt, chỉ còn lại nỗi mơ hồ đắng ngắt. Thật ra những lời hắn vừa nói đã đâm trúng chỗ yếu nhất trong lòng ta.
+
+Ta vốn chẳng màng sống chết của bản thân, bởi cái mạng này từ đầu đã là do Tống Lễ ban cho, trả lại cậu ấy cũng chẳng sao. Ta chỉ sợ duy nhất một điều, ấy là mình trở thành gánh nặng cản bước chân cậu ấy.
+
+Những ý nghĩ cứ xoay mòng mòng trong đầu, ta lặng lẽ quay về Vương phủ một chuyến. 
+
+*****
+
+Hôm ấy đúng dịp Đông chí, quản gia đang dựng quầy phát cháo từ thiện ngay trước cổng phủ.
+
+Tống Lễ cùng Vương Tường đều khoác hồng y rực rỡ, đứng sánh vai phát cháo cho dân. Bách tính xung quanh không ngớt lời khen họ là một đôi trời đất tác hợp.
+
+Ta lặng lẽ đứng từ xa nhìn rất lâu, rồi âm thầm quay đi. Những điều Thẩm Bất Vi nói hoàn toàn chính xác, Vương phủ rộng lớn như vậy không thiếu một kẻ như ta.
+
+Ta không thể quay về nơi đó được nữa.
+
+Đi đâu về đâu thì ta vẫn chưa nghĩ ra, chỉ biết bước đi vô định. Tình cờ gặp một tiêu cục đang thông báo tuyển người, ta liền xin ở lại làm việc.
+
+Công việc nặng nhọc khiến cuộc sống của ta bận rộn đầy ắp, ít có thời gian hoài niệm về Tống Lễ. Nhưng hễ rảnh rỗi, đôi chân ta lại vô thức đi về hướng Vương phủ, có lúc đi được nửa đường mới giật mình rùng mình quay lại.
+
+Tình thế triều chính nơi kinh thành ngày càng căng thẳng phức tạp...
+
+Ngay cả chốn dân gian cũng không ngớt tranh luận sôi nổi về việc Thánh thượng rốt cuộc nên lập trưởng tử hay chọn người hiền tài. Nghe đồn Tống Lễ đã mấy lần bị ám sát nguy hiểm, nhưng cậu ấy đều ứng phó qua khỏi thuận lợi.
+
+Lòng ta vẫn không yên. Ta thường xuyên cải trang đi quanh khu vực Vương phủ dò xét xem có kẻ nào khả nghi hay không, và quả nhiên đã bắt sống được vài tên thám tử đang lén lút rình rập, rồi âm thầm xử lý sạch sẽ bọn chúng.
+
+Làm việc ở tiêu cục được vài tháng, nhờ võ nghệ cao cường thuộc hàng xuất sắc, ta cũng gây dựng được chút địa vị. Đây là chuyến áp tiêu đầu tiên do chính ta độc lập dẫn đầu một đội ngũ.
+
+Vì quãng đường quá xa xôi, trước khi xuất phát ta còn đặc biệt đi tuần quanh Vương phủ mấy lượt liên tiếp, đến khi chắc chắn không có điểm nào bất thường mới yên tâm lên đường.
+
+Dọc đường áp tiêu, ta gặp vô số toán thổ phỉ chặn đánh nên bị trì hoãn khá lâu. Đến khi trở về, khắp kinh thành đang xôn xao bàn tán về vụ Thái tử bị ám sát.
+
+Trong các quán trà, người ta truyền tai nhau từng chi tiết rành rọt: hôm ấy tên thích khách khoác bạch y, đang lúc múa hát thì bất ngờ rút kiếm, chỉ trong chớp mắt đã đâm thẳng vào lồng ngực Thái tử. Người ta chỉ kịp nghe Thái tử kêu lên một tiếng rồi tắt thở ngay.
+
+Có kẻ khẳng định Tống Lễ thực chất đã chết, sở dĩ chưa công bố chỉ để tránh gây đại loạn trong triều đình. Lại có người đồn cậu ấy bị thương rất nặng, hiện vẫn hôn mê sâu chưa tỉnh.
+
+Cả Vương phủ bị kỵ binh vây kín như hũ nút, ta dù rất muốn dò tin nhưng không tài nào tiếp cận được.
+
+Trong tình thế bất đắc dĩ, ta buộc phải tự mình lén đột nhập vào phủ. Phía sau khu viện có một lối đi bí mật, thực chất là một cái hang chó nhỏ. Ngày trước khi bị quản thúc nghiêm ngặt, ta vẫn thường lén chui qua đó ra ngoài mua đồ ăn đồ chơi.
+
+Nơi ấy cực kỳ kín đáo, thông thường chỉ có một tên thị vệ canh cửa. Ta dùng mê dược hạ gục hắn, nhanh chóng khoác lên người bộ áo giáp của hắn rồi lén trườn vào trong.
+
+Mọi việc thuận lợi đến bất ngờ. Ta đi từ hướng cửa sổ để chui vào phòng ngủ của Tống Lễ, bên trong tĩnh lặng đến mức khác thường.
+
+Ta còn chưa kịp nghĩ gì thêm thì đã có người châm sáng ngọn nến. Gió lạnh lùa qua cánh cửa sổ chưa kịp đóng kín, làm ánh lửa chao đảo, kéo theo bóng người chập chờn trên tường.
+
+Người mà thiên hạ đồn là bị thương nặng khó qua khỏi, lúc này lại đang mỉm cười, lặng lẽ nhìn ta: “A Trạch, ta đã đứng đây đợi ngươi từ rất lâu rồi.”
+
+Cậu ấy cầm hỏa tập, lần lượt thắp sáng từng ngọn nến, cho đến khi ánh sáng dịu nhẹ soi rõ từng đường nét trên gương mặt cả hai. Đến lúc này ta mới vỡ lẽ vì sao mọi hành động của mình vừa rồi lại thuận lợi đến thế: tất cả đều nằm trọn trong kế hoạch cậu ấy đã tính từ trước.
+
+Ta lập tức quay người định bước đi, nhưng cậu ấy đã gọi giật ngược lại, giọng đong đầy nỗi buồn mà ta chưa từng nghe bao giờ: “Đến cả ngươi mà cũng muốn quay lưng rời bỏ ta sao?”
+
+Tim ta đột nhiên mềm nhũn, mọi động tác định bỏ chạy khựng lại giữa chừng.
+
+Cậu ấy bước tới kéo ta ôm chặt vào lòng, khẽ thì thầm bên tai: “Ta chỉ tin mình ngươi thôi. Hãy ở lại bên cạnh ta, cùng ta chia sẻ dải giang sơn vô tận này, được không?”
+
+Trong vòng tay ấm áp ấy, một mùi máu nồng nặc xộc thẳng vào mũi ta. Ta còn chưa kịp định hình mùi máu từ đâu mà ra thì Tống Lễ đã đột ngột ngất đi.
+
+Nhìn đôi bàn tay đẫm máu của cậu ấy, ta mới bàng hoàng nhận ra cậu ấy thực sự bị thương rất nặng. Thế là ta quyết định ở lại.
+
+Hôm sau, khi Thẩm Bất Vi thấy ta xuất hiện, sắc mặt hắn biến đổi liên tục qua nhiều trạng thái, nhưng cuối cùng vẫn buông lời mắng: “Ngươi đúng là đồ ngu ngốc nhất trên đời này!”
+
+Ta ngửi thấy mùi máu tanh nồng toát ra từ người hắn, vội vàng hỏi dồn: “Ngươi bị thương rồi sao? Có phải vì cứu ta nên mới ra nông nỗi này không?”
+
+Hắn tỏ vẻ không vui, lạnh nhạt đáp: “Chưa chết ngay được đâu. Ngươi chỉ cần chú ý giữ gìn bản thân, đừng có chết trước mặt ta là được.”
+
+Trong thời gian Tống Lễ dưỡng thương, lại có thêm mấy đợt thích khách kéo đến ám sát. Tam hoàng tử dường như đã hạ quyết tâm bằng mọi giá phải lấy cho được mạng cậu ấy.
+
+Ngày ngày ta túc trực bên cạnh, không dám lơ là dù chỉ một khoảnh khắc. Ngược lại, Tống Lễ có vẻ chẳng mấy để tâm: “Sống chết có số, phú quý do trời. A Trạch à, ta không phải kẻ dễ bị người ta lấy mạng như vậy đâu.”
+
+Ta không biết giữa Tống Lễ và Vương Tường đã ngầm đạt những thỏa thuận gì, chỉ thấy nàng tỏ ra hết sức bình thản trước việc ta xuất hiện trở lại. Nhưng ánh mắt nàng nhìn ta đôi lúc lại u ám âm trầm, tựa một con rắn độc đang rình rập chực cắn người.
+
+Ta thực sự không còn đủ sức lực hay tâm trí để đoán xem nàng đang định giở trò gì nữa.
+
+Thích khách kéo đến không ngừng khiến người ta mệt mỏi rã rời. Đúng lúc ấy, sức khỏe Thánh thượng ngày một suy yếu trầm trọng. Dù ta vốn không phải kẻ lanh lợi, cũng mơ hồ nhận ra kinh thành sắp xảy ra một trận biến động kinh thiên động địa.
+
+Tống Lễ tuy vẫn mang danh Thái tử, nhưng Hoàng hậu lại là mẫu thân ruột của Tam hoàng tử, thế lực ngoại thích đang lúc hưng thịnh. Mẫu thân của Tống Lễ mất sớm, gia tộc bên ngoại cũng suy tàn từ lâu.
+
+Bao năm nay người đời vẫn xầm xì rằng Hoàng thượng rồi sẽ phế ngôi Thái tử của cậu ấy, nhưng cho đến nay danh vị ấy vẫn được giữ nguyên.
+
+Với những chuyện triều chính phức tạp ấy, một kẻ như ta chẳng giúp được gì nhiều, chỉ có thể dốc hết sức lực để bảo vệ cậu ấy an toàn tuyệt đối.
+
+Khi trời sắp sang Tết, chốn cung đình mở một buổi yến tiệc lớn. Nghe đồn Hoàng thượng ngay trong tiệc đã thổ huyết, tình trạng sống chết khó lường.
+
+Hoàng hậu nhanh chóng câu kết với lực lượng thái giám, viện cớ Hoàng thượng cần tĩnh dưỡng, không tiện gặp người ngoài, để khống chế toàn bộ hoàng cung. Người ra vào trong phủ liên tục như mắc cửi, sắc mặt Tống Lễ cũng ngày một nặng nề u uất.
+
+Có người đề nghị: Hoàng thượng vốn sùng bái đạo giáo, nếu lôi kéo được vị đạo sĩ số một do chính ngài thân phong là Vô Đạo, thì có thể danh chính ngôn thuận vào xem xét bệnh tình.
+
+Nhưng làm sao lôi kéo được ông ta thì mọi người bàn mãi vẫn không ra kết luận. Vô Đạo không cha không mẹ, không vợ không con, lại chẳng có sở thích riêng nào, đúng là kẻ “dầu muối không vào”.
+
+Mấy ngày sau đó, mọi người vẫn tiếp tục tranh luận gay gắt. Ta ngồi vắt vẻo trên cành cây ghé tai nghe ngóng, chán đến mức suýt ngủ gật.
+
+Chẳng biết Vương Tường đã ghé tai nói điều gì mà sắc mặt Tống Lễ bỗng trở nên vô cùng khó coi. Cậu ấy gọi ta lại gần, dáng vẻ như muốn dặn dò điều gì, nhưng cuối cùng lại thôi.
+
+Ánh mắt Vương Tường lướt qua người ta, trên môi nở một nụ cười khiến người ta rợn tóc gáy: “Nghe nói Vô Đạo đạo trưởng rất thích thưởng trà. Ta vừa hay có một gói trà Long Tỉnh thượng hạng, chi bằng để Tống Trạch mang đi một chuyến.”
+
+Nàng lại ân cần đưa tới một chén trà thơm, rạng rỡ mỉm cười: “Đây là chén trà do chính tay ta mới pha, đường đi xa xôi, ngươi uống chút nước rồi hãy lên đường.”
+
+Ta không nghĩ nhiều, dù sao nàng cũng chẳng ngu ngốc đến mức dám hạ độc ngay trước mặt bao nhiêu người. Ta ngửa cổ uống cạn chén trà, cầm lấy gói trà tinh xảo rồi phi thân về phía khu hậu sơn của hoàng cung, nơi đạo trưởng nghỉ ngơi.
+
+Vừa đến trước cửa phòng, ta còn chưa kịp giơ tay gõ thì Thẩm Bất Vi chẳng biết từ đâu xuất hiện. Toàn thân hắn đẫm máu, sắc mặt dữ dội căm hờn.
+
+Hắn hất văng gói trà quý trên tay ta xuống đất, nghiến răng: “Ngươi tưởng mình là kẻ đi mang lễ vật đến sao? Thực ra chính ngươi mới là món lễ vật ấy!”
+
+Ta ngơ ngác nhìn hắn. Thẩm Bất Vi càng giận hơn, phun ra một ngụm máu tươi, khiến ta hoảng hốt đưa tay đỡ lấy hắn, không dám hỏi thêm.
+
+Hắn nhanh chóng nuốt một viên thuốc, vận công điều hòa hơi thở rồi mới lạnh lùng lên tiếng: “Ngươi có biết vị đạo sĩ bên trong là kẻ ‘hảo Long Dương’ không?”
+
+Ta cau chặt mày, im lặng hồi lâu, nghĩ mãi vẫn không hiểu “hảo Long Dương” rốt cuộc là gì, mà cũng chẳng dám hỏi. Thẩm Bất Vi thở dài ngán ngẩm, rồi gằn giọng: “Đồ ngu ngốc! ‘Hảo Long Dương’ là nam nhân lại cùng nam nhân thực hiện chuyện phòng sự đó. Ngươi uống chén trà kia, kết hợp với làn hương trầm trong phòng đạo sĩ, toàn thân sẽ lập tức bất tỉnh nhân sự. Còn cần ta nói rõ hơn nữa không? Ngươi đã bị vị chủ tử mà ngươi hết lòng trung thành vứt bỏ rồi.”
+
+Ta lặng người đi hoàn toàn. Thực ra bản năng của kẻ làm hộ vệ chính là tuyệt đối phục tùng mệnh lệnh. Chúng ta vốn phải làm bất cứ điều gì công tử dặn, dù có phải chết thì cũng phải lập tức tự vẫn mới đúng đạo làm tôi.
+
+Chỉ là không hiểu sao, tận sâu trong lòng ta lúc này nhói lên như bị hàng ngàn mũi kim châm. Có thứ gì đó rơi xuống mu bàn tay, mang theo cảm giác ấm áp và ướt đẫm.
+
+Ta đưa tay sờ nhẹ, mới bàng hoàng nhận ra mình đang rơi lệ. Ngẩng lên, ta ngơ ngác hỏi Thẩm Bất Vi: “Vì sao ta lại thấy đau buồn đến nhường này?”
+
+Thẩm Bất Vi thở dài rất lâu, rồi nhẹ nhàng đưa tay xoa mái tóc ta: “Bởi vì đó là tình yêu. Ngươi đã đem lòng yêu hắn mất rồi, nên mới đau lòng đến vậy.”
+
+Hắn ngẩn ngơ nhìn vầng trăng sáng trên cao, chẳng rõ đang nói với ta hay đang tự nói với chính mình: “Ông trời cao xanh luôn lấy việc trêu đùa số phận con người làm thú vui.”
+
+Đến lúc này ta mới chậm rãi nhận ra, thì ra cái cảm giác tê dại chua xót rộn ràng nơi lồng ngực bấy lâu nay chính là tình yêu.
+
+Đang lúc ta ngẩn ngơ suy nghĩ, cánh cửa phòng bỗng bật mở, kéo theo một làn hương thơm kỳ lạ xộc thẳng vào mũi. Vị đạo sĩ khoác áo trắng sải bước đi ra, trên mặt mang nụ cười quái dị, chậm rãi tiến về phía ta.
+
+Ta bắt đầu cảm thấy sức lực toàn thân đang dần tan biến. Thẩm Bất Vi cố dồn sức đứng dậy nhưng thương thế quá nặng nên lực bất tòng tâm.
+
+Ta cắn răng dồn hết chút sức còn sót lại, tung một nhát kiếm đâm thẳng vào lòng bàn tay mình. Nhờ cơn đau đớn mà trong khoảnh khắc ngắn ngủi ta lấy lại được ít sức lực, nhưng vị đạo sĩ đã đến đứng ngay trước mặt ta, trên môi vẫn giữ nụ cười ung dung: “Ta vốn không thích ép buộc người khác, nhưng ngươi thực sự quá xinh đẹp. Đừng tốn công giãy giụa nữa, loại mê dược này công hiệu tuyệt vời, hiếm có ai thoát được khỏi tay ta đâu.”
+
+Hơi thở hôi hám của hắn phả thẳng vào cổ ta, khiến ta lập tức nhớ đến những thiếu niên liên tục mất tích bí ẩn nơi kinh thành suốt mấy năm qua. Tay ta phản ứng nhanh hơn cả suy nghĩ, chỉ một nhát kiếm quyết đoán, máu tươi từ cổ hắn đã phun trào, văng đầy lên mặt ta.
+
+Thẩm Bất Vi dù muốn giơ tay ngăn cũng không kịp nữa, chỉ đành thở dài: “Chuyện này giờ khó xử rồi.”
+
+Ta ngơ ngác đưa tay lau vệt máu trên mặt, thừa hiểu mình vừa làm hỏng toàn bộ đại sự. Đầu óc ta rối loạn như tơ vò: không còn vị đạo sĩ này, Tống Lễ làm sao nắm được tin tức trong hoàng cung?
+
+Không nắm được tin tức, cậu ấy chẳng khác nào con cá nằm trên thớt chờ người đến mổ xẻ. Rốt cuộc phải làm cách nào mới phá được cục diện bế tắc này? Ta nghĩ mãi vẫn không ra lời giải.
+
+Cho đến khi Thẩm Bất Vi đứng bên cạnh lẩm bẩm: “Nếu Tam hoàng tử chết đi thì tốt biết mấy.”
+
+Ta như người bừng tỉnh khỏi cơn mê. Đúng vậy, nếu Tam hoàng tử chết, Tống Lễ sẽ là người thừa kế duy nhất, thuận lý thành chương mà danh chính ngôn thuận bước lên ngôi hoàng đế.
+
+Sau hôm ấy, ta lại một lần nữa biến mất hoàn toàn khỏi cuộc sống của Tống Lễ. Lần gặp lại tiếp theo là trong buổi yến tiệc đêm giao thừa.
+
+Ta đứng đối diện cậu ấy. Sắc mặt Tống Lễ liên tục biến đổi, định bật cười nhạt nhưng cuối cùng lại đanh mặt, u uất.
+
+Thấy Tống Lễ bị chèn ép, Tam hoàng tử tỏ ra vô cùng hả hê, tự tay rót một ly rượu đưa đến trước mặt ta, còn không quên khiêu khích: “Đây là hộ vệ mới của ta, võ nghệ lẫn thân hình đều thuộc hàng nhất hạng.”
+
+Giọng hắn đầy vẻ trêu chọc cợt nhả. Tống Lễ ngồi phía đối diện, gương mặt xanh xám vì tức giận, bàn tay siết chặt chén rượu đến mức các đốt ngón tay trắng bệch.
+
+Đây là lần đầu Tam hoàng tử thấy Tống Lễ thất thố đến thế, hắn bật cười khoái trá đầy đắc thắng.
+
+Tam hoàng tử quả thực có ý định chiếm đoạt ta để chọc Tống Lễ tức điên, nhưng mỗi lần định ra tay hắn lại không thể hạ thủ với một nam nhân. Ta giữ nguyên gương mặt không chút biến sắc, thuận theo cái nắm tay của hắn mà uống cạn ly rượu.
+
+Vì uống quá vội, ta bị sặc, ho liên tục không ngừng. Ánh mắt Tống Lễ chậm rãi dừng lại trên người ta, chẳng biết trong lòng cậu ấy đang tính toán điều gì.
+
+Đúng lúc ấy, lão Hoàng đế cuối cùng cũng xuất hiện, diện mạo đã đến mức dầu cạn đèn tắt. Ai có mặt cũng đều hiểu, có lẽ ông chỉ còn sống thêm được vài ngày ngắn ngủi. Một đêm yến tiệc trôi qua, kẻ nào cũng mang tâm tư tính toán riêng.
+
+Khi buổi tiệc tan, Tống Lễ sải bước tiến lại, nắm chặt lấy vai ta: “Mọi chuyện đã qua ta đều có thể giải thích rõ ràng, ngươi hãy nghe ta nói...”
+
+Ta giữ gương mặt lạnh băng, giơ tay đẩy mạnh bàn tay cậu ấy ra, giọng cung kính mà xa cách: “Mong Thái tử điện hạ tự trọng.”
+
+Tam hoàng tử chẳng biết từ đâu xuất hiện, khoác tay lên vai ta, giọng đắc ý: “Đại ca à, hóa ra ngươi cũng có lúc rơi vào thế thất thế như vậy. Đi thôi, chúng ta về phủ.”
+
+Sau buổi yến tiệc giao thừa, Tam hoàng tử lại càng coi trọng ta hơn. Hôm đó, hắn đưa cho ta một viên thuốc đỏ thắm, bắt ta nuốt xuống. Ấy là dấu hiệu cho thấy hắn đã hoàn toàn tin tưởng ta.
+
+Bởi lẽ Tam hoàng tử vốn cực kỳ đa nghi, ngay cả những kẻ thân tín nhất bên cạnh hắn cũng phải uống loại độc dược “mỗi tháng phải giải độc một lần” này.
+
+Vì toàn bộ hoàng cung đều nằm dưới sự khống chế của mẫu hậu Tam hoàng tử, hắn dần trở nên kiêu ngạo tự mãn, cho rằng ngai vàng từ lâu đã nằm gọn trong tay mình. Trong một buổi triều sớm, hắn thậm chí còn dám công khai làm khó Tống Lễ, chẳng còn chút dáng vẻ của một vị hoàng tử siêng năng cần mẫn như trước.
+
+Mỗi ngày trôi qua, hắn chỉ mải đắm chìm trong tửu sắc xa hoa.
+
+Ngay cả Hoàng hậu cũng phải đích thân đến tận phủ, mắng hắn một trận tơi bời khói lửa, hắn mới chịu thu liễm bản tính đôi chút. Ta nghĩ, có lẽ thời cơ đã chín muồi.
+
+Ta quyết định liên thủ với một cô gái chốn thanh lâu tên Liễu Yêu. Cả nhà nàng bị Tam hoàng tử hãm hại đến tan nhà nát cửa, nàng từ lâu đã mong ngày tự tay báo thù rửa nợ.
+
+Mọi vật dụng đưa vào phủ đều phải qua kiểm tra nghiêm ngặt bằng ngân châm, nên ta đưa nàng gói mê dược, dặn nàng nhân lúc hắn ngủ say thì ra tay hành sự.
+
+Mọi việc vốn tiến hành rất thuận lợi, chỉ có một điều ngoài dự tính của ta: bên cạnh Tam hoàng tử còn có một tên ám vệ chưa từng lộ diện, võ nghệ cao hơn ta rất nhiều. Hắn đã sớm phát hiện điểm bất thường, quyết xông vào trong kiểm tra.
+
+Không còn cách nào khác, ta buộc phải xông ra giao đấu một sống một còn với hắn. Võ nghệ hắn hoàn toàn lấn lướt ta, nhưng ta chọn lối đánh liều mạng, nhờ vậy cũng cầm cự được một lúc.
+
+Trong đầu ta chỉ có một ý nghĩ: kéo dài thời gian càng lâu, Liễu Yêu càng có thêm cơ hội hành sự. Thương tích trên người ta ngày một nhiều, sức lực cũng dần cạn kiệt. Ta nghĩ có lẽ mình sẽ bỏ mạng ngay tại nơi này.
+
+Rất nhiều năm về trước, chính Tống Lễ đã cứu ta ra khỏi đống tuyết lạnh giá để đưa về phủ. Cái mạng này vốn do cậu ấy ban cho, hôm nay coi như ta đem trả lại trọn vẹn.
+
+Trong cơn mê man chập chờn, ta thấy Liễu Yêu hớn hở chạy ra, báo rằng nàng đã ra tay thành công. Nhận thức cuối cùng còn sót lại trong ta cũng tan biến hẳn, chỉ còn một cảm giác nhẹ nhõm hiếm hoi tràn ngập tâm trí.
+
+Đến khi tỉnh lại, ta thấy mình nằm trên chiếc giường gỗ trong gian biệt viện của Thẩm Bất Vi. Hắn đang cầm chén thuốc, vừa thấy ta mở mắt liền ném mạnh chén xuống đất, giơ tay chỉ thẳng vào mặt ta định mắng, nhưng rốt cuộc đôi mắt hắn lại đỏ hoe: “Ngươi cuối cùng cũng chịu tỉnh rồi.”
+
+Đến lúc ấy ta mới bàng hoàng biết mình đã hôn mê hơn một tháng trời. Trong suốt một tháng ấy, bao đại sự biến động đã xảy ra: tiên đế băng hà, Tam hoàng tử chết thảm, Thái tử chính thức kế vị lên ngai vàng, lấy niên hiệu Nguyên Khánh.
+
+Thẩm Bất Vi không ngừng lải nhải kể lại. Hôm đó khi hắn cấp tốc chạy đến, ta và tên ám vệ kia đều đã không còn hơi thở. Hắn liều mạng cho ta uống viên đan dược giữ mạng quý giá của Thần Y Cốc, rồi châm lửa thiêu rụi toàn bộ gian thanh lâu.
+
+Ta vội hỏi: “Vậy còn Liễu Yêu thì sao?”
+
+Hắn đáp: “Cô ta lanh lợi lắm, ngay lúc lửa bùng lên đã nhân cơ hội tháo chạy mất hút, giờ này có lẽ đã đến Giang Nam rồi.”
+
+Nói xong, hắn nhìn ta với ánh mắt hết sức căng thẳng: “Ngươi còn muốn quay về nơi đó không? Giờ ngươi lập được đại công, hắn chắc chắn sẽ đối xử với ngươi cực kỳ tốt.”
+
+Ta ngẩn người một lúc, rồi mỉm cười lắc đầu: “Ta đã báo đáp xong toàn bộ ơn nghĩa. Từ trước đến nay, cả cuộc đời ta đều tồn tại vì cậu ấy. Quãng đời còn lại, ta chỉ muốn sống cho chính mình.”
+
+Thẩm Bất Vi trút được gánh nặng, thở phào một hơi, giọng mang theo vài phần vui vẻ: “Ta đã cởi y phục của ngươi để thay cho tên ám vệ kia rồi. Hai ngươi vóc dáng khá giống nhau, lại thêm ngọn lửa thiêu rụi tất cả, chẳng ai phân biệt nổi. Trong mắt mọi người, ngươi từ lâu đã là kẻ đã chết. Tống Trạch à, giờ ngươi hoàn toàn tự do rồi. Từ nay trời đất bao la, tùy ý ngươi tung hoành.”
+
+Vì thân thể chưa hồi phục hẳn, ta tiếp tục ở lại biệt viện của hắn dưỡng thương. Ta bắt đầu chăm sóc cây cối hoa cỏ, thỉnh thoảng lên núi săn thú rừng, ngày tháng trôi qua an nhàn thư thái.
+
+Đôi khi Thẩm Bất Vi lại lén cùng ta nâng chén. Hắn kể rằng Tống Lễ quả thực đã chính thức phong Vương Tường làm Hoàng hậu, nhưng đó chỉ là danh xưng hư danh, cậu ấy chưa từng bước chân đến phòng nàng dù chỉ một lần.
+
+Hắn hả hê nói: “Hôm đó khi hắn thấy ‘thi thể cháy đen’ của ngươi, lập tức phun ra một ngụm máu tươi, suýt chút nữa thành vị hoàng đế đầu tiên chết ngay trong ngày kế vị. Buồn cười đến chết mất thôi. Hắn đem cái xác cháy đen của tên ám vệ đặt ngay trong tẩm cung, ngày ngày lẩm bẩm trò chuyện một mình. Ngươi tuyệt đối đừng để mình bị cảm động, ta ghét nhất loại người thích giả vờ đa tình.”
+
+Ta chỉ bình thản lắng nghe, như đang nghe chuyện của một kẻ xa lạ. Thẩm Bất Vi thì ngày càng trầm mặc u uất.
+
+Đôi khi say rượu, hắn lại lẩm bẩm: “Năm đó ta kết thù với người ta, suýt bỏ mạng trên đỉnh núi cao. Chính nàng lên chùa thắp hương cầu an, ra tay cứu ta một mạng. Khi ấy ta cứ tưởng mình vừa gặp tiên nữ hạ giới, là Bồ Tát hiển linh phái nàng đến cứu rỗi. Sau này mới biết mẫu thân nàng mất sớm, một cô gái mồ côi sống trong Thừa tướng phủ rộng lớn, cuộc sống vốn chẳng dễ dàng gì. Ta quyết ở lại bên cạnh nàng từ lúc đó.”
+
+Nói đến đây, hai mắt hắn đỏ hoe, lệ trào. Ta cảm nhận được rằng người thiếu nữ ấy từ lâu đã đổi khác, không còn là người tốt đẹp như trong ký ức của hắn nữa. Vậy mà hắn vẫn không đành lòng buông tay.
+
+“Ngươi hãy tin ta đi, nàng trước đây từng rất hiền lành. Ta thích nàng, vì nàng mà dốc sức làm việc, điều đó từ lâu đã thành thói quen.”
+
+Thẩm Bất Vi võ nghệ cao cường, danh tiếng giang hồ lẫy lừng, thế mà vẫn cam tâm tình nguyện ở lại bên Vương Tường, chỉ vì đúng một chữ tình.
+
+Ta nâng ly uống rượu, thoáng chốc đã hiểu được cảm giác “hận sắt không thể thành thép” mà trước đây hắn từng dành cho ta, chỉ muốn mở tung đầu hắn ra xem bên trong rốt cuộc chứa thứ gì.
+
+Cuối cùng ta cũng chỉ biết thở dài ngán ngẩm: “Thầy thuốc giỏi cũng không tự chữa được bệnh cho mình. Chính ngươi không chịu nghĩ cho thông, thì người ngoài cũng chẳng giúp được gì.”
+
+Một hôm, Thẩm Bất Vi hớt hải chạy về viện, hoảng hốt, trên mặt còn in rõ vệt son môi đậm. Ta vội hỏi rốt cuộc đã xảy ra chuyện gì. Hắn ngẩn ngơ đáp: “Nàng ấy muốn ta cho nàng một đứa con.”
+
+Ta giật nảy mình. Dám đội mũ xanh lên đầu đương kim Hoàng thượng, hắn rốt cuộc có bao nhiêu cái đầu để người ta chém? Ta gấp gáp hỏi dồn: “Ngươi đã gật đầu đồng ý chưa?”
+
+May thay hắn khẽ lắc đầu, rồi lại rơi vào cơn say khướt.
+
+Ta lén bỏ thêm chút thuốc mê vào ly rượu của hắn, lấy dây trói chặt hắn lại như một chiếc bánh chưng, ngay trong đêm ấy đánh xe đưa hắn thẳng tiến về phương Nam.
+
+Sáng hôm sau, Thẩm Bất Vi tỉnh cơn say, liên tục vùng vẫy muốn thoát ra: “Tống Trạch, ngươi rốt cuộc định làm cái gì thế hả? Mau thả ta về!”
+
+Ta bình tĩnh nhìn hắn, nhạt giọng: “Dựa vào những gì ta biết về bản tính của Vương Tường, trong lòng ngươi hẳn tự rõ nhất. Nếu ngươi gật đầu đồng ý, chắc chắn ngươi sẽ không thể sống sót rời khỏi đó. Nàng từng cứu ngươi một mạng, ngươi cũng đã tận tụy hộ vệ nàng suốt bao năm. Ân tình năm xưa từ lâu đã trả xong trọn vẹn. Hãy tự buông tha cho chính mình đi.”
+
+Hắn cuối cùng bất lực dựa vào vách xe, không thốt thêm lời nào nữa. Xe ngựa lắc lư theo nhịp đường, đưa hai chúng ta thẳng tiến về vùng Tây Bắc xa xôi.
+
+Ta cùng Thẩm Bất Vi gom hết số tiền bạc tích góp được, mở một gian tửu quán nhỏ giữa vùng sa mạc mênh mông, đón khách từ khắp bốn phương. Có nhiều chuyện trong lòng nếu chưa thể nghĩ thông, cứ giao lại cho thời gian an bài.
+
+Đã từ rất lâu ta không còn hoài niệm hay nhớ nhung gì Tống Lễ nữa. Chỉ khi nghe tin cậu ấy dẹp sạch ngoại tộc quấy nhiễu nơi biên cương, thu hồi trọn vẹn chín châu Yên Vân, giúp biên phòng vững chắc, dân chúng an cư lạc nghiệp, ta mới thật lòng tán dương công đức to lớn của cậu ấy.
+
+Đến năm thứ ba sống ở đây, Thẩm Bất Vi chính thức thành thân. Đối tượng của hắn là một nữ tử Tây Bắc vô cùng mạnh mẽ, kiên trì theo đuổi hắn suốt nửa năm, cuối cùng cũng “bắt” được vị mỹ nam này về tay.
+
+Hai vợ chồng sống hòa hợp, ngày tháng trôi qua trọn vẹn niềm vui. Ta thì vẫn sống một mình, chẳng phải vì chưa quên được bóng hình ai, mà chỉ đơn giản là nhân duyên chưa tìm đến.
+
+Trong viện nhà ta có một vị hộ viện, mỗi lần nhìn về phía ta ánh mắt đều sáng rực. Dịp giao thừa năm ngoái, ta tình cờ cứu hắn ra khỏi đống tuyết lạnh giá.
+
+Ta thử rèn luyện hắn thêm mấy ngày nữa, nghĩ bụng có lẽ chẳng bao lâu nữa mình cũng sẽ đón nhận tình cảm ấy.
+
+Về phần Tống Lễ, kể từ ngày chính thức đăng cơ, cậu ấy chưa từng có một giấc ngủ trọn vẹn yên lành. Hễ nhắm mắt lại, hình ảnh một Tống Trạch ngốc nghếch gọi mình là “công tử”, rồi chẳng chút nghĩ ngợi mà ngoan ngoãn đi đưa gói trà lại hiện lên mồn một trước mắt.
+
+Biết bao lần cậu ấy khao khát được quay về đêm ấy, để giải thích rõ ràng mọi chuyện: rằng cậu ấy thực ra đã chuẩn bị sẵn mọi phương án bảo vệ, rằng tất cả chỉ là một sự hiểu lầm. Nhưng quá khứ đã trôi qua thì không thể cứu vãn, trên đời này vốn chẳng có thứ thuốc hối hận.
+
+Cậu ấy đem “thi thể cháy đen” của Tống Trạch đi chôn ngay trong khu đế lăng, âm thầm chờ đến trăm năm sau sẽ được hợp táng. Mà thật ra chẳng cần chờ đến trăm năm, thân thể cậu ấy ngày một suy yếu trầm trọng.
+
+Sau đó, cậu ấy nhận nuôi một đứa trẻ thuộc chi khác trong hoàng tộc, tự tay dốc sức dạy dỗ thành tài.
+
+Ngày trước cậu ấy khát khao chạm tới ngôi vị cửu ngũ chí tôn biết bao, đến khi thật sự ngồi lên đó rồi mới bàng hoàng nhận ra mọi thứ cũng chỉ đến thế mà thôi. Năm năm mươi tuổi, cậu ấy chính thức thoái vị, trở thành một kẻ nhàn tản du sơn ngoạn thủy, đi khắp mọi nẻo đường đất nước.
+
+Sau khi rong chơi thỏa thích ở phương Nam, cậu ấy lại cất bước tìm lên phương Bắc. Giữa vùng trời cát vàng mông quạnh của Tây Bắc, cậu ấy tự đắc đứng ngắm cảnh biên cương thịnh vượng dưới sự trị vì tài tình của mình.
+
+Đúng vào khoảnh khắc ấy, cậu ấy bất ngờ thấy người mà mình ngày đêm khắc khoải mong nhớ. Trong một thoáng, cậu ấy tưởng mình đang nằm mơ, vội đưa tay véo mạnh vào tay một cái, đau đến mức nước mắt rơi xuống.
+
+Ở tuổi năm mươi, ta đã có vài lọn tóc bạc, nhưng thần thái vẫn vẹn nguyên như ngày nào, chỉ thêm vài phần ngạo nghễ tự tại mà trước kia chưa từng có.
+
+Ta hơi nũng nịu, cãi bướng với người nam nhân đứng bên cạnh: “Mệt chết mất thôi, sau này ta không cùng ngươi đi leo núi nữa đâu.”
+
+Người đàn ông có vẻ ngoài chất phác nở nụ cười dịu dàng: “Nếu mệt thì ta cõng ngươi. Ta vẫn còn đủ sức để cõng ngươi suốt cả đời này.”
+
+Tống Lễ vội lẩn ra sau gốc cây lớn, không đủ can đảm bước ra gặp mặt.
+
+Kể từ hôm ấy, cậu ấy thuê lại một căn viện ngay sát nhà Tống Trạch, mỗi ngày may lắm mới hé mắt nhìn thấy ta qua khe cửa hẹp. Cậu ấy tự nhủ, ông trời cao xanh vẫn còn rủ lòng thương, để những năm tháng cuối đời được có cơ hội quý giá như thế này.
+
+Ngày Tống Lễ qua đời là một ngày đông, tuyết rơi trắng xóa khắp không gian. Đoàn đưa tang lặng lẽ đi ngang trước cổng nhà ta.
+
+Ta vốn biết căn viện bên cạnh luôn có người ở, nhưng chưa từng một lần thấy mặt vị chủ nhân nơi đó. Ta tò mò hỏi người bên cạnh: “Người ở căn viện bên kia rốt cuộc là ai thế?”
+
+“Cũng không rõ lắm. Nghe đồn là một vị công tử giàu sang, sau khi người thương qua đời thì tìm đến đây sống nốt phần đời còn lại. Thật là một kẻ đáng thương.”
+
+“Quả thật là vậy. Cho nên sau này ngươi nhất định phải sống lâu trăm tuổi đấy nhé. Bằng không, ta sẽ đáng thương lắm. Tối nay tuyệt đối không được uống rượu nữa đâu.”
+    
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>
