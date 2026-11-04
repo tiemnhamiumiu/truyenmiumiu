@@ -23064,6 +23064,177 @@ Ta bước ngang qua hắn, hướng mắt về phía kẻ đang dịu dàng ôm
 Kẻ đó chính là phu quân của ta, vị đế vương đang nắm giữ cả thiên hạ này trong tay.
 
 Ta thầm nghĩ, có lẽ cũng đã đến lúc ta nên trở về nhà rồi, trở về nơi mà ta và muội ấy vốn thuộc về.`
+  },{
+    id: 1121,
+    title: "Vượt Qua Ranh Giới",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e0d7673f50d244d8041d1f9bce768d27.jpg",
+    link: "ngontinh/vuot-qua-ranh-gioi.html",
+    type: "ngontinh",
+    desc: `Sau khi thi đại học xong, tôi mới gom đủ can đảm để tỏ tình với anh trai nuôi.
+
+Vậy mà đáp lại tôi chỉ là một bàn tay vung lên, suýt nữa đã giáng thẳng xuống má tôi.
+
+Sau chuyện đó, tôi bắt đầu chịu mở lòng hẹn hò với những chàng trai khác. Thấy thế, mắt anh bỗng đỏ lên. Anh dồn tôi vào góc tường, giọng khàn đặc, bất lực đến cùng cực: “Cô nhóc hư hỏng này, em lại không thích anh nữa rồi sao?”
+`
+  },{
+    id: 1122,
+    title: "Thỏa Thuận Sai Lầm Của Pháo Hôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a84669d6a8585f7703bf93ae086388e5.jpg",
+    link: "dammy/thoa-thuan-sai-lam-cua-phao-hoi.html",
+    type: "dammy",
+    desc: `Tôi là một pháo hôi song tính trong bộ truyện Boy Love đầy rẫy máu chó.
+
+Sau khi phát hiện bí mật của tôi, nam phụ ác độc liền bỏ tiền ra thuê tôi đi câu dẫn nam chính công, cốt để làm bẩn mắt cậu ta.
+
+Cầm trong tay một triệu của nam phụ, tôi chăm chỉ nhập vai, đóng tròn thành một kẻ biến thái đúng nghĩa.
+
+Cho đến ngày bí mật bị phơi bày, hai chân tôi bị nam chính công ấn chặt xuống.
+
+“Trong thẻ có mười triệu.”
+
+“Bảo bối… để anh nhìn cho kỹ.”`
+  },{
+    id: 1123,
+    title: "Đổi Đời Bằng Chữ Nhẫn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/08dff81d4c9bf2e8f05c3a118d261264.jpg",
+    link: "cotrang/doi-doi-bang-chu-nhan.html",
+    type: "cotrang",
+    desc: `Khi ta thay tiểu thư gả vào nhà họ Thôi ở Thanh Hà, Thôi Thiệu, người từng cao ngạo đến thế, đã chịu cung hình và trở thành một phế nhân.
+
+Hắn vốn chẳng hề ưa ta. Đến ngày thành hôn, một nghi thức tối thiểu cũng không có.
+
+Về sau, khi chính hắn lật lại được vụ án oan, nhà họ Thôi mới dần lấy lại vinh quang thuở trước.
+
+Vị tiểu thư năm xưa lúc này đã thành góa phụ. Nàng mang hôn thư tìm đến tận cửa, nguyện để con mình đổi sang họ Thôi và nhận Thôi Thiệu làm cha, còn việc hắn không còn là một nam nhân trọn vẹn thì nàng cũng chẳng bận tâm.
+
+Đến lúc ấy, ta thấy mình không còn lý do gì để ở lại nơi này nữa.
+
+Ngay khi ta đang lặng lẽ thu dọn hành lý, định rời đi, Thôi Thiệu bất ngờ bước vào phòng. Khí lạnh thấu xương tỏa ra từ người hắn, và hắn dùng sức ép ta ngã sấp xuống giường.
+
+“Nàng mà dám bước ra khỏi cửa này, hôm nay ta sẽ khiến nàng không tài nào xuống nổi giường!”
+
+Chiếc ngọc bội bên hông hắn cấn mạnh vào người ta, đau nhói.`
+  },{
+    id: 1124,
+    title: "Đánh Đổi Tất Cả Để Cứu Bà Ngoại Khỏi Định Mệnh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/faf9a773dc3c31765522f5ad20a01699.jpg",
+    link: "ngontinh/danh-doi-tat-ca-de-cuu-ba-ngoai-khoi-dinh-menh.html",
+    type: "ngontinh",
+    desc: `Giữa khung cảnh đường phố hiện trên ứng dụng bản đồ, tôi bất chợt nhận ra bóng dáng bà ngoại, người đã khuất núi từ nhiều năm trước.
+
+Bà nhỏ người, lưng đã còng, đang đứng mỉm cười hiền hậu nhìn mọi người quanh đó đánh cờ.
+
+Nắng hè rực rỡ đổ xuống, chiếc áo màu xanh nhạt trên người bà đã phai màu sau biết bao lần giặt giũ.
+
+Hình ảnh ấy sống động đến mức thoạt nhìn, tôi tưởng bà chưa từng rời xa mình.
+
+Ở góc màn hình, mốc thời gian ghi rõ năm 2015, mùa hè của tám năm trước, khi bà vẫn chưa phải chịu cái kết cục tàn nhẫn kia.
+
+Nước mắt tôi trào ra, không sao kìm lại được.
+
+Bà ơi, hóa ra chúng ta đã âm dương cách biệt lâu đến thế rồi.
+
+Lẽ ra bà phải được sống thọ đến tận trăm tuổi.`
+  },{
+    id: 1125,
+    title: "Tên Ngốc Khoa Thể Dục Bắt Đầu Quấn Lấy Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5100f6a3dddb4285c364c03a82700213.jpg",
+    link: "dammy/ten-ngoc-khoa-the-duc-bat-dau-quan-lay-toi.html",
+    type: "dammy",
+    desc: `Tôi là học bá “cao lãnh” có tiếng khắp trường, và thứ tôi ghét nhất trên đời chính là đám sinh viên Khoa Thể dục lúc nào cũng nhốn nháo, ồn ào.
+
+Vậy mà đúng là oan gia ngõ hẹp. Đợt nhà trường xếp ký túc xá hỗn hợp, tôi lại bị một tên ngốc to xác bên Khoa Thể dục bám riết không buông.
+
+Anh ta không chỉ cướp chăn của tôi mà còn khăng khăng bảo người tôi thơm, rồi cứ thế rúc vào lòng tôi như một chú Golden to xác. Tôi nhịn hết nổi, tung chân đạp anh ta văng khỏi giường: “Còn dám động chân động tay nữa thì tôi báo cáo anh đấy!”
+
+Anh ta xoa mông, mặt mày tội nghiệp, đầy vẻ ủy khuất: “Vậy tôi không động chân động tay, động miệng được không?”
+
+Hôm sau, cả trường râm ran một tin đồn: đại nam thần kiêu ngạo của Khoa Thể dục đang chạy theo đút cơm cho tôi ngay giữa nhà ăn.
+`
+  },{
+    id: 1126,
+    title: "Nữ Tướng Quân Đoạt Lại Giang Sơn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0d380a00e2d0123357a759f93abe7e95.jpg",
+    link: "cotrang/nu-tuong-quan-doat-lai-giang-son.html",
+    type: "cotrang",
+    desc: `Kiếp trước, ta từng mang cả thân mình đẫm máu từ chiến trường trở về kinh thành, dốc hết sức lực nâng đỡ Tạ Chinh bước lên ngai vàng. Khi ấy, trong tay ta vẫn còn nắm chặt ngọn thương nhuốm đầy huyết khí.
+
+Thế mà chỉ vì một lời cay độc của Lê Nhược Sầu, rằng Quý phi gây ra quá nhiều tội nghiệt, và nàng ta vì che chở cho ta nên mới mất đi đứa con, Tạ Chinh đã ra tay không chút nương tình.
+
+Hắn chẳng hề do dự, cũng không mảy may thương xót. Chính tay hắn đóng hai mươi chiếc đinh sắt lạnh buốt vào tận xương cốt ta, chỉ để xoa dịu nỗi đau trong lòng Lê Nhược Sầu.
+
+Ta khóc lóc, tha thiết cầu xin phụ mẫu ra tay cứu giúp. Nhưng những người sinh ra ta lại quay lưng đi, chỉ quây quanh một mình Lê Nhược Sầu mà dỗ dành, chiều chuộng.
+
+Cho đến lúc ta bị hất xuống làn nước hồ buốt giá, từ phụ mẫu, tỷ muội, cho tới Tạ Chinh, người mà ta từng dành trọn mười năm thanh xuân để yêu thương, cũng không một ai còn nhớ đến ta.
+
+May thay, ông trời vẫn rủ lòng thương, cho ta được sống lại một đời. Từ nay về sau, những kẻ từng phản bội ta đều phải trả giá thật đắt.
+`
+  },{
+    id: 1127,
+    title: "Cùng Bạn Thân Xuyên Sách Đi Sờ Cơ Bụng Tổng Tài",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cfa0594862387ef800633b6bcf4644d7.jpg",
+    link: "ngontinh/cung-ban-than-xuyen-sach-di-so-co-bung-tong-tai.html",
+    type: "ngontinh",
+    desc: `Tôi và cô bạn thân cùng xuyên vào một thế giới tiểu thuyết Pỏn.
+
+Tôi về chung nhà với người anh trai mang vẻ ngoài lạnh lùng, còn cô ấy thì nên duyên với người em trai ngọt ngào, đáng yêu.
+
+Chẳng ai ngờ được sau đám cưới lại có một tình cảnh oái oăm đến thế: cặp anh em sinh đôi ấy nhất quyết giữ khoảng cách, không chịu cho chúng tôi chạm vào người.
+
+Một khi đã dấn thân vào đây rồi, làm sao chấp nhận nổi một cuộc sống kiêng khem đạm bạc như vậy.
+
+Cô bạn quay sang tôi, hỏi với vẻ đầy ẩn ý: “Mày có định gọi trai bao ra giải khuây không?”
+
+Tôi đáp ngay, không chút do dự: “Mày gọi thì tao gọi theo cho có bạn.”
+
+Đêm hôm ấy, chúng tôi vung tay gọi thẳng mười tám anh chàng vừa tuấn tú vừa quyến rũ đến phòng.
+
+Nhưng đen đủi thay, tay còn chưa kịp chạm vào ai thì cả hai đã bị tóm cổ, lôi thẳng về nhà.
+
+“Phó Hoài Xuyên, rốt cuộc anh định làm cái gì hả?” Tôi bực bội chất vấn.
+
+Gã đàn ông ghé sát tai tôi, nhếch môi cười nửa miệng, giọng trầm trầm: “Em đoán thử xem.”
+
+Tôi còn chưa kịp hoàn hồn thì đã nghe thêm một câu nữa, bất ngờ hơn nhiều: “À phải rồi, chị dâu, hình như em gọi nhầm người rồi. Anh trai anh đang ở chỗ bạn thân của em cơ mà.”
+`
+  },{
+    id: 1128,
+    title: "Vợ Của Tổng Tài Thú Nhân Không Phải Ai Muốn Cướp Cũng Được",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bf44dbbdea034627766af21269bef2e3.jpg",
+    link: "dammy/vo-cua-tong-tai-thu-nhan-khong-phai-ai-muon-cuop-cung-duoc.html",
+    type: "dammy",
+    desc: `Anh kế của tôi phá sản, gã bèn đem cậu Omega xinh đẹp, mềm mại của mình sang giao cho tôi để gán nợ.
+
+Cậu tiểu O ấy khóc đến mức lê hoa đái vũ. Nhìn bộ dạng đó, lồng ngực tôi sôi lên, chẳng hiểu ma xui quỷ khiến thế nào mà tôi gật đầu đồng ý ngay tắp lự.
+
+Ai ngờ tên cầm thú kia, sau khi gây dựng lại cơ đồ, lại mặt dày kéo sang cướp người về.
+
+Chuyện đó làm tôi giận đến nghiến răng nghiến lợi.
+
+Ngay trong đêm, tôi vừa ra lệnh cho cấp dưới thu mua toàn bộ công ty của gã, vừa trèo tường sang nhà bên cạnh, kéo cậu tiểu O kia vào lòng rồi hôn một trận mãnh liệt.
+
+“Ngoan, đừng khóc nữa, ráng đợi tôi thêm một ngày.”
+
+“Yêu em, chị dâu, hẹn em ngày mai gặp lại.”`
+  },{
+    id: 1129,
+    title: "Đêm Tân Hôn Của Nàng Câm Xung Hỉ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d70b54c147a37a4c2825138e63804abc.jpg",
+    link: "cotrang/dem-tan-hon-cua-nang-cam-xung-hi.html",
+    type: "cotrang",
+    desc: `Nhị công tử nhà họ Diệp, gia tộc giàu có bậc nhất trong trấn, lúc ấy chỉ còn thoi thóp một hơi tàn, sắp sửa bước vào cửa tử.
+
+Khắp đô thành, người ta đua nhau tìm một cô nương có bát tự tương hợp để làm lễ xung hỉ cho hắn.
+
+Chỉ vì một trăm lượng bạc trắng, phụ thân đã nhẫn tâm gả ta, đứa con câm từ nhỏ chưa từng nói được một lời, vào sâu trong phủ họ Diệp.
+
+Đêm tân hôn, tấm khăn trùm đầu vừa được vén lên, vị nhị công tử tưởng chừng chỉ còn chút hơi tàn ấy lại quay sang khuyên ta mau tìm đường mà trốn. Hắn không đành lòng để một người vô tội như ta phải bị chôn theo quan tài của hắn.
+
+Nhìn gương mặt nhợt nhạt ấy, lần đầu tiên trong đời ta mở môi, cất tiếng: “Ngươi sẽ sống thọ trăm tuổi!”
+
+Về sau, hắn quả thật sống đến đầu bạc răng long.
+
+Bởi mỗi một lời thốt ra từ miệng ta đều trở thành sự thật!`
   },
 
 
