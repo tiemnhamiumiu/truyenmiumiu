@@ -23235,6 +23235,163 @@ Nhìn gương mặt nhợt nhạt ấy, lần đầu tiên trong đời ta mở 
 Về sau, hắn quả thật sống đến đầu bạc răng long.
 
 Bởi mỗi một lời thốt ra từ miệng ta đều trở thành sự thật!`
+  },{
+    id: 1130,
+    title: "Con Nhím Nhỏ Của Ảnh Đế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7c25ec6614c60aa54fbac12985850428.jpg",
+    link: "ngontinh/con-nhim-nho-cua-anh-de.html",
+    type: "ngontinh",
+    desc: `Năm Tịch Nghiệp đón tôi về nhà, tôi mới tròn mười bốn tuổi. Khi ấy mẹ tôi vừa mất, sau một vụ tai nạn ô tô thảm khốc.
+
+Anh đứng trước cửa đồn công an, tay cầm một chiếc ô đen, cất giọng hỏi tôi: “Em có bằng lòng theo anh về nhà không?”
+
+Vừa nhìn thấy anh, tôi đã biết anh là ai. Chính là người nghệ sĩ nam mà tin đồn bảo mẹ tôi nuôi ở bên ngoài.
+
+Chỉ là lúc ấy tôi nào có ngờ, người đàn ông mẹ từng thích, về sau tôi cũng động lòng yêu thương.`
+  },{
+    id: 1131,
+    title: "Alpha Dạy Alpha Cách Yêu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f8324bb57ca9075b60b025ca79f045ff.jpg",
+    link: "dammy/alpha-day-alpha-cach-yeu.html",
+    type: "dammy",
+    desc: `Tôi có thể tự kiểm soát mùi pheromone của mình.
+
+Với thế giới bên ngoài, tôi luân phiên đóng giả Alpha, Beta rồi Omega. Nhờ năng lực đặc biệt ấy mà tôi nhận thêm một công việc tay trái: bắt gian.
+
+Ai ngờ hôm nay vừa xong việc, kỳ phát tình lại ập đến cơ thể tôi một cách đột ngột.
+
+Cậu bạn thời thơ ấu thấy thế bèn hỏi tôi có cần giúp một tay hay không.
+
+“Không cần.” Tôi từ chối thẳng thừng.
+
+Hắn khẽ chạm lên gương mặt đang đỏ bừng của tôi: “Khó chịu đến mức này rồi mà còn cứng đầu à?”
+
+Chưa kịp phản ứng, tôi đã bị một nụ hôn bất ngờ ấn xuống môi.
+
+Thế nhưng, cả hai chúng tôi đều là Alpha cơ mà!`
+  },{
+    id: 1132,
+    title: "Gió Đông Chẳng Độ Người Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f5b7122f130043685b508170032ac01e.jpg",
+    link: "cotrang/gio-dong-chang-do-nguoi-tinh.html",
+    type: "cotrang",
+    desc: `Bước sang năm thứ bảy bị bán vào kỹ viện, tú bà thấy ta đã luống tuổi, bèn nảy ý định đẩy ta đi để đón người mới về. Đúng lúc ấy, thanh mai trúc mã từng thề non hẹn biển với ta lại bất ngờ xuất hiện, nói rằng sẽ chuộc thân và nạp ta làm thiếp.
+
+Ta thẳng thừng gạt tay từ chối, không một chút do dự. Toàn bộ số tiền mình dành dụm suốt bao năm, ta mang ra để tự chuộc lấy thân, rồi dùng chính sức mình mở một gian y quán nhỏ làm kế sinh nhai.
+
+Các tỷ muội trong lầu không sao hiểu nổi, kinh ngạc hỏi ta: “Ngươi thương nhớ Bùi đại nhân bao nhiêu năm nay, cớ sao đến lúc này lại từ chối ngài ấy?”
+
+Ta mỉm cười, bình thản đáp: “Làm kỹ nữ là đem thân phục dịch nhiều người, còn làm thiếp chẳng qua chỉ là bán mình cho một người. Một khi đã bước vào chốn này thì dù thế nào cũng chỉ là món hàng. Từ nay ta chỉ muốn sống cho mình, tuyệt không bán rẻ bản thân thêm lần nào nữa.”`
+  },{
+    id: 1133,
+    title: "Con Gái Không Phải Bát Nước Hắt Đi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/764093e7f48d9fa294165b357420615f.jpg",
+    link: "ngontinh/con-gai-khong-phai-bat-nuoc-hat-di.html",
+    type: "ngontinh",
+    desc: `Ngày giấy báo trúng tuyển đại học về tới nhà, mẹ tôi gọi liền ba cuộc điện thoại.
+
+Cuộc đầu tiên, bà gọi cho bà nội tôi: “Mồ mả tổ tiên nhà họ Tào các người có bị nổ tung không đấy? Lạ nhỉ, không sao à? Vậy thì chắc chắn là khói xanh đang bốc lên nghi ngút rồi! Bà ra ngoài xem thử đi!”
+
+Cuộc thứ hai, bà gọi cho bố tôi: “Con gái tôi đỗ thẳng vào Đại học Bắc Kinh rồi nhé, tận 718 điểm đấy! Còn thằng con trai quý tử của ông thì sao, có qua nổi điểm chuẩn đại học không? Ôi dồi ôi, tôi suýt quên mất, nó còn chẳng đỗ nổi cấp ba cơ mà, năm nay chắc vừa tốt nghiệp trường nghề nhỉ? Đã tìm được việc gì chưa? À ha ha ha ha!”
+
+Cuộc thứ ba, bà gọi cho trưởng thôn, bảo ông cho treo ngay 100 cái băng rôn thật rực rỡ, đồng thời dùng loa phóng thanh của xã phát đi phát lại tin này suốt ba ngày ba đêm. Bà còn hẹn vài hôm nữa sẽ đưa tôi về quê, mở tiệc ăn mừng linh đình ba ngày liền.
+
+Đến lúc tôi về tới làng, ngó quanh một lượt mới biết không khí ở đây náo nhiệt đến mức nào. Rộn ràng đến độ con chó trong làng cũng được xếp ngồi riêng một mâm tiệc.
+
+Mẹ tôi chụp lại toàn bộ khung cảnh ấy, đăng lên mạng xã hội, rồi tag thẳng tài khoản của em trai tôi vào bài đăng, kèm theo một câu hỏi: “Ai bảo con gái không bằng con trai nào?”`
+  },{
+    id: 1134,
+    title: "Bị Gài Bẫy Trở Thành Người Yêu Của Hotboy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1e61a18ee727f56bb375cae0ab472f3c.jpg",
+    link: "dammy/bi-gai-bay-tro-thanh-nguoi-yeu-cua-hotboy.html",
+    type: "dammy",
+    desc: `Từ thuở lọt lòng, vòng ba của tôi đã đầy đặn và cong vút hơn người. Cộng thêm gương mặt thanh tú, nên đi đến đâu tôi cũng bị người ta chế nhạo là ẻo lả.
+
+Họ nhất quyết cho rằng tôi là gay. Tôi chối bay chối biến thế nào cũng chẳng ai chịu tin.
+
+Ai ngờ vừa bước chân vào đại học, tôi đã đen đủi bị xếp chung phòng ký túc xá với hotboy của trường, mà hắn lại nổi tiếng là kẻ cực kỳ bài xích đồng tính.
+
+Muốn giữ được cái mạng, tôi dốc hết sức diễn cho ra dáng một người đàn ông thẳng tắp, ra sức vun đắp tình anh em với hắn.
+
+Rốt cuộc hắn cũng tin tôi là trai thẳng. Thế là hắn coi tôi như huynh đệ chí cốt, đến mức đi ngủ hay ra nhà tắm cũng nhất quyết lôi tôi theo bằng được.
+`
+  },{
+    id: 1135,
+    title: "Đốm Lửa Giữa Vực Sâu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/869d0bd1f9c88242aba1b0a3cbf3b19b.jpg",
+    link: "cotrang/dom-lua-giua-vuc-sau.html",
+    type: "cotrang",
+    desc: `Khi xuyên vào trong sách, ta gặp kẻ phản diện lúc hắn vừa tròn mười bốn tuổi.
+
+Đó là giữa mùa đông giá rét. Hắn ôm chặt bài vị của cha mẹ, bụng đói cồn cào, co ro một mình trong ngôi miếu hoang đổ nát.
+
+Sáng hôm sau, thân thể cứng đờ của hắn sẽ bị dân làng phát hiện rồi đem vứt ra bãi tha ma, sau đó mới được một tên đồ tể cứu sống. Kể từ khoảnh khắc ấy, hắn bước chân vào con đường hắc hóa đầy bi kịch.
+
+Nghĩ đến kết cục thê thảm đang chờ hắn phía trước, lòng ta chạnh lên một nỗi xót xa. Vì thế ta tiến lại gần, đưa cho hắn một củ khoai nướng còn nóng hổi.
+
+“Nếu ăn chưa đủ, nhà ta vẫn còn nồi cháo đang nấu, muốn ăn thì theo ta về nhà.”`
+  },{
+    id: 1136,
+    title: "Chiếc Vòng Của Sự Phản Bội Ngày Cưới",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/fb6edb4a53821337c9da6a15ffd35cb1.jpg",
+    link: "ngontinh/chiec-vong-cua-su-phan-boi-ngay-cuoi.html",
+    type: "ngontinh",
+    desc: `Chẳng rõ từ bao giờ, người bạn trai gắn bó bên tôi bấy lâu lại có thói quen đeo một chiếc vòng tay kết bằng đồng xu một tệ.
+
+Mãi đến ngày tổ chức hôn lễ, một đứa trẻ xộc thẳng vào phòng trang điểm, ôm ghì lấy chân tôi mà nức nở: “Dì ơi, xin dì đừng giành ba của con với mẹ con được không?”
+
+Chỉ đến khoảnh khắc ấy tôi mới bàng hoàng vỡ lẽ: đồng xu kia chính là tiền công mà người đàn bà qua một đêm mặn nồng với anh ta đã để lại.
+
+Anh ta từng phân trần rằng lúc đó lòng tự trọng của mình bị tổn thương sâu sắc, nên mới giữ nó lại như một vết hằn, để nhắc đầu óc lúc nào cũng phải tỉnh táo.
+
+Thế nhưng bà nội anh ta lại bước lên chắn trước mặt đứa trẻ, trừng mắt nhìn tôi lạnh lùng: “Nếu cô không dung nổi cháu tôi thì cút đi, đừng hòng bước chân vào làm dâu nhà họ Vệ.”
+
+Tôi lặng người nhìn người đàn ông đứng cạnh mình, anh ta không nói nổi nửa lời.
+
+Rồi tôi đứng bật dậy, giật phăng khăn voan, ném nhẫn cưới thẳng vào mặt anh ta và thét lên: “Cái nhà họ Vệ này ai thích làm dâu thì tự đi mà làm!”
+`
+  },{
+    id: 1137,
+    title: "Theo Đuôi Mị Ma Để Mua Bài Tập",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b26075ae57ee56fd2153d36c2615a36c.jpg",
+    link: "dammy/theo-duoi-mi-ma-de-mua-bai-tap.html",
+    type: "dammy",
+    desc: `Tôi âm thầm bám theo một con mị ma suốt mười ngày trời. Cuối cùng, tôi mới gom đủ dũng khí bước tới chắn trước mặt hắn.
+
+“Xin chào, tôi muốn hỏi anh có bán không…”
+
+Nửa câu còn lại chưa kịp thốt ra, cổ tôi đã bị hắn siết chặt. Hắn nhấc bổng tôi lên bằng một lực tay kinh người, khiến tôi nghẹt thở.
+
+Trong đôi đồng tử dọc màu vàng lưu ly của hắn lóe lên một tia lạnh lẽo tàn khốc: “Tôi là mị ma, không phải vịt.”
+
+Tôi sắp sặc hơi mà chết, vừa ra sức giãy giụa vừa cố giải thích: “Khụ… tôi biết, tôi chỉ muốn hỏi anh có bán… bài tập nhóm của anh không?”
+
+Bài tập nhóm của hắn vốn là một loại thuốc đặc chế của tộc mị ma. Nghe đồn bất kỳ ai uống vào cũng sẽ nảy sinh ham muốn mãnh liệt với người đầu tiên mình nhìn thấy.
+
+“…?”
+
+Lực siết trên cổ tôi đột ngột nới lỏng. Gương mặt hắn ngơ ngác đến kỳ lạ.
+
+Thế rồi đôi mắt hắn bỗng trở nên mê ly. Hắn áp mặt vào tay tôi, khe khẽ cọ cọ: “Đồng Đồng… hình như tôi lỡ uống mất bài tập nhóm của mình rồi.”
+`
+  },{
+    id: 1138,
+    title: "Sát Thê Chứng Đạo Hóa Ra Chỉ Là Trò Cười",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d13470b7b881bcdcb3be2ded0a1e9050.jpg",
+    link: "cotrang/sat-the-chung-dao-hoa-ra-chi-la-tro-cuoi.html",
+    type: "cotrang",
+    desc: `Sau bao năm tu tiên hành tung bất định, việc đầu tiên phu quân làm khi trở về nhà lại là sát thê chứng đạo.
+
+Hắn mang dáng vẻ tiên phong đạo cốt, giọng đầy xót xa mà rằng vì chúng sinh thiên hạ nên bản thân chẳng còn con đường nào khác.
+
+Ta hét lớn bảo hắn khoan đã. Phu quân quả nhiên khựng tay lại, nhưng điều hắn không ngờ tới là ngay khoảnh khắc kế tiếp, con dao phay trong tay ta đã chém nát đan điền của hắn.
+
+Hắn ngã quỵ xuống đất, nội tạng cùng ruột gan trào cả ra ngoài.
+
+“Xin lỗi nhé, con dao phay của ta có tên là Khoan Đã.”
+
+Thành tiên mà còn phải nhẫn tâm đoạt mạng người, chuyện lạ lùng này ta chưa từng nghe qua bao giờ. Chắc hẳn hắn đã bị thứ tà ma ngoại đạo nào đó ở bên ngoài lừa phỉnh rồi.
+`
   },
 
 
