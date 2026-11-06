@@ -23392,8 +23392,190 @@ Hắn ngã quỵ xuống đất, nội tạng cùng ruột gan trào cả ra ngo
 
 Thành tiên mà còn phải nhẫn tâm đoạt mạng người, chuyện lạ lùng này ta chưa từng nghe qua bao giờ. Chắc hẳn hắn đã bị thứ tà ma ngoại đạo nào đó ở bên ngoài lừa phỉnh rồi.
 `
-  },
+  },{
+    id: 1139,
+    title: "Trị Phản Diện Bằng Một Nụ Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ad225e4fbaec180f5bd149f5622cae84.jpg",
+    link: "ngontinh/tri-phan-dien-bang-mot-nu-hon.html",
+    type: "ngontinh",
+    desc: `Nhiệm vụ công lược nam chính đang đứng trước bờ vực thất bại. Vừa thẹn vừa tức đến mức chẳng còn màng điều gì, tôi liều mình hôn anh ta.
 
+Đúng khoảnh khắc ấy, tiếng hét chói tai của hệ thống vang lên trong đầu tôi: “Ký chủ, cô hôn nhầm người rồi!”
+
+Và rồi, ánh mắt băng giá của gã phản diện ghim chặt vào tôi, kèm theo một lời đe dọa: “Tốt nhất em nên cho tôi một lời giải thích, nếu không tôi sẽ ‘hôn’ nát miệng em.”
+`
+  },{
+    id: 1140,
+    title: "Em Trai Kế Thích Giả Vờ Đáng Thương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/85492ac5162813fa8839b5a2c4446c79.jpg",
+    link: "dammy/em-trai-ke-thich-gia-vo-dang-thuong.html",
+    type: "dammy",
+    desc: `Tôi ghét cay ghét đắng thằng em kế của mình từ lâu lắm rồi, vì nó vừa kiêu kỳ vừa mau nước mắt, hở ra là kêu đau.
+
+Vậy mà ở kiếp trước, chính em ấy đã liều mạng che chở cho tôi, chịu liền mười tám nhát dao cho đến khi hơi tàn lực kiệt.
+
+Bởi thế, sau khi trùng sinh trở lại, tôi tự thề với lòng rằng nhất định sẽ bảo bọc em ấy thật tử tế.
+
+Em ấy đau thì tôi thổi, em ấy mệt thì tôi cõng, kẻ nào dám bắt nạt em ấy thì tôi đứng ra thị uy thay em ấy.
+
+Cho đến một đêm kia, em ấy ngước nhìn tôi bằng đôi mắt đẫm lệ: “Anh ơi, em đau quá.”
+
+Tôi buột miệng đáp lại: “Đau chỗ nào? Để anh thổi cho.”
+
+Nào ngờ ngay sau đó, tay tôi chạm phải một thứ cứng ngắc như đá.
+
+Không thể nào... Đến chỗ này mà em ấy cũng đòi tôi “thổi” cho sao?`
+  },{
+    id: 1141,
+    title: "Cầm Cân Đo Lòng Người Phản Bội",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/990d08045fac472636636a97bb95341f.jpg",
+    link: "cotrang/cam-can-do-long-nguoi-phan-boi.html",
+    type: "cotrang",
+    desc: `Cha ta là một thương gia giàu có tiếng tăm trong vùng.
+
+Thiên hạ vẫn hay cười rằng thương nhân thì đứa nào cũng gian xảo. Cha ta cũng chẳng khác, quả thật là người ham tiền của, trọng lợi ích.
+
+Cứ dăm bữa nửa tháng, ông lại lôi bạc ra đếm, miệng lẩm bẩm rằng sẽ chia cho ta một nửa làm của hồi môn.
+
+Thế mà đến cuối cùng, chính người cha gian thương ấy lại vét sạch gia sản, vì đạo nghĩa trong lòng mà làm một vụ buôn bán lỗ vốn.
+
+Còn ta, sau khi cha mất, đã nhận lấy chiếc cân từ tay ông.
+
+Quả cân nặng trĩu trên chiếc cân ấy, chính là muôn dân trăm họ.`
+  },{
+    id: 1142,
+    title: "Anh Chồng Siêu Keo Kiệt Của Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/deafcb1fbf4faec473834c7605e333c1.jpg",
+    link: "ngontinh/anh-chong-sieu-keo-kiet-cua-toi.html",
+    type: "ngontinh",
+    desc: `Nữ minh tinh hàng đầu Tống Chân Chân vừa có một màn thể hiện tình cảm ngọt ngào ngay trên sóng một chương trình truyền hình thực tế.
+
+Cư dân mạng lập tức soi từng chi tiết, chẳng mấy chốc đã nhận ra người đàn ông trong cuộc. Đó chính là Lương Ôn Thăng, đại gia giàu có bậc nhất vùng Chiết Giang.
+
+【Lương Ôn Thăng với Chân Chân đúng là cặp đôi trời sinh.】
+
+【Nữ minh tinh xinh đẹp sánh bước bên đại gia, cảnh này ai mà chịu cho nổi!】
+
+【Anh ấy vì cô ấy mà dám chặn nguyên một chuyến bay! Có ai hiểu cảm giác này không?!】
+
+Chỉ riêng tôi, khi đứng đối diện ống kính máy quay, lại ngẩn người ra, chẳng hiểu rốt cuộc chuyện gì đang diễn ra.
+
+Bởi vì mới hôm qua thôi, Lương Ôn Thăng vừa cùng tôi đi làm thủ tục đăng ký kết hôn.
+
+Hơn nữa, anh ấy keo kiệt đến mức khó tin. Đừng nói đến chuyện bỏ tiền chặn chuyến bay, ngay cả thuê một chiếc xe đạp công cộng, anh ấy cũng canh cho đúng giây cuối cùng của khung giờ miễn phí rồi mới chịu trả xe.
+`
+  },{
+    id: 1143,
+    title: "Pheromone Độc Quyền Của Cậu Ấy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/728b08136746b9813800ce89d482a1e8.jpg",
+    link: "dammy/pheromone-doc-quyen-cua-cau-ay.html",
+    type: "dammy",
+    desc: `Là một beta, vậy mà tôi lại ngửi được pheromone của cậu bạn cùng phòng lạnh lùng, một alpha chính hiệu.
+
+Tệ hơn nữa, tôi còn dần sinh ra sự lệ thuộc vào chính mùi hương ấy.
+
+Hễ cậu ta vắng mặt trong ký túc xá là lòng tôi lại ngứa ngáy khó chịu đến phát điên. Tôi đành lén lấy quần áo của cậu ra mà hít hà, chỉ mong dỗ yên được cảm giác trống trải kia.
+
+Sự phụ thuộc ngày một nặng, đến cuối cùng tôi chỉ còn cách nhắc khéo: “Ở trong ký túc xá… cậu có thể thu pheromone của mình lại được không?”
+
+Ánh mắt người bạn cùng phòng bỗng tối sầm.
+
+“Cậu… ngửi được sao?”
+
+Tôi gật đầu.
+
+Cậu ta chậm rãi áp sát, giọng trầm thấp: “Vậy thì… cậu có thể bị đánh dấu không?”`
+  },{
+    id: 1144,
+    title: "Trăng Rơi Vũng Bùn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/bf1ef65cffdcdccd6ac113f5648914c0.jpg",
+    link: "cotrang/trang-roi-vung-bun.html",
+    type: "cotrang",
+    desc: `Đại phu nhân từng nói, con gái do hàng thiếp thất sinh ra thì cả đời cũng chỉ có thể làm thiếp.
+
+Bà ta lấy tính mạng của di nương ra uy hiếp, ép ta phải ngồi lên một cỗ kiệu nhỏ, cuốn gói vào Vương phủ chịu phận làm thiếp, để thay đích tỷ củng cố sủng ái.
+
+Muốn sống sót, ta buộc phải bày mưu tính kế, từng bước leo lên cao, dẫu hai tay nhuốm đầy máu tươi cũng không từ.
+
+Còn đích tỷ thì giữ trọn vẻ thánh khiết không vướng bụi trần, sáng trong rực rỡ như vầng trăng treo giữa tầng không.
+
+Cả đời này, ta đã hại quá nhiều người.
+
+Đến cuối cùng, bị kẻ khác hại lại, âu cũng là lẽ tự nhiên.
+
+Mãi đến ngày trút hơi thở cuối cùng, di nương mới nghẹn ngào tiết lộ cho ta một bí mật: bà ấy vốn không phải sinh mẫu của ta.
+
+Mẹ ruột ta năm xưa đã bị đại phu nhân hạ độc chết ngay trong ngày ta chào đời.
+
+Giữ di nương lại bên cạnh, bà ta chẳng qua chỉ muốn có một quân cờ, nắm bà ấy trong tay để siết chặt sợi dây xích điều khiển ta.
+
+Được sống lại một đời, mục tiêu tính kế của ta lập tức chuyển thẳng sang vị đích tỷ cao cao tại thượng kia.
+
+Ngươi đã bao giờ nhìn thấy cảnh vầng trăng kiêu hãnh gieo mình xuống vũng bùn dơ bẩn chưa?
+
+Cảnh tượng ấy, hẳn là tuyệt đẹp biết bao.`
+  },{
+    id: 1145,
+    title: "Đợi Ngày Chị Thất Tình Để Yêu Em",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/89f26ebae95e03f2098303d30aba0bbd.jpg",
+    link: "ngontinh/doi-ngay-chi-that-tinh-de-yeu-em.html",
+    type: "ngontinh",
+    desc: `Để thuận lợi theo đuổi Khương Mân, suốt năm năm trời tôi đã đóng vai một cô gái ngoan ngoãn.
+
+Vậy mà đến phút chót, hắn lại nhanh chân tỏ tình với một người con gái khác.
+
+Tôi ngồi sụp xuống ở nhà họ Khương, khóc đến cạn cả nước mắt, rồi bị đứa em trai cùng cha khác mẹ của hắn bắt gặp.
+
+Khương Nhượng vẫn giữ vẻ ngây thơ, ngoan ngoãn như mọi ngày, luống cuống đưa tay lau những giọt nước mắt trên mặt tôi.
+
+Mãi về sau, trong một lần tụ tập cùng hội bạn thân ở quán bar ồn ã, tôi mới tình cờ nghe được một giọng nói quen thuộc vọng ra từ chiếc bàn bên cạnh.
+
+“Sao mấy hôm nay nhìn cậu lúc nào cũng hớn hở thế?”
+
+Giữa làn khói thuốc lượn lờ, Khương Nhượng lười nhác chống cằm bằng một tay, nở nụ cười ngang ngược và đầy đắc ý.
+
+“Tôi đợi cô ấy thất tình lâu lắm rồi.”`
+  },{
+    id: 1146,
+    title: "Sống Lại Buông Bỏ Ân Oán",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7e69cda69e441b89e29c720ed5169f79.jpg",
+    link: "dammy/song-lai-buong-bo-an-oan.html",
+    type: "dammy",
+    desc: `Để kéo kẻ giả tạo mang danh thiếu gia như Hướng Nam Dữ xuống khỏi vị trí cao cao tại thượng, tôi từng cố ý đóng vai một kẻ đáng thương, mượn lòng đồng cảm của mọi người mà thuận lợi quay về nhà họ Hướng.
+
+Tôi đã tin chắc rằng chỉ cần trong tay có thân phận cao quý cùng quyền thế khiến người ta phải nể sợ, Lục Từ Lan tự khắc sẽ không còn thờ ơ mà nhìn tôi bằng con mắt khác.
+
+Nào ngờ, điều tôi tưởng sẽ kéo anh lại gần hóa ra chỉ khiến anh càng thêm chán ghét tôi, hơn hẳn trước đây.
+
+Đến khi Hướng Nam Dữ sa cơ lỡ vận, Lục Từ Lan vốn lạnh lùng là thế lại chủ động chìa tay ra giúp. Hai người họ cứ thế gần gũi nhau, ngày dài tháng rộng, tình cảm dần nảy nở.
+
+Ghen tuông thiêu đốt khiến tôi không thể đứng yên nhìn, nên tôi dùng đủ mọi cách để gây khó dễ cho họ.
+
+Nhưng rốt cuộc, sau tất cả những gì đã làm, thứ tôi chờ được chỉ là tin hai người họ sắp kết hôn.
+
+Đến lúc ấy tôi mới vỡ lẽ: dù có quyền thế trong tay hay không, Lục Từ Lan cũng sẽ chẳng bao giờ yêu một kẻ đầy tâm cơ và toan tính như tôi.
+
+Trong cơn tuyệt vọng, tôi quyết định ra nước ngoài. Thế nhưng ngay trên đường tới sân bay, tôi lại vướng vào một vụ tai nạn xe liên hoàn.
+
+Đến khi mở mắt ra một lần nữa, mọi thứ đã quay trở lại đúng điểm khởi đầu.`
+  },{
+    id: 1147,
+    title: "Mưu Kế Dụ Dỗ Phu Quân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a292385a8497c65eaac8df7f23e6a8d7.jpg",
+    link: "cotrang/muu-ke-du-do-phu-quan.html",
+    type: "cotrang",
+    desc: `Tiểu Hầu gia vì một vầng bạch nguyệt quang mà giữ mình trong sạch. Hầu phu nhân thì lại nóng lòng muốn được bế cháu, bèn đứng ra làm chủ, cưới ta về phủ và đặt vào cuộc hôn nhân này biết bao kỳ vọng.
+
+Tiểu Hầu gia dáng vẻ hiên ngang, phong độ lẫm liệt, vậy mà đối với ta lại đề phòng, né tránh chẳng khác nào tránh tà.
+
+Ta ân cần xoa bóp vai cho hắn, sắc mặt hắn lập tức sa sầm. Ta áy náy đấm chân cho hắn, hắn liền vội vã bỏ chạy. Đến đêm khuya, ta vô tình lăn vào lòng hắn, hắn giận dỗi đến mức lẳng lặng đứng dậy đi tắm nước lạnh.
+
+Thấy thật sự chẳng còn cách nào cứu vãn, ta đành chua xót nảy ra ý định hòa ly.
+
+Ai ngờ ngay chính đêm ấy, hắn lại lén lút rón rén chui vào chăn của ta.
+
+“A Nam ngoan, lần này đến lượt ta hầu hạ nàng, chúng ta đừng hòa ly có được không?”`
+  },
 
 
 
