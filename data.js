@@ -23575,6 +23575,28 @@ Thấy thật sự chẳng còn cách nào cứu vãn, ta đành chua xót nảy
 Ai ngờ ngay chính đêm ấy, hắn lại lén lút rón rén chui vào chăn của ta.
 
 “A Nam ngoan, lần này đến lượt ta hầu hạ nàng, chúng ta đừng hòa ly có được không?”`
+  },{
+    id: 1150,
+    title: "Đánh Không Lại Thì Gọi Người",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b499aae497c91242b7bf7efec73e04dc.jpg",
+    link: "cotrang/danh-khong-lai-thi-goi-nguoi.html",
+    type: "cotrang",
+    desc: `Ngày đầu tiên ta nhập môn, sư tôn truyền cho ta ba điều tổ huấn.
+
+Điều thứ nhất, không được ức hiếp kẻ yếu. Điều thứ hai, không được tùy tiện giết hại người vô tội. Điều thứ ba, cũng là điều cốt yếu nhất: đánh không lại thì chạy, chạy không thoát thì gọi người.
+
+Nói thật, ta vẫn luôn thấy điều tổ huấn thứ ba này mất mặt vô cùng.
+
+Cho đến ba năm sau, trong bí cảnh, ta bị thủ tịch đệ tử của tông môn đứng đầu thiên hạ chặn đường. Ta gắng gượng cầm cự suốt nửa canh giờ, rốt cuộc đành nuốt nhục lấy truyền âm phù ra gọi: “Đại sư huynh, cứu mạng với!”
+
+Đại sư huynh vội vã chạy tới, nhưng huynh ấy cũng đánh không lại. Huynh ấy lập tức rút truyền âm phù của mình ra, hét lớn: “Sư tôn, cứu mạng!”
+
+Sư tôn bay đến nơi, rốt cuộc cũng chẳng đánh nổi. Người đứng nhìn lặng lẽ một hồi lâu, rồi âm thầm móc từ trong ngực ra một nén hương.
+
+Ta chợt có dự cảm chẳng lành, ấp úng hỏi: “Sư tôn, người đang làm gì vậy?”
+
+Người nhe răng gật đầu, châm nén hương rồi quay về phía đông, thành kính bái ba lạy: “Không có gì đâu, ta chỉ đang gọi thái sư tổ của con đến thôi.”
+`
   },
 
 
