@@ -23576,6 +23576,46 @@ Ai ngờ ngay chính đêm ấy, hắn lại lén lút rón rén chui vào chăn
 
 “A Nam ngoan, lần này đến lượt ta hầu hạ nàng, chúng ta đừng hòa ly có được không?”`
   },{
+    id: 1148,
+    title: "Sếp Hình Như Nghe Thấy Tiếng Lòng Của Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/112db83876fb1e762ebcbed1cabae507.jpg",
+    link: "ngontinh/sep-hinh-nhu-nghe-thay-tieng-long-cua-toi.html",
+    type: "ngontinh",
+    desc: `Gần đây tôi nảy ra một mối nghi ngờ: sếp của mình có lẽ đọc được suy nghĩ của người khác.
+
+Nguyên do là hễ tôi đứng gần anh, đầu óc vừa vô thức lướt qua vài ý nghĩ thiếu đàng hoàng thì dái tai anh lập tức đỏ lên, âm thầm mà rõ rệt.
+
+Đến một buổi họp sau đó, tâm trí tôi lại trôi đi miên man như thường lệ. Họp xong, anh giữ tôi ở lại phòng, giọng đầy bất lực: “Em kiềm chế một chút được không?”`
+  },{
+    id: 1149,
+    title: "Giả Gái Yêu Qua Mạng Tôi Bị Nam Thần Lạnh Lùng Bắt Về Làm Vợ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/20d4955cc01311e2a60e7648d72bf538.jpg",
+    link: "dammy/gia-gai-yeu-qua-mang-toi-bi-nam-than-lanh-lung-bat-ve-lam-vo.html",
+    type: "dammy",
+    desc: `Để trang trải học phí đại học, tôi từng liều lĩnh làm một việc không tưởng: giả gái trên mạng để yêu đương với một người đàn ông giàu có.
+
+Tôi dùng khoản trợ cấp của anh để đóng tiền học, đồng thời luôn cố hết sức đóng tròn vai người yêu ngoan ngoãn.
+
+Bất kỳ yêu cầu nào anh đưa ra, dù vô lý hay kỳ quặc đến đâu, tôi cũng cố gồng mình đáp ứng.
+
+Thế nhưng, nhìn những chiếc váy gửi đến ngày một hở hang, cùng xấp tiền trong ví cứ dày lên từng ngày, tôi lại thấy bất an.
+
+Sau một đêm dài trằn trọc, tôi quyết định chủ động nói lời chia tay.
+
+Tôi chẳng thể ngờ rằng, vào một ngày đẹp trời, mình lại bị chính cậu bạn cùng phòng giàu có, lạnh lùng, người vừa quyên tặng hẳn một tòa nhà cho trường, đè chặt xuống ghế sofa trong nhà riêng của cậu ta.
+
+“Tiểu bịp bợm, cậu tưởng lừa gạt tình cảm của người khác xong là có thể xách mông chạy mất mà không bị trừng phạt sao?”
+
+Tôi sợ đến quýnh quáng, vội vàng ngỏ ý muốn hoàn trả toàn bộ số tiền đã nhận.
+
+Vậy mà cậu ta chẳng buồn bận tâm, chỉ đưa tay nhéo nhẹ má tôi.
+
+“Tôi mà lại thiếu chút tiền lẻ đó của cậu à?”
+
+“Vậy… vậy cậu thiếu cái gì?”
+
+“Tôi thiếu một cậu vợ.”`
+  },{
     id: 1150,
     title: "Đánh Không Lại Thì Gọi Người",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b499aae497c91242b7bf7efec73e04dc.jpg",
@@ -23596,6 +23636,145 @@ Sư tôn bay đến nơi, rốt cuộc cũng chẳng đánh nổi. Người đ�
 Ta chợt có dự cảm chẳng lành, ấp úng hỏi: “Sư tôn, người đang làm gì vậy?”
 
 Người nhe răng gật đầu, châm nén hương rồi quay về phía đông, thành kính bái ba lạy: “Không có gì đâu, ta chỉ đang gọi thái sư tổ của con đến thôi.”
+`
+  },{
+    id: 1151,
+    title: "Ngày Tôi Dũng Cảm Rời Đi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/071878bb168a41bd8a819c2d783c0a27.jpg",
+    link: "ngontinh/ngay-toi-dung-cam-roi-di.html",
+    type: "ngontinh",
+    desc: `Vào ngày lễ tình nhân, chủ nhà hàng quen gọi đến báo cho tôi biết Lục Nghiên đã đặt bàn ở đó từ trước.
+
+Vậy mà mãi đến tối muộn, thứ tôi nhận được từ anh chỉ là một dòng tin nhắn cụt lủn, vỏn vẹn báo rằng anh phải đi ăn tối cùng khách hàng.
+
+Chẳng bao lâu sau, trong lúc lướt mạng xã hội một cách vô tình, tôi bắt gặp trạng thái vừa đăng của cô em khóa dưới cùng trường với anh: “Cảm ơn nhà hàng của anh, cũng cảm ơn cả anh nữa. Chiếc bánh tối nay ngọt lắm, vậy mà vẫn chẳng ngọt bằng những lời anh nói~”
+
+Bức ảnh đính kèm phía dưới chụp cô ta và Lục Nghiên đang ngồi kề sát bên nhau, thân mật đến mức chẳng cần chú thích gì thêm.
+
+Trên mặt bàn là bó hồng rực rỡ cùng chai champagne quen thuộc, đúng thứ mà năm nào vào dịp lễ tình nhân tôi cũng được nhận.
+
+Nếu là trước kia, có lẽ tôi đã không kìm được nước mắt, lao thẳng đến chỗ Lục Nghiên để bắt anh giải thích cho ra nhẽ.
+
+Nhưng lần này thì khác.
+
+Tôi thật sự đã quá mệt mỏi rồi.
+`
+  },{
+    id: 1152,
+    title: "Xuyên Thành Bạn Trai Trùm Phản Diện",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0efe248e8a79fe479c0937d01e13f7b3.jpg",
+    link: "dammy/xuyen-thanh-ban-trai-trum-phan-dien.html",
+    type: "dammy",
+    desc: `Tôi vô tình xuyên vào một cuốn tiểu thuyết đam mỹ bối cảnh học đường, nhận ngay vai gã bạn trai pháo hôi làm vật thế thân cho trùm phản diện lạnh lùng.
+
+Muốn êm đẹp chia tay để giữ lại cái mạng nhỏ này, tôi nghiêm túc nghe theo chỉ dẫn của cư dân mạng và bắt đầu thực hiện kế hoạch “làm màu, kiếm chuyện”.
+
+“Anh ơi, chúng mình bên nhau được đúng 7 ngày 4 giờ 7 phút 23 giây rồi đấy, sao anh vẫn chưa hôn em?”
+
+“Hôm qua có phim bom tấn mới ra rạp, sao anh không rủ em đi xem? Hay là anh lại bận hẹn hò với em trai nào khác rồi?”
+
+“Đã một giây trôi qua mà anh không thèm nhắn lại tin nhắn của em. Không còn yêu nữa thì thôi, cần gì phải dùng bạo lực lạnh với nhau như thế.”
+
+“Anh không gửi ảnh múi bụng cho em xem, hay là anh đang có tâm sự gì khó nói sao?”
+
+“Hôm nay anh cũng chẳng thương em chút nào.”
+
+Tôi ra sức đóng tròn vai một “em bé” quậy phá, tính cách bám người đạt đến trình độ thượng thừa.
+
+Cứ ngỡ với bản tính phiền phức như vậy, hắn sẽ nhanh chóng chịu không nổi mà đá tôi văng khỏi tầm mắt. Nhưng tôi đợi mãi, đợi mãi, vẫn chẳng nghe lời chia tay nào được thốt ra.
+
+Thay vào đó, tôi bị người đàn ông ấy tóm chặt cổ tay, ép sát vào góc tường.
+
+Giọng nói trầm thấp đầy nguy hiểm vang lên ngay bên tai tôi: “Bé cưng đừng vội, anh tới ‘thương’ em đây.”
+`
+  },{
+    id: 1153,
+    title: "Phụ Thân Gả Mình Báo Ân",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5adf4bade15274635bb62105f5f74144.jpg",
+    link: "cotrang/phu-than-ga-minh-bao-an.html",
+    type: "cotrang",
+    desc: `Phụ thân ta chẳng may bị phục kích.
+
+May nhờ một lão nông ra tay cứu giúp, ông mới thoát nạn, giữ được tính mạng.
+
+Thế nhưng chính lão nông ấy lại vì liều mình cứu người mà bỏ mạng.
+
+Phụ thân bèn đón nhi tử của lão về phủ, định đích thân dạy dỗ, tận tâm nuôi nấng để hắn nên người.
+
+Ai ngờ thiếu niên ấy vừa đến đã tuyên bố đem lòng ái mộ ta, còn chủ động ngỏ lời cầu thân…
+
+Người xung quanh xì xào bàn tán, ai cũng cho rằng đó là cách báo ân tốt nhất mà phụ thân có thể làm.
+
+Đến bệ hạ cũng hết sức tán thành, đích thân hạ chỉ ban hôn. Làm vậy vừa giữ trọn thể diện cho mối hôn sự, vừa không tổn hại đến thân phận của ta.
+
+Nhìn thiếu niên nhà nông dung mạo thô kệch, dáng vẻ chất phác ngờ nghệch ấy, mẫu thân xót xa khóc đến đỏ cả hai mắt.
+
+Thế nhưng phụ thân lại nghiến răng, kiên quyết nói: “Bất luận thế nào ta cũng phải báo đáp đại ân đại đức này… Bằng không, sau này Trần gia ta còn mặt mũi nào đứng vững trên đời?”
+
+Ta cúi đầu, chậm rãi đáp: “Nữ nhi… nguyện ý xuất giá.”
+
+Nào ngờ phụ thân lại giật lấy bộ hỉ phục ta đang thêu dở: “Phụ thân của hắn đã cứu ta, vậy đương nhiên phải do ta gả qua mới đúng.”
+
+“Chút của hồi môn của con, sao có thể sánh bằng toàn bộ gia sản của ta!”`
+  },{
+    id: 1154,
+    title: "Khi Phú Nhị Đại Giả Nghèo Hẹn Hò Thiên Kim",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b77bfcd84e7d359879f0edbec40500b6.jpg",
+    link: "ngontinh/khi-phu-nhi-dai-gia-gia-ngheo-hen-ho-thien-kim.html",
+    type: "ngontinh",
+    desc: `Chỉ vì bạn gái từng nói cô ấy thích mẫu con trai nghèo khó, một thiếu gia xuất thân hiển hách như tôi ngày nào cũng phải nghiến răng nuốt dưa chua trừ bữa.
+
+Tôi sợ sau này thân phận thật bị phơi bày mà cô ấy lại bỏ rơi mình, nên quyết định thăm dò thái độ của cô ấy trước:
+
+“Giai Giai này, nếu một ngày em phát hiện ra anh thật ra là đại gia chính hiệu, em sẽ phản ứng thế nào?”
+
+Bạn gái vỗ nhẹ lên vai tôi, giọng trấn an: “Đừng nghĩ vớ vẩn nữa. Yên tâm đi, em chưa bao giờ chê anh nghèo đâu.”
+
+Vậy mà chẳng bao lâu sau, hai đứa lại tình cờ chạm mặt nhau ngay trong một cửa hàng đồ hiệu sang trọng.
+
+Bạn gái tôi ngơ ngác hỏi: “Nhà thu nhập thấp, đến học phí cũng không đủ đóng mà?”
+
+Tôi cũng chết sững: “Sinh viên nghèo vượt khó, một ngày phải gồng mình làm tận ba công việc bán thời gian cơ mà?”
+`
+  },{
+    id: 1155,
+    title: "Chết Trăm Năm Vẫn Bị Ép Gả Cho Nam Quỷ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/09d20a15d9d181bbb8d993f675b76034.jpg",
+    link: "dammy/chet-tram-nam-van-bi-ep-ga-cho-nam-quy.html",
+    type: "dammy",
+    desc: `Thầy bói từng phán rằng, sau khi trút hơi thở cuối cùng, tôi vẫn còn phải gánh thêm một kiếp nạn nữa.
+
+Ban đầu tôi cứ ngỡ ông ta nói nhảm. Mãi đến khi tôi thật sự chết đi, đang nhàn nhã nhấp chén trà dưới âm phủ, nghe mấy con rối giấy hát tuồng, thì tiếng kèn đám cưới bất chợt nổi lên rộn rã.
+
+Một toán người mặc áo xanh đỏ rực rỡ khiêng kiệu hoa, đi thẳng về phía tôi.
+
+“Tân nương lên kiệu!”
+
+Tôi vẫy tay lia lịa: “Mấy người nhầm chỗ rồi.”
+
+Tiếng kèn vẫn thổi inh ỏi không dứt. Quỷ sai giơ thiệp cưới lên xem xét kỹ lưỡng, rồi nghiêm giọng đáp: “Không nhầm đâu. Chính là ngươi đấy. Ngươi đã được chỉ định kết âm hôn rồi.”
+
+Tôi cuống quýt sờ xuống phía dưới để chắc chắn “vật trang trí” của mình vẫn còn nguyên đó, rồi gào lên đầy phẫn nộ: “Mấy người giỡn mặt tôi à! Tôi chết cả trăm năm rồi mà giờ còn bắt đi lấy chồng?!”
+`
+  },{
+    id: 1156,
+    title: "Nữ Đế Trường Lạc Và Ngôi Vương Bỏ Lại",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/994ac5b786714a6a9c845803ec028543.jpg",
+    link: "cotrang/nu-de-truong-lac-va-ngoi-vuong-bo-lai.html",
+    type: "cotrang",
+    desc: `Ám vệ của ta là một kẻ ngốc.
+
+Lại một lần nữa ta bị kẻ gian tập kích, thân mang thương tích. Thị nữ Liên Nhi vừa thở dài vừa cẩn thận xử lý vết thương cho ta.
+
+“Trường Lạc điện hạ, người bị thương nhiều quá rồi.”
+
+“Theo nô tì thấy, tên ám vệ này của người đúng là vô dụng, hay là sớm đổi hắn đi cho xong!”
+
+Hắn thật sự vô dụng sao? Nhưng ta vẫn nhớ rất rõ, hắn từng là khôi thủ đứng đầu doanh trại ám vệ.
+
+Ban đầu, hắn vốn được định sẵn sẽ vào phủ của Tam hoàng tỷ. Ai ngờ đến phút cuối, Tam hoàng tỷ đổi ý, vô tình để một công chúa thất sủng chốn lãnh cung như ta nhặt được món hời lớn.
+
+Thế nhưng hắn đối với ta lúc nào cũng lạnh nhạt như băng. Cả những lúc ta rơi vào hiểm cảnh, hắn cũng chỉ ra tay qua loa, vừa đủ để ta không mất mạng.
 `
   },
 
