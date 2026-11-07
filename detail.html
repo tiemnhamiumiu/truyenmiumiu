@@ -157,6 +157,9 @@ const detail =
 
 if (!story) {
 
+  document.title =
+    "Không tìm thấy truyện - Tiệm Nhà Miu Miu";
+
   detail.innerHTML = `
 
     <div style="
@@ -257,6 +260,14 @@ else {
 
 
   /* ==================================================
+     ĐỔI TITLE TAB THEO TÊN TRUYỆN (LỌC THEO ID)
+  ================================================== */
+
+  document.title =
+    story.title + " - Tiệm Nhà Miu Miu";
+
+
+  /* ==================================================
      HTML DETAIL
   ================================================== */
 
@@ -318,7 +329,7 @@ else {
           href="${story.link}"
           class="read-btn"
         >
-          Đọc ngay
+          Xem ngay
         </a>
 
 
