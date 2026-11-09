@@ -23776,6 +23776,173 @@ Ban đầu, hắn vốn được định sẵn sẽ vào phủ của Tam hoàng 
 
 Thế nhưng hắn đối với ta lúc nào cũng lạnh nhạt như băng. Cả những lúc ta rơi vào hiểm cảnh, hắn cũng chỉ ra tay qua loa, vừa đủ để ta không mất mạng.
 `
+  },{
+    id: 1157,
+    title: "Ván Cờ Trọng Sinh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/81503dc42e289f52166b8d036bdb801e.jpg",
+    link: "ngontinh/van-co-trong-sinh.html",
+    type: "ngontinh",
+    desc: `Đứa con gái nuôi của bố mẹ tôi đã chuẩn bị cho tôi một món quà ra mắt thật đặc biệt, ngay vào ngày đầu tiên tôi trở về nhận lại gia đình. Cô ta cố tình gieo mình từ cầu thang xuống để làm gãy tay.
+
+Cả nhà cuống cuồng lo lắng lẫn giận dữ, mọi sự chú ý đều đổ dồn về phía cô ta.
+
+Còn tôi thì bị bỏ lại một mình, trơ trọi.
+
+Nhân lúc không ai để ý, cô ta ghé sát tai tôi, thì thầm: “Thấy chưa? Máu mủ ruột thịt thì sánh sao được với tình cảm bên nhau ngày này qua ngày khác. Mày đừng hòng thắng nổi tao.”
+
+Tôi chỉ khẽ cười: “Sống lại rồi mà vẫn xài mấy trò cũ rích này à.”`
+  },{
+    id: 1158,
+    title: "Đua Xe Gãy Chân Tôi Bị Ném Cho Cậu Út Quản Giáo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aaedb95d9394981907393fbc9cd8e6c3.jpg",
+    link: "dammy/dua-xe-gay-chan-toi-bi-nem-cho-cau-ut-quan-giao.html",
+    type: "dammy",
+    desc: `Đua xe ngã gãy chân, bố mẹ tôi giận đến mức chẳng buồn nhìn mặt tôi nữa, rồi thẳng tay ném tôi cho cậu út về quản giáo.
+
+Ở chung đúng một tháng thì mẹ gọi điện hỏi thăm: “Cậu út đối xử với con thế nào, có tốt không?”
+
+“Cũng… cũng tốt lắm ạ……” Tôi nghẹn ngào mãi vẫn không dám mở miệng mách tội.
+
+Chẳng lẽ lại trơ trẽn nói với bà rằng em trai ruột của bà đang thèm khát thân xác con trai bà, định kéo cả nhà họ Giang lẫn nhà họ Yến cùng tuyệt tự hay sao……
+`
+  },{
+    id: 1159,
+    title: "Thiên Bồng Độ Tình Ba Kiếp Ngược Luyến",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e2619a173ac5c0fa484195bf51d83fa4.jpg",
+    link: "cotrang/thien-bong-do-tinh-ba-kiep-nguoc-luyen.html",
+    type: "cotrang",
+    desc: `Ta là con gái thứ hai của Cao viên ngoại ở Cao Lão Trang, khuê danh Ngọc Lan.
+
+Đêm trước ngày thành hôn, ta mặc áo cưới thêu hoa, lặng lẽ ngồi trước gương chải chuốt.
+
+Đang lúc ấy, phụ thân bỗng dẫn muội muội Thúy Lan xông vào khuê phòng, lớn tiếng bắt hai chị em ta phải lập tức đổi y phục cho nhau.
+
+Ông nói liến thoắng không dứt, vẻ mặt phấn khích đến mức hai má đỏ bừng.
+
+Ông bảo đây là cơ duyên trời ban, đem phú quý thần tiên tột bậc đến cho cả dòng họ.
+`
+  },{
+    id: 1160,
+    title: "Ảnh Đế Đỉnh Lưu Là Fan Cứng Của Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9c3d8f7c9de1c778eae515787f02c9ae.jpg",
+    link: "ngontinh/anh-de-dinh-luu-la-fan-cung-cua-toi.html",
+    type: "ngontinh",
+    desc: `Tôi nhắn nhầm dòng “Em ghét anh” cho người yêu cũ, mà người ấy giờ là Ảnh đế đỉnh lưu giải trí.
+
+Ngay lập tức, tin nhắn phản hồi đã dồn dập đổ về. Vị Ảnh đế nổi tiếng lạnh lùng kia hình như đã sụp đổ hoàn toàn giữa đêm khuya, cuống cuồng nhắn cho tôi hết tin này đến tin khác. Khó ai ngờ một người vốn lạnh lùng như vậy lại có lúc luống cuống đến thế.
+
+“Ghét anh mà còn nhắn tin cho anh à?”
+
+“Nói cho em biết, anh không còn là kẻ si tình như ngày xưa nữa đâu.”
+
+“Hiện giờ anh tỉnh táo lắm rồi nhé.”
+
+“Anh nhất định sẽ không thích em nữa đâu.”
+
+“Sao em không trả lời?”
+
+“Thôi được, anh nhận vậy: anh vẫn còn thích em một chút.”
+
+“Bên đó nhắn lại một câu thôi mà cũng phạm pháp à?”
+
+“Em đã 1 tiếng 3 phút 28 giây không thèm để ý đến anh rồi đấy.”
+
+“Anh thật sự sắp tan nát đến nơi rồi.”
+
+“Nể tình anh đã thích em bao nhiêu năm như vậy, em để ý đến anh một chút thì có sao đâu?”
+
+Chưa dừng ở đó, gã đàn ông vốn nổi tiếng kiêu hãnh ấy còn đăng hẳn một bài thảm thương lên mạng xã hội để cầu cứu cư dân mạng: “Bạn gái cũ đột nhiên nói ghét tôi thì phải làm sao?”
+
+Tối hôm đó, hot search bùng nổ dữ dội. Cả đợt bùng nổ ấy chỉ bắt nguồn từ đúng một bài đăng đó.`
+  },{
+    id: 1161,
+    title: "Hôn Rồi Thì Phải Trách Nhiệm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3af5b492663918c04396fdf1f9ffbbae.jpg",
+    link: "dammy/hon-roi-thi-phai-trach-nhiem.html",
+    type: "dammy",
+    desc: `Tống Nghiễn Băng, chủ tịch hội học sinh vốn nổi tiếng ôn hòa, nhã nhặn với tất cả mọi người, vậy mà lại vô tình rút trúng một thử thách vô cùng oái oăm.
+
+Cắn một cái thật đau vào người mà mình ghét nhất.
+
+Giữa tiếng hò reo ồn ào của đám đông xung quanh, anh chỉ nhẹ nhàng cong khóe môi rồi từng bước tiến thẳng về phía tôi.
+
+Lồng ngực tôi đánh thót một cái, đành ngập ngừng chìa cánh tay ra trước mặt anh.
+
+Thế nhưng anh lại bất ngờ siết chặt cổ tay tôi thật mạnh, dập tắt mọi ý định chống cự, rồi cúi đầu cắn thẳng vào môi tôi.
+
+Tôi chẳng qua chỉ là uống quá say nên lỡ bò nhầm lên giường của Tống Nghiễn Băng mà thôi.
+
+Cái gã lòng dạ hẹp hòi này, rốt cuộc là ghét tôi đến mức nào mà phải chọn cách cắn môi tôi để trút giận cơ chứ?!`
+  },{
+    id: 1162,
+    title: "Hoàng Thượng Cố Chấp Lại Muốn Đuổi Theo Dì",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/988e857642107a2e74d5f20e503ae6c1.jpg",
+    link: "cotrang/hoang-thuong-co-chap-lai-muon-duoi-theo-di.html",
+    type: "cotrang",
+    desc: `Xuyên không vào thân xác một phi tần đang treo cổ, vừa mở mắt ta đã chạm ngay ánh nhìn của Hoàng đế vừa bước vào, bốn mắt nhìn nhau.
+
+Phi tần trong cung tự sát vốn là đại tội.
+
+Ta vội vàng tìm cách chữa cháy: “Đánh đu vui ghê, hihi.”
+
+Đêm hôm đó, thánh chỉ triệu ta đến thị tẩm được đưa tới.
+
+Tên cẩu Hoàng đế bắt ta tiếp tục đánh đu, còn hắn đứng ngay bên cạnh, đích thân ra tay đẩy.
+
+Thật nực cười!
+
+Chị đây từng là quán quân xà kép Olympic, lại đi sợ cái trò trẻ con này sao?`
+  },{
+    id: 1163,
+    title: "Bóc Trần Bộ Mặt Kẻ Mượn Bụng Sinh Con",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3094c6bf29210ff4f2a7feecb524cf1c.jpg",
+    link: "ngontinh/boc-tran-bo-mat-ke-muon-bung-sinh-con.html",
+    type: "ngontinh",
+    desc: `Phùng Huyên năm nay lên sáu, vốn là con trai của vợ chồng anh trai chồng tôi ở dưới quê. Sau khi bàn bạc với Phùng Vũ Đình, anh chị muốn tìm cách cho thằng bé lên thành phố học hành.
+
+Thế là họ đưa nó đến nhà tôi, làm thủ tục nhập hộ khẩu dưới danh nghĩa con nuôi của hai vợ chồng tôi.
+
+Từ hôm thằng bé bước chân vào nhà, cuộc sống của gia đình tôi gà bay chó sủa, chẳng có lấy một ngày yên ổn.
+
+Đỉnh điểm là buổi tôi bàng hoàng phát hiện nó đã lừa đứa con gái mới ba tuổi của tôi, rồi đẩy con nằm gọn trong ngăn đông tủ lạnh.
+
+Mãi về sau tôi mới cay đắng nhận ra, cha ruột của Phùng Huyên không phải ai xa lạ, mà chính là Phùng Vũ Đình.
+`
+  },{
+    id: 1164,
+    title: "Bạn Cùng Phòng Đẹp Trai Cố Tình Thả Thính Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/21d2474c70b3c1db1737e862f0159825.jpg",
+    link: "dammy/ban-cung-phong-dep-trai-co-tinh-tha-thinh-toi.html",
+    type: "dammy",
+    desc: `Bạn cùng phòng của tôi không chỉ sở hữu diện mạo điển trai, trẻ trung mà tính cách còn vô cùng dịu dàng, hiền lành.
+
+Chỉ có điều, cậu ấy dường như rất thích cởi trần để lộ cơ ngực săn chắc, cơ bụng chuẩn chỉnh cùng đường nhân ngư quyến rũ. Đã vậy cậu ấy còn cực kỳ bám người, lúc nào cũng thích ôm ôm, bóp mặt rồi xoa đầu tôi.
+
+Thế nhưng, cậu ấy lại là trai thẳng.
+
+Cho đến một ngày, tôi không thể chịu đựng thêm được nữa. Tôi lấy hết can đảm chuốc cho cậu ấy một trận say khướt, rồi tranh thủ sờ soạng khắp cơ thể cậu.
+
+Thế rồi cậu ấy bất ngờ mở mắt, mỉm cười đầy tà mị: “Cậu nghĩ lý do vì sao ngày nào tôi cũng cởi trần chạy qua chạy lại trước mặt cậu?”
+
+“Là vì tôi cố ý quyến rũ cậu đấy.”`
+  },{
+    id: 1165,
+    title: "Bạch Nguyệt Quang Và Nốt Chu Sa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6d4a62034c58f3b9e702c260af9ea94c.jpg",
+    link: "cotrang/bach-nguyet-quang-va-not-chu-sa.html",
+    type: "cotrang",
+    desc: `Hoàng thượng ban hôn, gả ta cho Ngũ hoàng tử. Thế nhưng khi ấy, trong hậu viện của hắn đã có sẵn một vị trắc phi.
+
+Vị trắc phi đó được hắn dốc lòng sủng ái, từng liều thân đỡ tên thay hắn, vốn là nốt chu sa khắc sâu trong tim hắn.
+
+Mẫu thân ta lo đến phát bệnh, nằm liệt giường, cứ quặn ruột quặn gan vì sợ ta không được sủng ái thì sau này sẽ phải chịu nhiều tủi hổ.
+
+Ta dịu giọng trấn an bà: “Nữ nhi gả đi là để làm hoàng tử phi, chuyện tình cảm vốn chẳng liên quan gì.”
+
+Đến ngày thứ hai sau đại hôn, ta đã dò ra tung tích của vị bạch nguyệt quang thời thơ ấu của Ngũ hoàng tử, rồi chủ động đón nàng ta vào phủ.
+
+Trong lòng ta thật sự rất tò mò: khi bạch nguyệt quang đối đầu với nốt chu sa, rốt cuộc bên nào mới chiếm được phần hơn?
+`
   },
 
 
