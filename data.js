@@ -22948,7 +22948,7 @@ Nhiều năm biền biệt trôi qua, tôi và anh tình cờ chạm mặt nhau 
 “Mà đứa trẻ này… sao nhìn lại giống tôi đến thế?”`
   },{
     id: 1114,
-    title: "Sát Thủ Trà Xanh Của Phụ Nhân Tướng Quân",
+    title: "Sát Thủ Trà Xanh Của Phu Nhân Tướng Quân",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f9358e140ac89fcc0d34e3d41651e45.jpg",
     link: "cotrang/sat-thu-tra-xanh-cua-phu-nhan-tuong-quan.html",
     type: "cotrang",
