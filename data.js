@@ -23943,6 +23943,203 @@ Ta dịu giọng trấn an bà: “Nữ nhi gả đi là để làm hoàng tử 
 
 Trong lòng ta thật sự rất tò mò: khi bạch nguyệt quang đối đầu với nốt chu sa, rốt cuộc bên nào mới chiếm được phần hơn?
 `
+  },{
+    id: 1166,
+    title: "Đệ Nhất Kỹ Nữ Showbiz",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1cfded4919df4f735d2004edc3d74d1d.jpg",
+    link: "ngontinh/de-nhat-ky-nu-showbiz.html",
+    type: "ngontinh",
+    desc: `Vốn là danh kỹ lừng lẫy khắp chốn kinh thành, vậy mà tôi lại bỗng dưng xuyên vào thân xác một nữ nghệ sĩ đầy tai tiếng ở thời hiện đại.
+
+Chưa hết, tôi còn bị đẩy vào một chương trình hẹn hò thực tế dành cho người nổi tiếng.
+
+Mục đích của họ chẳng qua là biến tôi thành tấm nền, để các nữ khách mời còn lại nhờ đó mà nổi bật hơn.
+
+Nực cười thật. Chốn phấn son quanh năm chỉ có chuyện phụ nữ tranh phượng khoe loan, tôi đâu phải kẻ mới vào nghề.
+
+Từng ngồi trên ngôi vị đệ nhất kỹ nữ, mấy trò vặt vãnh này sao làm khó nổi tôi.`
+  },{
+    id: 1167,
+    title: "Hợp Đồng Tình Nhân Của Sếp Tổng Lắm Lời",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/12bbaac242c67c851e17b37988af8abe.jpg",
+    link: "dammy/hop-dong-tinh-nhan-cua-sep-tong-lam-loi.html",
+    type: "dammy",
+    desc: `Tôi làm chim hoàng yến cho Thẩm Nghiêm đã được ba năm.
+
+Quy tắc giữa hai người vô cùng đơn giản: cứ làm xong việc là tôi tự biết đường dọn dẹp rồi biến về phòng riêng của mình.
+
+Tối hôm nay cũng chẳng có gì khác mọi khi, tôi đứng dậy chuẩn bị rời đi.
+
+“Mẹ nó! Vậy là xong rồi đó hả? Lão tử vừa mới làm nóng người xong mà! Chẳng lẽ lần sau lại phải đợi thêm nửa tháng nữa hay sao?!”
+
+Một giọng nói tràn ngập sự bực bội xen lẫn ấm ức đột ngột gào lên rõ mồn một ngay trong đầu tôi.
+
+Tôi cứng đờ cả người, chậm rãi quay đầu nhìn lại. Trên gương mặt lạnh như tiền ngàn năm không đổi của Thẩm Nghiêm, mí mắt của hắn thậm chí còn chẳng buồn nhấc lên lấy một chút.
+
+Thế nhưng âm thanh vừa rồi, chắc chắn chính là giọng của hắn không thể sai vào đâu được!
+
+Chuyện này là sao… chẳng lẽ tôi lại có thể nghe được tất cả hoạt động tâm lý của vị tổ tông này rồi ư?
+
+Trong chiếc lồng chim dát vàng xa hoa này, dường như đang nhốt hai con chim đều ngơ ngác, hoàn toàn không hiểu chuyện gì vừa xảy ra.
+`
+  },{
+    id: 1168,
+    title: "Trăng Khuyết Đêm Động Phòng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d4a7117954d805769d8dafce095e85b3.jpg",
+    link: "cotrang/trang-khuyet-dem-dong-phong.html",
+    type: "cotrang",
+    desc: `Năm mười lăm tuổi ấy, ta dứt khoát từ chối một mối lương duyên tốt đẹp, chỉ một lòng mong được bước vào phủ của vị tiểu hầu gia phong lưu đa tình bậc nhất thành Trường An.
+
+Vị tiểu hầu gia cao quý ấy khi đó vừa mới rước thê tử vào cửa.
+
+Thiên hạ đều mắng ta điên rồ. Nhà ai lại đi tranh nhau làm thiếp cho người khác, dù người đàn ông kia có là hoàng thân quốc thích đi nữa?
+
+Ta chỉ lặng lẽ cúi đầu, ngón tay khẽ mân mê chiếc trâm ngọc lạnh mát nằm trong lòng bàn tay.
+
+“Các người không hiểu đâu.”
+
+“Hắn chính là người mà ta nhất định phải gả.”`
+  },{
+    id: 1169,
+    title: "Anh Chọn Tình Yêu Tôi Nhận Trọn Cơ Nghiệp",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1b956c2f4875bb734d47426782eb64a4.jpg",
+    link: "ngontinh/anh-chon-tinh-yeu-toi-nhan-tron-co-nghiep.html",
+    type: "ngontinh",
+    desc: `Sang năm thứ ba của cuộc hôn nhân, Tống Luật Thanh bắt đầu để mắt đến cô thư ký riêng của mình.
+
+Vì người phụ nữ ấy, anh sẵn lòng cắt đứt với gia đình, bỏ lại cả vợ lẫn đứa con gái còn nhỏ dại.
+
+Đêm trước hôm ra đi, anh quỳ suốt một đêm trước bàn thờ tổ tiên, rồi để lại toàn bộ tài sản cho tôi và con bé.
+
+“Anh xin lỗi hai mẹ con, nhưng anh không còn cách nào khác. Anh yêu cô ấy, vì cô ấy anh có thể bỏ lại tất cả.”
+
+“Anh sẽ không quay về nữa. Gia đình với tiền bạc chỉ là hai chiếc vòng kim cô siết chặt lấy anh mà thôi.”
+
+“Sống trong một cái vỏ gia đình chỉ có của cải mà thiếu vắng tình yêu, đó là nỗi bất hạnh lớn nhất đời anh.”
+
+“Nếu không thể ở bên người mình khắc cốt ghi tâm, thì sự tồn tại này còn có nghĩa lý gì?”
+
+Tôi chỉ liếc anh ta đúng một cái, không nói thêm lời nào.
+
+Rồi tôi dứt khoát cầm bút, ký vào bản thỏa thuận ly hôn và thu về toàn bộ khoản tiền vốn thuộc về mình.
+
+Một mối tình đã rách nát vì phản bội thì chẳng đáng để cố chấp níu giữ.
+
+Không cần tha thứ, cũng chẳng cần phải tiếc nuối gì nữa. Buông bỏ được rồi, ấy cũng là một cách tự giải thoát cho chính mình.
+`
+  },{
+    id: 1170,
+    title: "Kỳ Mẫn Cảm Của Thượng Tướng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f4e7480a5decefc4500a06eac59a13b7.jpg",
+    link: "dammy/ky-man-cam-cua-thuong-tuong.html",
+    type: "dammy",
+    desc: `Đêm thứ hai sau khi kết hôn, tôi trằn trọc mãi mà chẳng thể chợp mắt. Cuối cùng, tôi đành ngồi dậy, định bụng ra ngoài rót cho mình một ly nước mát.
+
+Ngay khoảnh khắc ấy, hàng loạt dòng bình luận bất ngờ chạy dọc trước mắt tôi như một cuốn phim:
+
+[Đến hẹn lại lên rồi đây, cái tên pháo hôi này lại bắt đầu giở trò đấy à?]
+
+[Mong cái tệp Omega tâm cơ này biến giùm đi cho sạch mắt! Tôi chỉ muốn chèo thuyền Thượng tướng với Beta thụ lạnh lùng kiên cường thôi, hu hu hu.]
+
+[Tôi ghét nhất cái thể loại Omega yếu đuối, thích làm màu mà ngu ngốc chẳng làm nên trò trống gì như thế này. Không biết đến bao giờ mới chịu hết vai đây nữa?]
+
+[Thật nực cười, vừa mới đó mà đã không nhịn nổi, bắt đầu mò đi ăn trộm thông tin mật rồi đấy à?]
+
+[Thượng tướng người ta còn lâu mới ngủ. Cậu ta chỉ cần làm việc xấu một phát là bị tóm sống ngay tại trận cho xem.]
+
+Tôi ngẩn người trong chốc lát, rồi chậm rãi cúi gập người xuống.
+
+Mặc kệ hàng tá lời đoán già đoán non cùng vô số câu chửi rủa đang xối xả vang lên trên màn hình...
+
+Tôi ghé sát mặt anh, mạnh dạn “chụt” một cái rõ to.
+`
+  },{
+    id: 1171,
+    title: "Tướng Quân Chạy Đâu Cho Thoát",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/34a4ccc83a8d543b03704956a86f83f2.jpg",
+    link: "cotrang/tuong-quan-chay-dau-cho-thoat.html",
+    type: "cotrang",
+    desc: `Năm nay ta mười tám tuổi xuân xanh, vậy mà vẫn chưa gả cho ai.
+
+Mẫu thân lo lắng khôn nguôi, nhờ cậy không biết bao nhiêu bà mối, vất vả lắm mới định xong hôn ước giữa ta và vị thiếu gia nhỏ hơn ta hai tuổi ở phủ Tướng quân. Ai ngờ đúng ngày thành thân, vị thiếu gia ấy lại dắt theo cô thanh mai trúc mã của mình trốn đi mất tăm.
+
+Hàng xóm láng giềng ai nấy đều thở dài, tiếc cho ái nữ phủ Thừa tướng sao đường tình duyên lận đận đến thế, e rằng cả đời này chỉ có thể làm lão cô nương.
+
+Ta chỉ mỉm cười. Qua lớp khăn voan đỏ thắm, ánh mắt ta vẫn đăm đăm hướng về người nam nhân đang ngồi uy nghiêm nơi cao đường phủ Tướng quân.
+
+Từ trước đến nay, mục tiêu của ta vốn chỉ có một.`
+  },{
+    id: 1172,
+    title: "Cả Thế Giới Đều Nghe Thấy Tiếng Lòng Của Tôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/549e6501957f57eb9ca30036f6a89483.jpg",
+    link: "ngontinh/ca-the-gioi-deu-nghe-thay-tieng-long-cua-toi.html",
+    type: "ngontinh",
+    desc: `Hình như đối tượng công lược của tôi có gì đó không ổn thì phải.
+
+【Nam chính nhìn cái vẻ cấm dục này, hay mình thử ép anh ta tới cùng xem sao nhỉ?】
+
+Nghe vậy, nam chính lẳng lặng đặt ly rượu xuống bàn, rồi cài kín từng chiếc cúc áo lên tận nấc trên cùng.
+
+Tôi đứng ngây ra: ?
+
+【Nam phụ ngày nào cũng mặc bộ đồ y như nhân viên môi giới bất động sản mới vào nghề, bảo sao tới cuối truyện vẫn ế chỏng chơ.】
+
+Đang chủ trì cuộc họp trong bộ vest, nam phụ bỗng cho tạm dừng. Anh ta ra thay một bộ đồ khác, gội sạch đầu tóc, rồi quay lại với dáng vẻ của một nam sinh đại học vô cùng nhẹ nhàng, trong sáng.
+
+Tôi ngẩn người: ?
+
+【Tên phản diện này mà mặc áo lông chồn thì chắc chắn là đồ mua lại, không thì sao mới cúi đầu một cái đã thấy lông rụng tơi tả thế kia.】
+
+Tên phản diện đang buông dở lời đe dọa thì đột ngột im bặt. Hắn cúi xuống, chằm chằm nhìn chiếc áo lông chồn trên người mình.
+
+Tôi chết sững: ?
+
+Khoan đã... Đừng nói là ai trong bọn họ cũng nghe được suy nghĩ của người khác nhé?
+
+Không thể nào, bị bệnh thật rồi sao.
+
+Rốt cuộc là ai đi rải thuật đọc tâm theo lô thế này cơ chứ!`
+  },{
+    id: 1173,
+    title: "Bố Trí Giả Chết Ôm Bầu Trốn Chạy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/220e22b86b0312f543dc8c64063f6e16.jpg",
+    link: "dammy/bo-tri-gia-chet-om-bau-tron-chay.html",
+    type: "dammy",
+    desc: `Vì tiền, tôi nhận lời đóng giả Beta, ngoan ngoãn làm con chim hoàng yến được nuôi trong chiếc lồng kính của một người khác.
+
+Ai ngờ tôi lại phạm phải điều tối kỵ nhất của cái nghề này: có thai.
+
+Đúng lúc tôi còn cầm que thử thai trong tay, đang tính đi tìm vị đại gia kia để đòi một danh phận, thì chuyện lạ xảy ra.
+
+Một dòng chữ kỳ quái đột nhiên lướt ngang qua trước mắt tôi.
+
+[Sao cậu phản diện đẹp trai này vẫn chưa chịu chạy đi vậy? Nam chính bị vô sinh mà, lấy đâu ra con!]
+
+[Hắn còn ghét Omega nhất trên đời nữa. Nếu biết cậu không những mang thai con của người khác mà còn dám lừa hắn, cậu chắc chắn sẽ bị xẻ thịt rồi quăng xuống biển cho cá ăn đấy!]
+
+Tay tôi run đến mức lỏng hẳn ra.
+
+Chiếc que thử thai tuột khỏi kẽ ngón, rơi bộp xuống ngay dưới chân Bùi Lăng Chu.`
+  },{
+    id: 1174,
+    title: "Hồi Sinh Mười Tám Lần Ta Phá Nát Chốn Hậu Cung",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/13c4eb8edef529d7bfd5a83643fe36b5.jpg",
+    link: "cotrang/hoi-sinh-muoi-tam-lan-ta-pha-nat-chon-hau-cung.html",
+    type: "cotrang",
+    desc: `Trải qua đủ kiểu chết chóc, nào là uống rượu độc, bị siết cổ bằng lụa trắng, rồi lại bị loạn tiễn xuyên tim...
+
+Đến lần quay ngược thời gian thứ mười tám này, đầu óc ta bắt đầu phát rồ.
+
+“Thái hậu chơi bách hợp.”
+
+“Hoàng thượng là đoạn tụ, Lâm Quý phi lại là đàn ông!”
+
+“Cái thai trong bụng Hoàng hậu thực ra là của thị vệ.”
+
+Ta thầm cảm thán: “Chặc chặc chặc, cái chốn Hoàng cung này của các người, chơi lớn thật đấy.”
+
+Chủ trương của ta rất rõ ràng: nếu bản thân đã không sống nổi thì nhất định phải kéo cả lũ chết chùm theo.
+`
   },
 
 
