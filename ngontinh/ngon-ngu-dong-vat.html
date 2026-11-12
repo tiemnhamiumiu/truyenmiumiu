@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ngôn Ngữ Động Vật</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Ngôn Ngữ Động Vật
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_ngontinh/ngon-ngu-dong-vat.mp3" data-marker="13:27" data-marker-label="13:27">
+<div class="audio-header">
+  <div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Ngôn Ngữ Động Vật</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">13:27</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">13:27</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Sau khi rời khỏi chốn giải trí hào nhoáng, tôi xin vào một sở thú làm nhân viên chăm sóc động vật.
+
+Ngay từ ngày đầu nhận việc, trong tôi bỗng xuất hiện một năng lực kỳ lạ: tôi nghe hiểu được tiếng nói của tất cả các loài vật.
+
+Con hổ trong chuồng chẳng hạn, ngày nào cũng gào gầm điên cuồng: “Đói quá, đói quá, đói chết mất thôi!”
+
+Chú hươu cao cổ ở chuồng bên thì ngẩng cổ lên cao, miệng cứ lẩm nhẩm mãi một câu: “Cao nữa, phải vươn cao nữa mới được.”
+
+Lũ cá vàng trong bể thủy cung thỉnh thoảng lại bơi chậm hẳn, ngơ ngác đặt ra những câu hỏi đậm chất triết lý: “Tôi là ai? Đây là đâu?”
+
+Còn con Sếu Nhật Bản dáng vẻ cao sang đài các kia, nó liếc xéo dòng người qua lại bằng ánh mắt khinh khỉnh, rồi tuyên bố những lời phán xét đầy ngạo mạn: “Hôm nay cái gã con người kia đã liếc cô nhân viên chăm sóc cả chục lần rồi. Rõ ràng là kẻ có gia đình mà còn bày trò trăng hoa, hy vọng đồng chí Tiểu Ôn không bị gã lừa gạt.”
+
+Tôi, tên thật là Ôn Vị Hi, chỉ dám thầm đáp trong bụng: “Cảm ơn cậu nhé, Sếu đại ca.”
+
+Có lần, một chú chó đi lạc nán lại sở thú suốt ba ngày mà nhất định không chịu về nhà. Dựa vào địa chỉ hiện lên trong dòng suy nghĩ của nó, tôi phải đi bộ dẫn nó về tận nơi.
+
+Thấy gương mặt vừa cảm kích vừa ngơ ngác của người chủ, tôi nhẹ nhàng hỏi lại cho chắc: “Nó là chó đực đúng không ạ?”
+
+Người chủ nhiệt tình gật đầu lia lịa: “Đúng thế, là một bé phốc sóc xinh xắn lắm đấy!”
+
+Tôi im lặng hồi lâu.
+
+Tôi lấy đâu ra dũng khí để gõ cửa nói với người ta rằng, lý do cún cưng không chịu về là vì nó đã trót trao trọn trái tim, ngay từ cái nhìn đầu tiên, cho một con cáo trong sở thú của chúng tôi.
+
+Về sau, một chương trình thực tế về du lịch chọn sở thú làm bối cảnh ghi hình. Mấy vị ngôi sao nổi tiếng cứ lúng túng vây quanh con cá voi trắng đang điên cuồng đập vào vách kính cường lực.
+
+Tôi gãi đầu, gượng cười giải thích: “Mọi người đừng bận tâm... Nó chỉ đang mài răng một chút thôi.”
+
+-----
+
+Từ nhỏ đến lớn, số phận của tôi chưa bao giờ dính dáng gì đến hai chữ may mắn.
+
+Thi cử lớn nhỏ gì tôi cũng trượt vỏ chuối, đồ đạc cá nhân cứ không cánh mà bay, hễ trời mưa to là chiếc ô trong tay lại hỏng, thậm chí đi trên con đường bằng phẳng tôi cũng tự vấp ngã sõng soài được.
+
+Ông trời còn thương cho tôi một gương mặt khá ưa nhìn, nhờ vậy mà một nhà tuyển trạch nghệ sĩ để ý rồi đưa tôi vào nghề. Nhưng sau ba tháng hoạt động mờ nhạt, ông chủ đến kiểm tra tình hình, thấy tôi không có triển vọng nên thẳng tay cho nghỉ việc.
+
+Tôi đón nhận kết quả ấy trong im lặng.
+
+Hồ sơ xin việc tôi rải đi khắp nơi đều bặt vô âm tín, chẳng khác nào hòn đá ném xuống đáy biển. Đã quá quen với kịch bản này, tôi tìm đến một thầy bói nổi tiếng trên mạng để xin một quẻ.
+
+“Lại đến xem nữa à?” Thầy bói là người quen cũ, thấy tôi ghé hoài nên chủ động giảm giá.
+
+“Lần này tôi lại vừa mất việc, nhờ thầy xem giúp xem tôi tìm được bến đỗ mới ở đâu,” tôi than thở.
+
+Thầy bói tỏ vẻ thấu hiểu, lắc xăm gieo cho tôi một quẻ.
+
+“Chà, lá quẻ này lạ thật đấy. Nó báo rằng vận xui của cô đã cạn, thời điểm chuyển vận đã đến, cô sắp gặp quý nhân và từ đây sẽ thuận buồm xuôi gió.”
+
+Mắt tôi sáng rực lên: “Thật sao thầy?”
+
+Dù xui xẻo đeo bám suốt bao năm, tôi vẫn giữ thói quen mua một tờ vé số mỗi ngày. Trong lòng tôi luôn ngầm mong, biết đâu một hôm nào đó vận may sẽ mỉm cười với mình.
+
+“Thật chứ,” thầy bói phán chắc nịch, “Tôi tính ra hướng đi của cô nằm ở phía nam. Cô cứ đi về phương nam mà tìm việc.”
+
+Tôi mở bản đồ thành phố ra tra cứu.
+
+Toàn bộ khu vực phía nam đều là đồi núi trập trùng, nơi duy nhất có tuyển nhân sự là vườn thú Nam Thành, mới đi vào hoạt động được một năm.
+
+Thôi thì vườn thú cũng được, dù sao ngành tôi học ở đại học cũng rất hợp với công việc này.
+
+Buổi phỏng vấn diễn ra suôn sẻ đến mức vượt xa tưởng tượng của tôi. Người phỏng vấn tỏ ra rất nhiệt tình, gật đầu nhận tôi ngay tại chỗ.
+
+Anh ta hào hứng thông báo: “Giám đốc của chúng tôi đã đích thân xem hồ sơ của cô. Anh ấy đánh giá cô là một tài năng hiếm có, và dặn bằng mọi giá phải giữ cô lại!”
+
+“Thật thế ạ?” Tôi ngạc nhiên tột độ, trong lòng dâng lên quyết tâm phải đền đáp sự tin tưởng này. “Tôi nhất định sẽ cống hiến hết mình!”
+
+Sau một khóa đào tạo ngắn hạn, tôi chính thức bắt tay vào công việc của một nhân viên chăm sóc động vật.
+
+Cũng từ lúc ấy, khả năng nghe hiểu tiếng muông thú của tôi bắt đầu bộc phát.
+
+Nhân sự ở vườn thú Nam Thành khá thưa thớt, có lẽ vì nơi này mới mở cửa chưa lâu. Dù vậy, lượng du khách đến tham quan lại rất đông, nhờ cảnh quan thiết kế bắt mắt, hạ tầng hiện đại và sự phong phú của các loài động vật.
+
+Ngày đầu tiên đi làm, khi nghe con hổ cất giọng thảm thiết than “Tôi đói quá”, tôi giật mình đến mức suýt sặc nước bọt.
+
+Xung quanh không một bóng người, con hổ to lớn lại gào về phía tôi qua những thanh rào sắt, cảnh tượng thật sự rợn người.
+
+Nhưng tôi vốn phản ứng khá chậm, cơ mặt ít khi biến đổi nên nỗi sợ không lộ ra bên ngoài.
+
+Trước khi sợ hãi kịp xâm chiếm đầu óc, tôi đã đứng trố mắt nhìn con hổ rất lâu. Đến khi chắc chắn mình không nghe nhầm, tôi mới xác nhận nó đúng là vừa nói “Tôi đói lắm rồi”.
+
+Nhưng chẳng phải ban nãy người ta mới cho nó ăn xong sao?
+
+Đến giờ tan làm, tôi lấy hết can đảm tìm quản lý để đề xuất: “Chị quản lý ơi, em thấy... khẩu phần ăn hình như hơi ít, có vẻ Phi Phi ăn chưa đủ no thì phải?”
+
+Phi Phi là tên con hổ. Nó còn khá nhỏ, tôi đoán nó đang tuổi lớn nên mới nhanh đói như vậy.
+
+Chị quản lý ngạc nhiên hỏi lại: “Thật à?”
+
+Trong lúc tôi còn ngơ ngác, chị đã nhấc máy gọi một cuộc điện thoại. Vừa trao đổi, chị vừa nói: “Giám đốc ạ, cô nhân viên chăm sóc mới đến báo là hình như Phi Phi ăn không đủ no.”
+
+Tôi đứng đờ ra tại chỗ.
+
+Chuyện nhỏ như vậy mà cũng đến tai giám đốc sao? Chân ướt chân ráo vào làm đã thắc mắc về chế độ nuôi dưỡng, liệu cấp trên có phật ý không?
+
+Mắt tôi tối sầm lại. Chưa kịp hoảng loạn thì chị quản lý đã gật đầu lia lịa, đưa điện thoại về phía tôi.
+
+Tôi run run đưa tay nhận máy: “Em chào giám đốc ạ...”
+
+Thật ra từ lúc nhận việc đến giờ, tôi chưa một lần được gặp giám đốc. Nghe đồng nghiệp bảo anh ấy đang đi công tác xa.
+
+Đầu dây bên kia vang lên một giọng nói rất trẻ, nghe lại cực kỳ dễ chịu: “Chào em, em là Tiểu Ôn đúng không? Em thấy Phi Phi ăn chưa đủ no à?”
+
+“Vâng ạ,” tôi ngập ngừng đáp.
+
+“Lần nào em đi ngang chuồng, nó cũng gào lên với em... Nhưng em nghĩ nó không định tấn công em đâu, chỉ là nó đang đói thôi.”
+
+“Em nghe thấy nó kêu thế sao?”
+
+Không nhận ra điều kỳ lạ trong câu hỏi ấy, tôi thật thà gật đầu: “Vâng, đúng vậy ạ.”
+
+“Em không cần bận tâm đâu,” giọng nói trẻ trung, trong trẻo mà vẫn dịu dàng ấy ngừng lại một nhịp, rồi buông ra những lời phũ phàng, “Khẩu phần ăn hoàn toàn chuẩn rồi, nó đang cố tình diễn kịch cho em xem đấy.”
+
+Tôi tròn mắt: “Hả?”
+
+Giám đốc chốt hạ ngắn gọn: “Nó bị heo nhập rồi.”
+
+Tôi hoàn toàn ngơ ngác.
+
+Sau đó, giám đốc nói thêm vài lời động viên. Anh bảo rất cảm động trước việc tôi quan tâm đến tâm trạng của vật nuôi, mong tôi giữ vững tinh thần làm việc hăng hái, và hứa cuối tháng sẽ thưởng thêm cho tôi. Nói xong, anh lịch sự chào tạm biệt rồi cúp máy.
+
+“Làm lâu rồi em sẽ quen thôi,” chị quản lý bước đến vỗ nhẹ lên vai tôi. “Sở thú này đâu chỉ có mỗi Phi Phi biết diễn kịch.”
+
+Tôi im lặng.
+
+Nửa tin nửa ngờ, tôi về thay đồng phục rồi lén vòng ra phía sau khu chuồng hổ, áp lưng vào tường để nghe ngóng bên trong.
+
+Quả nhiên, Phi Phi đang tự cằn nhằn một mình.
+
+“Gào khản cả cổ nãy giờ rồi... sao vẫn chưa thấy ai mang đồ ăn ra cho mình thế nhỉ.”
+
+“Chẳng lẽ cô nhân viên chăm sóc ban nãy không mủi lòng sao! Lệ Lệ rõ ràng bảo chiêu này hiệu quả lắm cơ mà, Lệ Lệ dám lừa mình!”
+
+“Huhu, chắc chắn là tại cái tên giám đốc đáng ghét kia phá đám rồi, Phi Phi chỉ muốn ăn thêm chút đồ ăn vặt thôi mà...”
+
+Tiếp đó là một tràng âm thanh lăn lộn ăn vạ trên nền đất.
+
+Tôi cạn lời.
+
+Lệ Lệ là con sư tử ở khu chuồng bên cạnh, chi tiết này thì tôi biết rõ.
+
+Nhưng đám động vật ở đây không thấy mình kỳ quặc quá rồi sao?
+
+Đầu óc tôi còn đang mơ hồ thì điện thoại bất ngờ nhận được một lời mời kết bạn.
+
+Tài khoản gửi đến dùng ảnh đại diện là một gương mặt cười nhếch mép đầy mỉa mai, phần tiểu sử ghi “Vườn thú thành phố Nam”, còn tên hiển thị chỉ là một dấu chấm. Lời nhắn kèm theo vỏn vẹn hai chữ: Tin chưa?
+
+Tôi ngơ ngác nhìn màn hình.
+
+Rồi nhanh tay bấm đồng ý, gửi đi ba bông hồng cùng ba biểu tượng mỉm cười: “Giám đốc quả nhiên đoán việc như thần.”
+
+Giám đốc đáp lại bằng một biểu tượng mỉm cười ngắn gọn: “Làm việc cho tốt nhé :)”
+
+Tôi lặng người.
+
+Tôi lập tức lưu số anh ấy với tên “Giám đốc”. Có điều chữ G nằm tận cuối bảng chữ cái, mỗi lần muốn tìm lại phải kéo xuống đáy danh sách.
+
+Được một lúc, tôi quyết định đổi thành “AAA Giám đốc”.
+
+Như vậy anh ấy sẽ nhảy lên vị trí đầu tiên, tiện hơn nhiều.
+
+Sau một thời gian gắn bó, tôi đã dần quen với hầu hết các loài vật trong vườn thú.
+
+Đồng thời, tôi cũng nắm được phần lớn những suy nghĩ thường ngày của chúng.
+
+Như đàn khỉ ở khu vườn khỉ chẳng hạn. Ban đầu tôi cứ ngỡ chúng xúm lại vì quý mến mình, cho đến khi nghe rõ từng lời chúng chí chóe: “Haha, cô nhân viên chăm sóc độc thân lại đến kìa!”
+
+“Cho tôi xem với, cho tôi xem với, cô ấy vẫn chưa có bồ à!”
+
+“Làm sao mà có được, nhân viên trong sở thú mình chẳng phải đều lập gia đình hết rồi sao?”
+
+“Thế nên cô ấy mới là lính mới đấy!”
+
+“Cô chăm sóc viên trông xinh xắn thế, vậy mà chẳng có anh nào dòm ngó nhỉ.”
+
+“Haha, Tiểu Ôn ế lòi, Tiểu Ôn ế lòi!”
+
+Đứng giữa vòng vây của bầy khỉ, tôi chỉ biết cạn lời.
+
+Người đôi khi còn chẳng bằng khỉ, câu này quả thật không sai chút nào.
+
+Một ví dụ khác là con Sếu Nhật Bản kiêu sa, khỏe mạnh ở khu vườn sếu. Thường ngày trông nó lúc nào cũng thong dong như mây trời, nhưng thực ra ngày nào nó cũng muốn lôi tôi vào những cuộc bàn luận triết lý nhân sinh.
+
+“Đồng chí Tiểu Ôn, sức khỏe mới là vốn quý nhất,” Sếu Nhật Bản vừa nhẹ nhàng dùng mỏ rỉa lông, vừa ôn tồn cất giọng. “Cô nên học theo nếp sinh hoạt khoa học của tôi.”
+
+Tôi thở dài: “... Sếu đại ca ơi, 7 giờ tối là cậu đã đi ngủ rồi, tôi làm sao theo kịp.”
+
+Thỉnh thoảng nổi hứng, nó cũng đưa mắt đánh giá những du khách ghé thăm.
+
+“Gã kia sao cứ dán mắt vào cô nhân viên chăm sóc lâu thế nhỉ? Chẳng phải gã đã có bạn đời rồi sao?” Sếu Nhật Bản xòe rộng đôi cánh, câu nào thốt ra cũng nặng giọng giáo huấn. “Đồng chí Tiểu Ôn, cô tuyệt đối không được để mấy kẻ hai lòng này lừa đâu đấy.”
+
+Tôi đành gật đầu: “... Vâng, Sếu đại ca.”
+
+Nó cũng đặc biệt quan tâm đến tình hình chung của sở thú. Mỗi lần nghe Phi Phi và Lệ Lệ gầm gào đòi ăn, nó lại đưa ra một nhận xét hết sức sắc sảo: “Đồng chí Tiểu Ôn, với lũ trẻ không được nuông chiều quá. Hoa trồng trong nhà kính mà không trải qua mưa gió thì làm sao lớn nổi?”
+
+Tôi đáp: “Tôi nhất định sẽ không nuông chiều chúng đâu.”
+
+Sếu Nhật Bản có vẻ rất hài lòng. Nhưng chẳng biết chợt nhớ đến chuyện gì, giọng nó bỗng nghiêm khắc hẳn: “Tôi còn nghe nói, con công ở chuồng bên cạnh dám mời cô xem nó xòe đuôi, để đổi lấy việc cô tìm bạn đời cho nó. Đây rõ ràng là hành vi hối lộ, phải dập tắt ngay từ trong trứng nước!”
+
+Tôi vội trấn an: “... Con công đó chưa đến mùa giao phối đâu, chắc nó chỉ nói đùa thôi. Cậu cứ yên tâm, tôi nhất định sẽ kiểm điểm nó thật nghiêm khắc!”
+
+Còn Phi Phi ở vườn hổ thì sao.
+
+Tính nó vốn hoạt bát và ngây thơ. Dù tôi không cho thêm thức ăn, nó cũng chẳng giận dỗi, ngày nào cũng vui vẻ tự lẩm bẩm một mình.
+
+Thỉnh thoảng nó lại quay sang trò chuyện với chú chim nhỏ đậu trên đỉnh đầu.
+
+Đôi khi nó cũng hỏi tôi: “Chị chăm sóc ơi, bao giờ giám đốc mới về thế?”
+
+Thấy dáng vẻ đáng yêu ấy, tôi mỉm cười, khẽ nói: “Để chị giúp em...” hỏi thăm thử xem sao nhé.
+
+Nào ngờ ngay giây sau, nó đã gầm lên hai tiếng đầy phấn khích: “Tốt nhất là đừng bao giờ về nữa, haha!”
+
+Tôi thở dài, cạn lời.
+
+Giám đốc ơi, rốt cuộc anh đã đặt niềm tin nhầm chỗ rồi.
+
+Thỉnh thoảng giám đốc cũng nhắn cho tôi vài tin. Toàn là những câu hỏi công việc mang tính thủ tục, như hỏi tình hình ca làm, dạo này tâm trạng ra sao, hiện tại thế nào, hay sở thú có điểm nào cần cải thiện không. Và cuối mỗi tin, anh luôn không quên nhắc đến chuyện “thưởng thêm tiền”.
+
+Lòng tôi tràn ngập cảm kích, vừa hoang mang vừa xúc động đến mức muốn rơi nước mắt.
+
+Kể từ ngày về làm ở vườn thú Nam Thành, tôi thấy vận xui của mình đã tan biến hẳn. Giám đốc chắc chắn chính là vị quý nhân trong đời tôi!
+
+Tôi đã tỉ mỉ chuẩn bị một món quà nhỏ để tặng anh. Đó là một chiếc đồng hồ đeo tay, giá trị không lớn nhưng đong đầy tấm lòng.
+
+Giám đốc hình như đã đi công tác suốt cả tháng trời, chẳng rõ có việc quan trọng gì mà phải đi lâu đến thế.
+
+Trong lúc giao ca, tôi tò mò hỏi chị quản lý một câu. Chị nhìn tôi bằng ánh mắt hơi lạ, rồi đưa tay che miệng cười: “Tiểu Ôn này, em vẫn chưa gặp giám đốc lần nào à?”
+
+Tôi bỗng thấy căng thẳng: “Vâng ạ...”
+
+“Chắc cũng sắp rồi đấy,” chị quản lý ngẫm nghĩ một lát rồi nói. “Dạo này giám đốc bận đàm phán hợp tác với Hoa Dương, hôm qua nghe đâu đã chốt xong rồi.”
+
+Hoa Dương sao?
+
+Đó chẳng phải một trong những tập đoàn giải trí hàng đầu hiện nay à? Một sở thú thì hợp tác được gì với giới showbiz chứ?
+
+Tôi ngơ ngác hỏi: “Chị Thái ơi, giám đốc của chúng ta là người nổi tiếng ạ?”
+
+Chị quản lý bật cười thành tiếng: “Em nói gì thế Tiểu Ôn. Banana TV thuộc tập đoàn Hoa Dương sắp làm một chương trình thực tế, và địa điểm ghi hình đầu tiên chính là vườn thú của chúng ta đấy.”
+
+Thông tin này khó tin đến mức tôi sững người, không nói nổi lời nào.
+
+“Vườn thú mình mới đi vào hoạt động nên rất cần quảng bá rộng rãi. Hợp tác với Hoa Dương để quay chương trình là phương án truyền thông tối ưu nhất,” chị quản lý mỉm cười giải thích. “Mà đó là nguyên văn lời giám đốc thôi, chứ chị cũng không rành mấy chuyện này lắm đâu.”
+
+Tôi thốt lên: “... Giám đốc... giỏi thật đấy...”
+
+Nguồn quảng bá đỉnh cao như thế mà cũng mang về dễ dàng được sao? Anh ấy đúng là quá cừ!
+
+Chị quản lý bước tới vỗ nhẹ vai tôi: “Giám đốc còn nhắc riêng đến em nữa đấy.”
+
+Tôi ngạc nhiên: “Hả?”
+
+“Tiểu Ôn này, em giấu nghề kỹ thật. Chẳng ai trong tụi chị biết trước đây em làm nghề gì. Nếu giám đốc không nói anh ấy từng xem em biểu diễn, chắc tụi chị cũng chẳng ngờ mình được làm việc chung với người trong giới giải trí lâu đến thế.”
+
+Tôi sững lại.
+
+Giám đốc từng xem tôi biểu diễn sao? Là khi nào cơ chứ? 
+
+*****
+
+Tôi mới bước chân vào ngành giải trí vẻn vẹn ba tháng thôi mà? Số lần nhảy nhót chỉ đếm trên đầu ngón tay, lại toàn ở mấy buổi triển lãm cosplay nhỏ lẻ. Một thực tập sinh vô danh như tôi mà cũng có người để ý ư?
+
+Không nhận ra tôi đang bàng hoàng, chị quản lý vẫn vui vẻ nói tiếp: “Mọi người còn định xin giám đốc đoạn video em nhảy để xem thử nữa cơ...”
+
+Tôi suýt ngất.
+
+Trước mắt tôi tối sầm lại. Đây chính là khoảnh khắc đen tối nhất trong sự nghiệp của tôi, có thể coi là một pha “chết” về mặt xã hội.
+
+“Nhưng giám đốc bảo anh ấy không giữ video, lần đó là xem trực tiếp,” chị quản lý đổi giọng, mặt lộ rõ vẻ tiếc nuối. “Tiểu Ôn vừa xinh lại có dáng chuẩn thế này, nhảy chắc chắn đẹp lắm. Vừa hay tiệc tất niên năm nay của chúng ta đang thiếu một tiết mục văn nghệ...”
+
+Vừa mới thở phào xong, tôi lại suýt sặc nước bọt: “Chị Thái ơi, chuyện này... hay để sau rồi tính nhé, đồ ăn em đặt hình như sắp giao tới rồi...”
+
+Đến lúc này chị quản lý mới chịu để tôi đi.
+
+Thoát nạn trở về phòng, tôi đờ đẫn nhìn màn hình điện thoại với tấm ảnh đại diện đầy vẻ mỉa mai, trong lòng rối như tơ vò.
+
+Quá khứ đen tối bị phơi bày khiến tôi đứng ngồi không yên. Nhưng việc giám đốc tế nhị không đào sâu thêm lại làm tôi cảm kích vô cùng.
+
+Nhìn thái độ của chị Thái, rõ ràng chị chẳng biết quãng thời gian làm nghệ sĩ của tôi ngắn ngủi đến mức nào. Dù chị có công tìm trên mạng thì cũng không tra ra cái tên Ôn Vị Hi.
+
+Vậy nên, giám đốc thật sự đã biết đến tôi từ trước sao?
+
+Anh nắm rõ quá khứ mờ nhạt chỉ kéo dài ba tháng của tôi, thế mà vẫn vui vẻ nhận tôi vào làm, còn trả mức lương và khoản thưởng rất hậu hĩnh.
+
+Tôi thầm nghĩ: giám đốc đúng là một người tốt.
+
+... Giá mà xóa được ký ức về lần anh xem tôi nhảy thì trọn vẹn biết bao.
+
+Sáng hôm sau, tôi lại có mặt ở vườn thú để bắt đầu ca làm.
+
+Hôm nay là thứ Tư, ngày thường vốn không đông khách, nhưng tình hình lại có chút khác lạ.
+
+Tôi vừa cầm đồ ăn định đi tới chuồng Phi Phi thì thấy một đoàn người đang tiến về phía mình.
+
+Dẫn đầu là hai thanh niên. Một người có gương mặt thanh tú, nụ cười dịu dàng, mái tóc nhuộm màu hạt dẻ dài vừa phải. Anh ta tò mò ngó nghiêng xung quanh, thỉnh thoảng lại quay sang trao đổi điều gì đó với người đàn ông trung niên đi phía sau.
+
+Còn người kia... ánh mắt tôi vừa chạm phải anh ta, tôi đã đứng khựng lại mất vài giây.
+
+Nguyên do chẳng có gì phức tạp: người thanh niên này đẹp đến mức khiến người ta ngỡ ngàng.
+
+Khung xương mặt hoàn hảo, đôi mắt và hàng lông mày sắc nét như bước ra từ tranh vẽ. Mái tóc đen tuyền đi cùng đôi mắt trầm sâu, dù chỉ mặc bộ đồ thường ngày đơn giản và đội chiếc mũ lưỡi trai trắng, ở anh vẫn toát lên vẻ quý phái trầm lắng.
+
+Vậy mà nét mặt anh lại không hề lạnh nhạt. Khóe môi anh khẽ nhếch thành một nụ cười lười biếng, không quá nhiệt tình nhưng cũng chẳng chút băng giá.
+
+Nụ cười ấy gợi cho tôi một cảm giác quen thuộc lạ lùng, như thể tôi đã gặp ở đâu đó rồi.
+
+“Chà, anh Quý này, người chăm sóc hổ lại là một cô gái đấy,” người thanh niên tóc hạt dẻ lên tiếng khi thấy tôi. “Đúng là hiếm thấy thật.”
+
+Người tóc đen không vội đáp. Anh lặng lẽ nhìn tôi một lúc lâu rồi mới thong thả nói: “Hổ giấy thôi, không cắn người đâu.”
+
+Tôi tròn mắt, hoang mang.
+
+Vị khách này có vẻ rất quen thuộc với nơi đây. Giọng anh nghe rất bắt tai, lại mang một giai điệu mà hình như tôi từng nghe qua.
+
+Có điều tôi vốn ít khi chủ động bắt chuyện với du khách, nên nhanh chóng quay về việc cho Phi Phi ăn.
+
+Nhưng trái hẳn với vẻ tinh nghịch thường ngày, lúc này Phi Phi lại co rúm vào góc tường, rên hừ hừ nho nhỏ.
+
+Lòng đầy lo lắng, tôi bước lại gần hơn một chút thì chợt nghe nó lẩm bẩm: “Sao cái tên giám đốc kia lại quay về rồi thế này.”
+
+“Ngày tháng làm đại vương của Phi Phi thế là tiêu tùng rồi...”
+
+“Từ giờ hết đường lười biếng rồi...”
+
+Tôi đứng hình tại chỗ.
+
+Đúng lúc ấy, người thanh niên tóc hạt dẻ cười nói: “Anh Quý này, sao tôi cứ có cảm giác con hổ này nhận ra anh, còn nhân viên của anh thì lại có vẻ chẳng biết anh là ai nhỉ.”
+
+Một tia sáng xé tan mọi mơ hồ trong đầu tôi.
+
+Nụ cười nhếch môi trên gương mặt anh lúc này chẳng phải trùng khớp hoàn toàn với biểu tượng cảm xúc trên ảnh đại diện của vị giám đốc kia sao?
+
+Ngay sau đó, người thanh niên tóc đen nhướn mày, cất giọng trong trẻo: “Tiểu Ôn?”
+
+Giám đốc đấy sao?!
+
+Cuối cùng cũng nhận ra sự thật, tôi giật nảy mình, vội đứng thẳng lưng: “Có mặt ạ!”
+
+Người thanh niên tóc hạt dẻ không nhịn được, bật cười thành tiếng trước phản ứng của tôi.
+
+“Em chào giám đốc ạ,” tôi cuống quýt lên tiếng, căng thẳng đến mức nói cũng lắp bắp. “Xin lỗi anh, em... em không nhận ra anh...”
+
+“Nhân viên mới à?” Người thanh niên tóc hạt dẻ chen ngang. “Thảo nào tôi chưa gặp cô bao giờ.”
+
+“Cậu nói hơi nhiều rồi đấy.” Giám đốc đang mỉm cười nhưng nét mặt thoáng vẻ giễu cợt, lời nói cũng chẳng khách khí. “Mau dẫn cậu ta đi dạo một vòng đi, tham quan xong thì cậu về được rồi.”
+
+Dứt lời, anh quay sang dặn tôi: “Không sao đâu, em cứ tiếp tục làm việc đi.”
+
+“Sao anh lại vội thế,” người thanh niên tóc hạt dẻ chẳng chút giận, còn đưa mắt đánh giá tôi. Ánh nhìn ấy hoàn toàn lịch sự, không khiến người ta khó chịu. “Cô là Tiểu Ôn đúng không?”
+
+Tôi bị đặt vào thế bị động, chưa biết ứng xử ra sao nên chỉ lúng túng gật đầu “vâng” một tiếng.
+
+“Trông cô quen lắm,” anh ta chìm vào suy ngẫm một hồi rồi ngẩng đầu lên. “Anh Quý này, anh đã không muốn làm người hướng dẫn cho chương trình, hay để cô nhân viên này nhận đi?”
+
+Tôi hoàn toàn ngơ ngác: “Hả?”
+
+“Tôi nhớ ra rồi, tôi từng gặp cô nhé,” anh ta nói, giọng dịu dàng mà đầy ẩn ý. “Cô từng hoạt động trong ngành giải trí đúng không? Ngoại hình và khí chất đều rất sáng, lên hình chắc chắn rất hợp.”
+
+Tôi càng lúc càng hoang mang: “Hả?”
+
+“Nếu cô không phiền, chúng ta qua văn phòng giám đốc trao đổi chút nhé?” Anh ta đưa tay làm động tác mời. “Anh Quý thấy sao?”
+
+Giám đốc không trả lời thẳng mà quay sang nhìn tôi: “Phải xem em có muốn nhận hay không đã.”
+
+Thấy giám đốc không tỏ ý khó chịu hay phản đối, tôi rụt rè gật đầu: “Vậy anh cứ nói đi ạ.”
+
+Nửa giờ sau, ngồi trong văn phòng giám đốc rộng rãi, ngập tràn ánh sáng, tôi mới nắm rõ ngọn ngành câu chuyện.
+
+Chương trình thực tế về du lịch mà chị quản lý nhắc đến hôm qua mang tên 《TA Và Hành Trình Kỳ Diệu Của Họ》, và thủ tục ký kết đã hoàn tất thật. Người thanh niên đi cùng giám đốc tên Mạc Tầm, giữ chức lãnh đạo cấp cao tại Hoa Dương, đồng thời là tổng đạo diễn của dự án. 
+
+Hôm nay anh ta ghé qua để khảo sát bối cảnh, hai ngày nữa sẽ chính thức dựng trường quay tại sở thú.
+
+Có điều ê kíp đang thiếu một người hướng dẫn tại chỗ để dẫn dắt các khách mời làm thử thách. Họ từng ngỏ ý mời giám đốc nhưng anh từ chối, nên Mạc Tầm mới chuyển sang nhắm vào tôi.
+
+“Nhưng tôi mới vào làm chưa lâu, hiểu biết về vườn thú còn hạn chế lắm ạ,” tôi ngượng ngùng ngập ngừng. “Trong sở thú còn nhiều người phù hợp hơn tôi.”
+
+“Cô cứ yên tâm, công việc này có thù lao đàng hoàng,” Mạc Tầm lắc lắc ngón tay, ra hiệu cho trợ lý đưa bản hợp đồng về phía tôi. “Cô xem qua các điều khoản đãi ngộ đi. Hợp đồng này hoàn toàn độc lập, không ảnh hưởng đến hợp đồng lao động của cô ở vườn thú. 
+
+Hơn nữa đây là dự án hợp tác chung, giám đốc của cô đã gật đầu rồi nên vẫn tính là giờ làm việc bình thường, không bị trừ lương đâu.”
+
+Giám đốc im lặng, coi như ngầm chấp thuận lời Mạc Tầm.
+
+Tôi vốn đã định mở miệng từ chối, vậy mà mắt lại không cưỡng được, lướt xuống phần con số thù lao.
+
+Thấy con số khiến người ta hoa mắt chóng mặt ấy, tôi hít sâu một hơi.
+
+... Cả đời này tôi chưa từng chạm đến số tiền lớn như vậy.
+
+Tôi là trẻ mồ côi, lớn lên nhờ tiền trợ cấp xã hội. Dù vận xui luôn đeo bám, may mà tôi chưa từng gặp biến cố quá lớn. Tôi vừa đi học vừa đi làm thêm, nhờ sự hỗ trợ của nhà nước mà học hết đại học, cứ thế bình yên trưởng thành.
+
+Nhưng đồng thời, tôi cũng nghèo khó vô cùng.
+
+Nếu không vì túng thiếu, tôi đã chẳng nhắm mắt ký hợp đồng với công ty quản lý để dấn thân vào giới giải trí.
+
+Ước mơ lớn nhất đời tôi là dành dụm mua được một căn nhà của riêng mình. Tội nghiệp thay, từ ngày tốt nghiệp đến nay, số dư tài khoản ngân hàng của tôi chưa một lần vượt quá năm chữ số. Tôi luôn phải chắt bóp từng đồng, nên việc có nhà vẫn là giấc mơ quá xa vời.
+
+Mắt tôi dán chặt vào con số trong hợp đồng, chẳng kịp tính toán gì thêm: “... Giám đốc ơi, em nhận việc này được không ạ?”
+
+Mạc Tầm không nhịn được bật cười: “Sao cô lại phải xin phép anh ta?”
+
+Anh ta quay sang nhìn vị giám đốc đang ngồi lặng lẽ bên cạnh bằng ánh mắt trêu đùa: “Hazzz, nhân viên của anh ngoan như đứa trẻ được anh nuôi lớn ấy nhỉ, làm gì cũng phải hỏi ý anh mới chịu.”
+
+Mặt tôi lập tức nóng bừng. Tôi vội lên tiếng giải thích giúp giám đốc: “Giám đốc là cấp trên của em, làm nhân viên đương nhiên phải theo sự sắp xếp của sếp rồi ạ.”
+
+Giám đốc cúi xuống nhìn tôi, nói gọn: “Em muốn thử thì cứ nhận đi.”
+
+Tôi vẫn còn băn khoăn: “Thế còn công việc chăm sóc động vật hằng ngày của em thì sao ạ...”
+
+“Hôm nào không trùng lịch quay thì em vẫn đi cho chúng ăn bình thường, hôm nào vướng lịch thì tôi sẽ bố trí người làm thay,” anh lại nở nụ cười lười biếng quen thuộc, giọng đầy khích lệ. “Tiểu Ôn này, đây là bước khởi đầu cho chiến dịch truyền thông của vườn thú. Nếu làm tốt, cuối tháng tôi sẽ thưởng thêm cho em.”
+
+Tôi lại một lần nữa xúc động đến nghẹn lời, đến mức chẳng hề để ý biểu cảm kỳ lạ trên mặt Mạc Tầm.
+
+“Chà...” Mạc Tầm xoa xoa hai cánh tay đang nổi da gà, cố giữ nụ cười trên môi. “Thế cô xem kỹ lại hợp đồng đi, nếu không còn thắc mắc gì thì chúng ta ký. Còn kịch bản và quy trình cụ thể, tôi sẽ gửi sau để cô làm quen.”
+
+Tôi vẫn đang chìm trong quyết tâm đền đáp kỳ vọng của cấp trên: “Tôi nhất định sẽ nỗ lực hết mình!”
+
+Trước ngày bấm máy chính thức, tôi dành thời gian nghiên cứu kỹ danh sách dàn khách mời.
+
+Gồm nam diễn viên thực lực Dư Dạ Bạch, nữ diễn viên Thư Di, ngôi sao lưu lượng Hạ Tuế An, nam ca sĩ Vương Hành Xuyên và Tề Tuyền, thành viên một nhóm nhạc nữ.
+
+Cả năm người đều có lượng người hâm mộ đông đảo. Nhất là ba người sau, họ từng trải qua giai đoạn sự nghiệp ảm đạm cùng hàng loạt ồn ào. Nhưng sau khi cùng tham gia một chương trình thực tế, tên tuổi của họ đã nổi lại. Dù chương trình ấy về sau bị cấm phát sóng, tôi vẫn từng nghe danh họ.
+
+Tập đoàn Hoa Dương quả xứng danh ông lớn ngành giải trí, quy tụ được dàn sao chất lượng đến vậy.
+
+Sau vài buổi tập dượt và ghi nhớ từng bước trong kịch bản, tôi bắt đầu tìm cách dặn dò các loài vật trong sở thú. Tôi mong chúng nhiệt tình hợp tác suốt quá trình ghi hình, tuyệt đối đừng gây khó dễ cho các vị khách mời.
+
+Nhất là đàn khỉ, tôi phải nhắc chúng đừng túm tụm chỉ trỏ rồi cười nhạo chuyện khách mời còn độc thân.
+
+Giám đốc từng trấn an tôi rằng “chúng sẽ ngoan ngoãn hợp tác thôi”. Nhưng anh đâu nghe hiểu được tiếng động vật, nên tôi vẫn thấy tự mình dặn trước thì yên tâm hơn.
+
+Ngay từ ngày đầu đi làm, tôi đã nhận ra các loài vật ở vườn thú Nam Thành có trí thông minh khác thường. Ở chúng hoàn toàn không có sự hoang dã khó thuần, trái lại còn mang một thứ gọi là “linh khí”, rất nhạy với cảm xúc của con người. Phần lớn chúng hiểu được lời tôi nói, vài con thậm chí còn trò chuyện qua lại với tôi mà không gặp trở ngại nào.
+
+Con hổ Phi Phi là một ví dụ.
+
+Nó hào hứng hỏi tôi: “Chị Tiểu Ôn ơi, liệu có khách mời nào chọn em không nhỉ?”
+
+Theo thể lệ, mỗi khách mời sẽ chọn một con vật làm bạn đồng hành suốt quá trình quay.
+
+Nhưng theo quan sát của tôi, người ta thường ưu tiên những loài nhỏ nhắn, an toàn như chim chóc, cáo hay gấu mèo. Trong điều kiện bình thường, ai đủ dũng cảm mà chọn một con hổ dữ làm bạn đồng hành chứ!
+
+Nhìn dáng vẻ oai phong nhưng đầy kỳ vọng của Phi Phi, tôi không nỡ nói dối mà cũng chẳng muốn làm nó thất vọng, đành ngập ngừng: “Hay là... chị chọn em nhé?”
+
+“Được chứ, được chứ!” Phi Phi nhảy cẫng lên vì sung sướng. “Thế còn Lệ Lệ thì sao ạ? Lệ Lệ cũng muốn có bạn đồng hành nữa!”
+
+Tôi cạn lời.
+
+Không biết trả lời thế nào, tôi đành chọn cách lờ câu hỏi của nó đi.
+
+Đến ngày chương trình chính thức bấm máy, giám đốc cũng có mặt tại hiện trường.
+
+Anh hoàn toàn khác với hình ảnh “thoắt ẩn thoắt hiện” mà tôi từng thầm tưởng tượng. Từ khi kết thúc chuyến công tác, hầu như ngày nào anh cũng có mặt ở sở thú.
+
+Lúc thì anh ngồi trong văn phòng xử lý giấy tờ, lúc lại thong dong đi “tuần tra”.
+
+Hai chữ này bỗng nảy ra trong đầu tôi. Tôi có cảm giác vị giám đốc ăn mặc đơn giản, tưởng như đang dạo chơi kia thực ra đang rất nghiêm túc giám sát từng khoảng không gian, giống một vị vua đi kiểm tra lãnh thổ của mình.
+
+Mỗi khi bóng anh xuất hiện, các loài vật đều ngoan ngoãn lạ thường.
+
+Có lúc anh đứng tựa lưng vào hàng rào bên hồ nước trong vườn sếu. Nắng rực rỡ phủ lên anh, phản chiếu xuống mặt nước, tạo thành một khung cảnh hòa quyện tuyệt đẹp với thiên nhiên.
+
+Vậy mà lần nào anh cũng nhạy bén nhận ra ánh nhìn của tôi. Anh thong thả đút hai tay vào túi quần rồi quay người lại: “Tiểu Ôn?”
+
+“Em chào giám đốc ạ,” tôi ngoan ngoãn đáp. “Em mang đồ ăn đến cho Sếu đại ca... à không, cho Sếu Nhật Bản ạ.”
+
+“Đưa xô đây cho tôi,” anh nói nhẹ nhàng, ánh mắt dịu lại. “Để tôi cho nó ăn.”
+
+“... Vâng ạ.”
+
+Tôi không dám ngước nhìn anh quá lâu, chỉ lặng lẽ cúi đầu đưa xô thức ăn sang.
+
+Giám đốc có vẻ ngoài quá cuốn hút. Tôi luôn sợ nếu cứ mải nhìn anh, mình sẽ ngẩn ngơ ra đó rồi làm những hành động ngốc nghếch, xấu hổ.
+
+Đến ngày quay đầu tiên, dàn khách mời và toàn bộ ê kíp đã tập trung đông đủ. Xung quanh tôi, các đồng nghiệp đang hào hứng bàn tán xem ngôi sao nào đẹp trai nhất. Còn ánh mắt tôi lại vô thức trôi về phía giám đốc đang đứng ở một góc.
+
+“Tiểu Ôn này, em thấy sao?” Một cô đồng nghiệp quay sang hỏi tôi. “Hạ Tuế An đẹp trai cực kỳ đúng không?”
+
+Tôi giật mình, ngơ ngác “Hả” một tiếng rồi lúng túng đáp: “Vâng, chắc vậy ạ.”
+
+Tôi liếc nhìn Hạ Tuế An. Phải thừa nhận nam nghệ sĩ này rất điển trai, có điều phong thái hoàn toàn khác giám đốc. Hạ Tuế An có gương mặt tuấn tú, nụ cười ấm áp như ánh mặt trời, và đôi mắt to tròn dễ mến.
+
+So với anh ta, giám đốc có vẻ đẹp “góc cạnh” và sắc bén hơn, là một sức hút đầy quyến rũ.
+
+“Nhưng Dư Dạ Bạch cũng siêu đẹp trai nhé!” Một đồng nghiệp khác lập tức phản bác. “Đúng chuẩn đóa hoa tuyết trên núi cao, gu của tôi đấy.”
+
+“Tiểu Ôn, em thấy Dư Dạ Bạch đẹp trai hơn hay Hạ Tuế An đẹp trai hơn?”
+
+Tôi ngập ngừng: “... Ờm, cái này... hai người họ theo hai phong cách khác nhau, khó so lắm ạ.”
+
+Miệng nói vậy, nhưng trong lòng tôi vẫn kiên định cho rằng giám đốc mới là người đẹp nhất. Có điều suy nghĩ này tuyệt đối không thể nói ra, nên tôi chọn im lặng.
+
+Mắt tôi lại vô thức tìm bóng dáng giám đốc. Lần này hình như anh cũng nhận ra, và ánh mắt hai chúng tôi bất ngờ chạm nhau.
+
+Tôi vội cúi gằm mặt, giả vờ như không có chuyện gì.
+
+Đúng lúc ấy, chiếc điện thoại trong túi bỗng rung lên.
+
+AAA Giám đốc: “Em đang thấy căng thẳng à?”
+
+Tôi đoán giám đốc đã nhận ra sự lo âu, bối rối của tôi. Nhưng nguyên nhân của cảm xúc ấy hoàn toàn chẳng liên quan gì đến buổi quay hình!
+
+Cố nén sự xấu hổ đang dâng lên, tôi bấm phím trả lời: “Dạ có một chút ạ.”
+
+Giám đốc không nhắn lại. Thế nhưng ngay giây sau, tôi cảm nhận bầu không khí xung quanh bỗng yên tĩnh hẳn.
+
+Tôi ngẩng lên nhìn sang bên cạnh. Giám đốc đã đến từ lúc nào, đôi mắt đen sâu thẳm dưới vành mũ lưỡi trai dán chặt vào tôi: “Tôi cứ nghĩ em đã quá quen với những ống kính thế này rồi chứ.”
+
+Rõ ràng anh biết rất rõ quãng thời gian ngắn ngủi tôi từng làm nghệ sĩ.
+
+Mặt tôi nóng bừng, hai tai đỏ lan cả sang vành tai. Giọng tôi nhỏ đi thấy rõ: “Em chỉ sợ xảy ra sự cố ngoài ý muốn, làm ảnh hưởng đến hình ảnh của vườn thú mình thôi ạ.”
+
+“Sẽ không có chuyện đó đâu,” anh khẽ nhướn mày, thong thả nói. “Tiểu Ôn này, hãy tự tin lên. Em là nhân viên mà tôi vô cùng tin tưởng. Hơn nữa, họ cũng không dám cắt ghép linh tinh đâu.”
+
+“Không phải chuyện đó ạ,” tôi hơi xịu mặt. “Giám đốc ơi, em vốn cực kỳ xui xẻo, thuộc kiểu đi trên đường bằng phẳng cũng vấp ngã được...”
+
+“Nhưng sao tôi lại thấy, từ ngày em về đây làm, vườn thú của chúng ta ngày càng phát triển tốt nhỉ?” Giám đốc không phủ nhận lời tôi. “Hay là em đã chia bớt vận may của mình cho mọi người xung quanh rồi?”
+
+Giọng anh đầy ý cười, trong trẻo êm tai như đang trêu đùa, nhưng thái độ lại rất nghiêm túc.
+
+Theo phản xạ, tôi cãi lại: “Vậy chắc là nhờ giám đốc... và vườn thú đã chia vận may cho em mới đúng ạ.”
+
+“Thế chẳng phải rất tốt sao,” giám đốc nhìn tôi, ánh mắt như dịu đi vài phần, khóe môi hơi cong lên. Nụ cười ấy không giống mọi khi, chẳng chứa thêm cảm xúc nào ngoài sự khích lệ thuần túy. “Yên tâm đi, tôi sẽ luôn ở ngay phía sau quan sát em. Cho dù em có vấp ngã, tôi cũng sẽ đỡ em dậy.”
+
+Buổi ghi hình chính thức bắt đầu. Khi dàn khách mời đã tập hợp đủ, tôi hít một hơi thật sâu, bước lên phía trước tự giới thiệu: “Xin chào tất cả mọi người, tôi là Ôn Vị Hi, nhân viên chăm sóc động vật tại vườn thú Nam Thành. Tôi cũng là người phụ trách hỗ trợ giao tiếp giữa mọi người và các loài vật trong suốt hành trình kỳ diệu này.”
+
+“Wow,” Tề Tuyền mở to đôi mắt lấp lánh như ngàn sao. “Cô hướng dẫn viên xinh quá đi!”
+
+Tôi hơi ngượng, mỉm cười đáp lại.
+
+Hạ Tuế An vui vẻ chào tôi, còn Dư Dạ Bạch chỉ gật đầu ngắn gọn: “Chào cô.”
+
+Thư Di mỉm cười thân thiện, vẻ đẹp kiều diễm hiện rõ trên gương mặt: “Trông cô trẻ hơn tôi nhiều lắm, tôi gọi cô là cô giáo Tiểu Ôn nhé?”
+
+Vương Hành Xuyên không đợi tôi trả lời đã tươi cười tiếp lời: “Vậy thì cô giáo Tiểu Ôn ơi, chuyến đi này phiền cô hỗ trợ chúng tôi nhiều nhé.”
+
+Các khách mời đều rất gần gũi, dường như chẳng ai khó chiều. Tôi thở phào nhẹ nhõm, bắt đầu dẫn mọi người vào quy trình chính.
+
+“Tiếp theo, chúng ta sẽ chọn bạn đồng hành cho mình,” tôi đưa cho mỗi người những bức ảnh chụp các loài vật. “Chọn xong, mọi người có thể tự do lại gần và làm quen với bạn đồng hành của mình.”
+
+Điểm dừng chân đầu tiên của chúng tôi là khu chuồng hổ.
+
+Phi Phi đang thong dong ngắm cảnh. Vừa thấy có người đến gần, nó phấn khích nhảy chồm lên rồi lao về phía rào chắn: “Chị Tiểu Ôn ơi!”
+
+Con hổ to lớn bất ngờ lao đến gào gầm khiến dàn khách mời giật thót, vội lùi lại vài bước.
+
+Riêng tôi thì hoàn toàn bình tĩnh: “Đây là Phi Phi, nó vừa mới trưởng thành thôi ạ. Mọi người đừng lo, tính nó rất hoạt bát, thích nhảy nhót như thế này lắm.”
+
+Phi Phi rạo rực: “Chị Tiểu Ôn ơi, có ai chọn em không?”
+
+Tôi ngập ngừng: “... Có vị khách mời nào muốn chọn Phi Phi làm bạn đồng hành không ạ?”
+
+Mọi người nhìn nhau.
+
+Việc hợp tác với “bạn đồng hành” không nhất thiết phải tiếp xúc quá gần, nhưng rõ ràng chẳng ai đủ gan nhận một con hổ dữ làm bạn đồng hành trong chương trình.
+
+Nhìn đôi mắt sáng rực đầy kỳ vọng của Phi Phi, tôi đành cắn răng nói thêm: “Thật ra Phi Phi... ngoan lắm ạ.”
+
+Để tỏ ý hợp tác, Phi Phi lại lao sát hàng rào sắt, gầm vang hai tiếng.
+
+Tôi cạn lời.
+
+Các khách mời cũng lặng người.
+
+Bầu không khí rơi vào im lặng ngượng ngùng. Đúng lúc tôi định lên tiếng bỏ cuộc thì một con bướm nhỏ từ đâu bay ngang qua.
+
+Sự chú ý của Phi Phi lập tức bị hút theo, nó bắt đầu vờn con bướm.
+
+Nhưng trong mắt các khách mời, đó không phải là vờn bướm, mà là nó đang nhe nanh gầm gừ dữ dội, trông như sắp chồm ra khỏi chuồng tấn công người ngoài.
+
+Sợ mọi người hoảng, tôi vội lên tiếng với nó: “Phi Phi ơi, để chị bắt con bướm giúp em nhé. Em lùi lại một chút đi, đừng làm nó sợ.”
+
+Ngay trước sự kinh ngạc của các khách mời, Phi Phi thật sự ngoan ngoãn lùi lại hai bước. Nó ngồi bệt xuống đất, không gầm gừ thêm tiếng nào, chiếc đuôi dài còn khẽ đung đưa sang hai bên, hệt như một chú mèo nhà.
+
+“Cô giáo Tiểu Ôn ơi, con hổ này nghe hiểu lời cô nói thật sao?” Thư Di hỏi với vẻ không thể tin nổi. “Nó vừa định bắt bướm thật à?”
+
+“Không thể nào, sao lại có con hổ thông minh đến thế, hay là nó đã qua huấn luyện?” Tề Tuyền mở to mắt cảm thán. “Cô giáo Tiểu Ôn giỏi quá đi mất!”
+
+“Không phải huấn luyện đâu ạ, sở thú chúng tôi tuyệt đối không tổ chức biểu diễn động vật,” nghe hai chữ huấn luyện, tôi vội đính chính. “Tôi cũng mới vào làm chưa lâu, là do Phi Phi tự hiểu được tiếng người đấy ạ.”
+
+Nói xong, nhờ hai tháng rèn tay nghề, tôi nhẹ nhàng chộp lấy con bướm xui xẻo kia, cẩn thận giữ trong lòng bàn tay: “Phi Phi, lại đây nào.”
+
+Phi Phi mừng rỡ chạy sát rào chắn. Tôi thản nhiên đặt con bướm lên chóp mũi nó, tiện tay vuốt phần lông trên trán có hình chữ “Vương”.
+
+“Phiền ê kíp chèn thêm dòng phụ đề giúp em với ạ,” làm xong tôi mới sực nhớ, vội quay sang dặn máy quay. “Đây là hành động nguy hiểm, du khách khi tham quan động vật hoang dã vui lòng giữ khoảng cách an toàn một mét, tuyệt đối không áp sát hàng rào, trẻ em không được bắt chước theo!”
+
+Hành động của tôi khiến các khách mời bật cười khoái chí. Hạ Tuế An hỏi: “Nếu tôi chọn nó làm bạn đồng hành, tôi có thể chạm vào đầu nó như cô giáo Tiểu Ôn vừa làm không?”
+
+Anh ta ngập ngừng một nhịp rồi tự sửa lại: “... Thật ra không cần chạm vào đầu đâu, chỉ cần được lại gần một chút là tốt lắm rồi.”
+
+Tôi không nén được nụ cười: “Được chứ ạ.”
+
+Tề Tuyền cảm thán: “Anh An dũng cảm thật đấy.”
+
+Hạ Tuế An hơi ngại: “Tôi chỉ sợ ma thôi, chứ hổ thì không sao.”
+
+Phi Phi cũng nghe rõ câu này: “Chị Tiểu Ôn ơi, anh ấy chọn em rồi đúng không!”
+
+Thấy nó vui mừng như vậy, tôi cũng phấn khởi lây: “Vậy bạn đồng hành của anh Hạ sẽ là Phi Phi nhé.”
+
+Những lượt chọn sau đó diễn ra rất suôn sẻ. Tề Tuyền trúng tiếng sét ái tình với Sếu Nhật Bản, nhất quyết đòi chọn Sếu đại ca. Tôi phải mất rất nhiều thời gian trò chuyện với Sếu đại ca, cuối cùng nó mới “miễn cưỡng” gật đầu phối hợp với cô gái nhỏ.
+
+Thư Di chọn cáo tuyết. Cáo nhỏ Tiểu Tuyết vốn đã ao ước được lên sóng truyền hình từ lâu nên lần này thỏa nguyện hoàn toàn. Vương Hành Xuyên chọn gấu mèo nhỏ. Còn Dư Dạ Bạch thì chia sẻ rằng anh rất yêu các loài động vật dưới nước, nên muốn ghé khu thủy cung.
+
+Cuối cùng, anh chọn chú cá voi trắng nhỏ mới chào đời cách đây không lâu.
+
+Mẹ của cá voi nhỏ tên Hoan Hoan, bố tên Lạc Lạc, còn nó được đặt tên là Tiểu Bạch. Thấy tôi tiến lại, nó vui vẻ hỏi: “Chị Tiểu Ôn ơi, hôm nay chị có xuống nước bơi với em không?”
+
+Nó ngoi cái đầu tròn ủm lên khỏi mặt nước cho tôi vuốt ve. Nhưng sợ tay mình mang vi khuẩn, tôi chỉ vốc một vốc nước, nhẹ nhàng hất lên người nó: “Hôm nay chị không xuống nước được, nhưng anh này sẽ xuống chơi với em đấy.”
+
+Dư Dạ Bạch vốn nổi tiếng với khả năng bơi lội đỉnh cao. Anh từng gây sốt với một phân cảnh quay dưới nước trong dự án phim điện ảnh. Nghe tôi nói vậy, anh ngồi xuống mép bể, đưa tay vẫy chào Tiểu Bạch.
+
+Tiểu Bạch lập tức bơi lại gần Dư Dạ Bạch: “Em chào anh ạ.”
+
+Âm thanh của cá voi trắng trong trẻo như tiếng hát. Nó cất lên vài tiếng “hu hu” nho nhỏ, làm tan chảy trái tim của tất cả những người có mặt.
+
+Tề Tuyền ôm lấy hai má, quay sang cảm thán với tôi: “Cô giáo Tiểu Ôn ơi, động vật ở sở thú mọi người thông minh quá! Đáng yêu không chịu nổi!”
+
+Vương Hành Xuyên cũng đồng tình: “Hơn nữa cô giáo Tiểu Ôn giao tiếp với chúng gần như không có rào cản, thật sự rất thần kỳ.”
+
+Cả ngày dài, buổi ghi hình diễn ra rất trôi chảy, không gặp bất kỳ sự cố nào. Khi máy quay tắt, tôi khẽ thở phào, đưa tay xoa vùng cổ hơi mỏi rồi hướng mắt về phía đoàn làm phim.
+
+Giám đốc vẫn đứng ở vị trí cũ, thậm chí còn mỉm cười với tôi.
+
+Anh giơ ngón cái về phía tôi, ánh mắt hoàn toàn bình thản, nhưng tôi lại có cảm giác mạnh mẽ rằng anh đang đợi tôi bước lại gần.
+
+Tôi gỡ tai nghe xuống, vừa định đi về phía anh thì đoạn đường rải đá cuội dưới chân bỗng hơi trơn. Tôi vừa xoay người đã trượt chân ngã.
+
+Dù thời điểm này chẳng thích hợp chút nào, trong lòng tôi lại dâng lên cảm giác mọi chuyện đã được an bài từ trước: hóa ra rốt cuộc mình vẫn bị ngã, may mà không rơi vào lúc máy quay đang chạy.
+
+Nhưng tôi còn chưa kịp tự trấn an xong thì một bàn tay rắn rỏi đã kịp thời siết lấy cánh tay tôi.
+
+Người ấy nhẹ nhàng đỡ lấy lưng tôi, giữ tôi đứng vững rồi mới thong thả buông ra. Sau đó, anh đưa tay chỉnh lại chiếc mũ hơi lệch trên đầu mình.
+
+“Tôi đã bảo là tôi đỡ được em mà,” anh cúi xuống nhìn tôi, giọng như đang trêu đùa. “Dù em có muốn vấp ngã cũng không ngã nổi đâu.”
+
+Mọi cử chỉ của giám đốc đều rất mực thước. Bàn tay anh đã rời khỏi lưng tôi từ lâu, giờ anh đứng yên tại chỗ với vẻ thản nhiên, trong mắt vẫn phảng phất nét cười nhạt.
+
+Thế mà tôi lại đứng ngây ra, ngẩng nhìn anh, tim đập dồn như tiếng trống trong lồng ngực.
+
+Một cảm xúc mãnh liệt trào lên, kéo theo một nhận thức rõ ràng đến mức không thể ngăn lại, hiện ra trong đầu tôi:
+
+Thôi xong thật rồi, Ôn Vị Hi ơi.
+
+Mày đã trót nảy sinh những cảm xúc không nên có với cấp trên của mình rồi.
+
+Tôi về phòng trọ trong trạng thái gần như mất hồn.
+
+Suốt hai mươi hai năm qua, tôi chưa từng có tiếp xúc gần gũi nào với người khác giới, chứ đừng nói đến chuyện rung động.
+
+Thật ra tôi cũng chẳng có nhiều cơ hội thân thiết với giám đốc. Tôi không hiểu rõ con người anh, cũng không giải thích nổi vì sao mình lại trót thích anh.
+
+Chẳng lẽ... có lẽ... chỉ vì giám đốc quá đẹp trai thôi sao?
+
+Nhưng tôi lại thấy hình như mình đã manh nha mến mộ anh từ trước khi hai người chính thức gặp mặt.
+
+Hay là vì giám đốc cứ luôn hứa thưởng thêm tiền cho tôi nhỉ?
+
+Khả năng này hình như cũng rất có lý.
+
+Hoặc cũng có thể vì trong cuộc đời ngập tràn xui xẻo của tôi, đột nhiên xuất hiện một người đứng ra che chở cho tôi một lần.
+
+Kể từ ngày gặp giám đốc, mọi chuyện quanh tôi đều trôi chảy và tươi đẹp hơn hẳn, như bầu trời quang đãng sau cơn mưa tăm tối.
+
+Anh chính là bước ngoặt kỳ diệu trong đời tôi, khiến tôi không sao cưỡng lại được nhịp đập của trái tim.
+
+Sau khi nghĩ thấu đáo mọi chuyện, tôi lặng lẽ nhìn bức ảnh đại diện đang mỉm cười của anh trên màn hình điện thoại.
+
+Nhưng tôi thích giám đốc thì đã sao chứ? Chẳng lẽ tôi dám nói cảm xúc này với anh?
+
+Tôi lấy đâu ra gan mà làm chuyện đó! Giám đốc xuất sắc đến thế, người như tôi liệu có với tới được không?
+
+Tự mắng mình một trận tơi bời xong, tôi lại nhìn sang món quà đã chuẩn bị sẵn cho giám đốc, đang đặt trên bàn.
+
+Lớp giấy gói màu trắng điểm vài trái tim nhỏ, ban đầu nhìn thì chẳng sao, nhưng giờ tôi lại thấy nó lộ liễu và rối ruột quá, liền vội tháo ra đổi sang một lớp giấy khác.
+
+Đúng rồi, phải mau dập tắt thứ tình cảm này, đi ngủ sớm thôi. Tuyệt đối không được để giám đốc đánh hơi ra chuyện này.
+
+Năm tiếng đồng hồ trôi qua.
+
+Lúc hai giờ sáng, tôi mò mở khung chat với vị thầy bói nọ.
+
+“Tôi muốn hỏi thầy một chuyện,” tôi gõ từng chữ với đôi mắt thâm quầng. “Liệu có khả năng nào không, tôi chỉ hỏi thử thôi nhé... vị quý nhân của tôi có thể giúp tôi gỡ luôn cả chuyện tình duyên không?”
+
+Không ngờ thầy bói cũng là dân cú đêm chính hiệu, hai giờ sáng vẫn hoạt động năng nổ.
+
+Thầy bói nhắn lại: “?”
+
+Tôi nói tiếp: “Tôi hỏi vu vơ thế thôi, hay thầy xem giúp tôi đường tình duyên dạo này thế nào nhé?”
+
+Thầy bói phán thẳng một câu: “Cô thích người ta rồi chứ gì.”
+
+Tôi lặng người.
+
+Thầy bói gửi tiếp: “Yên tâm đi cô bé, tôi vừa gieo quẻ rồi, đây là mối thiên định lương duyên, trai tài gái sắc nhé!”
+
+Tôi tuyệt vọng đáp: “Thôi đi thầy ơi, tôi biết thầy chỉ đang an ủi tôi thôi. Tôi đi ngủ đây, chúc thầy ngủ ngon.”
+
+Chuyển khoản tiền xem quẻ xong, tôi trùm chăn kín đầu, quyết gạt hết suy nghĩ miên man để chìm vào giấc ngủ.
+
+Tôi vốn không có nhiều bạn bè vì mải đi làm thêm kiếm sống, quan hệ với bạn cùng phòng cũng chỉ dừng ở mức xã giao.
+
+Chẳng biết tâm sự chuyện thích giám đốc với ai, tôi quyết định đem nó chia sẻ với đám động vật trong sở thú.
+
+Nhất là sau mấy ngày ghi hình vừa rồi, tôi đã rất thân với vài bạn đồng hành là động vật. Việc tâm sự chuyện riêng với chúng vì thế trở nên hết sức tự nhiên, mà làm vậy thì sẽ chẳng ai phát hiện ra bí mật của tôi.
+
+Thế nhưng rõ ràng loài vật không thể hiểu nổi những trăn trở tình cảm của con người.
+
+Ví như khi tôi hỏi Phi Phi: “Phi Phi ơi, em thấy giám đốc là người thế nào?”
+
+Phi Phi gầm lên: “Đồ tồi tệ!”
+
+Tôi ngập ngừng: “Thế nếu có ai đó lỡ thích giám đốc thì sao...”
+
+Phi Phi đáp: “Thế thì thích em còn hơn! Chị Tiểu Ôn ơi, kẻ nào lại đi thích cái tên giám đốc đó thế, em sẽ méc Lệ Lệ rồi hai đứa cùng cười nhạo kẻ đó!”
+
+Tôi cạn lời.
+
+Nếu Lệ Lệ biết chuyện thì coi như cả sở thú này đều hay. Lần sau gặp tôi, đàn khỉ ở khu vườn khỉ thế nào cũng vây quanh, chế giễu tôi là “kẻ ngốc đi thích giám đốc”.
+
+Viễn cảnh đó tuyệt đối không thể để xảy ra.
+
+Tôi quyết định đổi sang tâm sự với một nhân vật khác. Sếu Nhật Bản tính tình chính trực, có lẽ sẽ phù hợp hơn.
+
+“Sếu đại ca này,” tôi vừa cho nó ăn vừa khó khăn mở lời, “cậu có đang thầm thích con sếu nào không?”
+
+Sếu đại ca quả không hổ danh Sếu đại ca, lập tức đi thẳng vào vấn đề: “Đồng chí Tiểu Ôn, có phải cô đang gặp rắc rối gì không?”
+
+Tôi hơi khựng lại: “Cũng không hẳn ạ, chỉ là tôi đang đơn phương thích một người thôi.”
+
+“Ừm,” Sếu đại ca trầm ngâm một nhịp. “Là chàng trai nhà nào thế? Đưa tới đây để tôi nghía qua xem sao. Nếu được, tôi sẽ nhờ đàn sếu trong vườn đi nói giúp cho cô.”
+
+Tôi ngập ngừng: “... Sếu đại ca ơi, là giám đốc đấy...”
+
+“Giám đốc sao?” Sếu Nhật Bản lập tức mất hẳn vẻ bình tĩnh thường ngày, quay ngoắt đầu lại nhìn tôi. “Đồng chí Tiểu Ôn, cô đã suy nghĩ kỹ chưa đấy?”
+
+Tôi ngơ ngác: “Hả?”
+
+“Nếu là giám đốc thì càng tốt! Chúng ta sẽ học theo đàn ngỗng trời, xếp thành hình chữ Cửu (九) để hỗ trợ cô tỏ tình,” Sếu đại ca quyết đoán nói. “Ngay tối nay bày tỏ luôn nhé?”
+
+Tôi hốt hoảng xua tay: “Đừng mà Sếu đại ca!”
+
+Tốn bao công sức thuyết phục, con sếu đỉnh đầu đỏ mới chịu miễn cưỡng bỏ ý định đứng ra làm mối cho tôi.
+
+Thích một người đâu nhất thiết phải vội vã bày tỏ ngay. Tôi chỉ muốn kiếm vài lời khuyên để gỡ rối tâm lý, chứ nào dám tơ tưởng xa xôi gì với vị giám đốc ấy.
+
+Ở trạm dừng chân cuối, tôi đến gần Tiểu Tuyết, con cáo tuyết có vô số kinh nghiệm chuyện tình cảm.
+
+Tiểu Tuyết chăm chú nghe tôi giãi bày tâm sự. Xong nó thong thả rỉa lại bộ lông: “Cô nhân viên chăm sóc ơi, chuyện này có gì khó đâu chứ.”
+
+Tôi thở dài thườn thượt: “Chị biết là mình nên từ bỏ, nhưng mà...”
+
+“Ai bảo chị phải từ bỏ cơ chứ?” Tiểu Tuyết mở to mắt nhìn tôi. “Chị chưa nghe câu ‘vẻ đẹp truyền cảm, tâm hồn lạc quan’ sao? Chị xinh đẹp thế này, chỉ cần dùng chút thủ đoạn nhỏ là giám đốc sẽ dễ dàng bị chị chinh phục ngay thôi!”
+
+Tôi ngơ ngác, hoang mang: “Hả?”
+
+Tiểu Tuyết tiếp tục chia sẻ: “Chị đã bao giờ nghĩ xem đàn ông tư duy bằng cái gì chưa? Chị hoàn toàn có thể một mình vào văn phòng anh ta, giọng ngọt ngào mà bày tỏ tình cảm. Đúng lúc đó giả vờ để hở vai áo một chút, tỏ ra đáng thương trước mặt anh ta. Cơm đã thành cháo rồi thì mọi chuyện sẽ tự nhiên thôi!”
+
+Đây... đây chẳng phải là chiêu trò dụ dỗ sao?
+
+Hai tai tôi đỏ ửng, nói năng vấp váp: “... Sao... sao làm thế được chứ? Giám đốc là người rất chính trực, hơn nữa anh ấy cũng rất đẹp trai nữa...”
+
+Tiểu Tuyết nhìn tôi bằng ánh mắt kỳ quặc: “Cũng đúng nhỉ, có lẽ chị vẫn chưa biết...”
+
+Nó còn chưa nói hết câu thì xung quanh bỗng vang lên tiếng chó sủa rộn rã.
+
+Tôi cúi xuống, thấy một chú chó phốc sóc lông trắng như tuyết đang hăng hái đào đất quanh hàng rào: “Tiểu Tuyết ơi, Tiểu Tuyết ơi, anh tới thăm em này!”
+
+Tôi cạn lời.
+
+Tiểu Tuyết đắc ý hất mặt: “Chị thấy chưa, chỉ cần dùng chút mưu mẹo nhỏ là ngay cả khác loài cũng tự mò đến tìm. Chẳng lẽ chị lại không làm nổi điều tương tự với giám đốc sao?”
+
+Tôi im lặng.
+
+Tiểu Tuyết vốn là mỹ nhân hàng đầu trong loài cáo, tôi làm sao dám đặt mình lên bàn cân so với nó cơ chứ.
+
+Quả thật là tôi đã quá mạo phạm rồi.
+
+Tâm sự với đám động vật xong thì đến giờ ghi hình.
+
+Lịch quay hôm nay trùng với ca làm của tôi, nhưng chị quản lý đã sắp xếp người làm thay nên tôi hoàn toàn yên tâm bước vào trường quay.
+
+Quay xong, tôi mới biết người nhận ca thay cho mình chính là giám đốc.
+
+Lúc này anh vừa bước ra khỏi khu chuồng hổ. Không rõ đang mải nghĩ điều gì mà gương mặt anh thoáng vẻ thẫn thờ. Phi Phi cũng nằm bẹp ở góc chuồng, ủ rũ, thấy tôi lại gần mà chẳng chồm lên gào gầm như mọi khi.
+
+Tôi còn đang đắn đo có nên gọi giám đốc không thì thấy anh cúi đầu, rút điện thoại từ trong túi ra.
+
+Hả?
+
+Tôi chớp chớp mắt. Chưa kịp hiểu chuyện gì thì điện thoại trong túi tôi đã rung lên rộn rã.
+
+Giám đốc quay đầu lại, vừa hay bắt gặp tôi đang lén tìm đường chuồn: “Tiểu Ôn.”
+
+Tôi rút điện thoại ra xem. Quả nhiên là tin nhắn của giám đốc, hỏi tôi đang ở đâu.
+
+Tôi ấp úng: “Giám đốc ơi, là anh đã giúp em cho chúng ăn đấy ạ?”
+
+Anh không trả lời câu hỏi đó, chỉ thong thả nhắc lại một cụm từ, giọng thản nhiên: “AAA Giám đốc sao?”
+
+Rồi anh khẽ nhướn mày: “Em không biết tên thật của tôi à?”
+
+Tôi giật mình nhận ra anh đã vô tình nhìn thấy tên lưu trong điện thoại của tôi. Chỉ muốn tìm cái hố nào chui xuống, giọng tôi nhỏ như tiếng muỗi kêu: “Em biết mà.”
+
+“Ồ...” Anh từ tốn gặng hỏi. “Thế tôi tên là gì?”
+
+“Quý Tinh Uyên ạ.” Tôi mím chặt môi. “Giám đốc ơi, em chỉ là... thêm chữ A vào để tên anh nhảy lên vị trí đầu tiên trong danh bạ thôi... nên là...”
+
+Giọng tôi nghẹn lại.
+
+Nhận ra mình vừa lỡ miệng nói ra điều gì trong lúc cuống quýt, tôi cứng đờ cả người, chỉ ước có thể biến mất khỏi trái đất ngay lập tức.
+
+“Chuyện đó không cần bận tâm nữa,” anh nói. “... Tôi muốn tìm hiểu một chuyện khác.”
+
+Tôi vội hỏi: “Chuyện gì thế ạ?”
+
+“Phi Phi bảo trong sở thú này có một kẻ ngốc đang đi thích một tên tồi tệ,” anh điềm nhiên hỏi. “Em có biết kẻ ngốc đó là ai không?”
+
+Nghe xong câu ấy, hồn tôi như bay mất khỏi xác. Tôi chỉ biết đứng trố mắt nhìn vị giám đốc trước mặt.
+
+Đầu óc tôi rối loạn: giám đốc biết chuyện rồi sao? Làm sao anh biết được? Chẳng lẽ giám đốc cũng nghe hiểu được tiếng động vật? Rốt cuộc anh đã nắm được bao nhiêu bí mật rồi?
+
+“Nếu em chịu nói cho tôi biết, tôi sẽ thưởng thêm tiền cho em.” Giọng anh trở nên rất dịu dàng, đôi mắt đen sâu thẳm dán chặt vào tôi không rời, ánh lên những tia trêu đùa. “Tiểu Ôn Đáng Yêu?”
+
+“Tiểu Ôn Đáng Yêu” chính là tên tài khoản Weibo của tôi thời còn làm nghệ sĩ.
+
+Thế nhưng tài khoản ấy chỉ có vài chục lượt theo dõi, phần lớn lại là tài khoản ảo, chẳng mấy ai biết đến. Sao lại có người nắm rõ đến thế cơ chứ.
+
+Mà người đó lại chính là giám đốc.
+
+Tôi có cảm giác bộ vi xử lý trong đầu sắp bốc cháy. Tôi vội đưa hai tay che gương mặt đang nóng bừng rồi xấu hổ bỏ chạy mất dạng.
+
+Giám đốc không đuổi theo, mặc cho tôi chạy xa.
+
+Chỉ là đến tối, anh lại nhắn tin cho tôi.
+
+“Đổi lại tên lưu trong điện thoại đi,” anh nhắn. “Thật ra em hoàn toàn có thể dùng tính năng ghim tôi lên đầu danh sách mà.”
+
+Tôi ngập ngừng hồi lâu mới gõ: “Em nên đổi thành tên gì bây giờ ạ?”
+
+Anh hỏi ngược lại: “Em tự nói xem?”
+
+Tôi không cưỡng được cảm giác mặt mình lại nóng lên, trong lòng vẫn hoang mang: “Giám đốc ơi... có phải mọi chuyện giống như em đang nghĩ không ạ?”
+
+Giám đốc nhắn lại: “Nếu không thì là gì? Trông tôi giống loại người thích quấy rối nữ nhân viên cấp dưới trong môi trường công sở lắm sao?”
+
+Tôi hỏi tiếp: “Nhưng tại sao lại như thế ạ?”
+
+Giám đốc đáp: “Em muốn biết thật à? Mai sang văn phòng tôi.”
+
+Tôi định gật đầu đồng ý ngay, nhưng chợt nhớ lại những lời Tiểu Tuyết từng truyền thụ, cảm giác bộ vi xử lý lại muốn bốc cháy lần nữa.
+
+Tôi quyết định lái sang chuyện khác: “Anh cũng nghe hiểu được tiếng động vật nói sao ạ?”
+
+“Ừm,” anh đáp. “Gia đình tôi có năng lực thiên bẩm nghe hiểu tiếng muông thú. Ban đầu gia đình mở vườn thú là để cứu chữa cho những con vật bị thương. Sau khi giúp chúng khôn ra, tụi tôi sẽ thả chúng về với tự nhiên.”
+
+Anh nhắn thêm: “Tất nhiên cũng có vài con tự tìm đến rồi nhất quyết không chịu đi, nên vườn thú Nam Thành mới hoạt động liên tục đến giờ.”
+
+Trong đầu tôi dâng lên muôn vàn thắc mắc: “Anh nghe hiểu tiếng động vật... vậy sao em cũng nghe được ạ?”
+
+Giám đốc không nhắn trả lời ngay. Một lúc sau, anh gửi sang một đoạn ghi âm.
+
+“Ai mà biết được,” giọng anh pha chút ý cười. “Có lẽ vì em chính là người vợ định mệnh của nhà họ Quý chăng?”
+
+Tôi lặng người.
+
+Chiếc điện thoại trên tay tuột khỏi ngón, rơi bịch xuống mặt tôi đau điếng.
+
+Tôi cứ tưởng đêm nay sẽ mất ngủ, nhưng lạ thay, tôi lại nhanh chóng chìm vào giấc ngủ sâu.
+
+Tôi như vừa mơ một giấc mơ rất đẹp. Dù không nhớ rõ chi tiết, lúc tỉnh dậy khóe môi tôi vẫn nở một nụ cười rạng rỡ.
+
+Sáng hôm sau, tôi mang hộp quà đã chuẩn bị cho giám đốc, đến gõ cửa văn phòng anh trước giờ ghi hình.
+
+Theo tôi tìm hiểu, giám đốc luôn là người đến vườn thú sớm nhất, có thể coi là một người chủ rất tận tâm và có trách nhiệm.
+
+“Sao em đến sớm thế?” Hôm nay cũng không ngoại lệ, giám đốc ra mở cửa. Thấy chiếc hộp trong tay tôi, anh thoáng khựng lại. “Quà tặng sao?”
+
+Tôi gật đầu: “Vâng ạ.”
+
+“Ồ, vậy em định tặng món quà này cho ai?” Quý Tinh Uyên tựa lưng vào khung cửa, bình thản nhìn tôi.
+
+“Tặng cho ai ạ?” Tôi hơi ngơ ngác. “Đương nhiên là tặng anh rồi.”
+
+“Anh là ai cơ?” Anh mỉm cười. “Là chủ nhân, là giám đốc? Hay là...”
+
+Tôi lập tức hiểu ẩn ý trong lời anh. Chiếc hộp trên tay bỗng nóng hổi lạ thường, tôi vội nhấn mạnh: “Đây là quà tặng giám đốc, tặng vị sếp kính yêu của em ạ!”
+
+“Thế thì tôi xin nhận thay giám đốc vậy,” Quý Tinh Uyên cúi thấp người, ghé sát vào vành tai tôi. “Nhưng bây giờ chưa tới giờ làm việc, tôi vẫn chưa phải giám đốc đâu đấy.”
+
+Tôi sững người ra đó. Ngay sau đấy, cả gương mặt tôi đỏ gay, nhưng tôi vẫn kiên quyết không lùi bước: “Vậy anh có thể giúp em hỏi giám đốc câu hỏi hôm qua được không ạ?”
+
+“Chuyện đó sao,” anh khẽ cười. “Đơn giản thôi, anh là một người hâm mộ của Tiểu Ôn Đáng Yêu.”
+
+Đầu óc tôi ong ong: “Một người như em mà cũng có fan sao...”
+
+“Nếu anh nói anh đã yêu em ngay từ cái nhìn đầu tiên, em có nghĩ anh là kẻ quá hời hợt không?” Anh ngẫm nghĩ một nhịp. “Nói ngắn gọn thì lần đầu thấy em bước trên sân khấu, anh đã thấy cô gái này đáng yêu vô cùng, nên sau đó cứ lặng lẽ dõi theo em...”
+
+Chuyện vốn diễn ra như thế này.
+
+Đó là một ngày đông lạnh giá. Anh dắt Tiểu Tuyết đi dạo, tình cờ thấy tôi đứng dưới ánh đèn sân khấu.
+
+Khi ấy chắc tôi đang rất lạnh, nhưng nét mặt vẫn không hề đổi. Những bước nhảy của tôi chưa thật uyển chuyển, thậm chí còn vụng về, nhảy một lúc suýt nữa trượt ngã. Vậy mà chẳng hiểu sao ở tôi lại toát ra một nét đáng yêu vô cùng lạ.
+
+Có lẽ chính thái độ nghiêm túc ấy, cùng đôi mắt sáng rực như chứa ngàn vì sao, đã tạo nên sức hút kỳ diệu.
+
+Thậm chí sau khi biểu diễn xong, anh còn tận mắt thấy tôi suýt vấp ngã lần nữa trên đường về. Nhưng tôi nhanh chóng lấy lại thăng bằng, thản nhiên mua một tờ vé số rồi cẩn thận cất vào túi áo.
+
+Quý Tinh Uyên không nhịn được bật cười.
+
+Rõ ràng là một cô gái luôn gặp xui xẻo, vậy mà ngày nào cũng nghiêm túc đón nhận.
+
+Có lẽ chính nét đáng yêu ấy đã chinh phục trọn trái tim anh.
+
+Tiểu Tuyết từng trêu: “Giám đốc ơi, anh bị sắc đẹp làm cho mê muội rồi à?”
+
+Anh không hề phủ nhận: “Tiểu Ôn thật sự rất xinh đẹp.”
+
+Phần lớn mọi người rung động trước thần tượng của mình chỉ cần một khoảnh khắc vừa mắt ngay lần đầu là đủ.
+
+Sau này Quý Tinh Uyên từng có ý định dùng các mối quan hệ gia đình để tìm thêm tài nguyên cho tôi. Nhưng tôi lại đột ngột rút khỏi giới giải trí rồi tự tìm đến làm ở vườn thú.
+
+Sự giao thoa thật sự với người mình hâm mộ, những khoảnh khắc đồng hành bên nhau, sự chăm sóc ân cần cùng niềm ngưỡng mộ thuần túy dần dần chuyển hóa, đơm hoa kết trái thành thứ tình cảm đặc biệt giữa nam và nữ.
+
+Đơn giản chỉ là một câu chuyện, trong đó có kẻ tự nguyện ngã vào lưới tình.
+
+Tập đầu tiên của chương trình thực tế “TA Và Hành Trình Kỳ Diệu Của Họ” chính thức lên sóng.
+
+Chương trình lập tức như một quả ngư lôi thả xuống lòng nước, khuấy lên những con sóng dữ dội.
+
+Vườn thú Nam Thành bỗng chốc thành cái tên nổi khắp các nền tảng, và... hình như tôi cũng nổi theo.
+
+Trên Weibo, chủ đề thảo luận về chương trình tràn ngập khắp nơi. Dàn động vật xuất hiện trong các phân cảnh được khán giả yêu thích đến mức khó tin, hàng loạt hình vẽ sáng tạo và sản phẩm ăn theo nhanh chóng ra đời.
+
+Tôi cũng lướt xem vài bình luận trên mạng, phần lớn đều là những lời khen tích cực.
+
+“Cô hướng dẫn viên dễ thương quá chừng, tôi mê đắm đuối luôn rồi!!!”
+
+“Phân cảnh cô ấy thuần phục con hổ ngầu đét luôn, cả nhà tôi xem mà phải quỳ lạy.”
+
+“Động vật ở sở thú này thông minh dã man, nhìn Phi Phi rồi nhìn lại mấy bé nhà mình... Đúng là thua xa hổ nhà người ta!”
+
+“Tôi cười xỉu đoạn Tề Tuyền cầu xin Sếu đại ca ban phước. Đáng lẽ cô ấy phải đi tìm cá chép may mắn chứ, xin Sếu Nhật Bản thì có tác dụng gì chứ?”
+
+“Mọi người có soi thấy cơ bụng của Dư Dạ Bạch lúc xuống nước không? Ôi mẹ ơi, anh ấy quyến rũ dã man! [hình ảnh]”
+
+“Tiểu Bạch: Anh nóng bỏng hay em nóng bỏng hơn nào? [hình ảnh]”
+
+“Thư Di làm tôi cười muốn xỉu, cô ấy hỏi Tiểu Ôn về chú chó phốc sóc kia, và cô ấy đáp rằng nó đã trót yêu Tiểu Tuyết từ cái nhìn đầu tiên. Biểu cảm bối rối của cô ấy đúng là... haha!”
+
+“Đoạn cô giáo Tiểu Ôn dắt chú chó phốc sóc về tận nhà hài muốn chết!! Cô ấy hình như không ngờ ê kíp lại quay lại phân đoạn đó, cái cảm giác gượng gạo vì không muốn nói với chủ rằng cún cưng nhà họ đang mê một con cáo khác loài...”
+
+“Cảnh Vương Hành Xuyên cho gấu mèo nhỏ ăn chính là liều thuốc bổ tinh thần của tôi trong tuần này [biểu tượng][biểu tượng]”
+
+“Mọi người không thấy dàn khách mời hài dã man sao? Cô giáo Tiểu Ôn giao tiếp với muông thú thì thành thạo vô cùng, còn dàn khách mời thì ngơ ngác chẳng biết phải làm sao.”
+
+“Dư Dạ Bạch ơi, anh là nam thần cao ngạo duy nhất của giới giải trí cơ mà, đừng có mỗi lần thấy Tiểu Bạch lại cười ngốc nghếch thế chứ! Trước đây xem Dư Dạ Bạch tôi toàn ngưỡng mộ, giờ xem chỉ thấy: Đây là con trai ngốc nhà ai thế này?”
+
+“... Xem khách mời mà tôi như thấy lại chính mình... Trước khi thành con sen của mèo, tôi cũng từng lạnh lùng tuyên bố sẽ chẳng bao giờ thèm thích mèo...”
+
+“Thật ra tôi muốn bật mí là cô giáo Tiểu Ôn từng làm nghệ sĩ đấy nhé, tôi vẫn nhớ mình từng xem cô ấy diễn trên sân khấu rồi.”
+
+“Cô giáo Tiểu Ôn vừa dịu dàng lại vừa cuốn hút, tôi xin đề xuất đạo diễn quay thêm series Người Đẹp Và Quái Thú, tôi nguyện cày 20 tập mỗi ngày (nói đùa thôi nha).”
+
+“Mọi người không để ý vị giám đốc xuất hiện thoáng qua trong ống kính sao... Trời ơi, anh ấy đẹp trai nhức nhối...”
+
+“Có ai muốn gom vé đi chung không? Vé vào vườn thú Nam Thành đã cháy sạch trong ba tháng tới rồi, tôi khó khăn lắm mới giật được một suất vé nhóm mười người đây này [biểu tượng]”
+
+Thấy những làn sóng thảo luận sôi nổi ấy, toàn thể nhân viên sở thú chúng tôi đều vô cùng phấn khởi.
+
+Mạc Tầm cũng rất mãn nguyện: “Dự án đầu tay mà gặt hái thành công rực rỡ thế này, quả nhiên tôi là ngôi sao may mắn của giới giải trí.”
+
+Quý Tinh Uyên thong thả nói: “Chương trình tạo hiệu ứng tốt thế này, xem ra phải tăng lương cho Tiểu Ôn mới được.”
+
+Mạc Tầm chẳng chút giận. Ánh mắt anh ta dừng lại ở hai bàn tay đang đan chặt vào nhau của Quý Tinh Uyên và tôi, rồi tủm tỉm cười: “Lần trước tôi đã định bóc phốt rồi, hình nền điện thoại trước đây của anh cũng là ảnh của Tiểu Ôn đúng không? Giả vờ làm vị sếp mẫu mực giỏi gớm nhỉ, làm tôi nổi hết cả da gà.”
+
+Quý Tinh Uyên đáp lại bằng nụ cười nhếch môi đặc trưng: “Lo cho bản thân cậu trước đi, kẻ đang bị bầy khỉ vây quanh gọi là ‘Đạo diễn độc thân Tiểu Mạc’ kìa.”
+
+Mạc Tầm cạn lời.
+
+Đúng vậy, từ ngày tôi thoát kiếp độc thân, đối tượng bị đàn khỉ lôi ra làm trò đùa chính là Mạc Tầm.
+
+Mạc Tầm chủ động lái sang chuyện khác: “Ngày mai là tập quay cuối cùng rồi, chủ đề là khách mời đặc biệt xuất hiện, anh hoàn toàn có thể lên sóng đấy.”
+
+Quý Tinh Uyên hỏi ngược lại: “Sao tôi phải lên sóng?”
+
+“Giả vờ giả vịt làm gì cơ chứ,” Mạc Tầm cười nhẹ. “Tôi thấy ngày nào anh cũng mò lên mạng đọc mấy bình luận nhận Tiểu Ôn làm vợ, chắc tức phát điên rồi đúng không? Sao không nhân cơ hội này công khai luôn với khán giả cả nước đi?”
+
+Tôi quay sang nhìn nét mặt Quý Tinh Uyên: “... Thật vậy sao anh?”
+
+Tôi cứ tưởng anh chẳng bao giờ dùng đến Weibo cơ đấy.
+
+Quý Tinh Uyên cúi xuống nhìn tôi, khẽ mỉm cười: “Em cũng tin lời cậu ta à?”
+
+Rồi anh bồi thêm một câu: “Nhưng mà nói thật, đúng là có hơi khó chịu thật.”
+
+Mạc Tầm lại nổi da gà, xoa xoa hai cánh tay: “Sến súa quá đi mất.”
+
+Trong tập quay cuối, chương trình thiết kế một phần chơi đặc biệt: mỗi khách mời sẽ mời thêm người thân hoặc bạn bè cùng tham gia ghi hình.
+
+Khách mời đặc biệt không nhất thiết phải là người trong giới giải trí, có cả nghệ sĩ đã lui về ở ẩn lẫn những người làm công việc bình thường.
+
+Hạ Tuế An mời cô em gái Hạ Tuế Hoan, Tề Tuyền mời người đồng đội cũ Lâm Lạc, Thư Di mời nam diễn viên Tần Song, Dư Dạ Bạch mời người bạn thân ngoài ngành Tần An, còn Vương Hành Xuyên dắt theo cậu con trai nhỏ Vương Tiểu Bảo.
+
+Và tập này cũng đón thêm một người hướng dẫn, chính là giám đốc Quý Tinh Uyên.
+
+Chủ đề xuyên suốt của tập cuối là “lời chia tay”.
+
+Các khách mời phải hoàn thành thử thách cuối cùng, sau đó chính thức nói lời tạm biệt với bạn đồng hành của mình.
+
+Đứng trước những người bạn nhỏ đã gắn bó suốt bao ngày, ai cũng không giấu nổi sự lưu luyến.
+
+Đám động vật cũng vậy, chỉ là cách chúng bộc lộ cảm xúc lại hoàn toàn khác.
+
+Sếu Nhật Bản vẫn giữ nguyên phong thái, tiếp tục giáo huấn: “Từ nay về sau đừng có thức khuya cày CP nữa nhé, hãy học chế độ sinh hoạt của tôi thì mới có sức khỏe.”
+
+Chú gấu mèo nhỏ ngáp dài một cái: “Lần sau tới nhớ mang cho tôi mười gói mì ăn liền nhé, lần này tôi muốn hẳn mười gói cơ.”
+
+Cáo tuyết Tiểu Tuyết thì hăng hái truyền thụ kinh nghiệm: “Cái anh chàng cô thầm thích lần trước ấy, nghe tôi dặn này, cô phải làm thế này, rồi thế kia, cuối cùng là nắm chặt lấy anh ta.”
+
+Tôi đứng bên cạnh, giật thót cả người: “...” Cảm giác như mình vừa lỡ nắm giữ quá nhiều bí mật của các ngôi sao.
+
+Thấy các khách mời đều nóng lòng hướng mắt về phía mình, tôi nào dám truyền đạt lại nguyên văn những gì các bạn nhỏ vừa nói, chỉ đành ấp úng giải thích: “Sếu đại ca rất lo cho thói quen sinh hoạt của giới trẻ hiện nay, gấu mèo nhỏ mong lần sau ghé thăm sẽ lại được cùng nhau ăn đồ vặt, còn Tiểu Tuyết khuyên mọi người khi đứng trước lựa chọn thì nên dũng cảm tiến bước.”
+
+Tôi vừa dứt lời, giám đốc khẽ ho hai tiếng, mấy bạn nhỏ lập tức gật đầu hùa theo rất ăn ý.
+
+Các khách mời lại một lần nữa trầm trồ trước sự thông minh của động vật, còn tôi thì ghé sát tai anh nói nhỏ: “Giám đốc ơi, chúng nghe lời anh thật đấy.”
+
+Quý Tinh Uyên thong thả đáp: “Vậy từ nay anh sẽ bắt chúng phải nghe lời em.”
+
+Tôi không đáp, chỉ cố chỉnh lại mái tóc để che đôi vành tai đang nóng bừng.
+
+ê kíp quay phim vẫn túc trực ngay gần đó. Tôi có cảm giác mình như đang công khai hẹn hò trước bao nhiêu người, ngượng ngùng quá đi mất...
+
+Điểm dừng chân thứ tư là khu thủy cung.
+
+Dư Dạ Bạch lúc này chẳng còn giữ nổi hình tượng nam thần cao ngạo như trước. Phong thái lạnh lùng của anh đã hoàn toàn bị chú cá voi trắng đáng yêu làm cho tan chảy.
+
+Anh bước nhanh như gió, gần như không chờ nổi để lao tới chơi với cá voi.
+
+Nhưng vừa tới cửa, nét mặt anh lập tức đổi sắc. Anh quay lại, lo lắng hỏi tôi: “Cô giáo Tiểu Ôn ơi, Tiểu Bạch bị làm sao thế này?”
+
+Tôi lặng lẽ nhìn Tiểu Bạch đang liên tục ngoi lên lặn xuống, áp sát vách kính cường lực: “... Anh đừng lo, nó chỉ đang mài răng thôi ạ.”
+
+Không biết Tiểu Bạch học thói quen này từ ai, nhưng một chú cá voi trắng thì cần gì phải mài răng cơ chứ?
+
+Giám đốc khẽ mỉm cười, thong thả giải thích: “Dư Dạ Bạch từng khoe với nó là cậu ấy đang nhận quay quảng cáo kem đánh răng, nên Tiểu Bạch cũng muốn tập luyện để quay cùng đấy.”
+
+Thấy Tiểu Bạch thực sự dừng quậy phá ngay khi anh lại gần, Dư Dạ Bạch thở phào nhẹ nhõm. Anh cúi xuống nhẹ nhàng chạm vào nó, ánh mắt đầy yêu thương: “Tiểu Bạch ơi, anh sắp phải đi rồi, em ở lại phải tự chăm sóc bản thân thật tốt nhé, anh sẽ thường xuyên ghé thăm em...”
+
+Anh vẫn mải miết thủ thỉ tâm sự, trong khi các khách mời xung quanh cố nén cười.
+
+“Anh ấy hết làm nam thần cao ngạo rồi,” Tề Tuyền đưa ra một lời bình luận cực kỳ sắc bén. “Giờ chuyển sang làm bà mẹ hiền rồi.”
+
+Lần này mọi người không nhịn nổi nữa, cùng bật cười ầm cả không gian.
+
+Điểm dừng chân cuối cùng là khu chuồng hổ, bầu không khí hoàn toàn trái ngược với ngày đầu tiên.
+
+Ban đầu Hạ Tuế An có phần e sợ Phi Phi, nhưng sau nhiều ngày gắn bó, tình cảm anh dành cho nó đã trở nên rất sâu đậm. Lúc này anh cũng đầy lưu luyến.
+
+Phi Phi cũng ngoan ngoãn dúi đầu vào bàn tay anh: “Anh ơi, Phi Phi không muốn xa anh đâu.”
+
+Tất nhiên, câu tiếp theo Phi Phi liền lộ ngay bản chất: “Chỉ có anh mới lén cho Phi Phi thêm đồ ăn thôi, Phi Phi thèm đồ ăn vặt lắm...”
+
+Tôi cạn lời. Tốt nhất đừng để Hạ Tuế An đoán ra nó đang tơ tưởng điều gì.
+
+Đứng phía sau Hạ Tuế An là một cô bé mặc đồ đen, miệng ngậm cây kẹo mút. Gương mặt cô bé thanh tú, đôi mắt rất đẹp. Khi nắng chiếu vào, trông cô bé như một ngọn lửa vàng rực rỡ.
+
+Đó chính là em gái của Hạ Tuế An, Hạ Tuế Hoan.
+
+Hạ Tuế Hoan trông như vừa mới tròn tuổi trưởng thành. Cô bé tiến lại đứng cạnh tôi, đưa sang một cây kẹo mút: “Cô giáo Tiểu Ôn ơi, cảm ơn chị dạo này đã chăm sóc anh trai em nhé.”
+
+“Cũng chẳng tính là chăm sóc gì đâu em,” tôi nhận cây kẹo, mỉm cười đáp lại Hạ Tuế Hoan. “Cảm ơn em nhé.”
+
+Cô bé ngước nhìn lên đỉnh đầu tôi, ánh mắt thoáng vẻ trầm ngâm: “... Đã được hóa giải sạch sẽ rồi, lạ thật đấy.”
+
+Tôi ngơ ngác, hoang mang: “Hả?”
+
+“Ban đầu em định ra tay giúp chị,” cô bé lắc đầu. “Nhưng toàn bộ vận xui trước đây đeo bám chị đều đã được giải trừ hết rồi... Sau này chị sẽ không bao giờ gặp chuyện xui xẻo nữa đâu.”
+
+Hạ Tuế An từng kể rằng cô em gái này có khả năng xem quẻ khá chuẩn.
+
+Tôi ngơ ngác hỏi: “Tại sao lại thế được ạ?”
+
+“Em cũng không rõ nữa,” cô bé khẽ mỉm cười. “Vận xui tan đi do nhiều nguyên nhân khác nhau, có cái được giải nhờ tích góp công đức, có cái bị thiêu rụi bởi ngọn lửa kỳ lạ, và có cái... có lẽ chỉ giải thích được bằng hai chữ duyên phận.”
+
+“Nơi này rất hợp với chị,” cô bé nói. “Chị cũng đã gặp được một người rất tốt rồi.”
+
+Tôi thì thầm đáp: “Em giỏi thật đấy, sao em nhận ra được hay thế?”
+
+“Cái này thì chẳng cần đến thuật xem quẻ đâu,” Hạ Tuế Hoan vẫn thản nhiên, khóe môi khẽ nhếch lên. “Chỉ cần nhìn ánh mắt của giám đốc nhà các chị là nhận ra ngay.”
+
+Tôi cạn lời.
+
+Tôi chẳng dám quay sang nhìn giám đốc, sợ mình sẽ đỏ mặt ngay trước đông đảo mọi người, chỉ biết cố giữ vẻ bình thản.
+
+Buổi ghi hình chương trình khép lại trọn vẹn.
+
+Tẩy trang xong, tôi rút điện thoại ra định nhắn cho giám đốc thì giật mình phát hiện anh đã đổi ảnh đại diện từ lúc nào.
+
+Đó là một bức ảnh chụp tôi, trông còn non nớt hơn bây giờ khá nhiều. Có lẽ là khoảnh khắc được ghi lại từ một buổi biểu diễn trên sân khấu thời tôi còn làm nghệ sĩ.
+
+Tôi cứ tưởng mình không còn giữ tấm hình nào thời đó. Nhưng nếu thật sự không còn, thì làm sao giải thích được sự xuất hiện của bức ảnh có góc chụp được căn chỉnh tinh tế thế này?
+
+Bỗng chiếc điện thoại trên tay tôi rung lên rộn rã.
+
+Là tin nhắn của vị thầy bói nọ: “Lần trước tôi nói thật đấy nhé. Ban đầu đúng là tôi chỉ định an ủi cô thôi, nhưng sau đó tôi nhờ chính sư phụ mình gieo quẻ giúp, và kết quả đều hoàn toàn trùng khớp. Cô và vị quý nhân kia chính là mối duyên trời định, cô là người định mệnh của anh ấy, và anh ấy là người bạn trai được số phận an bài riêng cho cô...”
+
+Điện thoại lại rung tiếp.
+
+Chị Thái quản lý nhắn tới: “Tiểu Ôn ơi, tới hạn đăng ký tiết mục cho tiệc tất niên rồi này, em không định lên sân khấu diễn thật sao? Chị bật mí nhỏ cho em nhé, thực ra giám đốc nhà mình chính là fan cứng của em đấy. Nếu em chịu lên diễn thì chắc chắn sẽ ẵm trọn giải nhất luôn. Anh ấy bảo không giữ video, nhưng chị từng tận mắt thấy anh ấy mở video em nhảy lên xem... Nhưng mà fan chân chính thì ai chẳng thế, chị hiểu mà.”
+
+Đến lần thứ ba điện thoại rung lên, tôi chẳng buồn xem ai nhắn nữa mà bước thẳng ra ngoài. Ngay trước cửa, tôi thấy giám đốc đang đứng kiên nhẫn đợi mình.
+
+“Giám đốc ơi,” tôi nhìn chiếc đồng hồ đeo trên cổ tay anh, cố giữ giọng thật bình thản, “Em thích anh.”
+
+“Anh biết chứ,” anh thoáng ngỡ ngàng một nhịp, rồi nở nụ cười rạng rỡ. “Thật ra nếu em không chủ động tìm đến vườn thú Nam Thành, anh cũng đã định gửi thư mời tuyển dụng cho em rồi.”
+
+Chỉ là mọi chuyện diễn ra vừa khéo, lệch nhau đúng một ngày.
+
+Tôi đã chủ động bước về phía anh, và thậm chí cũng giống anh, có được khả năng kỳ diệu là nghe hiểu tiếng muông thú.
+
+“Anh sẽ luôn là điểm tựa vững chắc nhất của em,” Quý Tinh Uyên khẽ cúi xuống, đôi mắt đen sâu thẳm đong đầy dịu dàng. “Tiểu Ôn Đáng Yêu luôn tỏa sáng rực rỡ, anh cũng rất thích em.”
+
+Phi Phi biết rõ điều đó, Sếu đại ca biết rõ điều đó, và Tiểu Tuyết cũng biết rõ điều đó.
+
+Anh biết, tôi biết, và tất cả những ai quen tôi đều hay tin.
+
+Có lẽ, đến ông trời cũng biết.
+    
+</div>
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>

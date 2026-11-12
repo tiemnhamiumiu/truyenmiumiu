@@ -22948,7 +22948,7 @@ Nhiều năm biền biệt trôi qua, tôi và anh tình cờ chạm mặt nhau 
 “Mà đứa trẻ này… sao nhìn lại giống tôi đến thế?”`
   },{
     id: 1114,
-    title: "Sát Thủ Trà Xanh Của Phu Nhân Tướng Quân",
+    title: "Sát Thủ Trà Xanh Của Phụ Nhân Tướng Quân",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5f9358e140ac89fcc0d34e3d41651e45.jpg",
     link: "cotrang/sat-thu-tra-xanh-cua-phu-nhan-tuong-quan.html",
     type: "cotrang",
@@ -24139,6 +24139,209 @@ Chiếc que thử thai tuột khỏi kẽ ngón, rơi bộp xuống ngay dưới
 Ta thầm cảm thán: “Chặc chặc chặc, cái chốn Hoàng cung này của các người, chơi lớn thật đấy.”
 
 Chủ trương của ta rất rõ ràng: nếu bản thân đã không sống nổi thì nhất định phải kéo cả lũ chết chùm theo.
+`
+  },{
+    id: 1175,
+    title: "Ngôn Ngữ Động Vật",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1d8c5898b2243ea0bf3afd16b856e3fd.jpg",
+    link: "ngontinh/ngon-ngu-dong-vat.html",
+    type: "ngontinh",
+    desc: `Sau khi rời khỏi chốn giải trí hào nhoáng, tôi xin vào một sở thú làm nhân viên chăm sóc động vật.
+
+Ngay từ ngày đầu nhận việc, trong tôi bỗng xuất hiện một năng lực kỳ lạ: tôi nghe hiểu được tiếng nói của tất cả các loài vật.
+
+Con hổ trong chuồng chẳng hạn, ngày nào cũng gào gầm điên cuồng: “Đói quá, đói quá, đói chết mất thôi!”
+
+Chú hươu cao cổ ở chuồng bên thì ngẩng cổ lên cao, miệng cứ lẩm nhẩm mãi một câu: “Cao nữa, phải vươn cao nữa mới được.”
+
+Lũ cá vàng trong bể thủy cung thỉnh thoảng lại bơi chậm hẳn, ngơ ngác đặt ra những câu hỏi đậm chất triết lý: “Tôi là ai? Đây là đâu?”
+
+Còn con Sếu Nhật Bản dáng vẻ cao sang đài các kia, nó liếc xéo dòng người qua lại bằng ánh mắt khinh khỉnh, rồi tuyên bố những lời phán xét đầy ngạo mạn: “Hôm nay cái gã con người kia đã liếc cô nhân viên chăm sóc cả chục lần rồi. Rõ ràng là kẻ có gia đình mà còn bày trò trăng hoa, hy vọng đồng chí Tiểu Ôn không bị gã lừa gạt.”
+
+Tôi, tên thật là Ôn Vị Hi, chỉ dám thầm đáp trong bụng: “Cảm ơn cậu nhé, Sếu đại ca.”
+
+Có lần, một chú chó đi lạc nán lại sở thú suốt ba ngày mà nhất định không chịu về nhà. Dựa vào địa chỉ hiện lên trong dòng suy nghĩ của nó, tôi phải đi bộ dẫn nó về tận nơi.
+
+Thấy gương mặt vừa cảm kích vừa ngơ ngác của người chủ, tôi nhẹ nhàng hỏi lại cho chắc: “Nó là chó đực đúng không ạ?”
+
+Người chủ nhiệt tình gật đầu lia lịa: “Đúng thế, là một bé phốc sóc xinh xắn lắm đấy!”
+
+Tôi im lặng hồi lâu.
+
+Tôi lấy đâu ra dũng khí để gõ cửa nói với người ta rằng, lý do cún cưng không chịu về là vì nó đã trót trao trọn trái tim, ngay từ cái nhìn đầu tiên, cho một con cáo trong sở thú của chúng tôi.
+
+Về sau, một chương trình thực tế về du lịch chọn sở thú làm bối cảnh ghi hình. Mấy vị ngôi sao nổi tiếng cứ lúng túng vây quanh con cá voi trắng đang điên cuồng đập vào vách kính cường lực.
+
+Tôi gãi đầu, gượng cười giải thích: “Mọi người đừng bận tâm... Nó chỉ đang mài răng một chút thôi.”`
+  },{
+    id: 1176,
+    title: "Nhận Nhầm Ân Nhân Sa Chân Vào Lưới Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b24ad9400d3fdbb5a70ef0abce6d6613.jpg",
+    link: "dammy/nhan-nham-an-nhan-sa-chan-vao-luoi-tinh.html",
+    type: "dammy",
+    desc: `Năm tôi to gan nhất, tôi đã câu được một “kim chủ”.
+
+Tôi dùng chính tiền của vị kim chủ ấy để đi tán tỉnh người mình thầm thương.
+
+Cho đến ngày sinh nhật của cậu ấy, tôi nỉ non van xin kim chủ mua tặng một chiếc dây chuyền bản giới hạn toàn cầu.
+
+Thế nhưng ngay đêm đó, sợi dây chuyền đắt đỏ lại bị buộc chặt vào nơi nhạy cảm nhất trên cơ thể tôi.
+
+Còn anh trai của người tôi thích thì đè chặt tôi xuống.
+
+“Lấy tiền của tôi để đi tán em trai tôi sao?”
+
+“Diệp Tầm, em khá lắm.”
+`
+  },{
+    id: 1177,
+    title: "Sát Phu Đoạt Vận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f9ae7146a0852eed66794feece765611.jpg",
+    link: "cotrang/sat-phu-doat-van.html",
+    type: "cotrang",
+    desc: `Nữ nhân dòng họ ta sinh ra đã nhìn thấy được khí vận.
+
+Ta có thể chia vận khí của mình cho phu quân. Nếu tu luyện đến cảnh giới cao nhất, thậm chí còn đủ sức xoay chuyển vận mệnh của người khác.
+
+Thế nhưng, đời đời kiếp kiếp, nữ nhân tộc ta đều là những kẻ si tình đến mức chết vì yêu, đầu óc mụ mị, chỉ nghĩ đến chuyện tình cảm.
+
+Vật cực tất phản, có lẽ vì vậy mà mới sinh ra một đứa con gái độc ác như ta, liên tiếp hại chết mấy đời phu quân...
+`
+  },{
+    id: 1178,
+    title: "Thoát Khỏi Kịch Bản Bạch Nguyệt Quang Của Bá Tổng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ba68404ac4cccaea91183899a37768b4.jpg",
+    link: "ngontinh/thoat-khoi-kich-ban-bach-nguyet-quang-cua-ba-tong.html",
+    type: "ngontinh",
+    desc: `Tôi vốn chỉ là nữ phụ làm nền trong một cuốn tiểu thuyết tổng tài bá đạo. Theo kịch bản, vì lo cho sự nghiệp tương lai, tôi sẽ bỏ lại nam chính mà ra nước ngoài.
+
+Muốn tránh cảnh sau này về nước bị đem ra so với nữ chính rồi chịu kết cục thảm hại dưới tay vị tổng tài ấy, tôi luôn giữ ý giữ tứ trong cách đối xử với anh. Tôi cố gom góp chút thiện cảm, mong rằng mai sau anh sẽ không quá lạnh lùng với mình.
+
+Ai ngờ, người đàn ông ấy lại cứ mỗi tháng đều đặn bay sang nước Y tìm tôi một chuyến.
+
+Tôi từng phàn nàn: “Anh đi đi về về thế này vừa tốn tiền vừa mất thời gian.”
+
+Bá tổng ngẫm nghĩ một lát, thấy lời tôi nói rất có lý.
+
+Kết quả là anh quyết định mở thẳng một chi nhánh công ty ngay cạnh trường của tôi.
+`
+  },{
+    id: 1179,
+    title: "Trốn Chạy Cám Dỗ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d74fbba9278a6207ebba5561428844af.jpg",
+    link: "dammy/tron-chay-cam-do.html",
+    type: "dammy",
+    desc: `Sau khi trêu chọc một Alpha mang danh “Hổ mang chúa”, tôi âm thầm bỏ trốn cùng đứa nhỏ trong bụng.
+
+Bốn năm sau, ngày gặp lại đầy bất ngờ, tôi lại trở thành bác sĩ riêng của anh.
+
+Lục Chuẩn chẳng hề nhận ra tôi.
+
+Anh thậm chí còn nhìn chằm chằm đôi tai thỏ lông xù trên đầu tôi, vẻ mặt đầy chán ghét.
+
+Anh hờ hững buông một câu: “Tôi cần một bác sĩ, chứ không phải một con thỏ chỉ biết phát tình.”
+
+Tuyến thể của tôi đã hư tổn từ lâu, không thể tỏa pheromone, cũng chẳng còn kỳ phát nhiệt như những Omega khác.
+
+Phải đến khi tôi hết lần này đến lần khác cam đoan rằng tình trạng của mình tuyệt đối không ảnh hưởng đến công việc, anh mới chịu bỏ qua.
+
+Về sau, đứa trẻ tôi cẩn thận giấu kín bấy lâu vô tình bị anh phát hiện, nhưng anh vẫn không nhận ra sự thật.
+
+Anh chỉ nhíu chặt mày, giọng lạnh ngắt: “Thằng nhóc này là kết quả cuộc hú hí của cậu với ai?”
+
+Để tránh rắc rối không đáng có, tôi đành bịa ra chuyện mình đã lập gia đình.
+
+Vậy mà vào một đêm khuya, trên giường tôi lại đột ngột có thêm một người.
+
+Vị Thượng tướng Lục Chuẩn lẫy lừng, người luôn được ca tụng là tấm gương “nam đức” điển hình, vừa chậm rãi cởi khuy áo vừa hạ giọng hỏi tôi: “Có thiếu tình nhân không?”
+
+Thấy tôi chần chừ không đáp, anh ngừng một lát rồi hỏi tiếp: “Vậy có thiếu chó không?”
+`
+  },{
+    id: 1180,
+    title: "Gác Kiếm Về Quê Làm Ruộng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6400cb3c96d488fbdbe29099d91d9ddc.jpg",
+    link: "cotrang/gac-kiem-ve-que-lam-ruong.html",
+    type: "cotrang",
+    desc: `Ta xuyên sách, còn trở thành đại sư tỷ của một môn phái tu tiên.
+
+Theo đúng diễn biến cốt truyện, chẳng bao lâu nữa ta sẽ bị ám sát. Nhân lúc thời gian còn lại đôi chút, ta vội vàng thu dọn hành lý, lách theo đường tắt rời khỏi tiên môn.
+
+Cốt truyện hay kịch bản gì đó, mặc kệ hết! Ta chỉ muốn về quê làm ruộng!
+
+Ta sải bước trên con đường làng. Mưa phùn lất phất lúc đầu, dần dà đã thành mưa nặng hạt.
+
+Ta giương một chiếc ô kim loại to khổng lồ lên che mưa. Đó vốn là binh khí của nguyên chủ, chắn gió rất tốt, lại sáng loáng rực rỡ, chỉ có điều nặng đến mức chẳng thể xem thường.
+
+Đường xá vắng tanh, không một bóng người.
+
+Bỗng ta trông thấy một dáng người đang thong thả bước giữa màn mưa, bèn vội chạy tới giương ô che cho hắn, nhiệt tình hỏi thăm: “Xin chào, cho ta hỏi thăm đường một chút... Ơ kìa, sư đệ Dịch Dương?”
+
+Nhờ chút ký ức nguyên chủ để lại, ta nhận ra ngay thiếu niên trước mặt chính là nam chính Dịch Dương của cuốn tiểu thuyết.
+
+Dung mạo hắn tuấn tú, khí chất chính trực, trên người là trang phục tiên môn, bên hông đeo một thanh kiếm. Đôi mắt đen láy của hắn lặng lẽ chớp nhẹ nhìn ta, rồi hắn cất tiếng hỏi: “Đại sư tỷ, sao tỷ lại ở chỗ này?”
+
+“Sư đệ à, ta mới vừa ngộ ra một chân lý: lý tưởng của ta chưa bao giờ nằm ở chốn tiên môn này, mà là trở về quê nhà làm ruộng!”
+`
+  },{
+    id: 1181,
+    title: "Micro Chưa Tắt Lột Mặt Nạ Tra Nam",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/58b85c492e272bbe67f33ccce7f052da.jpg",
+    link: "ngontinh/micro-chua-tat-lot-mat-na-tra-nam.html",
+    type: "ngontinh",
+    desc: `Trong một tiết học trực tuyến, gã bạn trai của tôi quên tắt micro.
+
+Hơn hai trăm người trong lớp đã nghe trọn từng âm thanh của buổi hẹn hò giữa hắn và cô đàn em cùng trường.
+
+Sáng hôm sau, hắn vẫn thản nhiên tìm tôi bàn chuyện cưới xin, còn cô đàn em thì ngọt ngào nhắn tin nhắc quà sinh nhật.
+
+Cả lớp lặng lẽ xem họ diễn trò trở mặt, không một ai nhắc rằng chiếc micro kia vẫn chưa tắt.
+
+Tất cả mọi người đều ngầm bắt tay nhau để giúp tôi trả thù.
+`
+  },{
+    id: 1182,
+    title: "Gặp Lại Phụ Huynh Là Bạn Trai Cũ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/cfcd6b32b928148a4ede5a564425f3a1.jpg",
+    link: "dammy/gap-lai-phu-huynh-la-ban-trai-cu.html",
+    type: "dammy",
+    desc: `Học sinh dám viết thư tình cho tôi, đến khi mời phụ huynh lên làm việc thì người xuất hiện lại chính là bạn trai cũ.
+
+Giang Việt ghé sát tai tôi, cười lạnh: “Hồi còn đi học, em viết cho anh chẳng phải còn nhiều hơn sao?”
+
+Bầu không khí xung quanh lập tức gượng gạo đến cực điểm.
+
+Đúng lúc ấy, đứa học sinh kia bất ngờ bước tới khoác lấy tay tôi.
+
+“Anh họ, anh là người nhìn người giỏi nhất.”
+
+“Đây chính là người em thích, anh thấy thế nào?”
+
+Gương mặt Giang Việt sa sầm xuống trong chớp mắt.
+
+“Em lại đi viết thư tình cho một kẻ lừa gạt, chuyên đùa giỡn với chân tâm của người khác sao?”
+`
+  },{
+    id: 1183,
+    title: "Hồi Ký Xuyên Không Của Tỷ Tỷ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c6ed62062ad49e1430cbd1dbe5112b9a.jpg",
+    link: "cotrang/hoi-ky-xuyen-khong-cua-ty-ty.html",
+    type: "cotrang",
+    desc: `Từ nhỏ đến lớn, ta luôn nghe lời tỷ tỷ. Nàng bảo gì, ta cũng răm rắp làm theo, chưa từng cãi lại nửa câu.
+
+Tỷ chỉ về hướng Đông, ta tuyệt đối không dám ngoảnh sang hướng Tây. Đến ngày tỷ gả cho trưởng tử nhà họ Tạ, ta cũng vâng lời nàng mà gả cho thứ tử của gia tộc ấy.
+
+Mỗi lần như vậy, tỷ tỷ lại cười bảo: “Thế này mới đúng là tỷ muội đồng lòng, sức mạnh cứng như thép xám.”
+
+Nàng còn bĩu môi nói thêm: “Nói với muội mấy chuyện này cũng bằng thừa, tóm lại cứ ngoan ngoãn nghe lời ta, ta sẽ che chở cho muội cả đời!”
+
+Những đạo lý cao xa ấy, ta thật sự không hiểu hết. Nhưng trong lòng ta luôn chắc chắn một điều: cứ làm theo lời tỷ tỷ thì sẽ không bao giờ sai.
+
+Nào ngờ về sau, cả hai người con trai của Tạ gia đều vĩnh viễn nằm lại nơi chiến trường đao tên.
+
+Tỷ tỷ hớt hải chạy sang viện của ta, nét mặt cuống quýt: “Thủ tiết vì nam nhân chỉ là chuyện của mấy kẻ ngốc. Muội mau thu dọn hành lý, ta dẫn muội rời khỏi nơi này.”
+
+Nhìn đứa trẻ nhỏ dại đang ngơ ngác chưa hiểu chuyện đời trước mặt, lần đầu tiên trong kiếp này, ta không nghe theo lời tỷ tỷ.
 `
   },
 
