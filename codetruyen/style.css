@@ -917,10 +917,10 @@ span#facebook-point {
 /* ==================================================
    FACEBOOK FRAME
 
-   Khung luôn được dựng ở 480 x 355 (kích thước máy tính)
-   rồi thu phóng bằng JS (transform: scale) cho vừa màn hình.
-   Nhờ vậy điện thoại hiện giống hệt máy tính, chỉ nhỏ hơn,
-   và các lớp chặn click (nằm trong .fbScaler) luôn khớp vị trí.
+   Bài Facebook được nhúng, phóng to để cắt viền trắng
+   (.fbZoom), chèn ảnh lên trên cùng (.fbCover, bấm xuyên
+   qua xuống bài) và thu phóng bằng JS (transform: scale)
+   cho vừa màn hình.
 ================================================== */
 
 #facebookAdFrame,
@@ -930,7 +930,6 @@ span#facebook-point {
   width: calc(100% - 30px);
   max-width: 480px;
 
-  /* tỉ lệ khớp với thiết kế 480 x 355 */
   aspect-ratio: 480 / 355;
   height: auto;
 
@@ -955,6 +954,30 @@ span#facebook-point {
   transform-origin: 0 0;
 }
 
+/* Ảnh phủ lên thẻ xem trước, bấm xuyên qua được */
+.facebookAdFrame .fbCover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  z-index: 4;
+  pointer-events: none;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.facebookAdFrame .fbZoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 355px;
+  overflow: visible;
+  transform-origin: 0 0;
+}
+
 .facebookAdFrame iframe {
   display: block;
   width: 480px;
@@ -962,7 +985,7 @@ span#facebook-point {
   height: 430px;
   min-height: 430px;
 
-  /* cắt phần Facebook dư phía trên (giữ đúng như máy tính) */
+  /* cắt phần Facebook dư phía trên */
   margin-top: -55px;
 
   border: 0;
@@ -1665,13 +1688,4 @@ body.facebookStoryLocked {
     font-size: 25px;
     margin: 0 10px;
   }
-}.facebookAdFrame .fbBuyNow {
-  animation: fbBuyNowPulse 1.2s ease-in-out infinite;
-}
-
-@keyframes fbBuyNowPulse {
-  0%, 100% { transform: scale(1); }
-  50%      { transform: scale(1.04); }
-
-
 }
