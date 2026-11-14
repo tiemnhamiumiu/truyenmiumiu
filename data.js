@@ -24343,6 +24343,220 @@ Tỷ tỷ hớt hải chạy sang viện của ta, nét mặt cuống quýt: “
 
 Nhìn đứa trẻ nhỏ dại đang ngơ ngác chưa hiểu chuyện đời trước mặt, lần đầu tiên trong kiếp này, ta không nghe theo lời tỷ tỷ.
 `
+  },{
+    id: 1184,
+    title: "Bảy Năm Thanh Xuân Trao Lầm Người",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9408417fe4b798e19723147435af74fd.jpg",
+    link: "ngontinh/bay-nam-thanh-xuan-trao-lam-nguoi.html",
+    type: "ngontinh",
+    desc: `Vào năm thứ bảy bên nhau, Lục Trầm bắt đầu dành sự chú ý đặc biệt cho một cô thư ký thực tập.
+
+Anh bảo cách làm việc của cô ta khiến anh nhớ tới tôi hồi học cấp ba.
+
+Cũng liều, cũng chẳng sợ gì, cũng tự do phóng khoáng như thế.
+
+Về sau, chỉ vì muốn đưa cô ta đi chơi nhân Ngày Quốc tế Thiếu nhi, anh đã bỏ mặc buổi tiệc ăn mừng của tôi.
+
+Đúng hôm đó tôi gặp tai nạn giao thông. Ký ức bị cắt đứt, dừng lại ở quãng thời gian ngay trước lớp mười hai.
+
+Mà vào thời điểm ấy, người ở trong tim tôi lại không phải Lục Trầm.
+
+Tỉnh lại, tôi làm theo danh sách việc cần làm đã ghi sẵn trong điện thoại, chủ động đề nghị chia tay anh.
+
+Lục Trầm tin chắc tôi chỉ đang làm bộ làm tịch. Gương mặt anh vẫn thản nhiên, nhưng nụ cười thì đầy giễu cợt: “Em đã tự mình nói ra thì sau này đừng có hối hận.”
+
+Ở một buổi tiệc sau đó, anh choàng tay qua vai cô thư ký trẻ, thân mật không chút e dè.
+
+Đám bạn của Lục Trầm thấy vậy thì rôm rả chúc mừng hai người họ.
+
+Họ còn bảo tôi chẳng khác nào một mụ già kiệt sức, làm sao so được với sự đáng yêu hồn nhiên của người mới.
+
+Đúng lúc ấy, cửa phòng bao bật mở. Tôi lao thẳng vào lòng người vừa bước vào, giọng đầy uất ức: “Sao bây giờ anh mới tới, bọn họ bắt nạt em kìa!”
+
+Một tiếng “bốp” vang lên. Lục Trầm bóp nát ly rượu trong tay, máu tươi hòa lẫn men rượu chảy dọc xuống lòng bàn tay anh.
+
+Anh trừng mắt nhìn tôi, tựa như chỉ trong một khoảnh khắc, phần hồn của anh đã bị ai đó rút cạn.
+`
+  },{
+    id: 1185,
+    title: "Đằng Sau Nụ Hôn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ece393ba48a38b9347af8735b0615501.jpg",
+    link: "dammy/dang-sau-nu-hon.html",
+    type: "dammy",
+    desc: `Tôi tỏ tình với anh kế, đáp lại là sự khinh bỉ tột cùng của anh ta.
+
+Ngay sau đó, anh ta đẩy tôi sang cho người bạn thân nổi tiếng là cực kỳ kỳ thị đồng tính.
+
+“Tiểu Việt, thích đàn ông là một căn bệnh. Từ hôm nay em sang chỗ Hoắc Kiêu để cải tạo lại cho đàng hoàng. Bao giờ chữa khỏi hẳn thì mới được về nhà.”
+
+Lúc đầu, trong lòng tôi ngập tràn sợ hãi.
+
+Tôi từng nghe đồn rằng Hoắc Kiêu trước đây đã tự tay đánh gãy chân một kẻ đồng tính dám tỏ tình với hắn.
+
+Thế nhưng khi đã dọn đến nhà họ Hoắc, tôi mới ngỡ ngàng nhận ra Hoắc Kiêu dường như chẳng hề kỳ thị đồng tính như lời đồn.
+
+Dù sao thì, làm gì có kẻ kỳ thị đồng tính nào lại chịu nằm chung một giường với gay chứ?
+
+Một tháng sau, anh kế tìm đến tận nhà họ Hoắc để đón tôi về.
+
+Lúc ấy, ngay giữa phòng khách, tôi đang ngồi lọt thỏm trong lòng Hoắc Kiêu, được hắn bế trên đùi, tỉ mỉ đút từng ngụm sữa.
+
+Nhìn thấy cảnh tượng đó, vành mắt anh kế lập tức đỏ ngầu, anh ta gằn giọng gọi tôi: “Tiểu Việt, theo anh về nhà!”
+
+Hoắc Kiêu siết chặt eo tôi, kéo tôi sát vào người hắn trong một tư thế cực kỳ thân mật.
+
+Hắn cúi đầu cắn nhẹ lên vành tai tôi, cất giọng mụ mị: “Bảo bối, nói cho anh ta biết xem, rốt cuộc ai mới là anh của em?”
+`
+  },{
+    id: 1186,
+    title: "Đại Đạo Tranh Phong Ta Tự Định Đoạt",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/32d530afed0278ed5fdd1ae81e83fe8e.jpg",
+    link: "cotrang/dai-dao-tranh-phong-ta-tu-dinh-doat.html",
+    type: "cotrang",
+    desc: `Năm thứ ba kể từ ngày xuyên về thời cổ đại, ta đã dốc hết tâm tư, tính toán đủ đường mới dụ được một gã thư sinh về làm vị hôn phu.
+
+Lộ trình thăng tiến trong đầu ta lúc ấy được vạch sẵn vô cùng bài bản.
+
+Ban ngày phò tá phu quân đèn sách, ban đêm lo buôn bán kiếm tiền tích trữ. Điều quan trọng nhất là phải quản lý rủi ro cho tốt, tuyệt đối đề phòng hắn sau này đỗ đạt rồi hóa thành kẻ phụ tình như Trần Thế Mỹ.
+
+Vị hôn phu ấy quả không phụ kỳ vọng của ta, chẳng bao lâu đã đỗ Tú tài một cách xuất sắc.
+
+Nhờ vậy, ta nghiễm nhiên trở thành cô nương khiến bao người trong thôn vừa ghen tị vừa ngưỡng mộ.
+
+Ta từng nghĩ, đích đến viên mãn nhất của đời mình cùng lắm cũng chỉ là cố gắng vươn lên làm một vị Cáo mệnh phu nhân.
+
+Nào ngờ có một hôm, khi ta đang khom lưng giặt y phục bên bờ sông, trên bầu trời bao la bỗng có một vị tiên nhân cưỡi mây bay ngang qua.
+
+Ta ngước mắt nhìn lên, kinh ngạc đến mức trợn tròn cả hai mắt.
+
+Hóa ra thế giới ta xuyên tới lại là thế giới tu tiên.
+
+Sự thật ấy khiến ta ngơ ngác. Vậy thì bấy lâu nay, ta còn phải giả bộ làm một cô nương hiền lương thục đức làm gì nữa?
+`
+  },{
+    id: 1187,
+    title: "Món Quà Trưởng Thành Của Đứa Con Bất Hiếu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/2325c3c57ee02fba4f2705349dc113c7.jpg",
+    link: "ngontinh/mon-qua-truong-thanh-cua-dua-con-bat-hieu.html",
+    type: "ngontinh",
+    desc: `Kỳ thi đại học vừa khép lại, Triệu Đình, đứa con gái của tôi, đã đặt trước mặt tôi một bản danh sách dài những thứ nó muốn có. Nó nói thản nhiên như chuyện hiển nhiên: ba năm qua nó đã chịu đủ vất vả, nên bao nhiêu thứ ghi trên đó đều là phần nó xứng đáng được hưởng.
+
+Tôi cầm lấy tờ giấy, chậm rãi điểm qua từng mục một. Mục đầu là một chiếc điện thoại giá tám triệu, kế đến là một chiếc máy tính xách tay trị giá hai mươi triệu, rồi mười lăm triệu tiền mặt để nó tùy ý chi tiêu.
+
+Bấy nhiêu tuy chẳng phải con số nhỏ, nhưng tôi vẫn có thể chấp thuận được. Thứ thật sự khiến tôi bàng hoàng lại nằm ở dòng cuối cùng của tờ giấy: nó còn đòi một chiếc túi Chanel giá ba mươi tám triệu đồng.
+
+Tôi còn chưa kịp hoàn hồn thì Triệu Đình đã lên tiếng giải thích, giọng điệu chẳng mảy may áy náy, cũng chẳng bận tâm đến vẻ ngỡ ngàng của tôi. Bạn trai nó là thiếu gia nhà giàu, nếu nó không khoác một chiếc túi đắt tiền cho xứng thì làm sao giữ nổi danh phận bạn gái chính thức của cậu ta.
+
+Đến khi tôi thẳng thừng từ chối cái đòi hỏi vô lý ấy, thái độ của nó đổi hẳn. Nó nhếch môi cười lạnh rồi buông ra một lời xúc phạm: bảo rằng tôi vừa già vừa keo kiệt, nên chẳng trách chồng tôi phải ra ngoài tìm một người đàn bà khác.
+`
+  },{
+    id: 1188,
+    title: "Tôi là thiếu gia giả của nhà họ Giang",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/069617fef35d12823c149a2e9d829d83.jpg",
+    link: "dammy/ban-trai-toi-la-thieu-gia-that.html",
+    type: "dammy",
+    desc: `Trớ trêu thay, cậu con trai ruột thật sự của nhà này lại chính là người yêu của tôi, một người hoàn hảo về mọi mặt, từ chiều cao, diện mạo cho đến tính tình hiền lành và trí thông minh hơn người.
+
+Khoảnh khắc biết anh mới là đại thiếu gia đích thực, trong lòng tôi thậm chí còn lén lút thấy mừng thầm:
+
+“Anh ấy vốn ôn hòa như vậy, chắc chắn sẽ không chấp nhặt hay nổi giận với một kẻ giả mạo ngốc nghếch như mình đâu nhỉ.”
+
+Thế nhưng, bố mẹ vừa làm xong thủ tục đón đứa con ruột về nhà, tôi còn chưa kịp tìm cơ hội đối diện với Cố Thanh Nhượng, thì từ trên tầng đã vô tình nghe thấy giọng anh lạnh đến thấu xương vọng lên:
+
+“Trong cái nhà này, có tôi thì không có cậu ta, mà đã có cậu ta thì tuyệt đối không có tôi.”`
+  },{
+    id: 1189,
+    title: "Di Nương Trọng Sinh Vứt Bỏ Liêm Sỉ Trả Thù Hầu Phủ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9de3cf21ad80520b7bbebeda11a9031b.jpg",
+    link: "cotrang/di-nuong-trong-sinh-vut-bo-liem-si-tra-thu-hau-phu.html",
+    type: "cotrang",
+    desc: `Di nương vốn là người có cốt cách thanh cao, lúc nào cũng trầm lặng như một đóa hoa cúc.
+
+Khi phụ thân muốn cưới bà làm chính thê, bà gạt phắt đi, bảo giữa hai người chỉ có tình huynh muội. Vậy mà đúng vào ngày đại hôn của phụ thân, bà lại lén lút tư thông với ông.
+
+Về sau bị kẻ khác vu oan có tư tình với thị vệ, bà chẳng phản kháng, cũng không tự biện minh lấy một lời, chỉ nhạt giọng thốt ra một câu: “Thiếp thân có trăm cái miệng cũng không thể phân trần.”
+
+Bị giam ra trang viên, bà không mang theo lấy một xu dính túi, vẫn giữ vẻ thanh cao như thể chỉ cần bảo toàn thể diện là đủ.
+
+Về sau, ta ở trang viên phải giành từng miếng ăn với chó hoang, tranh từng mảnh áo với người khác, thậm chí còn phải cúi mình trước đứa con ngốc nghếch của một gia nhân chỉ để xin chút thuốc cho bà.
+
+Vậy mà bà nhìn ta bằng ánh mắt khinh khỉnh: “Ngươi toan tính, hám lợi như vậy, thật chẳng có chút thanh nhã nào, không xứng làm con gái của ta.”
+
+Cuối cùng, bà một mình trở về Hầu phủ, mặc ta bơ vơ giữa trang viên lạnh lẽo, lại còn sai người đến kết liễu mạng ta.
+
+Đến khi mở mắt lần nữa, ta phát hiện mình đã quay về đúng ngày bà bị vu oan tư thông năm ấy.
+
+Ta lập tức chạy đến trước mặt phụ thân, cất tiếng hỏi lớn: “Thế nào là tư thông? Làm giày cho người khác thì có tính là tư thông không?”
+`
+  },{
+    id: 1190,
+    title: "Cùng Bạn Thân Công Lược Đại Boss",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/36cc0b18497854385f2c180ab66bb3a5.jpg",
+    link: "ngontinh/cung-ban-than-cong-luoc-dai-boss.html",
+    type: "ngontinh",
+    desc: `Tôi và cô bạn thân Diệp Thanh Thanh xui xẻo bị kéo vào một thế giới vô hạn lưu. Cô ấy chọn tiếp cận vị bác sĩ u ám, lạnh lùng, còn nhiệm vụ của tôi là chinh phục ngài tổng tài phúc hắc, thâm trầm.
+
+Ba năm ròng rã công lược trong cảnh nơm nớp lo sợ, vậy mà thanh độ hảo cảm của cả hai đối tượng vẫn cứ đứng yên ở mức 50%, không nhích lên được dù chỉ một chút.
+
+Một hôm, Diệp Thanh Thanh chán nản thở dài một tiếng thật dài rồi nói: “Hay là mình bỏ trốn đi, tớ không muốn công lược nữa.”
+
+Tôi gật đầu ngay: “Được thôi, cậu đi đâu tớ theo đó.”
+
+Hai đứa năn nỉ hệ thống hết lời hết lẽ, rồi đem toàn bộ số điểm tích góp suốt bấy lâu nay ra đổi lấy một cơ hội rời khỏi nơi này.
+
+Thế nhưng đúng vào lúc sắp thoát được, một bàn tay lạnh ngắt bất ngờ từ đâu chộp lấy tôi, rồi giật ngược tôi trở lại.
+
+Vị tổng tài mắt đỏ ngầu, khóe môi cong lên thành một nụ cười lạnh lẽo: “Con mồi nhỏ của anh, em định trốn đi đâu hả?”
+
+Diệp Thanh Thanh đứng ngay bên cạnh, sợ hãi kêu lên thất thanh: “Trời ơi, chồng cậu là đại boss của thế giới này đấy!”
+
+Tôi khóc không ra tiếng, trong lòng chua chát vô cùng, đành đáp lại: “Thế chồng cậu khá hơn chắc? Hắn là đại boss thứ hai chứ đâu!”
+`
+  },{
+    id: 1191,
+    title: "Đêm Tối Của Kẻ Bệnh Ái",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/6d099a9b66daffcfd9b73033b499e3e4.jpg",
+    link: "dammy/dem-toi-cua-ke-benh-ai.html",
+    type: "dammy",
+    desc: `Để thoát khỏi cuộc hôn nhân được sắp đặt từ trước, tôi đã quyết định bao nuôi một người bạn tình.
+
+Người đàn ông này không chỉ có tính nết vô cùng hung dữ, ra tay tàn nhẫn mà cách cư xử còn cực kỳ thô lỗ.
+
+Tôi nằm trên giường, cả người run rẩy không ngừng: “Rốt cuộc anh là ai?”
+
+Anh ta nhếch môi, nở một nụ cười đầy nguy hiểm: “Em cứ thử đoán xem? Nhưng nếu đoán không ra thì đừng mong bước xuống khỏi giường.”
+`
+  },{
+    id: 1192,
+    title: "Đào Hoa Trăn Trăn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7f5b9cf6df57fee19da1e45e73973de9.jpg",
+    link: "cotrang/dao-hoa-tran-tran.html",
+    type: "cotrang",
+    desc: `Ngày tỷ tỷ được chọn làm Thái tử phi, ta đang len lén ăn vụng bánh sen trong gian bếp nhỏ của nàng.
+
+Vừa rón rén tới bên khung cửa thì Tôn ma ma đã chắn ngang lối đi.
+
+Bà ta vóc người lực lưỡng, ta có muốn chống lại cũng chẳng đủ sức.
+
+Chẳng bao lâu, một chuỗi bước chân khoan thai tiến lại gần. Ta ngẩng đầu lên, chỉ thấy tà váy màu hồng anh đào rực rỡ.
+
+“Trăn Trăn, ta sắp được làm Thái tử phi rồi, muội hẳn là ghen tị lắm nhỉ?”
+
+Chuyện ta một lòng ái mộ Thái tử, khắp kinh thành Biện Kinh này ai mà không biết.
+
+Vậy mà Diễm Miểu cứ thích giành giật đủ thứ với ta, và lần nào nàng cũng giành được.
+
+Ta vội xoay người định đi, chỉ đáp qua loa cho xong chuyện: “Phải phải phải.”
+
+Dẫu vậy, Diễm Miểu vẫn chưa chịu hài lòng.
+
+“Tôn ma ma.” Nàng cất giọng dịu dàng phân phó.
+
+“Lột áo khoác ngoài của nó ra, rồi ném xuống ao sau vườn cho ta.”
+
+Tôn ma ma hơi ngập ngừng: “... Vâng, đại tiểu thư.”
+
+Ta ngơ ngác: “... Không phải chứ, lại ném nữa à??”`
   },
 
 
