@@ -4,163 +4,1365 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Tướng Quân Chạy Đâu Cho Thoát</title>
+  <title>Trốn Chạy Cám Dỗ</title>
 
   <link rel="stylesheet" href="../codetruyen/style.css">
-  <link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
 </head>
 
 <body>
-
-<!-- ==================================================
-     MENU (sửa các mục cho đúng web của bạn)
-================================================== -->
-
 <header class="menu">
   <a href="../index.html">Trang chủ</a>
   <a href="../ngontinh.html">Ngôn tình</a>
   <a href="../dammy.html">Đam mỹ</a>
-  <a href="../cotrang.html">Cổ trang</a>
+    <a href="../cotrang.html">Cổ trang</a>
   <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
 </header>
 
-<div class="topbar">Tướng Quân Chạy Đâu Cho Thoát</div>
+<div class="topbar">
+  Trốn Chạy Cám Dỗ
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_dammy/tron-chay-cam-do.mp3" data-marker="15:44" data-marker-label="15:44">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Trốn Chạy Cám Dỗ</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">15:44</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
 
 
-<main class="container">
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
 
-  <!-- ==================================================
-       THẺ PHIM
+<div class="background-music">
 
-       Mỗi phim chỉ cần sửa:
-       - data-video        : link YouTube (youtu.be/ID hoặc youtube.com/watch?v=ID)
-       - data-marker       : mốc xem (vd 15:44 hoặc 1:12:57), bỏ trống nếu không dùng
-       - data-marker-label : chữ hiện trên nút mốc
-       - tên phim, chip thông tin, nội dung bên dưới
-  ================================================== -->
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
 
-  <section
-    class="movie-card"
-    id="movieCard"
-    data-video="https://youtu.be/YFQ7Bzb5e3k"
-    data-marker="15:44"
-    data-marker-label="15:44"
-  >
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
 
-    <!-- MÀN HÌNH VIDEO -->
+<div id="musicPanel" class="music-panel" style="display:none;">
 
-    <div class="movie-screen" id="movieScreen">
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
 
-      <div id="youtubePlayer"></div>
+<div id="musicList" class="music-list"></div>
 
-      <div class="movie-overlay" id="movieOverlay">
-        <div class="movie-play-btn" id="movieOverlayBtn">▶</div>
-      </div>
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
 
-      <div class="movie-error" id="movieError" style="display:none;"></div>
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
 
-    </div>
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">15:44</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Sau khi trêu chọc một Alpha mang danh “Hổ mang chúa”, tôi âm thầm bỏ trốn cùng đứa nhỏ trong bụng.
+
+Bốn năm sau, ngày gặp lại đầy bất ngờ, tôi lại trở thành bác sĩ riêng của anh.
+
+Lục Chuẩn chẳng hề nhận ra tôi.
+
+Anh thậm chí còn nhìn chằm chằm đôi tai thỏ lông xù trên đầu tôi, vẻ mặt đầy chán ghét.
+
+Anh hờ hững buông một câu: “Tôi cần một bác sĩ, chứ không phải một con thỏ chỉ biết phát tình.”
+
+Tuyến thể của tôi đã hư tổn từ lâu, không thể tỏa pheromone, cũng chẳng còn kỳ phát nhiệt như những Omega khác.
+
+Phải đến khi tôi hết lần này đến lần khác cam đoan rằng tình trạng của mình tuyệt đối không ảnh hưởng đến công việc, anh mới chịu bỏ qua.
+
+Về sau, đứa trẻ tôi cẩn thận giấu kín bấy lâu vô tình bị anh phát hiện, nhưng anh vẫn không nhận ra sự thật.
+
+Anh chỉ nhíu chặt mày, giọng lạnh ngắt: “Thằng nhóc này là kết quả cuộc hú hí của cậu với ai?”
+
+Để tránh rắc rối không đáng có, tôi đành bịa ra chuyện mình đã lập gia đình.
+
+Vậy mà vào một đêm khuya, trên giường tôi lại đột ngột có thêm một người.
+
+Vị Thượng tướng Lục Chuẩn lẫy lừng, người luôn được ca tụng là tấm gương “nam đức” điển hình, vừa chậm rãi cởi khuy áo vừa hạ giọng hỏi tôi: “Có thiếu tình nhân không?”
+
+Thấy tôi chần chừ không đáp, anh ngừng một lát rồi hỏi tiếp: “Vậy có thiếu chó không?”
+
+-----
+
+Đêm khuya, tôi đang ôm đứa nhỏ ngủ say.
+
+Tiếng chuông điện thoại đột ngột vang lên dồn dập, xé tan sự tĩnh mịch.
+
+Trong cơn mơ màng, tôi bắt máy, lập tức nghe thấy giọng một người đàn ông gấp gáp truyền qua đầu dây: “Bác sĩ Hướng, anh mau qua đây ngay đi, pheromone của Thượng tướng Lục lại mất kiểm soát rồi.”
+
+Đứa nhỏ nằm trong lòng tôi khẽ cựa quậy.
+
+Cơn buồn ngủ của tôi tan biến không còn một mống.
+
+Tôi vội đáp một tiếng, rồi rón rén mặc lại quần áo, bước xuống giường.
+
+Nhưng chưa kịp ra tới cửa, tôi đã bị một giọng nói non nớt gọi lại: “Ba ơi.”
+
+Tôi dừng bước, quay đầu nhìn. Quả nhiên đứa nhỏ đã chui ra khỏi chăn và ngồi dậy tự bao giờ.
+
+Thằng bé nhìn tôi bằng ánh mắt ngơ ngác: “Ba đi đâu thế?”
+
+Tôi vội gượng cười dỗ dành: “Ngôi sao nhỏ ngoan nào, ba phải đi giải quyết công việc, con mau ngủ tiếp đi nhé. Chỉ cần con ngủ dậy là sẽ thấy ba ngay thôi.”
+
+Đôi mắt long lanh như hai hạt thủy tinh trong suốt cứ nhìn chằm chằm vào tôi, mỗi lúc một đỏ ngầu, rồi những giọt nước mắt vội vã trào ra.
+
+Thằng bé nức nở: “Ba toàn nói dối, lần nào ba cũng hứa như vậy nhưng lần nào cũng chẳng thấy về. Rốt cuộc là công việc gì mà mười ngày thì tám ngày không thấy bóng dáng ba đâu. Có phải ba không cần con nữa rồi không?”
+
+Tôi luống cuống tìm cách dỗ: “Ba làm sao có thể không cần con được chứ. Lần này ba đi làm thật mà, tuyệt đối không gạt con đâu. Ba sẽ về thật nhanh, còn mua đồ ngon về cho con nữa, có được không?”
+
+Thế nhưng lần này, tôi dỗ thế nào cũng vô ích.
+
+Điều đó cũng dễ hiểu thôi.
+
+Từ lúc Liên minh phân công tôi làm bác sĩ riêng cho Lục Chuẩn, tôi gần như phải tăng ca xuyên ngày đêm, thời gian dành cho Hướng Dự Tinh vô cùng ít ỏi.
+
+Trong khi đó, Dự Tinh mới vừa tròn bốn tuổi, đúng lúc đứa trẻ cần tôi chăm sóc nhất.
+
+Tiếng điện thoại hối thúc lại vang lên một lần nữa.
+
+Đúng lúc tôi đang lúng túng không biết xử trí ra sao thì bên ngoài có tiếng gõ cửa.
+
+Tôi ra mở cửa, đập vào mắt là một bóng dáng cao lớn đang đứng chờ.
+
+Đó là Ôn Việt Hoài, người bạn đang thuê chung nhà với tôi.
+
+Có lẽ anh bị tiếng khóc nấc của Dự Tinh làm tỉnh giấc.
+
+Anh quan sát cảnh tượng trong phòng một lượt, dường như lập tức hiểu ra ngọn ngành, ôn tồn nói: “A Dụ, cậu cứ đi lo công việc đi, để Tinh Tinh lại đây tôi chăm cho.”
+
+Tôi chẳng kịp nghĩ nhiều, chỉ vội cảm ơn anh rồi rời khỏi nhà ngay.
+
+Liên minh Y viện, khu vực tầng cao nhất.
+
+Vừa bước ra khỏi thang máy, mùi gỗ đàn hương nồng nặc đã xộc thẳng vào mũi, tràn ngập khoang mũi tôi.
+
+Đó là pheromone của Lục Chuẩn.
+
+Cơ thể tôi bỗng nóng bừng, đôi chân cũng bất giác mềm nhũn, không còn sức.
+
+Tôi vội đeo khẩu trang chống pheromone lên mặt, nhờ vậy mới dần lấy lại được sự thích ứng.
+
+Đến cả tôi, một Omega đã hỏng tuyến thể và không còn nhạy cảm với pheromone, mà còn chịu ảnh hưởng nặng nề thế này.
+
+Xem ra tình trạng lần này quả thực chẳng khả quan chút nào.
+
+Mấy vị bác sĩ Beta mặc áo blouse trắng đều căng thẳng, chỉ biết bất lực nhìn vào phòng cách ly làm bằng loại thủy tinh đặc chế.
+
+Bên trong, Lục Chuẩn bị trói chặt trên ghế, đôi mắt đỏ ngầu dữ tợn, toàn thân toát lên sự hung bạo tột cùng.
+
+Anh thậm chí không thể duy trì nổi hình dáng của một con người.
+
+Chiếc đuôi rắn đen khổng lồ quấn chặt lấy một góc phòng, trên làn da trắng ngần của anh mơ hồ nổi lên từng mảng vảy lạnh lẽo.
+
+Thấy tôi, phó quan Thẩm Ngộ khẽ gật đầu chào: “Xin lỗi bác sĩ Hướng, tôi biết gọi cậu đến đây lúc này là không thích hợp, dù sao cậu cũng là Omega.”
+
+Thẩm Ngộ lo lắng nói tiếp: “Nhưng tình trạng cơ thể của Thượng tướng Lục xưa nay vẫn do một tay cậu phụ trách, không ai hiểu rõ bằng cậu. Giờ thuốc ức chế đã hoàn toàn vô hiệu, tôi nghĩ có lẽ cậu sẽ tìm ra giải pháp.”
+
+Sau khi trao đổi kỹ, tôi mới nắm rõ toàn bộ sự việc.
+
+Thời gian gần đây, tôi vẫn rút dịch tuyến định kỳ cho Lục Chuẩn để giúp anh đào thải lượng pheromone dư thừa tích tụ trong cơ thể.
+
+Các chỉ số sức khỏe của anh rõ ràng đã cải thiện rất khả quan.
+
+Không ngờ hôm nay, khi ra ngoài trấn áp một vụ dị chủng bạo loạn, anh lại vô tình chạm mặt một Omega bất ngờ rơi vào kỳ phát nhiệt.
+
+Nếu là một Alpha khác, Omega kia có lẽ đã bị cưỡng ép đánh dấu từ lâu.
+
+Nhưng Lục Chuẩn cố kìm nén, gắng gượng chịu đựng cho đến khi trở về bệnh viện.
+
+Nhìn bản kết quả kiểm tra toàn những hàng chữ đỏ sát ngưỡng nguy hiểm, tôi chỉ thấy đầu óc như sắp nổ tung.
+
+Trời mới biết suốt nửa năm qua, tôi đã tốn bao nhiêu tâm sức mới kiểm soát được chứng rối loạn pheromone của Lục Chuẩn.
+
+Giờ mọi chuyện quay về vạch xuất phát, công sức bấy lâu coi như đổ sông đổ biển.
+
+Xét trên thực tế, tìm một Omega phù hợp để Lục Chuẩn đánh dấu sẽ hiệu quả hơn bất kỳ phương pháp trị liệu nào.
+
+Nhưng đề xuất này vừa đưa ra đã bị Thẩm Ngộ thẳng thừng bác bỏ: “Thượng tướng ghét nhất việc tạo liên kết pheromone giữa A và O, với anh ấy, điều đó còn khó chịu hơn cả bị giết.”
+
+Tôi cũng không thấy ngờ vực trước phản ứng ấy.
+
+Lục Chuẩn là nhân tố ưu tú bậc nhất của gia tộc Hổ mang chúa.
+
+Từ khi còn trẻ, anh đã gặt hái vô số chiến tích hiển hách.
+
+Khuyết điểm duy nhất của vị Thượng tướng Lục lẫy lừng này là lối sống thanh tâm quả dục, chẳng khác nào một kẻ tu hành khắt khe.
+
+Nói cách khác, anh tuyệt đối không chấp nhận chuyện đánh dấu giữa A và O.
+
+Trong quan niệm của anh, đánh dấu chỉ vì bị pheromone chi phối thì chẳng khác nào hành vi thấp hèn, đáng xấu hổ của loài cầm thú.
+
+Ấy vậy mà chính con người kiêu ngạo ấy, bốn năm trước trong một lần uống say, lại đột ngột rơi vào kỳ dễ cảm và bị một Omega nhân cơ hội chiếm lấy thân xác rồi đánh dấu.
+
+Ngay sau sự việc, Omega kia đã nhanh chân bỏ trốn. Lục Chuẩn thậm chí phát lệnh truy nã toàn mạng nhưng rốt cuộc vẫn không tìm ra.
+
+Từ đó, anh nảy sinh sự căm ghét triệt để đối với giới Omega.
+
+Một bác sĩ Beta biết rõ chuyện liền oán thán: “Mọi chuyện nông nỗi này đều do tên Omega đê tiện của bốn năm trước gây ra, nếu không Thượng tướng cũng chẳng có định kiến sâu sắc đến thế với giới Omega.”
+
+Người bên cạnh vội phụ họa: “Đúng vậy, tôi nghe nói chứng rối loạn pheromone cay nghiệt của Thượng tướng Lục cũng là do lượng pheromone còn sót lại của tên Omega kia gây ra.”
+
+Trong lòng tôi rất muốn phản bác, bốn năm rồi, làm sao còn pheromone dư thừa được.
+
+Nhưng đến cuối cùng, tôi chẳng dám thốt lên lời nào.
+
+Bởi tên Omega đê tiện đang bị họ nhắc đến chẳng phải ai khác, chính là tôi.
+
+Thời điểm ấy, tôi cũng bị pheromone của Lục Chuẩn dẫn dắt mà rơi vào kỳ phát nhiệt, đầu óc hoàn toàn hỗn loạn.
+
+Đến khi tỉnh táo lại thì mọi chuyện đã quá muộn.
+
+Khi đó tôi còn quá non nớt, trong lòng đầy hốt hoảng và sợ hãi, chỉ biết cắm đầu chạy về quê, rồi tiếp tục chịu sự chỉ trích của gia đình rằng tôi không biết giữ mình.
+
+Tôi phải sống giữa những lời chê cười cay nghiệt, rằng tôi làm chuyện loạn lạc với Alpha, đến mức bụng cũng to ra.
+
+Từ nhỏ tôi đã chẳng được cha mẹ yêu thương, xung quanh cũng không có người bạn thân thiết nào, nên không nỡ bỏ đi sinh mệnh nhỏ bé đang lớn dần trong bụng. Tôi tự dặn lòng rằng sinh đứa trẻ ra để làm bạn với mình cũng là điều tốt.
+
+Khoảng thời gian ấy, một mình tôi phải nuôi Hướng Dự Tinh, vừa bươn chải đi học lại vừa làm thêm, không biết đã hứng chịu bao nhiêu ánh mắt khinh miệt, nếm trải biết bao cay đắng khổ sở.
+
+Tôi thậm chí còn phải tìm đến một phòng khám nhỏ để làm tiểu phẫu xóa dấu vết, kết quả là làm hỏng luôn tuyến thể của mình, đến tận bây giờ vẫn chưa hồi phục.
+
+Xét cho cùng, tôi mới là người chịu tổn thất nặng nề nhất.
+
+Còn anh ta thì ngược lại, đã chiếm trọn tiện nghi rồi mà vẫn giữ vẻ mặt cao quý hơn người.
+
+Tôi chưa từng nghĩ cuộc đời này mình còn có cơ hội gặp lại Lục Chuẩn.
+
+Trớ trêu thay, thế giới này lại nhỏ bé đến không tưởng.
+
+Khi Liên minh giao tôi phụ trách điều trị cho vị Thượng tướng vừa được đưa từ tiền tuyến về vì bệnh cũ tái phát, tôi chỉ liếc một cái đã nhận ra anh ngay.
+
+Những ký ức tưởng đã bị chôn kín cũng theo đó ùa về.
+
+Chiếc đuôi rắn quấn chặt cổ chân, thân thể tôi vừa rời khỏi giường đã bị kéo ngược trở lại, cùng giọng nói khàn khàn đầy dụ dỗ của vị Alpha ấy.
+
+“Bé cưng, mùi hương trên người em thơm quá.”
+
+“Anh vẫn còn muốn nữa, mau cho anh thêm một chút pheromone đi.”
+
+“Em chạy cái gì chứ? Vợ ơi, em vốn dĩ là của anh. Em nói xem, liệu trong này đã có con của hai chúng ta chưa nhỉ?”
+
+Vậy mà giờ đây, trước mặt người đàn ông khoác bộ quân phục xanh nhạt, lạnh lùng và kiêu ngạo ấy, đến một ánh mắt anh cũng keo kiệt chẳng buồn ban cho tôi.
+
+Tôi chỉ biết cắn răng bước tới, cất lời chào và đưa tay ra.
+
+Tôi chủ động lên tiếng: “Thượng tướng Lục, xin chào ngài, tôi là Hướng Duẫn, bác sĩ riêng vừa được Liên minh phân công cho ngài, thời gian tới mong được ngài chỉ giáo nhiều hơn.”
+
+Sau một quãng im lặng kéo dài đến mức cánh tay tôi giơ ra cũng mỏi nhừ, Lục Chuẩn mới chậm rãi ngẩng đầu.
+
+Ánh mắt anh dừng lại trên bảng tên trước ngực tôi, rồi khẽ nhếch một nụ cười lạnh giễu cợt.
+
+Anh nói: “Một Omega thỏ lùn sao?”
 
 
-    <!-- MỐC XEM -->
+Gương mặt tuấn tú, thanh lạnh của anh hiện rõ nét cay nghiệt.
 
-    <div class="movie-controls-wrap">
+Anh nói với vẻ coi thường: “Tôi cần một bác sĩ đúng nghĩa, chứ không phải một con thỏ chỉ biết phát tình.”
 
-      <!-- THANH ĐIỀU KHIỂN: nằm dưới video; khi toàn màn hình sẽ tự chuyển vào trong video -->
+Thái độ của anh hoàn toàn trái ngược với lúc rơi vào kỳ dễ cảm.
 
-      <div class="movie-hud" id="movieHud">
+Chẳng trách người đời vẫn truyền tai nhau rằng, thà tin trên đời này có ma, chứ nhất quyết đừng tin vào miệng lưỡi của một Alpha đang trong kỳ dễ cảm.
 
-    <div class="movie-progress-wrap">
-        <div id="movieTimeBubble" class="movie-time-bubble">00:00</div>
-        <input
-          id="movieProgress"
-          class="movie-progress"
-          type="range"
-          min="0"
-          max="100"
-          value="0"
-          step="0.1"
-        >
-      </div>
+Tuyến thể của tôi vốn đã hỏng, không còn pheromone cũng chẳng có kỳ phát nhiệt. Sau khi tôi hết lần này đến lần khác cam đoan sẽ không ảnh hưởng đến công việc, Lục Chuẩn mới chịu bỏ qua.
 
-      <div class="movie-time">
-        <span id="currentTime">00:00</span>
-        <span id="duration">00:00</span>
-      </div>
+Nhờ vậy tôi mới thở phào nhẹ nhõm.
 
-      <div class="movie-main-controls">
-        <button id="back10Btn" class="movie-skip-btn" type="button">↶ 10s</button>
-        <button id="playPauseBtn" class="movie-play" type="button">▶</button>
-        <button id="forward10Btn" class="movie-skip-btn" type="button">10s ↷</button>
-      </div>
+Thật may, anh đã không nhận ra tôi.
 
-      <div class="movie-tools">
-        <span class="movie-tools-title">Tốc độ</span>
-        <button class="speed-btn active" data-speed="1" type="button">1x</button>
-        <button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
-        <button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
-        <button class="speed-btn" data-speed="2" type="button">2x</button>
-        <button id="fullscreenBtn" class="movie-fs-btn" type="button">⛶ Toàn màn hình</button>
-      </div>
+Sau nhiều lần bàn bạc, cuối cùng chúng tôi quyết định rút một lượng dịch tuyến của Lục Chuẩn trước để giảm áp lực do pheromone quá tải trong cơ thể anh, rồi mới tiêm thử thuốc ức chế để theo dõi.
 
-    </div>
+Có điều, ai sẽ là người trực tiếp thao tác thì mấy vị bác sĩ Beta đều tỏ ra vô cùng chần chừ.
 
-      <div class="movie-marker" id="movieMarker">
-        <div class="marker-info">
-          <div class="marker-icon">📍</div>
-          <div>
-            <div class="marker-title">Mốc xem</div>
-            <div class="marker-description">Nhấn để xem từ đoạn được chia sẻ từ TikTok/Facebook</div>
-          </div>
-        </div>
+Tính khí Lục Chuẩn vốn chẳng mấy dễ chịu, trước khi tôi đến, anh đã đổi không biết bao nhiêu đời bác sĩ, ai nấy đều sợ chỉ cần một sơ suất nhỏ cũng đủ rước họa vào thân.
 
-        <button id="markerBtn" class="marker-btn" type="button">
-          ▶ <span id="markerTime">15:44</span>
-        </button>
-      </div>
+Thẩm Ngộ sầm mặt: “Chẳng lẽ các người muốn để một Omega như bác sĩ Hướng phải ra tay sao?”
 
-    </div>
+Có người khẽ thì thào đáp lại: “Anh ta mà cũng tính là Omega sao? Đến pheromone còn chẳng có, thì khác gì Beta như chúng ta…”
 
-  </section>
+Thẩm Ngộ định trách thêm.
 
-</main>
+Tôi khẽ vỗ vai anh để trấn an: “Không sao đâu, dù sao đây cũng là việc thuộc phạm vi công việc của tôi mà.”
+
+Nói xong, tôi bắt tay chuẩn bị ống tiêm cùng toàn bộ dụng cụ khử trùng cần thiết.
+
+Tôi đẩy cửa bước vào phòng cách ly.
+
+Một luồng pheromone mãnh liệt hơn gấp bội lập tức ập thẳng vào người tôi.
+
+Cảm giác ấy chẳng khác nào bị ngâm hoàn toàn trong dung dịch hương gỗ đàn hương đặc quánh.
+
+Tôi cố nín thở, thận trọng từng bước tiến đến phía sau lưng Lục Chuẩn.
+
+Thấy tôi đi vào, anh ngừng giãy giụa, chỉ dùng đôi mắt trừng trừng theo dõi từng cử động của tôi.
+
+Ánh mắt ấy đầy thú tính bộc phát, đôi con ngươi nâu sẫm dựng đứng khiến tôi khó chịu đến rợn người.
+
+Cảm giác đó hệt như một con mồi đã sa vào bẫy mà chẳng hề hay biết.
+
+Tôi chỉ biết tự an ủi rằng đó là ảo giác, bởi lúc này người bị trói chặt là anh, và kẻ đang chờ để xử lý cũng là anh.
+
+Dung dịch sát trùng lành lạnh lau qua vùng tuyến thể mang vết vảy rắn ở sau gáy Lục Chuẩn, khiến toàn thân anh run lên.
+
+Giữa tiếng thở dốc mỗi lúc một dồn dập của anh, tôi căn chỉnh chuẩn xác rồi đâm mũi kim vào.
+
+Việc thu thập dịch tuyến diễn ra rất thuận lợi, nhưng ngay khi tôi vừa định lấy ống thuốc ức chế thì dây trói trên người Lục Chuẩn bất ngờ lỏng ra.
+
+Bên ngoài, Thẩm Ngộ là người đầu tiên phát hiện sự cố, vội hét lớn qua bộ đàm: “Bác sĩ Hướng, mau rời khỏi đó ngay!”
+
+Tôi còn chưa kịp hiểu chuyện gì đang xảy ra.
+
+Nhưng làn sóng pheromone cuồn cuộn bao quanh cũng đủ khiến tôi mơ hồ cảm nhận được nguy hiểm đang cận kề.
+
+Không dám chậm trễ dù chỉ một giây, tôi lập tức chạy về phía cửa.
+
+Thế nhưng ngay khi tay tôi vừa chạm vào tay nắm cửa, một sức nặng áp đảo từ phía sau giáng xuống, khe cửa vừa hé ra đã đóng chặt trở lại.
+
+Tim tôi đập dồn dập.
+
+Tôi nuốt khan, cứng ngắc quay đầu lại, liền bắt gặp gương mặt tuấn mỹ của người đàn ông đang ở sát trong gang tấc, xen lẫn một tia cố chấp vô cùng quái dị.
+
+Tôi thử gọi: “Thượng tướng Lục.”
+
+Anh rõ ràng đã không còn tỉnh táo, chẳng nói lời nào, chỉ gục đầu xuống, liên tục khẽ hít hà vùng cổ tôi.
+
+Cuối cùng, anh thì thầm một tiếng: “Tiểu linh lan.”
+
+Âm thanh rất nhẹ, nhưng tôi vẫn nghe rõ mồn một. Tôi bàng hoàng ngẩng đầu, nhìn anh bằng ánh mắt đầy khiếp sợ.
+
+Linh lan, đó chính là mùi pheromone của riêng tôi.
+
+Nhưng làm sao có thể như vậy được?
+
+Tuyến thể của tôi đã hư hại từ lâu, không còn tỏa ra pheromone nữa cơ mà.
+
+Lục Chuẩn nheo mắt, bất chợt bật cười, nụ cười vô cùng quỷ dị.
+
+Anh thì thào: “Tóm được em rồi.”
+
+Tôi run run gọi anh thêm lần nữa: “Lục Chuẩn.”
+
+Tôi rất muốn kéo phần lý trí đang tản mác của anh quay trở lại.
+
+Chiếc đuôi rắn chậm rãi siết chặt cơ thể tôi, trói nghiến đến mức tôi không thể cử động.
+
+Giọng nói nóng bỏng của anh kề sát bên tai tôi: “Bé cưng, không đúng rồi, em phải gọi anh là chồng mới phải.”
+
+Cả người tôi như bị lôi ngược về đêm tối mịt mùng bốn năm trước, khi dục vọng vô tận nhấn chìm tất cả.
+
+Tôi gần như sụp đổ hoàn toàn, môi lắp bắp chẳng thốt nên câu nào hoàn chỉnh.
+
+Tôi hoảng loạn nói: “Lục Chuẩn, mau buông tôi ra, tôi không phải người đó, anh nhận nhầm người rồi… Đừng làm thế này, bây giờ anh đang không tỉnh táo, sau này nhất định anh sẽ hối hận…”
+
+Nhưng mọi âm thanh của tôi đều bị chặn đứng khi cặp nanh sắc nhọn của anh đâm sâu vào vùng tuyến thể.
+
+Làn sóng pheromone hương gỗ đàn hương cuồn cuộn tràn vào cơ thể tôi.
+
+Dòng pheromone tưởng đã bị chôn vùi vĩnh viễn cùng tuyến thể hư hỏng bỗng trỗi dậy mạnh mẽ, gào thét phá vỡ lồng giam để hòa quyện chặt chẽ với hương gỗ.
+
+Những giọt nước mắt sinh lý làm mờ tầm mắt tôi.
+
+Ngay trong khoảnh khắc ngàn cân treo sợi tóc ấy, Thẩm Ngộ lao vào, thừa lúc Lục Chuẩn phân tâm, nhặt ống thuốc ức chế dưới đất lên và đâm thẳng vào tuyến thể của anh.
+
+Chiếc đuôi rắn đang siết chặt tôi lập tức buông lỏng, Lục Chuẩn ngã gục ra phía sau.
+
+Còn tôi cũng không chống đỡ nổi nữa, ngất lịm đi.
+
+Chuyện lần này hoàn toàn đủ điều kiện để xếp vào danh mục sự cố nghiêm trọng.
+
+Với tư cách là người chịu thiệt hại, tôi liên tục được đại diện Liên minh và cha mẹ Lục Chuẩn thay nhau đến thăm hỏi.
+
+Các loại thực phẩm bổ dưỡng đắt đỏ được mang đến ào ào.
+
+Nhưng tôi hiểu rất rõ, mục đích duy nhất của họ chỉ là dàn xếp mọi chuyện cho êm thấm.
+
+Theo Luật bảo hộ Omega, nếu tôi quyết định truy cứu đến cùng, Lục Chuẩn bắt buộc phải chịu trách nhiệm hình sự.
+
+Song, bất cứ ai chín chắn cũng sẽ không chọn cách “tổn hại người tám trăm, hại mình một ngàn” như vậy.
+
+Dù tôi có làm tới cùng, Lục Chuẩn cùng lắm cũng chỉ bị giáng chức và giam giữ vài ngày ngắn ngủi.
+
+Trong khi tôi, một kẻ không gia thế, chẳng có hậu thuẫn, không những mất việc mà còn có thể phải đối mặt với sự trả thù điên cuồng từ gia tộc Hổ mang chúa, nghiêm trọng hơn là đến việc trụ lại thủ đô cũng không nổi.
+
+Trời mới biết, một Omega như tôi để đi từ vùng quê hẻo lánh lên thủ đô, rồi tìm được một công việc vừa có thể diện vừa có thu nhập cao như thế này, đã phải bỏ ra biết bao nỗ lực.
+
+*****
+
+Hồi mang thai Hướng Dự Tinh, tôi chưa thể xóa dấu vết, đành xin nghỉ học và lẩn trốn khắp nơi. Để tự nuôi sống bản thân, tôi từng quét rác ngoài đường, bưng bê, rửa bát, việc bẩn thỉu và nặng nhọc nhất nào tôi cũng đã làm qua.
+
+Sinh Dự Tinh xong, tôi nghĩ mình không thể để con theo mình sống cảnh lang bạt cả đời, nên mới quyết định xóa dấu vết rồi quay lại trường học tiếp.
+
+Ngay cả khi các bạn cùng lớp ở trường mẫu giáo chê cười Dự Tinh là đứa trẻ không có cha Alpha, thằng bé vẫn luôn tự hào đáp lại: “Thì đã sao nào? Ba của tớ là Omega duy nhất được Liên minh tuyển dụng, còn lợi hại hơn tất cả mọi người cộng lại đấy.”
+
+Đó cũng là cách duy nhất tôi có thể làm để bù đắp cho một đứa trẻ phải sinh ra trong gia đình khuyết thiếu như Dự Tinh.
+
+Huống chi, nếu chuyện thật sự bùng nổ ầm ĩ, gia tộc Hổ mang chúa chắc chắn sẽ điều tra ra bí mật về thân thế của Dự Tinh.
+
+Vì vậy, sau khi nhận khoản tiền bồi thường vô cùng hậu hĩnh, tôi tự biết đâu là điểm dừng.
+
+Nằm trong phòng bệnh, tôi nhận từ Thẩm Ngộ bản kết quả kiểm tra sức khỏe. Anh gượng gạo an ủi: “Bác sĩ Hướng, chuyện gì cũng có mặt tốt của nó. Cậu xem này, các chức năng Omega trên cơ thể cậu đang dần khôi phục, cũng có thể coi là trong họa có phúc.”
+
+Có lẽ nhờ sự kích thích mạnh mẽ từ pheromone của Lục Chuẩn, di chứng tổn thương tuyến thể suốt bao năm qua lại kỳ diệu bước vào quá trình hồi phục.
+
+Nhưng với riêng tôi, đây tuyệt đối không phải tin đáng mừng.
+
+Tôi thà cứ giữ nguyên trạng thái hiện tại.
+
+Không có pheromone, không có kỳ phát nhiệt, làm việc gì cũng dễ dàng hơn rất nhiều.
+
+Tôi hiểu Thẩm Ngộ có ý tốt nên không phản bác, chỉ gượng cười.
+
+Đúng lúc này, Lục Chuẩn đẩy cửa bước vào phòng.
+
+Vừa thấy anh, tôi lập tức thu nụ cười, toàn thân dâng lên sự cảnh giác.
+
+Tôi hoàn toàn không biết anh có còn nhớ chuyện xảy ra hôm đó hay không.
+
+Cũng không biết anh có nhận ra tôi hay chưa.
+
+Tôi chẳng dám tưởng tượng hậu quả sẽ ra sao nếu anh thật sự nhận ra.
+
+Lục Chuẩn xưa nay nổi tiếng là kẻ thù dai nhớ lâu.
+
+Nếu anh biết tôi không những từng cưỡng đoạt dấu vết của anh mà còn tự ý sinh con cho anh, chắc chắn anh sẽ xé xác tôi ra làm nhiều mảnh.
+
+Hơn nữa, một gia tộc lớn như họ tuyệt đối không cho phép dòng máu con cháu lưu lạc bên ngoài.
+
+Nếu thật sự đến bước đó, dù phải đánh đổi cả tính mạng, tôi cũng nhất quyết không để họ cướp Hướng Dự Tinh khỏi tay mình.
+
+Dưới ánh đèn, đôi mắt sâu thẳm như mực của Lục Chuẩn càng khó đoán định.
+
+Tôi không thể nhìn thấu suy nghĩ của anh, chỉ thấy thần sắc anh có vẻ thư thái, tâm trạng dường như khá tốt.
+
+Anh vung tay ra hiệu cho Thẩm Ngộ ra ngoài.
+
+Trong phòng bệnh chỉ còn lại hai chúng tôi, sự bất an trong lòng tôi tăng lên gấp bội.
+
+Lục Chuẩn cũng nhận ra, anh khẽ nhíu mày, hỏi: “Hướng Duẫn, cậu đang sợ tôi đấy à?”
+
+Tôi siết chặt tay, khẽ lắc đầu: “Không có.”
+
+Lục Chuẩn thở dài.
+
+Anh nói: “Chuyện hôm đó, tôi thật sự không nhớ rõ chi tiết.”
+
+Ngừng một lát, anh hạ giọng dịu hơn đôi chút rồi nói tiếp: “Dù tôi đã trót làm gì với cậu, đó cũng hoàn toàn không phải ý muốn của tôi.”
+
+Những điều đè nặng trong lòng tôi suốt nhiều ngày qua, vào khoảnh khắc này như hòn đá lớn bị đập vỡ, tan biến dễ dàng đến lạ.
+
+Tôi vẫn còn mơ hồ, chưa dám chắc nên hỏi lại: “Anh thật sự không nhớ chút nào sao?”
+
+Lục Chuẩn cụp mắt, nói thêm: “Đây tuyệt đối không phải lời ngụy biện. Tôi sẽ chịu trách nhiệm về những gì mình đã gây ra. Cậu cứ đưa ra một yêu cầu bất kỳ, dù là gì tôi cũng sẽ đồng ý.”
+
+Tôi vội xua tay từ chối: “Thật sự không cần đâu. Tôi đã nhận khoản bồi thường rất hậu hĩnh rồi. Chuyện này vốn là sự cố ngoài ý muốn, không ai lường trước được, Thượng tướng Lục không cần bận tâm đâu. Tôi cũng đã gửi đơn xin điều chuyển công tác lên Liên minh rồi. Dù sao sau chuyện như vậy, hai chúng ta cũng không còn thích hợp để tiếp tục làm việc cùng nhau nữa.”
+
+Từ khoảnh khắc phát hiện Lục Chuẩn chính là người đàn ông của bốn năm trước, tôi vẫn luôn ấp ủ ý định xin điều chuyển.
+
+Chỉ là bấy lâu chưa tìm được lý do thực sự chính đáng.
+
+Không ngờ nghe xong lời tôi, sắc mặt Lục Chuẩn bỗng trầm xuống thấy rõ.
+
+Toàn thân anh tỏa ra luồng khí áp nặng nề đến nghẹt thở.
+
+Anh lạnh lùng liếc về phía miếng dán ức chế sau gáy tôi.
+
+Pheromone của tôi mới hồi phục đôi chút, nếu không chú tâm ngửi kỹ thì khó mà phát hiện.
+
+Nhưng vì vết cắn Lục Chuẩn để lại quá sâu, nó đã tạo thành một dấu vết tạm thời, khiến cả người tôi ngập tràn mùi gỗ đàn hương của anh, buộc tôi vẫn phải dùng miếng dán ức chế.
+
+Anh lạnh giọng: “Bác sĩ Hướng đây đúng là người rộng lượng. Có phải chỉ cần bỏ tiền ra bồi thường, thì Alpha nào cắn cậu, cậu cũng dễ dàng bỏ qua như thế không?”
+
+Nếu câu này nói với một Omega khác, e rằng người đó đã sớm òa khóc.
+
+Bởi lời lẽ ấy chẳng khác nào chửi thẳng vào mặt người ta là kẻ tiện nhân không chừa một ai.
+
+Đó là sự xúc phạm vô cùng nặng nề.
+
+Nhưng làm việc cạnh Lục Chuẩn đã lâu, tôi sớm quen với kiểu miệng lưỡi độc địa của anh.
+
+Biết làm sao được.
+
+Tiền khó kiếm, cay đắng khó nuốt.
+
+Ngược lại, thấy tôi im lặng không đáp trả, chính Lục Chuẩn lại tức đến mức đập mạnh cửa rồi hầm hầm bỏ đi.
+
+Tôi không ngờ đơn xin điều chuyển tuy không bị bác bỏ thẳng nhưng lại bị gác lại.
+
+Người đại diện phía Liên minh trao đổi với tôi: “Bác sĩ Hướng, tôi biết việc này gây nhiều khó khăn cho cậu. Nhưng hiện tại thật sự chưa tìm được người thích hợp thay vị trí của cậu. Hay thế này đi, chúng tôi sẽ cố gắng nhanh chóng tìm người phù hợp, trước mắt mong cậu tạm thời tiếp tục đảm nhận vị trí cũ.”
+
+Tôi cũng không ngờ vực gì trước lời giải thích này.
+
+Bởi chẳng ai tự nguyện đi hầu hạ một vị thiếu gia tính khí khó chiều như Lục Chuẩn.
+
+Ngay từ ngày đầu được phân công đến làm việc bên cạnh anh, tôi đã trải qua những ngày tháng khổ sở không sao tả xiết.
+
+Anh luôn tìm cách soi mói đủ điều.
+
+Lần gặp nào tôi cũng phải hứng một trận châm biếm mỉa mai, còn buổi kiểm tra sức khỏe mỗi sáng thì lần nào cũng đụng phải cơn giận do chứng gắt ngủ của anh.
+
+Để hợp khẩu vị anh, lại né được một danh sách dài những món anh căm ghét, riêng việc xây dựng thực đơn dinh dưỡng cho anh đã tiêu tốn của tôi biết bao công sức.
+
+Rõ ràng đang mang bệnh trong người, vậy mà anh nhất quyết không chịu hợp tác điều trị.
+
+Để ép anh bớt uống rượu, tửu lượng của chính tôi cũng được rèn luyện tăng lên đáng kể.
+
+Tôi chỉ mong sức khỏe anh nhanh chóng ổn định để sớm nhận được quyết định điều chuyển.
+
+Trên đời này làm gì có bức tường nào ngăn nổi gió lọt qua.
+
+Cứ ở lại bên cạnh anh, tôi không thể đảm bảo sẽ có ngày bí mật của mình không bại lộ.
+
+Không ngờ lại xảy ra sự cố lần trước.
+
+Chẳng còn cách nào khác, tôi chỉ biết liên tục thúc giục Liên minh sớm tìm người thay thế.
+
+Khi pheromone của Lục Chuẩn lưu lại trên người tôi dần tan đi, pheromone của chính tôi lại từng bước hồi phục.
+
+Điềm báo chẳng lành ngày càng hiện rõ.
+
+Nếu cứ ở bên cạnh Lục Chuẩn, chuyện sự thật bị lộ tẩy chỉ còn là sớm hay muộn.
+
+Cũng may, suốt mấy ngày liền Lục Chuẩn không bắt tôi tăng ca giữa đêm.
+
+Ôn Việt Hoài kể với tôi rằng, mỗi lần tôi rời khỏi nhà, Hướng Dự Tinh đều khóc rất lâu, dỗ thế nào cũng nhất quyết không chịu ngủ.
+
+Trẻ con đang tuổi phát triển, thiếu ngủ sẽ gây ảnh hưởng vô cùng không tốt.
+
+Có lẽ lượng pheromone tích tụ quá nhiều trong cơ thể Lục Chuẩn đã san sẻ sang tôi một phần, nên chỉ một vết cắn lại mang đến hiệu quả vượt trội hơn cả nửa năm chữa trị dài đằng đẵng.
+
+Lục Chuẩn hiếm hoi lắm mới phê cho tôi vài ngày nghỉ phép.
+
+Trong lòng tôi đã sớm vạch sẵn kế hoạch.
+
+Tôi tự dặn lần này nhất định phải bù đắp thật tốt cho Dự Tinh, đưa con đi công viên giải trí và khu thủy cung mà thằng bé đã khao khát từ rất lâu.
+
+Chỉ là khi nhận tờ giấy nghỉ phép từ tay Lục Chuẩn, tôi kéo mãi mà không lấy ra được.
+
+Anh nắm chặt đầu bên kia tờ giấy, nhất quyết không chịu buông.
+
+Tôi hít sâu một hơi, gượng cười hỏi: “Thượng tướng Lục, có vấn đề gì phát sinh sao?”
+
+Lục Chuẩn ho khẽ một tiếng: “Cũng không có gì. Chỉ là được nghỉ hẳn một tuần, không biết bác sĩ Hướng đã có kế hoạch gì chưa?”
+
+Nghe anh hỏi, tôi lập tức nâng cao cảnh giác.
+
+Lục Chuẩn đâu phải kiểu người rảnh rỗi đến mức đi quan tâm lịch trình nghỉ phép của cấp dưới.
+
+Chẳng lẽ anh đã đánh hơi được điều gì bất thường rồi?
+
+Bề ngoài tôi vẫn cố giữ vẻ bình thản: “Tôi cũng chưa sắp xếp cụ thể gì, định bụng nghỉ ngơi một chút rồi tính tiếp.”
+
+Lục Chuẩn gật nhẹ, rồi hỏi thêm: “Bác sĩ Hướng có muốn đi đâu chơi không?”
+
+Tôi ngờ vực, tưởng mình nghe nhầm: “Hả?”
+
+Không biết có phải do nhiệt độ trong phòng chỉnh hơi cao không mà hai bên vành tai anh bỗng đỏ ửng, nét mặt cũng thấy rõ vẻ gượng gạo.
+
+Anh nói: “Tôi đã suy nghĩ kỹ rồi, mấy ngày qua bác sĩ Hướng làm việc vất vả, thực sự rất cực khổ. Vừa hay tôi cũng định ra ngoài một chuyến, có thể tiện đường đưa cậu đi cùng để thư giãn.”
+
+Ngừng một lát, anh bổ sung: “Cứ coi như đây là một khoản phúc lợi dành riêng cho nhân viên đi.”
+
+Tôi quay đầu nhìn bầu trời bên ngoài, mặt trời rõ ràng đâu có mọc đằng Tây.
+
+Lục Chuẩn, có phải anh uống nhầm thuốc rồi không?
+
+Sau một quãng im lặng kéo dài, anh gọi tên tôi một tiếng, tôi mới bừng tỉnh khỏi dòng suy nghĩ.
+
+Tôi từ chối: “Cảm ơn ý tốt của Thượng tướng Lục, nhưng thật sự không cần đâu. Tôi thấy trong người không được khỏe lắm, nên chắc sẽ không đi đâu cả.”
+
+Vừa dứt câu, tôi vội giật lấy tờ giấy xin nghỉ rồi nhanh chân bước ra ngoài.
+
+Sắc mặt Lục Chuẩn lập tức sầm xuống thấy rõ.
+
+Hướng Dự Tinh mừng đến mức nhảy nhót không ngừng.
+
+Lúc ấy cả nhà đang ngồi ăn cơm, chiếc bàn ăn suýt nữa bị thằng bé làm lật tung.
+
+Tôi vội vỗ nhẹ xuống mặt bàn nhắc nhở: “Con ngồi yên ngoan ngoãn nào, có ngoan thì mới được đi, nếu không sẽ chẳng có chuyến đi nào hết đâu đấy.”
+
+Tôi nghiêm giọng: “Bây giờ tập trung ăn cơm cho đàng hoàng đi.”
+
+Hướng Dự Tinh quả nhiên rất nghe lời, lập tức ngoan ngoãn cúi đầu xúc từng thìa cơm.
+
+Cuối cùng, thằng bé ngẩng lên nhìn Ôn Việt Hoài đang ngồi cạnh tôi, nói: “Ba ơi, con muốn chú Ôn cùng đi chơi với hai ba con mình.”
+
+Để cảm ơn Ôn Việt Hoài đã giúp chăm sóc Dự Tinh, bình thường tôi đều chủ động nấu thêm phần cơm cho anh.
+
+Tôi nhìn anh, cười nói: “Chú Ôn của con bận lắm, làm sao có thời gian đi cùng được.”
+
+Hướng Dự Tinh mím chặt môi, phụng phịu: “Không chịu đâu, con chỉ muốn chú Ôn đi cùng thôi.”
+
+Thằng bé vốn rất ỷ lại vào Ôn Việt Hoài.
+
+Trước đây, mỗi khi Dự Tinh ốm sốt, cũng nhờ pheromone của anh vỗ về.
+
+Tôi lúng túng nhìn sang Ôn Việt Hoài.
+
+Anh cụp mắt, đưa tay xoa nhẹ đầu Dự Tinh, ôn tồn nói: “Được rồi, chú sẽ đi cùng sao nhỏ nhé.”
+
+Ăn tối xong và dỗ Dự Tinh ngủ, tôi đến gõ cửa phòng Ôn Việt Hoài.
+
+Do nhầm lẫn trong khâu phân bổ nhà ở của Liên minh, tôi và một Alpha như anh mới bị xếp ở chung một căn hộ.
+
+Đến lúc tôi định làm thủ tục đổi phòng thì chẳng còn căn hộ nào trống.
+
+Ban đầu tôi cũng rất lo, nhưng Ôn Việt Hoài là người cực kỳ biết chừng mực, cử chỉ nho nhã, chưa từng làm gì vượt quá giới hạn.
+
+Như lúc này, anh đã sớm nhận ra miếng dán ức chế sau gáy tôi, nhưng tôi không chủ động nói thì anh cũng tuyệt nhiên không hỏi.
+
+Ôn Việt Hoài thực sự rất chu đáo, giúp đỡ tôi nhiều đến mức tôi áy náy, chẳng biết phải đáp lại thế nào.
+
+Anh đang mặc bộ đồ ở nhà, các đường nét ngũ quan sâu thẳm, hệt như tính cách của anh.
+
+Pheromone hương hồng trà mật ong ấm áp lan từ phòng anh ra ngoài.
+
+Anh ôn tồn nói: “A Duẫn, cậu không cần tự tạo áp lực cho mình đâu.”
+
+Anh tiếp lời: “Chúng ta là bạn bè, đã là bạn bè thì không cần tính toán quá chi li. Hay cậu đang lo ngày mai tôi đi cùng sẽ tiêu hết tiền của cậu?”
+
+Nghe anh nói vậy, tâm trạng tôi thả lỏng hẳn, cười đáp: “Làm sao thế được chứ?”
+
+Tôi nói tiếp: “Ngày mai anh cứ cùng sao nhỏ vui chơi thỏa thích, chi phí để tôi trả hết. Nếu tôi nỡ nhăn mặt dù chỉ một cái thì không còn là Hướng Duẫn nữa.”
+
+Ôn Việt Hoài bật cười: “Chính miệng cậu nói đấy nhé. Vậy tôi không khách sáo đâu.”
+
+Tôi suýt không tin vào mắt mình khi bất ngờ đụng độ Lục Chuẩn ngay tại công viên giải trí.
+
+Nhưng nhìn kỹ từ đầu đến chân, đúng là người đàn ông cao lớn tuấn tú ấy đang đứng ngay trước mặt tôi, khóe môi khẽ nhếch thành nụ cười nhạt: “Bác sĩ Hướng, trùng hợp thật.”
+
+Tôi hoảng hốt nhìn quanh, Ôn Việt Hoài đã đưa Dự Tinh đi chơi các trò và vẫn chưa quay lại.
+
+Tôi tuyệt đối không dám lơ là, cố giữ giọng bình tĩnh hỏi: “Sao ngài lại xuất hiện ở đây?”
+
+Lục Chuẩn đưa tay khẽ khều vào người Thẩm Ngộ đang đứng bên cạnh.
+
+Anh thản nhiên đáp: “Là do Phó quan Thẩm có tâm hồn trẻ con, nhất quyết đòi kéo tôi đến công viên giải trí chơi.”
+
+Nói đoạn, anh nhạt nhẽo liếc sang Thẩm Ngộ, giọng đè thấp, đuôi âm kéo dài, nghe rõ sự đe dọa: “Có phải vậy không, phó quan Thẩm?”
+
+Thẩm Ngộ đành miễn cưỡng gật đầu xác nhận.
+
+Lúc này trong đầu tôi chỉ có một mục tiêu duy nhất: tuyệt đối không để Lục Chuẩn phát hiện ra sự tồn tại của Hướng Dự Tinh, hoàn toàn chẳng còn tâm trí nghĩ đến những điểm bất thường giữa anh và Thẩm Ngộ.
+
+Nhưng mọi chuyện đã quá muộn.
+
+Hướng Dự Tinh đang ôm một cục kẹo bông gòn hồng khổng lồ, hớn hở chạy thẳng về phía tôi.
+
+Dù Ôn Việt Hoài đã nhận ra tín hiệu của tôi và cố kéo đứa trẻ lại, vẫn không kịp.
+
+Dự Tinh nhào vào lòng tôi, giọng non nớt: “Ba ơi, ba ăn thử đi này, kẹo bông ngọt lắm luôn!”
+
+Thẩm Ngộ kinh ngạc há hốc miệng: “Bác sĩ Hướng, cậu có con rồi sao? Sao từ trước đến giờ chưa từng nghe cậu nhắc?”
+
+Đầu óc tôi chạy điên cuồng, tìm cách ứng phó thích hợp nhất.
+
+Hướng Dự Tinh chẳng có nét nào giống Lục Chuẩn.
+
+Ngay từ lúc mới sinh, thằng bé đã giống hệt tôi, một chú thỏ lùn chính hiệu, có đôi tai lông xù và chiếc đuôi nho nhỏ.
+
+Tôi tuyệt đối không thể tự làm mình rối loạn.
+
+Vậy nên tôi vội điều chỉnh giọng, kéo Ôn Việt Hoài lại gần, bình tĩnh giới thiệu: “Đây là chồng tôi, Ôn Việt Hoài, còn đây là con trai của hai chúng tôi, tên ở nhà là Tinh Tinh.”
+
+Tôi lại quay sang giới thiệu với Ôn Việt Hoài: “Còn đây là cấp trên của tôi, Thượng tướng Lục Chuẩn.”
+
+Ôn Việt Hoài tỏ ra rất phối hợp, chủ động đưa tay chào: “Ngưỡng mộ đại danh đã lâu, Thượng tướng Lục.”
+
+Lục Chuẩn đứng ẩn trong bóng tối, không nói lời nào, cũng không đưa tay đáp lại.
+
+Đó là dấu hiệu rõ ràng cho thấy anh đang không vui, nhưng tôi chẳng bận tâm lắm, bởi tính khí anh vốn đã rất thất thường.
+
+Bầu không khí xung quanh bỗng trở nên vô cùng gượng gạo.
+
+Nhưng Ôn Việt Hoài chẳng hề để bụng, anh thu tay về rồi dịu dàng nhắc Dự Tinh: “Sao nhỏ à, mau chào chú đi con.”
+
+Hướng Dự Tinh mở to đôi mắt nâu sẫm tròn xoe, ngoan ngoãn nói: “Cháu chào chú ạ.”
+
+Nếu quan sát thật kỹ, đôi mắt ấy quả thực có vài phần giống Lục Chuẩn.
+
+Nhưng sẽ chẳng ai tự nhiên lại đi suy đoán theo hướng xa thực tế đến vậy.
+
+Không biết có phải do sự lôi kéo của huyết thống hay không, dù dáng vẻ uy nghiêm bẩm sinh của Lục Chuẩn thường khiến người khác e ngại, Dự Tinh lại chẳng sợ anh chút nào.
+
+Thằng bé thậm chí còn chủ động đưa cục kẹo bông gòn ra trước mặt anh: “Chú ơi, cháu mời chú ăn kẹo ạ.”
+
+Lục Chuẩn nhìn chằm chằm đứa trẻ đang tỏa pheromone hồng trà mật ong, gương mặt lại giống hệt tôi, trong lòng càng thêm phiền muộn.
+
+Thế là vị Thượng tướng vốn luôn giữ vẻ cao quý, nho nhã ấy làm ra một hành động ấu trĩ đến mức về sau mỗi lần nhớ lại, anh đều hối hận đến xanh cả ruột, đủ để ghi vào danh sách “vết đen lịch sử”.
+
+Anh giật phăng cả khối kẹo bông gòn khỏi tay Dự Tinh, vo tròn thành một cục rồi nhét tọt vào miệng mình.
+
+Sau đó anh chau mày, lạnh nhạt buông một câu với đứa trẻ: “Ngọt quá mức, chẳng ngon lành gì.”
+
+Dự Tinh “òa” lên một tiếng rồi bật khóc nức nở.
+
+Sau trận ồn ào ấy, chẳng ai còn tâm trí tiếp tục vui chơi.
+
+Trên đường về nhà, Dự Tinh khóc mệt nên thiếp đi trên chiếc ghế an toàn phía sau xe.
+
+Lúc này Ôn Việt Hoài mới có dịp hỏi tôi: “A Duẫn, Lục Chuẩn là cha Alpha của Dự Tinh, đúng không? Kẻ Omega mà bốn năm trước Lục Chuẩn đã phát lệnh truy nã toàn mạng, chính là cậu phải không?”
+
+Tuy là câu hỏi nhưng giọng anh vô cùng khẳng định.
+
+Tôi biết mình không thể giấu thêm nữa, đành khẽ gật đầu thừa nhận.
+
+Tôi nói: “Việt Hoài, cảm ơn anh đã giúp tôi diễn trọn vai vừa rồi. Lục Chuẩn hoàn toàn không biết gì cả, nên… tôi có thể phiền anh giữ kín bí mật này được không?”
+
+Ôn Việt Hoài thở dài: “A Duẫn, cậu nói vậy là quá khách sáo với tôi rồi.”
+
+Tôi nặng nề nói một tiếng cảm ơn chân thành.
+
+Kỳ nghỉ phép kết thúc, tôi lại đến phủ Lục Chuẩn để kiểm tra sức khỏe định kỳ cho anh.
+
+Không hiểu vì sao, so với trước đây, không khí nơi này lại càng u ám và nặng nề hơn bội phần.
+
+Tôi hỏi Thẩm Ngộ, anh vội nhắc nhở: “Mấy hôm nay Thượng tướng Lục cực kỳ bực bội, chẳng biết kẻ nào đã lỡ chọc vị tổ tông này, khiến mấy ngày qua tôi sống như nước sôi lửa bỏng, cậu cũng nên cẩn thận đấy.”
+
+Ngừng một lát, chẳng biết liên tưởng đến điều gì, anh lại lộ vẻ vô cùng hóng hớt.
+
+Anh hỏi: “Hướng Duẫn này, cậu có thật sự coi tôi là bạn không đấy?”
+
+Tôi ngẩn ra trước câu hỏi: “Sao tự dưng cậu hỏi vậy, làm sao tôi lại không coi cậu là bạn được?”
+
+Thẩm Ngộ bức xúc: “Chúng ta quen nhau lâu như vậy rồi mà cậu có gia đình, có con, tôi lại chẳng hay biết gì, như thế mà cũng gọi là bạn bè sao?”
+
+Tôi đáp: “Thì giờ cậu cũng biết rồi còn gì.”
+
+Tôi thật sự không muốn đào sâu thêm chủ đề này.
+
+Nhưng Thẩm Ngộ lại vô cùng hứng thú.
+
+Anh liên tục hỏi: “Tại sao chồng cậu không đánh dấu cậu?”
+
+Anh thắc mắc: “Nếu không có dấu đánh dấu, làm sao hai người sinh ra đứa con được?”
+
+Anh nói tiếp: “Có Alpha nào lại kìm nén được việc không đánh dấu Omega của mình chứ? Đừng nói với tôi đây chỉ là một cuộc hôn nhân giả nhé, hay Tinh Tinh vốn chẳng phải con của anh ta?”
+
+Anh phỏng đoán: “Hay là… đứa trẻ là kết quả của một tên Alpha cặn bã nào đó để lại, còn người chồng hiện tại của cậu chỉ là kẻ đứng ra ‘nhặt sẵn’ thôi?”
+
+Tôi thật sự phải phục khả năng tưởng tượng phong phú của Thẩm Ngộ, bởi nó đã chạm tới sự thật một cách kỳ lạ.
+
+Tôi vội bịa một lý do để phản bác: “Không phải vậy đâu, do tuyến thể của tôi bị tổn thương nên hoàn toàn không thể tiếp nhận đánh dấu.”
+
+Thẩm Ngộ còn định nói thêm, nhưng vừa liếc ra phía sau lưng tôi, anh đã im bặt.
+
+Tôi cảm thấy có gì bất thường, vừa quay đầu thì đụng ngay Lục Chuẩn đang bước về phía này.
+
+Sắc mặt anh quả nhiên rất khó coi, u tối như mây giông sắp kéo đến.
+
+Anh lạnh giọng: “Phó quan Thẩm, khoản lương cao tôi trả cho cậu không phải để cậu lười biếng đứng buôn chuyện ở đây.”
+
+Thẩm Ngộ nghe xong chỉ biết lủi thủi quay lưng bỏ đi.
+
+Tôi xách hộp y tế định rời đi thì bị Lục Chuẩn cố tình bước tới chắn ngang đường.
+
+Anh nheo mắt nhìn tôi: “Tôi thấy những lời suy đoán của phó quan Thẩm vừa rồi rất có lý. Tinh Tinh chẳng có điểm nào giống Ôn Việt Hoài cả.”
+
+Giữa tiếng tim đập dồn dập của tôi, Lục Chuẩn chậm rãi tiến lại gần hơn.
+
+Anh buông lời xúc phạm: “Không phải đứa trẻ đó thật sự là con hoang do cậu đi hú hí với kẻ nào mà sinh ra đấy chứ? Dù sao loài thỏ khi phát nhiệt cũng nổi tiếng lẳng lơ đa tình, lại còn rất dễ mang thai.”
+
+Anh mỉa mai: “Chỉ dựa vào mình Ôn Việt Hoài, liệu có đủ thỏa mãn nhu cầu của cậu không?”
+
+Đầu óc tôi theo thói quen tự động lọc bỏ những lời châm chọc vô nghĩa từ miệng Lục Chuẩn, bởi nếu để tâm nghe lọt tai thì chỉ tự làm mình tổn thương.
+
+Nhưng hai chữ “con hoang” vừa thốt ra lại là điều tôi quá quen thuộc.
+
+Năm đó, người trong làng đều chỉ trỏ bàn tán sau lưng tôi, và cụm từ xuất hiện nhiều nhất chính là hai chữ ấy.
+
+Người ta xúc phạm tôi thế nào cũng được, nhưng tôi tuyệt đối không thể chịu nổi việc có kẻ dùng từ đó để nói về Hướng Dự Tinh.
+
+Huống chi kẻ vừa buông lời độc địa ấy lại chính là cha ruột của thằng bé.
+
+Đến khi tôi bừng tỉnh khỏi cơn giận tột cùng, trên gương mặt trắng trẻo của Lục Chuẩn đã hằn rõ một dấu bàn tay đỏ rực.
+
+Anh siết chặt nắm đấm, đôi mắt nâu sẫm dưới ánh đèn khẽ lay động, dường như tôi thoáng nhận ra sự tổn thương ẩn sâu trong đó.
+
+Tôi vẫn chưa đợi được người của Liên minh đến thay vị trí của mình.
+
+Lục Chuẩn đã nhận mệnh lệnh khẩn cấp, buộc phải lên đường ra tiền tuyến.
+
+Trong bối cảnh tình trạng biến dị toàn cầu ngày càng nghiêm trọng, các loài dị chủng vốn bị con người dồn vào núi thẳm rừng già nay lại phát triển mạnh mẽ hơn và bắt đầu rục rịch nổi dậy.
+
+Cùng lúc đó, bệnh viện gửi cho tôi bản kết quả kiểm tra sức khỏe của Lục Chuẩn.
+
+Lượng pheromone tích tụ trong cơ thể anh tuy đã cải thiện đôi chút nhưng vẫn vượt ngưỡng cho phép.
+
+Với thể trạng hiện tại, anh tuyệt đối không thích hợp để chiến đấu ở tiền tuyến.
+
+Bất kỳ vết thương nào cũng có thể trở thành ngòi nổ khiến pheromone bùng phát trở lại, mà không phải lúc nào anh cũng may mắn giữ được mạng.
+
+Tôi vội đuổi theo, thấy Lục Chuẩn đang đứng nghiêm trước chiếc xe bọc thép duyệt binh.
+
+Anh khoác bộ quân phục xanh nhạt, ở ngực trái, ngay gần tim, đeo huy hiệu đặc chế của Liên minh.
+
+Giọng anh khàn khàn nhưng trầm ấm, từng chữ vang dội cả không gian: “Vì sự sinh tồn của toàn thể nhân loại mà dấn thân chiến đấu!”
+
+Đây là khẩu hiệu được đề ra từ lúc dị chủng hoành hành dữ dội nhất.
+
+Giai đoạn ấy, con người chưa trải qua quá trình biến dị để có các đặc tính thú hóa tăng cường thể chất, cũng chưa chế tạo được những loại vũ khí tiên tiến như bây giờ.
+
+Trước loài dị chủng có khả năng đao thương bất nhập, con người chỉ nhỏ bé như loài kiến hôi, mỗi ngày trôi qua đều có biết bao người phải gục xuống.
+
+Có thể khẳng định, những thành tựu hôm nay đều do các thế hệ tổ tiên dùng chính máu xương xông pha trong tuyệt vọng mà khai phá nên con đường sống.
+
+Nhìn dáng hình hiên ngang trước mắt, tôi bỗng đổi ý, không còn muốn ngăn Lục Chuẩn ra tiền tuyến nữa.
+
+Một người thông minh như anh, nếu muốn, hoàn toàn có thể lấy lý do thể trạng chưa hồi phục để từ chối nhận nhiệm vụ.
+
+Nhưng anh đã không làm vậy.
+
+Lục Chuẩn tuy có vô số thói xấu, nhưng anh là một quân nhân chân chính.
+
+Khi mọi người đều khiếp sợ né tránh, chỉ có anh xung phong đi đầu nhận nhiệm vụ.
+
+Tôi từng được thấy cơ thể anh chằng chịt những vết sẹo lớn nhỏ, tất cả đều là dấu vết của những trận liều mạng chiến đấu với dị chủng.
+
+Tôi không thể, và cũng tuyệt đối không muốn, trở thành kẻ khoanh tay đứng nhìn một con người kiệt xuất như thế bỏ mạng nơi chiến trường.
+
+Lục Chuẩn phát hiện tôi cũng bí mật theo ra tiền tuyến vào ngày thứ ba của chuyến đi.
+
+Lúc đó, tôi đang tập trung xử lý vết thương cho một binh sĩ.
+
+Anh đột ngột bước tới, kéo mạnh tôi đứng dậy, mùi máu tanh nồng bốc lên khiến giọng anh càng thêm sắc lạnh: “Kẻ nào cho phép cậu tự ý theo tới đây?”
+
+Tôi đáp: “Tôi đã chủ động gửi đơn xin phép lên Liên minh. Thân thể anh vẫn chưa bình phục hoàn toàn, với tư cách bác sĩ, tôi phải có trách nhiệm đến cùng với bệnh nhân của mình.”
+
+Anh quát lớn: “Tôi không cần cậu chịu trách nhiệm, lập tức cút về cho tôi!”
+
+Thương binh vẫn liên tục được khiêng vào, tôi chẳng còn tâm trí đôi co, mặc anh mắng chửi thế nào.
+
+Anh nhiều lần đuổi tôi đi, thốt ra toàn những lời khó nghe nhất, nhưng tôi vẫn nhất quyết không lay chuyển.
+
+Mỗi ngày tôi đều rút dịch tuyến đúng giờ, kiểm tra thể trạng tổng quát, bảo đảm lượng pheromone tích tụ trong cơ thể anh luôn ở mức ổn định.
+
+Bên cạnh đó, nhờ sự hỗ trợ đắc lực của các loại vũ khí tiên tiến, phe dị chủng liên tiếp thất bại, cục diện chiến trường nghiêng hẳn về phía chúng tôi. Lục Chuẩn cuối cùng cũng đành từ bỏ ý định đuổi tôi về.
+
+Anh thậm chí còn cười cợt hỏi tôi: “Hướng Duẫn này, có phải cậu lỡ thích tôi rồi không?”
+
+Ánh lửa trại bập bùng hắt lên bầu trời đêm tĩnh mịch, phản chiếu trong đôi mắt đen sâu thẳm như mực của anh.
+
+Anh nói tiếp: “Mọi người xung quanh đều đồn như thế đấy, bảo cậu vì theo đuổi tôi mà chấp nhận đến tận vùng tiền tuyến này.”
+
+Tôi cụp mắt đáp: “Tôi đã lập gia đình rồi.”
+
+Tôi cứ ngỡ câu chuyện giữa hai người sẽ dừng lại ở đó.
+
+Không ngờ Lục Chuẩn đảo mắt nhìn quanh một lượt, thấy không ai chú ý, liền ghé sát tai tôi thì thầm: “Vậy cậu có thiếu tình nhân không?”
+
+Tôi kinh ngạc đến mức suýt ngã ngửa ra sau.
+
+Sự cố bất ngờ lại xảy ra ngay vào lúc ấy.
+
+Chẳng ai lường trước được rằng loài dị chủng thân hình to lớn, sức mạnh thô bạo nhưng trí tuệ thấp kém lại có thể bất ngờ tập kích doanh trại vào nửa đêm.
+
+Đêm hôm đó, tôi tận mắt chứng kiến một cảnh tượng ác mộng mà có lẽ cả đời này cũng không quên được.
+
+Một con quái vật đen sì có tới sáu con mắt kép, đôi cánh khổng lồ vỗ phành phạch liên hồi, lao tới ngoạm lấy một binh sĩ mà tôi đang dìu đi, cắn phăng nửa thân người anh ấy.
+
+Máu tươi phun xối xả, những tiếng gào thét thê lương dội liên tục bên tai.
+
+Mãi đến khi trận tập kích kết thúc hoàn toàn, phe dị chủng bị đánh lùi, Lục Chuẩn mới tiến tới kéo tôi ra khỏi tảng đá mà tôi đang núp.
+
+Anh đã không còn dáng vẻ cao ngạo thường ngày, toàn thân dính đầy máu, chật vật đến thảm thương.
+
+Môi anh mấp máy nói gì đó nghe không rõ, nhưng nhìn khẩu hình thì hẳn là đang gọi tên tôi.
+
+Thấy tôi im lặng không đáp, anh cũng dứt khoát không nói nữa.
+
+Ngay sau đó, gương mặt tuấn tú của anh bỗng phóng to trong tầm mắt tôi, đôi môi vương vệt máu bẩn chợt áp chặt xuống.
+
+Ánh nắng ấm áp xuyên qua tầng mây, rọi sáng cả chiến trường.
+
+Sau lưng là núi thây biển máu ghê rợn, còn trước mặt tôi lại là nụ hôn của anh, dồn dập và triền miên.
+
+Ngay giây kế tiếp, toàn thân Lục Chuẩn đột ngột rũ xuống như mất hết sức lực.
+
+Lúc này tôi mới hoảng hốt phát hiện ở bụng anh có một vết thương rách dài xuyên ngang hông, máu tươi vẫn không ngừng tuôn chảy.
+
+Tôi vội tìm hộp cứu thương, nhanh chóng cầm máu cho anh.
+
+Máu đã cầm được, nhưng pheromone của anh lại bắt đầu tràn ra ào ạt.
+
+Anh lại phát bệnh rồi.
+
+Lúc này, chỉ rút dịch tuyến thể thì chẳng ích gì.
+
+Mà thuốc ức chế đã bị phá hủy hoàn toàn trong trận chiến ác liệt vừa rồi.
+
+Những binh sĩ Alpha còn sống sót xung quanh bị pheromone của anh đè nén đến gần như nghẹt thở.
+
+Tôi buộc lòng phải dùng sức kéo anh vào một hang núi.
+
+Để đánh thức chút lý trí trong anh, tôi lại một lần nữa bị anh cắn mạnh vào tuyến thể.
+
+Lần này, hương linh lan chôn giấu trong cơ thể tôi rốt cuộc đã phá tan mọi xiềng xích, quấn chặt lấy hương gỗ đàn hương của anh.
+
+Mọi diễn biến đều vượt quá tầm kiểm soát của tôi.
+
+Chiếc đuôi rắn đen siết chặt cơ thể tôi, nhưng lần này chẳng còn ai đến ngăn cản.
+
+Nghĩ đến vết thương nghiêm trọng trên người anh, tôi không dám phản kháng mạnh, chỉ biết mặc anh tự do hoành hành.
+
+Cho đến khi bàn tay anh siết chặt chiếc đuôi nhỏ nhắn của tôi.
+
+Một dòng điện buốt nhói chạy dọc sống lưng, mắt tôi đỏ ngầu, bật ra những tiếng run rẩy: “Đuôi… tuyệt đối không được chạm vào…”
+
+Trước khi Lục Chuẩn tỉnh lại, tôi đã nhanh chân bỏ trốn.
+
+Nhìn thể lực sung mãn của anh, vết thương kia cũng không quá nặng.
+
+Hơn nữa, sau khi giải phóng một lượng lớn pheromone, trong một thời gian ngắn hội chứng rối loạn pheromone của anh sẽ không tái phát.
+
+Sức mạnh của dị chủng giờ đã suy tàn nghiêm trọng, việc còn lại của Lục Chuẩn chỉ là dọn dẹp chiến trường.
+
+Hướng Dự Tinh chưa từng phải xa tôi lâu đến thế, lần gặp lại này thằng bé cứ quấn quýt bên tôi không rời nửa bước.
+
+Tôi cũng nhớ con đến khắc khoải trong lòng.
+
+Phải một tháng sau, tôi mới có cơ hội gặp lại Lục Chuẩn.
+
+Trên đường đi đón Dự Tinh tan học, bất ngờ có kẻ từ phía sau áp sát, dùng khăn tẩm sẵn thuốc mê úp chặt vào mặt tôi.
+
+Khi tỉnh lại, tôi thấy mình đang nằm trong một căn phòng xa hoa lộng lẫy.
+
+Lục Chuẩn đang ngồi trên giường, cúc áo sơ mi cởi mở, lồng ngực chằng chịt sẹo. Thấy tôi tỉnh, anh nhếch môi: “Bảo bối, em cuối cùng cũng tỉnh rồi.”
+
+Nghe cách anh gọi, tôi lạnh sống lưng, vội ngồi bật dậy: “Anh đang làm cái trò gì vậy?”
+
+Anh giữ giọng nghiêm cẩn: “Em vẫn chưa trả lời câu hỏi của tôi.”
+
+Tôi hỏi lại: “Câu hỏi gì cơ?”
+
+Anh nhắc lại: “Em có thiếu tình nhân không?”
+
+Tôi trừng mắt nhìn anh: “Tuyệt đối không thiếu.”
+
+Anh trầm ngâm giây lát rồi hỏi tiếp: “Vậy em có thiếu chó không?”
+
+Gương mặt anh hiện rõ niềm mong chờ, dường như chỉ cần tôi gật đầu, anh sẽ lập tức sủa lên một tiếng.
+
+Tôi đáp: “Không thiếu.”
+
+Nghe câu trả lời của tôi, nụ cười tươi trên môi anh tắt ngấm.
+
+Anh lạnh giọng: “Nếu đã vậy, em đừng trách tôi.”
+
+Anh bất ngờ lấy ra một chiếc vòng bạc, khóa chặt vào cổ chân tôi.
+
+Tiếng “cạch” vang lên khô khốc, chiếc khóa đã cài chặt.
+
+Sợi xích bạc kéo dài đến tận đầu giường.
+
+Tôi nhức đầu dữ dội: “Lục Chuẩn, anh phát điên rồi à, mau mở ra ngay! Tinh Tinh sắp tan học rồi, thằng bé còn đang đứng chờ tôi đến đón đấy.”
+
+Anh thản nhiên: “Bảo bối, em đi đâu cũng không được.”
+
+Anh tiếp lời: “Em yên tâm, Tinh Tinh tôi đã đón giúp em rồi. Từ nay em chỉ cần ở lại đây bầu bạn với tôi suốt đời là được. Coi như để bù đắp cho những mất mát, tôi sẽ chu cấp cho hai cha con Ôn Việt Hoài một khoản tiền đủ tiêu cả đời không hết.”
+
+Tức quá, tôi vơ chiếc gối ném thẳng vào mặt anh.
+
+Trước đó tôi vẫn luôn sợ rằng Lục Chuẩn hẳn đã nhận ra mùi pheromone tôi để lại trong hang núi hôm ấy.
+
+Không ngờ anh chẳng nhớ gì cả.
+
+Tôi tức đến run rẩy cả người: “Anh thì nuôi nổi đứa trẻ chắc, dựa vào đâu mà bắt Ôn Việt Hoài nuôi con trai thay anh hả?”
+
+Lục Chuẩn ngớ người: “Em nói vậy là có ý gì?”
+
+Tôi gằn giọng: “Anh vẫn chưa hiểu à? Tinh Tinh là con ruột của anh. Còn tôi chính là Omega mà bốn năm trước anh treo thưởng một trăm triệu để phát lệnh truy nã đấy.”
+
+Lục Chuẩn hoàn toàn sững sờ tại chỗ.
+
+Sau đó, anh run rẩy móc chìa khóa trong túi ra, vừa mở khóa vừa nở nụ cười lấy lòng: “Bảo bối à, nếu tôi nói tất cả chỉ là hiểu lầm, em có tin tôi không?”
+
+Bước ra khỏi phòng ngủ, tôi lại càng chấn động hơn.
+
+Từng đợt sóng biển dồn dập vỗ vào bờ.
+
+Hóa ra nơi tôi đang đứng là một hòn đảo hoang, bốn bề là biển cả.
+
+Lục Chuẩn vội bước theo sau lưng tôi, hạ giọng thì thầm: “Bảo bối, em kiên nhẫn chờ trực thăng tới, tôi sẽ lập tức đưa em về.”
+
+Tôi nhếch môi cười nhạt: “Công nhận anh chuẩn bị chu đáo thật đấy.”
+
+Hướng Dự Tinh nhất quyết không chịu nhận Lục Chuẩn là người cha Alpha rẻ tiền kia của mình.
+
+Thằng bé vẫn còn ghi hận chuyện Lục Chuẩn cướp mất cục kẹo bông gòn của nó.
+
+Ngay cả khi cả nhà đã chuyển ra ngoài ở riêng, thằng bé vẫn thường xuyên quấn lấy Ôn Việt Hoài, liên tục đòi anh chơi cùng.
+
+Nhìn thấy đứa trẻ ngập tràn mùi hồng trà mật ong, sắc mặt Lục Chuẩn đen kịt như đáy nồi.
+
+Anh thậm chí còn trách móc tôi: “Cậu coi như tôi chết rồi hay sao?”
+
+Anh hậm hực: “Sao không nói thật sớm hơn một chút, tôi đâu có làm gì thiệt thòi cho hai cha con cậu chứ.”
+
+Tôi lắc đầu đáp: “Nếu bốn năm trước tôi không quyết định bỏ chạy, có lẽ Hướng Dự Tinh đã chẳng có cơ hội được sinh ra trên đời này.”
+
+Bởi lẽ khi ấy, Lục Chuẩn hoàn toàn không dành cho tôi chút tình cảm nào.
+
+Anh im lặng một lát rồi khẽ nói: “Chưa chắc đâu.”
+
+Tôi nhướng mày nhìn anh.
+
+Trong đôi mắt anh ngập tràn hình bóng của riêng tôi: “Có lẽ em vẫn chưa biết, tôi đã lỡ yêu em ngay từ lần đầu gặp mặt.”
+
+Tôi tỏ vẻ không tin: “Anh quên mình từng nói những gì rồi sao?”
+
+Tôi cố tình nhại lại đúng giọng điệu độc địa của anh: “Tôi cần một bác sĩ đúng nghĩa, chứ không phải một con thỏ chỉ biết phát tình.”
+
+Anh phản bác: “Đúng là vậy còn gì, ngay từ lần đầu chạm mặt em đã ra sức quyến rũ tôi, đó chẳng phải hành vi của thỏ đang động tình sao?”
+
+Tôi thắc mắc: “Tôi quyến rũ anh ở điểm nào cơ chứ?”
+
+Lục Chuẩn ôm chặt lấy tôi: “Em vốn đã đẹp đến thế, chỉ cần đứng yên ở đó thôi cũng đã tỏa ra sức quyến rũ vô cùng rồi.”
+
+Bầu không khí xung quanh dần trở nên vô cùng ái muội.
+
+Anh nhân cơ hội ghé sát thì thầm: “Vậy bảo bối này, khi nào em mới đồng ý cho tôi đánh dấu em đây?”
+
+Vùng tuyến thể của tôi gần như đã hồi phục hoàn toàn.
+
+Ngày nào ở nhà tôi cũng không dán miếng ức chế, mùi linh lan lan tỏa khắp phòng khiến Lục Chuẩn phát điên vì thèm muốn.
+
+Nhưng tôi vẫn kiên quyết không cho anh đánh dấu.
+
+Đó là hình phạt tôi dành cho việc anh từng có ý định giam giữ tôi.
+
+Có điều xét cho cùng, cũng đã đến lúc chấm dứt thời gian chịu phạt của anh rồi.
+
+Tôi kéo cổ áo Lục Chuẩn, chủ động phóng thích pheromone của mình.
+
+Trong đôi mắt anh đang mỗi lúc một đỏ ngầu, tôi mỉm cười nói: “Chính là ngay lúc này đây.”
+
+Ngoại truyện (Dưới góc nhìn của Lục Chuẩn)
+
+Tôi thất tình mất rồi.
+
+Hôm ấy, tôi xách theo biết bao loại bổ phẩm quý giá đến tận nhà Hướng Duẫn.
+
+Rõ ràng cậu ấy đã từ chối lời đề nghị ra ngoài nghỉ ngơi, lấy lý do muốn ở nhà tĩnh dưỡng, vậy mà lại hoàn toàn không có mặt ở nhà.
+
+Cơ thể còn chưa bình phục hẳn, cậu ấy có thể đi đâu được cơ chứ?
+
+Trong lòng tôi bất an, vội gọi điện cho Thẩm Ngộ, yêu cầu anh ta mau chóng điều tra ra vị trí hiện tại của Hướng Duẫn.
+
+Lần đụng độ ở công viên giải trí vốn là do một tay tôi cố tình dàn xếp.
+
+Nhưng tôi hoàn toàn không ngờ rằng Hướng Duẫn đã lập gia đình.
+
+Người tôi thầm thương nhớ lại là vợ của kẻ khác, thậm chí còn có con rồi.
+
+Giữa hai chúng tôi vốn không thể có một kết cục tốt đẹp.
+
+Cạn chén rượu này thôi.
+
+Kính chào mối tình đầu còn chưa kịp bắt đầu đã vội vã chết yểu.
+
+Ấy thế mà khi nghe Thẩm Ngộ hỏi Hướng Duẫn rằng đây có phải là một cuộc hôn nhân giả không, và Tinh Tinh có phải không phải con ruột của Ôn Việt Hoài không, trong lòng tôi lại trỗi dậy niềm khao khát rằng điều đó sẽ thành sự thật.
+
+Đúng là như vậy rồi.
+
+Loài thỏ khi phát nhiệt vốn nổi tiếng lẳng lơ và đa tình.
+
+Một mình Ôn Việt Hoài liệu có thỏa mãn nổi nhu cầu của cậu ấy không?
+
+Nếu không thể… thì hãy thử cân nhắc đến tôi xem sao.
+
+Sinh cho tôi một đứa trẻ đáng yêu hệt như Tinh Tinh cũng là điều tuyệt vời.
+
+Trời mới biết, tôi đã ghen tị với Ôn Việt Hoài đến phát điên phát dại.
+
+Cho đến khi Hướng Duẫn vung tay tát thẳng một cái đau điếng vào mặt, tôi mới bừng tỉnh.
+
+Tôi vốn là người được giáo dục đầy đủ và đàng hoàng, sao lại có thể nảy ra loại ý nghĩ hèn hạ thế này cơ chứ.
+
+Xen ngang vào cuộc sống gia đình người khác là hành vi hoàn toàn vô đạo đức.
+
+Đúng lúc này, phía Liên minh hạ mệnh lệnh khẩn cấp, buộc tôi phải lập tức ra tiền tuyến.
+
+Như vậy cũng tốt, coi như cơ hội để tôi tỉnh táo lại, chủ động quên đi thứ tình cảm không nên tồn tại này.
+
+Nhưng Hướng Duẫn lại kiên quyết theo tôi ra tận chiến trường.
+
+Cậu ấy khẳng định muốn chịu trách nhiệm với tôi đến cùng.
+
+Toàn bộ lý trí trong tôi tan vỡ ngay khoảnh khắc ấy.
+
+Chuẩn mực đạo đức sao? Mặc kệ nó đi.
+
+Hướng Duẫn chắc chắn có tình cảm với tôi, nếu không thì tại sao cậu ấy lại quan tâm tôi nhiều đến thế.
+
+Kẻ thứ ba ư?
+
+Kẻ không nhận được tình yêu thương mới chính là kẻ thứ ba.
+
+Ôn Việt Hoài sớm muộn gì cũng sẽ bị tôi thay thế hoàn toàn.
+
+Tôi đang giữ một bí mật mà chưa từng chia sẻ với Hướng Duẫn.
+
+Ống thuốc ức chế kia hoàn toàn không phải do phe dị chủng phá hỏng, mà chính do tự tay tôi làm.
+
+Chỉ còn thiếu một chút nữa là tôi đã đạt được mục đích.
+
+Vậy mà Hướng Duẫn lại chọn bỏ chạy mất hút.
+
+Sao cậu ấy có thể đối xử với tôi như thế?
+
+Cứ liên tục đối xử tốt với tôi, khiến tôi không thể rời xa, rồi lại nhẫn tâm bỏ rơi tôi để quay về bên Ôn Việt Hoài.
+
+Khoảnh khắc ấy, những ý nghĩ u tối giấu kín trong tôi không thể kìm nén thêm nữa.
+
+Phải giam cậu ấy lại.
+
+Phải khóa chặt Hướng Duẫn, để cả đời này cậu ấy chỉ có thể ở bên một mình tôi.
+
+Tôi thực sự đã đem kế hoạch đó ra thực hiện.
+
+Nhưng khi thấy cậu ấy nằm co ro như một chú thỏ nhỏ trên giường, tôi lại không nỡ ra tay.
+
+Tôi quyết định cho cậu thêm một cơ hội nữa.
+
+Vì vậy tôi hỏi: “Có thiếu tình nhân không?”
+
+…
+
+“Vậy có thiếu chó không?”
+
+Cậu ấy vẫn tiếp tục từ chối.
+
+Rõ ràng tôi đã hạ mình đến mức này rồi, vậy mà cậu ấy vẫn nhất quyết không chọn tôi.
+
+Được thôi.
+
+Tất cả đều do chính tay cậu ấy chuốc lấy.
+
+Không ngờ Hướng Duẫn lại nói cho tôi biết sự thật, rằng Tinh Tinh là con ruột của tôi, còn cậu ấy chính là Omega mà năm xưa tôi treo thưởng hẳn một trăm triệu để truy bắt.
+
+Cảm ơn chính tôi của bốn năm trước đã kịp gieo mầm hạt giống.
+
+Một niềm hạnh phúc khổng lồ lập tức nhấn chìm tôi.
+
+Liệu đây có phải một giấc mơ không?
+
+Thực tế đã chứng minh cho tôi thấy, đây hoàn toàn không phải giấc mơ.
+
+Thời gian chậm rãi trôi, ánh trăng dịu dàng rọi xuống vừa vặn.
+
+Xin tạ ơn ông trời đã thương xót ban ơn, một lần nữa đưa người mà tôi yêu thương nhất quay trở về bên cạnh tôi.
+    
+</div>
+</div>
 
 
-<!-- ==================================================
-     POPUP CHUYỂN SANG WEB XÔI THỊT
-================================================== -->
-
-<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
-
-  <div class="xoi-thit-box">
-
-    <div class="xoi-thit-icons">
-      <img src="../codetruyen/icon.jpg" alt="Web phim" class="xoi-thit-icon">
-      <span class="xoi-thit-arrow">→</span>
-      <img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
-    </div>
-
-    <div class="xoi-thit-text">
-      Bạn đang chuyển qua web
-      <strong>Xôi Thịt Nhà Mui Miu</strong>
-    </div>
-
-    <div class="xoi-thit-question">
-      Bạn có muốn tiếp tục không?
-    </div>
-
-    <div class="xoi-thit-buttons">
-      <button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
-      <button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
-    </div>
-
-  </div>
 
 </div>
 
 
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
 <script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
 
 </body>
 </html>

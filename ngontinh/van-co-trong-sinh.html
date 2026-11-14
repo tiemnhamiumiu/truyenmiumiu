@@ -4,163 +4,1743 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Tướng Quân Chạy Đâu Cho Thoát</title>
+  <title>Ván Cờ Trọng Sinh</title>
 
   <link rel="stylesheet" href="../codetruyen/style.css">
-  <link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
 </head>
 
 <body>
-
-<!-- ==================================================
-     MENU (sửa các mục cho đúng web của bạn)
-================================================== -->
-
 <header class="menu">
   <a href="../index.html">Trang chủ</a>
   <a href="../ngontinh.html">Ngôn tình</a>
   <a href="../dammy.html">Đam mỹ</a>
-  <a href="../cotrang.html">Cổ trang</a>
+    <a href="../cotrang.html">Cổ trang</a>
   <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
 </header>
 
-<div class="topbar">Tướng Quân Chạy Đâu Cho Thoát</div>
+<div class="topbar">
+  Ván Cờ Trọng Sinh
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_ngontinh/van-co-trong-sinh.mp3" data-marker="14:05" data-marker-label="14:05">
+<div class="audio-header">
+  <div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Ván Cờ Trọng Sinh</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">14:05</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
 
 
-<main class="container">
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
 
-  <!-- ==================================================
-       THẺ PHIM
+<div class="background-music">
 
-       Mỗi phim chỉ cần sửa:
-       - data-video        : link YouTube (youtu.be/ID hoặc youtube.com/watch?v=ID)
-       - data-marker       : mốc xem (vd 15:44 hoặc 1:12:57), bỏ trống nếu không dùng
-       - data-marker-label : chữ hiện trên nút mốc
-       - tên phim, chip thông tin, nội dung bên dưới
-  ================================================== -->
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
 
-  <section
-    class="movie-card"
-    id="movieCard"
-    data-video="https://youtu.be/YFQ7Bzb5e3k"
-    data-marker="15:44"
-    data-marker-label="15:44"
-  >
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
 
-    <!-- MÀN HÌNH VIDEO -->
+<div id="musicPanel" class="music-panel" style="display:none;">
 
-    <div class="movie-screen" id="movieScreen">
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
 
-      <div id="youtubePlayer"></div>
+<div id="musicList" class="music-list"></div>
 
-      <div class="movie-overlay" id="movieOverlay">
-        <div class="movie-play-btn" id="movieOverlayBtn">▶</div>
-      </div>
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
 
-      <div class="movie-error" id="movieError" style="display:none;"></div>
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
 
-    </div>
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">14:05</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Đứa con gái nuôi của bố mẹ tôi đã chuẩn bị cho tôi một món quà ra mắt thật đặc biệt, ngay vào ngày đầu tiên tôi trở về nhận lại gia đình. Cô ta cố tình gieo mình từ cầu thang xuống để làm gãy tay.
+
+Cả nhà cuống cuồng lo lắng lẫn giận dữ, mọi sự chú ý đều đổ dồn về phía cô ta.
+
+Còn tôi thì bị bỏ lại một mình, trơ trọi.
+
+Nhân lúc không ai để ý, cô ta ghé sát tai tôi, thì thầm: “Thấy chưa? Máu mủ ruột thịt thì sánh sao được với tình cảm bên nhau ngày này qua ngày khác. Mày đừng hòng thắng nổi tao.”
+
+Tôi chỉ khẽ cười: “Sống lại rồi mà vẫn xài mấy trò cũ rích này à.”
+
+-----
+
+Tôi kéo chiếc vali cỡ lớn của mình, đứng lặng giữa phòng khách của căn biệt thự. Bộ đồ trên người tôi giản dị đến mức lạc lõng giữa không gian lộng lẫy, xa hoa xung quanh.
+
+Từ tầng hai, một cô gái xinh xắn, ăn mặc đắt tiền cất giọng gọi tôi thật lớn: “Giản Hoan có ở đây không?”
+
+Cô ta nhìn tôi, vẻ mặt hớn hở, một tay vén tà váy, chân đi giày cao gót rảo bước xuống cầu thang.
+
+Xem ra sự xuất hiện của tôi được chào đón lắm.
+
+Tất nhiên, đó chỉ là cảm giác bề ngoài.
+
+Tôi lạnh lùng nhìn cô ta tiến lại gần từng bước, và đếm ngược trong đầu:
+
+Ba,
+
+Hai,
+
+Một.
+
+Để xem hôm nay cô ta định diễn trò gì.
+
+“Á!”
+
+Tiếng thét thất thanh vang lên đúng lúc cô gái trượt chân ở mấy bậc cuối cùng, ngã nhào xuống sàn.
+
+Cả căn phòng lập tức rối loạn.
+
+“Tiểu Nghệ!”
+
+Bố mẹ ruột của tôi vốn đang ngồi lặng lẽ trên sofa, giật mình bật dậy, hốt hoảng gọi tên cô ta.
+
+Trên lầu, một cậu con trai khi nãy còn lề mề bước đi vì buồn ngủ, bây giờ lao xuống cầu thang như một con báo gấm, nhanh đến kinh người.
+
+Lúc cô ta ngã, tôi là người đứng gần cô ta nhất.
+
+Cô ta nằm sóng soài dưới sàn, gương mặt nhỏ nhắn xinh đẹp nhăn lại vì đau, nước mắt giàn giụa.
+
+Tôi nheo mắt quan sát.
+
+Đúng như dự đoán, màn kịch cũ lại bắt đầu được công diễn.
+
+Kiếp trước, ngay ngày đầu tiên tôi bước chân vào nhà họ Nhan, cô ta cũng dàn dựng một màn ngã cầu thang y hệt thế này để làm quà gặp mặt.
+
+Cô ta tự làm đau mình để kéo hết sự chú ý về phía bản thân, khiến cả nhà quên mất sự tồn tại của tôi. Mục đích là để in sâu vào đầu mọi người rằng tôi là kẻ đen đủi, vừa xuất hiện đã mang tai họa đến.
+
+Giờ đây, cô ta lại đem đúng chiêu cũ ấy ra dùng.
+
+Tôi tiến lại gần chỗ cô ta nằm, cất tiếng hỏi: “Em có sao không?”
+
+Cô ta ngước đôi mắt ướt nhòe nhìn tôi, dịu dàng hết mức, nhưng ánh mắt cứ liên tục liếc về phía cậu con trai đang chạy xuống cầu thang.
+
+Vừa thấy Nhan Tu chạy đến gần, cô ta lập tức bật khóc nức nở: “Anh ơi, tay em đau quá...”
+
+Nhan Tu vội vã lao tới, liếc tôi một cái rồi nhanh tay cõng Nhan Nghệ lên lưng.
+
+“Anh đưa em đến bệnh viện ngay đây. Tới nơi là hết đau thôi.”
+
+Bố mẹ ruột của tôi cuống quýt chạy theo, không ai buồn ngoái lại nhìn tôi lấy một lần.
+
+Cảnh tượng này giống hệt những gì đã diễn ra ở kiếp trước.
+
+Trước khi lên xe, Nhan Nghệ ngoái đầu lại nhìn tôi.
+
+Khóe mắt cô ta vẫn còn đọng nước, nhưng ánh nhìn thì đầy thách thức và khiêu khích.
+
+Cô ta cố ý phô ra thứ tình thân ấm áp mình đang có, như để khẳng định chủ quyền.
+
+Nhưng tất cả những gì cô ta đang nắm giữ vốn dĩ thuộc về tôi.
+
+Tôi bình thản nhìn thẳng vào mắt cô ta, nhếch môi, không thành tiếng mà chỉ mấp máy bốn chữ: “Tôi đã trở lại.”
+
+Họ đứng quá xa, lại đang hoảng loạn, nên hoàn toàn không nghe thấy gì từ miệng tôi.
+
+Chỉ có Nhan Nghệ, người đang nhìn chằm chằm vào tôi, là nhận ra môi tôi vừa cử động.
+
+Có điều cô ta không dám chắc, trong mắt thoáng một tia nghi ngờ.
+
+Cho đến khi cửa xe đóng lại, trán cô ta vẫn nhíu chặt.
+
+Trong căn biệt thự rộng lớn, giờ chỉ còn mình tôi.
+
+Tôi đưa mắt nhìn quanh nơi vừa quen vừa lạ này, và những ký ức của kiếp trước ùa về dồn dập, quay vòng trong đầu như chiếc đèn kéo quân.
+
+Nhan Nghệ vốn không phải con ruột của bố mẹ tôi.
+
+Tôi mới là giọt máu của họ.
+
+Năm xưa, ở bệnh viện, hai đứa trẻ đã bị bế nhầm.
+
+Cô ta được sống trong nhung lụa, ấm êm ở đây, còn tôi thì sao? Người bố nuôi của tôi lại là một kẻ mê cờ bạc.
+
+Từ nhỏ tôi đã sống trong cảnh nghèo đói, thiếu ăn, luôn bị bọn đòi nợ thuê đe dọa.
+
+Mỗi lần nổi giận, ông ta lại thẳng tay đánh tôi, rất dã man.
+
+Đến khi tôi được tìm về, Nhan Nghệ, kẻ đã chiếm chỗ của tôi suốt bao năm, không thể chấp nhận sự có mặt của tôi. Cô ta càng không đời nào chịu quay lại cái nơi tồi tàn kia.
+
+Thế là cô ta nghĩ đủ mọi cách để đuổi tôi ra khỏi nhà.
+
+Cuối cùng cô ta cũng toại nguyện. Bố mẹ vốn định sau kỳ thi đại học sẽ cho cô ta đi, vậy mà người phải cuốn gói ra đi sau kỳ thi lại là tôi.
+
+Nhan Nghệ còn gọi sẵn một chuyến xe khách đường dài để tống tôi đi ngay trong một đêm mưa bão.
+
+Chiếc xe trượt bánh trên đường núi khi tránh đá lăn, rồi lao thẳng xuống vực.
+
+Trong khoảnh khắc va chạm dữ dội ấy, kính vỡ tan, máu chảy lênh láng.
+
+Tôi chìm vào hư vô.
+
+Đến khi mở mắt ra lần nữa, tôi đã trở về đúng thời điểm vừa bước chân vào nhà họ Nhan.
+
+Ông trời đã cho tôi cơ hội làm lại, vậy thì tôi sẽ sống một cuộc đời hoàn toàn khác.
+
+Lần này, người phải cuốn gói ra đi nhất định là Nhan Nghệ.
+
+Tôi lặng lẽ cau mày, ngồi yên trên chiếc sofa giữa phòng khách.
+
+Bên ngoài, bóng tối bắt đầu buông xuống.
+
+Thấy tôi ngồi một mình trông đáng thương, dì giúp việc lại gần hỏi xem tôi có muốn gọi điện cho bố mẹ không.
+
+Tôi nhẹ nhàng lắc đầu từ chối: “Không cần đâu ạ, cháu cảm ơn dì.”
+
+Gọi điện ư?
+
+Kiếp trước tôi gọi rồi.
+
+Hồi ấy tôi mới đến, còn lạ lẫm, lại gặp đúng biến cố như vậy nên vừa áy náy vừa sợ, muốn gọi hỏi thăm tình hình của Nhan Nghệ.
+
+Nhưng người nhấc máy lại là Nhan Tu.
+
+Ngay từ đầu anh ta đã không có thiện cảm với tôi. Lúc ấy lại đang nóng ruột đến phát điên, nên nhận được cuộc gọi của tôi, anh ta trút hết cơn giận lên đầu tôi bằng những lời mắng nhiếc nặng nề.
+
+Ngay sau đó, từ đầu dây bên kia vọng lại giọng Nhan Nghệ, dịu dàng và ân cần: “Anh ơi, có phải Giản Hoan gọi tới không?”
+
+“Em không sao đâu. Anh mau về xem chị ấy thế nào đi.”
+
+“Chị ấy mới đến, chắc chắn vẫn chưa quen chỗ này.”
+
+Thế là lúc cả nhà trở về, Nhan Tu lập tức quay sang chỉ trích tôi: “Nếu không phải tại cô thì Tiểu Nghệ đã không gặp chuyện. Cô ấy vừa điều trị xong đã đòi về nhà ngay vì lo cho cô đấy. Tôi thật không hiểu cô đến cái nhà này để làm gì!”
+
+Tôi chết lặng trước những lời quy chụp nặng nề ấy.
+
+Vậy mà tôi mới là con gái ruột của họ cơ mà.
+
+Nỗi bất lực và đau đớn dâng lên nghẹn họng, tôi không kiềm được nữa mà bật khóc nức nở.
+
+Anh ta nào biết, tất cả những chuyện này đều nằm trong kịch bản Nhan Nghệ đã sắp đặt từ trước.
+
+Cô ta ra vẻ cao thượng như đóa hoa trắng, dù tay còn bó bột vẫn bước lại gần dỗ dành tôi: “Chị đừng khóc. Anh trai em chỉ nóng tính vậy thôi chứ không có ý xấu với chị đâu.”
+
+Chính hành động đó đã biến tôi thành một kẻ hẹp hòi, ngu ngốc trong mắt mọi người.
+
+Tại sao trong hoàn cảnh ấy tôi chỉ biết khóc lóc vì cảm xúc của riêng mình?
+
+Tại sao tôi lại để một đứa đang bị thương phải quay sang an ủi tôi?
+
+Dù lúc đó bố mẹ không nói lời nào, nỗi xót xa trong mắt họ là có thật.
+
+Chỉ tiếc rằng sự xót xa ấy dành cho Nhan Nghệ, không hề dành cho tôi.
+
+Vì vậy tôi đã tự thề với mình rằng kiếp này tuyệt đối không giẫm lại vết xe đổ đó.
+
+Tôi vẫn ngồi trên ghế, kiên nhẫn chờ thời gian trôi.
+
+Cho đến khi tiếng động cơ ô tô vang lên ngoài sân.
+
+Tôi đứng dậy, đi thẳng vào bếp nấu một bát mì.
+
+Họ về rồi.
+
+Giọng Nhan Nghệ vang lên từ ngoài cửa: “Giản Hoan đâu rồi ạ?”
+
+Nhan Tu đáp, giọng lạnh nhạt: “Bản thân em còn đang đầy thương tích, bận tâm đến cô ta làm gì?”
+
+Tôi trút bát mì vừa nấu xong ra tô, đưa tay dụi mắt cho vài giọt nước mắt tứa ra, rồi bước ra ngoài.
+
+Trông tôi lúc này chẳng khác gì người vừa khóc xong vì quá lo lắng.
+
+Giây phút tôi xuất hiện, gương mặt Nhan Nghệ sáng bừng lên vẻ mừng rỡ.
+
+Đây đúng là kịch bản cô ta chờ đợi.
+
+Theo ý cô ta, tốt nhất lúc này tôi nên khóc lóc, giận dỗi vì bị bố mẹ bỏ rơi và đòi được quan tâm.
+
+Như vậy cô ta sẽ có dịp đóng vai cô em gái ngoan ngoãn, biết nghĩ cho người khác.
+
+Còn tôi sẽ trở thành kẻ vô lý, chỉ biết gây chuyện.
+
+Đó cũng là lý do chính khiến cô ta tự làm gãy tay mình hôm nay.
+
+“Em xin lỗi chị Giản Hoan, tại em bị thương nên cả nhà mới phải đưa em đi viện gấp. Mọi người không cố ý bỏ quên chị đâu.”
+
+Tôi đã chuẩn bị tinh thần từ trước, cứ để mặc nước mắt lăn dài trên má.
+
+Không khí trong phòng khách lập tức đặc lại.
+
+Sắc mặt Nhan Tu sầm xuống ngay, bố mẹ tôi cũng lộ rõ vẻ không hài lòng.
+
+Tiếng khóc của tôi cộng với lời giải thích của Nhan Nghệ khiến ai nghe cũng thấy như tôi đang ngầm trách móc họ.
+
+Mà chẳng ai thích bị đổ lỗi cả.
+
+Chỉ có Nhan Nghệ là đang cố nén để khóe miệng không nhếch lên.
+
+Cô ta hả hê lắm khi nhìn cảnh này.
+
+Nhưng liệu đây có thật là điều cô ta muốn đạt được?
+
+Chưa chắc đâu.
+
+Tôi đưa tay lau vội nước mắt, giọng nghẹn ngào như đang cố nén nỗi đau: “Chị khóc là vì lo cho em thôi. Chị nào dám trách bố mẹ và anh trai.”
+
+Nét mặt Nhan Nghệ khẽ giật.
+
+Tôi quay vào bếp, bưng tô mì còn nghi ngút khói ra ngoài, vẻ mặt ngập ngừng, lo lắng thấy rõ: “Chị sợ em về muộn sẽ đói nên nấu một bát mì này, không biết có vừa miệng em không.”
+
+Nhan Nghệ trợn tròn mắt nhìn tôi, vừa sững sờ vừa giận dữ.
+
+Tôi chớp chớp mắt nhìn cô ta, vô tội hết mức, khẽ hỏi: “Em không thích ăn mì sao?”
+
+“Trước khi nấu chị đã rửa tay sạch rồi, không bẩn đâu.”
+
+Tôi không khóc lóc đòi quyền lợi, nên kế hoạch của Nhan Nghệ coi như phá sản.
+
+Dù tức đến đâu, cô ta cũng chỉ biết nuốt hết vào trong.
+
+Bố mẹ đang đứng ngay bên cạnh nhìn, cô ta buộc phải tiếp tục sắm vai của mình.
+
+Thế là cô ta đành hùa theo tôi, gượng cười, gắp một đũa mì đưa vào miệng: “Món này sao em lại không thích được, em thích ăn mì nhất đấy.”
+
+Màn diễn trôi qua êm đẹp.
+
+Đây chính là cảnh hòa thuận mà bố mẹ tôi mong thấy nhất, sắc mặt họ dịu đi trông thấy.
+
+Mẹ vui vẻ bước lại gần, đưa tay vuốt tóc tôi, dù cử chỉ vẫn còn gượng gạo: “Vốn hôm nay bố mẹ định tổ chức tiệc đón con về, nhưng Tiểu Nghệ đột ngột gặp chuyện nên đành hoãn lại.”
+
+Tôi lập tức đáp, ngoan ngoãn và thấu hiểu: “Con không sao đâu ạ, chỉ cần em Tiểu Nghệ bình an là tốt rồi.”
+
+Sắc mặt Nhan Nghệ thoắt cái xanh ngắt.
+
+Tôi mỉm cười dịu dàng với cô ta.
+
+Đừng vội khóc, mọi thứ mới chỉ bắt đầu thôi.
+
+Phòng của tôi được bố trí sát phòng Nhan Nghệ.
+
+Phòng ngủ phụ không có nhà vệ sinh riêng, muốn dùng thì tôi phải đi ngang qua cửa phòng cô ta.
+
+Cửa phòng cô ta đang khép hờ, và đúng lúc ấy dì giúp việc đang dọn dẹp bên trong nhà vệ sinh.
+
+Dì bảo tôi chịu khó chờ một lát, sắp xong ngay.
+
+Nhờ vậy, đứng ở hành lang, tôi vô tình nghe được trọn vẹn cuộc điện thoại của Nhan Nghệ: “Hôm nay Bạch Bạch bị thương rồi. Con ngốc đó chán thật, chẳng biết khóc lóc hay ăn vạ gì cả.”
+
+“Con ruột thì đã sao? Tôi ở bên bố mẹ suốt mười năm nay cơ mà.”
+
+“Bố mẹ thương tôi như thế, kiểu gì tôi cũng tìm cách để họ ghét nó rồi tống cổ nó đi.”
+
+“Được rồi, mai gặp nhau ở trường nhé.”
+
+Ngày mai ư?
+
+Tôi nhớ lại những chuyện đã xảy ra ở trường vào kiếp trước.
+
+Đúng là một kịch bản khó quên.
 
 
-    <!-- MỐC XEM -->
+Tôi và Nhan Nghệ được xếp học chung một lớp.
 
-    <div class="movie-controls-wrap">
+Nhan Nghệ còn chủ động đề nghị với giáo viên chủ nhiệm: “Em sợ bạn Giản Hoan mới chuyển đến sẽ bỡ ngỡ, cô có thể xếp bạn ngồi cùng bàn với em được không ạ?”
 
-      <!-- THANH ĐIỀU KHIỂN: nằm dưới video; khi toàn màn hình sẽ tự chuyển vào trong video -->
+Cô chủ nhiệm liền khen cô ta: “Các em nên học tập bạn Nhan Nghệ, biết quan tâm và giúp đỡ bạn mới như vậy.”
 
-      <div class="movie-hud" id="movieHud">
+Tan tiết, các bạn trong lớp tò mò kéo đến vây quanh bàn tôi, hỏi dồn dập.
 
-    <div class="movie-progress-wrap">
-        <div id="movieTimeBubble" class="movie-time-bubble">00:00</div>
-        <input
-          id="movieProgress"
-          class="movie-progress"
-          type="range"
-          min="0"
-          max="100"
-          value="0"
-          step="0.1"
-        >
-      </div>
+“Tiểu Nghệ ơi, Giản Hoan có quan hệ gì với cậu vậy?”
 
-      <div class="movie-time">
-        <span id="currentTime">00:00</span>
-        <span id="duration">00:00</span>
-      </div>
+Nhan Nghệ liếc tôi một cái, rồi bình thản nói dối không đổi sắc mặt: “Đây là chị họ ở quê mới lên của tớ. Chị ấy đang học lớp 12 mà, nhưng chất lượng giáo dục dưới quê không theo kịp nên gia đình cho chị chuyển lên đây học, bây giờ đang ở nhờ nhà tớ.”
 
-      <div class="movie-main-controls">
-        <button id="back10Btn" class="movie-skip-btn" type="button">↶ 10s</button>
-        <button id="playPauseBtn" class="movie-play" type="button">▶</button>
-        <button id="forward10Btn" class="movie-skip-btn" type="button">10s ↷</button>
-      </div>
+Tôi im lặng hoàn toàn, để mặc cô ta thêu dệt.
 
-      <div class="movie-tools">
-        <span class="movie-tools-title">Tốc độ</span>
-        <button class="speed-btn active" data-speed="1" type="button">1x</button>
-        <button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
-        <button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
-        <button class="speed-btn" data-speed="2" type="button">2x</button>
-        <button id="fullscreenBtn" class="movie-fs-btn" type="button">⛶ Toàn màn hình</button>
-      </div>
+Thật ra từ sáng sớm, lúc vừa đến trường, Nhan Nghệ đã giả bộ ân cần dặn tôi: “Quan hệ giữa hai chúng ta khá nhạy cảm, tốt nhất đừng để các bạn trong lớp biết rõ. Ai thắc mắc thì cứ để em trả lời giúp chị.”
 
-    </div>
+Thực chất cô ta chỉ muốn che giấu việc mình là đứa con giả mạo.
 
-      <div class="movie-marker" id="movieMarker">
-        <div class="marker-info">
-          <div class="marker-icon">📍</div>
-          <div>
-            <div class="marker-title">Mốc xem</div>
-            <div class="marker-description">Nhấn để xem từ đoạn được chia sẻ từ TikTok/Facebook</div>
-          </div>
-        </div>
+Tôi khẽ cau mày, điềm tĩnh đáp: “Được thôi.”
 
-        <button id="markerBtn" class="marker-btn" type="button">
-          ▶ <span id="markerTime">15:44</span>
-        </button>
-      </div>
+Nhan Nghệ làm lớp trưởng, lại có uy tín rất cao trong lớp, nên ai cũng tin sái cổ lời giải thích đó.
 
-    </div>
+Phần tôi thì không bình luận gì.
 
-  </section>
+Tiết kế tiếp là thể dục.
 
-</main>
+Tay đang bó bột nên Nhan Nghệ dĩ nhiên không thể tham gia hoạt động ngoài trời.
+
+Nhưng khi cả lớp chuẩn bị ra sân, cô ta lại ôm đầu kêu mệt.
+
+“Cô sẽ xin phép thầy thể dục cho em. Giản Hoan, em ở lại lớp giúp cô chăm sóc Tiểu Nghệ nhé.” Cô chủ nhiệm phân công.
+
+Thế là tôi bắt buộc phải ở lại.
+
+Nhan Nghệ vẫn gục đầu xuống bàn, vờ mệt mỏi.
+
+Tôi nhìn đồng hồ, lấy tập đề ra và bắt đầu tập trung giải toán.
+
+Thời gian lặng lẽ trôi, chỉ còn khoảng mười phút nữa là hết tiết.
+
+Đến lúc này Nhan Nghệ mới thong thả ngẩng đầu lên.
+
+Cô ta vơ hết sách vở trên mặt bàn lẫn trong ngăn kéo, gạt tất cả xuống sàn.
+
+Chưa dừng lại, cô ta đứng dậy, ra sức đạp cho bàn ghế của mình đổ chỏng gọng.
+
+Rầm!
+
+Chiếc bàn ngã xuống, tiếng động chát chúa, bụi bay tung tóe.
+
+Kịch hay chính thức bắt đầu.
+
+Tôi liếc qua hiện trường hỗn loạn do cô ta tạo ra rồi cụp mắt xuống. Ban đầu tôi định cất tập đề đang làm dở vào cặp.
+
+Nhưng nghĩ lại, hành động đó có vẻ quá thản nhiên.
+
+Thôi thì đành nhập cuộc, diễn cùng cô ta vậy.
+
+Tôi quay sang nhìn cô ta, mặt đầy bàng hoàng và khó hiểu: “Em đang làm cái gì vậy?”
+
+Lúc này trong lớp không có người thứ ba.
+
+Cô ta lập tức bỏ vẻ thân thiện thường ngày, nhìn tôi từ trên xuống bằng ánh mắt khinh khỉnh: “Ai cho phép cô quay về đây?”
+
+“Cô tưởng chỉ dựa vào chút máu mủ là làm chủ được cái nhà này sao?”
+
+“Đừng quên, tôi mới là người sống bên họ suốt mười năm qua, cùng họ có biết bao kỷ niệm.”
+
+Nói xong, cô ta tháo phần gạc đang dở trên tay ra, rút từ túi quần một con dao nhỏ.
+
+Trước hết, cô ta dùng dao rạch rách áo mình ở nhiều chỗ.
+
+Sau đó, cô ta nghiến chặt răng, hạ quyết tâm, vung lưỡi dao sắc đâm thẳng vào cánh tay đang bị thương.
+
+“Dừng lại ngay!”
+
+Tôi lập tức lao tới, định giằng con dao khỏi tay cô ta.
+
+Nhưng không hiểu xô xát thế nào, cảnh tượng lại biến thành tôi đang cầm dao, còn cô ta ngã ngửa ra sàn.
+
+Đúng lúc ấy, các bạn học xong tiết thể dục kéo nhau về. Thấy bàn ghế xáo trộn, còn Nhan Nghệ thì nằm dưới đất bị tôi đè lên, ai nấy đều chết lặng.
+
+Lớp phó cùng mấy nam sinh lập tức xông vào giật con dao khỏi tay tôi, rồi đẩy mạnh tôi ra xa.
+
+“Giản Hoan, cậu điên rồi à!”
+
+“Thầy cô bảo cậu ở lại chăm sóc Tiểu Nghệ, đâu phải để cậu bắt nạt cô ấy!”
+
+Tôi luống cuống tìm cách giải thích, nhưng chỉ nhận lại những ánh mắt đầy ghét bỏ và khinh bỉ của bạn học.
+
+Họ đã tự diễn giải và kết tội tôi từ trước.
+
+Tôi quay sang nhìn Nhan Nghệ, hy vọng cô ta sẽ nói rõ sự thật: “Tiểu Nghệ, em mau nói đi chứ, rõ ràng là em...”
+
+Mặt cô ta tái nhợt, không còn giọt máu, nhìn tôi đầy sợ hãi, rồi ngắt lời tôi: “Giản Hoan... chị ấy không cố ý đâu... là tớ... tớ tự...”
+
+Lời giải thích ấp úng đó chẳng khác gì gáo nước lạnh, càng khẳng định thêm tội của tôi.
+
+Các bạn nhìn tôi căm ghét hơn nữa, như thể tôi vừa uy hiếp, ép Nhan Nghệ phải nói dối.
+
+Tôi hoàn toàn không còn cơ hội phân trần.
+
+*****
+
+Cô ta được đưa xuống phòng y tế, còn tôi bị giải lên văn phòng ban giám hiệu.
+
+Ở đó có đủ mặt bố mẹ tôi, hiệu trưởng, các thư ký và phó hiệu trưởng.
+
+Sự việc khép lại bằng một án kỷ luật cảnh cáo nghiêm khắc dành cho tôi.
+
+Chuyên gia tư vấn tâm lý còn khuyên: “Em Giản Hoan có dấu hiệu hành vi bạo lực bất thường. Gia đình nên đưa em đến cơ sở y tế chuyên khoa để kiểm tra tâm lý.”
+
+Kết quả chẩn đoán sau đó xác nhận tôi hoàn toàn bình thường, nhưng những lời đồn thất thiệt đã lan khắp trường.
+
+Từ nghi vấn bạo lực, tôi bị gắn mác kẻ mắc bệnh tâm thần.
+
+Bạn bè trong lớp bắt đầu cô lập, né tránh tôi như né tà.
+
+Bố mẹ ngày một thất vọng về cô con gái này, về sau thậm chí còn bắt tôi dọn khỏi phòng ngủ sát bên Nhan Nghệ, lên sống một mình trên gác xép, chỉ vì sợ tôi ra tay hại cô ta.
+
+Tất cả hậu quả ấy đều bắt nguồn từ việc tôi tốt bụng, muốn ngăn cô ta tự làm hại mình ở kiếp trước.
+
+Còn bây giờ, tôi chỉ lạnh lùng đứng nhìn cô ta tự tay rạch lưỡi dao lên cánh tay.
+
+Máu tươi bắt đầu rỉ ra.
+
+Sau đó cô ta vung tay quăng con dao đến sát chân tôi, rồi quệt máu lên bộ đồng phục.
+
+Chỉ là một vết xước nhỏ, nhưng qua bàn tay dàn dựng của cô ta, nó trông như chấn thương cực kỳ nặng.
+
+Cô ta liếc tôi, ánh mắt kiêu hãnh, rồi từ từ gục xuống sàn.
+
+“Giản Hoan, cô đừng hòng cướp được vị trí của tôi.”
+
+Tôi chậm rãi đứng dậy, nhìn kẻ đang nằm dưới đất bằng ánh mắt khinh bỉ: “Nhan Nghệ à, sang kiếp này cô vẫn chỉ biết dùng mấy trò cũ rích đó thôi sao.”
+
+Không để cô ta kịp định thần, tôi bước thẳng ra bệ cửa sổ, cầm chiếc điện thoại đã đặt sẵn từ trước lên.
+
+“Ối, tôi quên tắt chế độ quay video rồi.”
+
+Gương mặt Nhan Nghệ thoắt cái biến sắc hoàn toàn.
+
+Tiếng chuông báo hết tiết vang lên rộn rã.
+
+Ngoài hành lang, học sinh bắt đầu qua lại đông đúc.
+
+Nhiều bạn vừa học xong tiết thể dục cũng nô nức kéo về lớp.
+
+Nhưng bầu không khí ồn ào khựng lại ngay khi học sinh đầu tiên bước qua cửa.
+
+“Trời ơi, chuyện gì thế này?” Lớp phó là người kêu thất thanh đầu tiên.
+
+Các bạn khác hiếu kỳ ùa vào lớp, tiếng bàn tán nổi lên xôn xao.
+
+“Nhan Nghệ, rốt cuộc đã xảy ra chuyện gì vậy?”
+
+“Tay cậu sao chảy nhiều máu thế?”
+
+“Giản Hoan! Trong lớp rõ ràng chỉ có cậu với Tiểu Nghệ. Cậu đã làm gì cô ấy?”
+
+Bàn ghế đổ ngổn ngang khắp nơi, người vốn đang bị thương giờ lại nằm gục dưới sàn, thêm nhiều vết rạch.
+
+Đương nhiên tôi trở thành nghi phạm duy nhất trong căn phòng này.
+
+Rồi một cô bạn thân của Nhan Nghệ chỉ thẳng vào mặt tôi, lớn tiếng chỉ trích: “Lúc nào Nhan Nghệ cũng khen cậu tốt tính trước mặt bọn tớ, sao cậu nỡ nhân lúc cô ấy đang bị thương mà ra tay bắt nạt cô ấy chứ!”
+
+Những ánh mắt xung quanh nhìn tôi bắt đầu phủ một lớp giận dữ và xa lạ.
+
+Tôi bình thản quay sang nhìn Nhan Nghệ.
+
+Cô ta đang được lớp phó ân cần dìu đứng dậy, môi mím chặt, hoàn toàn không có ý định lên tiếng minh oan cho tôi.
+
+Xem ra chưa thấy bằng chứng thì cô ta vẫn chưa chịu nhận thua.
+
+Tôi điềm tĩnh rút điện thoại ra: “Tôi cũng không biết nên giải thích thế nào cho phải, nhưng tôi có...”
+
+“Là do tớ bất cẩn, tự làm mình bị thương thôi...”
+
+Nhan Nghệ hốt hoảng cắt ngang lời tôi: “Tớ chỉ... tự nhiên tay đau nhói nên mất kiểm soát, hất văng hết sách vở. Trong lúc rối trí tớ lỡ làm tay bị thương, tớ chỉ định lấy áo đồng phục để cầm máu thôi.”
+
+“Tớ thật sự không ngờ lại gây ra cảnh hỗn loạn thế này...”
+
+Trong lúc nói, ánh mắt cô ta cứ dán chặt vào chiếc điện thoại trên tay tôi, như thể muốn nghiền nát nó ngay lập tức.
+
+Giá như ngay từ đầu cô ta chịu nói năng tử tế thì có phải tốt hơn không.
+
+Tôi cất điện thoại vào túi, bước lại gần cô ta, làm ra vẻ buồn bã: “Lần sau em đừng tự làm đau mình như thế nữa nhé, chị sẽ đau lòng lắm đấy, em họ ạ.”
+
+Nhan Nghệ nghiến răng chặt đến mức tưởng như sắp vỡ vụn.
+
+Sau sự cố ấy, cô ta gần như lúc nào cũng giữ gương mặt lạnh tanh mỗi khi đối diện tôi, ở trường cũng như ở nhà.
+
+Vậy mà chiều thứ Sáu, lúc chuẩn bị ra về, cô ta bỗng chủ động tiến lại gần tôi, miệng mỉm cười.
+
+“Chị Giản Hoan ơi, mấy ngày nay em suy nghĩ rất nhiều. Hôm đó ở lớp em không nên nói những lời như thế với chị. Để tạ lỗi, tan học em mời chị đi uống trà sữa nhé?”
+
+Nhìn lời mời ấy, ký ức kiếp trước hiện lên rõ mồn một trong đầu tôi.
+
+Lần duy nhất cô ta chủ động mời tôi đi ăn uống là lần cô ta dẫn tôi đến một cơ sở kinh doanh.
+
+Đó là dự án khởi nghiệp do Nhan Tu cùng vài người bạn học đứng ra gánh vác.
+
+Đúng lộ trình thì năm nay Nhan Tu phải là sinh viên đại học năm hai.
+
+Nhưng để tập trung khởi nghiệp, anh ta đã tự ý giấu gia đình, bảo lưu kết quả học tập một năm.
+
+Ban đầu chỉ mình Nhan Nghệ biết bí mật này, nhưng từ khi cô ta kéo tôi đến đó, trong nhà lại có thêm một người nắm rõ sự thật.
+
+Và dĩ nhiên Nhan Tu không hề muốn tôi dính vào chuyện của anh ta.
+
+Ngay lúc nhận ra tôi có mặt ở cơ sở kinh doanh, anh ta nổi giận đùng đùng, vớ lấy chiếc gạt tàn trên bàn ném thẳng về phía tôi.
+
+“Ai cho phép cô mò đến đây?!”
+
+Tôi bàng hoàng vì bất ngờ bị Nhan Nghệ lôi tới nơi này. Cú va mạnh vào vai khiến tôi đau nhói, nước mắt trào ra.
+
+Tôi đau đến mức ngồi sụp xuống sàn, không nói nên lời.
+
+Lúc này giọng nhỏ nhẹ của Nhan Nghệ mới cất lên: “Anh ơi, anh đừng giận mà. Chúng ta với chị Giản Hoan đều là người một nhà, chị ấy sẽ không mách bố mẹ đâu.”
+
+“Ai là người nhà với cô ta! Sau này cấm cô dẫn cô ta tới đây nữa!”
+
+Bí mật vốn được giấu kỹ bị lộ ra một cách vô lý, khiến Nhan Tu mất kiểm soát.
+
+Anh ta trút hết cơn giận lên đầu tôi.
+
+Anh ta nào hay biết tôi không tự ý đến đây, mà chính cô em gái quý hóa của anh ta đã cố tình kéo tôi theo.
+
+Tôi vốn chẳng màng đến bí mật của anh ta.
+
+Trước khi rời khỏi đó, Nhan Nghệ liên tục ép tôi phải hứa trước mặt Nhan Tu rằng tuyệt đối không tiết lộ với bố mẹ chuyện anh ta bỏ học đi làm ăn.
+
+Về nhà, tôi chỉ lặng lẽ bôi thuốc lên vết thương ở vai, và giữ đúng lời hứa, không hé nửa lời với bố mẹ.
+
+Vậy mà đến cuối tuần, giữa bố mẹ và Nhan Tu lại nổ ra một trận cãi vã kịch liệt.
+
+Nguyên do là bố mẹ đã biết chuyện anh ta tự ý bỏ học để đi kinh doanh.
+
+Kết cục của trận lôi đình ấy là Nhan Tu thà dọn ra ngoài, cắt đứt quan hệ với gia đình, chứ nhất quyết không chịu bỏ việc để quay lại trường.
+
+Trước khi xách vali ra đi, Nhan Tu đạp văng cửa phòng tôi, tóm lấy bờ vai đang bị thương của tôi rồi đẩy mạnh.
+
+“Bây giờ cô vừa lòng chưa?!”
+
+Tôi nén đau, cố giải thích: “Anh ơi, không phải em, em đâu có nói...”
+
+“Đừng gọi tôi là anh! Tôi chỉ có một đứa em gái duy nhất là Nhan Nghệ thôi!”
+
+Khi ấy Nhan Nghệ đang đứng tựa cửa, nở nụ cười đắc thắng nhìn mối quan hệ giữa tôi và Nhan Tu đổ vỡ hoàn toàn.
+
+Tôi chưa từng hé môi với bố mẹ, vậy kẻ duy nhất đi mách chỉ có thể là cô ta.
+
+Ngay từ lúc cô ta kéo tôi đến cơ sở kinh doanh đó, mọi thứ đã nằm trong kịch bản được sắp đặt vô cùng tỉ mỉ.
+
+Trở lại hiện tại.
+
+Lúc này tôi mới nhìn kỹ nét mặt Nhan Nghệ. Sau nụ cười kia, trong mắt cô ta thấp thoáng một tia sáng lạnh lẽo.
+
+Tôi ngoảnh đi, cúi đầu thu dọn sách vở vào cặp: “Cảm ơn em, nhưng hôm nay chị có việc bận, không đi được đâu.”
+
+Nhan Nghệ không chịu bỏ cuộc, siết chặt lấy tay tôi: “Để mai làm cũng được mà. Mình đi uống trà sữa trước đã.”
+
+Tôi ngẩng lên, nhìn thẳng vào cô ta: “Tại sao cô nhất định phải mời tôi bằng được vậy?”
+
+Nhan Nghệ tránh ánh mắt của tôi, ấp úng một hồi lâu vẫn không nghĩ ra lý do, cuối cùng tức tối hất tay tôi ra.
+
+“Không uống thì thôi!”
+
+Lần này tôi chủ động tránh, không đến cơ sở kinh doanh đó nữa, vậy mà đến cuối tuần Nhan Tu vẫn cãi nhau nảy lửa với bố mẹ.
+
+Lý do vẫn là chuyện anh ta giấu việc bỏ học để đi làm ăn bị phát hiện.
+
+Cuộc xung đột diễn ra cực kỳ gay gắt.
+
+Một lúc sau, tiếng bước chân dồn dập vang lên, tiến về phía phòng tôi. Rồi “rầm” một tiếng chát chúa, cửa phòng tôi bị đạp văng ra.
+
+“Bây giờ cô vừa lòng chưa?!” Nhan Tu giận dữ trừng mắt nhìn tôi.
+
+Nhan Nghệ đứng ngay sau lưng anh ta, vờ ôm tay anh ta để can ngăn: “Anh ơi, anh đừng giận, chị Giản Hoan không cố ý đâu...”
+
+Mọi chuyện lại diễn ra y như kiếp trước.
+
+Tôi hoàn toàn phớt lờ sự có mặt của họ, thản nhiên quay đi, lục tìm đồ trong cặp.
+
+Thái độ như chẳng có chuyện gì ấy càng châm thêm lửa vào cơn giận của Nhan Tu. Anh ta xông tới, thô bạo giật vai tôi quay lại.
+
+“Cô làm cái trò gì đấy? Làm chuyện lén lút nên giờ chột dạ, không dám nhìn mặt ai đúng không!”
+
+Cú giật mạnh của anh ta khiến mấy món tôi vừa lấy từ cặp ra rơi vãi xuống sàn.
+
+Những gói thuốc Bắc bọc giấy vàng vốn không buộc chặt, va xuống đất liền bung ra, dược liệu văng tung tóe khắp nơi.
+
+Mùi thảo mộc đặc trưng lập tức lan khắp phòng ngủ.
+
+Tôi lặng lẽ ngồi xuống, nhặt từng nhành thuốc rơi vãi gom lại vào túi.
+
+“Em không hiểu anh đang giận chuyện gì. Em chỉ muốn đưa anh gói thuốc Bắc em vừa bốc thôi.”
+
+Nhan Tu khẽ cau mày nhìn tôi.
+
+Tôi nhẹ nhàng giải thích: “Lần trước thấy anh phải uống thuốc dạ dày, em biết khu phía Tây thành phố có một thầy lang rất mát tay trong việc bốc thuốc chữa bệnh này. Nên chiều thứ Sáu em mới lặn lội sang đó lấy thuốc cho anh.”
+
+Khu phía Tây thành phố nằm ở vị trí rất hẻo lánh.
+
+Ở đó chưa có tuyến tàu điện ngầm đi thẳng, muốn đến nơi phải đi tàu điện ngầm rồi chuyển sang xe buýt. Chưa kể vào giờ cao điểm buổi chiều, cả đi lẫn về mất hơn hai tiếng đồng hồ.
+
+Tôi đã đoán trước rằng dù mình không mắc bẫy đi cùng Nhan Nghệ thì cô ta vẫn sẽ tìm cách đổ hết tội lên đầu tôi. Vì vậy ngay sau giờ học, tôi đã chủ động bắt xe sang phía Tây thành phố để bốc thuốc.
+
+Nhan Tu liếc túi thuốc Bắc trên tay tôi, ngọn lửa giận trong mắt anh ta nguội đi đáng kể.
+
+“Có phải cô đã mách bố mẹ chuyện tôi bỏ học ra ngoài làm ăn không?”
+
+“Em hoàn toàn không biết chuyện anh... đang kinh doanh bên ngoài.”
+
+Sợ tôi giải thích thêm, lại lo Nhan Tu sẽ đối chất ngay tại chỗ, Nhan Nghệ bắt đầu cuống lên, vội chen ngang: “Anh ơi, em đã bảo anh rồi mà, không phải chị Giản Hoan nói đâu. Hôm qua dù biết chuyện anh nghỉ học khởi nghiệp, chị ấy cũng đã hứa với em là không mách bố mẹ rồi.”
+
+Nói đoạn, cô ta cuống quýt kéo Nhan Tu ra khỏi phòng tôi.
+
+Đúng là biểu hiện của kẻ có tật giật mình.
+
+Cô ta vừa để Nhan Tu biết rằng tôi đã nắm được bí mật anh ta bỏ học khởi nghiệp, vừa ngầm đưa thông tin ấy đến tai bố mẹ.
+
+Rốt cuộc mọi gánh nặng tội lỗi lại được sắp xếp để đổ lên đầu tôi, rất tinh vi.
+
+May là tôi đã lên kế hoạch phòng ngừa từ trước.
+
+Nhan Tu vẫn quyết định dọn đồ rời khỏi nhà.
+
+Bố mẹ trong cơn giận cũng tuyên bố thẳng rằng đã bước chân đi thì đừng bao giờ quay về nữa.
+
+Thế nhưng trước khi đi, anh ta lại gõ cửa phòng tôi, nét mặt lộ rõ vẻ ngượng ngùng và áy náy.
+
+“Đưa đồ đây cho tôi.”
+
+Nhan Nghệ lủi thủi bám theo sau anh ta như một cái đuôi nhỏ, chớp mắt, đầy hoài nghi: “Anh ơi, anh để quên đồ gì trong phòng chị Giản Hoan sao?”
+
+Lần đầu tiên, Nhan Tu hoàn toàn bỏ ngoài tai lời cô ta, chỉ lẳng lặng đưa tay về phía tôi.
+
+Tôi quay lại lấy túi thuốc Bắc mua hôm trước đưa cho anh ta.
+
+“Thầy lang dặn phải ngâm thảo dược trong nước lạnh khoảng 30 phút rồi mới đem sắc. Hai gói này thường sắc được 2 đến 3 lần, chia ra uống 2 đến 3 lần trong ngày...”
+
+“Tôi biết rồi, cô nói nhiều quá.”
+
+Nhan Tu cầm lấy túi thuốc rồi dứt khoát quay lưng bước đi.
+
+Nhan Nghệ đứng ngẩn ra tại chỗ.
+
+Cô ta bị gạt hẳn ra khỏi cuộc trò chuyện.
+
+Ít nhất trong khoảnh khắc đó, cô ta đã bị gạch tên khỏi sự tương tác giữa chúng tôi.
+
+Tôi khẽ nhếch môi. Cứ yên tâm đi, những cảnh như thế này sau này sẽ còn nhiều.
+
+Sau khi Nhan Tu dọn ra ngoài, bầu không khí trong nhà trở nên ảm đạm.
+
+Nhan Nghệ luôn tìm cách đứng ra làm cầu nối, hàn gắn quan hệ giữa bố mẹ và Nhan Tu.
+
+Cách cô ta dùng là liên tục nói tốt cho Nhan Tu trước mặt bố mẹ.
+
+“Bố ơi, thật ra anh hai nhớ bố lắm đấy. Dạo này anh ấy cứ hỏi thăm sức khỏe của bố suốt.”
+
+Bố tôi chẳng buồn bận tâm. Ông gấp tờ báo trên tay lại, ném mạnh sang một bên.
+
+“Bảo nó là ta vẫn chưa bị nó làm cho tức chết đâu, khỏi cần vội về đây chịu tang.”
+
+Về phía Nhan Tu, Nhan Nghệ cũng ra sức thuyết phục.
+
+“Anh ơi, bố mẹ không thật sự giận anh đâu, mọi người chỉ không vui vì anh tự quyết mà không bàn bạc trước thôi. Anh về nhà được không?”
+
+Nhan Tu thì vốn bướng bỉnh: “Nếu họ thật sự không giận thì đã tự nói chuyện với anh rồi, việc gì phải nhờ người nhắn hộ. Anh nhất quyết không về.”
+
+Dù bị cả hai phía từ chối liên tục, Nhan Nghệ vẫn tỏ ra hứng khởi.
+
+Bởi mục đích cốt lõi của cô ta chưa bao giờ là hòa giải gia đình, cô ta chỉ muốn khẳng định tầm quan trọng của mình trong ngôi nhà này.
+
+Thế nhưng sáng hôm đó, trên bàn ăn, Nhan Nghệ bỗng quay sang châm chọc tôi: “Chị Giản Hoan ơi, chị cũng giúp em thuyết phục bố mẹ đi chứ, đừng lúc nào cũng cắm mặt vào điện thoại mà chẳng nói tiếng nào như vậy.”
+
+Bởi trong lúc cô ta ra sức đóng vai người hòa giải, tôi chỉ lặng lẽ cúi đầu thao tác trên điện thoại.
 
 
-<!-- ==================================================
-     POPUP CHUYỂN SANG WEB XÔI THỊT
-================================================== -->
+Tôi tranh thủ gửi vào nhóm chat gia đình vài bài báo chuyên ngành mình vừa đọc được.
 
-<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+Nhan Nghệ tỏ vẻ bất mãn: “Em nhờ chị khuyên bố mẹ chứ có bảo chị gửi mấy cái tin vớ vẩn này đâu. Gửi mấy thứ này thì được tích sự gì? Chẳng lẽ gửi bài báo là anh hai chịu về chắc?”
 
-  <div class="xoi-thit-box">
+Nhưng ngay giây sau, cô ta đã phải tự hứng một gáo nước lạnh vào mặt.
 
-    <div class="xoi-thit-icons">
-      <img src="../codetruyen/icon.jpg" alt="Web phim" class="xoi-thit-icon">
-      <span class="xoi-thit-arrow">→</span>
-      <img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
-    </div>
+Nhan Tu, người im hơi lặng tiếng trong nhóm chat suốt từ ngày dọn đi, bỗng lên tiếng hỏi đích danh tôi.
 
-    <div class="xoi-thit-text">
-      Bạn đang chuyển qua web
-      <strong>Xôi Thịt Nhà Mui Miu</strong>
-    </div>
+Nhan Tu: [Em đọc được bài viết này ở đâu thế?]
 
-    <div class="xoi-thit-question">
-      Bạn có muốn tiếp tục không?
-    </div>
+Tôi: [Em tình cờ lướt thấy trên mạng thôi.]
 
-    <div class="xoi-thit-buttons">
-      <button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
-      <button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
-    </div>
+Nhan Tu: [Mấy thông tin kiểu này thật giả lẫn lộn, nhiều chỗ còn cố tình bóp méo sự thật để câu tương tác. Sau này em nên tìm đọc ở các trang chủ chính thống, độ chính xác sẽ cao hơn.]
 
-  </div>
+Tôi mỉm cười gõ lại: [Em biết rồi.]
+
+Bài báo tôi chia sẻ liên quan trực tiếp đến lĩnh vực làm đẹp, đúng chủ đề Nhan Tu cực kỳ quan tâm.
+
+Nhan Tu vừa lên tiếng, sự chú ý của cả nhà lập tức dồn hết vào giao diện nhóm chat.
+
+Nhan Nghệ vẫn khinh khỉnh lầm bầm, ra vẻ hãnh diện: “Mấy tin rác rưởi này thì có gì mà anh phải bận tâm chứ...”
+
+Tôi thầm cười trong bụng. Tin rác rưởi ư?
+
+Rồi cô sẽ sớm biết nó có phải rác rưởi hay không.
+
+Tôi giải thích với bố mẹ: “Đây là những tin cập nhật về hướng kinh doanh của anh hai. Con nghĩ nó có thể mang lại thông tin hữu ích nên mới chia sẻ vào nhóm gia đình ạ.”
+
+Dù miệng luôn trách Nhan Tu không lo học hành đàng hoàng, bố mẹ vẫn chăm chú đọc hết những bài báo tôi gửi.
+
+Sau đó, ngày nào tôi cũng đều đặn đăng các bài phân tích thị trường vào nhóm chat.
+
+Bố mẹ không biểu lộ gì ra mặt, nhưng thái độ của họ đã bắt đầu thay đổi, rất tinh tế.
+
+Chẳng hạn khi xem truyền hình, hễ có bản tin liên quan đến ngành làm đẹp là họ vô thức chú ý theo dõi.
+
+Những cuốn tạp chí thỉnh thoảng nằm trên bàn phòng khách cũng dần được thay bằng các ấn phẩm chuyên ngành.
+
+Họ hiểu rõ hơn con đường Nhan Tu đang theo đuổi.
+
+Mỗi lần nhắc đến Nhan Tu, cơn giận ban đầu đã dần tan.
+
+Thay vào đó là sự thấu hiểu và đồng cảm sâu sắc hơn.
+
+Thỉnh thoảng bố mẹ lại chủ động chia sẻ với tôi góc nhìn của họ về thị trường, và tôi cũng cởi mở trao đổi quan điểm cùng họ.
+
+Nhờ vậy, quan hệ giữa tôi và bố mẹ tự nhiên hơn nhiều, không còn khoảng cách xa lạ, khách sáo như những ngày mới về.
+
+Khi nhận ra tôi và bố mẹ ngày càng gắn bó, Nhan Nghệ không tài nào chen vào được những câu chuyện chuyên môn hằng ngày của chúng tôi.
+
+Ánh mắt cô ta nhìn tôi ngày một đầy đố kỵ và hằn học.
+
+Rồi cô ta bộc lộ sự cay cú ấy ngay tại đại hội thể thao của trường.
+
+Nhan Nghệ chủ động điền tên đăng ký nội dung chạy 800 mét.
+
+Ngay sau đó, cô ta cũng tự tay điền luôn tên tôi vào danh sách thi đấu.
+
+“Hạng mục nào cũng bắt buộc phải có người đại diện, để trống danh sách sẽ bị trừ điểm thi đua của lớp. Vì không ai chịu đăng ký cự ly 800 mét, nên với tư cách lớp trưởng, tớ sẽ đứng ra nhận trách nhiệm này.”
+
+Nhan Nghệ bước lên bục giảng, ra sức thể hiện hình ảnh một lớp trưởng mẫu mực, hết lòng vì tập thể.
+
+Thế nhưng ngay sau đó, cô ta đột ngột quay sang kéo tôi vào cuộc.
+
+“Chị Giản Hoan ơi, chị có muốn chạy cùng em không? Nếu lớp mình có thêm một vận động viên đăng ký thì điểm thi đua tích lũy sẽ được cộng thêm một điểm đấy.”
+
+Nhan Nghệ đứng trên bục giảng, giọng dõng dạc.
+
+Nghe thì như một lời trưng cầu ý kiến, nhưng thực chất là mệnh lệnh ép buộc.
+
+Nếu tôi từ chối đăng ký, lập tức sẽ bị gán mác ích kỷ, không có tinh thần đồng đội.
+
+Cả lớp đồng loạt quay xuống nhìn tôi.
+
+Thật ra kiếp trước tôi đã nhận lời, vì thể lực của tôi vốn rất tốt.
+
+Trước khi chuyển trường về đây, tôi từng giành chức vô địch cự ly 800 mét ở trường cũ, nên chinh phục cự ly này nằm trong tầm tay.
+
+Nhưng tôi không ngờ Nhan Nghệ lại hẹp hòi đến mức lén giấu đinh bấm vào giày tôi trong lúc thi đấu để trả thù riêng.
+
+Đến ngày chung kết 800 mét, ngay vòng chạy đầu tiên, những chiếc đinh bấm đã xuyên qua lớp lót giày, cắm sâu vào lòng bàn chân tôi.
+
+Tôi lờ mờ thấy đau nhói, nhưng không nghĩ đến chuyện bị chơi xấu, chỉ cho rằng có sỏi nhỏ lọt vào giày.
+
+Sang vòng thứ hai, khi tôi bắt đầu bứt tốc, mỗi lần dậm chân xuống đường chạy là cơn đau xé da xé thịt lại xộc thẳng lên não.
+
+Mới chạy được nửa vòng, lòng bàn chân đau không chịu nổi, tôi gục xuống đường chạy.
+
+Tôi cố gượng dậy để chạy tiếp, nhưng cơn đau dữ dội khiến tôi không bước nổi mấy bước.
+
+Đúng lúc đó, Nhan Nghệ, người đang chạy phía sau tôi, thừa cơ bứt lên dẫn trước.
+
+Lướt qua chỗ tôi, cô ta ngoái đầu lại, chĩa ngón tay cái xuống đất về phía tôi.
+
+Đó là cử chỉ khinh bỉ và giễu cợt đến tận cùng.
+
+Không còn đối thủ, Nhan Nghệ dễ dàng cán đích ở vị trí dẫn đầu.
+
+Đội cổ vũ của cô ta reo hò cuồng nhiệt: “Nữ thần Nhan Nghệ! Cố lên! Nữ thần Nhan Nghệ! Cố lên!”
+
+Nhan Nghệ băng qua vạch đích giữa tiếng reo mừng chiến thắng vang dội.
+
+Còn tôi được các bạn tình nguyện viên dìu vào khu vực y tế. Tháo giày ra, lòng bàn chân tôi đã đầm đìa máu tươi.
+
+Vài chiếc đinh bấm vẫn còn cắm chặt dưới lớp lót giày.
+
+Cuối cùng Nhan Nghệ thắng ở vòng bảng và xếp thứ 5 chung cuộc.
+
+Nhờ vậy, điểm thi đua của lớp được cộng thêm 10 điểm.
+
+Cả lớp reo hò ăn mừng, coi cô ta như một người hùng.
+
+Còn tôi thì bị họ chỉ trích là cố tình buông xuôi, chẳng có chút tinh thần cống hiến cho tập thể.
+
+Tôi có gào khóc cũng không thể thanh minh cho mình, trong khi Nhan Nghệ cứ liên tục đóng vai người tốt, đến “an ủi” tôi.
+
+“Không sao đâu mà, dù gì cũng tại em ép chị tham gia. Chị cố tình thua cũng là chuyện dễ hiểu thôi. Lỗi tại em hết, chị đừng để trong lòng nhé.”
+
+Mấy lời diễn xuất ấy chỉ khiến các bạn học càng ghét tôi hơn.
+
+Sang kiếp này, Nhan Nghệ lại muốn áp dụng đúng cái kịch bản cũ rích đó.
+
+Tôi khẽ nhếch môi, mỉm cười nhìn cô ta: “Được thôi, chị đăng ký. Chị rất sẵn lòng góp chút sức mang vinh quang về cho lớp.”
+
+Nhan Nghệ nghi ngờ nhìn tôi một lúc rồi mới ghi tên tôi vào danh sách thi đấu.
+
+Đến ngày hội thể thao, không khí toàn trường tràn ngập sự trẻ trung và sôi động.
+
+Vòng sơ loại cự ly 800 mét được ấn định vào buổi chiều cùng ngày.
+
+Đôi giày chạy chuyên dụng của tôi được cất cẩn thận trong lớp. Nghe loa thông báo sắp đến lượt thi, tôi quay về phòng học lấy giày.
+
+Đến gần cửa sau của lớp, tôi thấy Nhan Nghệ vẫn còn ở bên trong. Cô ta đang lén lút mở hộp đựng giày của tôi ra.
+
+Tôi khẽ nhíu mày.
+
+Tôi không lên tiếng, nhanh tay rút điện thoại, bật chế độ quay video để ghi lại toàn bộ hành vi của cô ta.
+
+Chờ đến khi cô ta sắp xong việc chơi xấu, tôi nhẹ nhàng lùi lại, nấp sau cánh cửa phòng học bên cạnh, đợi cô ta đi khỏi.
+
+Quay lại lớp lấy giày, tôi nhấc miếng lót lên thì thấy vài chiếc đinh bấm đã được gài sẵn bên dưới.
+
+Cảm giác đau nhói trong ký ức như vừa chạy qua các dây thần kinh của tôi, rõ mồn một.
+
+Tôi nheo mắt, gom hết số đinh bấm ấy cất vào ngăn kéo.
+
+Đối chiếu danh sách xong, đúng như dự đoán, tôi vẫn bị xếp chung lượt chạy với Nhan Nghệ.
+
+Trong lúc khởi động, Nhan Nghệ liên tục liếc xuống đôi giày của tôi.
+
+Tôi giả vờ ngơ ngác, cố ý hỏi: “Sao em cứ nhìn chằm chằm vào giày của chị thế? Có vấn đề gì à?”
+
+Nhan Nghệ giật mình hoảng hốt, ánh mắt lảng đi: “Làm... làm gì có chuyện gì. Đây là đôi giày chạy bố mẹ đặc biệt mua tặng chị mà, họ rất mong chị mang nó đi thi đấu đấy.”
+
+Tôi mỉm cười, lặng lẽ không đáp.
+
+Tín hiệu xuất phát vang lên, cuộc đua chính thức bắt đầu.
+
+Ngay từ những giây đầu, Nhan Nghệ đã bung sức lao lên dẫn đầu đoàn chạy.
+
+Tôi giữ nhịp thở đều, thong thả bám theo cô ta ở khoảng cách vừa phải.
+
+Dù chạy rất nhanh, tâm trí Nhan Nghệ lại không đặt vào cuộc đua, cô ta cứ liên tục ngoái đầu nhìn tôi.
+
+Chính xác hơn là cô ta đang dán mắt vào đôi chân của tôi.
+
+Tôi vẫn thong dong bám đuổi phía sau.
+
+Qua hết một vòng chạy, tôi bắt đầu tăng tốc và dần vượt lên, chạy song song với cô ta.
+
+Cô ta quay sang nhìn tôi ngày một dày hơn.
+
+Đội cổ vũ vẫn ra sức hò reo tiếp sức cho cô ta.
+
+Ngoại hình xinh xắn đã đem lại cho cô ta danh xưng nữ thần.
+
+Họ gào thét cuồng nhiệt: “Nữ thần Nhan Nghệ, cố lên! Nữ thần Nhan Nghệ, cố lên!”
+
+Còn 200 mét cuối cùng.
+
+Nhan Nghệ lại ngoái sang nhìn tôi lần nữa.
+
+Hai ánh mắt chạm nhau giữa chừng.
+
+Tôi khẽ nhếch môi, nói: “Tạm biệt nhé.”
+
+Cô ta lập tức sững người, bàng hoàng.
+
+Tôi dồn toàn bộ sức lực, bứt tốc lao về phía trước.
+
+Giữa những tiếng hò reo “Nữ thần cố lên”, tôi là người đầu tiên cán đích.
+
+Còn Nhan Nghệ vẫn bị bỏ lại phía sau một quãng khá xa.
+
+Những tiếng cổ vũ vang dội khựng lại trong chốc lát.
+
+Ban đầu họ đều đinh ninh Nhan Nghệ sẽ dễ dàng giành ngôi quán quân.
+
+Tôi quay lại nhìn họ, nhún vai, giọng trêu đùa: “Rất xin lỗi vì đã lỡ vượt qua nữ thần của các bạn nhé.”
+
+Kết quả thi đấu cự ly 800 mét được công bố chính thức.
+
+Tôi xuất sắc giành vị trí đầu vòng bảng và xếp thứ hai chung cuộc toàn trường.
+
+Thành tích này giúp điểm thi đua của lớp được cộng thêm tới 20 điểm.
+
+Nhan Nghệ vì vấp ngã ở chặng nước rút nên không giành được giải nào.
+
+Ngoại trừ nhóm fan cuồng trong đội cổ vũ của cô ta, tất cả bạn học trong lớp đều mừng cho chiến thắng của tôi.
+
+Nhan Nghệ trừng mắt nhìn tôi, ánh nhìn đầy giận dữ như muốn thiêu cháy tôi.
+
+Chiều về đến nhà, Nhan Nghệ hằn học chất vấn tôi: “Lúc chạy trên đường đua, chị không thấy chân mình có gì bất thường sao?”
+
+Tôi liếc cô ta, rồi thong thả kéo dài giọng đáp: “Không hề nha...”
+
+Cô ta trừng trừng nhìn tôi.
+
+Tôi thản nhiên nói tiếp: “Đôi giày mới bố mẹ mua cho chị đi êm chân cực kỳ luôn.”
+
+Mặt cô ta thoắt cái chuyển từ xanh sang đỏ vì tức.
+
+Tôi lại tiếp tục “an ủi” cô ta bằng giọng ngọt ngào: “Tuy lần này em không giúp lớp giành được giải, nhưng dù sao các bạn đối thủ cũng rất mạnh. Không lọt được vào top 5 thì em cũng đừng nản chí làm gì.”
+
+“Đâu như chị, chị chỉ hơn người về ba có năm giây, và chỉ thua người về nhất đúng một giây thôi.”
+
+Sắc mặt Nhan Nghệ tức đến mức chuyển sang màu gan heo. Vừa bước vào nhà, cô ta đã lao thẳng về phòng, đập mạnh cửa lại.
+
+Nghe tin tôi giành huy chương bạc, bố mẹ vô cùng mừng rỡ.
+
+Mẹ hào hứng đến mức ôm chầm lấy tôi: “Con chạy có mệt lắm không? Lát nữa mẹ xuống bếp hầm bát canh bổ cho con tẩm bổ nhé.”
+
+Đó là cử chỉ thân mật và tự nhiên nhất tôi nhận được từ bà kể từ ngày về đây.
+
+Khác xa vẻ gượng gạo, khách khí của lần đầu tôi bước vào ngôi nhà này.
+
+“Con không mệt đâu ạ.” Tôi mỉm cười đáp.
+
+Còn bố tôi thì khoe khoang bằng cách chụp ảnh chiếc huy chương, gửi vào các nhóm chat và đăng lên nhật ký cá nhân. Ông ôm khư khư chiếc điện thoại, nhắn tin trả lời liên tục, nụ cười rạng rỡ trên môi.
+
+Đến khi mẹ bưng bát canh ra, ông mới thản nhiên đặt điện thoại xuống bàn.
+
+Tôi vô tình thấy màn hình điện thoại của ông sáng lên một khung chat mới.
+
+Có người nhắn hỏi bố tôi: “Đây là tấm huy chương cháu Nhan Nghệ mới giành được đấy à?”
+
+Bố tôi tự hào gõ phím đáp lại: “Là Giản Hoan, con gái Giản Hoan của tôi đấy!”
+
+Kiếp trước, từ lúc tôi bước vào căn nhà này cho đến ngày bị tống đi, bố tôi chưa từng một lần nhắc đến sự tồn tại của tôi với người ngoài.
+
+Như thể tôi là một kẻ vô hình.
+
+Thế giới bên ngoài chỉ biết duy nhất cái tên Nhan Nghệ.
+
+Còn giờ đây, họ đã bắt đầu biết đến Giản Hoan.
+
+Sau khi chứng kiến những điều ấy, sắc mặt Nhan Nghệ ngày càng tệ.
+
+Những ngày sau đó, chiều nào tan học cô ta cũng về nhà rất muộn.
+
+Cô ta chủ động chạy sang công ty khởi nghiệp của Nhan Tu để phụ giúp công việc.
+
+Lúc này công ty của Nhan Tu đang ráo riết tìm nhà đầu tư, nên mọi người thường phải tăng ca đến tận đêm khuya.
+
+Sau khi sang hỗ trợ, Nhan Nghệ trở về nhà và báo tin: “Nhà đầu tư tiềm năng đầu tiên của anh Nhan Tu đã từ chối hợp tác rồi.”
+
+Nghe xong, bố mẹ tôi cau chặt đôi mày lo lắng.
+
+Tôi ngước mắt lên quan sát.
+
+Tôi nắm rất rõ thông tin về nhà đầu tư này.
+
+Nói là thất bại thì cũng không hẳn chính xác.
+
+Kiếp trước, chính nhà đầu tư này đã trở thành đòn bẩy quan trọng cho sự nghiệp của Nhan Tu, đồng thời là điểm tựa giúp Nhan Nghệ củng cố vị thế vững chắc trong ngôi nhà này.
+
+Kiếp trước tôi cũng có một mối duyên nợ với nhà đầu tư này, bắt nguồn từ một chuyến trải nghiệm thực tế của lớp.
+
+Hoạt động ngoại khóa được tổ chức ngay sau khi đại hội thể thao kết thúc.
+
+Chủ đề do lớp trưởng đề xuất là “Nghề nông nhọc nhằn”, theo đó học sinh sẽ trực tiếp tham gia thu hoạch nông sản.
+
+Trường chúng tôi là trường tư thục dành cho giới nhà giàu, học sinh hầu hết là cậu ấm cô chiêu.
+
+Vì vậy nghe phổ biến kế hoạch, ai cũng rất hào hứng và tò mò.
+
+Nhưng đến ngày trải nghiệm thật, khi đã tới nơi và được chia vào các nhóm làm việc, ai nấy đều nhanh chóng ỉu xìu, than ngắn thở dài vì mệt.
+
+Cùng thời điểm đó, một nhóm học sinh tiểu học của một trường quốc tế khác cũng đang tham gia hoạt động ở khu vực này.
+
+Tôi và Nhan Nghệ được phân một phần việc ở chỗ khá hẻo lánh.
+
+Tôi mải miết làm cho xong phần việc của mình, còn cô ta thì thong thả tìm chỗ nghỉ ngơi.
+
+Bỗng tôi nghe tiếng trẻ con khóc thét cách đó không xa, liền buông dụng cụ trong tay, lao về hướng có tiếng động.
+
+Trước mắt tôi là một cậu bé đang bị hóc dị vật trong đường thở.
+
+Cậu bé liên tục dùng hai tay bấu lấy cổ họng, cố tống vật lạ ra ngoài, mặt đã đỏ gay vì thiếu oxy.
+
+Tôi vội lao đến từ phía sau, ôm chặt người cậu bé, rồi dùng lực ép mạnh vào vùng bụng mấy lần liên tiếp.
+
+Một dị vật lập tức bắn ra khỏi miệng cậu bé.
+
+Thoát nguy hiểm, đứa trẻ vì quá sợ nên bật khóc nức nở, tôi liền cúi xuống nhẹ nhàng vỗ về.
+
+Đúng lúc ấy Nhan Nghệ xuất hiện.
+
+Vừa nhìn thấy đứa trẻ, sắc mặt cô ta đổi khác một cách kỳ lạ.
+
+Giống như kẻ săn mồi vừa phát hiện con mồi béo bở.
+
+Nhan Nghệ trợn mắt, thẳng tay đẩy tôi sang một bên: “Hình như thầy chủ nhiệm đang có việc gấp cần gặp chị đấy, chị mau qua đó đi để em chăm sóc đứa bé này. Em sẽ đưa nó đi tìm giáo viên.”
+
+Khi ấy tôi không hề nghi ngờ, càng không ngờ đứa trẻ này lại mang đến một bước ngoặt lớn đến vậy.
+
+Thế nên tôi ngoan ngoãn đi tìm thầy chủ nhiệm, đến lúc quay lại tìm đứa trẻ thì cả nó lẫn Nhan Nghệ đã biến mất không dấu vết.
+
+Tôi cũng không để tâm nhiều đến chuyện đó.
+
+Khoảng nửa tháng sau, Nhan Tu đột ngột báo tin vui rằng anh ta đã thu hút thành công một nhà đầu tư lớn.
+
+Nhờ nguồn vốn dồi dào từ nhà đầu tư ấy, công việc kinh doanh của Nhan Tu phất lên như diều gặp gió.
+
+Nghe tin anh ta hứa sẽ quay lại trường học tiếp sau khi công ty vận hành ổn định, bố mẹ tôi nhẹ hẳn gánh nặng, và mâu thuẫn giữa hai cha con chính thức được hóa giải.
+
+Cuối cùng Nhan Tu trở về nhà, và khẳng định rằng công ty anh thu hút được vốn đầu tư là nhờ Nhan Nghệ chính là ngôi sao may mắn của anh.
+
+Toàn bộ câu chuyện được thêu dệt thành việc Nhan Nghệ trong chuyến đi thực tế đã vô tình cứu sống con trai của nhà đầu tư.
+
+Nhà đầu tư ấy là một doanh nhân lớn tuổi, chỉ có duy nhất một cậu con trai nối dõi nên cực kỳ cưng chiều. Nghe tin Nhan Nghệ là ân nhân cứu mạng con mình, ông dứt khoát rót vốn vào công ty của Nhan Tu.
+
+Về sau, Nhan Tu trở thành điểm tựa vững chắc nhất giúp Nhan Nghệ đẩy tôi ra khỏi căn nhà này.
+
+Mọi diễn biến đều giữ nguyên, chỉ riêng người trực tiếp cứu người đã bị đánh tráo thành Nhan Nghệ.
+
+Cô ta luôn tìm cách tước đoạt những thứ vốn thuộc về tôi, rồi cướp luôn cả cuộc đời tôi, đẩy tôi vào một kết cục vô cùng bi thảm.
+
+Lần này, tôi tuyệt đối không để kịch bản đó tái diễn.
+
+Trong chuyến trải nghiệm thực tế ở kiếp này, tôi vẫn bị xếp chung nhóm với Nhan Nghệ.
+
+Nhận dụng cụ xong, cô ta liền chui tọt vào bóng râm dưới gốc cây tránh nắng, tay lăm lăm chai xịt chống nắng, xịt liên tục khắp người.
+
+Còn tôi thì dồn sức làm việc.
+
+Tiếng khóc thét của một đứa trẻ lại vang lên từ phía xa.
+
+Tôi xác định hướng âm thanh rồi lập tức lao tới, cậu bé vẫn đang bị dị vật mắc kẹt trong cổ họng. Tôi thực hiện chính xác thao tác sơ cứu như ở kiếp trước để cứu đứa trẻ.
+
+Ngay sau đó Nhan Nghệ cũng vội vã chạy lại. Vừa thấy đứa trẻ, mắt cô ta lóe lên vẻ phấn khích tột độ.
+
+“Giản Hoan ơi, thầy chủ nhiệm đang có việc cần gặp chị gấp đấy. Chị mau qua xem sao đi, để em chịu trách nhiệm đưa đứa nhỏ này về với giáo viên của nó.”
+
+Tôi nở nụ cười thản nhiên, đáp: “Lần này chị không vội, tự tay giao đứa trẻ cho giáo viên của nó thì chị mới yên tâm được.”
+
+Sắc mặt Nhan Nghệ lập tức đổi khác, cô ta xông lại gần, định giật mạnh đứa trẻ về phía mình.
+
+“Tốt nhất chị cứ qua đó ngay đi, kẻo xảy ra chuyện gì thầy lại không tìm thấy chị.”
+
+Bị Nhan Nghệ thô bạo lôi kéo, đứa trẻ sợ hãi gào thét.
+
+Thằng bé liền cúi đầu, cắn thật mạnh vào tay Nhan Nghệ.
+
+Đau quá, Nhan Nghệ theo phản xạ vung tay hất đứa trẻ ngã chỏng gọng xuống đất.
+
+Đứa nhỏ càng khóc to hơn.
+
+Tôi vội lại gần, ôm cậu bé vào lòng dỗ dành.
+
+Ngay lúc đó, giáo viên chủ nhiệm của đứa trẻ hối hả chạy tới. Nắm rõ toàn bộ sự việc xong, cô giáo lập tức gọi điện báo cho phụ huynh của bé.
+
+“Chào em, phụ huynh của bé Ngọc Thành muốn xin thông tin liên lạc của em. Hôm khác họ muốn đến tận nơi cảm ơn trực tiếp, không biết có tiện cho em không?”
+
+Tôi còn chưa kịp trả lời thì Nhan Nghệ đã vội vàng chen ngang: “Chuyện nhỏ thôi mà cô, không cần cảm ơn đâu ạ.”
+
+Cô ta biết rõ đứa trẻ này là quý tử của một nhà đầu tư lớn, nên thà để công ty Nhan Tu mất khoản đầu tư còn hơn để tôi hưởng công trạng này.
+
+Có điều, làm sao tôi có thể để cô ta toại nguyện dễ dàng như vậy?
+
+Tôi dứt khoát lên tiếng: “Thưa cô, để em tự trao đổi với phụ huynh ạ.”
+
+Chiếc điện thoại được chuyền sang tay tôi ngay trước mặt Nhan Nghệ.
+
+Sắc mặt cô ta tồi tệ hẳn đi.
+
+Tôi mỉm cười với cô ta rồi cất giọng vào điện thoại: “Dạ cháu chào bác, cháu là Giản Hoan ạ.”
+
+Hai tuần sau, Nhan Tu bất ngờ xuất hiện ở nhà vào đúng giờ ăn tối.
+
+Anh ta bước thẳng về phía tôi, mắt dán chặt không rời.
+
+Tôi điềm tĩnh hỏi: “Anh ăn tối chưa ạ?”
+
+Bàn tay anh ta siết lại rồi lại thả lỏng. Sau một hồi giằng co với chính mình, cuối cùng anh ta cũng thốt ra hai chữ: “Cảm ơn.”
+
+Cả bố lẫn mẹ đang quan sát đều quay sang nhìn nhau, vô cùng ngạc nhiên.
+
+Đôi đũa trong tay Nhan Nghệ rơi tọt xuống sàn.
+
+Nhan Tu nói tiếp: “Nhà đầu tư từng từ chối rót vốn cho công ty con hôm nay đã chủ động tìm đến, họ báo là đồng ý tài trợ rồi.”
+
+“Họ bảo rằng,” Nhan Tu lại liếc tôi một cái, “là vì Giản Hoan đã cứu sống con trai họ, nên họ quyết định cho công ty con một cơ hội.”
+
+Tôi không hề ngạc nhiên.
+
+Vì ở lần trao đổi trước tôi đã chủ động xưng tên, nên nhà đầu tư đương nhiên sẽ tìm cách liên lạc lại với tôi.
+
+Cách trả ơn của một doanh nhân rất đơn giản, họ sẽ trực tiếp mang tiền đến cho bạn.
+
+Tôi không e ngại mà thẳng thắn bày tỏ: “Nếu có thể, cháu rất mong bác cân nhắc lại việc rót vốn cho dự án của anh Nhan Tu một lần nữa.”
+
+Hôm đó nhà đầu tư không gật đầu ngay, chỉ hứa sẽ về nghiên cứu thêm.
+
+Nhưng đến thời điểm này, tôi đã nắm chắc mười mươi rằng họ sẽ đồng ý.
+
+“Vậy em có thể xin một phần thưởng được không?” Tôi lên tiếng.
+
+Nhan Nghệ không bỏ lỡ cơ hội nào để gièm pha tôi: “Giúp được công việc của anh Nhan Tu đã là niềm vui rồi, chị không nên đòi hỏi như thế chứ.”
+
+Tôi cụp mắt xuống, đến khi ngước lên lần nữa thì gương mặt đã lộ vẻ ngượng ngùng: “Em vốn định nhân cơ hội này khuyên anh dọn về nhà ở, nếu không được thì coi như em chưa nói gì vậy...”
+
+Lần này, người rơi vào thế bí lại là Nhan Nghệ.
+
+Cô ta không có lý do gì để ngăn Nhan Tu quay về trước mặt bố mẹ.
+
+Vì thế cô ta đành tự vả vào mặt mình, gượng cười hai tiếng: “Ồ, dĩ nhiên chị có quyền xin phần thưởng này rồi, quan trọng là anh Nhan Tu có chịu về hay không thôi.”
+
+Tôi không quay sang hỏi Nhan Tu mà ngoảnh lại nhìn bố mẹ: “Bố mẹ thấy sao ạ?”
+
+Suốt thời gian qua, họ đã hiểu rất nhiều về công việc kinh doanh của Nhan Tu, nhưng vì sĩ diện nên chẳng ai chịu mở lời trước.
+
+Lúc này chính là chiếc bậc thang thích hợp nhất để họ bước xuống.
+
+Bố tôi gắp hai miếng cơm, nhẹ giọng nói: “Nếu muốn thì cứ dọn về mà ở. Nhà này không thiếu nổi một chén bát đâu.”
+
+Lời đó đồng nghĩa với sự chấp thuận.
+
+“Còn anh thì sao?”
+
+“Ngày mai anh sẽ chuyển đồ về.” Anh ta đáp, vẻ ngượng ngùng lộ rõ, rồi vội vã quay người rời khỏi nhà.
+
+Xung đột giữa hai cha con cuối cùng cũng được tháo gỡ, bầu không khí trên bàn ăn trở nên dễ chịu hẳn.
+
+Bố tôi không nén nổi nụ cười, dù chẳng nói lời nào nhưng ông vẫn gắp đầy một tô rau cho tôi.
+
+Thấy cảnh đó, sắc mặt Nhan Nghệ tối sầm lại.
+
+
+Đêm đến, mẹ bưng một ly sữa nóng vào phòng tìm tôi.
+
+Đây là lần đầu tiên bà chủ động tâm sự chân thành với tôi kể từ ngày tôi trở về.
+
+“Con dọn về đây ở đã thấy quen chưa?” Bà ngồi xuống mép giường, ân cần nhìn tôi.
+
+Tôi nhấp một ngụm sữa rồi khẽ gật đầu.
+
+“Mẹ biết con đã góp công rất lớn trong việc khuyên Nhan Tu quay về. Nếu ngay từ đầu con không giúp bố mẹ hiểu công việc của nó, thì nói thật, dù nó có kiếm về hàng trăm tỷ, bố con cũng không bao giờ tha thứ cho chuyện nó tự ý bỏ học đâu.”
+
+“Con đã âm thầm thay đổi suy nghĩ của bố mẹ,” mẹ mỉm cười nói tiếp, “Nếu không có con đứng ra làm cầu nối, chẳng biết bố con với nó còn căng thẳng với nhau đến bao giờ.”
+
+Đây chính là mục đích cốt lõi khiến tôi đều đặn chia sẻ thông tin ngành của Nhan Tu vào nhóm chat mỗi ngày.
+
+Tôi lên tiếng: “Thấu hiểu nhau chính là chìa khóa gỡ mọi mâu thuẫn ạ.”
+
+Mẹ do dự một lúc rồi mới mở lời: “Hôm nay mẹ con mình nói chuyện thẳng thắn với nhau nhé. Mẹ muốn biết, con nghĩ gì về Nhan Nghệ?”
+
+Lúc mẹ bước vào, cửa phòng không khép chặt, và tôi vô tình thấy một góc tà váy thấp thoáng ngoài hành lang.
+
+Tôi thu ánh mắt lại: “Con có thể nói thật lòng mình không ạ?”
+
+“Tất nhiên rồi con.”
+
+Tôi đáp dứt khoát: “Xin bố mẹ hãy để em ấy rời đi ạ.”
+
+Góc áo ngoài cửa lại khẽ rung lên một lần nữa.
+
+Mẹ tôi sững sờ thấy rõ, nhưng bà vẫn cố giữ nụ cười gượng trên môi.
+
+“Nhưng chẳng phải dạo này hai chị em con sống rất hòa thuận với nhau sao?”
+
+Từng việc hãm hại Nhan Nghệ đã trút lên đầu tôi lại hiện về rõ mồn một trong óc.
+
+Hòa thuận ư?
+
+Đó chẳng qua là vì tôi âm thầm chịu đựng mà thôi.
+
+Nếu không, người hưởng trọn công trạng lúc này sẽ là Nhan Nghệ, còn người bị tống ra khỏi căn nhà này ngay bây giờ chính là tôi.
+
+“Như vậy vẫn chưa đủ sao ạ? Vốn dĩ chỉ có con mới là con ruột của bố mẹ, còn em ấy đã được hưởng trọn tình thương của bố mẹ suốt mười mấy năm qua. Những cột mốc trưởng thành quan trọng nhất đời em ấy đều có bố mẹ ở bên, em ấy được sống trong điều kiện tốt nhất.”
+
+Nếu kiếp trước Nhan Nghệ không dùng những thủ đoạn độc ác ấy với tôi, có lẽ hai chúng tôi vẫn có thể chung sống hòa thuận.
+
+Nhưng cô ta ích kỷ, không chịu buông tha tôi, nên tôi cũng chẳng việc gì phải đóng vai thánh nữ để giữ cô ta lại.
+
+Bằng mọi giá, cô ta phải rời khỏi đây.
+
+Dù sao cũng đã gắn bó tình cảm mười mấy năm, mẹ tôi vẫn lộ rõ vẻ đắn đo.
+
+“Đúng là bố mẹ đã mắc nợ con quá nhiều, để con phải chịu bao thiếu thốn. Chuyện này bố mẹ cần bàn bạc kỹ lại rồi mới đưa ra quyết định cuối cùng được.”
+
+Mẹ rời khỏi phòng được một lúc khá lâu thì có tiếng gõ cửa phòng tôi, rất mạnh.
+
+Tôi vừa mở cửa, một cú tát như trời giáng đã giáng thẳng vào mặt tôi.
+
+Má tôi tê dại vì đau.
+
+Nhan Nghệ trừng mắt nhìn tôi, hằn học đến tột cùng: “Mày dựa vào cái gì mà đòi tống cổ tao đi?! Tao mới là người sống ở căn nhà này suốt mười mấy năm qua! Kẻ phải cút đi là mày!”
+
+Tôi đưa lưỡi chạm nhẹ vào bên má đang bỏng rát, rồi thẳng tay tát trả cô ta một cái đích đáng.
+
+Nhan Nghệ ôm bên má phải, bàng hoàng nhìn tôi: “Mày... mày dám đánh tao?!”
+
+“Khó tin lắm sao?” Tôi giơ cao bàn tay phải lên, “Muốn tao tặng thêm một phát nữa không?”
+
+Nhan Nghệ theo phản xạ ôm mặt, lùi lại phía sau.
+
+Tôi khẽ hừ một tiếng, rồi hạ tay xuống.
+
+“Dựa vào cái gì ư? Dựa vào việc trong người chúng ta không chảy chung một dòng máu. Mày đã vô tư hưởng những thứ vốn không thuộc về mình suốt mười mấy năm, lẽ ra mày phải biết ơn vì điều đó, thay vì tìm đủ cách chiếm chỗ của người khác, hiểu chưa?”
+
+Nhan Nghệ vẫn nhất quyết không chịu yếu thế, buông lời đe dọa tôi: “Thì đã sao chứ! Tao nhất định không để mày yên đâu! Dù có phải rời đi, tao cũng sẽ biến cuộc sống của mày thành địa ngục!”
+
+Mọi chuyện xảy ra ngay sau trận đấu bóng rổ của lớp.
+
+Là lớp trưởng kiêm người giữ quỹ lớp, Nhan Nghệ trực tiếp trả tiền nước uống cho đội bóng.
+
+Ban đầu đó chỉ là một việc hết sức bình thường.
+
+Thế nhưng sau khi Nhan Nghệ ra cửa hàng tiện lợi thanh toán tiền nước, đến giờ tự học buổi tối hôm đó, cô ta bỗng thông báo rằng túi quỹ lớp đã bị thất lạc.
+
+Lớp phó liền hỏi: “Có khi nào cậu để quên ở cửa hàng không?”
+
+Nhan Nghệ khẳng định chắc nịch: “Tớ nhớ rõ ràng là đã mang về lớp rồi, cất ngay trong ngăn bàn. Lúc đó mọi người đều xuống sân cổ vũ đội bóng, chỉ có mình Giản Hoan ở lại lớp ngủ.”
+
+“Tớ nghĩ có Giản Hoan ở lại giữ lớp thì quỹ sẽ an toàn nên mới yên tâm xuống sân xem thi đấu, ai ngờ lúc lên thì túi tiền đã không cánh mà bay.”
+
+Màn vu khống tôi ăn trộm quỹ lớp lại diễn ra thêm một lần nữa.
+
+Kiếp trước cô ta cũng dùng chiêu này, tuy không chỉ đích danh tôi là kẻ cắp nhưng từng lời cô ta nói đều hướng sự chú ý về phía tôi.
+
+Cuối cùng, lớp phó quay sang chất vấn tôi: “Giản Hoan, cậu có đụng vào túi quỹ lớp không?”
+
+Dĩ nhiên là không.
+
+Chiều hôm đó tôi buộc phải ở lại lớp nghỉ vì đau bụng kinh, không ra sân cổ vũ được.
+
+Tôi mệt đến mức thiếp đi suốt buổi, hoàn toàn không biết Nhan Nghệ quay lại lớp lúc nào, càng không rõ cô ta có thật sự cất túi tiền vào ngăn bàn hay không.
+
+Trước đó trường từng lắp hệ thống camera quan sát, nhưng học sinh phản đối vì ảnh hưởng đến sự riêng tư nên ban giám hiệu đã cho tháo.
+
+Cho nên dù tôi có phân trần thế nào cũng không thể tự minh oan cho mình.
+
+Trừ phi tôi tìm lại được số tiền đã mất.
+
+Sau khi gieo nghi ngờ vào đầu mọi người, Nhan Nghệ lại đứng ra nhận trách nhiệm về mình.
+
+“Khi chưa có bằng chứng rõ ràng thì chúng ta đừng vội nghi ngờ Giản Hoan. Dù sao quỹ lớp mất trong lúc tớ quản lý, tớ sẽ tự bỏ tiền túi ra bù lại số tiền này.”
+
+Tiền tuy đã được bù, nhưng sự cố ấy để lại hậu quả vô cùng nặng nề cho tôi.
+
+Cùng với những lời đồn ác ý, tôi chính thức bị gắn mác “kẻ trộm”.
+
+Sang kiếp này, kịch bản tương tự lại được dàn dựng thêm lần nữa.
+
+Sau những lời bóng gió của Nhan Nghệ, cả lớp đồng loạt quay sang nhìn tôi.
+
+Lớp phó trực tiếp hỏi: “Giản Hoan, cậu có thấy túi quỹ lớp đâu không?”
+
+Có lẽ nhờ thành tích xuất sắc tôi mang về cho lớp ở đại hội thể thao vừa rồi, nên lần này thái độ của lớp phó lịch sự hơn nhiều.
+
+Cậu ấy không quy chụp thẳng tôi là kẻ trộm.
+
+Tôi thật sự chưa thấy túi quỹ lớp, nhưng lại biết chính xác nó đang ở đâu.
+
+Vì chính Nhan Nghệ đã tự miệng nói cho tôi biết.
+
+Kiếp trước, vào cái đêm Nhan Nghệ tống tôi ra khỏi nhà, cô ta đã tự tay hé lộ rất nhiều bí mật.
+
+Và vụ quỹ lớp là một trong số đó.
+
+Cô ta từng đắc thắng nói: “Thật ra tao để quên cái ví quỹ lớp ở cửa hàng tiện lợi, nhưng tình cờ thấy mày ở lại lớp một mình nên... tiện tay trêu mày một chút thôi.”
+
+“Sao hả, vui không?”
+
+“Đồ ăn cắp.”
+
+Lần này, tôi tuyệt đối không để mình phải mang vết nhơ ăn cắp đó thêm lần nào nữa.
+
+Tôi điềm tĩnh đáp lời lớp phó: “Tớ chưa từng thấy túi quỹ lớp, nhưng dạo này Nhan Nghệ ôm quá nhiều việc nên có thể cậu ấy nhớ nhầm là đã mang nó về lớp. Để tớ giúp cậu ấy quay lại cửa hàng tiện lợi kiểm tra xem sao.”
+
+Nét mặt Nhan Nghệ thoáng thay đổi.
+
+Lúc ấy tôi cứ ngỡ cô ta bàng hoàng vì kế hoạch bị đổ bể, mãi sau này mới nhận ra mình đã hiểu nhầm hoàn toàn.
+
+Cửa hàng tiện lợi nằm khá xa khuôn viên trường.
+
+Trường chúng tôi tọa lạc ở khu vực tương đối hẻo lánh, xung quanh ít cửa hàng, người và xe qua lại rất thưa thớt.
+
+Nhất là vào giờ này, học sinh đều đang học buổi tối nên đường phố gần như vắng ngắt.
+
+Nhan Nghệ chủ động đề nghị đi cùng tôi: “Hay để tớ đi cùng cho, trời tối thế này Giản Hoan đi một mình không an toàn đâu.”
+
+Tôi khẽ cau mày, không hiểu sao trong lòng lại dấy lên một cảm giác rất lạ.
+
+Nhan Nghệ lặng lẽ đi bên cạnh tôi suốt quãng đường.
+
+Đến cửa hàng tiện lợi, quả nhiên chiếc ví đựng quỹ lớp đang bị bỏ quên ngay trên quầy thu ngân.
+
+Trên đường quay về, cô ta vẫn im lặng đến đáng sợ, cho đến khi cả hai bước vào một đoạn đường cực kỳ tối.
+
+Cô ta đột ngột dừng chân, ánh mắt lấp loáng dưới ánh đèn mờ, sâu hoắm, khó đoán.
+
+“Giản Hoan, cậu từng nói cái gì mà sống lại một đời, rốt cuộc là có ý gì?”
+
+Tôi nheo mắt nhìn cô ta.
+
+“Tớ cứ thấy lạ mãi, rõ ràng mọi kế hoạch của tớ đều hoàn hảo, vậy mà sao lần nào cậu cũng bình an vô sự vượt qua được, cứ như người biết trước đáp án vậy.”
+
+Cô ta bỗng bật cười, tiếng cười chói tai: “Vậy là cậu thật sự nắm trước được kịch bản cuộc đời mình rồi đúng không?”
+
+“Thế tiếp theo thì sao? Cậu có đoán được tớ sẽ làm gì cậu không?”
+
+Theo phản xạ, tôi lùi lại một bước.
+
+Bởi kiếp trước tôi đã bị cô ta hãm hại thành công, nên hoàn toàn không có chuyện tôi cùng cô ta đi tìm ví vào buổi tối thế này.
+
+Tôi không thể lường trước hành động tiếp theo của cô ta.
+
+Nhưng bản năng cảnh báo tôi rằng tình thế lúc này cực kỳ nguy hiểm.
+
+Tôi muốn quay đầu bỏ chạy.
+
+Bỗng hai gã đàn ông ăn mặc lưu manh từ đâu xông ra phía sau, tóm chặt lấy vai tôi: “Này em gái, đi chơi với các anh một chút nhé?”
+
+Miệng tôi lập tức bị họ bịt kín, rồi bị lôi xềnh xệch vào một con hẻm cụt gần đó.
+
+Tôi dồn sức giãy giụa dữ dội, nhưng một gã đàn ông giáng thẳng một cái tát cực mạnh vào mặt tôi: “Mày ngoan ngoãn chút cho tao nhờ!”
+
+Đầu óc tôi choáng váng.
+
+Tai ù đi.
+
+Chiếc áo trên người bị xé rách một mảng lớn, phần thân trên lập tức hứng luồng gió lạnh buốt.
+
+Nhan Nghệ thong thả đi theo phía sau, nhìn tôi từ trên cao xuống bằng ánh mắt khinh bỉ: “Tại sao phải quay lại đây cơ chứ? Tại sao nhất định phải tống tao đi?!”
+
+“Giản Hoan, tối nay cứ hưởng thụ cho đã đi nhé.”
+
+“Hưởng thụ cái gì cơ?”
+
+Từ đầu con hẻm, một giọng nói khàn đặc, đầy thất vọng bất chợt vang lên.
+
+Đó là giọng của Nhan Tu.
+
+Nhan Nghệ khựng lại trong giây lát rồi hoảng loạn tột độ: “Anh... sao anh lại ở đây?!”
+
+“Nếu tôi không có mặt ở đây thì cô định làm gì Giản Hoan hả?!”
+
+“Không phải như anh nghĩ đâu anh ơi... nghe em giải thích đã...”
+
+Cô ta định lao đến nắm lấy tay Nhan Tu nhưng liền bị anh ta phũ phàng hất ra: “Không cần giải thích gì thêm nữa, chính mắt tôi đã thấy hết rồi! Nhan Nghệ, tôi quá thất vọng về cô!”
+
+“Không phải thế đâu anh... em...”
+
+Nhan Tu mặc kệ những lời van xin của cô ta, bước thẳng về phía tôi.
+
+Thấy tình hình bất lợi, hai gã lưu manh ngơ ngác quay sang hỏi Nhan Nghệ: “Này cô em, thằng này là ai thế, có cần bọn anh ra tay đánh gục nó không?”
+
+Nhan Nghệ gào lên dữ dội: “Cút đi! Tất cả cút hết đi cho tao!”
+
+Hai gã đàn ông chửi thề vài câu rồi hậm hực bỏ đi.
+
+Nhan Tu nhanh tay cởi áo khoác trùm lên người tôi, rồi cõng tôi ra khỏi con hẻm.
+
+Phía sau, Nhan Nghệ vừa chạy theo vừa khóc lóc gọi tên anh ta, nhưng anh ta kiên quyết không ngoái lại lần nào.
+
+Trước khi bước lên xe, tôi đưa mắt nhìn cô ta một cái.
+
+Nhan Nghệ đang khóc bỗng khựng lại.
+
+Ngay sau đó, cô ta điên cuồng gào lên với tôi: “Giản Hoan, mày cố ý! Mày cố tình giăng bẫy tao!”
+
+Tôi thản nhiên thu ánh mắt về.
+
+Đúng vậy, tôi cố ý đấy.
+
+Ngay lúc cảm nhận được sự bất thường trong lời đề nghị của cô ta, tôi không né tránh mà chọn cách tương kế tựu kế.
+
+Trong lúc giả vờ sa bẫy để cô ta tưởng mình đã thắng thế, tôi đã âm thầm chia sẻ vị trí hiện tại cho Nhan Tu và nhờ anh đến đón.
+
+Nhờ vậy, Nhan Tu mới có mặt kịp thời, tận mắt chứng kiến bản chất độc ác của Nhan Nghệ.
+
+Lần này, bằng mọi giá Nhan Nghệ phải dọn ra khỏi nhà họ Nhan.
+
+Nhan Tu đưa tôi đến bệnh viện kiểm tra tổng thể, xác nhận không có tổn thương nghiêm trọng nào rồi mới đưa tôi về nhà.
+
+Lúc về đến nơi, đã gần nửa đêm.
+
+Nhan Tu vẫn kiên quyết yêu cầu bố mẹ ra phòng khách, triệu tập một cuộc họp gia đình khẩn cấp.
+
+Anh ta mặc kệ Nhan Nghệ đang khóc lóc thảm thiết bên cạnh, thuật lại toàn bộ sự việc kinh hoàng trong con hẻm tối.
+
+“Nếu con không đến kịp thì Giản Hoan chắc chắn đã bị...”
+
+Nhan Tu nghiến chặt răng, giận dữ nói ra những lời ấy.
+
+Bộ quần áo rách trên người tôi chưa kịp thay chính là bằng chứng đanh thép nhất bày ra trước mắt họ.
+
+Phòng khách rơi vào im lặng kéo dài.
+
+Nếu là trước đây, chắc chắn họ sẽ đứng về phía Nhan Nghệ vô điều kiện và ép tôi bỏ qua cho cô ta.
+
+Nhưng giờ đây, tình thế đã hoàn toàn đảo ngược.
+
+Qua một thời gian chung sống, họ dần chấp nhận sự có mặt của tôi trong gia đình, và thật sự coi tôi như đứa con ruột thịt.
+
+Giọng mẹ nghẹn lại, cất lên: “Đều là con của mẹ cả, Tiểu Nghệ, tại sao con lại có thể làm ra chuyện nhẫn tâm như vậy...”
+
+Nhan Nghệ trượt từ sofa xuống, quỳ trước mặt mẹ khóc lóc: “Mẹ ơi, con biết lỗi rồi... con chỉ sợ... sợ mẹ sẽ tống con đi nên con mới nông nổi làm vậy...”
+
+Cô ta không ngừng gào khóc.
+
+Mẹ tôi quay mặt sang một bên, hoàn toàn làm ngơ trước lời cầu xin của cô ta.
+
+Nhan Nghệ lại quỳ lê đến trước mặt bố, vừa khóc vừa van xin: “Bố ơi, con biết sai thật rồi, bố tha cho con lần này được không bố?”
+
+Bố tôi tức đến mức lồng ngực phập phồng dữ dội, ông đập mạnh tay xuống mặt bàn trà: “Sao mày có thể làm ra cái chuyện bất lương, mất hết nhân tính như thế hả?!”
+
+Nhan Nghệ sợ hãi run rẩy khắp người, mặt tái ngắt, nước mắt đầm đìa.
+
+“Giản Hoan mới là nạn nhân trực tiếp, không ai trong chúng ta có quyền quyết định thay con bé.” Nhan Tu nói, giọng lạnh nhạt, “Việc này giải quyết thế nào hoàn toàn tùy vào quyết định của Giản Hoan.”
+
+Cả nhà đồng loạt dồn ánh mắt về phía tôi.
+
+Tôi nói, dứt khoát: “Con tuyệt đối không bao giờ tha thứ cho cô ta.”
+
+Tôi lấy điện thoại ra, gửi toàn bộ các đoạn video bằng chứng vào nhóm chat gia đình.
+
+“Đây là video ghi lại cảnh cô ta cố tình dàn dựng màn ngã cầu thang rồi vu khống con bắt nạt cô ta.”
+
+“Đây là video cô ta lén giấu đinh bấm vào đôi giày chạy của con.”
+
+“Còn đây là bằng chứng cô ta cố tình bỏ quên túi quỹ lớp ở cửa hàng rồi đổ thừa con là kẻ trộm.”
+
+“Nhan Nghệ chưa bao giờ chấp nhận sự có mặt của con, cô ta luôn tìm mọi cách để tống con đi.”
+
+Nhan Nghệ hoàn toàn mất kiểm soát, lao vồ tới định cào nát mặt tôi: “Là mày! Tất cả là do mày tính toán từ trước! Mày muốn dồn tao vào đường cùng!”
+
+“Nhan Nghệ!”
+
+“Tiểu Nghệ!”
+
+“Mày còn định vô cớ gây sự đến bao giờ nữa?!”
+
+Cả ba người cùng xông vào, giữ chặt lấy Nhan Nghệ.
+
+Màn kịch vô liêm sỉ ấy rốt cuộc cũng hạ màn.
+
+Sáng hôm sau, cả nhà đã ngồi đông đủ bên bàn ăn.
+
+Kể cả Nhan Nghệ.
+
+Nhưng trông cô ta tàn tạ hẳn, ngồi thẫn thờ như cái xác không hồn.
+
+Tôi vừa ngồi xuống ghế, bố đã cất giọng tuyên bố: “Sau khi kỳ thi đại học kết thúc, chúng ta sẽ đưa Nhan Nghệ rời khỏi đây.”
+
+Chờ đến khi kỳ thi đại học xong xuôi mới đưa cô ta đi đã là sự nhân nhượng lớn nhất gia đình dành cho cô ta.
+
+Chút quan tâm mòn mỏi cuối cùng bố mẹ dành cho cô ta là để cô ta hoàn thành kỳ thi quan trọng, với hy vọng cô ta có cơ hội tốt để làm lại cuộc đời.
+
+Nhưng Nhan Nghệ chẳng biết trân trọng, cô ta chọn con đường tự hủy hoại bản thân.
+
+Cô ta bắt đầu cúp học liên miên, nhiều lần vi phạm kỷ luật đến mức nhà trường phải mời phụ huynh lên làm việc.
+
+Bố mẹ cũng nhiều lần tìm cô ta khuyên bảo.
+
+Đáp lại chỉ là những tiếng gào khóc vô lý của cô ta: “Mọi người đã không cần tôi nữa rồi, dựa vào cái gì mà đòi quản tôi?!”
+
+Sau đó, nhà trường ra quyết định đình chỉ học để cô ta ở nhà kiểm điểm.
+
+Thế mà cô ta vẫn nhất quyết không chịu hối cải.
+
+Cô ta tìm đến rượu bia và đàn đúm ở các quán bar.
+
+Nhan Nghệ cố tình hành hạ bản thân để khơi gợi lòng thương xót của gia đình.
+
+Nhưng chiến thuật đó chỉ hiệu quả khi cô ta còn được yêu thương.
+
+Những hành vi nông nổi ấy chỉ khiến tình cảm của mọi người cạn dần, càng thêm chán ghét cô ta.
+
+Cuối cùng, Nhan Nghệ đã không dự kỳ thi đại học.
+
+Nhưng điều đó chẳng còn liên quan gì đến tôi nữa.
+
+Tối ngay sau khi kỳ thi đại học kết thúc, tôi chủ động gọi cho cô ta một chiếc ô tô.
+
+Nhan Nghệ nhìn tôi, ánh mắt đầy hằn học như muốn xé xác tôi ra trăm mảnh: “Mày sốt sắng tống cổ tao đến thế sao?! Không cho tao ở lại thêm dù chỉ một đêm nữa được à?!”
+
+“Chính cô mới là người chưa từng buông tha cho tôi.”
+
+Tôi nói: “Nhan Nghệ à, từng có một cô gái phải chịu bao cay đắng thay cho cô suốt mười mấy năm trời. Cô ấy chỉ mong được quay về sống một cuộc đời bình yên. Vậy mà cô lại ra tay đẩy cô ấy đi, cướp sạch những gì thuộc về cô ấy.”
+
+“Lần này, những thứ thuộc về cô ấy, cô buộc phải trả lại toàn bộ.”
+
+Nhan Nghệ buộc phải ra đi, quay về căn nhà của người bố nuôi nghiện cờ bạc.
+
+Thế nhưng ngay ngày đầu tiên, cô ta đã không chịu nổi cuộc sống khổ cực đó nên bỏ trốn khỏi nhà.
+
+Về sau, cô ta nhiều lần tìm về xin tiền bố mẹ, và họ vẫn đưa cho cô ta vì chút tình nghĩa cũ.
+
+Mãi sau này họ mới bàng hoàng phát hiện, lý do cô ta cần số tiền lớn như vậy là vì bị gã bạn trai lưu manh dụ dỗ, sa vào những tệ nạn không nên đụng đến.
+
+Cuối cùng, trong một chiến dịch truy quét ma túy của lực lượng chức năng, cô ta bị bắt vì sử dụng chất cấm và phải chịu án tù.
+    
+</div>
+
+
 
 </div>
 
 
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
 <script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
 
 </body>
 </html>

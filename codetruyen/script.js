@@ -1,2462 +1,1968 @@
-/* =========================================================
-   PHIM.JS - TRANG XEM PHIM (YouTube)
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
 
-   Dựng lại từ script.js + audio.js của web truyện:
-   - Player YouTube HIỆN HÌNH trong thẻ phim (điều khiển tự làm)
-   - Cổng quảng cáo Facebook 2 bước (Shopee -> ShopeeFood)
-     dạng THẺ SẢN PHẨM nhỏ gọn, bấm vào mở bài Facebook
-   - Xem đủ 10 phút: chạm nền trang mở TikTok -> Lazada
-   - Nhớ vị trí xem + popup "Xem tiếp"
-   - Mốc xem, tốc độ, tua 10s, toàn màn hình
-   - Mở bằng trình duyệt Facebook / Messenger: yêu cầu chuyển
-     sang Chrome / Safari (Android tự mở Chrome)
-   - Popup Xôi Thịt
+let scrollTrackingReady = true;
+
+/* =========================================================
+   QUẢNG CÁO FACEBOOK
 ========================================================= */
 
-(function () {
-
-    "use strict";
-
-    if ("scrollRestoration" in history) {
-        history.scrollRestoration = "manual";
+const FACEBOOK_ADS = {
+    shopee: {
+        title: "Quảng cáo Shopee",
+        url: "https://www.facebook.com/photo/?fbid=122136975747467824&set=pcb.122136975897467824"
+    },
+    shopeefood: {
+        title: "Quảng cáo ShopeeFood",
+        url: "https://www.facebook.com/photo/?fbid=122136976137467824&set=pcb.122136976311467824"
     }
+};
+
+/* =========================================================
+   KÍCH THƯỚC THIẾT KẾ CỦA KHUNG FACEBOOK
+
+   Khung luôn được dựng ở 480 x 355 (giống máy tính),
+   rồi thu phóng bằng transform: scale() cho vừa màn hình.
+========================================================= */
+
+const FB_DESIGN_WIDTH = 480;
+const FB_DESIGN_HEIGHT = 355;
+
+/* =========================================================
+   VÙNG CHO PHÉP CLICK TRONG BÀI FACEBOOK
+   (tính theo hệ 480 x 355)
+
+   CÁCH CHỈNH: đặt FACEBOOK_ZONE_DEBUG = true → vùng chặn hiện
+   màu đỏ, phần trong suốt ở giữa là vùng bấm được.
+========================================================= */
+
+const FACEBOOK_ZONE_DEBUG = false;
 
 
-    /* =====================================================
-       CẤU HÌNH
-    ===================================================== */
-
-    /* url = link BÀI FACEBOOK (bài có thẻ xem trước s.shopee.vn) */
-    const FACEBOOK_ADS = {
-        shopee: {
-            title: "Quảng cáo Shopee",
-            url: "https://www.facebook.com/permalink.php?story_fbid=pfbid03WuEfswyLJv9MeBfepsmqU9dSGBoYAEVTFew9VrU1Dgoc52U1XDWnHfWmEDwDRTml&id=61594034743775&locale=vi_VN"
-        },
-        shopeefood: {
-            title: "Quảng cáo ShopeeFood",
-            url: "https://www.facebook.com/permalink.php?story_fbid=pfbid0vFZruXeCQhF5oqkQghUPKaKV5wKMP3WYxCwp6DAy4fErZQYWkAamoKqNbKBMt7URl&id=61594034743775&locale=vi_VN"
-        }
-    };
-
-    /* Khung Facebook dựng ở kích thước cố định rồi thu phóng cho vừa màn hình */
-    const FB_DESIGN_WIDTH = 450;
-    const FB_DESIGN_HEIGHT = 450;
-
-    /* true = vùng bị chặn hiện màu đỏ để canh chỉnh.
-       Canh xong thì đổi lại false. */
-    const FACEBOOK_ZONE_DEBUG = false;
-
-    /* PHÓNG TO để cắt viền trắng quanh bài.
-       left / right = số px viền trắng bị cắt ở mỗi bên.
-       top = số px cắt ở phía trên để ẨN dòng link https://s.shopee.vn/... */
-    const FACEBOOK_CROP = { left: 14, right: 2, top: 40 };
-
-    /* ẢNH CHÈN LÊN TRÊN CÙNG (chỉ để nhìn, bấm xuyên qua xuống bài Facebook).
-       Đường dẫn tính từ trang phim: trang nằm trong cotrang/, ảnh nằm trong codetruyen/.
-       height = chiều cao vùng ảnh của thẻ xem trước (hệ 480 x 355). */
-    const FACEBOOK_COVER = {
-        shopee: "../codetruyen/anhs.jpg",
-        shopeefood: "../codetruyen/anhf.jpg",
-        height: 350
-    };
-
-    /* VÙNG ĐƯỢC PHÉP BẤM (hệ 480 x 355).
-       Chỉ bấm được trong hình chữ nhật này, mọi chỗ khác bị chặn.
-       Nếu vùng đỏ lệch thẻ thì chỉnh left / top / width / height. */
-    const FACEBOOK_CLICK_ZONE = {
-        shopee:     { left: 0, top: 0, width: 700, height: 500 },
-        shopeefood: { left: 0, top: 0, width: 480, height: 500 }
-    };
-
-    /* Phóng riêng theo chiều dọc để cắt khoảng trắng phía dưới */
-    const FACEBOOK_VERTICAL_ZOOM = 1.18;
-
-    const TIKTOK_URL = "https://vt.tiktok.com/ZS9ff2HHvvJve-waSqH/";
-    const LAZADA_URL = "";
-
-    const XOI_THIT_URL = "https://tiemnhamiumiu.neocities.org/";
-
-    const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
-    const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
-
-    const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 1500;
-    const FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME = 0;
-
-    /* Xem đủ 10 phút (giây) mới kích hoạt link TikTok / Lazada */
-    const WATCH_TIME_LIMIT = 10 * 60;
-
-    const REDIRECT_GESTURE_COOLDOWN = 1500;
-
-    const SPEEDS = [1, 1.25, 1.5, 2];
-
-    /* Chỉ hỏi "Xem tiếp" khi đã xem quá số giây này */
-    const RESUME_MIN_SECONDS = 30;
-
-
-    /* =====================================================
-       LOCAL STORAGE KEYS
-    ===================================================== */
-
-    const unlockDateKey = "phim_unlock_date";
-    const redirectStageKey = "phim_redirect_stage";
-    const redirectDateKey = "phim_redirect_date";
-    const watchTimeKey = "phim_watch_time";
-    const watchTimeDateKey = "phim_watch_time_date";
-    const facebookAdStageKey = "phim_facebook_ad_stage";
-    const facebookAdStageDateKey = "phim_facebook_ad_stage_date";
-    const facebookAdCompletedDateKey = "phim_facebook_ad_completed_date";
-    const facebookAdLeftKey = "phim_facebook_ad_left";
-    const speedKey = "phim_speed";
-
-
-    /* =====================================================
-       ID PHIM
-    ===================================================== */
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const movieId = urlParams.get("id") || window.location.pathname;
-
-    const positionKey = "phim_position_" + movieId;
-    const viewSessionKey = "phim_view_session_" + movieId;
-
-
-    /* =====================================================
-       TRÌNH DUYỆT FACEBOOK / MESSENGER -> CHUYỂN SANG CHROME / SAFARI
-       (đặt trước phần kiểm tra thẻ phim để Android luôn được chuyển)
-    ===================================================== */
-
-    function isMessengerBrowser() {
-
-        const ua = navigator.userAgent || navigator.vendor || "";
-
-        return /FB_IAB|FBAN|FBAV|Messenger|Orca-Android/i.test(ua);
+const FACEBOOK_CLICK_ZONE = {
+    shopee: {
+        left: 10, width: 215,
+        rows: [ { top: 71, height: 14 } ]
+    },
+    shopeefood: {
+        left: 10, width: 225,
+        rows: [ { top: 71, height: 14 } ]
     }
+};
 
-    function isAndroid() {
-        return /Android/i.test(navigator.userAgent || "");
-    }
+/* =========================================================
+   LINK REDIRECT (mở lần lượt: TikTok -> Lazada)
+========================================================= */
 
-    /* Android: mở trang bằng Chrome thông qua intent */
-    function openInChrome() {
+const TIKTOK_URL = "https://vt.tiktok.com/ZS9ff2HHvvJve-waSqH/";
+const LAZADA_URL = "";
 
-        const url = window.location;
+/* =========================================================
+   SUPABASE
+========================================================= */
 
-        const intent =
-            "intent://" + url.host + url.pathname + url.search +
-            "#Intent;scheme=https;package=com.android.chrome;" +
-            "S.browser_fallback_url=" + encodeURIComponent(url.href) +
-            ";end";
+const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
+const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
 
-        window.location.href = intent;
-    }
+/* =========================================================
+   CẤU HÌNH
+========================================================= */
 
+const FACEBOOK_SHOPEE_MIN_LEAVE_TIME = 1500;
+const FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME = 0;
 
-    /* =====================================================
-       PHẦN TỬ GIAO DIỆN
-    ===================================================== */
+/* Đọc đủ 10 phút (tính bằng giây) thì mới kích hoạt link TikTok/Lazada */
+const ACTIVE_TIME_LIMIT = 10 * 60;
 
-    const card = document.getElementById("movieCard");
+/* Hai lần chạm cách nhau ít hơn số ms này chỉ tính là 1 lần
+   (tránh 1 cú chạm bắn cả TikTok lẫn Lazada) */
+const REDIRECT_GESTURE_COOLDOWN = 1500;
 
-    if (!card) {
-        console.warn("phim.js: không tìm thấy #movieCard");
+/* Ngón tay di chuyển quá số px này thì coi là vuốt/cuộn (vẫn được tính) */
+const TOUCH_SCROLL_THRESHOLD = 10;
+
+/* =========================================================
+   LOCAL STORAGE KEYS
+========================================================= */
+
+const unlockDateKey = "reader_unlock_date";
+const unlockTimeKey = "reader_unlock_time";
+const redirectStageKey = "reader_redirect_stage";
+const redirectDateKey = "reader_redirect_date";
+const activeTimeKey = "reader_active_time";
+const activeTimeDateKey = "reader_active_time_date";
+const facebookAdStageKey = "reader_facebook_ad_stage";
+const facebookAdStageDateKey = "reader_facebook_ad_stage_date";
+const facebookAdCompletedDateKey = "reader_facebook_ad_completed_date";
+const facebookAdStartedKey = "reader_facebook_ad_started";
+const facebookAdLeftKey = "reader_facebook_ad_left";
+const redirectLeavingKey = "reader_redirect_leaving";
+
+/* =========================================================
+   STORY ID
+========================================================= */
+
+const urlParams = new URLSearchParams(window.location.search);
+const storyId = urlParams.get("id") || window.location.pathname;
+
+const readingPositionKey = "reader_position_" + storyId;
+const audioPositionKey = "reader_audio_position_" + storyId;
+const readingSessionKey = "reading_session_" + storyId;
+
+/* =========================================================
+   BIẾN TOÀN CỤC
+========================================================= */
+
+let facebookAdsModal = null;
+let facebookAdHiddenAt = null;
+let facebookAdWaiting = false;
+let facebookAdCurrentType = null;
+
+let fbResizeObserver = null;
+
+let activeSeconds = 0;
+let activeTimer = null;
+let lastActiveTimestamp = null;
+
+let storyUnlocked = false;
+let resumePopupShown = false;
+
+let lastRedirectGestureAt = 0;
+
+/* =========================================================
+   NGÀY VIỆT NAM
+========================================================= */
+
+function getToday() {
+    return new Date().toLocaleDateString("en-CA", {
+        timeZone: "Asia/Ho_Chi_Minh"
+    });
+}
+
+/* =========================================================
+   CẢNH BÁO MESSENGER
+========================================================= */
+
+function isMessengerBrowser() {
+
+    const ua = navigator.userAgent || navigator.vendor || "";
+
+    return /FB_IAB\/MESSENGER|FBAN\/Messenger|MessengerForiOS|MessengerLite|Orca-Android/i.test(ua);
+}
+
+function injectMessengerNoticeStyle() {
+
+    if (document.getElementById("messengerNoticeStyle")) {
         return;
     }
 
-    const screenEl = document.getElementById("movieScreen");
-    const overlay = document.getElementById("movieOverlay");
-    const overlayBtn = document.getElementById("movieOverlayBtn");
-    const errorEl = document.getElementById("movieError");
+    const style = document.createElement("style");
 
-    const progress = document.getElementById("movieProgress");
-    const bubble = document.getElementById("movieTimeBubble");
-    const currentTimeEl = document.getElementById("currentTime");
-    const durationEl = document.getElementById("duration");
+    style.id = "messengerNoticeStyle";
 
-    const playBtn = document.getElementById("playPauseBtn");
-    const back10Btn = document.getElementById("back10Btn");
-    const forward10Btn = document.getElementById("forward10Btn");
-    const fullscreenBtn = document.getElementById("fullscreenBtn");
-
-    const markerBox = document.getElementById("movieMarker");
-    const markerBtn = document.getElementById("markerBtn");
-    const markerTimeEl = document.getElementById("markerTime");
-
-    const titleEl = document.querySelector(".movie-title");
-
-
-    /* =====================================================
-       BIẾN TOÀN CỤC
-    ===================================================== */
-
-    let player = null;
-    let mediaReady = false;
-    let updateTimer = null;
-    let saveCounter = 0;
-    let isDragging = false;
-    let currentSpeed = 1;
-
-    let movieUnlocked = false;
-    let resumeShown = false;
-
-    let everPlayed = false;
-    let hudTimer = null;
-    const HUD_HIDE_DELAY = 3500;
-
-    let watchSeconds = 0;
-    let watchTimer = null;
-    let lastTick = null;
-
-    let lastRedirectGestureAt = 0;
-
-    let facebookAdsModal = null;
-    let facebookAdHiddenAt = null;
-    let facebookAdWaiting = false;
-    let facebookAdCurrentType = null;
-    let fbResizeObserver = null;
-
-
-    /* =====================================================
-       TIỆN ÍCH
-    ===================================================== */
-
-    function getToday() {
-        return new Date().toLocaleDateString("en-CA", {
-            timeZone: "Asia/Ho_Chi_Minh"
-        });
-    }
-
-    function formatTime(seconds) {
-
-        if (!Number.isFinite(seconds) || seconds < 0) {
-            seconds = 0;
+    style.textContent = `
+        #messengerNoticePopup {
+            position: fixed;
+            inset: 0;
+            z-index: 1000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            background: rgba(0, 0, 0, 0.82);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
         }
 
-        seconds = Math.floor(seconds);
-
-        const hours = Math.floor(seconds / 3600);
-        const minutes = Math.floor((seconds % 3600) / 60);
-        const secs = seconds % 60;
-
-        const mm = String(minutes).padStart(2, "0");
-        const ss = String(secs).padStart(2, "0");
-
-        if (hours > 0) {
-            return String(hours).padStart(2, "0") + ":" + mm + ":" + ss;
+        .messenger-notice-box {
+            width: 100%;
+            max-width: 400px;
+            max-height: calc(100vh - 36px);
+            max-height: calc(100dvh - 36px);
+            overflow-y: auto;
+            padding: 26px 20px 20px;
+            background: #1d1d1d;
+            border: 1px solid #333333;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            font-family: Arial, sans-serif;
         }
 
-        return mm + ":" + ss;
-    }
-
-    /* "15:44", "1:12:57" hoặc số giây "777" */
-    function parseTime(value) {
-
-        if (value === null || value === undefined) {
-            return 0;
+        .messenger-notice-icon {
+            font-size: 44px;
+            line-height: 1;
+            margin-bottom: 10px;
         }
 
-        value = String(value).trim();
-
-        if (value === "") {
-            return 0;
+        .messenger-notice-title {
+            color: #ff7043;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            line-height: 1.3;
         }
 
-        if (value.indexOf(":") !== -1) {
+        .messenger-notice-text {
+            color: #cccccc;
+            font-size: 14px;
+            line-height: 1.65;
+            margin-bottom: 14px;
+        }
 
-            const parts = value.split(":").map(Number);
+        .messenger-notice-text strong {
+            color: #ff9b7a;
+        }
 
-            if (
-                parts.length > 3 ||
-                parts.some(function (n) {
-                    return !Number.isFinite(n) || n < 0;
-                })
-            ) {
-                return 0;
+        .messenger-notice-steps {
+            margin: 0 0 16px;
+            padding: 12px 14px;
+            text-align: left;
+            background: rgba(255, 112, 67, 0.07);
+            border: 1px solid rgba(255, 112, 67, 0.2);
+            border-radius: 10px;
+            color: #dddddd;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .messenger-notice-steps b {
+            color: #ffffff;
+        }
+
+        .messenger-notice-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .messenger-notice-btn {
+            width: 100%;
+            min-height: 46px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+
+        .messenger-notice-btn:hover {
+            transform: translateY(-1px);
+            opacity: 0.92;
+        }
+
+        .messenger-notice-copy {
+            background: #ff5722;
+            color: #ffffff;
+        }
+
+        .messenger-notice-close {
+            background: #333333;
+            color: #dddddd;
+        }
+
+        @media (max-width: 380px) {
+            .messenger-notice-box {
+                padding: 22px 14px 16px;
             }
 
-            let seconds = 0;
+            .messenger-notice-title {
+                font-size: 18px;
+            }
 
-            parts.forEach(function (n) {
-                seconds = seconds * 60 + n;
-            });
+            .messenger-notice-text,
+            .messenger-notice-steps {
+                font-size: 13px;
+            }
+        }
+    `;
 
-            return seconds;
+    document.head.appendChild(style);
+}
+
+function copyPageLink(button) {
+
+    const url = window.location.href;
+
+    const done = function () {
+
+        if (!button) {
+            return;
         }
 
-        const num = parseFloat(value);
+        button.textContent = "✓ Đã sao chép link";
 
-        return Number.isFinite(num) ? num : 0;
-    }
+        setTimeout(function () {
+            button.textContent = "📋 Sao chép link";
+        }, 2000);
+    };
 
-    /* Nhận youtu.be/ID, youtube.com/watch?v=ID, /embed/, /shorts/, /live/ */
-    function getYouTubeId(url) {
-
-        if (!url) {
-            return "";
-        }
+    const fallback = function () {
 
         try {
 
-            const u = new URL(String(url).trim());
+            const input = document.createElement("textarea");
 
-            const host = u.hostname
-                .toLowerCase()
-                .replace(/^(www|m)\./, "");
+            input.value = url;
+            input.style.position = "fixed";
+            input.style.left = "-10000px";
+            input.style.top = "0";
 
-            if (host === "youtu.be") {
-                return u.pathname.replace(/^\/+/, "").split("/")[0] || "";
-            }
+            document.body.appendChild(input);
 
-            if (host === "youtube.com" || host === "youtube-nocookie.com") {
+            input.focus();
+            input.select();
 
-                if (u.pathname === "/watch") {
-                    return u.searchParams.get("v") || "";
-                }
+            document.execCommand("copy");
 
-                const m = u.pathname.match(/^\/(embed|shorts|live)\/([^/?]+)/);
+            input.remove();
 
-                if (m) {
-                    return m[2];
-                }
-            }
-
-            return "";
+            done();
 
         } catch (error) {
 
-            console.error("URL YouTube không hợp lệ:", url);
-
-            return "";
+            alert("Không thể tự sao chép. Link truyện:\n" + url);
         }
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+
+        navigator.clipboard.writeText(url).then(done).catch(fallback);
+
+    } else {
+
+        fallback();
     }
+}
 
-    function showMovieError(message) {
+function showMessengerNotice() {
 
-        if (!errorEl) {
-            return;
-        }
-
-        errorEl.textContent = message;
-        errorEl.style.display = "block";
-    }
-
-
-    /* =====================================================
-       KIỂM TRA LINK VIDEO
-    ===================================================== */
-
-    const videoUrl = card.getAttribute("data-video") || "";
-    const videoId = getYouTubeId(videoUrl);
-
-    if (!videoId) {
-
-        console.error("phim.js: thiếu data-video hoặc link YouTube không hợp lệ:", videoUrl);
-
-        card.classList.remove("is-loading");
-
-        showMovieError("Link video chưa đúng. Hãy dán link dạng https://youtu.be/ID_VIDEO");
-
-        if (playBtn) {
-            playBtn.disabled = true;
-        }
-
+    if (!isMessengerBrowser()) {
         return;
     }
 
+    if (document.getElementById("messengerNoticePopup")) {
+        return;
+    }
 
-    /* =====================================================
-       POPUP CHUYỂN SANG TRÌNH DUYỆT (Facebook / Messenger)
-    ===================================================== */
+    injectMessengerNoticeStyle();
 
-    function copyPageLink(button) {
+    const popup = document.createElement("div");
 
-        const url = window.location.href;
+    popup.id = "messengerNoticePopup";
 
-        const done = function () {
+    popup.innerHTML = `
 
-            if (!button) {
+        <div class="messenger-notice-box" role="dialog" aria-modal="true">
+
+            <div class="messenger-notice-icon">⚠️</div>
+
+            <div class="messenger-notice-title">
+                Bạn đang mở bằng Messenger
+            </div>
+
+            <div class="messenger-notice-text">
+                Trình duyệt trong Messenger <strong>không ghi nhận được quảng cáo Shopee</strong>,
+                nên bạn sẽ không mở khóa được truyện.
+                Hãy chuyển sang trình duyệt (Chrome / Safari) để đọc bình thường.
+            </div>
+
+            <div class="messenger-notice-steps">
+                <b>Cách chuyển:</b><br>
+                1. Bấm nút <b>⋯ (3 chấm)</b> ở góc trên bên phải<br>
+                2. Chọn <b>"Mở trong trình duyệt"</b><br>
+                &nbsp;&nbsp;&nbsp;(hoặc <b>"Mở bằng Chrome" / "Mở bằng Safari"</b>)
+            </div>
+
+            <div class="messenger-notice-buttons">
+
+                <button id="messengerCopyBtn" class="messenger-notice-btn messenger-notice-copy" type="button">
+                    📋 Sao chép link
+                </button>
+
+                <button id="messengerCloseBtn" class="messenger-notice-btn messenger-notice-close" type="button">
+                    Đã hiểu
+                </button>
+
+            </div>
+
+        </div>
+
+    `;
+
+    document.body.appendChild(popup);
+
+    const copyBtn = document.getElementById("messengerCopyBtn");
+    const closeBtn = document.getElementById("messengerCloseBtn");
+
+    if (copyBtn) {
+
+        copyBtn.addEventListener("click", function () {
+            copyPageLink(copyBtn);
+        });
+    }
+
+    if (closeBtn) {
+
+        closeBtn.addEventListener("click", function () {
+            popup.remove();
+        });
+    }
+}
+
+/* =========================================================
+   RESET DATA MỖI NGÀY
+========================================================= */
+
+function resetDailyDataIfNeeded() {
+
+    const today = getToday();
+
+    const savedDate = localStorage.getItem(facebookAdStageDateKey);
+
+    if (savedDate !== today) {
+
+        localStorage.removeItem(facebookAdStageKey);
+        localStorage.removeItem(facebookAdCompletedDateKey);
+        localStorage.removeItem(facebookAdStartedKey);
+        localStorage.removeItem(facebookAdLeftKey);
+        localStorage.removeItem(redirectStageKey);
+        localStorage.removeItem(redirectDateKey);
+        localStorage.removeItem(redirectLeavingKey);
+        localStorage.removeItem(unlockDateKey);
+        localStorage.removeItem(unlockTimeKey);
+
+        localStorage.setItem(facebookAdStageDateKey, today);
+    }
+
+    const activeDate = localStorage.getItem(activeTimeDateKey);
+
+    if (activeDate !== today) {
+
+        localStorage.removeItem(activeTimeKey);
+        localStorage.setItem(activeTimeDateKey, today);
+    }
+}
+
+/* =========================================================
+   MỞ KHÓA HÔM NAY
+========================================================= */
+
+function isUnlockedToday() {
+    return localStorage.getItem(unlockDateKey) === getToday();
+}
+
+function markUnlockedToday() {
+    localStorage.setItem(unlockDateKey, getToday());
+    localStorage.setItem(unlockTimeKey, Date.now().toString());
+    storyUnlocked = true;
+}
+
+/* =========================================================
+   STAGE FACEBOOK
+   0 = chưa xong Shopee
+   1 = xong Shopee
+   2 = xong ShopeeFood
+   3 = xong toàn bộ
+========================================================= */
+
+function getFacebookAdStage() {
+
+    if (localStorage.getItem(facebookAdStageDateKey) !== getToday()) {
+        return 0;
+    }
+
+    return Number(localStorage.getItem(facebookAdStageKey)) || 0;
+}
+
+function setFacebookAdStage(stage) {
+    localStorage.setItem(facebookAdStageKey, String(stage));
+    localStorage.setItem(facebookAdStageDateKey, getToday());
+}
+
+function isFacebookAdsCompletedToday() {
+    return localStorage.getItem(facebookAdCompletedDateKey) === getToday();
+}
+
+function markFacebookAdsCompletedToday() {
+    localStorage.setItem(facebookAdCompletedDateKey, getToday());
+    setFacebookAdStage(3);
+    markUnlockedToday();
+}
+
+/* =========================================================
+   STAGE REDIRECT
+   0 = chưa mở gì
+   1 = đã mở TikTok
+   2 = đã mở Lazada (xong)
+========================================================= */
+
+function getRedirectStage() {
+
+    if (localStorage.getItem(redirectDateKey) !== getToday()) {
+        return 0;
+    }
+
+    return Number(localStorage.getItem(redirectStageKey)) || 0;
+}
+
+function setRedirectStage(stage) {
+    localStorage.setItem(redirectStageKey, String(stage));
+    localStorage.setItem(redirectDateKey, getToday());
+}
+
+function isRedirectFinishedToday() {
+    return getRedirectStage() >= 2;
+}
+
+/* =========================================================
+   KHÓA / MỞ TRUYỆN
+========================================================= */
+
+function lockStory() {
+    storyUnlocked = false;
+    document.body.classList.add("facebookStoryLocked");
+}
+
+function unlockStory() {
+    storyUnlocked = true;
+    document.body.classList.remove("facebookStoryLocked");
+    increaseStoryView();
+}
+
+function checkStoryLock() {
+
+    resetDailyDataIfNeeded();
+
+    if (isFacebookAdsCompletedToday() || isUnlockedToday()) {
+        markUnlockedToday();
+        unlockStory();
+        return true;
+    }
+
+    lockStory();
+    startFacebookAdFlow();
+    return false;
+}
+
+/* =========================================================
+   TẠO MODAL FACEBOOK
+========================================================= */
+
+function createFacebookAdModal() {
+
+    const existing = document.getElementById("facebookAdsModal");
+
+    if (existing) {
+        facebookAdsModal = existing;
+        return existing;
+    }
+
+    const modal = document.createElement("div");
+
+    modal.id = "facebookAdsModal";
+    modal.className = "facebookAdsOverlay";
+
+    modal.innerHTML = `
+
+        <div id="facebookAdsBox" class="facebookAdsBox" role="dialog" aria-modal="true">
+
+            <div class="facebookAdsHeader">
+                <div id="facebookAdsTitle" class="facebookAdsTitle">Quảng cáo</div>
+                <div id="facebookAdsProgress" class="facebookAdsProgress">
+                    Vui lòng hoàn thành quảng cáo để tiếp tục đọc
+                </div>
+            </div>
+
+            <div id="facebookAdsSteps" class="facebookAdsSteps">
+                <div id="facebookStep1" class="facebookStep">1/2 Shopee</div>
+                <div class="facebookStepArrow">→</div>
+                <div id="facebookStep2" class="facebookStep">2/2 ShopeeFood</div>
+            </div>
+
+            <div id="facebookAdInstruction" class="facebookAdInstruction">
+                Hãy mở quảng cáo và ở lại ít nhất <strong>3 giây</strong> rồi quay lại đây.
+            </div>
+
+            <div id="facebookAdFrame" class="facebookAdFrame"></div>
+
+            <div id="facebookAdReturnMessage" class="facebookAdReturnMessage" style="display:none;"></div>
+
+            <div id="facebookAdFinished" class="facebookAdFinished" style="display:none;">
+                <div id="facebookFinishedIcon" class="facebookFinishedIcon">✓</div>
+                <p id="facebookFinishedText" class="facebookFinishedText">
+                    Bạn đã hoàn thành 2 bước quảng cáo.
+                    Bây giờ có thể tắt quảng cáo và đọc truyện.
+                </p>
+                <button id="facebookAdCloseButton" type="button">
+                    ✕ TẮT QUẢNG CÁO → ĐỌC TRUYỆN
+                </button>
+            </div>
+
+        </div>
+
+    `;
+
+    document.body.appendChild(modal);
+
+    facebookAdsModal = modal;
+
+    const closeButton = document.getElementById("facebookAdCloseButton");
+
+    if (closeButton) {
+
+        closeButton.addEventListener("click", function () {
+
+            if (getFacebookAdStage() < 2) {
                 return;
             }
 
-            button.textContent = "✓ Đã sao chép link";
+            markFacebookAdsCompletedToday();
+            closeFacebookAdModal();
+            unlockStory();
 
-            setTimeout(function () {
-                button.textContent = "📋 Sao chép link";
-            }, 2000);
+            /* Bắt đầu tính giờ đọc từ lúc này */
+            lastActiveTimestamp = Date.now();
+        });
+    }
+
+    return modal;
+}
+
+/* =========================================================
+   THU PHÓNG KHUNG FACEBOOK CHO VỪA MÀN HÌNH
+========================================================= */
+
+function fitFacebookFrame() {
+
+    const frame = document.getElementById("facebookAdFrame");
+
+    if (!frame) {
+        return;
+    }
+
+    const scaler = frame.querySelector(".fbScaler");
+
+    if (!scaler || frame.clientWidth === 0) {
+        return;
+    }
+
+    scaler.style.transform =
+        "scale(" + (frame.clientWidth / FB_DESIGN_WIDTH) + ")";
+}
+
+/* =========================================================
+   IFRAME FACEBOOK
+========================================================= */
+
+function createFacebookIframe(postUrl) {
+
+    const frame = document.getElementById("facebookAdFrame");
+
+    if (!frame) {
+        return;
+    }
+
+    frame.innerHTML = "";
+
+    const scaler = document.createElement("div");
+
+    scaler.className = "fbScaler";
+
+    const iframe = document.createElement("iframe");
+
+    iframe.src =
+        "https://www.facebook.com/plugins/post.php" +
+        "?href=" + encodeURIComponent(postUrl) +
+        "&show_text=true" +
+        "&width=" + FB_DESIGN_WIDTH;
+
+    iframe.loading = "eager";
+    iframe.allow = "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share";
+    iframe.scrolling = "no";
+    iframe.frameBorder = "0";
+
+    scaler.appendChild(iframe);
+
+    const zone = FACEBOOK_CLICK_ZONE[facebookAdCurrentType];
+
+    if (zone) {
+
+        const maskBase =
+            "position:absolute;z-index:5;cursor:default;" +
+            "-webkit-tap-highlight-color:transparent;" +
+            (FACEBOOK_ZONE_DEBUG
+                ? "background:rgba(255,0,0,.35);"
+                : "background:transparent;");
+
+        const addMask = function (top, left, width, height) {
+
+            if (width <= 0 || height <= 0) {
+                return;
+            }
+
+            const mask = document.createElement("div");
+
+            mask.style.cssText =
+                maskBase +
+                "top:" + top + "px;left:" + left + "px;" +
+                "width:" + width + "px;height:" + height + "px;";
+
+            mask.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            });
+
+            scaler.appendChild(mask);
         };
 
-        const fallback = function () {
+        let cursorY = 0;
 
-            try {
+        zone.rows.forEach(function (row) {
 
-                const input = document.createElement("textarea");
+            addMask(cursorY, 0, FB_DESIGN_WIDTH, row.top - cursorY);
+            addMask(row.top, 0, zone.left, row.height);
+            addMask(row.top, zone.left + zone.width, FB_DESIGN_WIDTH - (zone.left + zone.width), row.height);
 
-                input.value = url;
-                input.style.position = "fixed";
-                input.style.left = "-10000px";
-                input.style.top = "0";
+            cursorY = row.top + row.height;
+        });
 
-                document.body.appendChild(input);
+        addMask(cursorY, 0, FB_DESIGN_WIDTH, FB_DESIGN_HEIGHT - cursorY);
 
-                input.focus();
-                input.select();
+        /* Nút MUA NGAY phủ lên cả 2 dòng, cú chạm xuyên xuống link */
+        const firstRow = zone.rows[0];
+        const lastRow = zone.rows[zone.rows.length - 1];
 
-                document.execCommand("copy");
+        const cta = document.createElement("div");
 
-                input.remove();
+        cta.className = "fbBuyNow";
+        cta.textContent = "🛒 XEM NGAY";
 
-                done();
+        cta.style.cssText =
+            "position:absolute;z-index:6;pointer-events:none;" +
+            "display:flex;align-items:center;justify-content:center;" +
+            "border-radius:8px;" +
+            "background:linear-gradient(135deg,#ff7043 0%,#ff5722 100%);" +
+            "color:#ffffff;font-size:18px;font-weight:700;letter-spacing:0.5px;" +
+            "box-shadow:0 4px 12px rgba(255,87,34,0.45);" +
+            "top:" + firstRow.top + "px;" +
+            "left:" + zone.left + "px;" +
+            "width:" + zone.width + "px;" +
+            "height:" + (lastRow.top + lastRow.height - firstRow.top) + "px;";
 
-            } catch (error) {
+        scaler.appendChild(cta);
+    }
+    
 
-                alert("Không thể tự sao chép. Link phim:\n" + url);
-            }
-        };
+    frame.appendChild(scaler);
 
-        if (navigator.clipboard && navigator.clipboard.writeText) {
+    fitFacebookFrame();
 
-            navigator.clipboard.writeText(url).then(done).catch(fallback);
+    if ("ResizeObserver" in window) {
 
-        } else {
-
-            fallback();
+        if (fbResizeObserver) {
+            fbResizeObserver.disconnect();
         }
+
+        fbResizeObserver = new ResizeObserver(fitFacebookFrame);
+        fbResizeObserver.observe(frame);
+
+    } else {
+
+        window.removeEventListener("resize", fitFacebookFrame);
+        window.addEventListener("resize", fitFacebookFrame);
+    }
+}
+
+/* =========================================================
+   CẬP NHẬT 2 BƯỚC
+========================================================= */
+
+function updateFacebookSteps() {
+
+    const stage = getFacebookAdStage();
+
+    const step1 = document.getElementById("facebookStep1");
+    const step2 = document.getElementById("facebookStep2");
+
+    if (!step1 || !step2) {
+        return;
     }
 
-    function showMessengerNotice() {
+    step1.classList.remove("active", "done");
+    step2.classList.remove("active", "done");
 
-        if (!isMessengerBrowser()) {
-            return;
-        }
-
-        if (document.getElementById("messengerNoticePopup")) {
-            return;
-        }
-
-        const android = isAndroid();
-
-        const chromeButton = android
-            ? '<button id="messengerChromeBtn" class="movie-popup-btn primary" type="button">🌐 Mở bằng Chrome</button>'
-            : '';
-
-        const copyClass = android ? "secondary" : "primary";
-
-        const popup = document.createElement("div");
-
-        popup.id = "messengerNoticePopup";
-        popup.className = "movie-popup-overlay";
-
-        /* nền đặc hơn để che hẳn bảng quảng cáo phía sau */
-        popup.style.background = "rgba(0, 0, 0, 0.92)";
-
-        popup.innerHTML = `
-
-            <div class="movie-popup-box" role="dialog" aria-modal="true">
-
-                <div class="movie-popup-icon">⚠️</div>
-
-                <div class="movie-popup-title">Bạn đang mở bằng trình duyệt Facebook</div>
-
-                <div class="movie-popup-text">
-                    Trình duyệt trong Facebook / Messenger <strong>không ghi nhận được quảng cáo Shopee</strong>,
-                    nên bạn sẽ không mở khóa được phim.
-                    Hãy chuyển sang Chrome / Safari để xem bình thường.
-                </div>
-
-                <div class="movie-popup-steps">
-                    <b>Cách chuyển:</b><br>
-                    1. Bấm nút <b>⋯ (3 chấm)</b> ở góc trên bên phải<br>
-                    2. Chọn <b>"Mở trong trình duyệt"</b><br>
-                    &nbsp;&nbsp;&nbsp;(hoặc <b>"Mở bằng Chrome" / "Mở bằng Safari"</b>)
-                </div>
-
-                <div class="movie-popup-buttons">
-
-                    ${chromeButton}
-
-                    <button id="messengerCopyBtn" class="movie-popup-btn ${copyClass}" type="button">
-                        📋 Sao chép link
-                    </button>
-
-                </div>
-
-            </div>
-
-        `;
-
-        document.body.appendChild(popup);
-
-        const copyBtn = document.getElementById("messengerCopyBtn");
-        const chromeBtn = document.getElementById("messengerChromeBtn");
-
-        if (copyBtn) {
-            copyBtn.addEventListener("click", function () {
-                copyPageLink(copyBtn);
-            });
-        }
-
-        if (chromeBtn) {
-            chromeBtn.addEventListener("click", openInChrome);
-        }
+    if (stage === 0) {
+        step1.classList.add("active");
     }
 
-
-    /* =====================================================
-       RESET DỮ LIỆU MỖI NGÀY
-    ===================================================== */
-
-    function resetDailyDataIfNeeded() {
-
-        const today = getToday();
-
-        if (localStorage.getItem(facebookAdStageDateKey) !== today) {
-
-            localStorage.removeItem(facebookAdStageKey);
-            localStorage.removeItem(facebookAdCompletedDateKey);
-            localStorage.removeItem(facebookAdLeftKey);
-            localStorage.removeItem(redirectStageKey);
-            localStorage.removeItem(redirectDateKey);
-            localStorage.removeItem(unlockDateKey);
-
-            localStorage.setItem(facebookAdStageDateKey, today);
-        }
-
-        if (localStorage.getItem(watchTimeDateKey) !== today) {
-
-            localStorage.removeItem(watchTimeKey);
-            localStorage.setItem(watchTimeDateKey, today);
-        }
+    if (stage >= 1) {
+        step1.classList.add("done");
+        step2.classList.add("active");
     }
 
+    if (stage >= 2) {
+        step1.classList.add("done");
+        step2.classList.add("done");
+    }
+}
 
-    /* =====================================================
-       MỞ KHÓA HÔM NAY
-    ===================================================== */
+function updateFacebookInstruction(message) {
 
-    function isUnlockedToday() {
-        return localStorage.getItem(unlockDateKey) === getToday();
+    const instruction = document.getElementById("facebookAdInstruction");
+
+    if (!instruction) {
+        return;
     }
 
-    function markUnlockedToday() {
-        localStorage.setItem(unlockDateKey, getToday());
-        movieUnlocked = true;
+    instruction.innerHTML = message;
+}
+
+/* =========================================================
+   HIỂN THỊ 1 QUẢNG CÁO (dùng chung Shopee / ShopeeFood)
+========================================================= */
+
+function showFacebookAdStep(type, titleText, progressText, instructionHtml, url) {
+
+    facebookAdCurrentType = type;
+    facebookAdWaiting = false;
+    facebookAdHiddenAt = null;
+
+    const title = document.getElementById("facebookAdsTitle");
+    const progress = document.getElementById("facebookAdsProgress");
+
+    if (title) {
+        title.innerHTML = titleText;
     }
 
-
-    /* =====================================================
-       STAGE FACEBOOK
-       0 = chưa xong Shopee, 1 = xong Shopee,
-       2 = xong ShopeeFood, 3 = xong toàn bộ
-    ===================================================== */
-
-    function getFacebookAdStage() {
-
-        if (localStorage.getItem(facebookAdStageDateKey) !== getToday()) {
-            return 0;
-        }
-
-        return Number(localStorage.getItem(facebookAdStageKey)) || 0;
+    if (progress) {
+        progress.textContent = progressText;
     }
 
-    function setFacebookAdStage(stage) {
-        localStorage.setItem(facebookAdStageKey, String(stage));
-        localStorage.setItem(facebookAdStageDateKey, getToday());
+    updateFacebookInstruction(instructionHtml);
+
+    createFacebookIframe(url);
+
+    const finished = document.getElementById("facebookAdFinished");
+
+    if (finished) {
+        finished.style.display = "none";
     }
 
-    function isFacebookAdsCompletedToday() {
-        return localStorage.getItem(facebookAdCompletedDateKey) === getToday();
+    const frame = document.getElementById("facebookAdFrame");
+
+    if (frame) {
+        frame.style.display = "";
     }
 
-    function markFacebookAdsCompletedToday() {
-        localStorage.setItem(facebookAdCompletedDateKey, getToday());
-        setFacebookAdStage(3);
-        markUnlockedToday();
+    const returnMessage = document.getElementById("facebookAdReturnMessage");
+
+    if (returnMessage) {
+        returnMessage.style.display = "none";
     }
 
+    updateFacebookSteps();
 
-    /* =====================================================
-       STAGE REDIRECT
-       0 = chưa mở gì, 1 = đã mở TikTok, 2 = đã mở Lazada
-    ===================================================== */
+    fitFacebookFrame();
+}
 
-    function getRedirectStage() {
+function openShopeeAd() {
 
-        if (localStorage.getItem(redirectDateKey) !== getToday()) {
-            return 0;
-        }
+    showFacebookAdStep(
+        "shopee",
+        "Quảng cáo Shopee <br> Vui lòng nhấn vào Mua Ngay",
+        "Bước 1/2 — Hãy mở quảng cáo và ở lại ít nhất 3 giây rồi quay lại",
+        '👉 <strong>Hãy mở quảng cáo Shopee và ở lại ít nhất 3 giây rồi quay lại đây.</strong><br>' +
+        'Đây là bước 1/2. Sau khi quay lại, hệ thống sẽ kiểm tra thời gian.',
+        FACEBOOK_ADS.shopee.url
+    );
+}
 
-        return Number(localStorage.getItem(redirectStageKey)) || 0;
+function openShopeeFoodAd() {
+
+    showFacebookAdStep(
+        "shopeefood",
+        "Quảng cáo ShopeeFood <br> Vui lòng nhấn vào Mua Ngay",
+        "Bước 2/2 — Hãy mở quảng cáo rồi quay lại",
+        '👉 <strong>Hãy mở quảng cáo ShopeeFood rồi quay lại đây.</strong><br>' +
+        'Đây là bước 2/2. Sau khi quay lại, hệ thống sẽ kiểm tra và hoàn tất.',
+        FACEBOOK_ADS.shopeefood.url
+    );
+}
+
+/* =========================================================
+   BẮT ĐẦU FACEBOOK ADS
+========================================================= */
+
+function startFacebookAdFlow() {
+
+    createFacebookAdModal();
+
+    const stage = getFacebookAdStage();
+
+    facebookAdsModal.classList.add("active");
+    facebookAdsModal.style.display = "flex";
+
+    document.body.classList.add("facebookAdsOpen");
+
+    if (stage === 0) {
+        openShopeeAd();
+        return;
     }
 
-    function setRedirectStage(stage) {
-        localStorage.setItem(redirectStageKey, String(stage));
-        localStorage.setItem(redirectDateKey, getToday());
+    if (stage === 1) {
+        openShopeeFoodAd();
+        return;
     }
 
-    function isRedirectFinishedToday() {
-        return getRedirectStage() >= 2;
+    if (stage >= 2) {
+        showFacebookAdFinished();
+    }
+}
+
+/* =========================================================
+   GHI NHẬN RỜI TRANG
+========================================================= */
+
+function markFacebookAdLeft() {
+
+    if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
+        return;
     }
 
-
-    /* =====================================================
-       KHÓA / MỞ PHIM
-    ===================================================== */
-
-    function lockMovie() {
-        movieUnlocked = false;
-        document.body.classList.add("movieLocked");
+    if (facebookAdWaiting) {
+        return;
     }
 
-    function unlockMovie() {
+    facebookAdHiddenAt = Date.now();
+    facebookAdWaiting = true;
 
-        movieUnlocked = true;
+    localStorage.setItem(facebookAdLeftKey, String(facebookAdHiddenAt));
 
-        document.body.classList.remove("movieLocked");
+    if (facebookAdCurrentType === "shopeefood") {
 
-        increaseMovieView();
+        updateFacebookInstruction(
+            '⏳ <strong>Đã ghi nhận bạn rời trang.</strong><br>' +
+            'Hãy quay lại để hoàn tất bước ShopeeFood.'
+        );
 
-        lastTick = Date.now();
+    } else {
 
-        maybeShowResume();
-    }
-
-
-    /* =====================================================
-       MODAL FACEBOOK
-    ===================================================== */
-
-    function createFacebookAdModal() {
-
-        const existing = document.getElementById("facebookAdsModal");
-
-        if (existing) {
-            facebookAdsModal = existing;
-            return existing;
-        }
-
-        const modal = document.createElement("div");
-
-        modal.id = "facebookAdsModal";
-        modal.className = "facebookAdsOverlay";
-
-        modal.innerHTML = `
-
-            <div id="facebookAdsBox" class="facebookAdsBox" role="dialog" aria-modal="true">
-
-                <div class="facebookAdsHeader">
-                    <div id="facebookAdsTitle" class="facebookAdsTitle">Quảng cáo</div>
-                    <div id="facebookAdsProgress" class="facebookAdsProgress">
-                        Vui lòng hoàn thành quảng cáo để tiếp tục xem phim
-                    </div>
-                </div>
-
-                <div id="facebookAdsSteps" class="facebookAdsSteps">
-                    <div id="facebookStep1" class="facebookStep">1/2 Shopee</div>
-                    <div class="facebookStepArrow">→</div>
-                    <div id="facebookStep2" class="facebookStep">2/2 ShopeeFood</div>
-                </div>
-
-                <div id="facebookAdInstruction" class="facebookAdInstruction">
-                    Hãy mở quảng cáo và ở lại ít nhất <strong>3 giây</strong> rồi quay lại đây.
-                </div>
-
-                <div id="facebookAdFrame" class="facebookAdFrame"></div>
-
-                <div id="facebookAdReturnMessage" class="facebookAdReturnMessage" style="display:none;"></div>
-
-                <div id="facebookAdFinished" class="facebookAdFinished" style="display:none;">
-                    <div class="facebookFinishedIcon">✓</div>
-                    <p class="facebookFinishedText">
-                        Bạn đã hoàn thành 2 bước quảng cáo.
-                        Bây giờ có thể tắt quảng cáo và xem phim.
-                    </p>
-                    <button id="facebookAdCloseButton" type="button">
-                        ✕ TẮT QUẢNG CÁO → XEM PHIM
-                    </button>
-                </div>
-
-            </div>
-
-        `;
-
-        document.body.appendChild(modal);
-
-        facebookAdsModal = modal;
-
-        const closeButton = document.getElementById("facebookAdCloseButton");
-
-        if (closeButton) {
-
-            closeButton.addEventListener("click", function () {
-
-                if (getFacebookAdStage() < 2) {
-                    return;
-                }
-
-                markFacebookAdsCompletedToday();
-                closeFacebookAdModal();
-                unlockMovie();
-            });
-        }
-
-        return modal;
-    }
-
-    function fitFacebookFrame() {
-
-        const frame = document.getElementById("facebookAdFrame");
-
-        if (!frame) {
-            return;
-        }
-
-        const scaler = frame.querySelector(".fbScaler");
-
-        if (!scaler || frame.clientWidth === 0) {
-            return;
-        }
-
-        scaler.style.transform =
-            "scale(" + (frame.clientWidth / FB_DESIGN_WIDTH) + ")";
-    }
-
-    /* Nhúng bài Facebook, rồi phủ lớp chặn lên MỌI chỗ trừ thẻ xem trước
-       Shopee. Bấm vào thẻ = đi thẳng sang Shopee. */
-    function createFacebookIframe(postUrl) {
-
-        const frame = document.getElementById("facebookAdFrame");
-
-        if (!frame) {
-            return;
-        }
-
-        frame.innerHTML = "";
-
-        const scaler = document.createElement("div");
-
-        scaler.className = "fbScaler";
-
-        const iframe = document.createElement("iframe");
-
-        iframe.src =
-            "https://www.facebook.com/plugins/post.php" +
-            "?href=" + encodeURIComponent(postUrl) +
-            "&show_text=true" +
-            "&width=" + FB_DESIGN_WIDTH;
-
-        iframe.loading = "eager";
-        iframe.allow = "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share";
-        iframe.scrolling = "no";
-        iframe.frameBorder = "0";
-
-        /* Lớp phóng to: đẩy bài sang trái rồi phóng lên cho viền trắng nằm ngoài khung */
-        const zoom = document.createElement("div");
-
-        const cropWidth = FB_DESIGN_WIDTH - FACEBOOK_CROP.left - FACEBOOK_CROP.right;
-        const zoomScale = FB_DESIGN_WIDTH / cropWidth;
-
-        zoom.className = "fbZoom";
-
-        zoom.style.transform =
-            "scale(" + zoomScale + ", " +
-            (zoomScale * FACEBOOK_VERTICAL_ZOOM) + ") translate(-" +
-            FACEBOOK_CROP.left + "px, -" +
-            FACEBOOK_CROP.top + "px)";
-
-        /* Cắt phần thừa bên ngoài khung */
-        frame.style.overflow = "hidden";
-        frame.style.position = "relative";
-
-        zoom.appendChild(iframe);
-        scaler.appendChild(zoom);
-
-        /* Ảnh chèn lên trên cùng: chỉ để nhìn, pointer-events:none nên bấm xuyên xuống bài */
-        const coverUrl = FACEBOOK_COVER[facebookAdCurrentType];
-
-        if (coverUrl) {
-
-            const cover = document.createElement("div");
-
-            cover.className = "fbCover";
-            cover.style.backgroundImage = 'url("' + coverUrl + '")';
-            cover.style.height = FACEBOOK_COVER.height + "px";
-
-            scaler.appendChild(cover);
-        }
-
-        const zone = FACEBOOK_CLICK_ZONE[facebookAdCurrentType];
-
-        if (zone) {
-
-            const maskBase =
-                "position:absolute;z-index:5;cursor:default;" +
-                "-webkit-tap-highlight-color:transparent;" +
-                (FACEBOOK_ZONE_DEBUG
-                    ? "background:rgba(255,0,0,.35);"
-                    : "background:transparent;");
-
-            const addMask = function (top, left, width, height) {
-
-                if (width <= 0 || height <= 0) {
-                    return;
-                }
-
-                const mask = document.createElement("div");
-
-                mask.style.cssText =
-                    maskBase +
-                    "top:" + top + "px;left:" + left + "px;" +
-                    "width:" + width + "px;height:" + height + "px;";
-
-                mask.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                });
-
-                scaler.appendChild(mask);
-            };
-
-            const zoneRight = zone.left + zone.width;
-            const zoneBottom = zone.top + zone.height;
-
-            /* 4 mảnh chặn bao quanh vùng được bấm */
-            addMask(0, 0, FB_DESIGN_WIDTH, zone.top);
-            addMask(zone.top, 0, zone.left, zone.height);
-            addMask(zone.top, zoneRight, FB_DESIGN_WIDTH - zoneRight, zone.height);
-            addMask(zoneBottom, 0, FB_DESIGN_WIDTH, FB_DESIGN_HEIGHT - zoneBottom);
-        }
-
-        frame.appendChild(scaler);
-
-        fitFacebookFrame();
-
-        if ("ResizeObserver" in window) {
-
-            if (fbResizeObserver) {
-                fbResizeObserver.disconnect();
-            }
-
-            fbResizeObserver = new ResizeObserver(fitFacebookFrame);
-            fbResizeObserver.observe(frame);
-
-        } else {
-
-            window.removeEventListener("resize", fitFacebookFrame);
-            window.addEventListener("resize", fitFacebookFrame);
-        }
-    }
-
-    function updateFacebookSteps() {
-
-        const stage = getFacebookAdStage();
-
-        const step1 = document.getElementById("facebookStep1");
-        const step2 = document.getElementById("facebookStep2");
-
-        if (!step1 || !step2) {
-            return;
-        }
-
-        step1.classList.remove("active", "done");
-        step2.classList.remove("active", "done");
-
-        if (stage === 0) {
-            step1.classList.add("active");
-        }
-
-        if (stage >= 1) {
-            step1.classList.add("done");
-            step2.classList.add("active");
-        }
-
-        if (stage >= 2) {
-            step1.classList.add("done");
-            step2.classList.add("done");
-        }
-    }
-
-    function updateFacebookInstruction(message) {
-
-        const instruction = document.getElementById("facebookAdInstruction");
-
-        if (instruction) {
-            instruction.innerHTML = message;
-        }
-    }
-
-    function showFacebookAdStep(type, titleText, progressText, instructionHtml, url) {
-
-        facebookAdCurrentType = type;
-        facebookAdWaiting = false;
-        facebookAdHiddenAt = null;
-
-        const title = document.getElementById("facebookAdsTitle");
-        const progressEl = document.getElementById("facebookAdsProgress");
-
-        if (title) {
-            title.innerHTML = titleText;
-        }
-
-        if (progressEl) {
-            progressEl.textContent = progressText;
-        }
-
-        updateFacebookInstruction(instructionHtml);
-
-        createFacebookIframe(url);
-
-        const finished = document.getElementById("facebookAdFinished");
-
-        if (finished) {
-            finished.style.display = "none";
-        }
-
-        const frame = document.getElementById("facebookAdFrame");
-
-        if (frame) {
-            frame.style.display = "";
-        }
-
-        const returnMessage = document.getElementById("facebookAdReturnMessage");
-
-        if (returnMessage) {
-            returnMessage.style.display = "none";
-        }
-
-        updateFacebookSteps();
-
-        fitFacebookFrame();
-    }
-
-    function openShopeeAd() {
-
-        showFacebookAdStep(
-            "shopee",
-            "Quảng cáo Shopee <br> Vui lòng nhấn vào ảnh sản phẩm",
-            "Bước 1/2 — Hãy mở quảng cáo và ở lại ít nhất 3 giây rồi quay lại",
-            '👉 <strong>Hãy mở quảng cáo Shopee và ở lại ít nhất 3 giây rồi quay lại đây.</strong><br>' +
-            'Đây là bước 1/2. Sau khi quay lại, hệ thống sẽ kiểm tra thời gian.',
-            FACEBOOK_ADS.shopee.url
+        updateFacebookInstruction(
+            '⏳ <strong>Đang tính 3 giây...</strong><br>' +
+            'Hãy ở lại trang quảng cáo Shopee ít nhất <strong>3 giây</strong> rồi quay lại.'
         );
     }
+}
 
-    function openShopeeFoodAd() {
+/* =========================================================
+   KIỂM TRA QUAY LẠI
+========================================================= */
 
-        showFacebookAdStep(
-            "shopeefood",
-            "Quảng cáo ShopeeFood <br> Vui lòng nhấn vào ảnh sản phẩm",
-            "Bước 2/2 — Hãy mở quảng cáo rồi quay lại",
-            '👉 <strong>Hãy mở quảng cáo ShopeeFood rồi quay lại đây.</strong><br>' +
-            'Đây là bước 2/2. Sau khi quay lại, hệ thống sẽ kiểm tra và hoàn tất.',
-            FACEBOOK_ADS.shopeefood.url
+function checkFacebookAdReturn() {
+
+    if (!facebookAdWaiting) {
+        return;
+    }
+
+    if (facebookAdHiddenAt === null) {
+        return;
+    }
+
+    const hiddenDuration = Date.now() - facebookAdHiddenAt;
+
+    const requiredTime =
+        facebookAdCurrentType === "shopee"
+            ? FACEBOOK_SHOPEE_MIN_LEAVE_TIME
+            : FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME;
+
+    if (hiddenDuration < requiredTime) {
+
+        const remain = Math.max(
+            1,
+            Math.ceil((requiredTime - hiddenDuration) / 1000)
         );
-    }
-
-    function startFacebookAdFlow() {
-
-        createFacebookAdModal();
-
-        const stage = getFacebookAdStage();
-
-        facebookAdsModal.classList.add("active");
-        facebookAdsModal.style.display = "flex";
-
-        document.body.classList.add("facebookAdsOpen");
-
-        if (stage === 0) {
-            openShopeeAd();
-            return;
-        }
-
-        if (stage === 1) {
-            openShopeeFoodAd();
-            return;
-        }
-
-        if (stage >= 2) {
-            showFacebookAdFinished();
-        }
-    }
-
-    function markFacebookAdLeft() {
-
-        if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
-            return;
-        }
-
-        if (facebookAdWaiting) {
-            return;
-        }
-
-        facebookAdHiddenAt = Date.now();
-        facebookAdWaiting = true;
-
-        localStorage.setItem(facebookAdLeftKey, String(facebookAdHiddenAt));
-
-        if (facebookAdCurrentType === "shopeefood") {
-
-            updateFacebookInstruction(
-                '⏳ <strong>Đã ghi nhận bạn rời trang.</strong><br>' +
-                'Hãy quay lại để hoàn tất bước ShopeeFood.'
-            );
-
-        } else {
-
-            updateFacebookInstruction(
-                '⏳ <strong>Đang tính 3 giây...</strong><br>' +
-                'Hãy ở lại trang quảng cáo Shopee ít nhất <strong>3 giây</strong> rồi quay lại.'
-            );
-        }
-    }
-
-    function checkFacebookAdReturn() {
-
-        if (!facebookAdWaiting || facebookAdHiddenAt === null) {
-            return;
-        }
-
-        const hiddenDuration = Date.now() - facebookAdHiddenAt;
-
-        const requiredTime =
-            facebookAdCurrentType === "shopee"
-                ? FACEBOOK_SHOPEE_MIN_LEAVE_TIME
-                : FACEBOOK_SHOPEEFOOD_MIN_LEAVE_TIME;
-
-        if (hiddenDuration < requiredTime) {
-
-            const remain = Math.max(
-                1,
-                Math.ceil((requiredTime - hiddenDuration) / 1000)
-            );
-
-            facebookAdWaiting = false;
-            facebookAdHiddenAt = null;
-
-            localStorage.removeItem(facebookAdLeftKey);
-
-            const message = document.getElementById("facebookAdReturnMessage");
-
-            if (message) {
-                message.style.display = "block";
-                message.textContent =
-                    "Bạn quay lại quá sớm. Hãy ở lại quảng cáo thêm " + remain + " giây.";
-            }
-
-            updateFacebookInstruction(
-                '⚠️ <strong>Chưa đủ 3 giây.</strong><br>' +
-                'Hãy mở quảng cáo và ở lại thêm ít nhất ' + remain + ' giây rồi quay lại.'
-            );
-
-            return;
-        }
 
         facebookAdWaiting = false;
         facebookAdHiddenAt = null;
 
         localStorage.removeItem(facebookAdLeftKey);
 
-        markFacebookAdCompletedStep();
+        const message = document.getElementById("facebookAdReturnMessage");
+
+        if (message) {
+            message.style.display = "block";
+            message.textContent =
+                "Bạn quay lại quá sớm. Hãy ở lại quảng cáo thêm " + remain + " giây.";
+        }
+
+        updateFacebookInstruction(
+            '⚠️ <strong>Chưa đủ 3 giây.</strong><br>' +
+            'Hãy mở quảng cáo và ở lại thêm ít nhất ' + remain + ' giây rồi quay lại.'
+        );
+
+        return;
     }
 
-    function markFacebookAdCompletedStep() {
+    facebookAdWaiting = false;
+    facebookAdHiddenAt = null;
 
-        const stage = getFacebookAdStage();
+    localStorage.removeItem(facebookAdLeftKey);
 
-        if (stage === 0 && facebookAdCurrentType === "shopee") {
+    markFacebookAdCompletedStep();
+}
 
-            setFacebookAdStage(1);
+/* =========================================================
+   HOÀN THÀNH TỪNG BƯỚC
+========================================================= */
 
-            const message = document.getElementById("facebookAdReturnMessage");
+function markFacebookAdCompletedStep() {
 
-            if (message) {
-                message.style.display = "block";
-                message.textContent = "✓ Đã hoàn thành bước Shopee.";
-            }
+    const stage = getFacebookAdStage();
 
-            updateFacebookSteps();
+    if (stage === 0 && facebookAdCurrentType === "shopee") {
 
-            updateFacebookInstruction(
-                '✓ <strong>Đã hoàn thành bước 1/2.</strong><br>' +
-                'Bây giờ hãy thực hiện tiếp quảng cáo ShopeeFood.'
-            );
+        setFacebookAdStage(1);
 
-            setTimeout(openShopeeFoodAd, 500);
+        const message = document.getElementById("facebookAdReturnMessage");
 
-            return;
-        }
-
-        if (stage === 1 && facebookAdCurrentType === "shopeefood") {
-
-            setFacebookAdStage(2);
-
-            updateFacebookSteps();
-
-            updateFacebookInstruction(
-                '✓ <strong>Đã hoàn thành bước 2/2.</strong><br>' +
-                'Bạn đã hoàn thành đủ hai quảng cáo.'
-            );
-
-            setTimeout(showFacebookAdFinished, 300);
-        }
-    }
-
-    function showFacebookAdFinished() {
-
-        const frame = document.getElementById("facebookAdFrame");
-        const finished = document.getElementById("facebookAdFinished");
-        const title = document.getElementById("facebookAdsTitle");
-        const progressEl = document.getElementById("facebookAdsProgress");
-
-        if (frame) {
-            frame.style.display = "none";
-        }
-
-        if (finished) {
-            finished.style.display = "block";
-        }
-
-        if (title) {
-            title.textContent = "Quảng cáo đã hoàn thành";
-        }
-
-        if (progressEl) {
-            progressEl.textContent = "Đã hoàn thành đủ 2/2 bước";
+        if (message) {
+            message.style.display = "block";
+            message.textContent = "✓ Đã hoàn thành bước Shopee.";
         }
 
         updateFacebookSteps();
 
         updateFacebookInstruction(
-            '✓ <strong>Hoàn tất quảng cáo.</strong><br>' +
-            'Bạn có thể nhấn nút bên dưới để bắt đầu xem phim.'
+            '✓ <strong>Đã hoàn thành bước 1/2.</strong><br>' +
+            'Bây giờ hãy thực hiện tiếp quảng cáo ShopeeFood.'
         );
+
+        setTimeout(openShopeeFoodAd, 500);
+
+        return;
     }
 
-    function closeFacebookAdModal() {
+    if (stage === 1 && facebookAdCurrentType === "shopeefood") {
 
-        if (!facebookAdsModal) {
-            return;
-        }
+        setFacebookAdStage(2);
 
-        facebookAdsModal.classList.remove("active");
-        facebookAdsModal.style.display = "none";
+        updateFacebookSteps();
 
-        document.body.classList.remove("facebookAdsOpen");
+        updateFacebookInstruction(
+            '✓ <strong>Đã hoàn thành bước 2/2.</strong><br>' +
+            'Bạn đã hoàn thành đủ hai quảng cáo.'
+        );
 
-        facebookAdWaiting = false;
-        facebookAdHiddenAt = null;
+        setTimeout(showFacebookAdFinished, 300);
 
-        if (fbResizeObserver) {
-            fbResizeObserver.disconnect();
-            fbResizeObserver = null;
-        }
+        return;
+    }
+}
+
+/* =========================================================
+   HIỆN HOÀN TẤT
+========================================================= */
+
+function showFacebookAdFinished() {
+
+    const frame = document.getElementById("facebookAdFrame");
+    const finished = document.getElementById("facebookAdFinished");
+    const title = document.getElementById("facebookAdsTitle");
+    const progress = document.getElementById("facebookAdsProgress");
+
+    if (frame) {
+        frame.style.display = "none";
     }
 
-    document.addEventListener("visibilitychange", function () {
+    if (finished) {
+        finished.style.display = "block";
+    }
 
-        if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
-            return;
-        }
+    if (title) {
+        title.textContent = "Quảng cáo đã hoàn thành";
+    }
 
-        if (document.visibilityState === "hidden") {
-            markFacebookAdLeft();
-            return;
-        }
+    if (progress) {
+        progress.textContent = "Đã hoàn thành đủ 2/2 bước";
+    }
 
-        if (document.visibilityState === "visible") {
-            checkFacebookAdReturn();
-        }
-    });
+    updateFacebookSteps();
 
-    window.addEventListener("pagehide", function () {
+    updateFacebookInstruction(
+        '✓ <strong>Hoàn tất quảng cáo.</strong><br>' +
+        'Bạn có thể nhấn nút bên dưới để bắt đầu đọc truyện.'
+    );
+}
 
-        if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
-            return;
-        }
+/* =========================================================
+   ĐÓNG MODAL
+========================================================= */
 
+function closeFacebookAdModal() {
+
+    if (!facebookAdsModal) {
+        return;
+    }
+
+    facebookAdsModal.classList.remove("active");
+    facebookAdsModal.style.display = "none";
+
+    document.body.classList.remove("facebookAdsOpen");
+
+    facebookAdWaiting = false;
+    facebookAdHiddenAt = null;
+
+    if (fbResizeObserver) {
+        fbResizeObserver.disconnect();
+        fbResizeObserver = null;
+    }
+}
+
+/* =========================================================
+   THEO DÕI TAB / TRANG (quảng cáo Facebook)
+========================================================= */
+
+document.addEventListener("visibilitychange", function () {
+
+    if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
+        return;
+    }
+
+    if (document.visibilityState === "hidden") {
         markFacebookAdLeft();
-    });
-
-    window.addEventListener("pageshow", function () {
-
-        if (facebookAdWaiting) {
-            checkFacebookAdReturn();
-        }
-    });
-
-
-    /* =====================================================
-       THỜI GIAN XEM THỰC TẾ
-
-       Chỉ đếm khi: phim đã mở khóa + tab đang hiển thị
-       + video đang phát.
-    ===================================================== */
-
-    function isYouTubePlaying() {
-
-        try {
-
-            return !!(
-                player &&
-                typeof player.getPlayerState === "function" &&
-                window.YT &&
-                player.getPlayerState() === YT.PlayerState.PLAYING
-            );
-
-        } catch (error) {
-
-            return false;
-        }
+        return;
     }
 
-    function getWatchSeconds() {
+    if (document.visibilityState === "visible") {
+        checkFacebookAdReturn();
+    }
+});
 
-        if (localStorage.getItem(watchTimeDateKey) !== getToday()) {
-            localStorage.setItem(watchTimeDateKey, getToday());
-            localStorage.setItem(watchTimeKey, "0");
-            return 0;
-        }
+window.addEventListener("pagehide", function () {
 
-        return Number(localStorage.getItem(watchTimeKey)) || 0;
+    if (!facebookAdsModal || !facebookAdsModal.classList.contains("active")) {
+        return;
     }
 
-    function saveWatchSeconds() {
-        localStorage.setItem(watchTimeKey, String(watchSeconds));
-        localStorage.setItem(watchTimeDateKey, getToday());
+    markFacebookAdLeft();
+});
+
+window.addEventListener("pageshow", function () {
+
+    if (facebookAdWaiting) {
+        checkFacebookAdReturn();
+    }
+});
+
+/* =========================================================
+   ACTIVE TIME (thời gian đọc thực tế)
+
+   CHỈ ĐẾM KHI:
+   - truyện đã mở khóa (đã xong quảng cáo Shopee + ShopeeFood)
+   - tab đang hiển thị
+========================================================= */
+
+function getActiveSeconds() {
+
+    if (localStorage.getItem(activeTimeDateKey) !== getToday()) {
+        localStorage.setItem(activeTimeDateKey, getToday());
+        localStorage.setItem(activeTimeKey, "0");
+        return 0;
     }
 
-    function hasWatchedEnough() {
-        return movieUnlocked && watchSeconds >= WATCH_TIME_LIMIT;
+    return Number(localStorage.getItem(activeTimeKey)) || 0;
+}
+
+function saveActiveSeconds() {
+    localStorage.setItem(activeTimeKey, String(activeSeconds));
+    localStorage.setItem(activeTimeDateKey, getToday());
+}
+
+function hasReadEnough() {
+    return storyUnlocked && activeSeconds >= ACTIVE_TIME_LIMIT;
+}
+
+function startActiveTime() {
+
+    if (activeTimer) {
+        return;
     }
 
-    function startWatchTimer() {
+    activeSeconds = getActiveSeconds();
+    lastActiveTimestamp = Date.now();
 
-        if (watchTimer) {
-            return;
-        }
+    activeTimer = setInterval(function () {
 
-        watchSeconds = getWatchSeconds();
-        lastTick = Date.now();
-
-        watchTimer = setInterval(function () {
-
-            const now = Date.now();
-
-            if (
-                !movieUnlocked ||
-                document.visibilityState !== "visible" ||
-                !isYouTubePlaying()
-            ) {
-                lastTick = now;
-                return;
-            }
-
-            const elapsed = Math.floor((now - lastTick) / 1000);
-
-            if (elapsed > 0) {
-
-                watchSeconds += elapsed;
-                lastTick += elapsed * 1000;
-
-                if (watchSeconds >= WATCH_TIME_LIMIT) {
-                    watchSeconds = WATCH_TIME_LIMIT;
-                }
-
-                saveWatchSeconds();
-            }
-
-        }, 1000);
-    }
-
-    function stopWatchTimer() {
-
-        if (watchTimer) {
-            clearInterval(watchTimer);
-            watchTimer = null;
-        }
-
-        saveWatchSeconds();
-    }
-
-
-    /* =====================================================
-       REDIRECT: XEM ĐỦ 10 PHÚT
-
-       Chạm / vuốt / bấm vào NỀN trang:
-         lần 1 -> mở TikTok, lần 2 -> mở Lazada.
-       Bỏ qua khi chạm vào video, nút, link, popup...
-    ===================================================== */
-
-    function openRedirectLink(url, nextStage) {
-
-        if (!url) {
-            return false;
-        }
-
-        const win = window.open(url, "_blank");
-
-        if (!win) {
-            return false;
-        }
-
-        setRedirectStage(nextStage);
-
-        return true;
-    }
-
-    function openNextRedirect() {
-
-        if (!hasWatchedEnough()) {
-            return false;
-        }
-
-        const stage = getRedirectStage();
-
-        if (stage === 0) {
-            return openRedirectLink(TIKTOK_URL, 1);
-        }
-
-        if (stage === 1) {
-            return openRedirectLink(LAZADA_URL, 2);
-        }
-
-        return false;
-    }
-
-    const REDIRECT_IGNORE_SELECTOR = [
-        "a",
-        "button",
-        "input",
-        "textarea",
-        "select",
-        "label",
-        "iframe",
-        "#movieScreen",
-        "#facebookAdsModal",
-        "#movieResumePopup",
-        "#xoiThitPopup",
-        "#messengerNoticePopup"
-    ].join(",");
-
-    function handleRedirectGesture(event) {
-
-        if (!hasWatchedEnough() || isRedirectFinishedToday()) {
-            return;
-        }
-
-        if (
-            (facebookAdsModal && facebookAdsModal.classList.contains("active")) ||
-            document.getElementById("movieResumePopup") ||
-            document.getElementById("messengerNoticePopup")
-        ) {
-            return;
-        }
-
-        if (
-            event.target &&
-            event.target.closest &&
-            event.target.closest(REDIRECT_IGNORE_SELECTOR)
-        ) {
+        /* Chưa mở khóa hoặc đang ẩn tab: không tính giờ */
+        if (document.visibilityState !== "visible" || !storyUnlocked) {
+            lastActiveTimestamp = Date.now();
             return;
         }
 
         const now = Date.now();
+        const elapsed = Math.floor((now - lastActiveTimestamp) / 1000);
 
-        if (now - lastRedirectGestureAt < REDIRECT_GESTURE_COOLDOWN) {
+        if (elapsed > 0) {
+
+            activeSeconds += elapsed;
+
+            /* Giữ phần lẻ để không bị mất giây */
+            lastActiveTimestamp += elapsed * 1000;
+
+            if (activeSeconds >= ACTIVE_TIME_LIMIT) {
+                activeSeconds = ACTIVE_TIME_LIMIT;
+            }
+
+            saveActiveSeconds();
+        }
+
+    }, 1000);
+}
+
+function stopActiveTime() {
+
+    if (activeTimer) {
+        clearInterval(activeTimer);
+        activeTimer = null;
+    }
+
+    saveActiveSeconds();
+}
+
+/* =========================================================
+   REDIRECT: SAU KHI ĐỌC ĐỦ 10 PHÚT
+   Chạm / vuốt / cuộn / bấm vào NỀN trang:
+     lần 1 → mở TikTok
+     lần 2 → mở Lazada
+   Sau đó không mở nữa (trong ngày).
+
+   Lắng nghe cả "touchend" và "pointerup" (không chỉ "click"),
+   vì vuốt để cuộn trên điện thoại KHÔNG sinh ra "click".
+========================================================= */
+
+function openRedirectLink(url, nextStage) {
+
+    if (!url) {
+        return false;
+    }
+
+    localStorage.setItem(redirectLeavingKey, Date.now().toString());
+
+    const win = window.open(url, "_blank");
+
+    /* Trình duyệt chặn popup → không tính là đã mở */
+    if (!win) {
+        localStorage.removeItem(redirectLeavingKey);
+        return false;
+    }
+
+    setRedirectStage(nextStage);
+
+    return true;
+}
+
+/* Mở bước tiếp theo theo thứ tự TikTok → Lazada */
+function openNextRedirect() {
+
+    if (!hasReadEnough()) {
+        return false;
+    }
+
+    const stage = getRedirectStage();
+
+    if (stage === 0) {
+        return openRedirectLink(TIKTOK_URL, 1);
+    }
+
+    if (stage === 1) {
+        return openRedirectLink(LAZADA_URL, 2);
+    }
+
+    return false;
+}
+
+/* Các phần tử KHÔNG được coi là "nền" */
+const REDIRECT_IGNORE_SELECTOR = [
+    "a",
+    "button",
+    "input",
+    "textarea",
+    "select",
+    "label",
+    "audio",
+    "video",
+    "iframe",
+    "[data-audio]",
+    "#facebookAdsModal",
+    "#readerResumePopup",
+    "#xoiThitPopup",
+    "#messengerNoticePopup"
+].join(",");
+
+/* Xử lý chung cho mọi loại cử chỉ (click / chạm / vuốt) */
+function handleRedirectGesture(event) {
+
+    /* Chưa mở khóa / chưa đọc đủ 10 phút / đã xong cả hai link */
+    if (!hasReadEnough() || isRedirectFinishedToday()) {
+        return;
+    }
+
+    /* Đang hiện quảng cáo Facebook hoặc popup đọc tiếp */
+    if (
+        (facebookAdsModal && facebookAdsModal.classList.contains("active")) ||
+        document.getElementById("readerResumePopup") ||
+        document.getElementById("messengerNoticePopup")
+    ) {
+        return;
+    }
+
+    /* Bỏ qua nút / link / audio... */
+    if (event.target && event.target.closest &&
+        event.target.closest(REDIRECT_IGNORE_SELECTOR)) {
+        return;
+    }
+
+    /* Một cú chạm sinh nhiều sự kiện (touchend → pointerup → click),
+       chỉ tính 1 lần, tránh mở cả TikTok lẫn Lazada cùng lúc */
+    const now = Date.now();
+
+    if (now - lastRedirectGestureAt < REDIRECT_GESTURE_COOLDOWN) {
+        return;
+    }
+
+    lastRedirectGestureAt = now;
+
+    openNextRedirect();
+}
+
+function initBackgroundRedirect() {
+
+    /* Chuột / chạm nhanh trên máy tính */
+    document.addEventListener("click", handleRedirectGesture);
+
+    /* Điện thoại: nhấc tay sau khi chạm HOẶC sau khi vuốt cuộn.
+       touchend được trình duyệt chấp nhận để mở tab mới
+       (nếu không bị chặn popup). */
+    document.addEventListener("touchend", handleRedirectGesture, { passive: true });
+
+    /* Dự phòng cho trình duyệt dùng pointer events */
+    document.addEventListener("pointerup", function (event) {
+
+        if (event.pointerType === "mouse") {
             return;
         }
 
-        lastRedirectGestureAt = now;
+        handleRedirectGesture(event);
 
-        openNextRedirect();
-    }
+    }, { passive: true });
+}
 
-    function initBackgroundRedirect() {
+/* Nút tiktok-read / lazada-read (nếu có trong HTML) */
+function initRedirectButtons() {
 
-        document.addEventListener("click", handleRedirectGesture);
+    const tiktokButton = document.getElementById("tiktok-read");
+    const lazadaButton = document.getElementById("lazada-read");
 
-        document.addEventListener("touchend", handleRedirectGesture, { passive: true });
+    if (tiktokButton) {
 
-        document.addEventListener("pointerup", function (event) {
+        tiktokButton.addEventListener("click", function () {
 
-            if (event.pointerType === "mouse") {
+            if (!hasReadEnough()) {
+                showNotEnoughTime();
                 return;
             }
 
-            handleRedirectGesture(event);
+            if (getRedirectStage() >= 1) {
+                return;
+            }
 
-        }, { passive: true });
+            openRedirectLink(TIKTOK_URL, 1);
+        });
     }
 
+    if (lazadaButton) {
 
-    /* =====================================================
-       LƯU / KHÔI PHỤC VỊ TRÍ XEM
-    ===================================================== */
+        lazadaButton.addEventListener("click", function () {
 
-    function getSavedPosition() {
+            if (!hasReadEnough()) {
+                showNotEnoughTime();
+                return;
+            }
 
-        const saved = parseFloat(localStorage.getItem(positionKey));
+            if (getRedirectStage() < 1) {
+                alert("Hãy mở link TikTok trước.");
+                return;
+            }
 
-        if (!Number.isFinite(saved) || saved < 0) {
-            return 0;
-        }
+            if (getRedirectStage() >= 2) {
+                return;
+            }
 
-        return saved;
+            openRedirectLink(LAZADA_URL, 2);
+        });
+    }
+}
+
+function showNotEnoughTime() {
+
+    const remain = Math.max(0, ACTIVE_TIME_LIMIT - activeSeconds);
+    const m = Math.floor(remain / 60);
+    const s = remain % 60;
+
+    alert("Bạn cần đọc thêm " + m + " phút " + s + " giây nữa để mở link.");
+}
+
+/* =========================================================
+   LƯU / KHÔI PHỤC VỊ TRÍ ĐỌC
+========================================================= */
+
+function saveReadingPosition() {
+
+    if (!storyUnlocked) {
+        return;
     }
 
-    function savePosition() {
-
-        if (!mediaReady || !movieUnlocked) {
-            return;
-        }
-
-        const current = mediaGetCurrentTime();
-        const duration = mediaGetDuration();
-
-        if (!Number.isFinite(current) || current < 2) {
-            return;
-        }
-
-        /* Gần hết phim: xóa vị trí để lần sau xem lại từ đầu */
-        if (duration > 0 && current >= duration - 5) {
-            localStorage.removeItem(positionKey);
-            return;
-        }
-
-        localStorage.setItem(positionKey, String(current));
+    if (!scrollTrackingReady) {
+        return;
     }
 
-    function maybeShowResume() {
+    localStorage.setItem(readingPositionKey, String(window.scrollY));
+}
 
-        if (resumeShown || !movieUnlocked || !mediaReady) {
-            return;
+function restoreReadingPosition() {
+
+    const saved = localStorage.getItem(readingPositionKey);
+
+    if (saved === null) {
+        return;
+    }
+
+    const position = Number(saved);
+
+    if (!Number.isFinite(position) || position <= 0) {
+        return;
+    }
+
+    setTimeout(function () {
+
+        window.scrollTo({
+            top: position,
+            behavior: "auto"
+        });
+
+    }, 300);
+}
+
+/* =========================================================
+   AUDIO
+========================================================= */
+
+function saveAudioPosition(audio) {
+
+    if (!audio) {
+        return;
+    }
+
+    if (!storyUnlocked) {
+        return;
+    }
+
+    if (!Number.isFinite(audio.currentTime)) {
+        return;
+    }
+
+    localStorage.setItem(audioPositionKey, String(audio.currentTime));
+}
+
+function restoreAudioPosition() {
+
+    const audio = document.querySelector("audio");
+
+    if (!audio) {
+        return;
+    }
+
+    const saved = localStorage.getItem(audioPositionKey);
+
+    if (saved === null) {
+        return;
+    }
+
+    const position = Number(saved);
+
+    if (!Number.isFinite(position) || position <= 0) {
+        return;
+    }
+
+    const restore = function () {
+
+        try {
+
+            if (position < audio.duration) {
+                audio.currentTime = position;
+            }
+
+        } catch (error) {
+
+            console.warn("Không thể khôi phục audio:", error);
         }
+    };
 
-        /* Đang bị yêu cầu chuyển trình duyệt thì không hỏi xem tiếp */
-        if (isMessengerBrowser()) {
-            return;
-        }
+    if (audio.readyState >= 1) {
+        restore();
+    } else {
+        audio.addEventListener("loadedmetadata", restore, { once: true });
+    }
+}
 
-        resumeShown = true;
+/* =========================================================
+   POPUP ĐỌC TIẾP
+========================================================= */
 
-        const saved = getSavedPosition();
-        const duration = mediaGetDuration();
+function showResumePopup() {
 
-        if (saved < RESUME_MIN_SECONDS) {
-            return;
-        }
+    if (resumePopupShown) {
+        return;
+    }
 
-        if (duration > 0 && saved > duration - RESUME_MIN_SECONDS) {
-            return;
-        }
+    resumePopupShown = true;
 
-        const popup = document.createElement("div");
+    const saved = localStorage.getItem(readingPositionKey);
 
-        popup.id = "movieResumePopup";
-        popup.className = "movie-popup-overlay";
+    if (!saved || Number(saved) <= 50) {
+        return;
+    }
 
-        popup.innerHTML = `
+    /* Khóa lưu scroll trong lúc chờ người dùng trả lời */
+    scrollTrackingReady = false;
 
-            <div class="movie-popup-box" role="dialog" aria-modal="true">
+    const popup = document.createElement("div");
 
-                <div class="movie-popup-icon">🎬</div>
+    popup.id = "readerResumePopup";
 
-                <div class="movie-popup-title">Bạn có muốn xem tiếp?</div>
+    popup.innerHTML = `
 
-                <div class="movie-popup-text">
-                    Bạn đang xem dở đến <strong>${formatTime(saved)}</strong>.
-                    Bạn có muốn tiếp tục từ đoạn đó không?
+        <div class="reader-resume-overlay">
+
+            <div class="reader-resume-box">
+
+                <div class="reader-resume-icon">📖</div>
+
+                <div class="reader-resume-title">Bạn có muốn đọc tiếp?</div>
+
+                <div class="reader-resume-description">
+                    Hệ thống đã lưu vị trí đọc trước đó.
+                    Bạn có muốn tiếp tục từ vị trí đó không?
                 </div>
 
-                <div class="movie-popup-buttons">
+                <div class="reader-resume-buttons">
 
-                    <button id="resumeYesBtn" class="movie-popup-btn primary" type="button">
-                        ▶ Xem tiếp
+                    <button id="resumeYesBtn" class="reader-resume-btn reader-resume-yes" type="button">
+                        ▶ Đọc tiếp
                     </button>
 
-                    <button id="resumeNoBtn" class="movie-popup-btn secondary" type="button">
-                        ↩ Xem từ đầu
+                    <button id="resumeNoBtn" class="reader-resume-btn reader-resume-no" type="button">
+                        ↩ Đọc từ đầu
                     </button>
 
                 </div>
 
             </div>
 
-        `;
+        </div>
 
-        document.body.appendChild(popup);
+    `;
 
-        const yes = document.getElementById("resumeYesBtn");
-        const no = document.getElementById("resumeNoBtn");
+    document.body.appendChild(popup);
 
-        if (yes) {
+    const yes = document.getElementById("resumeYesBtn");
+    const no = document.getElementById("resumeNoBtn");
 
-            yes.addEventListener("click", function () {
+    if (yes) {
 
-                popup.remove();
+        yes.addEventListener("click", function () {
 
-                mediaSeek(saved);
-                updateUI();
-                mediaPlay();
-            });
-        }
+            popup.remove();
 
-        if (no) {
+            restoreReadingPosition();
 
-            no.addEventListener("click", function () {
-
-                localStorage.removeItem(positionKey);
-
-                popup.remove();
-
-                mediaSeek(0);
-                updateUI();
-            });
-        }
+            setTimeout(function () {
+                scrollTrackingReady = true;
+            }, 400);
+        });
     }
 
+    if (no) {
 
-    /* =====================================================
-       LƯỢT XEM (SUPABASE)
-    ===================================================== */
+        no.addEventListener("click", function () {
 
-    async function increaseMovieView() {
+            localStorage.removeItem(readingPositionKey);
+            localStorage.removeItem(audioPositionKey);
 
-        if (!movieUnlocked) {
+            const audio = document.querySelector("audio");
+
+            if (audio) {
+
+                try {
+                    audio.currentTime = 0;
+                    audio.pause();
+                } catch (error) {
+                    console.warn("Không thể đưa audio về đầu:", error);
+                }
+            }
+
+            window.scrollTo({
+                top: 0,
+                behavior: "auto"
+            });
+
+            popup.remove();
+
+            scrollTrackingReady = true;
+        });
+    }
+}
+
+/* =========================================================
+   SCROLL
+========================================================= */
+
+let saveScrollTimer = null;
+
+window.addEventListener("scroll", function () {
+
+    if (!storyUnlocked) {
+        return;
+    }
+
+    if (!scrollTrackingReady) {
+        return;
+    }
+
+    if (saveScrollTimer) {
+        clearTimeout(saveScrollTimer);
+    }
+
+    saveScrollTimer = setTimeout(saveReadingPosition, 500);
+
+}, { passive: true });
+
+/* =========================================================
+   SUPABASE - TĂNG LƯỢT XEM
+========================================================= */
+
+async function increaseStoryView() {
+
+    if (!storyUnlocked) {
+        return;
+    }
+
+    if (
+        !SUPABASE_URL ||
+        !SUPABASE_ANON_KEY ||
+        SUPABASE_URL.includes("YOUR-PROJECT")
+    ) {
+        return;
+    }
+
+    if (sessionStorage.getItem(readingSessionKey)) {
+        return;
+    }
+
+    try {
+
+        const response = await fetch(
+            SUPABASE_URL + "/rest/v1/rpc/increment_story_view",
+            {
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json",
+                    "apikey": SUPABASE_ANON_KEY,
+                    "Authorization": "Bearer " + SUPABASE_ANON_KEY
+                },
+
+                body: JSON.stringify({
+                    story_id: String(storyId)
+                })
+            }
+        );
+
+        if (response.ok) {
+            sessionStorage.setItem(readingSessionKey, "1");
+        }
+
+    } catch (error) {
+
+        console.warn("Không thể tăng lượt xem:", error);
+    }
+}
+
+/* =========================================================
+   POPUP XÔI THỊT
+========================================================= */
+
+function initXoiThitPopup() {
+
+    const popup = document.getElementById("xoiThitPopup");
+
+    if (!popup) {
+        return;
+    }
+
+    const yes = document.getElementById("xoiThitYes");
+    const no = document.getElementById("xoiThitNo");
+
+    if (yes) {
+
+        yes.addEventListener("click", function () {
+            window.location.href = "https://tiemnhamiumiu.neocities.org/";
+        });
+    }
+
+    if (no) {
+
+        no.addEventListener("click", function () {
+            popup.style.display = "none";
+        });
+    }
+}
+
+/* =========================================================
+   LINK NỘI BỘ
+========================================================= */
+
+function initInternalNavigation() {
+
+    document.addEventListener("click", function (event) {
+
+        const link = event.target.closest("a");
+
+        if (!link) {
             return;
         }
 
+        const href = link.getAttribute("href");
+
         if (
-            !SUPABASE_URL ||
-            !SUPABASE_ANON_KEY ||
-            SUPABASE_URL.includes("YOUR-PROJECT")
+            !href ||
+            href.startsWith("#") ||
+            href.startsWith("javascript:") ||
+            href.startsWith("http://") ||
+            href.startsWith("https://")
         ) {
             return;
         }
 
-        if (sessionStorage.getItem(viewSessionKey)) {
+        saveReadingPosition();
+    });
+}
+
+/* =========================================================
+   AUDIO MARKER
+========================================================= */
+
+function initAudioMarkers() {
+
+    const audioCards = document.querySelectorAll("[data-audio]");
+
+    if (!audioCards.length) {
+        return;
+    }
+
+    audioCards.forEach(function (card) {
+
+        const markerButton = card.querySelector("#markerBtn");
+
+        if (!markerButton) {
             return;
         }
 
-        try {
+        markerButton.addEventListener("click", function (event) {
 
-            const response = await fetch(
-                SUPABASE_URL + "/rest/v1/rpc/increment_story_view",
-                {
-                    method: "POST",
+            event.stopPropagation();
 
-                    headers: {
-                        "Content-Type": "application/json",
-                        "apikey": SUPABASE_ANON_KEY,
-                        "Authorization": "Bearer " + SUPABASE_ANON_KEY
-                    },
+            const audio = document.querySelector("audio");
 
-                    body: JSON.stringify({
-                        story_id: String(movieId)
-                    })
-                }
-            );
-
-            if (response.ok) {
-                sessionStorage.setItem(viewSessionKey, "1");
-            }
-
-        } catch (error) {
-
-            console.warn("Không thể tăng lượt xem:", error);
-        }
-    }
-
-
-    /* =====================================================
-       ĐIỀU KHIỂN PLAYER YOUTUBE
-    ===================================================== */
-
-    function mediaPlay() {
-
-        if (player && movieUnlocked) {
-            player.playVideo();
-        }
-    }
-
-    function mediaPause() {
-
-        if (player) {
-            player.pauseVideo();
-        }
-    }
-
-    function mediaSeek(seconds) {
-
-        if (!player || !Number.isFinite(seconds)) {
-            return;
-        }
-
-        const duration = mediaGetDuration();
-
-        seconds = Math.max(0, seconds);
-
-        if (duration > 0) {
-            seconds = Math.min(seconds, duration);
-        }
-
-        player.seekTo(seconds, true);
-    }
-
-    function mediaGetCurrentTime() {
-
-        try {
-            return (player && player.getCurrentTime()) || 0;
-        } catch (error) {
-            return 0;
-        }
-    }
-
-    function mediaGetDuration() {
-
-        try {
-            return (player && player.getDuration()) || 0;
-        } catch (error) {
-            return 0;
-        }
-    }
-
-    function mediaSetSpeed(speed) {
-
-        if (!player) {
-            return;
-        }
-
-        try {
-            player.setPlaybackRate(speed);
-        } catch (error) {
-            console.warn("Không đổi được tốc độ:", error);
-        }
-    }
-
-    function togglePlay() {
-
-        if (!mediaReady || !movieUnlocked) {
-            return;
-        }
-
-        if (isYouTubePlaying()) {
-            mediaPause();
-        } else {
-            mediaPlay();
-        }
-    }
-
-
-    /* =====================================================
-       CẬP NHẬT GIAO DIỆN
-    ===================================================== */
-
-    function setProgressVisual(percent) {
-
-        if (!progress) {
-            return;
-        }
-
-        progress.style.setProperty("--p", percent + "%");
-    }
-
-    function updateUI() {
-
-        if (!mediaReady) {
-            return;
-        }
-
-        const current = mediaGetCurrentTime();
-        const duration = mediaGetDuration();
-
-        if (currentTimeEl) {
-            currentTimeEl.textContent = formatTime(current);
-        }
-
-        if (durationEl) {
-            durationEl.textContent = formatTime(duration);
-        }
-
-        if (progress && !isDragging) {
-
-            let percent = 0;
-
-            if (duration > 0) {
-                percent = (current / duration) * 100;
-            }
-
-            percent = Math.max(0, Math.min(100, percent));
-
-            progress.value = String(percent);
-
-            setProgressVisual(percent);
-        }
-    }
-
-    function startUpdating() {
-
-        stopUpdating();
-
-        saveCounter = 0;
-
-        updateTimer = setInterval(function () {
-
-            updateUI();
-
-            saveCounter++;
-
-            /* Lưu vị trí mỗi ~5 giây */
-            if (saveCounter >= 20) {
-                saveCounter = 0;
-                savePosition();
-            }
-
-        }, 250);
-    }
-
-    function stopUpdating() {
-
-        if (updateTimer) {
-            clearInterval(updateTimer);
-            updateTimer = null;
-        }
-    }
-
-    function onMediaStartedPlaying() {
-
-        /* Chưa mở khóa mà video lỡ chạy: dừng ngay */
-        if (!movieUnlocked) {
-            mediaPause();
-            return;
-        }
-
-        card.classList.add("is-playing");
-
-        everPlayed = true;
-        scheduleHideHud();
-
-        if (playBtn) {
-            playBtn.textContent = "⏸";
-        }
-
-        if (overlayBtn) {
-            overlayBtn.textContent = "⏸";
-        }
-
-        /* YouTube hay reset tốc độ khi bắt đầu phát */
-        mediaSetSpeed(currentSpeed);
-
-        startUpdating();
-    }
-
-    function onMediaStoppedPlaying() {
-
-        card.classList.remove("is-playing");
-
-        /* Tạm dừng: giữ thanh điều khiển luôn hiện */
-        if (everPlayed) {
-            showHud();
-        }
-
-        if (playBtn) {
-            playBtn.textContent = "▶";
-        }
-
-        if (overlayBtn) {
-            overlayBtn.textContent = "▶";
-        }
-
-        stopUpdating();
-
-        updateUI();
-
-        savePosition();
-    }
-
-
-    /* =====================================================
-       MEDIA SESSION (điều khiển ở màn hình khóa)
-    ===================================================== */
-
-    function setupMediaSession() {
-
-        if (!("mediaSession" in navigator)) {
-            return;
-        }
-
-        const title =
-            (titleEl && titleEl.textContent.trim()) ||
-            document.title ||
-            "Xem phim";
-
-        try {
-
-            navigator.mediaSession.metadata = new MediaMetadata({
-                title: title,
-                artist: "Xem phim online"
-            });
-
-            navigator.mediaSession.setActionHandler("play", mediaPlay);
-            navigator.mediaSession.setActionHandler("pause", mediaPause);
-
-            navigator.mediaSession.setActionHandler("seekbackward", function () {
-                mediaSeek(mediaGetCurrentTime() - 10);
-            });
-
-            navigator.mediaSession.setActionHandler("seekforward", function () {
-                mediaSeek(mediaGetCurrentTime() + 10);
-            });
-
-            navigator.mediaSession.setActionHandler("seekto", function (details) {
-
-                if (details && Number.isFinite(details.seekTime)) {
-                    mediaSeek(details.seekTime);
-                }
-            });
-
-        } catch (error) {
-
-            console.warn("Trình duyệt không hỗ trợ đầy đủ Media Session API:", error);
-        }
-    }
-
-
-    /* =====================================================
-       TẠO PLAYER YOUTUBE
-    ===================================================== */
-
-    function createYouTubePlayer() {
-
-        if (player || !window.YT || !window.YT.Player) {
-            return;
-        }
-
-        const playerVars = {
-            autoplay: 0,
-            controls: 0,
-            disablekb: 1,
-            fs: 0,
-            iv_load_policy: 3,
-            modestbranding: 1,
-            playsinline: 1,
-            rel: 0,
-            enablejsapi: 1
-        };
-
-        if (/^https?:$/.test(window.location.protocol)) {
-            playerVars.origin = window.location.origin;
-        }
-
-        player = new YT.Player("youtubePlayer", {
-
-            videoId: videoId,
-
-            playerVars: playerVars,
-
-            events: {
-                onReady: onPlayerReady,
-                onStateChange: onPlayerStateChange,
-                onError: onPlayerError
-            }
-        });
-    }
-
-    function onPlayerReady() {
-
-        mediaReady = true;
-
-        card.classList.remove("is-loading");
-
-        mediaSetSpeed(currentSpeed);
-
-        updateUI();
-
-        setupMediaSession();
-
-        maybeShowResume();
-    }
-
-    function onPlayerStateChange(event) {
-
-        if (!player || !window.YT) {
-            return;
-        }
-
-        switch (event.data) {
-
-            case YT.PlayerState.PLAYING:
-                onMediaStartedPlaying();
-                break;
-
-            case YT.PlayerState.PAUSED:
-                onMediaStoppedPlaying();
-                break;
-
-            case YT.PlayerState.ENDED:
-                localStorage.removeItem(positionKey);
-                onMediaStoppedPlaying();
-                break;
-        }
-    }
-
-    function onPlayerError(event) {
-
-        console.error("YouTube Player Error:", event.data);
-
-        card.classList.remove("is-loading");
-
-        if (event.data === 101 || event.data === 150) {
-            showMovieError("Video này không cho phép nhúng. Hãy bật cho phép nhúng trong YouTube Studio hoặc dùng video khác.");
-            return;
-        }
-
-        if (event.data === 100) {
-            showMovieError("Video không còn tồn tại hoặc đang ở chế độ riêng tư.");
-            return;
-        }
-
-        showMovieError("Không phát được video. Hãy tải lại trang hoặc thử lại sau.");
-    }
-
-    function loadYouTubeAPI() {
-
-        if (window.YT && window.YT.Player) {
-            createYouTubePlayer();
-            return;
-        }
-
-        if (document.querySelector('script[src="https://www.youtube.com/iframe_api"]')) {
-            return;
-        }
-
-        const oldCallback = window.onYouTubeIframeAPIReady;
-
-        window.onYouTubeIframeAPIReady = function () {
-
-            if (typeof oldCallback === "function") {
-
-                try {
-                    oldCallback();
-                } catch (error) {
-                    console.error(error);
-                }
-            }
-
-            createYouTubePlayer();
-        };
-
-        const script = document.createElement("script");
-
-        script.src = "https://www.youtube.com/iframe_api";
-        script.async = true;
-
-        document.head.appendChild(script);
-    }
-
-
-    /* =====================================================
-       NÚT ĐIỀU KHIỂN
-    ===================================================== */
-
-    /* ---------- Thanh điều khiển nổi trên video ---------- */
-
-    function showHud() {
-
-        clearTimeout(hudTimer);
-
-        card.classList.add("hud-show");
-    }
-
-    function hideHud() {
-
-        clearTimeout(hudTimer);
-
-        card.classList.remove("hud-show");
-    }
-
-    /* Đang phát thì tự ẩn sau vài giây, đang dừng thì giữ nguyên */
-    function scheduleHideHud() {
-
-        clearTimeout(hudTimer);
-
-        if (!card.classList.contains("hud-show")) {
-            return;
-        }
-
-        if (!isYouTubePlaying()) {
-            return;
-        }
-
-        hudTimer = setTimeout(hideHud, HUD_HIDE_DELAY);
-    }
-
-    function onScreenTap() {
-
-        /* Chưa toàn màn hình: chạm vào video = phát / tạm dừng như cũ */
-        if (!card.classList.contains("fs-on")) {
-            togglePlay();
-            return;
-        }
-
-        /* Toàn màn hình, chưa từng phát: chạm = bắt đầu phát */
-        if (!everPlayed) {
-            togglePlay();
-            return;
-        }
-
-        if (card.classList.contains("hud-show")) {
-
-            /* Đang phát thì chạm lần nữa sẽ ẩn, đang dừng thì giữ */
-            if (isYouTubePlaying()) {
-                hideHud();
-            }
-
-            return;
-        }
-
-        showHud();
-        scheduleHideHud();
-    }
-
-    /* Vào toàn màn hình: đưa thanh điều khiển vào trong video (ẩn sẵn).
-       Thoát ra: trả thanh điều khiển về chỗ cũ dưới video. */
-
-    let hudHome = null;
-    let hudHomeNext = null;
-
-    function updateFullscreenLabel() {
-
-        const current =
-            document.fullscreenElement ||
-            document.webkitFullscreenElement;
-
-        const hud = document.getElementById("movieHud");
-
-        if (fullscreenBtn) {
-            fullscreenBtn.textContent = current
-                ? "⤡ Thu nhỏ màn hình"
-                : "⛶ Toàn màn hình";
-        }
-
-        if (!hud || !screenEl) {
-            return;
-        }
-
-        if (current === screenEl) {
-
-            if (hud.parentNode !== screenEl) {
-                hudHome = hud.parentNode;
-                hudHomeNext = hud.nextSibling;
-                screenEl.appendChild(hud);
-            }
-
-            hud.classList.add("in-screen");
-            card.classList.add("fs-on");
-            card.classList.remove("hud-show");
-
-        } else {
-
-            clearTimeout(hudTimer);
-
-            hud.classList.remove("in-screen");
-            card.classList.remove("fs-on");
-            card.classList.remove("hud-show");
-
-            if (hudHome && hud.parentNode !== hudHome) {
-                hudHome.insertBefore(hud, hudHomeNext);
-            }
-        }
-    }
-
-    function initControls() {
-
-        /* ---------- Chạm vào màn hình: hiện thanh điều khiển ---------- */
-
-        if (overlay) {
-            overlay.addEventListener("click", onScreenTap);
-        }
-
-        /* Thao tác trên thanh điều khiển thì gia hạn thời gian hiện */
-
-        const hud = document.getElementById("movieHud");
-
-        if (hud) {
-
-            ["click", "touchstart", "input"].forEach(function (name) {
-
-                hud.addEventListener(name, function () {
-                    scheduleHideHud();
-                }, { passive: true });
-
-            });
-        }
-
-        document.addEventListener("fullscreenchange", updateFullscreenLabel);
-        document.addEventListener("webkitfullscreenchange", updateFullscreenLabel);
-
-        if (playBtn) {
-            playBtn.addEventListener("click", togglePlay);
-        }
-
-        /* ---------- Tua 10 giây ---------- */
-
-        if (back10Btn) {
-
-            back10Btn.addEventListener("click", function () {
-
-                if (!mediaReady || !movieUnlocked) {
-                    return;
-                }
-
-                mediaSeek(mediaGetCurrentTime() - 10);
-                updateUI();
-                savePosition();
-            });
-        }
-
-        if (forward10Btn) {
-
-            forward10Btn.addEventListener("click", function () {
-
-                if (!mediaReady || !movieUnlocked) {
-                    return;
-                }
-
-                mediaSeek(mediaGetCurrentTime() + 10);
-                updateUI();
-                savePosition();
-            });
-        }
-
-        /* ---------- Thanh tiến trình ---------- */
-
-        if (progress) {
-
-            progress.min = "0";
-            progress.max = "100";
-            progress.step = "0.1";
-            progress.value = "0";
-
-            progress.addEventListener("pointerdown", function () {
-                isDragging = true;
-            });
-
-            progress.addEventListener("input", function () {
-
-                isDragging = true;
-
-                if (!mediaReady) {
-                    return;
-                }
-
-                const percent = parseFloat(progress.value);
-                const duration = mediaGetDuration();
-
-                if (!Number.isFinite(percent) || duration <= 0) {
-                    return;
-                }
-
-                const seconds = duration * (percent / 100);
-
-                setProgressVisual(percent);
-
-                if (currentTimeEl) {
-                    currentTimeEl.textContent = formatTime(seconds);
-                }
-
-                if (bubble) {
-                    bubble.textContent = formatTime(seconds);
-                    bubble.style.left = percent + "%";
-                    bubble.style.opacity = "1";
-                }
-            });
-
-            /* "change" chỉ bắn khi người dùng thả tay */
-            progress.addEventListener("change", function () {
-
-                if (mediaReady && movieUnlocked) {
-
-                    const percent = parseFloat(progress.value);
-                    const duration = mediaGetDuration();
-
-                    if (Number.isFinite(percent) && duration > 0) {
-                        mediaSeek(duration * (percent / 100));
-                        savePosition();
-                    }
-                }
-
-                isDragging = false;
-
-                if (bubble) {
-
-                    setTimeout(function () {
-                        bubble.style.opacity = "0";
-                    }, 500);
-                }
-            });
-
-            progress.addEventListener("pointercancel", function () {
-
-                isDragging = false;
-
-                if (bubble) {
-                    bubble.style.opacity = "0";
-                }
-            });
-        }
-
-        /* ---------- Tốc độ ---------- */
-
-        const savedSpeed = parseFloat(localStorage.getItem(speedKey));
-
-        if (SPEEDS.indexOf(savedSpeed) !== -1) {
-            currentSpeed = savedSpeed;
-        }
-
-        const speedButtons = card.querySelectorAll(".speed-btn");
-
-        function markActiveSpeed() {
-
-            speedButtons.forEach(function (btn) {
-
-                const value = parseFloat(btn.getAttribute("data-speed"));
-
-                btn.classList.toggle("active", value === currentSpeed);
-            });
-        }
-
-        markActiveSpeed();
-
-        speedButtons.forEach(function (button) {
-
-            button.addEventListener("click", function () {
-
-                const speed = parseFloat(button.getAttribute("data-speed"));
-
-                if (!Number.isFinite(speed)) {
-                    return;
-                }
-
-                currentSpeed = speed;
-
-                localStorage.setItem(speedKey, String(speed));
-
-                if (mediaReady) {
-                    mediaSetSpeed(speed);
-                }
-
-                markActiveSpeed();
-            });
-        });
-
-        /* ---------- Mốc xem ---------- */
-
-        const markerAttr = card.getAttribute("data-marker");
-        const markerSeconds = parseTime(markerAttr);
-
-        if (!markerAttr || markerSeconds <= 0) {
-
-            if (markerBox) {
-                markerBox.style.display = "none";
-            }
-
-        } else {
-
-            if (markerTimeEl) {
-
-                markerTimeEl.textContent =
-                    card.getAttribute("data-marker-label") ||
-                    formatTime(markerSeconds);
-            }
-
-            if (markerBtn) {
-
-                markerBtn.addEventListener("click", function () {
-
-                    if (!mediaReady || !movieUnlocked) {
-                        return;
-                    }
-
-                    mediaSeek(markerSeconds);
-                    updateUI();
-                    mediaPlay();
-                });
-            }
-        }
-
-        /* ---------- Toàn màn hình ---------- */
-
-        if (fullscreenBtn) {
-
-            const canFullscreen =
-                document.fullscreenEnabled ||
-                document.webkitFullscreenEnabled;
-
-            if (!canFullscreen || !screenEl) {
-
-                fullscreenBtn.style.display = "none";
-
-            } else {
-
-                fullscreenBtn.addEventListener("click", function () {
-
-                    const current =
-                        document.fullscreenElement ||
-                        document.webkitFullscreenElement;
-
-                    if (current) {
-
-                        const exit =
-                            document.exitFullscreen ||
-                            document.webkitExitFullscreen;
-
-                        if (exit) {
-                            exit.call(document);
-                        }
-
-                        return;
-                    }
-
-                    const request =
-                        screenEl.requestFullscreen ||
-                        screenEl.webkitRequestFullscreen;
-
-                    if (request) {
-                        request.call(screenEl);
-                    }
-                });
-            }
-        }
-    }
-
-
-    /* =====================================================
-       POPUP XÔI THỊT
-    ===================================================== */
-
-    function initXoiThitPopup() {
-
-        const link = document.getElementById("xoiThitLink");
-        const popup = document.getElementById("xoiThitPopup");
-        const yes = document.getElementById("xoiThitYes");
-        const no = document.getElementById("xoiThitNo");
-
-        if (!link || !popup) {
-            return;
-        }
-
-        link.addEventListener("click", function (event) {
-
-            event.preventDefault();
-
-            popup.style.display = "flex";
-        });
-
-        if (yes) {
-
-            yes.addEventListener("click", function () {
-                window.location.href = XOI_THIT_URL;
-            });
-        }
-
-        if (no) {
-
-            no.addEventListener("click", function () {
-                popup.style.display = "none";
-            });
-        }
-
-        popup.addEventListener("click", function (event) {
-
-            if (event.target === popup) {
-                popup.style.display = "none";
-            }
-        });
-    }
-
-
-    /* =====================================================
-       LƯU VỊ TRÍ KHI RỜI TRANG / ẨN TAB
-    ===================================================== */
-
-    function initSaveOnLeave() {
-
-        /* Bấm link nội bộ: lưu ngay trước khi chuyển trang */
-        document.addEventListener("click", function (event) {
-
-            const link = event.target.closest("a[href]");
-
-            if (!link || link.target === "_blank" || event.defaultPrevented) {
+            if (!audio) {
                 return;
             }
 
-            savePosition();
+            const marker = Number(card.dataset.marker);
 
-        }, true);
-
-        window.addEventListener("pagehide", function () {
-            savePosition();
-            stopWatchTimer();
-        });
-
-        document.addEventListener("visibilitychange", function () {
-
-            if (document.visibilityState === "hidden") {
-
-                savePosition();
-
-            } else {
-
-                lastTick = Date.now();
+            if (!Number.isFinite(marker)) {
+                return;
             }
+
+            audio.currentTime = marker;
+
+            audio.play().catch(function () {});
         });
+    });
+}
+
+function initAudio() {
+
+    const audio = document.querySelector("audio");
+
+    if (!audio) {
+        return;
     }
 
+    restoreAudioPosition();
 
-    /* =====================================================
-       KHỞI TẠO
-    ===================================================== */
+    audio.addEventListener("timeupdate", function () {
+        saveAudioPosition(audio);
+    });
 
-    function init() {
+    window.addEventListener("beforeunload", function () {
+        saveAudioPosition(audio);
+    });
+}
 
-        /* Android + trình duyệt Facebook/Messenger: tự mở Chrome */
-        if (isMessengerBrowser() && isAndroid()) {
-            openInChrome();
-        }
+/* =========================================================
+   TỰ ĐỘNG TẠO ĐIỂM ĐÁNH DẤU FACEBOOK
 
-        resetDailyDataIfNeeded();
+   - Truyện cũ: đã có <div id="facebook-point"></div> → giữ nguyên
+   - Truyện mới: không có thẻ div → tự tìm dòng ***** đầu tiên
+     trong #story và gắn id="facebook-point" vào đó
+========================================================= */
 
-        card.classList.add("is-loading");
+function initFacebookPoint() {
 
-        initControls();
-
-        if (isFacebookAdsCompletedToday() || isUnlockedToday()) {
-
-            markUnlockedToday();
-            unlockMovie();
-
-        } else {
-
-            lockMovie();
-            startFacebookAdFlow();
-        }
-
-        /* Đang mở bằng trình duyệt Facebook/Messenger: yêu cầu chuyển sang
-           Chrome/Safari (hiện cả với người đã mở khóa, popup chặn phía sau) */
-        showMessengerNotice();
-
-        initXoiThitPopup();
-        initBackgroundRedirect();
-        initSaveOnLeave();
-
-        startWatchTimer();
-
-        loadYouTubeAPI();
+    /* Truyện cũ đã tự đặt thẻ div → không làm gì */
+    if (document.getElementById("facebook-point")) {
+        return;
     }
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", init);
+    const story = document.getElementById("story");
+
+    if (!story) {
+        return;
+    }
+
+    const walker = document.createTreeWalker(story, NodeFilter.SHOW_TEXT);
+
+    let node;
+
+    while ((node = walker.nextNode())) {
+
+        const match = /\*{3,}/.exec(node.nodeValue);
+
+        if (!match) {
+            continue;
+        }
+
+        /* Tách riêng đoạn ***** ra thành 1 text node */
+        const markerNode = node.splitText(match.index);
+
+        markerNode.splitText(match[0].length);
+
+        /* Bọc đoạn ***** bằng span có id facebook-point */
+        const span = document.createElement("span");
+
+        span.id = "facebook-point";
+
+        markerNode.parentNode.insertBefore(span, markerNode);
+        span.appendChild(markerNode);
+
+        /* Nếu người dùng vào thẳng link có #facebook-point thì cuộn tới luôn */
+        if (window.location.hash === "#facebook-point") {
+            span.scrollIntoView();
+        }
+
+        return;
+    }
+}
+
+/* =========================================================
+   KHỞI TẠO
+========================================================= */
+
+function initReader() {
+
+    initFacebookPoint();
+
+    resetDailyDataIfNeeded();
+
+    if (isFacebookAdsCompletedToday() || isUnlockedToday()) {
+
+        markUnlockedToday();
+        unlockStory();
+
     } else {
-        init();
+
+        lockStory();
+        startFacebookAdFlow();
+
+        /* Đang mở bằng Messenger: báo người đọc chuyển sang trình duyệt */
+        showMessengerNotice();
     }
 
-})();
+    initXoiThitPopup();
+    initRedirectButtons();
+    initBackgroundRedirect();
+    initInternalNavigation();
+    initAudioMarkers();
+    initAudio();
+
+    startActiveTime();
+
+    if (storyUnlocked) {
+
+        setTimeout(function () {
+            showResumePopup();
+        }, 800);
+    }
+}
+
+/* =========================================================
+   LƯU TRƯỚC KHI RỜI TRANG
+========================================================= */
+
+window.addEventListener("beforeunload", function () {
+
+    saveReadingPosition();
+    stopActiveTime();
+
+    const audio = document.querySelector("audio");
+
+    if (audio) {
+        saveAudioPosition(audio);
+    }
+});
+
+/* =========================================================
+   KHI TAB HIỆN / ẨN
+========================================================= */
+
+document.addEventListener("visibilitychange", function () {
+
+    if (document.visibilityState === "visible") {
+
+        lastActiveTimestamp = Date.now();
+
+    } else {
+
+        saveReadingPosition();
+
+        const audio = document.querySelector("audio");
+
+        if (audio) {
+            saveAudioPosition(audio);
+        }
+    }
+});
+
+/* =========================================================
+   CHỜ DOM
+========================================================= */
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initReader);
+} else {
+    initReader();
+}
