@@ -502,6 +502,178 @@ xoiThitPopup.addEventListener(
   }
 );
 
+
+</script>
+<script src="../codetruyen/script.js"></script>
+<!-- ==================================================
+     BẢNG YÊU CẦU MỞ BẰNG CHROME / SAFARI
+     (khi đang mở trong trình duyệt Facebook / Messenger)
+================================================== -->
+<style>
+  .movie-popup-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.92);
+  }
+  .movie-popup-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 24px 20px;
+    border-radius: 18px;
+    background: #181818;
+    border: 1px solid #2a2a2a;
+    color: #eee;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  }
+  .movie-popup-icon { font-size: 52px; line-height: 1; }
+  .movie-popup-title {
+    margin: 12px 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ff5a1f;
+  }
+  .movie-popup-text { font-size: 15px; line-height: 1.6; color: #ccc; }
+  .movie-popup-steps {
+    margin: 16px 0;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: #101010;
+    border: 1px solid #262626;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #bbb;
+    text-align: left;
+  }
+  .movie-popup-buttons { display: flex; flex-direction: column; gap: 10px; }
+  .movie-popup-btn {
+    width: 100%;
+    padding: 14px;
+    border: 0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .movie-popup-btn.primary { background: #ff5a1f; color: #fff; }
+  .movie-popup-btn.secondary { background: #262626; color: #ddd; }
+</style>
+
+<script>
+(function () {
+  "use strict";
+
+  /* true = Android tự mở Chrome luôn, false = chỉ hiện bảng */
+  const AUTO_OPEN_CHROME = true;
+
+  const ua = navigator.userAgent || navigator.vendor || "";
+
+  const isMessengerBrowser = /FB_IAB|FBAN|FBAV|Messenger|Orca-Android/i.test(ua);
+  const isAndroid = /Android/i.test(ua);
+
+  if (!isMessengerBrowser) return;
+
+  function openInChrome() {
+    const url = window.location;
+    window.location.href =
+      "intent://" + url.host + url.pathname + url.search +
+      "#Intent;scheme=https;package=com.android.chrome;" +
+      "S.browser_fallback_url=" + encodeURIComponent(url.href) +
+      ";end";
+  }
+
+  function copyPageLink(button) {
+    const url = window.location.href;
+
+    const done = function () {
+      button.textContent = "✓ Đã sao chép link";
+      setTimeout(function () {
+        button.textContent = "📋 Sao chép link";
+      }, 2000);
+    };
+
+    const fallback = function () {
+      try {
+        const input = document.createElement("textarea");
+        input.value = url;
+        input.style.cssText = "position:fixed;left:-10000px;top:0;";
+        document.body.appendChild(input);
+        input.focus();
+        input.select();
+        document.execCommand("copy");
+        input.remove();
+        done();
+      } catch (e) {
+        alert("Không thể tự sao chép. Link:\n" + url);
+      }
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done).catch(fallback);
+    } else {
+      fallback();
+    }
+  }
+
+  function showNotice() {
+    if (document.getElementById("messengerNoticePopup")) return;
+
+    const chromeButton = isAndroid
+      ? '<button id="messengerChromeBtn" class="movie-popup-btn primary" type="button">🌐 Mở bằng Chrome</button>'
+      : "";
+
+    const copyClass = isAndroid ? "secondary" : "primary";
+
+    const popup = document.createElement("div");
+    popup.id = "messengerNoticePopup";
+    popup.className = "movie-popup-overlay";
+
+    popup.innerHTML = `
+      <div class="movie-popup-box" role="dialog" aria-modal="true">
+        <div class="movie-popup-icon">⚠️</div>
+        <div class="movie-popup-title">Bạn đang mở bằng trình duyệt Facebook</div>
+        <div class="movie-popup-text">
+          Trình duyệt trong Facebook / Messenger <strong>không ghi nhận được quảng cáo Shopee</strong>,
+          nên bạn sẽ không mở khóa được truyện.
+          Hãy chuyển sang Chrome / Safari để xem bình thường.
+        </div>
+        <div class="movie-popup-steps">
+          <b>Cách chuyển:</b><br>
+          1. Bấm nút <b>⋯ (3 chấm)</b> ở góc trên bên phải<br>
+          2. Chọn <b>"Mở trong trình duyệt"</b><br>
+          &nbsp;&nbsp;&nbsp;(hoặc <b>"Mở bằng Chrome" / "Mở bằng Safari"</b>)
+        </div>
+        <div class="movie-popup-buttons">
+          ${chromeButton}
+          <button id="messengerCopyBtn" class="movie-popup-btn ${copyClass}" type="button">
+            📋 Sao chép link
+          </button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(popup);
+
+    const copyBtn = document.getElementById("messengerCopyBtn");
+    const chromeBtn = document.getElementById("messengerChromeBtn");
+
+    if (copyBtn) copyBtn.addEventListener("click", function () { copyPageLink(copyBtn); });
+    if (chromeBtn) chromeBtn.addEventListener("click", openInChrome);
+  }
+
+  if (AUTO_OPEN_CHROME && isAndroid) openInChrome();
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", showNotice);
+  } else {
+    showNotice();
+  }
+})();
 </script>
 </body>
 </html>
