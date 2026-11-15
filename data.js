@@ -24559,6 +24559,207 @@ Dẫu vậy, Diễm Miểu vẫn chưa chịu hài lòng.
 Tôn ma ma hơi ngập ngừng: “... Vâng, đại tiểu thư.”
 
 Ta ngơ ngác: “... Không phải chứ, lại ném nữa à??”`
+  },{
+    id: 1193,
+    title: "Nước Mắt Đêm Tuyết Đầu Mùa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/d87ba556c2738f1b767b7434fa91c19f.jpg",
+    link: "ngontinh/nuoc-mat-dem-tuyet-dau-mua.html",
+    type: "ngontinh",
+    desc: `Đã ba năm trôi qua kể từ ngày tôi và Chu Thừa Lâm giữ mối quan hệ mập mờ, giấu giếm này, vậy mà anh ấy vẫn chẳng có chút ý định nào muốn công khai.
+
+Trong một buổi tụ tập đông người, có kẻ tếu táo trêu ghẹo: “Anh Lâm này, Tĩnh Chi xinh đẹp thế kia, mấy năm nay anh thật sự chưa từng rung động chút nào sao?”
+
+Tôi lặng lẽ nhìn anh ấy đang nâng ly cụng với mọi người, trong lòng chợt dấy lên một chút mong chờ mơ hồ.
+
+Một niềm hy vọng nhỏ nhoi, mơ hồ đến mức chính tôi cũng chưa dám gọi tên.
+
+Anh ấy hờ hững ngả lưng vào ghế, không buồn đổi sắc mặt, rồi cất giọng lãnh đạm: “Đừng nói bậy. Tôi với Tĩnh Chi chỉ là bạn bè trong sáng thôi.”
+
+Tôi nghẹn lại một nhịp, không nói được lời nào.
+
+Rồi chẳng hiểu sao, mọi thứ bỗng trở nên nực cười đến mức tôi bật cười nhạt, rồi mở miệng đáp lại: “Đúng đấy, từ trước đến giờ chúng tôi chỉ là bạn bè bình thường thôi.”
+`
+  },{
+    id: 1194,
+    title: "Bảo Mẫu Nhỏ Của Tổng Tài Bá Đạo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0a685ef255b0582b70930c249f38cb51.jpg",
+    link: "dammy/bao-mau-nho-cua-tong-tai-ba-dao.html",
+    type: "dammy",
+    desc: `Tôi nhận làm bảo mẫu cho một gia đình giàu có chỉ để trang trải chi phí sinh hoạt.
+
+Công việc tuy vất vả nhưng thù lao lại vô cùng hậu hĩnh.
+
+Dì Vương dặn tôi rằng cậu chủ gần đây đang u uất vì chuyện tình cảm không như ý.
+
+Sợ bị sa thải, tôi luôn dốc hết sự chăm chỉ vào công việc.
+
+Bất kể anh đưa ra yêu cầu gì, tôi cũng cố hết sức đáp ứng trọn vẹn.
+
+Cách làm ấy quả nhiên giúp tâm trạng cậu chủ khởi sắc và cởi mở hơn rất nhiều.
+
+Có điều, mọi chuyện hình như đang chệch khỏi quỹ đạo ban đầu.
+
+Tôi ngập ngừng lên tiếng: “Cậu chủ, cuốn sổ tay nhân viên dì Vương giao lại đâu có quy định tôi phải mặc váy lúc làm việc.”
+
+Anh thản nhiên đáp: “Tôi mới bổ sung đấy.”
+
+“Nhưng tôi là nam mà.”
+
+“Nam thì đã sao? Tôi ủng hộ tự do ăn mặc.”
+
+Cuối cùng, tôi đành miễn cưỡng khoác lên người bộ váy hầu gái.
+
+Cậu chủ quả thực không còn vẻ u sầu thường ngày.
+
+Có điều, ánh mắt anh nhìn tôi lúc này sáng quắc lên, chẳng khác nào một con sói đói đang rình mồi.`
+  },{
+    id: 1195,
+    title: "Kẻ Phản Bội Ôm Mộng Đế Vương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ee6ec9689d7f77cab973b5d4f5b2a622.jpg",
+    link: "cotrang/ke-phan-boi-om-mong-de-vuong.html",
+    type: "cotrang",
+    desc: `Giang gia chúng ta mang huyết mạnh đặc biệt, đời này nối đời kia đều tinh thông thuật đoán mệnh, thấu tỏ được cả lẽ sinh tử vô thường của thế nhân.
+
+Đại tỷ có tài phân rõ thiện ác. Nhị tỷ biết trước thọ mệnh dài ngắn của mỗi người. Còn ta thì nhìn thấu được con đường dẫn kẻ khác đến cái chết.
+
+Riêng Tứ muội là đứa trẻ được nhặt về từ thuở nhỏ, lúc nào cũng quấn quýt theo sau ta, nũng nịu gọi tỷ tỷ.
+
+Khi phụ thân qua đời, hoàng đế ban ơn, định hôn sự cho bốn tỷ muội chúng ta.
+
+Trước đại điện nguy nga, đến lượt chọn phu quân, Đại tỷ chọn Vương thúc còn Nhị tỷ chọn Thái tử, bỏ lại hai vị trí Tể tướng và Đại tướng quân.
+
+Tứ muội quỳ xuống, cầu xin ta chỉ điểm xem ai mới là người có kết cục viên mãn nhất.
+
+Ta đưa tay chỉ về phía Tể tướng, nhưng nàng nhất quyết không tin. Nàng vội vã chọn vị thiếu niên tướng quân vốn đã thầm mến ta từ rất lâu.
+
+Nàng tự cho mình thông minh hơn người, cho rằng ta đang giấu giếm ý đồ riêng.
+
+Tứ muội đâu ngờ được rằng, ngay từ lần đầu gặp gỡ, ta đã nhìn thấy cảnh nàng chết trong chính tay ta.
+`
+  },{
+    id: 1196,
+    title: "Sau Đống Đổ Nát",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3d7224622ac2c7381fa4b52208664731.jpg",
+    link: "ngontinh/sau-dong-do-nat.html",
+    type: "ngontinh",
+    desc: `Vào ngày trận động đất xảy ra ở Tây Xuyên, chồng tôi đã nhẫn tâm bỏ mặc tôi để bay sang một thành phố khác, chỉ vì muốn tìm đến ánh trăng sáng của anh ta.
+
+Khi ấy tôi đang bị vùi sâu dưới đống đổ nát, không thể cử động. Trước lúc ý thức chìm hẳn vào khoảng không vô tận, tôi đã gắng hết sức lực còn lại để gửi cho anh ta một tin nhắn: “Hạ Xuyên, ở đây có động đất, em bị vùi bên dưới, xung quanh tối lắm, em sợ lắm...”
+
+Về sau, lực lượng cứu hộ cũng đưa được tôi ra ngoài. Khi đó tôi gửi thêm cho anh ta hai tin nhắn cuối cùng, sau đó bỏ lại chiếc điện thoại ngay trên đống phế tích, không mang theo bên mình.
+
+“Hạ Xuyên, em chịu hết nổi rồi. May mà anh có việc bận phải đi, chứ không thì cả hai chúng ta lẫn đứa bé đều phải chết ở đây.”
+
+“Tốt quá, may mà anh không sao...”
+
+Tôi cố ý làm như vậy, chỉ để anh ta tin chắc rằng tôi đã chết.
+
+Tôi muốn anh ta ngày đêm bị giằng xé, day dứt không yên, phải sống trong hối hận vì đã nhẫn tâm bỏ mặc tôi cùng đứa con còn chưa kịp chào đời.
+
+Tôi còn muốn tận mắt nhìn anh ta rơi những giọt nước mắt đau đớn, phải tự mình gánh chịu sự giày vò từ chính những sai lầm mà anh ta đã gây ra.
+
+Đợi đến lúc thích hợp, tôi sẽ đường đường chính chính xuất hiện trước mặt anh ta, rồi nói với anh ta một câu: “Tôi muốn ly hôn.”
+`
+  },{
+    id: 1197,
+    title: "Kim Chủ Mất Trí Nhớ Bị Ảnh Đế Cài Bẫy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e2bbf5febf741252906dd45b516afb32.jpg",
+    link: "dammy/kim-chu-mat-tri-nho-bi-anh-de-cai-bay.html",
+    type: "dammy",
+    desc: `Nuôi bao một Ảnh đế lạnh lùng đã sang năm thứ ba thì tôi bị ngã đập đầu, mất trí nhớ.
+
+Lúc tôi lờ mờ tỉnh lại, Bùi Giác đang quỳ dưới sàn để cắt móng chân cho tôi.
+
+Chị quản lý ghé qua thăm, tiện thể cho tôi biết một sự thật động trời: tôi vốn là kẻ biến thái thích ngược đãi, từng dùng tiền ép người ta làm tình nhân bí mật của mình.
+
+Lương tâm trỗi dậy, tôi lập tức quyết định trả tự do cho anh.
+
+Ai ngờ Bùi Giác lại chụp lấy chiếc kéo cắt móng chân rồi kề thẳng vào cổ mình.
+
+Ngay khoảnh khắc giọt máu tươi rỉ ra, anh mỉm cười đầy thê lương: “Thẩm Ngu, em chơi chán rồi nên muốn vứt bỏ tôi sao?”
+
+“Trừ khi tôi chết, nếu không cái danh tình phu này, tôi nhất định sẽ làm cả đời!”
+
+Về sau, để trốn sự bám riết của anh, tôi lặng lẽ mua vé đứng, chạy về một vùng quê hẻo lánh ngay trong đêm.
+
+Vừa đến đầu làng, tôi đã thấy màn hình lớn ngoài trời đang phát bài phát biểu nhận giải của Bùi Giác.
+
+“Tôi xin gửi lời cảm ơn đến vợ mình. Nếu không có tình yêu cưỡng ép của anh ấy, sẽ chẳng có tôi của ngày hôm nay.”
+
+“Vợ ơi, trời tối rồi, em về nhà thôi. Tôi và con trai đều đang rất nhớ em.”
+
+Khoan đã, tôi rõ ràng là đàn ông mà, lấy đâu ra con trai?`
+  },{
+    id: 1198,
+    title: "Kiếp Tiên Kiếp Yêu Sư Đồ Tương Phùng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/33fa084bfd81477eca88a684f8e1999d.jpg",
+    link: "cotrang/kiep-tien-kiep-yeu-su-do-tuong-phung.html",
+    type: "cotrang",
+    desc: `“Thần tiên mà cũng biết động tình sao?”
+
+Ta ngước lên nhìn người đàn ông trước mặt. Vạt áo trắng muốt của hắn đã bị chính tay ta xé đến tả tơi.
+
+Đôi mắt vốn lạnh như hoa mai trên đỉnh núi tuyết, giờ đã phủ kín dục vọng mê loạn, giam chặt bóng hình ta trong đó.
+
+Xích tiên trói buộc khiến hắn không còn dùng nổi chút pháp lực nào. Hắn chỉ biết trăn trở, mặc cho ta làm càn trên thân thể mình.
+
+Ta thận trọng ghé sát, đặt một nụ hôn lên môi hắn.
+
+Đây là lần đầu tiên trong đời ta làm chuyện thân mật như vậy. Ta biết rõ liều thuốc tình mình cho hắn uống mạnh đến mức nào, cũng hiểu rằng chỉ lát nữa thôi, dù hắn là vị tiên tôn khiến cả tam giới phải kính sợ thì cũng không thể tự kiềm chế.
+
+Thứ dược tình ấy do chính tay Mị Yêu tỷ tỷ pha chế, liều lượng còn tăng gấp đôi, không ai có thể cưỡng lại hiệu lực của nó.
+
+Vì thế, khi hắn bắt đầu đáp lại, ta lại sinh nghi. Ta không rõ hắn đang hôn ta cuồng nhiệt, hay thực ra chỉ muốn ra tay giết ta.
+
+Bàn tay Tạ Trường Từ siết chặt lấy eo ta, giọng nói vừa khàn đục vừa đầy dục vọng. Lúc ấy hắn chẳng còn chút dáng vẻ tiên nhân cao cao tại thượng nào, mà giống một ác quỷ đang ra sức kéo người ta cùng rơi xuống vực sâu không đáy.
+
+Giữa những nhịp chìm nổi, ta mơ hồ nghe thấy hắn lên tiếng, vẫn là giọng lạnh lùng châm biếm quen thuộc:
+
+“Nghiệt đồ.”`
+  },{
+    id: 1199,
+    title: "Lỡ Trót Bao Nuôi Cậu Ấm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/528fdb23c1bc063e1daf0798231504b6.jpg",
+    link: "ngontinh/lo-trot-bao-nuoi-cau-am.html",
+    type: "ngontinh",
+    desc: `Tôi vốn mắc chứng “khát da”. Kỳ thi đại học căng thẳng vừa khép lại, tôi đã quyết định thuê một người bạn trai để xả bớt áp lực.
+
+Cậu ta có cơ bụng 8 múi săn chắc, vai rộng, eo thon, lại hay mặc chiếc quần thể thao màu xám. Tôi chỉ nhìn một cái là đã mê mẩn.
+
+Cả mùa hè quấn quýt chẳng biết ngượng, rốt cuộc chính tôi là người đề nghị chia tay. Lý do tôi đưa ra nghe cũng khá tệ bạc: “Thầy bói nói em có số khắc chồng.”
+
+Giang Dã nghe xong, vành mắt đỏ lên như sắp khóc: “Anh đi giày Nike mà, đừng chia tay có được không?”
+
+Cậu ta níu kéo vất vả đến thế, tôi vẫn không đổi ý, nhất quyết không mềm lòng.
+
+Đến ngày khai giảng đại học, Giang Dã bước xuống từ một chiếc siêu xe đắt tiền, người khoác toàn đồ hiệu. Cậu ta nhìn tôi, thản nhiên nói: “Bệnh của em khỏi rồi à? Vậy thì đến lượt anh chữa bệnh đấy.”
+
+Tôi đứng chết lặng tại chỗ.
+
+Chẳng lẽ tôi đã lỡ bao nuôi một cậu ấm nhà giàu thật sao?`
+  },{
+    id: 1200,
+    title: "Hệ Thống Ép Buộc Bỏ Trốn",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9ce798b43193e7387ee9372e53494168.jpg",
+    link: "dammy/he-thong-ep-buoc-bo-tron.html",
+    type: "dammy",
+    desc: `Là một omega thuộc hàng kém nhất, tôi vốn tưởng chuỗi ngày làm “chim hoàng yến” bên cạnh Hà Cảnh cứ thế lặng lẽ trôi qua.
+
+Thế nhưng đến năm thứ ba được anh bao nuôi, tôi lại mang thai.`
+  },{
+    id: 1201,
+    title: "Đánh Mất Hôn Phu Lại Thành Thái Tử Phi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5dd76c768aa220d11cce2ac73b6ad52e.jpg",
+    link: "cotrang/danh-mat-hon-phu-lai-thanh-thai-tu-phi.html",
+    type: "cotrang",
+    desc: `Trong cung yến, ta đang cúi đầu thong thả dùng bữa.
+
+Đúng lúc ấy, Tam công chúa, người được hoàng thượng cưng chiều nhất, bỗng bước lên thỉnh chỉ ban hôn.
+
+Ta ngẩng đầu, lòng hiếu kỳ muốn nghe xem nàng định gả cho ai.
+
+Ai ngờ tên người đó vừa rời khỏi miệng nàng, hoàng thượng còn chưa kịp đáp lời, ta đã vội vàng chen vào ngăn lại: “Không được.”
+`
   },
 
 
