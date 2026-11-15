@@ -13,11 +13,11 @@ let scrollTrackingReady = true;
 const FACEBOOK_ADS = {
     shopee: {
         title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02YDpRvt3M6d69wZXC2ucDere3osLuwjYZVbC4M8QmzDcRfEx1vj62NF1xyo9vBocl&id=61594034743775"
+        url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02aU6acafL7nGzahFpkHqLYrvTZUghxMDipwaFC2rfPoLzb8eTiHmhE6AgfJvE98dYl&id=61594034743775"
     },
     shopeefood: {
         title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02ppH49g6tTRatAfugLXKiH1oQwQJGSN3PnRW5CgEWLgUrGbdNU4zC81mR8JyXTTK7l&id=61594034743775"
+        url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02e3VDzgYSw6RMvwdf3okTmefaYYeK8qiezbD7FocGcKK7Rv6CuwBKrXPbMpykQT7ol&id=61594034743775"
     }
 };
 
