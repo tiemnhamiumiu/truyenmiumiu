@@ -11,15 +11,15 @@ let scrollTrackingReady = true;
 ========================================================= */
 
 const FACEBOOK_ADS = {
-    shopee: {
-        title: "Quảng cáo Shopee",
-        url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02aU6acafL7nGzahFpkHqLYrvTZUghxMDipwaFC2rfPoLzb8eTiHmhE6AgfJvE98dYl&id=61594034743775"
-    },
-    shopeefood: {
-        title: "Quảng cáo ShopeeFood",
-        url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02e3VDzgYSw6RMvwdf3okTmefaYYeK8qiezbD7FocGcKK7Rv6CuwBKrXPbMpykQT7ol&id=61594034743775"
-    }
-};
+        shopee: {
+            title: "Quảng cáo Shopee",
+            url: "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZH5V2Br8VyHSxnYNtaDz47FV9ZidnqCW28xinpzASca9WdETixdxBhJ1cqVn8Lz5l&id=61594034743775"
+        },
+        shopeefood: {
+            title: "Quảng cáo ShopeeFood",
+            url: "https://www.facebook.com/permalink.php?story_fbid=pfbid02kY3Ymx9ZdRb2wKNPtMjQFBDWrcs1p56eKMcYUCyMtgZjpHmTNcg5RiHwURS2tdjnl&id=61594034743775"
+        }
+    };
 
 /* =========================================================
    KÍCH THƯỚC THIẾT KẾ CỦA KHUNG FACEBOOK
@@ -64,7 +64,7 @@ const FACEBOOK_VERTICAL_ZOOM = 1.18;
    LINK REDIRECT (mở lần lượt: TikTok -> Lazada)
 ========================================================= */
 
-const TIKTOK_URL = "https://vt.tiktok.com/ZS9ff2HHvvJve-waSqH/";
+const TIKTOK_URL = "https://vt.tiktok.com/ZS9fT21MBdGv8-RJUr5/";
 const LAZADA_URL = "";
 
 /* =========================================================
