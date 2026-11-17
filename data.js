@@ -24760,6 +24760,220 @@ Ta ngẩng đầu, lòng hiếu kỳ muốn nghe xem nàng định gả cho ai.
 
 Ai ngờ tên người đó vừa rời khỏi miệng nàng, hoàng thượng còn chưa kịp đáp lời, ta đã vội vàng chen vào ngăn lại: “Không được.”
 `
+  },{
+    id: 1202,
+    title: "Viên Kẹo Của Số Phận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/346a1d2348d2d513b05192bb442182bf.jpg",
+    link: "ngontinh/vien-keo-cua-so-phan.html",
+    type: "ngontinh",
+    desc: `Phúc Lễ dẫn tôi ra ngoài chơi, nhưng em gái tôi cứ nằng nặc đòi đi theo cho bằng được.
+
+Ai ngờ giữa đường lại đụng phải một đám bắt cóc. Chúng dí họng súng vào em gái tôi, bắt cô ta làm con tin, rồi buộc Phúc Lễ phải đi gom cho đủ tiền chuộc.
+
+Đến tận bây giờ, tôi vẫn không quên được ánh mắt của Phúc Lễ vào đúng khoảnh khắc ấy.
+
+Gương mặt anh cuống quýt, sốt ruột, vội vã thương lượng với bọn bắt cóc: “Có thể đổi người làm con tin không? Cô ấy đang mang thai, tuyệt đối không chịu nổi cú sốc này đâu.”
+
+Nói xong, anh quay sang tôi: “Tiếu Tiếu, anh xin lỗi em. Trong bụng cô ấy là con của anh. Em ở lại thay cô ấy làm con tin nhé.”
+
+Nửa năm sau, tôi thoát khỏi tay bọn bắt cóc và trở về, bụng đã nhô lên thấy rõ.
+
+Phúc Lễ vừa nhìn thấy đã như phát điên, gầm lên hỏi tôi: “Đứa bé đó rốt cuộc là của ai?”
+`
+  },{
+    id: 1203,
+    title: "Giả Nữ Yêu Qua Mạng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f50d2719160745c495f614b93debd40e.jpg",
+    link: "dammy/gia-nu-yeu-qua-mang.html",
+    type: "dammy",
+    desc: `Được tiếng là kẻ cuồng công việc, mặt lạnh như tiền và có trái tim sắt đá, vị tổng tài bá đạo Lục Thầm Niên khiến cả công ty tôi chỉ biết lấy anh làm tấm gương phấn đấu. Tháng nào mọi người cũng đi làm đầy đủ, chẳng ai dám hé răng xin nghỉ.
+
+Tôi là một nhân viên hiền lành, nhẫn nại chẳng khác nào trâu bò. Sau ba năm tận tụy cống hiến, cuối cùng tôi cũng gom đủ dũng khí xin nghỉ phép lần đầu tiên.
+
+Chẳng ngoài dự đoán, tôi lập tức bị gọi thẳng lên văn phòng tổng giám đốc.
+
+Người đàn ông mang khí thế lạnh lẽo ấy đang cầm chiếc bút thép, cúi đầu ký duyệt giấy tờ. Anh chẳng buồn ngẩng mặt lên, chỉ cất giọng cộc lốc: “Lý do.”
+
+Tôi nuốt nước bọt đánh ực, căng thẳng đến mức lòng bàn tay rịn đầy mồ hôi: “Về… về thành phố S xem mắt ạ.”
+
+Nhưng sự thật là tôi đi gặp người bạn trai quen qua mạng.
+
+Trái với suy đoán của tôi, người đàn ông ấy lại ngước mắt nhìn tôi một cái. Anh đứng dậy, với lấy chiếc áo vest rồi bảo mình cũng có hẹn gặp bạn gái ở thành phố S, tiện đường cho tôi đi nhờ.
+
+Đối diện với gương mặt lạnh như băng của sếp, tôi chẳng có chút bản lĩnh nào, rốt cuộc không thể thốt ra nổi hai chữ “từ chối”.
+
+Giá như lúc dừng chân nghỉ ở trạm dịch vụ, tôi không nhắn tin cho đối tượng quen trên mạng. Giá như tôi không vô tình liếc thấy chính dòng tin nhắn mình vừa gửi nhảy lên màn hình điện thoại của sếp…
+
+Có lẽ tôi đã không hoảng loạn đến mức bỏ chạy thục mạng như thế.
+
+Dù ngay sau đó tôi nhanh chóng bị anh bắt lại và bị “xử” cho một trận tơi tả, nhưng coi như tôi cũng đã thoát được một kiếp nạn.
+`
+  },{
+    id: 1204,
+    title: "Sư Tỷ Xuyên Sách Cùng Ta Phá Giải Tình Cổ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7db48cea4feacf51c43b48625d89d4b.jpg",
+    link: "cotrang/su-ty-xuyen-sach-cung-ta-pha-giai-tinh-co.html",
+    type: "cotrang",
+    desc: `Ta có một đại sư tỷ, nếu chẳng phải đang lên cơn điên thì cũng là đang trên đường đi phát điên. Cả tông môn từ trên xuống dưới, không một ai dám đến gần chọc vào nàng.
+
+Cho đến một hôm, sau khi vừa lên xong một cơn điên, đại sư tỷ bất chợt quay sang hỏi ta: “Tiểu sư muội, theo muội thì sư tôn, đại sư huynh với nhị sư huynh, rốt cuộc ai tốt hơn?”
+
+Câu hỏi này đến quá đột ngột, ta nghe mà thấy hơi ngượng, đáp: “Sư tôn, đại sư huynh và nhị sư huynh đều đối xử với muội rất tốt.”
+
+Đại sư tỷ nghe xong, vẻ mặt lập tức hiện lên sự kính nể: “Quả nhiên là nữ chính truyện sắc.”
+
+“A, đại sư tỷ, nữ chính truyện sắc rốt cuộc là có ý gì vậy?”
+`
+  },{
+    id: 1205,
+    title: "Nghe Tiếng Lòng Ảnh Đế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c37602852cc7cbf0f7b394aecb4e29ed.jpg",
+    link: "ngontinh/nghe-tieng-long-anh-de.html",
+    type: "ngontinh",
+    desc: `Trong show hẹn hò lần này, đạo diễn yêu cầu mỗi nữ khách mời chọn lấy một nam khách mời mà mình yêu thích. Để giúp Giang Tần, người cùng công ty với tôi, có cơ hội xào couple lấy độ hot, tôi đã quyết định chọn cậu ta.
+
+Ai ngờ ngoài mặt cậu ta lúc nào cũng ngoan ngoãn khéo léo, vậy mà sau lưng lại đi nói với fan rằng tôi cậy địa vị để bắt nạt cậu ta đủ đường. Chính trò bẩn ấy cuối cùng đã đẩy tôi đến cái chết thảm dưới bánh xe, thi thể không còn nguyên vẹn.
+
+Thế nhưng thật kỳ diệu, lần mở mắt tiếp theo, tôi phát hiện mình đã quay về đúng lúc show hẹn hò vừa bắt đầu ghi hình.
+
+Ban đầu tôi định hủy hợp đồng ngay cho xong chuyện. Nhưng đúng lúc đó, tôi lại nghe được tiếng lòng của vị Ảnh đế vốn nổi tiếng thanh thuần.
+
+“Mình thầm mến Nguyễn Nguyễn ba năm rồi! Khó khăn lắm mới có dịp cùng tham gia một chương trình, cầu xin Nguyễn Nguyễn hãy chọn mình đi!”
+
+“Ơ? Cô ấy đang nhìn mình sao? Sao lại nhìn mình bằng ánh mắt đó?”
+
+“Mặc kệ, cứ câu dẫn trước đã!”
+
+Lộ Tứ vốn nổi tiếng lạnh lùng, vậy mà lại bất ngờ liếc sang tôi một cái. Ngay sau đó, anh cởi bớt cúc áo sơ mi, vén nhẹ vạt áo, cố ý để lộ xương quai xanh tinh tế cùng đường nhân ngư mê hoặc.
+
+Khóe miệng tôi giật giật. Lời từ chối đã chực sẵn nơi đầu lưỡi bỗng ngập ngừng, rồi đột ngột rẽ sang hướng khác.
+
+“Tôi muốn… chọn thầy Lộ.”
+
+Gương mặt đẹp như tạc tượng của Lộ Tứ lập tức đỏ bừng.
+
+“A a a, biết ngay mỹ nam kế sẽ có tác dụng mà! Tối nay nhất định phải leo lên giường cho bằng được!”
+
+“Không biết Nguyễn Nguyễn thích phong cách nào nhỉ? Mình nên mặc nhiều hay mặc ít đây?”
+
+“Hay là… khỏi mặc gì luôn?”
+
+“A a a! Vậy thì ngại chết mất!”
+
+Tôi ngơ ngác: ???`
+  },{
+    id: 1206,
+    title: "Hợp Đồng Bao Nuôi Đổi Lấy Cổ Phần",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/hop-dong-bao-nuoi-doi-lay-co-phan.jpg",
+    link: "dammy/hop-dong-bao-nuoi-doi-lay-co-phan.html",
+    type: "dammy",
+    desc: `Đêm nay, tôi định đưa người tình Beta mà mình đã bao nuôi suốt nhiều năm về nhà, để bàn chuyện trăm năm một cách đàng hoàng.
+
+Chu Nặc sở hữu ngoại hình rất điển trai cùng dáng người chuẩn mực, lại thêm một tính tình ngoan ngoãn đến mức hiếm ai sánh kịp.
+
+Ở bên cậu càng lâu, tôi càng nhận ra trái tim mình đã bị người này cuốn đi từ lúc nào chẳng hay.
+
+Có điều, bấy lâu nay tôi vẫn mang danh kim chủ của cậu, nên dù trong lòng muốn đến đâu, tôi cũng không thể mặt dày mà tỏ tình một cách thẳng thừng được.
+
+Đứng trước hai lựa chọn là chủ động hay bị động, cuối cùng tôi quyết định lặng lẽ chủ động, thả ra từng tín hiệu một cách thật kín đáo.
+
+Vậy mà đáp lại hàng loạt lời ám chỉ dồn dập ấy, đôi mày thanh tú của Chu Nặc chỉ khẽ chau lại, nét mặt lộ rõ vẻ đắn đo suy nghĩ.
+
+Thế nhưng nói thật, tôi hoàn toàn không sợ việc cậu ấy sẽ lên tiếng từ chối mình.
+
+Dù sao tôi vẫn còn rất trẻ, lại giàu có, biết quan tâm chu đáo, và từ trước đến nay chưa từng bạc đãi cậu về bất cứ khoản nào.
+
+Một vị kim chủ hoàn hảo như tôi, dẫu có đi khắp nơi tìm kiếm cũng tuyệt đối chẳng thể gặp được người thứ hai.
+
+Tôi tin cậu ấy đủ thông minh để hiểu rằng ngày nào cũng được ăn no khác xa với thỉnh thoảng mới được ăn một bữa đại tiệc.
+
+Đúng lúc tôi đang mải mê mơ về viễn cảnh tương lai tươi đẹp của hai đứa, Chu Nặc bỗng ngẩng đầu lên, cất giọng nhỏ nhẹ ướm hỏi: “Vậy… hay là… anh cho em chút cổ phần nhé?”
+
+Tôi ngẩn người: “……”
+
+Quả nhiên là tại tôi nuông chiều cậu quá mức, cho ăn ngon nhiều quá nên mới sinh ra cái thói quen miệng này.
+`
+  },{
+    id: 1207,
+    title: "Chiếc Trâm Gỗ Của Mẹ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/62d870d8b038e94f8c779292c5dbfc6f.jpg",
+    link: "cotrang/chiec-tram-go-cua-me.html",
+    type: "cotrang",
+    desc: `Năm mười ba tuổi, ta đã đem chính thân thể mình ra, chỉ để đổi lấy một bát canh gà.
+
+Về sau ta mới hiểu ra, có lẽ ngay từ lúc sinh ra, ta đã định sẵn là để làm cái nghề này, lấy chính thứ ấy mà đổi lấy từng mạng người.
+`
+  },{
+    id: 1208,
+    title: "Album Du Lịch 25 Năm Của Chồng Và Tình Đầu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a9e4244748ba9b36a0d2482d145c1d60.jpg",
+    link: "ngontinh/album-du-lich-25-nam-cua-chong-va-tinh-dau.html",
+    type: "ngontinh",
+    desc: `Cuốn album ấy, tôi tình cờ tìm thấy lúc đang dọn dẹp nhà con trai.
+
+Hóa ra người chồng đã đi cùng tôi qua bao năm tháng, Thẩm Chi Châu, mỗi năm đều viện cớ đi công tác một tháng. Thực chất, ông ấy cùng mối tình đầu thời niên thiếu rong ruổi khắp núi non sông biển.
+
+Tính từ năm ông ấy 50 tuổi cho đến khi 75 tuổi, từ vùng núi Trường Bạch tuyết phủ trắng xóa tới đảo Hải Nam cát trắng nước trong, từ thuở mái tóc còn xanh đến lúc đầu đã bạc hoa râm, dấu chân hai người in đậm trên khắp mọi nẻo đường đất nước. Nửa đời người trôi qua, vậy mà chỉ như một cái chớp mắt.
+
+Tôi ngồi lặng trên ghế suốt cả buổi chiều, cố nhớ lại xem trong 25 năm ấy mình đã làm những gì.
+
+Lo ngày ba bữa cơm, tận tâm chăm sóc bố mẹ chồng, rồi nuôi các con khôn lớn, lúc nào tôi cũng bận bịu không có lấy một phút nghỉ ngơi. Sau này các con đã yên bề gia thất, tôi lại tiếp tục phụ chúng trông nom cháu nhỏ…
+`
+  },{
+    id: 1209,
+    title: "Bẻ Công Phản Diện",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b81bb6fef7bce2830557db4931b61a89.jpg",
+    link: "dammy/be-cong-phan-dien.html",
+    type: "dammy",
+    desc: `Năm tôi lên năm tuổi, ba mẹ đón từ viện mồ côi về nhà một cậu bé, và từ đó tôi có thêm một người mà mình phải gọi là ‘anh trai’.
+
+Trước mặt ba mẹ, anh lúc nào cũng ngoan ngoãn, biết nghe lời. Chỉ riêng tôi là nhìn thấu con người thật của anh, một con người u ám, lầm lì và tràn đầy ham muốn chiếm hữu.
+
+Theo đúng kịch bản, về sau anh sẽ phải lòng nữ chính mà không được đáp lại, rồi hắc hóa thành đại phản diện. Cơn điên cuồng của anh sẽ kéo cả gia đình tôi xuống vực sâu, đẩy tất cả đến một kết cục thảm hại.
+
+Muốn giữ được mạng, tôi chỉ còn cách dốc sức cảm hóa tên phản diện này.
+
+“Anh ơi, trên đời này em thích anh nhất luôn đó! Sau này em muốn ở với anh đến già!”
+
+“Anh ơi, con trai phải chơi với con trai chứ. Anh đừng có thích mấy bạn gái khác nha!”
+
+“Anh ơi, tối nay cho em ngủ chung phòng với anh nhé!”
+
+Vậy mà đến ngày nữ chính xuất hiện, anh lại chẳng thèm đoái hoài hay liếc cô ta lấy một cái. Trái lại, anh còn siết tôi vào lòng, trong ánh mắt vụt qua từng tia chiếm hữu đến mức cực đoan.
+
+“Tiểu Triệt, chính miệng em đã hứa là chúng ta sẽ mãi mãi ở bên nhau mà.”
+
+Tôi khóc không ra nước mắt.
+
+Kế hoạch đổ bể hoàn toàn, tôi lỡ tay bẻ cong luôn đại phản diện mất rồi! Giờ phải làm sao đây, online chờ gấp!
+`
+  },{
+    id: 1210,
+    title: "Hẹn Kiếp Này Trả Hết Nợ Người",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/294dab78523815d92e71358fc16865ed.jpg",
+    link: "cotrang/hen-kiep-nay-tra-het-no-nguoi.html",
+    type: "cotrang",
+    desc: `Phu quân của ta là một kẻ ngốc.
+
+Chỉ vì một nữ tử chốn thanh lâu mà hắn nhất quyết đòi hòa ly với ta.
+
+Mẹ chồng phạt hắn quỳ trong từ đường, còn tuyên bố rằng trừ phi hắn dám lên núi đao, xuống biển lửa rồi sống sót trở về, bằng không bà tuyệt đối không đồng ý.
+
+Ai ngờ kẻ ngốc ấy lại đi thật.
+
+Hắn đi chân trần trên con đường than hồng, lòng bàn chân bị nướng đến cháy đen. Xong xuôi, hắn còn gọi một đám gia nhân đến, bắt họ cầm dao nhọn, cứ từng nhát từng nhát mà chém lên người hắn.
+
+Chịu như vậy thì làm sao mà sống nổi chứ.
+
+Ta lao ra ngăn bọn họ lại, vừa khóc vừa quỳ trước mặt bà bà: “Là con muốn hòa ly, không liên quan gì đến Lục Hoài An cả.”
+
+Ta ký vào thư hòa ly, trong lòng mừng khôn xiết vì nghĩ rằng về nhà rồi thì ngày nào cũng được ăn bánh giòn do mẫu thân làm.
+
+Thế nhưng Lục Hoài An lại ngốc thêm một lần nữa.
+
+Hắn cầm tờ hòa ly thư mới chỉ có dấu tay của ta, tìm đến phủ Tướng quân, mỉm cười hỏi ta: “Nương tử ở nhà nhạc phụ đã đủ chưa?”
+
+“Nếu đủ rồi thì theo ta trở về.”`
   },
 
 
