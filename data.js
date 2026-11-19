@@ -24974,6 +24974,175 @@ Thế nhưng Lục Hoài An lại ngốc thêm một lần nữa.
 Hắn cầm tờ hòa ly thư mới chỉ có dấu tay của ta, tìm đến phủ Tướng quân, mỉm cười hỏi ta: “Nương tử ở nhà nhạc phụ đã đủ chưa?”
 
 “Nếu đủ rồi thì theo ta trở về.”`
+  },{
+    id: 1211,
+    title: "Màn Kịch Của Đóa Bạch Liên Hoa Giả Tạo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/9dcd5376b062b77b51c32a44ce13f986.jpg",
+    link: "ngontinh/man-kich-cua-doa-bach-lien-hoa-gia-tao.html",
+    type: "ngontinh",
+    desc: `Suốt mười bảy năm đằng đẵng, bố mẹ tôi sống trong nỗi đau mất đứa con gái ruột, và chỉ đến hôm nay, cô ấy mới được đưa trở về bên họ.
+
+Mẹ ôm cô ấy thật chặt trong vòng tay, vừa khóc nức nở vừa gọi đi gọi lại: “Con yêu ơi, con yêu của mẹ.”
+
+Ấy vậy mà đôi mắt cô ấy lại nhắm thẳng về phía tôi, cố làm ra bộ dạng ngây thơ vô tội: “Giờ em đã về rồi, chẳng lẽ chị không nên trở về ngôi nhà thật sự của mình sao?”
+
+Theo cách nghĩ của cô ấy, tôi chỉ là kẻ mạo danh được nhận nuôi, đang thản nhiên hưởng thụ cuộc sống xa hoa mà lẽ ra thuộc về cô ấy.
+
+Nhưng cô ấy đâu biết rằng, câu nói đó vừa dứt, cả căn nhà đã lặng đi trong một khoảng im lìm.
+`
+  },{
+    id: 1212,
+    title: "Xuyên Thành Alpha Cặn Bã Để Cứu Rỗi Omega",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e8bee15590bca137cc6391b257e2338c.jpg",
+    link: "dammy/xuyen-thanh-alpha-can-ba-de-cuu-roi-omega.html",
+    type: "dammy",
+    desc: `Tôi xuyên vào một cuốn tiểu thuyết ABO, nhập đúng thân xác của gã Alpha cặn bã chuyên ngược đãi rồi trút giận lên chính Omega của mình.
+
+Theo kịch bản của tương lai, người thê tử Omega ấy rồi sẽ trở thành một kẻ sát nhân hàng loạt tàn bạo vô cùng, một kẻ khiến người người khiếp sợ.
+
+Vậy mà ngay lúc này, chính cậu ấy lại đang quỳ dưới chân tôi, đau đớn cất lời van xin, giọng nói thấm đẫm nỗi thống khổ.
+
+“Xin anh… cho tôi xin một chút tin tức tố thôi.”
+
+Tôi biết quá rõ, người đầu tiên bị cậu ấy ra tay kết liễu chính là tôi, không thể là ai khác.
+
+Chết thì tôi chẳng hề sợ, cái chết ấy với tôi nào có đáng gì. Điều khiến tôi day dứt, canh cánh không yên chỉ là nỗi e ngại rằng thân xác này không sao chuộc nổi những tội lỗi tày trời mà nó đã gây ra.
+`
+  },{
+    id: 1213,
+    title: "Nợ Cả Đời Một Nụ Cười Mẹ Kế",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/53b8bacbb7765fa10d5f59f9c7428d1f.jpg",
+    link: "cotrang/no-ca-doi-mot-nu-cuoi-me-ke.html",
+    type: "cotrang",
+    desc: `Cha ta chết đuối, trong một lần sang làng bên giúp người ta dựng cầu.
+
+Từ ngày ông mất, mẹ kế đối với huynh đệ ta hễ không chửi mắng thì cũng đánh đập. Xóm giềng quanh đó ai nấy đều chắc mẩm rằng bà chẳng có chút tử tế nào với hai đứa con riêng của chồng.
+
+Mãi về sau, khi huynh trưởng ta thi đỗ, làm quan lớn trong triều và được Hoàng thượng đặc ban cho bà danh hiệu Cáo mệnh phu nhân, mọi chuyện mới sáng tỏ.
+
+Lúc bà đã khoác trên người vinh hoa phú quý, người đời mới chợt hiểu ra: người phụ nữ cả đời buông lời cay nghiệt ấy, hóa ra lại mang một tấm lòng nhân hậu bao la.
+`
+  },{
+    id: 1214,
+    title: "Lấy Độc Trị Độc Hàng Xóm Bẩn Tính",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8b28eeb89f5569f83d8bd95cc891cd01.jpg",
+    link: "ngontinh/lay-doc-tri-doc-hang-xom-ban-tinh.html",
+    type: "ngontinh",
+    desc: `Gã hàng xóm sát vách ngày nào cũng gây chuyện, còn chưa chịu dừng ở đó: gã lên hẳn nhóm chat chung của tòa nhà để chửi bới tôi thậm tệ.
+
+Sau khi cân nhắc kỹ càng, tôi quyết định đem căn hộ của mình ra cho thuê, kèm theo một mức ưu đãi chưa từng có ở đâu:
+
+Người mới ra tù được bớt hẳn 500, ai từng mắc bệnh tâm thần được bớt 600, còn các bà cụ mê cãi vã thì bớt ngay 700.
+
+Chẳng bao lâu sau, một anh trai xăm kín người, một cậu em có vẻ ngoài u ám và một bà cụ cực kỳ dữ tợn đã cùng nhau dọn về nhà tôi.
+
+Thế cờ đổi chiều ngay tức khắc. Người phải quay sang cầu xin tôi bây giờ lại chính là gã hàng xóm hay gây sự kia, kẻ ngày trước chỉ biết ngang nhiên bắt nạt tôi.
+`
+  },{
+    id: 1215,
+    title: "Giam Cầm Dưới Bông Tuyết",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b95ce38971432aaa55b34da7028ea159.jpg",
+    link: "dammy/giam-cam-duoi-bong-tuyet.html",
+    type: "dammy",
+    desc: `Tôi là một nam Omega hạ đẳng.
+
+Sau khi tôi vô tình mang thai một đứa con hoang, cha tôi liền tùy tiện gả tôi cho một gã phú thương biến thái.
+
+Tên phú thương ấy đã ngoài năm mươi tuổi, những thủ đoạn hành hạ người khác của gã nhiều không đếm xuể.
+
+Cha tôi vô cùng hài lòng với mối này. Ông ta chỉ mong tôi mau chóng chết gục dưới tay gã để rửa sạch nỗi nhục cho gia tộc.
+
+Tôi lặng lẽ cúi mắt, không nói một lời, lấy điện thoại ra gửi tin nhắn cho người được lưu tên là “anh trai”. Đây cũng là tin nhắn đầu tiên kể từ khi hai chúng tôi bắt đầu chiến tranh lạnh: “Em nhớ anh, anh quay về gặp em được không?”
+
+Cha tôi hoàn toàn không hay biết, đứa con trai cả mà ông ta luôn tự hào vì sự lạnh lùng, đoan chính bậc nhất kia, mỗi khi quỳ giữa hai chân tôi lại là một kẻ khốn nạn và điên cuồng đến mức nào.
+
+Thậm chí, ngay cả đứa con hoang trong bụng tôi lúc này cũng do chính tay hắn ép tôi mang thai trong kỳ phát tình.
+`
+  },{
+    id: 1216,
+    title: "Huyện Chủ Hưu Phu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/add8f96864ff8ec743891e7befcd7eab.jpg",
+    link: "cotrang/huyen-chu-huu-phu.html",
+    type: "cotrang",
+    desc: `Đêm thành thân, phu quân của ta vừa bái đường xong đã vội vã ra trận. Nơi sa trường khói lửa ấy, hắn lại cùng một vị nữ huynh đệ sinh ra mối tình phong nguyệt.
+
+“Nàng ấy đâu có giống nàng, nàng ấy thú vị hơn nàng nhiều.”
+
+Nếu hắn đã tha thiết muốn cưới vị nữ huynh đệ kia đến vậy, thì ta liền gả cho một hán tử thô kệch.
+
+“Lăng thị, đến lúc nàng khóc lóc quay về cầu xin ta, cùng lắm cũng chỉ nhận được danh phận làm thiếp mà thôi!”
+
+Hắn kiên nhẫn chờ suốt mấy tháng trời. Lương thực trong nhà gần như cạn sạch, vậy mà bóng dáng ta mang sính lễ trở về giúp đỡ vẫn chẳng thấy đâu.
+
+Không chịu nổi nữa, hắn tức tốc tìm đến tận cửa. Nhưng vừa tới nơi, điều đập vào mắt hắn lại là cảnh ta đang giận dữ tung một cước vào vai vị Trấn Bắc tướng quân.
+
+Người nọ chẳng những không né tránh, thân hình còn khẽ run lên, nét mặt vừa như chịu đựng vừa như thỏa mãn. Hắn hai tay nâng lấy chân ta, nhẹ nhàng xoa bóp.
+
+“Có đau chân không?”`
+  },{
+    id: 1217,
+    title: "Chị Dâu Thích So Kè",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b67a1c75d4be09eabe0400b3398e8f56.jpg",
+    link: "ngontinh/chi-dau-thich-so-ke.html",
+    type: "ngontinh",
+    desc: `Bạn trai tôi đến nhà ra mắt, chị dâu vốn lạnh nhạt với tôi bấy lâu nay bỗng đổi hẳn thái độ, khác hoàn toàn so với mọi ngày.
+
+Chị ấy hồ hởi bước tới, khoác lấy tay tôi thân mật như chị em ruột trong nhà, rồi cất giọng hỏi: “Tinh Tinh, trong số những người bạn trai em từng dẫn về nhà, em thích ai nhất thế?”
+
+Tôi vội vàng chối, nhưng chị ấy lại nháy mắt với bạn trai tôi, giọng lém lỉnh: “Đúng rồi, đúng rồi, Tinh Tinh trước giờ chưa từng đưa ai về nhà đâu, em là người đầu tiên đấy!”
+
+Đến bữa cơm, cả nhà đang ngồi quanh bàn thì chị ấy cố tình xách một chiếc quần lót từ nhà tắm bước ra, một tay bịt mũi, càm ràm: “Tinh Tinh, ngày thường em không để ý chuyện vệ sinh cá nhân thì thôi đi, nhưng hôm nay nhà có khách, em cũng phải biết giữ ý tứ chứ. Cái này bốc mùi khó chịu lắm rồi đấy!”
+`
+  },{
+    id: 1218,
+    title: "Quân Sư Trà Xanh Bị Bạn Cùng Phòng Tán Đổ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1437ce37ef63ba8b41f4c243abb2ef70.jpg",
+    link: "dammy/quan-su-tra-xanh-bi-ban-cung-phong-tan-do.html",
+    type: "dammy",
+    desc: `Trong khi người khác làm trà xanh, tôi lại tự đẩy mình vào thế đi làm “quân sư quạt mo”.
+
+Chuyện là tình cờ, tôi nhận được một đơn hàng béo bở trên mạng từ một vị “phú bà” ẩn danh.
+
+Yêu cầu bên đó đưa ra vô cùng đơn giản: truyền dạy bí kíp tán đổ người bạn cùng phòng.
+
+Nhìn khoản thù lao hậu hĩnh, tôi gom hết vốn liếng “tuyệt kỹ trà xanh” mà mẹ từng dùng để cưa đổ bố năm xưa ra truyền thụ không sót một chữ.
+
+Ấy vậy mà mọi việc bắt đầu chuyển hướng theo chiều vô cùng kỳ quái...
+
+Cứ cách một ngày, tôi lại thấy bóng dáng các “chiêu thức” ấy xuất hiện ngay trên người anh bạn cùng phòng vốn nổi tiếng là tảng băng trôi, chẳng bao giờ hiểu chuyện thế thái nhân tình.
+
+Ban đầu, tôi còn đinh ninh do anh em ở chung lâu ngày nên hắn bắt đầu ngẫu hứng trêu tôi chút cho vui.
+
+Cho tới một ngày nọ, tôi vô tình nhấn vào phần định vị tài khoản của vị “phú bà” kia.
+
+Khoảng cách hiển thị: 2m?
+
+Từ từ đã, phú bà ơi... Đừng nói vị đại lão mặt lạnh đang nằm ở giường bên kia chính là cô nhé?`
+  },{
+    id: 1219,
+    title: "Thành Toàn Cho Kẻ Bạc Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/ce657777bd2c19d9e393d8318db19720.jpg",
+    link: "cotrang/thanh-toan-cho-ke-bac-tinh.html",
+    type: "cotrang",
+    desc: `Năm Lục Nghi sa cơ lỡ vận, ta quyết định gả cho hắn.
+
+Hai kẻ trắng tay nương tựa vào nhau, vất vả tìm đường sống giữa buổi loạn lạc.
+
+Ngày đại quân tiến vào Trường An, hắn lại vội vã đi tìm nữ tử danh gia từng công khai sỉ nhục mình, để trút mối hận bấy lâu.
+
+Nào ngờ tìm đi tìm lại, thù oán chẳng biết tan biến từ lúc nào, rốt cuộc viết nên một câu chuyện gương vỡ lại lành trọn vẹn.
+
+Hôm ta xách đao chém nát cánh cổng đỏ của biệt viện trong hẻm Minh Liễu, nửa thành Trường An đã kéo đến xem náo nhiệt.
+
+Lục Nghi đứng chắn trước mặt Giang Ly, người từng cầm roi ngựa đánh hắn năm xưa, rồi giận dữ quát ta: “Nàng làm ầm ĩ thế này, rốt cuộc là muốn gì?”
+
+Ta chỉ nhìn hắn, mỉm cười bình thản: “Ta nghe nói Giang Ly ở đây, nên đến lấy mạng nàng ta, giúp phu quân trút giận.”
+
+Phải, ta đến là để giúp Lục Nghi trút mối hận trong lòng.
+
+Ta biết rõ hắn căm hận Giang Ly đến mức nào.
+
+Trên đời này, chẳng ai hiểu điều đó hơn ta.`
   },
 
 

@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chị Dâu Thích So Kè</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Chị Dâu Thích So Kè
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_ngontinh/chi-dau-thich-so-ke.mp3" data-marker="13:25" data-marker-label="13:25">
+<div class="audio-header">
+  <div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Chị Dâu Thích So Kè</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">13:25</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">13:25</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Bạn trai tôi đến nhà ra mắt, chị dâu vốn lạnh nhạt với tôi bấy lâu nay bỗng đổi hẳn thái độ, khác hoàn toàn so với mọi ngày.
+
+Chị ấy hồ hởi bước tới, khoác lấy tay tôi thân mật như chị em ruột trong nhà, rồi cất giọng hỏi: “Tinh Tinh, trong số những người bạn trai em từng dẫn về nhà, em thích ai nhất thế?”
+
+Tôi vội vàng chối, nhưng chị ấy lại nháy mắt với bạn trai tôi, giọng lém lỉnh: “Đúng rồi, đúng rồi, Tinh Tinh trước giờ chưa từng đưa ai về nhà đâu, em là người đầu tiên đấy!”
+
+Đến bữa cơm, cả nhà đang ngồi quanh bàn thì chị ấy cố tình xách một chiếc quần lót từ nhà tắm bước ra, một tay bịt mũi, càm ràm: “Tinh Tinh, ngày thường em không để ý chuyện vệ sinh cá nhân thì thôi đi, nhưng hôm nay nhà có khách, em cũng phải biết giữ ý tứ chứ. Cái này bốc mùi khó chịu lắm rồi đấy!”
+
+------
+
+Châu Thược Nam là chị dâu của tôi. Chị ấy về làm dâu nhà này đến nay đã hơn một năm, và hòa thuận với bố mẹ tôi đến mức không chê vào đâu được, nhưng riêng với tôi thì lúc nào cũng nửa nóng nửa lạnh, hiếm khi chịu mở lời trò chuyện.
+
+Mỗi lần mua quà cho cả nhà, chị ấy đều vô tình “quên” mất phần của tôi, lần nào cũng vậy. Mỗi dịp nghỉ lễ tôi về quê, chị lại rủ cả nhà đi xem phim, cố tình để tôi ngồi trơ trọi một mình ở bậc cầu thang chờ đợi.
+
+Chị ấy còn hay kể những câu chuyện mà tôi không tài nào xen vào được. Toàn là kỷ niệm riêng, chỉ thuộc về những người trong cuộc với nhau. Ngay cả những lúc bố mẹ đưa tiền sinh hoạt phí cho tôi, chị cũng cố ý làm vỡ bát đĩa để tỏ thái độ.
+
+Tính tôi vốn thẳng, nên không chỉ một lần mà đã vài lần tôi hỏi thẳng chị ấy. Lần nào chị cũng thản nhiên nhìn tôi, rồi đáp lại: “Chị đâu có ghét bỏ gì em! Tại em nhạy cảm quá đấy thôi!”
+
+Nói xong, chị nép vào lòng anh trai tôi. Chị đưa mắt nhìn sang tôi với vẻ oan ức, làm như thể tôi là đứa trẻ ranh đang cố tình vô lý gây sự.
+
+Bố mẹ tôi thì một mực cho rằng chị dâu có tính nết hiền lành. Theo hai người, chị không đời nào cố ý đối xử tệ bạc với tôi. Ông bà còn bảo nếu tôi cứ nghi ngờ vô cớ như vậy sẽ làm rạn nứt hạnh phúc của anh trai.
+
+Không ít lần tôi tự dằn vặt, tự hỏi có phải chính mình quá nhạy cảm hay không. Cứ thế cho đến tận hôm tôi dẫn Tiêu Kiều, người bạn trai đã gắn bó với tôi hai năm trời, về nhà ra mắt gia đình.
+
+Tiêu Kiều cao 1m8, diện mạo khá điển trai, gia cảnh lại rất có điều kiện. Mỗi lần hắn cười đều lộ ra hai chiếc răng khểnh trông rất đáng yêu.
+
+Bố mẹ hắn đều công tác trong cơ quan nhà nước. Bản thân hắn thì giỏi giang, làm việc tại một công ty công nghệ lớn, thu nhập mỗi năm khoảng 500 nghìn tệ.
+
+Điều kiện của hắn tốt đến vậy nên bố mẹ tôi mừng rỡ khôn xiết, ai nhìn cũng thấy. Chỉ riêng Châu Thược Nam là giữ vẻ mặt u uất, và chị ấy im lặng như thế suốt từ đầu đến cuối.
+
+Một lúc sau, chị ấy gọi riêng tôi ra một chỗ, rồi dồn dập hỏi han đủ điều về Tiêu Kiều. Cuối cùng chị nhíu chặt mày, nhìn tôi chằm chằm như muốn xuyên thấu tâm can: “Em yêu đương thì cứ đường hoàng mà yêu, việc gì phải giấu giếm gia đình? Hay là em đang cố tình phòng bị chị đấy?”
+
+Tôi ngẩn người trong chốc lát rồi mới đáp: “Nếu chị không chặn WeChat của em thì chắc chị đã thấy thông báo em đăng trong nhóm gia đình từ tận năm ngoái rồi.”
+
+Tôi quay vào bếp để giúp mẹ rửa hoa quả. Không ngờ đến lúc quay trở ra, tôi lại bắt gặp chị dâu đang nũng nịu lắc vai ngay trước mặt Tiêu Kiều, giọng nhẹ nhàng: “Em với Tinh Tinh chỉ là quen nhau chơi đùa thôi, đúng không? Nếu thật sự cưới nó về, em không thấy mất mặt sao?”
+
+Tiêu Kiều lúng túng ra mặt. Hắn chỉ thiếu điều móc cả ruột gan ra để chứng minh tấm chân tình của mình. Nhưng Châu Thược Nam vẫn bĩu môi khinh khỉnh: “Mấy cậu con trai các em ngây thơ quá, rất dễ bị người ta dắt mũi lừa gạt. Tại em không nhận ra thôi, chứ thực chất cái mũi của Tinh Tinh...”
+
+Tiêu Kiều ngước mắt nhìn về phía tôi, và chỉ thế thôi cũng đủ khiến Châu Thược Nam khựng lại, tắt hẳn lời.
+
+Trong lòng tôi dâng lên cảm giác khó chịu, nên không nhịn được mà lên tiếng hỏi: “Mũi của em thì làm sao? Chị dâu, chị cứ nói tiếp đi xem nào.”
+
+Châu Thược Nam quay sang trách ngược tôi: “Chị chỉ trò chuyện phiếm vài câu với bạn trai em thôi, thế mà em cũng ghen lồng lên được à?”
+
+Nói rồi chị ấy quay lưng đi thẳng vào phòng.
+
+Chưa đầy vài phút sau, anh trai tôi đã nhắn tin tới: “Mày có thể dừng ngay cái trò lúc nào cũng bắt nạt chị dâu mày được không?”
+
+Sau chừng mười phút, Châu Thược Nam vẫn còn tỏ ra thản nhiên khi ngồi đối diện với tôi. Thế nhưng chưa đầy một phút nữa trôi qua, chị ấy đã bắt đầu thấy bồn chồn, khó chịu.
+
+Tôi cất giọng lạnh ngắt: “Chị bảo em từng đưa hơn chục người đàn ông về nhà, vậy xin chị đưa bằng chứng rõ ràng ra đi. Họ đến nhà em vào lúc nào? Tên họ là gì? Làm nghề gì?”
+
+Châu Thược Nam bĩu môi chống chế: “Chuyện tình cảm riêng tư của em, chị làm sao biết rõ từng chi tiết được? Dù sao chị cũng chỉ nghe người ta đồn rằng năm nào em cũng đưa vài người đàn ông về nhà ngủ qua đêm...”
+
+Tôi quay đầu, gọi vọng vào trong bếp thật to: “Mẹ ơi, chị dâu bảo nghe mẹ kể là con hay đưa đàn ông về nhà ngủ qua đêm này!”
+
+Mẹ tôi từ trong bếp thò đầu ra ngoài. Bà còn chưa kịp lên tiếng thì Châu Thược Nam đã vội vã phủ nhận: “Con đâu có nói là mẹ kể đâu chứ!”
+
+Tôi tiếp tục gặng hỏi: “Vậy thì là bố, hoặc là anh trai em, chứ còn ai vào đây nữa? Chẳng lẽ em đưa đàn ông về nhà ngủ qua đêm mà chỉ có mình chị biết hay sao?”
+
+Châu Thược Nam cãi chày cãi cối: “Chị cũng chỉ nghe thiên hạ truyền tai nhau thế thôi, chứ chị đâu có cố tình vu khống em vô căn cứ...”
+
+Tôi bỗng nở một nụ cười hết sức chân thành, cắt ngang lời biện hộ của chị ấy: “Thật ra em cũng nghe người ta đồn rằng trước khi lấy anh trai em, chị từng làm tiếp viên ở mấy hộp đêm. Người ta còn bảo chị thích chơi trò ba người, nhận tiền rồi cho khách thoải mái sờ mó.”
+
+“Thậm chí chị còn phá thai hai lần mới leo lên được vị trí bây giờ. Nghe mà chậc chậc... chị đúng là chơi đùa thuộc hàng đỉnh thật đấy!”
+
+Châu Thược Nam mấy lần định chen ngang nhưng giọng tôi cứ át đi. Cuối cùng chị ấy bực bội tự lên tiếng biện hộ cho mình, còn tôi chỉ nhếch môi khinh bỉ: “Chị cuống lên làm gì, em cũng chỉ nghe người ta đồn thôi mà. Em đâu có vu khống chị, người ta vẫn bảo ‘không có lửa làm sao có khói’, tự nhiên sao họ lại đồn về chị mà chẳng đồn về ai khác?”
+
+Châu Thược Nam giận đến mức suýt nữa đã lao vào đánh tôi. Chị ấy chỉ còn thiếu một bước nữa là ra tay.
+
+Tiêu Kiều thấy bầu không khí căng thẳng quá mức nên vội bước tới ngồi cạnh tôi, tìm cách hòa giải: “Không sao đâu mà, dù trước đây Tinh Tinh có trải qua bao nhiêu người đàn ông đi nữa thì em cũng chẳng bận tâm, chỉ cần bây giờ cô ấy chọn ở bên em là được rồi.”
+
+Nói xong, hắn quay sang nhìn tôi bằng ánh mắt đong đầy tình cảm.
+
+Châu Thược Nam tức đến mức mặt tái đi. Chị ấy quay gót hầm hầm đi về phòng, rồi sập cửa mạnh đến mức như muốn làm sập cả cánh cửa.
+
+Chưa đầy năm phút sau, anh trai tôi lại gửi một tin nhắn đe dọa: “Mày đừng tưởng tìm được một gã đàn ông chống lưng là có chỗ dựa nhé. Nếu mày còn dám bắt nạt chị dâu mày nữa, tao sẽ đánh chết mày!”
+
+Tôi lập tức gửi lại một biểu tượng ngón tay giữa, rồi gõ nhanh dòng chữ đáp trả: “Mày chắc đến từ Đôn Hoàng đúng không? Bích họa của mày nhiều thật đấy! Nếu hồi mẹ mang bầu mày mà chịu khó đi làm xét nghiệm, chắc mày đã chẳng có cơ hội ngồi đây mà sủa xàn xạt đâu.”
+
+Tối hôm đó, bố tôi và anh trai tôi đều đã đi làm về tới nhà.
+
+Anh trai tôi bước qua cửa mà chẳng thèm liếc nhìn tôi lấy một cái, đi thẳng một mạch vào phòng trong. Đứng ngoài, tôi nghe thấy tiếng khóc nức nở, nghẹn ngào vọng ra từ bên trong.
+
+Một lúc sau, anh ấy gào qua khe cửa: “Trần Tinh, mày vào đây ngay cho tao!”
+
+Tôi vơ lấy chiếc cốc nước đặt trên bàn, ném mạnh về phía cánh cửa. Chiếc cốc rơi xuống sàn, vỡ tan thành từng mảnh nhỏ.
+
+Tiếng vỡ vang lên, và căn phòng bên trong lập tức im bặt.
+
+Tôi thản nhiên thu tay về, hỏi: “Mẹ ơi, cơm nước xong chưa ạ?”
+
+Trong bữa cơm sau đó, bố tôi và Tiêu Kiều liên tục cụng ly qua lại với nhau. Anh trai tôi thì ngồi bên cạnh, ra sức dỗ Châu Thược Nam ăn cơm.
+
+Khi câu chuyện xoay sang chuyện cưới xin, Tiêu Kiều chân thành bày tỏ: “Gia đình con mong muốn sang năm sẽ tổ chức đám cưới cho hai đứa. Con cũng đã chuẩn bị sẵn hai trăm nghìn tệ tiền sính lễ, đồng thời sẽ đứng tên Tinh Tinh trên sổ đỏ căn nhà.”
+
+Cả nhà tôi nghe xong đều khá ngạc nhiên, chưa ai kịp nói gì. Mọi người còn chưa kịp lên tiếng thì Châu Thược Nam đã siết chặt bát đũa trong tay, cười nhạt: “Hàng đã qua tay người khác rồi mà vẫn đáng giá tới hai trăm ngàn tệ cơ đấy, chắc cái nhà bên đó làm bằng vàng nguyên chất quá nhỉ?”
+
+Thấy mọi người đều quay sang nhìn mình, Châu Thược Nam liền giả bộ ngây thơ: “Đó là lời thoại trong phim thôi mà, vừa nãy tự nhiên con nhớ ra nên buột miệng nói theo, chứ con chẳng có ý gì đâu.”
+
+Nói xong, chị ấy đứng dậy rời khỏi bàn ăn. Bố mẹ tôi vội xoa dịu không khí, nói với Tiêu Kiều: “Nhà chú bác không đặt nặng chuyện sính lễ đâu, chỉ cần cháu thật lòng đối xử tốt với Tinh Tinh là mừng lắm rồi.”
+
+Tôi cũng lên tiếng, đồng tình với ý của bố mẹ. Đúng lúc ấy, anh trai tôi giơ chân đá mạnh vào tôi dưới gầm bàn, cau mày ra hiệu liên tục.
+
+Tôi hiểu rõ ý anh ấy. Nhà Châu Thược Nam vốn trọng nam khinh nữ, trước đây gia đình tôi đã phải bỏ ra ba trăm nghìn tệ mới cưới được chị ấy về.
+
+Giờ tới lượt tôi lấy chồng mà bố mẹ lại không đòi tiền sính lễ, nên trong lòng anh tôi tất nhiên không thấy thỏa mãn.
+
+Tôi mặc kệ thái độ của anh ấy, không buồn để ý tới nữa. Tôi vừa định lên tiếng thì từ phía nhà vệ sinh bỗng vang lên tiếng gào thất thanh.
+
+Châu Thược Nam từ bên trong chạy xộc ra, một tay bịt chặt mũi, tay kia cầm chiếc quần lót màu hồng có phần đáy ngả sang vàng đen kịt. Mùi hôi hám lập tức lan khắp căn phòng.
+
+Chị ấy kêu lên: “Tinh Tinh, bình thường em không để ý vệ sinh cá nhân thì đã đành, hôm nay trong nhà có khách tới chơi, em cũng phải biết giữ ý tứ chứ! Cái này bốc mùi hôi thối lắm rồi đấy!”
+
+Chị ấy liên tục lườm tôi, rồi nói tiếp: “Em chưa lấy chồng thì còn có mẹ giặt giùm. Nhưng sau này về nhà chồng, lẽ nào em lại bắt chồng giặt quần lót cho em? Em nên tự học cách làm lấy đi là vừa.”
+
+Vừa dứt lời, chị ấy ném thẳng chiếc quần lót về phía tôi. Nhưng nó không trúng người tôi, chỉ rơi chệch xuống ngay dưới chân.
+
+Bố mẹ tôi xấu hổ vô cùng, chẳng biết giấu mặt vào đâu. Điều hai người lo sợ nhất lúc ấy là Tiêu Kiều sẽ có cái nhìn sai lệch về gia đình mình.
+
+Mẹ tôi vội giải thích: “Thường ngày Tinh Tinh nó sạch sẽ lắm, không phải như con nghĩ đâu.”
+
+Nhưng Châu Thược Nam nhất quyết không chịu dừng lại. Chị ấy lớn tiếng phản bác: “Mẹ cứ bao che cho nó làm gì chứ, con cũng chỉ muốn Tinh Tinh rèn thói quen tốt, để sau này về nhà chồng đỡ bị người ta chê trách thôi mà.”
+
+“Tiêu Kiều à, chuyện kết hôn là đại sự cả đời, em đừng vội vàng quá. Có nhiều loại phụ nữ nhìn bề ngoài thì tưởng trong sáng lắm, nhưng sau lưng thế nào thì chẳng ai biết được. Chị không muốn thấy em bị lừa gạt...”
+
+Chị ấy chưa nói hết câu thì tôi đã cúi xuống nhặt chiếc quần lót dưới đất lên. Rồi tôi nhét thẳng nó vào miệng chị ấy.
+
+Tôi nói: “Thứ nhất, phòng riêng của tôi có nhà vệ sinh khép kín, đồ dùng cá nhân của tôi tuyệt đối không bao giờ xuất hiện ở nhà vệ sinh chung. Thứ hai, tôi không có thói quen ở bẩn như chị, để quần lót ngâm sang hôm sau cho mẹ giặt hộ.”
+
+“Cuối cùng, tôi cực kỳ ghét màu hồng, và cả nhà này ai cũng biết điều đó. Cho nên chiếc quần lót này là của chị chứ không phải của tôi. Chị dâu à, bớt lo chuyện bao đồng đi, nếu rảnh thì tự đi khám phụ khoa cho mình trước thì hơn.”
+
+Châu Thược Nam buồn nôn đến mức nôn thốc nôn tháo, nước mắt giàn giụa khắp mặt. Chị ấy gần như không đứng vững nổi. Anh trai tôi giận dữ gào lên: “Trần Tinh, mày xin lỗi chị dâu mày ngay cho tao...”
+
+Anh ấy còn chưa nói hết câu thì tôi đã lật tung cả bàn ăn lên. Tôi lạnh lùng nhìn đống đổ nát vương vãi dưới sàn, rồi nói: “Con không ăn bữa cơm này nữa. Bố mẹ, con ra ngoài tiễn Tiêu Kiều về trước đây.”
+
+Lúc Tiêu Kiều chuẩn bị ra về, hắn ấm ức túm lấy góc áo tôi, trông đáng thương hết mức: “Anh vừa mới tới nhà em được một lúc mà đã phải về rồi, em đúng là tàn nhẫn thật đấy. À phải rồi, chị dâu em bảo với anh là trước đây em từng đi làm mũi với cắt mí mắt. Rõ ràng chị ấy là một ‘trà xanh’ chính hiệu, em nhất định phải cẩn thận với chị ta nhé.”
+
+Tiêu Kiều cũng là người biết suy nghĩ, nhờ vậy mà tâm trạng bực bội của tôi cũng nguôi đi phần nào. Tiễn hắn đi khỏi, tôi quay trở vào nhà. Vừa tới chỗ bậc cầu thang, tôi đã nghe tiếng anh trai đang cãi nhau dữ dội với bố mẹ.
+
+“Tiền sính lễ của Tinh Tinh ít nhất cũng phải đòi sáu trăm nghìn tệ, thiếu một xu cũng đừng hòng cưới được nó. Con tính cả rồi, ba trăm nghìn để mua xe, ba trăm nghìn còn lại để dành trả trước tiền nhà, như vậy áp lực kinh tế của con mới giảm bớt được.”
+
+“Hơn nữa, bố mẹ Tiêu Kiều phải có trách nhiệm xin việc thăng tiến cho con. Con làm ở công ty ba năm rồi mà vẫn chưa được cất nhắc lên vị trí mới, không thể cứ mãi làm một gã nhân viên quèn! Sau khi nó lấy chồng, phòng của nó sẽ sửa thành phòng cho con của con, vừa hay con với Thược Nam cũng đang chuẩn bị sinh em bé.”
+
+Giọng bố tôi còn vang hơn cả anh ấy: “Mày đang tính bán em gái mày đấy à! Mày đúng là đồ không có chút lương tâm!”
+
+“Bố mẹ đừng lúc nào cũng thiên vị con gái nữa được không? Nếu nó không thu sính lễ thì con lấy đâu ra tiền mua nhà mua xe? Bố mẹ muốn dồn con vào đường cùng mới vừa lòng sao? Sau này con của nó sinh ra sẽ mang họ Tiêu, còn con của con sinh ra mới mang họ Trần, ai gần ai xa lẽ nào bố mẹ không phân biệt nổi?!”
+
+Tôi đứng dậy, đẩy cửa bước vào trong. Anh tôi lập tức ngừng lời, quay sang nhìn tôi bằng ánh mắt hằn học: “Đúng là loại đàn bà không có gốc rễ, chưa gả đi mà đã vội chĩa về phía người ngoài! Nuôi mày thà nuôi con chó còn có lý hơn! Chị dâu mày đang ngồi khóc trong phòng kia kìa, mày vào quỳ xuống xin lỗi cô ấy ngay cho tao!”
+
+Anh ấy chẳng biết vơ đâu ra một chiếc kéo, rồi chĩa thẳng mũi kéo về phía tóc tôi: “Chị dâu mày không thích thấy mày để tóc dài, hôm nay tao sẽ cắt sạch cho cô ấy nguôi giận!”
+
+Nói rồi anh ấy túm chặt mái tóc tôi giật mạnh, đau đến mức tôi tưởng da đầu mình sắp bị xé toạc.
+
+*****
+
+Tôi vội giơ tay che giữ tóc, nhưng mấy ngón tay lập tức bị lưỡi kéo cứa thành nhiều vết thương rướm máu.
+
+Anh tôi giận dữ tát mạnh vào mặt tôi một cái: “Làm sai thì phải chịu phạt! Tao thấy mày bị bố mẹ chiều đến hư hỏng rồi! Mày còn dám ngoan cố động đậy nữa là tao đánh chết mày tại chỗ!”
+
+Bố mẹ tôi hoảng hốt chạy tới can ngăn. Nhưng lúc ấy anh tôi đã hoàn toàn mất lý trí, nên chẳng một ai kéo nổi anh ấy ra.
+
+Một tiếng “xoẹt” vang lên, và mái tóc dài mà tôi đã tốn bao công sức chăm chút bấy lâu bị cắt đi gần một nửa. Ngay khoảnh khắc ấy, tôi nghe thấy cả tiếng trái tim mình vỡ vụn từng mảnh.
+
+“Trần Long, tao phải giết mày!”
+
+Tôi hoàn toàn phát điên, tung một cú đá thẳng vào hạ bộ anh ấy. Anh ấy đau đớn gập người ôm lấy chỗ đau, tôi nhanh tay giật lấy chiếc kéo đâm thẳng vào tay anh, rồi xông vào đấm đá túi bụi.
+
+Châu Thược Nam hét lên một tiếng thật lớn, lao xộc ra từ trong phòng, túm lấy tóc tôi giật mạnh ra sau: “Mày dám ra tay đánh anh trai mày sao?!”
+
+Tôi vung tay tát liên tiếp vào mặt chị ấy, khiến chị choáng váng cả đầu óc. Sau đó tôi cầm kéo quơ vài nhát “xoẹt xoẹt”, biến mái tóc ngang vai của chị ấy thành kiểu húi cua lởm chởm.
+
+“Tao không chỉ đánh anh tao, mà tao đánh cả mày đấy! Mày chẳng qua là ghen tị vì tóc tao dài và đẹp hơn mày chứ gì?”
+
+“Mày tưởng tao không biết mày lén thay chai dầu gội của tao thành kem tẩy lông à? Hay cái trò mày giấu kim nhọn trong quần lót của tao? Tao đã cố nhẫn nhịn mày bao lâu nay, không phải tới hôm nay mới bắt đầu đâu!”
+
+Từ lâu tôi đã biết Châu Thược Nam vốn chẳng ưa gì mình. Chị ta luôn kiếm cớ để gây sự với tôi. Còn anh trai tôi, kể từ ngày lấy vợ, đầu óc đã mê muội, chẳng còn biết nghĩ gì ngoài việc ra sức bảo vệ chị ta.
+
+Tôi vẫn luôn tự hỏi, tại sao ngay lần đầu gặp mặt trong ngày cưới, Châu Thược Nam đã tỏ ra khó chịu với tôi, thậm chí nhất quyết không cho tôi làm phù dâu mà đi chọn một cô gái xa lạ. Rốt cuộc vì sao chị ấy lại căm ghét tôi đến mức ấy?
+
+Đến tận bây giờ tôi mới vỡ lẽ, kẻ xấu muốn hại người thì làm gì cần có lý do.
+
+Suốt một năm chung sống, Châu Thược Nam chẳng biết đã bao nhiêu lần tìm cách gián tiếp hãm hại tôi. Những câu châm chọc, móc mỉa trong chuyện trò thường ngày giữa phụ nữ với nhau thì tôi bỏ qua, không chấp.
+
+Nhưng cũng có những lần hành vi của chị ta nghiêm trọng hơn nhiều. Như lần tôi đang thi vấn đáp trực tuyến, chị ấy lén khóa trái cửa phòng tôi từ bên ngoài, rồi đứng đập cửa liên tục, có lúc lại cố tình lượn qua lượn lại trước ống kính camera để gọi tôi ra ăn cơm.
+
+Rốt cuộc, tôi không thể hoàn thành buổi thi ấy và bị đánh trượt.
+
+Lại có lần khác, thấy tôi nghỉ hè ở nhà, chị ấy sốt sắng giới thiệu cho tôi một công việc làm thêm thông qua em trai chị. Kết quả là trên đường tới chỗ làm, gã em trai lái xe vào một con đường hẻo lánh, rồi bất ngờ chồm sang xé rách áo tôi, đòi sàm sỡ.
+
+May mà tôi từng theo học Judo vài năm, nên đã nhanh chóng hạ gục gã rồi gọi điện báo cảnh sát. Bố mẹ tôi khi ấy cũng chỉ trách Châu Thược Nam vài câu vì không biết nhìn người, vậy mà chị ấy giận dỗi bỏ về nhà mẹ đẻ suốt nửa tháng, không chịu bắt máy.
+
+Cuối cùng, anh trai tôi lại ép tôi phải tới tận nơi xin lỗi và van xin chị ta quay về.
+
+Khi ấy tôi cắn răng nhẫn nhịn chỉ vì mong bố mẹ được yên ổn. Hơn nữa tôi cũng sắp đi học xa nhà, không phải chạm mặt thường xuyên, nên nghĩ nhịn một chút cũng chẳng mất gì.
+
+Còn bố mẹ tôi thì thật lòng tin rằng quan hệ giữa tôi và chị dâu từ trước đến nay vẫn luôn êm đẹp, hòa thuận.
+
+Sự bùng nổ dữ dội lần này của tôi khiến bố mẹ lúng túng, không biết xử lý ra sao. Đến khi anh trai tôi định xông vào đánh tôi lần nữa, bố tôi đã thẳng tay giáng cho anh ấy một cái tát chát chúa: “Mày thử động vào em gái mày một lần nữa xem!”
+
+Mẹ tôi ôm chặt tôi vào lòng, liên tục an ủi: “Con gái yêu của mẹ, tóc con rồi sẽ dài lại nhanh thôi, một hai tháng nữa là đẹp ngay, đừng lo lắng quá nhé.”
+
+Còn Châu Thược Nam thì ôm lấy đầu, vừa gạt nước mắt vừa khóc nức nở.
+
+Cuối cùng, dưới áp lực từ bố mẹ, tôi, anh trai và Châu Thược Nam đều phải gượng gạo xin lỗi nhau. Đồng thời, bố mẹ quyết định số tiền sính lễ sẽ hoàn toàn do tôi tự quyết, không ai được can thiệp.
+
+Tôi trở về phòng riêng, bắt đầu thu dọn đồ đạc để chuẩn bị dọn ra ngoài sống tự lập. Sau những chuyện vừa xảy ra, tôi không thể chịu đựng sự hiện diện của anh trai và Châu Thược Nam thêm một phút nào nữa.
+
+Đến lúc vào nhà tắm gom đồ vệ sinh cá nhân, một đốm sáng đỏ nhỏ lóe lên nơi góc khung gương khiến tôi lập tức cảnh giác. Tôi lại gần quan sát kỹ thì bàng hoàng phát hiện đó là một chiếc camera siêu nhỏ giấu kín.
+
+Một luồng khí lạnh buốt chạy thẳng dọc sống lưng tôi. Cảm giác ấy ập tới ngay khoảnh khắc tôi nhận ra thứ đang nằm trước mắt mình.
+
+Ống kính camera chĩa thẳng vào khu vực vòi hoa sen. Tôi lại có thói quen soi gương mỗi lần tắm, nên chẳng cần nghĩ nhiều cũng biết kẻ quay lén đã thu trọn từng chi tiết trên cơ thể tôi.
+
+Tôi cố gắng giữ cho mình thật bình tĩnh để phân tích tình hình. Và người duy nhất có thể làm ra trò bẩn thỉu này không ai khác ngoài Châu Thược Nam!
+
+Chị ấy không ít lần lén lấy chìa khóa trong tủ của mẹ tôi, để tự ý mở cửa bước vào phòng tôi. Ngay cả hai chiếc túi xách hàng hiệu của tôi cũng bị chị “mượn” đi mà chẳng đánh tiếng trả lại, thậm chí còn thản nhiên xách đi qua đi lại trước mặt tôi như đồ mới mua, làm như tôi bị mù không nhận ra.
+
+Tôi đã vô số lần nhẫn nhịn chị ta chỉ để giữ êm ấm cho gia đình. Nhưng nếu không vì trò lố lăng của chị ta trước mặt bạn trai tôi hôm nay, tôi cũng chẳng quyết tâm đối đầu tới cùng.
+
+Ai ngờ sự nhẫn nhịn của tôi lại vô tình trở thành cái đà để chị ta ngày càng lấn tới! Tôi chưa từng nghĩ mọi chuyện sẽ đi xa đến mức này.
+
+Nén cả một bụng chửi rủa trong lòng, tôi cầm điện thoại lên rồi bấm số gọi cảnh sát.
+
+Khoảng nửa tiếng sau, tiếng còi xe cảnh sát hú vang tiến vào khu chung cư. Âm thanh ấy thu hút sự chú ý của rất nhiều người xung quanh.
+
+Bố mẹ tôi lúc ấy đang ngồi xem tivi ở phòng khách. Mở cửa ra thấy cảnh sát, hai người giật mình kinh ngạc: “Có chuyện gì vậy các chú? Hay các chú đi nhầm nhà rồi?”
+
+“Không nhầm đâu ạ.” Tôi bước ra, giọng lạnh ngắt: “Là con gọi cảnh sát đến đấy. Bố mẹ, có kẻ lén lắp camera quay lén trong phòng tắm của con!”
+
+Lời tôi vừa dứt, những người hàng xóm hiếu kỳ đứng quanh đó lập tức xôn xao, bàn tán không ngớt.
+
+Châu Thược Nam từ trong phòng bước ra, vừa kịp nghe trọn câu ấy, sắc mặt chị ta sa sầm lại. Không đợi cảnh sát hỏi han, chị ấy đã lớn tiếng mỉa mai tôi: “Ai rảnh đi quay lén mày chứ? Mày tưởng mày là ngôi sao chắc? Cho dù mày cởi trần đi dạo đường Tam Hoàn thì người ta cũng chẳng thèm liếc mày lấy một cái đâu!”
+
+“Đúng là loại thích làm trò gây chú ý, chẳng qua là muốn đánh bóng tên tuổi thôi chứ gì!”
+
+Chị ấy lườm tôi một cái đầy khinh bỉ. Còn anh trai tôi thì tức tối quát tôi: “Mày biết mình bị quay lén thì phải biết điều im lặng mà giữ chút mặt mũi cho gia đình, đằng này còn làm ầm lên cho cả khu phố biết! Mày không biết xấu hổ thì tao còn nhục nhã lắm! Bảo cảnh sát về ngay đi!”
+
+Anh ấy chỉ sợ tôi làm lớn chuyện sẽ ảnh hưởng tới uy tín của bản thân. Vừa nói, anh ấy vừa đẩy mạnh tôi ra khỏi cửa, tìm cách đuổi cảnh sát về: “Mấy đứa trẻ con không biết chuyện báo nhầm đấy thôi, mời các anh về cho!”
+
+Tôi cố vùng vẫy nhưng không sao thoát khỏi tay anh ta. Trong cơn giận, tôi giơ tay tát thẳng vào mặt anh trai một cái.
+
+Bị tát ngay trước mặt đông người, anh tôi giận đến đỏ bừng mặt, vơ lấy con dao gọt hoa quả trên bàn, định lao vào chém tôi tan xác để chứng tỏ mình là đàn ông.
+
+Cảnh sát kịp thời lao tới can ngăn. Tôi dõng dạc tuyên bố: “Chẳng có tên trộm nào đột nhập vào nhà tôi chỉ để lắp một cái camera rồi không lấy đi tài sản nào cả. Tôi hoàn toàn có quyền nghi ngờ chính người trong nhà này làm chuyện đó. Kẻ nào đã làm cái việc ghê tởm ấy thì đừng trách tôi không nể tình nghĩa gia đình!”
+
+Tôi nói vậy, nhưng mắt vẫn dán chặt vào gương mặt Châu Thược Nam.
+
+Quả nhiên chị ta cuống quýt hẳn lên, kéo lấy tay mẹ tôi mà van xin: “Mẹ ơi, Tinh Tinh bị quay lén rồi thì báo cảnh sát cũng đâu giải quyết được gì. Giờ nó làm rùm beng thế này chỉ khiến danh tiết bị hủy hoại hoàn toàn, sau này làm sao gả cho ai được nữa? Mẹ bảo nó dừng lại đi, đợi qua cơn sóng gió này nó vẫn còn là cô gái trong sạch mà.”
+
+Mẹ tôi vốn không được học hành nhiều, lại mang nặng tư tưởng phong kiến cổ hủ. Nghe Châu Thược Nam phân tích vậy, bà liền hoảng loạn, quay sang ra sức khuyên tôi đừng hành động nông nổi.
+
+Tôi bật cười cay đắng: “Danh dự thì là cái gì chứ! Kẻ nào dám lấy chuyện này ra bôi nhọ con, con sẽ xé nát miệng kẻ đó! Nếu bây giờ không điều tra cho ra lẽ, đến lúc ảnh khỏa thân của con lan tràn khắp nơi thì con biết tìm ai đòi lại công lý đây?”
+
+Cảnh sát nhanh chóng thu giữ chiếc camera, mang về đồn để tiến hành kiểm tra. Cả nhà tôi cũng phải đi theo tới cơ quan công an để chờ kết quả.
+
+Chỉ một lúc sau, các anh đã tìm ra hai dấu vân tay trên chiếc camera, một cái là của tôi, cái còn lại là của Châu Thược Nam.
+
+Bố mẹ tôi bàng hoàng không tin vào mắt mình. Còn chưa kịp nói gì thì Châu Thược Nam đã hoàn toàn mất kiểm soát: “Dựa vào đâu mà các người khẳng định là do tôi làm? Đều là phụ nữ với nhau, tôi quay lén cô ta để làm gì? Tôi thấy chính các người đang lập mưu gài bẫy hại tôi thì có!”
+
+Chị ta đột ngột chỉ thẳng vào mặt tôi, chửi: “Trần Tinh, tôi biết cô vốn căm ghét tôi, bình thường cô bắt nạt tôi thế nào tôi cũng chịu, nhưng hôm nay cô còn muốn tống tôi vào tù nữa sao? Cô đúng là đồ độc ác! Tôi đã làm gì sai mà cô dồn tôi vào đường cùng thế này?”
+
+“Hay là cô có ý nghĩ bất chính với anh trai mình, ghen tức vì tôi đã giật mất anh ấy? Tôi biết thừa rồi, cô muốn loạn luân với chính anh trai ruột!”
+
+Không chỉ bố mẹ tôi, ngay cả anh trai tôi nghe xong cũng nổi điên. Anh ấy thẳng tay giáng một cái tát chát chúa vào mặt Châu Thược Nam rồi gào lên: “Cô nói ra mấy lời đó mà không thấy tởm lợm sao? Cô cố tình bôi nhọ danh dự của tôi đấy à!”
+
+Châu Thược Nam ôm bên má bị tát, khóc nức nở. Ánh mắt đầy oán hận của chị ta hướng thẳng về phía tôi.
+
+Cảnh sát kiểm tra điện thoại của Châu Thược Nam, tìm thấy lịch sử giao dịch mua camera giấu kín cùng đoạn tin nhắn trơ trẽn giữa chị ấy với bên bán, bàn về việc rao bán các đoạn video khỏa thân của nữ sinh với giá năm trăm tệ.
+
+Cuối cùng, chị ta bị phạt hành chính mười nghìn tệ và chịu hình phạt tạm giam 15 ngày.
+
+Mẹ tôi giận đến mức toàn thân run lên bần bật: “Sao con lại làm ra cái trò đồi bại ấy với chính em gái mình chứ?!”
+
+Châu Thược Nam nấp sau lưng anh tôi, giả bộ giận dỗi: “Con chỉ muốn dùng thử xem chiếc camera ấy hoạt động ra sao thôi mà. Chuyện này là lỗi của con vì lỡ quên dặn trước với Tinh Tinh, có thế thôi mà. Mẹ đừng to tiếng với con như vậy, con sợ lắm!”
+
+Anh tôi mất kiên nhẫn, phẩy tay: “Đủ rồi đấy! Toàn chuyện bé xé ra to, ai thèm nhìn cái thân thể nó chứ! Đi về thôi, mất mặt quá rồi. Trần Tinh đúng là bị bố mẹ chiều đến hư hỏng hết cả, rồi sẽ có ngày chính tay con đánh cho nó một trận nên thân để nó biết điều!”
+
+Nói xong, anh tôi lườm tôi một cái cháy mắt rồi nắm tay Châu Thược Nam định bước đi.
+
+Nhưng cảnh sát không phải những người dễ dàng bỏ qua. Họ lập tức tra còng số tám vào tay Châu Thược Nam và nói: “Nếu không có đơn rút tố cáo từ phía nạn nhân, cô ấy bắt buộc phải chấp hành hình phạt theo đúng quy định.”
+
+Anh tôi nhíu chặt mày, chỉ tay về phía tôi: “Mày còn đứng ngây ra đó làm gì? Mau theo cảnh sát đi làm thủ tục rút đơn đi! Mày thực sự định để chị dâu mày đi ngồi tù à?”
+
+Tôi hất tay anh ta ra, cười lạnh: “Nếu không thì sao?”
+
+Chưa để anh tôi kịp nổi điên, tôi đã chủ động dẫn bố mẹ rời đồn cảnh sát, không ngoảnh đầu nhìn lại.
+
+Anh tôi phải tự bỏ tiền túi nộp khoản phạt mười nghìn tệ. Về đến nhà, anh ấy đập nát chậu cây cảnh mẹ tôi đã tốn công chăm sóc bấy lâu: “Mày nhớ lấy mặt tao đấy, sau này dù mày có bị đánh chết bên nhà chồng thì tao cũng quyết không xen vào đâu!”
+
+Tôi chẳng buồn đáp lại. Mẹ tôi thẫn thờ nhìn đống mảnh vỡ ngổn ngang dưới sàn, rồi quay sang nhìn anh trai tôi bằng ánh mắt đầy thất vọng.
+
+Tin Châu Thược Nam bị tạm giam nhanh chóng lan khắp bạn bè và họ hàng thân thích.
+
+Phần lớn người dân vùng quê không phân biệt nổi giữa đi tù và tạm giam. Qua lời đồn “tam sao thất bản”, vụ việc dần biến thành chuyện Châu Thược Nam phạm tội đặc biệt nghiêm trọng, hành vi cực kỳ độc ác và sắp bị đem ra tử hình.
+
+Dù nghe tin như vậy, bố mẹ đẻ của chị ta cũng chẳng buồn gọi lấy một cuộc điện thoại hỏi han. Ngược lại, họ còn đi khắp nơi tuyên bố chính thức cắt đứt quan hệ với chị ta.
+
+Tối hôm ấy, tôi bất ngờ nhận được một bức ảnh gửi từ một số máy lạ.
+
+Đó là tấm ảnh khỏa thân độ phân giải cao của chính tôi.
+
+Toàn thân tôi như đông cứng tại chỗ. Tôi đã tự dặn lòng phải thật bình tĩnh, vậy mà khi phải trực tiếp đối mặt với cảnh tượng này, cơ thể tôi vẫn không kìm được mà bắt đầu run lên.
+
+Tin nhắn tiếp theo gửi tới ngay: “Nhanh đến đồn cảnh sát rút đơn kiện, khai là cô đã vu khống Châu Thược Nam, đồng thời chuyển ngay cho tôi thêm năm mươi nghìn tệ. Nếu không, tôi sẽ gửi tấm ảnh khỏa thân này của cô tới toàn bộ danh bạ những người cô quen, rồi tung thẳng lên mạng cho thiên hạ cùng chiêm ngưỡng!”
+
+Tôi bình thản gõ chữ đáp lại: “Dựa vào đâu mà anh bảo đây là tôi? Tôi thấy rõ ràng là ảnh cắt ghép AI mặt tôi vào!”
+
+Đối phương trả lời gần như ngay lập tức, giọng vô cùng đắc thắng: “Cô biết thừa mình bị quay lén rồi còn chối làm gì? Đây là đoạn video do chính Châu Thược Nam gửi cho tôi đấy, trong tay tôi còn nhiều video khác nữa, cô có muốn xem tiếp không?”
+
+Kèm theo đó là hàng loạt đoạn video quay cảnh tôi đang tắm, cùng những lời bình phẩm cực kỳ tởm lợm: “Bụng cô trông hơi nhiều mỡ đấy, nên lo mà giảm cân đi. Nhưng bù lại vòng một khá đẹp, thật muốn được chạm thử một lần. Giờ thì tin chưa? Toàn bộ đều là video Châu Thược Nam tự tay gửi cho tôi đấy!”
+
+Tôi nhanh tay chụp lại toàn bộ màn hình để giữ làm chứng cứ, rồi giả vờ sợ hãi gõ: “Tôi sẽ chuyển tiền cho anh ngay bây giờ, xin anh đừng phát tán những hình ảnh này của tôi.”
+
+Theo thông tin tài khoản ngân hàng mà hắn cung cấp, tôi chuyển đi năm mươi nghìn tệ.
+
+Tên chủ tài khoản nhận tiền kết thúc bằng chữ “Tứ”. Tôi nhớ rất rõ em trai của Châu Thược Nam tên là Châu Thiên Tứ.
+
+Nhận được tiền, hắn tỏ ra vô cùng phấn khích, hả hê ra mặt. Hắn buông thêm vài lời đe dọa rồi lặn mất tăm, không còn nhắc tới chuyện bắt tôi đi rút đơn cho Châu Thược Nam nữa.
+
+Tôi vẫn giữ bình tĩnh, lặng lẽ chờ đợi thời cơ của mình. Quả nhiên, chỉ khoảng bảy tám ngày sau, hắn lại nhắn tới: “Chuyển thêm cho tao một trăm nghìn tệ nữa! Nhanh lên! Tao biết thừa mày có tiền, không thì ra ngoài mà bán thân kiếm tiền. Nếu nửa tiếng nữa tao không nhận được tiền, tao sẽ cho toàn bộ đàn ông trên thế giới này xem sạch ảnh khỏa thân của mày!”
+
+Tôi lập tức gọi 110, vừa sụt sịt khóc vừa trình báo với cảnh sát: “Tôi sợ lắm rồi, tôi đã phải chuyển tiền cho hắn một lần rồi, bây giờ thật sự không còn khả năng tài chính nữa!”
+
+Công an nhanh chóng lần theo dòng tiền, và kẻ giật dây không ai khác chính là Châu Thiên Tứ.
+
+Gã bị bắt gọn khi đang đốt tiền ở một sòng bạc chui, trong lúc gánh khoản nợ từ hai đến ba vạn tệ và đỏ mắt chờ tiền tôi chuyển tới. Đúng lúc gã đang gõ bàn phím chửi rủa tôi thì cảnh sát ập vào bắt ngay tại trận.
+
+Với hàng loạt tội danh gồm cưỡng đoạt tài sản, phát tán văn hóa phẩm đồi trụy, xâm phạm quyền riêng tư và tổ chức đánh bạc, cùng tổng số tiền liên quan lên tới tám vạn tệ, Châu Thiên Tứ cuối cùng lãnh án năm năm tù giam.
+
+Bố mẹ tôi chỉ biết toàn bộ sự việc này thông qua lời kể của Châu Thược Nam, vào lúc chị ta vừa mãn hạn tạm giam và trở về nhà.
+
+Tất nhiên chẳng ai trong nhà tôi đi đón chị ta. Lúc về tới nhà, Châu Thược Nam trông bẩn thỉu vô cùng, tóc tai bù xù rối rắm, mặt, cổ và hai cánh tay chi chít vết cào cấu, vết cắn, cả người bầm tím vì bị đánh. Mí mắt chị ta sưng húp như hai quả trứng gà.
+
+Vừa bước qua cửa, chị ta đã gào lên với tôi, và lúc này tôi mới nhận ra chị ấy bị người ta đánh gãy mất hai chiếc răng cửa.
+
+“Có phải mày không, có phải chính mày đã đẩy em trai tao vào tù không?!”
+
+Châu Thược Nam lao tới, giơ tay định cào xé mặt tôi. Tôi nhanh tay chộp lấy chiếc gậy bóng chày của bố để tự vệ, vụt mạnh một phát, đánh chị ta ngã gục xuống sàn, không đứng dậy nổi.
+
+“Lần trước em trai chị định cưỡng hiếp tôi, tôi đã không chấp. Lần này nó lại dám dùng ảnh khỏa thân để tống tiền tôi. Tôi tính gộp cả hai khoản một thể! Muốn trách thì chị tự trách mình đi, chính chị là kẻ kéo nó xuống bùn lầy, chính chị đã hại chết nó!”
+
+Mẹ tôi từ trong bếp hoảng hốt chạy ra ngoài. Sau khi nghe tôi kể lại toàn bộ sự việc, bà ôm chầm lấy tôi, khóc nức nở, đau đớn nguyền rủa Châu Thược Nam: “Tội nghiệp con gái của mẹ, sao cô ta lại làm ra cái trò ác độc như thế với con! Sao nhà mình lại rước phải cái tai họa này về! Tại sao cô dám ra tay hãm hại con tôi như thế!”
+
+Bố tôi cũng nổi trận lôi đình, nét mặt xám xịt: “Cô cùng thằng Trần Long ăn cháo đá bát kia, cút hết ra khỏi cái nhà này mà tự sống với nhau!”
+
+Từ ngày Châu Thược Nam về làm dâu, bố mẹ tôi luôn coi chị ta như con gái ruột. Họ chưa từng chỉ tay quát mắng, ngay cả nói chuyện bình thường cũng không dám nặng lời.
+
+Giờ bị chỉ thẳng mặt chửi rủa như vậy, Châu Thược Nam hoàn toàn gục ngã. Chị ta ngồi bệt xuống sàn, hai mắt đỏ ngầu vì ghen tức, chĩa tay về phía tôi mà gào khóc thảm thiết: “Bố mẹ đẻ tôi không cần tôi nữa rồi, họ bảo tôi hại chết em trai... Vừa ra khỏi trại giam, họ đã đánh tôi suýt chết, lại còn lột sạch tiền trong tài khoản của tôi!”
+
+“Tại sao số tôi lại khổ thế này, trong khi Trần Tinh chẳng hề hấn gì, mọi người còn ra sức bảo vệ nó, nó còn tìm được bạn trai vừa giàu vừa đẹp trai nữa! Tại sao chứ?!”
+
+Bố mẹ tôi lập tức đứng chắn trước mặt tôi, lạnh lùng nói: “Bố mẹ đẻ cô đối xử tệ với cô thì cô đi mà tìm họ giải quyết! Chuyện đó thì liên quan gì tới Tinh Tinh nhà chúng tôi?”
+
+Lần này bố mẹ tôi rất nghiêm túc khi nhắc chuyện tách ra ở riêng. Tối hôm ấy, ngay khi Trần Long vừa đi làm về, bố tôi đã thẳng thắn thông báo quyết định.
+
+Trần Long lập tức nổi trận lôi đình, đập tan tành mấy món đồ gốm sứ mẹ tôi tốn công sưu tầm. Mẹ giận quá giáng cho anh ta một cái tát, và Trần Long trừng mắt đỏ ngầu nhìn thẳng vào mẹ.
+
+Bố tôi bước tới tát thêm một cái nữa rồi quát lớn: “Mày trừng mắt nhìn mẹ mày kiểu gì hả? Mày định đánh cả mẹ mày nữa đấy à?!”
+
+Trần Long vốn chỉ giỏi bắt nạt kẻ yếu thế chứ không dám làm gì quá trớn. Anh ta quay sang trút hết cơn giận lên đầu tôi: “Có phải mày xúi bố mẹ làm thế không? Làm phận con gái, bố mẹ cho mày học đại học thì phải biết ơn biết điều. Thế mà mày còn dám ăn bám gia đình, quay lại tranh giành tài sản với tao! Tao phải đánh chết mày, cái đồ ăn hại này!”
+
+Anh ta lại định xông vào đánh tôi. Tôi cười lạnh: “Mày thử động vào tao xem? Hôm nay mày mà đụng vào một sợi tóc của tao, ngày mai tao sẽ mò tới tận công ty mày làm loạn, cho đến khi nào chẳng ai chịu nổi mới thôi!”
+
+Trần Long vốn cực kỳ coi trọng sĩ diện, nhất là khi có người ngoài chứng kiến. Vì thế nghe tôi nói vậy, anh ta liền im bặt.
+
+Châu Thược Nam đau lòng xót xa ôm lấy anh ta, và hai vợ chồng cùng lườm tôi bằng ánh mắt đầy oán hận.
+
+“Nếu bố mẹ đã thật sự muốn con dọn ra ngoài thì ít nhất cũng phải cho con chút thời gian tìm nhà chứ.” Chờ mãi chẳng ai đáp lại, Trần Long bắt đầu xuống nước.
+
+Dù sao anh ta cũng là con ruột, nên bố mẹ tôi không thể đuổi đi ngay lập tức được. Hai người đành cho anh ấy thời hạn một tháng để thu dọn và chuyển đồ đi.
+
+Về phần tôi, vì không muốn sống chung một mái nhà với hai vợ chồng họ thêm ngày nào nữa, tôi lập tức kéo vali chuẩn bị dọn ra ngoài.
+
+Đúng lúc ấy, Tiêu Kiều nhắn tin báo rằng bố mẹ hắn rất lo lắng vì hắn mới tới nhà gái ngày đầu đã bị đuổi về sớm, nên quyết định ngày mai sẽ trực tiếp tới thăm gia đình tôi.
+
+Trong lòng tôi dấy lên nỗi lo, tôi vội đi tìm mẹ bàn bạc. Mẹ tôi quyết định: “Cứ đón họ vào nhà ngồi uống nước trò chuyện một lúc, rồi cả nhà mình cùng ra nhà hàng ăn.”
+
+“Đêm nay mẹ sẽ tìm cách bắt anh trai và chị dâu con ra ngoài. Con cứ yên tâm nhé!”
+
+Tôi chẳng rõ mẹ đã dùng lời lẽ gì. Chỉ biết rằng ngay trong đêm đó, Trần Long và Châu Thược Nam đã vội vã rời khỏi nhà.
+
+Sáng hôm sau, tôi sang đón Tiêu Kiều cùng bố mẹ hắn tới nhà chơi. Hai bên gia đình chuyện trò rất vui vẻ, cởi mở.
+
+Nhưng khi bầu không khí đang lúc rôm rả nhất, bên ngoài bất chợt vang lên tiếng đập cửa “thình thình” dữ dội. Tim tôi chùng xuống, bố mẹ tôi cũng ngập ngừng không muốn ra mở cửa.
+
+Chỉ trong chớp mắt, cánh cửa đã bị đẩy tung, Trần Long và Châu Thược Nam bước vào nhà với nụ cười đầy vẻ bất thiện: “Bố mẹ này, em gái đón tiếp nhà thông gia mà chẳng thông báo cho bọn con lấy một lời. Cũng may con nhờ bảo vệ chung cư để ý giúp, không thì đã bỏ lỡ cơ hội này rồi.”
+
+Châu Thược Nam thấy Tiêu Kiều đang cẩn thận gọt táo đưa cho tôi, lại thấy bố mẹ hắn ăn bận sang trọng, toàn đồ hiệu và trang sức đắt tiền. Ánh mắt chị ta lập tức lộ rõ vẻ ghen tị, nét mặt sa sầm xuống, chị ta lên tiếng: “Tinh Tinh, còn chưa cưới xin gì mà em đã để đàn ông đút cho ăn thế này rồi, thật chẳng ra làm sao cả!”
+
+Tôi chẳng buồn liếc chị ta, đáp: “Chuyện đó thì liên quan gì tới chị?”
+
+Tiêu Kiều lập tức vồn vã nói: “Chỉ cần Tinh Tinh thích thì tôi nguyện ý đút cho cô ấy ăn suốt đời!”
+
+Châu Thược Nam tức đến xanh mặt, hầm hầm đi thẳng vào phòng riêng rồi sập mạnh cửa.
+
+Trần Long thì chủ động bắt chuyện với bố Tiêu Kiều, tỏ ra thân thiết, liên tục cố tình thăm dò công việc của bố mẹ hắn. Nghe được những thông tin ưng ý, anh ta cười tươi đến híp cả mắt: “Gia đình con nuôi em gái trưởng thành cũng chẳng dễ dàng gì, không biết phía thông gia tính đưa bao nhiêu tiền sính lễ đây?”
+
+Anh ta đi thẳng vào vấn đề không chút ngần ngại, ánh mắt như con sói đói dán chặt vào bố mẹ Tiêu Kiều.
+
+Bố mẹ Tiêu Kiều vốn từng trải nhiều năm trên thương trường, nên hiểu rõ ý đồ phía sau câu hỏi ấy.
+
+Hai người khẽ liếc sang tôi rồi nói rõ ràng: “Mức sính lễ hai trăm nghìn tệ, không biết mọi người thấy vậy đã hợp lý chưa? Ngoài ra, chúng tôi cũng đã đứng tên mua cho hai đứa một căn hộ ngay trung tâm thành phố, đồng thời sẽ sắm riêng cho Tinh Tinh một chiếc xe ô tô. Còn vàng bạc cưới xin thì tất nhiên bên chúng tôi cũng sẽ chuẩn bị đầy đủ, chu đáo.”
+
+Bố mẹ tôi tự biết nhà mình không chuẩn bị nổi phần hồi môn tương xứng nên vội từ chối, nhưng Trần Long lại dõng dạc tuyên bố: “Em gái tôi là sinh viên tốt nghiệp trường đại học hàng đầu, nhà chúng tôi không thiếu tiền, cái chính là cần sự thành ý!”
+
+Bố mẹ Tiêu Kiều là người nhiều kinh nghiệm sống nên không thể không nhận ra ý đồ trục lợi của anh ta, hai người chỉ khẽ liếc nhìn tôi.
+
+Tôi giận đến xám xanh mặt mày, nhưng có khách ở đây nên không tiện nổi nóng. Tôi đành giơ tay đẩy Trần Long ra ngoài rồi nói: “Chú thím ơi, chúng ta ra nhà hàng dùng bữa trước đã, có gì sẽ bàn bạc sau ạ!”
+
+“Đúng rồi, chúng ta cứ đi ăn trước đã!” Mẹ tôi cũng vội kéo tay mẹ Tiêu Kiều rời khỏi nhà.
+
+Đúng lúc ấy, từ trong phòng riêng, Châu Thược Nam đột ngột hét lên thất thanh. Lại là tiếng hét chói tai quen thuộc như lần trước. Chỉ nghe thôi, tôi đã thấy nhức đầu ngay lập tức.
+
+“Mẹ ơi, chiếc vòng tay bằng vàng của con mất rồi! Con để ngay trên tủ đầu giường mà, cái vòng vàng trị giá cả chục ngàn tệ của con!”
+
+Chị ta gọi lớn mẹ chồng, nhưng đôi mắt lại cứ đảo qua đảo lại về phía tôi, từng bước tiến lại gần: “Tinh Tinh, lần trước em vào phòng chị tìm đồ, chắc hẳn em đã nhìn thấy chiếc vòng đó rồi đúng không?”
+
+Chị ta giơ tay định túm lấy tay tôi, nhưng tôi đã nhanh chân lùi lại ba bước, đồng thời rút điện thoại ra: “Món đồ giá trị lớn như thế mà mất thì tốt nhất nên báo cảnh sát đến xử lý ngay.”
+
+Tôi chưa kịp bấm số thì Trần Long đã lao tới giật phắt điện thoại của tôi, chửi ngay: “Suốt ngày chỉ biết mở miệng ra là gọi cảnh sát, mày không có việc gì tử tế hơn để làm à? Mặt mày dày đến mức nào mà lúc nào cũng làm phiền cảnh sát!”
+
+Tôi cười lạnh: “Tôi buộc phải báo cảnh sát thôi, không thì lát nữa lại bị đổ thừa là tôi ăn trộm chiếc vòng vàng của chị ấy.”
+
+Anh ta giật điện thoại của tôi, tôi liền nhanh tay lấy luôn điện thoại của mẹ.
+
+Trần Long hạ giọng đe dọa: “Hôm nay tốt nhất mày nên biết điều một chút. Tao không muốn đánh mày ngay trước mặt nhà chồng tương lai của mày đâu.”
+
+Tôi nhìn anh ta bằng ánh mắt lạnh ngắt: “Trần Long, mày nghĩ mày là cái thá gì? Từ năm tao 13 tuổi tới nay, mày đã không còn đủ sức đánh thắng tao nữa rồi.”
+
+Từ nhỏ Trần Long đã có thói quen thích đánh tôi. Rót nước chậm một chút cũng bị đánh, làm bài tập không vừa ý anh ta cũng bị đánh, nhiều khi chẳng cần lý do gì, chỉ vì anh ta bực bội trong người nên tìm chỗ trút giận.
+
+Sau đó anh ta còn đe dọa không được mách bố mẹ, nếu không lần sau sẽ đánh nặng tay hơn. Anh ta cậy sức vóc nhỉnh hơn nên tự đắc cho rằng mình có thể bắt nạt tôi cả đời.
+
+Mãi tới năm tôi 8 tuổi, bị anh ta đánh đến xuất huyết dạ dày phải nhập viện cấp cứu, bố mẹ mới bàng hoàng nhận ra anh ta đã âm thầm hành hạ tôi dã man đến mức nào sau lưng hai người.
+
+Sau khi xuất viện trở về, tôi được gia đình cho đi học Taekwondo. Tiếp đó, tôi đăng ký học thêm cả võ tự do và Judo.
+
+Đến năm tôi 13 tuổi, khi Trần Long lại vô cớ giơ tay tát tôi một cái, tôi lập tức phản kháng và đánh gãy cả sống mũi anh ta.
+
+Từ lần đó, anh ta mới bắt đầu biết sợ và bớt xấc láo phần nào, nhưng mỗi khi tôi không chịu nghe lời, anh ta vẫn cố tình giơ tay đòi đánh. Chỉ tiếc là bây giờ anh ta không còn là đối thủ của tôi nữa.
+
+Mấy năm qua, tôi luôn là người giành thế thắng, và kết cục tệ nhất cũng chỉ là cả hai cùng bị thương.
+
+Có lần anh ta còn tính đi học võ, nhưng bị bố tôi chỉ thẳng mặt đe dọa: “Mày thử nhắc lại chuyện đó một lần nữa xem tao có đánh chết mày không?”
+
+Thấy tôi thực sự đã bấm số gọi 110, Châu Thược Nam sốt ruột lao thẳng về phía tôi: “Nếu em nhát gan thì cứ nói ra, làm trò dọa dẫm ai ở đây chứ?”
+
+Vừa nói, chị ta vừa cố giật điện thoại trong tay tôi, đồng thời kéo xé cả áo tôi.
+
+Tiêu Kiều vốn đang đứng chắn giữa hai chúng tôi. Thấy tôi bị cào đến đỏ bừng cả mặt, hắn không chút ngần ngại tung một cú đá rất mạnh, khiến Châu Thược Nam văng xa hơn hai mét.
+
+Từ túi áo chị ta, một chiếc vòng tay bằng vàng sáng lấp lánh rơi ra.
+
+Cả căn phòng lập tức chìm vào im lặng. Chẳng ai còn thốt nổi thêm một lời nào.
+
+Cho dù là kẻ ngốc cũng dư sức nhận ra mưu đồ mà Châu Thược Nam định thực hiện. Chiếc vòng vàng rơi ra từ chính túi áo chị ta đã phơi bày tất cả.
+
+Mặt Trần Long sa sầm, nhưng anh ta vẫn bước tới đỡ chị ta đứng dậy rồi nói: “Có phải em để quên chiếc vòng trong túi áo mình mà lại quên mất không?”
+
+“Đúng, đúng rồi đấy!” Châu Thược Nam lập tức nương theo lời chữa cháy của anh ta mà đứng dậy: “Chị quên mất tiêu, xin lỗi em nhé Tinh Tinh. Nhưng ai bảo lần trước em tự ý lục tủ đồ của chị làm gì, chị nhớ em còn lấy mất thỏi son của chị nữa cơ đấy.”
+
+Đến giây phút này mà Châu Thược Nam vẫn không quên đào hố để hãm hại tôi. Đúng là bản tính khó dời.
+
+Tôi mỉa mai đáp: “Tôi lấy thỏi son của chị làm gì? Để dùng rồi bị lây bệnh sùi mào gà à?”
+
+Châu Thược Nam tức đến mức không nói nên lời, vừa định chửi tiếp thì bố tôi đã nổi giận đùng đùng: “Đủ rồi đấy! Mấy đứa không có chút lương tâm nào, làm mất hết mặt mũi gia đình! Ở yên hết trong nhà cho tao!”
+
+Bố tôi định dẫn gia đình Tiêu Kiều ra nhà hàng dùng bữa, nhưng Trần Long nhất quyết không chịu. Anh ta đứng chặn ngay cửa ra vào, cười lạnh: “Sổ hộ khẩu của Tinh Tinh hiện đang nằm trong tay tôi. Chuyện kết hôn của nó là do tôi toàn quyền quyết định! Tôi nói thẳng cho nhanh, nếu không có đủ sáu trăm nghìn tệ tiền sính lễ thì đừng mơ cưới được em gái tôi.”
+
+“Chuyện nhà cửa xe cộ thì các người khỏi phải lo cho em gái tôi, nhưng riêng khoản sính lễ sáu trăm nghìn tệ thì bắt buộc phải chuyển thẳng vào tài khoản ngân hàng của tôi! Nói trắng ra là các người đang vớ được hời đấy.”
+
+“Chỉ mất sáu trăm nghìn tệ mà mua đứt được một cô gái trẻ đẹp tốt nghiệp trường đại học danh tiếng, về nhà sinh con đẻ cái, hầu hạ cả đời. Cứ nghĩ cho kỹ mà xem, quá hời còn gì nữa!”
+
+Tôi giận đến mức đảo mắt tìm xem có vật gì tiện tay để lao vào đánh anh ta, nhưng chẳng thấy thứ nào phù hợp, đành xắn tay áo chuẩn bị xông vào ăn thua đủ.
+
+Bố Tiêu Kiều bất ngờ giơ tay ngăn tôi lại, bình thản nói: “Được thôi, sáu trăm nghìn tệ thì sáu trăm nghìn tệ, bên chúng tôi sẽ chuyển thẳng khoản tiền đó vào tài khoản của cậu ngay sau khi trở về.”
+
+Tôi cứ ngỡ bố Tiêu Kiều đã chịu nhượng bộ nên trong lòng nóng như lửa đốt. Nhưng Tiêu Kiều đã vội kéo tay tôi lại, ra hiệu bảo tôi cứ yên tâm, đừng vội vã.
+
+Nghe vậy, Trần Long lập tức nở nụ cười rạng rỡ: “Chú thím ạ, sau này đã là người một nhà, con mà sống tốt thì Tinh Tinh cũng sẽ được hưởng lợi theo. Chú thím là bậc bề trên, sau này nhất định phải giúp đỡ con nhiều hơn nữa nhé!”
+
+Bố Tiêu Kiều nheo mắt cười đáp: “Chắc chắn rồi, chuyện đó là chắc chắn rồi.”
+
+Trước khi ra về, bố mẹ Tiêu Kiều gửi cho tôi một tệp âm thanh, rồi nói đầy ẩn ý: “Tinh Tinh à, cháu vốn là một cô gái rất thông minh.”
+
+Tôi mở tệp ra nghe thử, đó chính là đoạn ghi âm trọn vẹn khoảnh khắc Trần Long rao bán tôi với giá sáu trăm nghìn tệ và dùng vũ lực đe dọa tôi.
+
+Chẳng chút chần chừ, tôi mang ngay đoạn ghi âm đó tới gặp trực tiếp cấp trên của Trần Long. Tin Trần Long đem em gái ruột ra rao bán với giá sáu trăm nghìn tệ nhanh chóng lan truyền khắp công ty anh ta, từ phòng ban này sang phòng ban khác.
+
+Sau đó, tôi còn chủ động đăng đoạn video lên mạng xã hội, công khai tố cáo hành vi bạo hành gia đình tàn nhẫn mà Trần Long trút lên đầu tôi suốt nhiều năm qua. Chẳng mấy chốc, vụ việc leo thẳng lên top từ khóa tìm kiếm hot nhất thành phố.
+
+Vì hành vi của Trần Long làm tổn hại nghiêm trọng đến uy tín, công ty lập tức ra quyết định sa thải anh ta mà không cho một lời giải thích.
+
+Danh tiếng, thứ Trần Long coi trọng nhất trên đời, đã hoàn toàn rơi xuống vực thẳm chỉ sau một đêm. Đi tới đâu anh ta cũng bị người đời chỉ trỏ. Ở nơi nào, người ta cũng bàn tán xôn xao về anh ta.
+
+Trở về nhà trong cơn tức giận bất lực đến cực điểm, Trần Long bàng hoàng nhận ra toàn bộ hành lý của mình đã bị hất xuống dưới tầng.
+
+Châu Thược Nam ngồi khóc thút thít, nói với anh ta: “Bố mẹ đã bán mất căn nhà này rồi!”
+
+Đúng vậy, bố mẹ tôi đã quyết định bán đứt căn nhà rồi cùng tôi chuyển tới thành phố nơi Tiêu Kiều làm việc. Đến khi Trần Long tức tối gọi điện chất vấn, anh ta mới phát hiện cả nhà đã đồng loạt chặn số của mình.
+
+Bố mẹ tôi dùng tiền bán nhà mua lại một căn hộ ba phòng ngủ ngay gần nơi tôi làm việc. Đám cưới giữa tôi và Tiêu Kiều cũng đã được ấn định vào đúng dịp Quốc Khánh năm sau.
+
+Sau kỳ nghỉ Thanh minh, bố mẹ tôi từ quê trở về sau chuyến tảo mộ tổ tiên. Hai người vô tình chạm mặt Châu Thược Nam, rồi thuật lại mọi chuyện cho tôi nghe với nét mặt vô cùng phức tạp.
+
+Hóa ra chị ta đã chính thức làm thủ tục ly hôn với anh trai tôi. Nguyên do là sau khi mất việc, Trần Long suốt ngày ủ rũ, thở vắn than dài, gặp vô vàn khó khăn trong cuộc sống nên chỉ biết mượn rượu bia giải sầu.
+
+Mỗi khi có chuyện không vừa ý bên ngoài, anh ta lại về nhà đánh chị ta dã man.
+
+Thậm chí Trần Long còn đổ lỗi: “Tất cả là lỗi của cô, biết rõ trang điểm tông màu sáng sẽ có số khắc chồng mà vẫn cứ cố tình làm! Chính vì cô nên tôi mới ra nông nỗi thân tàn danh liệt thế này!”
+
+Dù bị đánh đau như vậy, Châu Thược Nam vẫn nhất quyết không muốn ly hôn. Nói chính xác hơn, chị ta biết rõ nếu rời bỏ Trần Long thì sẽ chẳng thể tìm nổi người đàn ông nào tốt hơn.
+
+Nhưng Trần Long lại cực kỳ quyết đoán trong chuyện ly dị. Anh ta không hề do dự.
+
+Châu Thược Nam đành xách hành lý quay về nhà mẹ đẻ, nhưng bị chính bố mẹ ruột nhốt ngoài cửa, mắng chửi là làm xấu mặt gia đình và mang lại điềm xui xẻo. Vậy mà chỉ vài ngày sau, họ lại mở cửa cho chị ta vào, rồi sốt sắng giới thiệu chị ta cho một người đàn ông đơn thân ngoài 40 tuổi.
+
+Gã đàn ông kia gật đầu miễn cưỡng khi nhìn thấy Châu Thược Nam, và bố mẹ chị ta lập tức kéo con gái đi đăng ký kết hôn để nhận khoản sính lễ tám mươi nghìn tệ. Vừa nhận được tiền, họ đã hớn hở vào trại giam thăm em trai chị ta để báo tin mừng.
+
+Sau khi về làm vợ người đàn ông đó, Châu Thược Nam mãi vẫn không sinh nổi con, ngày nào cũng phải chịu cảnh bị đánh đập, chửi mắng thậm tệ.
+
+Mẹ tôi thở dài, hỏi chị ta: “Vậy tại sao trước đây cô không chịu ăn ở tử tế với thằng Trần Long, mà cứ phải bày trò tính toán hãm hại con Tinh Tinh làm gì?”
+
+Châu Thược Nam hai mắt đỏ rực vì ghen tức: “Tôi thấy bất công lắm! Cùng tuổi như nhau, tại sao nó được đi học đàng hoàng nhiều năm như thế? Tại sao ở nhà nó chẳng phải đụng tay vào việc gì? Tại sao nó kiếm được gã bạn trai vừa đẹp trai vừa giàu có? Tôi thì kém nó chỗ nào chứ? Tại sao mọi điều tốt đẹp trên đời này đều thuộc về nó?!”
+
+“Rõ ràng trông tôi vừa đen vừa gầy, thế mà ngay ngày cưới của tôi nó lại đòi làm phù dâu, chẳng phải cố tình làm tôi xấu mặt sao? Muốn dùng nét xấu xí của tôi để làm nền tôn lên vẻ đẹp của nó chứ gì, thật đáng ghét!”
+
+Mẹ tôi nghe xong thì chẳng còn lời nào để nói nữa. Bà giơ chân đá chị ta một cái, rồi cùng bố tôi quay lưng bỏ đi.
+
+Một năm sau, tôi và Tiêu Kiều chính thức nắm tay bước vào lễ đường. Ngay trong ngày vui trọng đại ấy, tôi nhận được tin anh trai mình đã bị bắt giam.
+
+Anh ta phải nhận mức án 10 năm tù giam, với tội danh đánh nhau gây thương tích đặc biệt nghiêm trọng cho người khác.
+
+Bố mẹ tôi nghe tin xong có chút ngậm ngùi. Còn riêng tôi thì trong lòng chẳng gợn lên chút xao động nào.
+
+Tôi vốn đã đoán trước được kết cục này từ lâu. Trần Long là kẻ bản tính ngạo mạn vô độ, nên sớm hay muộn thì ngày này cũng phải tới thôi.
+    
+</div>
+
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>
