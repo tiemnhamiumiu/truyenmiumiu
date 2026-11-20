@@ -25146,7 +25146,7 @@ Trên đời này, chẳng ai hiểu điều đó hơn ta.`
   },{
     id: 1220,
     title: "Chiếc Hộp Nhạc Đã Vỡ",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1e5e6234e7758cffbc75084eeaac7ee8.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7956a1070630218847842844594cc4d2.jpg",
     link: "ngontinh/chiec-hop-nhac-da-vo.html",
     type: "ngontinh",
     desc: `Tôi yêu Lương Quý Thanh đã tám năm trọn vẹn.
