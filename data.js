@@ -25161,7 +25161,7 @@ Lần nào tôi cũng gật đầu nhận lời. Và lần nào Lương Quý Tha
   },{
     id: 1221,
     title: "Bỏ Sân Khấu Trở Thành Thần Tượng Ẩn Danh",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1a8e4dd8d2b17324b5054b463eca2a5.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/0aff3c702bc8052ec6007347a7edbc9a.jpg",
     link: "dammy/bo-san-khau-tro-thanh-than-tuong-an-danh.html",
     type: "dammy",
     desc: `Cư dân mạng đồng loạt chỉ trích tôi dựa vào thủ đoạn hèn hạ để trèo cao, đồn thổi rằng cuộc sống riêng tư của tôi vô cùng hỗn loạn và biến chất.
@@ -25179,7 +25179,7 @@ Bản thân tôi sinh ra trên đời không phải để bất kỳ ai tùy ý 
   },{
     id: 1222,
     title: "Năm Lạng Bạc Mua Mấy Mạng Người",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c0d076b549ca0786e0c96aed4b0f0d9c.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/009640dccdf162608f84add9d14b92db.jpg",
     link: "cotrang/nam-lang-bac-mua-may-mang-nguoi.html",
     type: "cotrang",
     desc: `Cha lại đem mẹ đi cầm cố. Đây đã là lần thứ ba ông ấy cho người ta thuê mướn bà.
