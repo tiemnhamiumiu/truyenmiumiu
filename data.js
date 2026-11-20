@@ -25143,6 +25143,207 @@ Phải, ta đến là để giúp Lục Nghi trút mối hận trong lòng.
 Ta biết rõ hắn căm hận Giang Ly đến mức nào.
 
 Trên đời này, chẳng ai hiểu điều đó hơn ta.`
+  },{
+    id: 1220,
+    title: "Chiếc Hộp Nhạc Đã Vỡ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1e5e6234e7758cffbc75084eeaac7ee8.jpg",
+    link: "ngontinh/chiec-hop-nhac-da-vo.html",
+    type: "ngontinh",
+    desc: `Tôi yêu Lương Quý Thanh đã tám năm trọn vẹn.
+
+Suốt từng ấy thời gian, hắn ngỏ lời cầu hôn tôi tới mười hai lần.
+
+Lần nào tôi cũng gật đầu nhận lời. Và lần nào Lương Quý Thanh cũng trầm giọng đáp lại: “Em đợi anh thêm một thời gian nữa nhé, đến khi anh thật sự sẵn sàng.”
+
+Đến lần thứ mười ba hắn mở miệng cầu hôn, trong lòng tôi bỗng nhẹ bẫng như vừa đặt xuống một gánh nặng.
+
+“Mình chia tay đi, đừng hành hạ nhau thêm nữa, được không?”`
+  },{
+    id: 1221,
+    title: "Bỏ Sân Khấu Trở Thành Thần Tượng Ẩn Danh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1a8e4dd8d2b17324b5054b463eca2a5.jpg",
+    link: "dammy/bo-san-khau-tro-thanh-than-tuong-an-danh.html",
+    type: "dammy",
+    desc: `Cư dân mạng đồng loạt chỉ trích tôi dựa vào thủ đoạn hèn hạ để trèo cao, đồn thổi rằng cuộc sống riêng tư của tôi vô cùng hỗn loạn và biến chất.
+
+Người thân trong gia đình lại quy chụp tôi lòng dạ hẹp hòi, luôn đố kỵ với đứa em trai nuôi, thậm chí còn tìm mọi cách vắt óc suy nghĩ để hãm hại cậu ta.
+
+Đến cả bạn bè cũng nhận xét tôi là kẻ sống hai mặt, hoàn toàn không đáng để tin tưởng hay dấn thân kết giao thâm tình.
+
+Ngay tới vị hôn phu gắn bó cùng tôi cũng cho rằng tôi thiếu đi sự rộng lượng, chẳng thể đoan trang, hiền lành hay trong sáng như người em trai kia.
+
+Nếu mọi chuyện đã thành ra nông nỗi này, có lẽ tôi nên chủ động rút lui khỏi thế giới của họ.
+
+Bản thân tôi sinh ra trên đời không phải để bất kỳ ai tùy ý dán nhãn hay thao túng.
+`
+  },{
+    id: 1222,
+    title: "Năm Lạng Bạc Mua Mấy Mạng Người",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c0d076b549ca0786e0c96aed4b0f0d9c.jpg",
+    link: "cotrang/nam-lang-bac-mua-may-mang-nguoi.html",
+    type: "cotrang",
+    desc: `Cha lại đem mẹ đi cầm cố. Đây đã là lần thứ ba ông ấy cho người ta thuê mướn bà.
+
+Năm lạng bạc nằm gọn trong tay, cha túm tóc mẹ giật mạnh, gằn giọng buộc bà lần này nhất định phải đẻ cho người ta một đứa con trai.
+
+Hôm sau, mẹ vừa rời khỏi nhà thì cha thấy muội muội ăn nhiều hơn thường lệ một bát cháo, liền vung tay tát thẳng vào mặt, khiến con bé chết ngay tại chỗ.
+
+Ông ấy tiện tay quẳng xác muội muội xuống con mương hôi thối ven đường, rồi thản nhiên nói với một gã đàn ông đi ngang qua: “Con ranh này năm nay mười tuổi, ngươi chỉ cần nuôi thêm ba năm nữa là có thể bắt nó đẻ con nối dõi cho ngươi rồi.”
+
+Ta hoảng sợ chạy vụt ra ngoài, vô tình đâm sầm vào kiệu của huyện lệnh. Bắt chước dáng vẻ từng thấy trong các vở hí kịch, ta dập đầu lia lịa trước kiệu: “Cầu xin Thanh Thiên đại lão gia làm chủ cho dân nữ!”
+
+Chỉ một cú quỳ gối ấy thôi, mà ta đã đi theo đại nhân suốt cả một đời.`
+  },{
+    id: 1223,
+    title: "Hình Tượng Sụp Đổ Hết Rồi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/1e5e6234e7758cffbc75084eeaac7ee8.jpg",
+    link: "ngontinh/hinh-tuong-sup-do-het-roi.html",
+    type: "ngontinh",
+    desc: `Trong một chương trình tạp kỹ, MC bất ngờ hỏi thẳng về lịch sử yêu đương của tôi. Tôi gượng cười, đáp: “Tôi chưa từng yêu ai bao giờ.”
+
+Vậy mà ngay sau đó, tôi lại lén nhắn cho người chồng giấu kín của mình những dòng tin đầy ẩn ý:
+
+“Anh ơi, cho em xem cơ bụng đi~”
+
+“Em muốn trượt trên sống mũi của anh quá~”
+
+Không ai ngờ cả màn hình điện thoại ấy lại lọt trọn vào ống kính máy quay.
+
+Chỉ qua một đêm, hình tượng ngây thơ của tôi tan nát hoàn toàn, còn cộng đồng mạng thì sục sôi truy tìm danh tính người đàn ông đứng sau những tin nhắn đó.
+
+Chưa hết, ít lâu sau lại có thêm một đoạn video bị tung ra, ghi cảnh tôi dắt con trai vào quán bar chuyên tuyển người mẫu nam.
+
+Cư dân mạng tinh mắt nhận ra khuôn mặt cậu bé giống hệt đại lão lạnh lùng Lục Hành, liền dồn dập đặt câu hỏi:
+
+“Lục Tổng, hai người trong clip có phải vợ và con trai của anh không?”
+
+Anh nghiến răng, gượng gạo nặn ra một nụ cười rồi đáp: “Chỉ là họ hàng xa thôi...”`
+  },{
+    id: 1224,
+    title: "Chờ Anh Ở Ngoại Truyện",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/a1a8e4dd8d2b17324b5054b463eca2a5.jpg",
+    link: "dammy/cho-anh-o-ngoai-truyen.html",
+    type: "dammy",
+    desc: `Tôi là một kẻ giả mạo, đóng vai cậu thiếu gia độc ác trong một cuốn tiểu thuyết.
+
+[Không ngờ tác phẩm này vẫn còn ngoại truyện dành cho người hâm mộ!]
+
+[Tôi biết ngay từ đầu mà, cặp nam nam tôi miệt mài gán ghép chắc chắn là thật!]
+
+[Cái gì cơ? Chẳng phải phần chính văn hoàn toàn không có yếu tố tình cảm sao?]
+
+[Phần chính văn thực chất chỉ là cái nền thôi, ai không đọc được thể loại nam với nam thì làm ơn rời đi cho lẹ nha~]
+
+[Hề hề, tôi nghe đồn ngoại truyện này dán nhãn mười tám cộng, nhiều cảnh bùng nổ vô cùng.]
+
+[Liệu có thật sự bạo liệt đến mức đó không thế???]
+
+[Theo tôi đoán nhé, Diệp Hàn bị Nam Cửu tuyệt tình bỏ rơi, rơi vào đường cùng không thể chấp nhận nên biến chất rồi giam cầm đối phương!]
+
+[Chuẩn không cần chỉnh luôn! Diệp Hàn yêu đến cuồng dại rồi, kịch bản này kích thích thật sự~]
+
+Ngoại truyện ư? Biến chất? Giam cầm? Lại còn là quan hệ giữa nam với nam?
+
+Người mà hắn muốn giam cầm… chẳng lẽ lại chính là tôi?`
+  },{
+    id: 1225,
+    title: "Tình Đơn Phương Của Vị Thái Phó Cấm Dục",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/c0d076b549ca0786e0c96aed4b0f0d9c.jpg",
+    link: "cotrang/tinh-don-phuong-cua-vi-thai-pho-cam-duc.html",
+    type: "cotrang",
+    desc: `Công chúa đã đem lòng ái mộ vị thái phó lạnh lùng đến mức vô tình ấy.
+
+Vừa nghe cái tin đồn vô căn cứ này, ta lập tức xông tới tóm lấy tiểu thái tử Tiêu Cảnh Thần, véo mạnh vào tai nó.
+
+Thằng bé đau đến kêu oai oái, gương mặt nhỏ nhắn nhăn lại thành một cục: “Ta nói thật mà, cô cô rõ ràng rất thích Thái phó! Từ sau bữa tiệc sinh thần của ta đến giờ, cô cô cứ tìm đủ cách tránh mặt người ta. Ta nhìn thấy rất rõ, hiếm hoi lắm cô cô mới có một lần động lòng thiếu nữ!”
+
+Thiếu nữ, động, lòng!
+
+Huyệt thái dương của ta giật liên hồi, ta vừa định nổi trận lôi đình thì cung nhân ngoài cửa đã hớt hải vào bẩm rằng Thái phó đến.
+
+Gương mặt đang làm mình làm mẩy của Tiêu Cảnh Thần chớp mắt đã chuyển sang vẻ đắc ý thấy rõ. Ta kinh hãi, vội nhấc váy định chạy, nhưng ống tay áo đã bị nó nắm chặt, không chịu buông.
+
+Mặt ta tối sầm lại. Ta dứt khoát cởi luôn chiếc áo ngoài, để thằng bé chới với ngã nhào ra đất, vứt lại một câu: “Hôm khác ta sẽ quay lại tính sổ với ngươi.” Rồi ta cắm đầu chạy thục mạng ra ngoài.
+
+Khi ấy ta cuống đến mức mất cả khôn. Giá lúc đó sực nhớ ra mình có thể trèo cửa sổ thì ta đã chẳng đụng mặt Tạ Chiêu ngay giữa cửa điện.
+
+Mùi đàn hương thanh khiết, quen thuộc thoảng qua.
+
+Ta lùi lại hai bước, nhất quyết không dám ngẩng đầu nhìn thẳng vào hắn. Thấy hắn vẫn đứng lặng tại chỗ, ta vội vàng đi vòng qua người hắn để thoát thân, nhưng cổ tay bỗng bị một bàn tay giữ lại.
+
+Những ngón tay thon dài, đẹp đẽ của hắn nắm lấy cổ tay ta. Hơi lạnh từ đó truyền sang, vậy mà ta lại có cảm giác như bị lửa đốt.
+
+“Thái phó, ngài quá phận rồi đấy.”
+
+Tạ Chiêu nghe vậy liền ngoan ngoãn buông tay: “Thần vừa rồi thất lễ, xin công chúa đợi chốc lát.”
+
+Hắn thong thả bước vào trong điện, nhặt chiếc áo ngoài đang rơi dưới đất lên, cẩn thận phủi sạch bụi rồi mang ra trả cho ta. Giọng hắn nhạt nhẽo, không gợn chút cảm xúc: “Bên ngoài gió lớn, công chúa chớ để nhiễm lạnh.”
+
+Ta nhận lấy y phục từ tay hắn rồi cất bước đi thẳng, không ngoảnh đầu lại lấy một lần.
+
+Nếu ngươi thật lòng muốn hỏi vì sao ta, một vị công chúa cành vàng lá ngọc, lại phải đi trốn tránh một vị thái phó nho nhỏ, thì ta cũng xin rộng lượng nói cho ngươi nghe.
+
+Đó là bởi vì ta đã ngủ với Tạ Chiêu mất rồi.
+
+Không đúng, phải là Tạ Chiêu ngủ với ta mới phải.
+
+Nhưng nói vậy cũng không được. Ta là công chúa, cứ coi như ta đã ngủ với hắn đi, bằng không thể diện của ta biết để đi đâu cho hết.
+`
+  },{
+    id: 1224,
+    title: "Bức Tường Phòng Thủ Cuối Cùng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7d04b3184b7be5150a1afbb0a5ad645.jpg",
+    link: "ngontinh/buc-tuong-phong-thu-cuoi-cung.html",
+    type: "ngontinh",
+    desc: `Cô bạn thân thiết của tôi bỗng dưng rủ rê tôi cùng đi ngắm các anh chàng người mẫu nam.
+
+Cảm thấy kèo này tuyệt đối không thể bỏ lỡ, tôi quyết định giả bệnh để xin nghỉ phép một ngày. Thế rồi, lòng đầy háo hức, tôi lên đường đến điểm hẹn.
+
+Sau một ngày vui chơi thỏa thích hết cỡ, tôi mò về nhà với tâm trạng mãn nguyện vô cùng, trong lòng chẳng còn gì để tiếc. Ngắm lại những tấm ảnh chụp chung với các anh trai đẹp lộng lẫy hôm nay, tôi hí hửng đăng ngay một bài lên mạng xã hội.
+
+Sáng hôm sau, ngay khi vừa tỉnh giấc, tôi theo thói quen mà với tay lấy điện thoại. Thông báo hơn 99 tin nhắn mới hiện ra trên màn hình khiến tôi giật mình hoảng hốt, và chỉ một khắc sau tôi đã bật dậy khỏi giường.
+
+Tay tôi run run bấm mở WeChat, và đến lúc đó mới thấy toàn bộ đống tin nhắn ấy đều do đồng nghiệp trong công ty gửi tới. Đọc kỹ nội dung bên trong xong, đầu óc tôi choáng váng cả người.
+
+“Trình Cẩn ơi là Trình Cẩn, rốt cuộc cậu với sếp là quan hệ gì vậy hả??”
+
+“Tiểu Cẩn, sếp của em bị làm sao thế? Em xem bình luận của ông ấy dưới bài đăng WeChat hôm qua chưa?”
+
+Tôi cuống cuống mở lại bài đăng trên mạng xã hội hôm qua, và chỉ đến lúc ấy mới ngã ngửa vì phát hiện ra mình đã quên chặn sếp.
+
+Ngay dưới bức ảnh, anh ấy để lại một dòng bình luận: “Em giả bệnh xin nghỉ phép, chỉ để đi tìm mấy gã đàn ông hoang dã đó thôi sao? Chẳng lẽ tôi đẹp trai không bằng họ?”
+`
+  },{
+    id: 1225,
+    title: "Nam Thần Bám Đuôi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b2d5899dc652263cbee4e9334959059f.jpg",
+    link: "dammy/nam-than-bam-duoi.html",
+    type: "dammy",
+    desc: `Tôi lập tức ra tay, tung một cú Thái Sơn áp đỉnh đè bẹp đối phương xuống bên dưới.
+
+“Đồ hèn! Có gan leo lên giường hôn lén người ta mà không có gan nhận à?”
+
+Tôi dùng hai đầu gối kẹp chặt thân thể hắn.
+
+Bị đè bên dưới, hắn run run cất giọng: “Tôi không phải… tôi thật sự không có mà…”
+
+Nghe hắn chối, tôi giận đến bật cười thành tiếng: “Lưỡi thò tận vào miệng tôi rồi mà còn chối! Trả lại cái miệng sạch sẽ ban đầu cho tôi ngay!”
+
+Việc hắn lén bò lên giường tôi thì tạm thời chưa thèm chấp nhặt.
+
+Nhưng giữa đêm nửa hôm mò vào tận phòng để hôn trộm tôi, mà hai đứa đều là đàn ông con trai với nhau!
+
+Chuyện này đúng là quá sức chịu đựng rồi!`
+  },{
+    id: 1226,
+    title: "Một Lần Gặp Gỡ Năm Năm Tương Tư",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8ecaf5bf34248ad87f90fcbb47d6f548.jpg",
+    link: "cotrang/mot-lan-gap-go-nam-nam-tuong-tu.html",
+    type: "cotrang",
+    desc: `Một đạo thánh chỉ từ hoàng đế ban xuống, định sẵn hôn sự giữa ta và Đoan Vương Tiêu Mục.
+
+Hai chúng ta cùng quỳ giữa đại điện nguy nga, dập đầu tạ ơn hoàng ân cuồn cuộn. Thế nhưng khi quỳ sóng vai bên cạnh, ta lờ mờ nhận ra sắc mặt chàng trắng bệch, không còn chút huyết sắc, như thể chàng muôn phần không muốn kết duyên phu thê với ta.
+`
   },
 
 
