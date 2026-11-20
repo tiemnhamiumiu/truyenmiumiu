@@ -25290,7 +25290,7 @@ Không đúng, phải là Tạ Chiêu ngủ với ta mới phải.
 Nhưng nói vậy cũng không được. Ta là công chúa, cứ coi như ta đã ngủ với hắn đi, bằng không thể diện của ta biết để đi đâu cho hết.
 `
   },{
-    id: 1224,
+    id: 1226,
     title: "Bức Tường Phòng Thủ Cuối Cùng",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/e7d04b3184b7be5150a1afbb0a5ad645.jpg",
     link: "ngontinh/buc-tuong-phong-thu-cuoi-cung.html",
@@ -25314,7 +25314,7 @@ Tôi cuống cuống mở lại bài đăng trên mạng xã hội hôm qua, và
 Ngay dưới bức ảnh, anh ấy để lại một dòng bình luận: “Em giả bệnh xin nghỉ phép, chỉ để đi tìm mấy gã đàn ông hoang dã đó thôi sao? Chẳng lẽ tôi đẹp trai không bằng họ?”
 `
   },{
-    id: 1225,
+    id: 1227,
     title: "Nam Thần Bám Đuôi",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b2d5899dc652263cbee4e9334959059f.jpg",
     link: "dammy/nam-than-bam-duoi.html",
@@ -25335,7 +25335,7 @@ Nhưng giữa đêm nửa hôm mò vào tận phòng để hôn trộm tôi, mà
 
 Chuyện này đúng là quá sức chịu đựng rồi!`
   },{
-    id: 1226,
+    id: 1228,
     title: "Một Lần Gặp Gỡ Năm Năm Tương Tư",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8ecaf5bf34248ad87f90fcbb47d6f548.jpg",
     link: "cotrang/mot-lan-gap-go-nam-nam-tuong-tu.html",
