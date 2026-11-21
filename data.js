@@ -25344,6 +25344,172 @@ Chuyện này đúng là quá sức chịu đựng rồi!`
 
 Hai chúng ta cùng quỳ giữa đại điện nguy nga, dập đầu tạ ơn hoàng ân cuồn cuộn. Thế nhưng khi quỳ sóng vai bên cạnh, ta lờ mờ nhận ra sắc mặt chàng trắng bệch, không còn chút huyết sắc, như thể chàng muôn phần không muốn kết duyên phu thê với ta.
 `
+  },{
+    id: 1229,
+    title: "Bức Thư Tình Xé Nát",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7d3ce44844651328e14173ab3eda58ff.jpg",
+    link: "ngontinh/buc-thu-tinh-xe-nat.html",
+    type: "ngontinh",
+    desc: `Ngày trước, tôi từng tự tay xé nát bức thư tình của nam sinh đứng đầu toàn khối.
+
+Chưa dừng ở đó, tôi còn thẳng thừng ném vào mặt cậu ấy một câu tuyệt tình: “Tôi không yêu đương với học sinh nghèo.”
+
+Phải rất nhiều năm sau tôi mới gặp lại Giang Dục Bạch, và lần gặp ấy lại diễn ra giữa buổi hòa nhạc của cậu ấy, trước hàng vạn khán giả.
+
+Trên sân khấu, một người hâm mộ nhiệt tình đặt câu hỏi: “Hồi còn đi học, ngôi sao lớn như anh có từng khắc ghi trong lòng một ai mà không thể buông bỏ không?”
+
+Giang Dục Bạch lạnh lùng đưa mắt qua đám đông náo nhiệt, và ánh nhìn ấy dừng lại đúng chỗ tôi ngồi.
+
+“Có chứ.” Cậu ấy đáp.
+
+“Nhưng tôi hy vọng cả đời này, cô ấy sẽ không bao giờ xuất hiện trước mặt tôi thêm một lần nào nữa.”`
+  },{
+    id: 1230,
+    title: "Năm Tháng Tráo Đổi Yêu Thương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/b028702b3a3f98ef72087dfe346126ab.jpg",
+    link: "dammy/nam-thang-trao-doi-yeu-thuong.html",
+    type: "dammy",
+    desc: `Tháng thứ ba kể từ ngày chính thức hẹn hò cùng Đoạn Trạch.
+
+Tôi vô tình nghe thấy anh ta mở lời than phiền về tôi với hội bạn thân:
+
+“Vừa khô khan lại vừa vô vị.”
+
+“Hôn cậu ta xong tôi buồn nôn muốn chết.”
+
+Tôi bỗng ngẩn ngơ cả người.
+
+Tôi với anh ta từng trao nhau nụ cười hay nụ hôn lúc nào sao?
+
+Sao trong trí nhớ của tôi lại chẳng có chút ấn tượng nào?`
+  },{
+    id: 1231,
+    title: "Vị Ương Đổi Phận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aa1a023aff97a01f72273c3f5a743a8a.jpg",
+    link: "cotrang/nam-thang-trao-doi-yeu-thuong.html",
+    type: "cotrang",
+    desc: `Đêm trước hôm ta thành thân với Bùi Trường Phong, khắp kinh thành đã đồn ầm lên chuyện hắn vung cả ngàn lượng bạc ở thanh lâu, chỉ để mua đêm đầu tiên của hoa khôi.
+
+Ta tìm đến tận nơi. Đứng ngoài cửa, ta nghe rõ mồn một giọng hắn đang ôm hoa khôi vào lòng, buông lời ghẹo đầy phong tình: “Nàng ta chỉ là thứ nữ của một nhà nhỏ, đại ca ta chê không muốn cưới nên mới đẩy sang cho ta thôi.”
+
+“Thà ta tốn ngàn lượng bạc để đổi một nụ cười của nàng, còn hơn ngày ngày phải nhìn cái mặt chán ngắt kia.”
+
+Ta dứt khoát quay người bỏ đi, và quyết định gả cho đại ca của hắn. Đó là vị sát thần nổi danh nơi biên cương Mạc Bắc, người hơn ta tới mười hai tuổi, lúc nào cũng đằng đằng sát khí.
+
+Về sau, Bùi Trường Phong đỏ hoe đôi mắt đến tìm ta, giọng nghẹn lại: “Có phải đại ca ép buộc nàng không? Huynh ấy hơn nàng nhiều tuổi như thế cơ mà!”
+
+Ta khẽ cúi đầu, hai má ửng hồng: “Nam nhân lớn tuổi một chút thì mới biết thương người hơn.”`
+  },{
+    id: 1232,
+    title: "Cuộc Hôn Nhân Với Anh Chồng Bệnh Kiều",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/63a8b394cd8a7cb43d4aed2444d64d42.jpg",
+    link: "ngontinh/cuoc-hon-nhan-voi-anh-chong-benh-kieu.html",
+    type: "ngontinh",
+    desc: `Sau khi gả cho Trì Hựu, tôi nhận ra anh dường như lúc nào cũng tìm cách tránh mặt mình.
+
+Vậy mà đúng lúc tôi đang đi công tác xa cùng một đồng nghiệp nam, anh lại bất ngờ gọi điện đến, giọng nghe rõ là đang tủi thân: “Anh đang không khỏe.”
+
+Tôi đáp lại, giọng lạnh nhạt: “Không khỏe thì anh uống thuốc đi.”
+
+“Anh uống rồi, nhưng chẳng có tác dụng gì cả.”
+
+“Vậy để tôi gọi 120 đưa anh vào bệnh viện cấp cứu.”
+
+Về sau, khi chuyến công tác kết thúc và tôi trở về nhà, vừa bước tới nơi đã thấy anh ôm một chiếc gối, đứng chờ sẵn trước cửa phòng tôi.
+
+Anh rụt rè, dè dặt hỏi nhỏ: “Vợ ơi, tối nay cho anh ngủ cùng em được không?”`
+  },{
+    id: 1233,
+    title: "Hải Vương Quay Đầu Chọn Bạn Cùng Phòng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/37a3493e4f865efdc8020f4ec6fd1cc4.jpg",
+    link: "dammy/hai-vuong-quay-dau-chon-ban-cung-phong.html",
+    type: "dammy",
+    desc: `Bạn cùng phòng của tôi suốt ngày chỉ mải mê săn đón các cô gái.
+
+Cho đến một ngày, tay “hải vương” nọ bị lật thuyền, bị cả dàn người yêu cũ bắt tay vây đánh cho một trận nhừ tử.
+
+Quá hãi hùng, cậu ta thề từ nay tuyệt đối không bao giờ đụng đến con gái nữa.
+
+Thế nhưng, không đụng đến nữ giới thì cứ việc, cớ sao cậu ta lại quay sang động chạm đến tôi?`
+  },{
+    id: 1234,
+    title: "Hoa Lê Đẹp Nhất Mùa Đông",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3142ca48cf2af9e74657e0083520261d.jpg",
+    link: "cotrang/hoa-le-dep-nhat-mua-dong.html",
+    type: "cotrang",
+    desc: `Gia chủ đem ta tặng cho Tiết Thị lang để làm thiếp.
+
+Vì hắn cùng chính thê ân ái mặn nồng, tình cảm sâu đậm, nên chỉ sắp xếp cho ta sang hầu hạ bên cạnh lão phu nhân.
+
+Nào ngờ về sau hắn bị giáng chức. Đêm trước ngày phải rời khỏi kinh thành, hắn uống say khướt, bất ngờ đẩy cửa bước vào phòng ta.
+
+Nhưng hắn chẳng làm gì cả, chỉ khẽ vỗ lại góc chăn cho ngay ngắn, rồi đưa cho ta một phong thư: “Đây là khế ước bán thân của ngươi, hãy giữ cho kỹ. Từ nay về sau, ngươi đã hoàn toàn được tự do rồi.”
+`
+  },{
+    id: 1235,
+    title: "Trót Trêu Chọc Nam Chính Yandere Rồi Phải Làm Sao",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/976e45a3a1ab947754f8c102938fce50.jpg",
+    link: "ngontinh/trot-treu-choc-nam-chinh-yandere-roi-phai-lam-sao.html",
+    type: "ngontinh",
+    desc: `Sau khi thức tỉnh, tôi ngỡ ngàng nhận ra người mình bắt nạt bấy lâu nay chính là nam chính yandere trong cuốn tiểu thuyết kia.
+
+Chưa hết, suốt một năm bên nhau, từ chuyện nên làm đến chuyện không nên làm, tôi đều đã làm trọn vẹn cả.
+
+Nghĩ đến kết cục thê thảm đang chờ một nữ phụ độc ác như mình, sống lưng tôi lạnh buốt.
+
+Cái lạnh ấy dâng lên từ nỗi sợ trước một cái kết mà tôi đã biết trước.
+
+Tôi vội đặt vé máy bay, định bụng nói lời chia tay với anh bạn trai hơi lệch lạc này rồi cao chạy xa bay. Nào ngờ vừa ra đến nơi, tôi đã bị hắn chặn lại.
+
+Hắn xách túi món tráng miệng vừa mua, đứng cách tôi một quãng, mỉm cười thật dịu dàng.
+
+Nhưng ánh mắt hắn nhìn tôi lúc này đã khác. Sự che giấu và nhẫn nại của một người đang yêu không còn nữa, thay vào đó là khao khát chiếm hữu cố chấp đến cùng cực.
+
+Đầu ngón tay hắn chậm rãi lướt qua từng khoảng da thịt của tôi, giọng thì thầm sát bên tai: “Tri Tri, em đã nghe ai nói bao giờ chưa? Kẻ chủ động trêu chọc trước thì không có quyền đòi chia tay đâu.”
+
+Hắn khựng lại vài giây, vẻ mặt thoáng bất lực: “Rõ ràng chuyện gì anh cũng làm theo sở thích của Tri Tri, vậy mà sao em vẫn muốn bỏ đi?”
+`
+  },{
+    id: 1236,
+    title: "Đối Thủ Của Tôi Bỗng Biến Thành Omega",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/60881809b55e833060758f1556b5160b.jpg",
+    link: "dammy/doi-thu-cua-toi-bong-bien-thanh-omega.html",
+    type: "dammy",
+    desc: `Tôi bị đối thủ của mình áp chế, chỉ vì hắn bất ngờ phân hóa thành một Alpha có cấp độ thấp hơn tôi.
+
+Để trêu ngươi hắn, ngày nào tôi cũng cố ý lảng vảng trước mặt và phát tán pheromone của mình.
+
+Nhìn kẻ xưa nay vốn lạnh lùng, tự chủ đến đáng sợ giờ đây đỏ ngầu đôi mắt, lộ rõ vẻ yếu thế, lòng tôi hả hê vô cùng.
+
+Thế nhưng đến kỳ nhạy cảm, hắn hoàn toàn phát điên.
+
+Muốn giúp hắn lấy lại bình tĩnh, tôi chủ động tiến lại gần, cố giải phóng pheromone để ép hắn khuất phục.
+
+Vậy mà vừa ngửi thấy mùi hương từ người hắn, tôi đã không sao kiềm chế nổi bản thân, lập tức xông tới đè nghiến hắn xuống đất.
+
+Gã đàn ông vốn luôn bất lực trước tôi lần này lại đột ngột cắn mạnh vào tuyến thể của tôi, gắt gao ép tôi phải giải phóng nhiều pheromone hơn nữa.
+
+“Chẳng phải đây là việc cậu thích làm nhất sao?”
+
+“Sao thế, mới tới đây mà đã chịu không nổi rồi à?”
+
+“Tuyệt đối không được dừng lại.”
+
+Đến tận lúc này tôi mới bàng hoàng nhận ra, hắn đã phân hóa thành Enigma, giới tính có cấp độ tối cao, vượt xa cả Alpha!`
+  },{
+    id: 1237,
+    title: "Nịnh Thần Của Công Chúa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5adb9ded4c564ac88a38105c3d8bebee.jpg",
+    link: "cotrang/ninh-than-cua-cong-chua.html",
+    type: "cotrang",
+    desc: `Lang quân ra trận suốt ba năm, khi trở về lại dắt theo một nữ tử mồ côi.
+
+Chàng bảo ta dọn phòng khách cho nàng ta ở. Nào ngờ vừa bước vào, chàng đã bắt gặp ta đang đút thuốc cho một thiếu niên tuấn tú.
+
+Chàng trai ấy gầy yếu như đóa sen trắng, nép sát bên ta, ánh mắt trong veo đầy hoang mang sợ hãi, khẽ liếc nhìn phu quân ta với vẻ căng thẳng.
+
+“Phu nhân, chẳng hay ta đã làm điều gì khiến tướng quân không vừa lòng sao?”
+`
   },
 
 
