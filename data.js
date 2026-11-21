@@ -25386,7 +25386,7 @@ Sao trong trí nhớ của tôi lại chẳng có chút ấn tượng nào?`
     id: 1231,
     title: "Vị Ương Đổi Phận",
     image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/aa1a023aff97a01f72273c3f5a743a8a.jpg",
-    link: "cotrang/nam-thang-trao-doi-yeu-thuong.html",
+    link: "cotrang/vi-uong-doi-phan.html",
     type: "cotrang",
     desc: `Đêm trước hôm ta thành thân với Bùi Trường Phong, khắp kinh thành đã đồn ầm lên chuyện hắn vung cả ngàn lượng bạc ở thanh lâu, chỉ để mua đêm đầu tiên của hoa khôi.
 
