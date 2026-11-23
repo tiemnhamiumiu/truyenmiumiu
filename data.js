@@ -25513,7 +25513,7 @@ Chàng trai ấy gầy yếu như đóa sen trắng, nép sát bên ta, ánh m�
   },{
     id: 1238,
     title: "Mười Ngày Sinh Tồn Sau Màn Ảnh",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f504c222d2747fc64da008eae7dcf939.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/f504c222d2747fc64da008eae7dcf939.jpg",
     link: "ngontinh/muoi-ngay-sinh-ton-sau-man-anh.html",
     type: "ngontinh",
     desc: `Tôi là nữ diễn viên mang tiếng xấu nhất trong toàn bộ làng giải trí.
@@ -25535,7 +25535,7 @@ Mãi về sau, mọi người mới sững sờ biết rằng suốt quá trình
   },{
     id: 1239,
     title: "Nô Lệ Của Trái Tim",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3544a9b0ef59ebbaa5f118f932e9169c.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/3544a9b0ef59ebbaa5f118f932e9169c.jpg",
     link: "dammy/no-le-cua-trai-tim.html",
     type: "dammy",
     desc: `Lúc phát hiện ra tôi là người đồng tính, người anh trai nuôi nấng tôi từ nhỏ đã hiểu nhầm rằng đời tư của tôi vô cùng hỗn loạn.
@@ -25552,7 +25552,7 @@ Anh ấy bỗng dưng sụp đổ, òa khóc nức nở hỏi tôi: “Em có th
   },{
     id: 1240,
     title: "Nha Hoàn Nhóm Lửa",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/418e8f96f523643324a13a3d04f669c5.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/418e8f96f523643324a13a3d04f669c5.jpg",
     link: "cotrang/nha-hoan-nhom-lua.html",
     type: "cotrang",
     desc: `Ngày ta được Ngụy Chiêu cưới làm chính thê, cả kinh thành rộ lên tiếng cười nhạo. Vị đại thiếu gia Ngụy gia từng kiêu ngạo là thế, nay lại sa cơ thất thế, rốt cuộc chỉ cưới về một cô nương quê mùa làm thê tử.
@@ -25566,7 +25566,7 @@ Chàng phong trần mệt mỏi, giận đến run cả người, nghiến răng
   },{
     id: 1241,
     title: "Tôi Nhận Nam Chính Làm Bố",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4b9acfb39fc5b8af2c9f264977f37e85.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/4b9acfb39fc5b8af2c9f264977f37e85.jpg",
     link: "ngontinh/toi-nhan-nam-chinh-lam-bo.html",
     type: "ngontinh",
     desc: `Mọi người ở đây đã bao giờ ăn thử bánh quy kẹp nhân chưa?
@@ -25580,7 +25580,7 @@ Chỉ có điều, tôi không phải lớp nhân béo thơm khiến ai cũng th
   },{
     id: 1242,
     title: "Bạn Cùng Phòng Bài Thị Gay Lại Muốn Ôm Tôi Nằm Ngủ",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7ea7cfe8fe5c1d64dc57107addc7ddd2.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/7ea7cfe8fe5c1d64dc57107addc7ddd2.jpg",
     link: "dammy/ban-cung-phong-bai-thi-gay-lai-muon-om-toi-nam-ngu.html",
     type: "dammy",
     desc: `Bạn cùng phòng của tôi là một kẻ cực kỳ căm ghét người đồng tính.
@@ -25592,7 +25592,7 @@ Thế nhưng chính cái kẻ từng hằn học tuyên bố sẽ “đập ch�
   },{
     id: 1243,
     title: "Tà Thần Phải Đi Làm Thuê",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5406e0465c8ebacddec2cd537b79377e.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/5406e0465c8ebacddec2cd537b79377e.jpg",
     link: "cotrang/ta-than-phai-di-lam-thue.html",
     type: "cotrang",
     desc: `Ta vốn là một vị thần, vậy mà từ trước đến nay chưa từng được thụ hưởng lấy một nén hương hỏa.
@@ -25631,7 +25631,7 @@ Kết cục là tôi chẳng những không trả được con chó về cho ch�
   },{
     id: 1245,
     title: "Tờ Giấy Bệnh Giả Và Tình Yêu Chấp Niệm",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eb0cd818fb380cf6ce21d7c49c555cd3.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/eb0cd818fb380cf6ce21d7c49c555cd3.jpg",
     link: "dammy/to-giay-benh-gia-va-tinh-yeu-chap-niem.html",
     type: "dammy",
     desc: `Tôi có một người bạn thân, dáng người cao ráo, vai rộng eo thon, gương mặt vô cùng điển trai, chỉ tội tính tình lạnh lùng quá mức.
@@ -25654,7 +25654,7 @@ Tôi ngước nhìn nó rất lâu, rồi mới từ tốn nở một nụ cư�
   },{
     id: 1246,
     title: "Nhặt Được Lang Quân Ngang Đường",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/83398c30428ca26758a995edaed8b5b8.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/83398c30428ca26758a995edaed8b5b8.jpg",
     link: "cotrang/nhat-duoc-lang-quan-ngang-duong.html",
     type: "cotrang",
     desc: `Thế tử nhà họ Bùi, vị hôn phu của ta, đã bỏ mặc ta giữa hang ổ của lũ thổ phỉ mà chẳng hề chần chừ lấy một khắc, để ta ở lại một mình nơi hiểm địa ấy.
