@@ -25510,6 +25510,167 @@ Chàng trai ấy gầy yếu như đóa sen trắng, nép sát bên ta, ánh m�
 
 “Phu nhân, chẳng hay ta đã làm điều gì khiến tướng quân không vừa lòng sao?”
 `
+  },{
+    id: 1238,
+    title: "Mười Ngày Sinh Tồn Sau Màn Ảnh",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/f504c222d2747fc64da008eae7dcf939.jpg",
+    link: "ngontinh/muoi-ngay-sinh-ton-sau-man-anh.html",
+    type: "ngontinh",
+    desc: `Tôi là nữ diễn viên mang tiếng xấu nhất trong toàn bộ làng giải trí.
+
+Công ty quản lý vừa ép tôi nhận một chương trình truyền hình thực tế, chủ đề sinh tồn giữa chốn hoang dã.
+
+Yêu cầu họ đặt ra rất rõ ràng: tôi phải liên tục gây sự, làm mình làm mẩy, để nữ nghệ sĩ mới ký hợp đồng nổi bật lên với hình tượng “con gái quốc dân”.
+
+Thế nhưng vừa đặt chân vào khu rừng sâu, cả nhóm chúng tôi đã hoàn toàn mất liên lạc với đoàn làm phim.
+
+Show truyền hình thực tế bỗng chốc biến thành một cuộc chiến sinh tồn đúng nghĩa nơi hoang dã.
+
+Trong lúc tôi thong thả dựng lều gỗ, săn gà rừng, bắt cá và sống một cuộc sống tự tại, thì những idol có hình tượng hoàn hảo kia lại giành giật tài nguyên, chửi bới nhau ầm ĩ.
+
+Hình tượng kiêu sa của họ vỡ vụn hoàn toàn.
+
+Mãi về sau, mọi người mới sững sờ biết rằng suốt quá trình ấy, từng giây từng phút đều được camera ẩn ghi lại và phát sóng trực tiếp mỗi ngày...
+`
+  },{
+    id: 1239,
+    title: "Nô Lệ Của Trái Tim",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/3544a9b0ef59ebbaa5f118f932e9169c.jpg",
+    link: "dammy/no-le-cua-trai-tim.html",
+    type: "dammy",
+    desc: `Lúc phát hiện ra tôi là người đồng tính, người anh trai nuôi nấng tôi từ nhỏ đã hiểu nhầm rằng đời tư của tôi vô cùng hỗn loạn.
+
+Anh ấy dặn dò tôi: “Em có thể hứa với anh, tuyệt đối đừng qua lại tùy tiện với người khác được không?”
+
+Tôi mỉm cười lạnh lẽo: “Hay là thế này... anh làm bạn giường cố định cho em đi? Có anh đồng hành rồi, em cam đoan sẽ không dây dưa với bất kỳ ai nữa, anh thấy sao?”
+
+Anh ấy chẳng hề hay biết tôi đã nảy sinh tâm tư bất chính với anh từ rất lâu rồi, nên liền nghiến răng gật đầu đồng ý.
+
+Nhiều năm trôi qua, anh ấy gặp lại người yêu cũ năm xưa, còn mối tình đơn phương tôi dành cho anh vẫn hoàn toàn vô vọng, khiến tôi quyết định cắt đứt mối quan hệ mập mờ này.
+
+Anh ấy bỗng dưng sụp đổ, òa khóc nức nở hỏi tôi: “Em có thể nói cho anh biết vì sao lại muốn dừng lại không? Nếu có điểm nào ở anh làm em không hài lòng, anh nhất định sẽ thay đổi.”`
+  },{
+    id: 1240,
+    title: "Nha Hoàn Nhóm Lửa",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/418e8f96f523643324a13a3d04f669c5.jpg",
+    link: "cotrang/nha-hoan-nhom-lua.html",
+    type: "cotrang",
+    desc: `Ngày ta được Ngụy Chiêu cưới làm chính thê, cả kinh thành rộ lên tiếng cười nhạo. Vị đại thiếu gia Ngụy gia từng kiêu ngạo là thế, nay lại sa cơ thất thế, rốt cuộc chỉ cưới về một cô nương quê mùa làm thê tử.
+
+Về sau, khi Ngụy Chiêu đã công thành danh toại, các tiểu thư khuê các muốn gả cho chàng nhiều không đếm xuể.
+
+Ta liền hẹn bà mối có tiếng nhất kinh thành, định nạp cho chàng hai nàng thiếp môn đăng hộ đối. Nào ngờ người đáng lẽ đang ở tận Dương Châu là Ngụy Chiêu lại xuất hiện, chặn ta ngay trước cửa nhà.
+
+Chàng phong trần mệt mỏi, giận đến run cả người, nghiến răng hỏi: “Hôm nay nàng dám bước ra khỏi cánh cửa này thử xem?”
+`
+  },{
+    id: 1241,
+    title: "Tôi Nhận Nam Chính Làm Bố",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/4b9acfb39fc5b8af2c9f264977f37e85.jpg",
+    link: "ngontinh/toi-nhan-nam-chinh-lam-bo.html",
+    type: "ngontinh",
+    desc: `Mọi người ở đây đã bao giờ ăn thử bánh quy kẹp nhân chưa?
+
+Điều làm nên sức hút khó cưỡng của món bánh ấy chính là lớp phô mai béo ngậy nằm giữa hai lát bánh, thứ mà ai cắn vào cũng nhớ mãi.
+
+Trong nhà, tôi cũng đứng ở vị trí chính giữa như thế: một bên là người anh trai, một bên là cô em gái út.
+
+Chỉ có điều, tôi không phải lớp nhân béo thơm khiến ai cũng thèm. Tôi giống thứ nhân ngũ hạt kém chất lượng, bị người ta ghét bỏ trong chiếc bánh trung thu hơn.
+`
+  },{
+    id: 1242,
+    title: "Bạn Cùng Phòng Bài Thị Gay Lại Muốn Ôm Tôi Nằm Ngủ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/7ea7cfe8fe5c1d64dc57107addc7ddd2.jpg",
+    link: "dammy/ban-cung-phong-bai-thi-gay-lai-muon-om-toi-nam-ngu.html",
+    type: "dammy",
+    desc: `Bạn cùng phòng của tôi là một kẻ cực kỳ căm ghét người đồng tính.
+
+Lần đầu tiên hắn vô tình phát hiện quyển truyện BL tôi giấu kỹ dưới gối, mặt hắn lập tức tái đi vì tức giận, không tiếc lời mắng tôi là đồ đồng tính ghê tởm.
+
+Thế nhưng chính cái kẻ từng hằn học tuyên bố sẽ “đập chết tôi” ấy, sau này lại chặn tôi ở góc hành lang tối tăm của quán bar, ghì chặt tôi vào tường mà hôn đến mức tôi không thở nổi.
+`
+  },{
+    id: 1243,
+    title: "Tà Thần Phải Đi Làm Thuê",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/5406e0465c8ebacddec2cd537b79377e.jpg",
+    link: "cotrang/ta-than-phai-di-lam-thue.html",
+    type: "cotrang",
+    desc: `Ta vốn là một vị thần, vậy mà từ trước đến nay chưa từng được thụ hưởng lấy một nén hương hỏa.
+
+Vào một ngày nọ, có người phụ nữ quỳ dưới chân ta, khóc lóc thảm thiết.
+
+Khi ấy ta đang nửa tỉnh nửa mê, nên chỉ tiện tay chỉ bừa cho nàng một lối đi.
+
+Ai ngờ về sau nàng lại phất lên như diều gặp gió, chẳng những đúc kim thân cho ta mà còn dời ta đến nơi hương hỏa hưng thịnh bậc nhất.
+
+“Thần linh mở mắt, tín nữ nguyện ăn chay cả đời, chỉ cầu vinh hoa phú quý, không mong một tấm chân tình.”
+
+Hả???
+
+Hay là nàng bái nhầm thần rồi?
+
+Ta vốn chỉ là một vị tà thần, ngoài chém giết ra thì chẳng biết làm gì khác.
+`
+  },{
+    id: 1244,
+    title: "Dắt Nhầm Chó Cưng Của Tình Cũ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8d0d586560cd3f8ad01eca76bd600636.jpg",
+    link: "ngontinh/dat-nham-cho-cung-cua-tinh-cu.html",
+    type: "ngontinh",
+    desc: `Tôi vô tình dắt nhầm chú chó nhỏ của bạn trai cũ mang về nhà mình.
+
+Nửa đêm hôm ấy, anh ấy uống say bí tỉ rồi tìm đến tận cửa nhà tôi. Trong cơn say phát cuồng, anh ấy thốt lên một lời thổ lộ đầy thâm tình:
+
+“Con chó con của chúng ta chạy mất rồi, hu hu... Em yêu, anh đáng chết thật mà!”
+
+Trong lòng chất đầy cảm giác có lỗi, tôi kiên nhẫn dịu giọng dỗ dành anh ấy.
+
+Vậy mà tôi nào ngờ được, ngay trong đêm hôm đó, lửa gần rơm lâu ngày cũng bén.
+
+Kết cục là tôi chẳng những không trả được con chó về cho chủ, mà còn... ngủ với anh ấy luôn.`
+  },{
+    id: 1245,
+    title: "Tờ Giấy Bệnh Giả Và Tình Yêu Chấp Niệm",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/eb0cd818fb380cf6ce21d7c49c555cd3.jpg",
+    link: "dammy/to-giay-benh-gia-va-tinh-yeu-chap-niem.html",
+    type: "dammy",
+    desc: `Tôi có một người bạn thân, dáng người cao ráo, vai rộng eo thon, gương mặt vô cùng điển trai, chỉ tội tính tình lạnh lùng quá mức.
+
+Ngày thường, câu cửa miệng nó hay dùng để đáp lại tôi nhất chính là:
+
+“Cút.”
+
+Được thôi.
+
+Thực ra, tôi đã thầm thích nó từ rất lâu rồi.
+
+Thế nhưng tôi luôn sợ nó sẽ ghét bỏ mình, nên đành chôn chặt tình cảm ấy sâu trong lòng... cho đến một ngày, nó vô tình phát hiện ra tờ phiếu chẩn đoán bệnh mà tôi lén giấu đi.
+
+Hôm đó, nó ôm chặt tôi vào lòng, đôi mắt đỏ ngầu, khóc đến nấc lên từng tiếng, nghẹn ngào thổ lộ toàn bộ tình cảm thật lòng dành cho tôi.
+
+Tôi ngước nhìn nó rất lâu, rồi mới từ tốn nở một nụ cười mãn nguyện.
+
+“Không sao đâu, tờ phiếu bệnh đó là do tôi tự dùng Photoshop làm giả đấy.”`
+  },{
+    id: 1246,
+    title: "Nhặt Được Lang Quân Ngang Đường",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/83398c30428ca26758a995edaed8b5b8.jpg",
+    link: "cotrang/nhat-duoc-lang-quan-ngang-duong.html",
+    type: "cotrang",
+    desc: `Thế tử nhà họ Bùi, vị hôn phu của ta, đã bỏ mặc ta giữa hang ổ của lũ thổ phỉ mà chẳng hề chần chừ lấy một khắc, để ta ở lại một mình nơi hiểm địa ấy.
+
+Hắn xoay người bước đi, trên tay mang theo nha hoàn xinh đẹp vẫn đang khóc lóc thảm thiết của ta, một lòng chỉ muốn đưa nàng ta thoát khỏi chốn này.
+
+Hắn nhẹ nhàng kéo Thiếu Vũ vào lòng, dịu dàng lấy chiếc áo choàng rộng của mình quấn kín thân hình nàng ta. Rồi những ngón tay thon dài của hắn cẩn thận nhặt lên mảnh ngọc bội vỡ vừa rơi khỏi người nàng ta, từng động tác đều hết sức nhẹ nhàng.
+
+Thiếu Vũ khẽ rên lên một tiếng, thân hình mềm mại run rẩy, nép sát vào người Bùi Cảnh hơn nữa.
+
+Khóe môi Bùi Cảnh khẽ nhếch lên, còn hắn thì siết vòng tay quanh nàng ta chặt hơn nữa. Chỉ trong mấy nhịp thở ngắn ngủi, bóng hắn đã tan vào màn đêm thăm thẳm, đến một ánh mắt ngoái lại dành cho ta cũng không buồn có. Hắn bỏ ta lại giữa nơi này, đi mà không hề quay đầu.
+
+Ta đứng nhìn theo bóng hắn khuất dần, rồi bèn huých nhẹ vào vai tên thư sinh mặt trắng đứng bên cạnh, kẻ từ nãy đến giờ vẫn đứng đó hào hứng xem náo nhiệt không rời mắt.
+
+“Thấy chưa? Vừa nãy đó. Thân pháp lợi hại nhỉ? Ha ha! Mẹ kiếp, đó là vị hôn phu của ta đấy!”
+`
   },
 
 
