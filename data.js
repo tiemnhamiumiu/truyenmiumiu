@@ -25614,7 +25614,7 @@ Ta vốn chỉ là một vị tà thần, ngoài chém giết ra thì chẳng bi
   },{
     id: 1244,
     title: "Dắt Nhầm Chó Cưng Của Tình Cũ",
-    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh/8d0d586560cd3f8ad01eca76bd600636.jpg",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/8d0d586560cd3f8ad01eca76bd600636.jpg",
     link: "ngontinh/dat-nham-cho-cung-cua-tinh-cu.html",
     type: "ngontinh",
     desc: `Tôi vô tình dắt nhầm chú chó nhỏ của bạn trai cũ mang về nhà mình.
