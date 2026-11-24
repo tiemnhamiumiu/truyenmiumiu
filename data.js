@@ -25671,6 +25671,167 @@ Ta đứng nhìn theo bóng hắn khuất dần, rồi bèn huých nhẹ vào va
 
 “Thấy chưa? Vừa nãy đó. Thân pháp lợi hại nhỉ? Ha ha! Mẹ kiếp, đó là vị hôn phu của ta đấy!”
 `
+  },{
+    id: 1247,
+    title: "Không Làm Nữ Phụ Lụy Tình",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/e84d32dee4f15942843f29c47205e487.jpg",
+    link: "ngontinh/khong-lam-nu-phu-luy-tinh.html",
+    type: "ngontinh",
+    desc: `Tôi và cô bạn thân thiết cùng được trao cho một cơ hội sống lại.
+
+Kiếp trước, cô ấy là thanh mai trúc mã của trùm trường hay quậy phá, còn tôi giữ vị trí bạn cùng bàn của cậu học thần xuất chúng, giỏi giang toàn diện.
+
+Nhờ sự gắn bó ấy, chúng tôi trở thành hai cặp “thanh mai trúc mã” có đông người hâm mộ và đông người gán ghép nhất toàn trường.
+
+Mọi chuyện chỉ bắt đầu chệch hướng khi một nữ sinh mới chuyển trường, xinh xắn và đáng yêu, xuất hiện.
+
+Để che chở cho cô ta, trùm trường sẵn sàng lao vào những trận ẩu đả đến mức bị buộc thôi học, còn cậu học thần vốn luôn chỉn chu lại cố tình để trống bài thi.
+
+Đến lúc ấy mọi người mới vỡ lẽ ra một sự thật phũ phàng: cả tôi lẫn cô bạn thân hóa ra chỉ đóng vai nữ phụ, mang trong lòng mối tình đơn phương chẳng thể có kết quả.
+`
+  },{
+    id: 1248,
+    title: "Trượt Chân Vào Lòng Trúc Mã",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/8c0883b64ab9db9c9aa15ec51acb8d05.jpg",
+    link: "dammy/truot-chan-vao-long-truc-ma.html",
+    type: "dammy",
+    desc: `Tôi dán chặt lấy Cấn Nguyện suốt ròng rã hai mươi năm trời, tính từ lúc ba tuổi ranh cho tới tận những ngày tháng học đại học.
+
+Chúng tôi từng thề thốt đủ điều, hứa hẹn sẽ chẳng bao giờ chia lìa.
+
+Vậy mà vừa cầm tấm bằng tốt nghiệp trong tay, hắn liền bốc hơi không một dấu vết.
+
+Ngày tái ngộ, Cấn Nguyện khoác trên mình bộ quân phục của phe phản loạn, hiên ngang đứng ngay bên giường bệnh của tôi.
+
+Hắn cúi người, lén đặt một nụ hôn dịu dàng đến cực điểm lên trán tôi.
+
+Còn tôi, kẻ đang giả vờ hôn mê nằm trên giường, chấn động đến mức tâm trí gào thét: ?!!`
+  },{
+    id: 1249,
+    title: "Kế Sách Phế Thái Tử",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/392d597ba44b324903bad6d28709e126.jpg",
+    link: "cotrang/ke-sach-phe-thai-tu.html",
+    type: "cotrang",
+    desc: `Chỉ vì trong buổi hiến vũ dâng rượu, Thái tử Sở Hạc Dự lỡ nhìn tỷ tỷ ta lâu hơn một chút, tỷ ấy đã bị ả thanh mai trúc mã của hắn hạ lệnh đánh chết bằng loạn côn giữa chốn đông người.
+
+Lúc ta thu dọn thi thể cho tỷ tỷ, trên người tỷ chẳng còn nổi một miếng da thịt lành lặn. Vậy mà khi còn sống, tỷ ấy là người coi trọng dung mạo, yêu cái đẹp hơn bất cứ điều gì.
+
+Về sau, ta tình cờ nhặt được Thái tử khi hắn rơi xuống vách núi, mất sạch ký ức, rồi ta mang thai đứa con của hắn.
+
+Đến lúc này, ả thanh mai năm xưa cũng lần theo dấu vết mà tìm tới tận cửa.
+
+Vở kịch chúng ta dày công bày bố suốt bao năm, mòn mỏi chờ đợi từ lâu, cuối cùng cũng đến lúc khai màn.`
+  },{
+    id: 1250,
+    title: "Người Khôn Ngoan Là Khi Biết Dứt Áo Ra Đi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/ddbd46c6f5a153aa48120f358f1b120e.jpg",
+    link: "ngontinh/nguoi-khon-ngoan-la-khi-biet-dut-ao-ra-di.html",
+    type: "ngontinh",
+    desc: `Ba năm sau ngày bước vào cuộc hôn nhân này, người phụ nữ được Bùi Cảnh nuôi bên ngoài đã tìm đến tận nơi gặp tôi.
+
+Cô ta lớn tiếng chất vấn, hỏi một người vợ đã tàn phai nhan sắc như tôi lấy đâu ra cái gan mà cứ bám riết lấy Bùi Cảnh, nhất quyết không chịu buông tay.
+
+Tôi lặng lẽ ngẩng lên nhìn cô ta, nét mặt không gợn chút sóng gió nào.
+
+“Dựa vào những ngày cơ cực nhất thuở trước, khi người sát cánh cùng anh ta đi qua chính là tôi.”
+
+Cô gái trẻ hất cao cằm, ánh mắt không buồn giấu vẻ khinh miệt.
+
+“Chẳng qua chỉ quen anh Cảnh sớm hơn tôi vài năm thôi, thế mà cũng đem ra làm chỗ dựa được sao?”`
+  },{
+    id: 1251,
+    title: "Bạn Thân Làm Tôi Có Bầu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/1da08052ca400ec530656b5a57bd8d2f.jpg",
+    link: "dammy/ban-than-lam-toi-co-bau.html",
+    type: "dammy",
+    desc: `Hai tháng trước, chỉ vì một phút bộc phát nông nổi, tôi đã lỡ nảy sinh quan hệ thể xác với thằng bạn thân chí cốt.
+
+Quá hoảng hốt, tôi ôm quần áo bỏ chạy thục mạng.
+
+Mấy ngày gần đây, thấy cơ thể xuất hiện nhiều biểu hiện kỳ lạ và khó chịu, tôi đành tìm đến bệnh viện làm một loạt kiểm tra.
+
+Kết quả xét nghiệm khiến tôi hoàn toàn chết lặng: mang thai sớm.
+
+Tức quá, tôi nhắn tin chất vấn Giang Dật Hành: “Cậu không có thói quen dùng bao à?”
+
+Giang Dật Hành: “???”`
+  },{
+    id: 1252,
+    title: "Ngày Hạnh Phúc Đến Muộn Cùng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/d70d88b007616d3e325ef56f968998cc.jpg",
+    link: "cotrang/ngay-hanh-phuc-den-muon-cung.html",
+    type: "cotrang",
+    desc: `Vệ Hành trở thành phế nhân, đường tỷ không nỡ gả cho hắn để chịu khổ.
+
+Nàng ta soi xét từng chữ trong tờ hôn thư, tìm cho bằng được chỗ hở, rồi cuối cùng đẩy ta lên kiệu hoa thế chỗ.
+
+Về sau, Vệ Hành trở lại chiến trường, giết giặc vô số, được triều đình phong làm Trấn Quốc Đại Tướng Quân.
+
+Còn ta, từ kẻ ngốc trong miệng thiên hạ, bỗng chốc trở thành quý phu nhân bậc nhất kinh thành.
+
+Đường tỷ gói ghém hành lý, đứng trước cổng phủ Vệ khóc lóc thê lương đến mức suýt ngất, nước mắt rơi như mưa: “Người phải gả cho huynh vốn là ta, năm đó chính ả tiện nhân này nằng nặc đòi lên kiệu hoa thay...”
+
+Vệ Hành thản nhiên bế ta xuống xe ngựa, đến một ánh mắt cũng không buồn dành cho nàng ta: “Phu nhân của ta không thích ồn ào, mong cô nương đứng xa một chút.”
+`
+  },{
+    id: 1253,
+    title: "Đoạn Kết Của Lòng Tin",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/f976856878d89e6d50bb27399d4719ee.jpg",
+    link: "ngontinh/doan-ket-cua-long-tin.html",
+    type: "ngontinh",
+    desc: `Lúc ngồi ở ghế phụ trong xe của bạn trai, tôi tình cờ phát hiện ra một thỏi son.
+
+Tôi cầm nó lên, hỏi anh xem đó là đồ của ai.
+
+Anh chỉ thoáng khựng lại một nhịp, rồi không cần nghĩ ngợi thêm đã đáp ngay: “Chắc là của bạn anh đấy. Em không tin thì để anh gọi cho cậu ấy luôn.”
+
+Ngay trước mặt tôi, anh cầm điện thoại lên bấm số.
+
+Đầu dây bên kia tỏ ra vô cùng bất ngờ, bảo rằng bấy lâu nay mình tìm thỏi son ấy đến cuống cả lên, ai ngờ nó lại nằm trong xe anh.
+
+Cúp máy xong, bạn trai nắm lấy tay tôi, mỉm cười dịu dàng: “Yên tâm chưa em? Mình bên nhau bao nhiêu năm rồi, chẳng lẽ đến chút lòng tin này em cũng không dành cho anh được sao?”
+
+Tôi nhìn thẳng vào mắt anh, không đáp một lời.
+
+Bởi thỏi son ấy vốn là của tôi.`
+  },{
+    id: 1254,
+    title: "Tro Cốt Matcha Của Thống Chế Điên Cuồng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/02c064331e5ef88dca90e8f9b5147bcc.jpg",
+    link: "dammy/tro-cot-matcha-cua-thong-che-dien-cuong.html",
+    type: "dammy",
+    desc: `Vào năm nông nổi nhất, tôi đã chà đạp lên lòng tự trọng của Cố Vọng, ép anh trở thành người tình trong bóng tối của mình.
+
+Tôi cưỡng đoạt anh, thậm chí còn tìm cách đánh dấu, muốn khắc lên cơ thể anh dấu ấn của riêng tôi.
+
+Sau này tôi mới ngã ngửa khi biết anh là con trai duy nhất của Thống chế tối cao Liên bang. Còn tôi chỉ là một thiếu gia hữu danh vô thực của tập đoàn tài phiệt.
+
+Vì sợ sau này bị anh ra tay trả thù, tôi đã chọn cách giả chết để tẩu thoát.
+
+Tôi đâu ngờ Cố Vọng đã ôm hộp tro cốt của tôi khóc ngất suốt ba năm liền, càng không biết anh chấn động đến mức nào khi phát hiện phần cốt ấy chỉ là bột matcha.
+
+Tôi lại càng không biết anh đã hóa thành đao phủ, lật tung cả Liên bang chỉ để lùng ra tung tích của tôi.
+
+Lúc anh tìm thấy, tôi đang nhét tiền tip vào trang phục của một vũ công nam.
+
+Cố Vọng suýt nữa bóp nát tuyến thể sau gáy tôi ngay giữa chốn đông người: “Thử nhét thêm một tờ nữa xem? Tạ Diễn Thanh, thằng nhóc đó làm em sướng hơn hay anh làm em sướng hơn?”
+`
+  },{
+    id: 1255,
+    title: "Mạo Danh Tiểu Thư Phủ Thừa Tướng",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/006f977a73ecb204ec4672492dc7d5b3.jpg",
+    link: "cotrang/mao-danh-tieu-thu-phu-thua-tuong.html",
+    type: "cotrang",
+    desc: `Năm ấy gặp thiên tai mất mùa kéo dài, ta cùng tỷ tỷ liều mạng đi tìm chút của cải từ những người đã chết. Rất may, hai tỷ muội nhặt được tín vật của một đôi chủ tớ vừa qua đời.
+
+Khi người của phủ Thừa tướng tìm đến tận nơi xác minh, họ gặng hỏi xem ai mới là tiểu thư thật sự.
+
+Tỷ tỷ chẳng chần chừ lấy một khắc, lập tức nhận mình là tiểu thư. Còn ta đành chịu thiệt, làm nha hoàn đi theo hầu hạ.
+
+Thấy mặt ta thoáng vẻ không vui, tỷ tỷ vung tay vỗ mạnh vào gáy ta, rồi mắng: “Ngươi đúng là đồ ngốc, nói năng chẳng ra câu mà suýt kéo ta vào đường chết, giờ còn dám bày cái mặt khó coi đó ra trước mặt ta à?”
+
+Ta chỉ biết cười ngô nghê. Từ nhỏ ta đã đần độn chậm chạp, sao có thể lanh lợi nhanh trí như tỷ tỷ được...
+`
   },
 
 
