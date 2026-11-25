@@ -25832,6 +25832,167 @@ Thấy mặt ta thoáng vẻ không vui, tỷ tỷ vung tay vỗ mạnh vào gá
 
 Ta chỉ biết cười ngô nghê. Từ nhỏ ta đã đần độn chậm chạp, sao có thể lanh lợi nhanh trí như tỷ tỷ được...
 `
+  },{
+    id: 1256,
+    title: "Nuôi Bạn Trai Ba Năm Lên Ảnh Đế, Hắn Lại Dâng Cúp Cho Tình Đầu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/ea4042063262865163a50b9e4db93d2b.jpg",
+    link: "ngontinh/nuoi-ban-trai-ba-nam-len-anh-de-han-lai-dang-cup-cho-tinh-dau.html",
+    type: "ngontinh",
+    desc: `Tôi là tiểu công chúa của giới thượng lưu Bắc Kinh, đã bỏ ròng rã ba năm trời để nâng đỡ bạn trai mình lên ngôi ảnh đế.
+
+Vậy mà đến ngày hắn nhận giải, người bước lên trao cúp lại chính là mối tình đầu của hắn.
+
+Cô ta cất giọng hỏi: “Anh còn điều gì tiếc nuối mà chưa làm được không?”
+
+Ngay trước mắt bao người, hắn hai tay nâng chiếc cúp dâng lên cho cô ta, mỉm cười đáp: “Những gì anh từng hứa với em, hôm nay anh đều làm được rồi.”
+
+Dưới khán đài, mọi ánh mắt đồng loạt đổ dồn về phía tôi.
+
+Cư dân mạng theo dõi qua màn hình cũng lên tiếng bênh vực hoàn cảnh éo le của tôi lúc này. Họ thẳng thừng mắng tôi đã nuôi ong tay áo, dốc lòng vun đắp cho một kẻ vong ân bội nghĩa.
+
+Tôi chỉ cười nhạt, rồi lập tức thu hồi toàn bộ tài nguyên mà bấy lâu nay tôi đổ vào người Lộ Hoài.
+
+Trên đời thiếu gì đàn ông tốt, việc gì tôi phải tự trói mình vào một cành cây cong queo mục nát như hắn?`
+  },{
+    id: 1257,
+    title: "Tình Nhân Thế Thân Của Alpha Cấp Cao",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/e30add1109aae0de2c36d8c59a5a7089.jpg",
+    link: "dammy/tinh-nhan-the-than-cua-alpha-cap-cao.html",
+    type: "dammy",
+    desc: `Giây phút biết tin Alpha cấp cao Hoắc Kiêu sắp đính hôn, tôi vẫn đang ngẩn người nhìn hai vạch đỏ hiện lên rõ mồn một trên que thử thai đặt cạnh bồn rửa mặt.
+
+Thế nhưng tôi hiểu rất rõ bản thân mình. Một Omega ở tầng đáy xã hội như tôi làm gì có tư cách sinh con cho anh.
+
+Trong mắt Hoắc Kiêu, tôi chẳng qua chỉ là một liều thuốc hạ sốt, một “công cụ trấn an” bắt buộc phải túc trực mỗi khi anh cần đến.
+
+Đến danh xưng chim hoàng yến, tôi còn chẳng xứng.
+
+Ngay sau thông báo đính hôn rầm rộ là tin vui từ phòng thí nghiệm.
+
+Phương thuốc điều trị triệt để chứng rối loạn pheromone của Hoắc Kiêu đã được nghiên cứu thành công.
+
+Còn tôi, từ giờ phút này cũng chẳng còn lý do gì để tiếp tục ở lại nơi này nữa.`
+  },{
+    id: 1258,
+    title: "Tái Giá Với Thợ Săn Góa Vợ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/42ee40cbe85d4a21f8af25de6911ef6c.jpg",
+    link: "cotrang/tai-gia-voi-tho-san-goa-vo.html",
+    type: "cotrang",
+    desc: `Ta là Thẩm Hảo Hảo, nổi tiếng khắp làng vì cái tính dữ dằn.
+
+Hôm bị trượng phu viết giấy bỏ thê tử, ta xách con dao thái rau, cạo trọc nhẵn đầu bà mẹ chồng cũ, rồi tiện tay chọc tiết luôn con lợn họ ủ béo suốt cả năm trời.
+
+Ai ngờ rời khỏi nhà họ Hứa chưa đầy nửa tháng, bà mối đã xách váy bước qua ngưỡng cửa nhà ta, bảo là muốn dạm hỏi cho ta một mối duyên lành.
+
+Đối phương là một người đàn ông góa vợ ở làng bên, thê tử của hắn đã qua đời được năm năm.
+
+Hắn làm nghề thợ săn nên thường phải lội vào rừng sâu, có khi đi liền một mạch ba đến năm ngày mới trở về. Hai đứa con còn thơ dại, để chúng tự trông nom nhau ở nhà thì hắn không yên tâm, vì vậy mới tính chuyện cưới một người đàn bà về đỡ đần, chăm sóc các con.
+
+Bà mối xởi lởi khuyên nhủ: “Nhà hắn chỉ có ba cha con, ngươi gả sang đó thì đương nhiên là người làm chủ gia đình. Ngũ Lang là người biết sống, hiền lành lại chu đáo, chẳng đời nào để ngươi phải chịu thiệt nửa phân.”
+
+Nghe bà mối nói xong, ta gật đầu nhận mối hôn sự này ngay tức khắc.`
+  },{
+    id: 1259,
+    title: "Sau Hai Năm Bị Bôi Đen Tôi Quyết Định Nổi Điên",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/348142f24235e22801683c333327861e.jpg",
+    link: "ngontinh/sau-hai-nam-bi-boi-den-toi-quyet-dinh-noi-dien.html",
+    type: "ngontinh",
+    desc: `Hai năm liền bị bôi đen trong giới giải trí, cuối cùng tôi cũng không chịu đựng nổi nữa.
+
+Tôi dùng luôn tài khoản Weibo chính thức của mình, lao vào khẩu chiến với đám antifan, mắng một mạch tám trăm tầng lầu.
+
+Đúng lúc ấy, vị ảnh đế kia để lại một dòng bình luận thần thánh hết chỗ nói: “Mắng người mà trông cũng như đang làm nũng vậy.”
+
+Cư dân mạng lập tức ngơ ngác: “?”
+
+“Antifan bị chửi đến khóc lóc thảm thiết rồi bỏ chạy khỏi mạng xã hội, vậy mà anh gọi đó là làm nũng ư??”
+
+“Anh ấy làm tôi khóc thét thật rồi. Chu tỷ trong mắt người khác chẳng khác gì súng máy, còn trong mắt ảnh đế lại là bé cưng.”
+`
+  },{
+    id: 1260,
+    title: "Sếp Trà Xanh Của Tôi Có Xúc Tu",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/94e6802d8d6349dc76be489e470e1854.jpg",
+    link: "dammy/sep-tra-xanh-cua-toi-co-xuc-tu.html",
+    type: "dammy",
+    desc: `Tôi là một kẻ nghèo kiết xác.
+
+Mười mấy năm ròng rã ở công ty, tôi miệt mài bán lưng cho tư bản, cam chịu kiếp làm thuê cu li.
+
+Đùng một cái, cấp trên thả xuống một vị thiếu gia “nhảy dù” tiếp quản văn phòng, trở thành sếp trực tiếp của tôi.
+
+Ban đầu, tôi cứ ngỡ biến cố này chẳng thể xáo trộn cuộc đời vốn bình lặng nhưng đầy gian khổ của mình. Tôi vẫn sẽ tiếp tục sắm vai trâu ngựa, cày cuốc qua ngày.
+
+Nhưng mà... từ từ đã...
+
+Lục thiếu gia à! Mấy cái xúc tu màu hồng phấn đang quấn chặt lấy eo tôi rốt cuộc là cái quái gì thế này?!
+
+Nước mắt tôi rơi lưng tròng, cả người đứng hình mất năm giây, không dám nhúc nhích dù chỉ một li.
+
+Thật lòng mà nói, có ai thấu cho nỗi đau đớn cùng cực này của tôi không? Tôi chẳng muốn đối diện với cái hiện thực kinh dị và quái đản này chút nào.
+
+Thế mà vị sếp đẹp trai nhưng lúc nào cũng u ám của tôi lại nhếch môi cười đầy thản nhiên: “Hả? Sao thế?”`
+  },{
+    id: 1261,
+    title: "Một Đời Lưu Lạc Chẳng Hối Hận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/bfa8e38261d948e15cd218b6ac546b55.jpg",
+    link: "cotrang/mot-doi-luu-lac-chang-hoi-han.html",
+    type: "cotrang",
+    desc: `Thời buổi này, người đời chỉ cười chê kẻ nghèo hèn chứ chẳng ai thèm trách cái nghề nhơ nhuốc. Đến lúc cùng đường, con gái nhà nghèo thường bị cha mẹ nhẫn tâm bán đứt cho tú bà.
+
+Ta thì khác, ta tự nguyện bán mình.
+
+Ngồi trên chiếc xe ngựa xóc nảy, mấy cô nương đi cùng cứ thút thít khóc mãi không thôi. Nghe mà ngứa tai, ta quát lớn: “Khóc cái gì mà khóc! Vào đó ít ra còn có miếng ăn cái mặc, tính ra vẫn sướng hơn cả nhà thắt lưng buộc bụng cày mấy mẫu ruộng cằn kia nhiều!”
+`
+  },{
+    id: 1262,
+    title: "Nhật Ký Thư Ký Mách Lẻo",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/abef1910481cb856fef9f91664cc8518.jpg",
+    link: "ngontinh/nhat-ky-thu-ky-mach-leo.html",
+    type: "ngontinh",
+    desc: `Tôi là vị thư ký bị Trần Triều ghét nhất trên đời, ghét đến mức anh ta thẳng thừng đặt cho tôi cái biệt danh “chó mách lẻo”. Cũng chẳng oan, bởi mọi hành động, cử chỉ lớn nhỏ của anh ta ngoài đường đều được tôi cập nhật cho ba mẹ anh ta, không sót một chi tiết nào.
+
+Một tối nọ, anh ta uống đến chếnh choáng rồi bất ngờ tỏ tình với tôi, và bị tôi từ chối thẳng thừng. Ngay trong đêm đó, hộp thư điện thoại của tôi gần như nổ tung vì hàng loạt tin nhắn dồn dập đổ về.
+
+[Em lại mang chuyện này đi mách mẹ tôi rồi phải không?]
+
+[Em bớt mách lẻo với họ một chút được không? Tôi hai mươi bảy tuổi rồi chứ có phải con nít đâu, lẽ nào không được giữ lấy chút bí mật riêng?]
+
+[Thôi, tôi chỉ đùa cho vui thôi.]
+
+[Được rồi, tôi thừa nhận là mình có thích em một chút xíu.]
+
+[Em đang giở trò lạt mềm buộc chặt với tôi đấy à?]
+
+[Alo? Thư ký Khương? Nếu em còn sống thì nhắn lại cho tôi ngay một câu: Em yêu anh.]`
+  },{
+    id: 1263,
+    title: "Kỳ Mẫn Cảm Của Anh Chồng Alpha",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/8eeedfea0c955e9e51a5f54d85af34b5.jpg",
+    link: "dammy/ky-man-cam-cua-anh-chong-alpha.html",
+    type: "dammy",
+    desc: `Để che giấu thân phận thật là một Omega cấp SSS năm sao, tôi đã cải trang thành Beta rồi gả cho một Alpha đỉnh cấp đang mắc bệnh khó nói.
+
+Sau khi kết hôn, ông chồng Alpha đỉnh cấp này coi như không tồn tại. Tôi có một khoảng thời gian dài sống như thần tiên, kết hôn sớm mà tự do chẳng khác nào góa phụ.
+
+Cho đến một ngày...
+
+Tôi bị bắt về nhà cũ của gia tộc. Trong căn phòng tối đen như mực, tin tức tố cuộn trào như sóng biển, bao vây lấy toàn thân tôi. Một Alpha ẩn mình trong bóng tối đột ngột ấn mạnh chiếc rọ bịt miệng lên tuyến thể của tôi: “Vợ Omega yêu quý của tôi ơi, em cố tình vào đây để nộp mạng sao?”
+
+Sao anh ta biết tôi là Omega chứ...
+
+Không đúng, cái gọi là “bệnh khó nói” của anh ta hóa ra lại là chứng cuồng miệng trầm trọng trong kỳ mẫn cảm!`
+  },{
+    id: 1264,
+    title: "Thủ Phụ Đại Nhân Lại Đòi Danh Phận",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/0f05481a99570ce369c00b80f1e10ddc.jpg",
+    link: "cotrang/thu-phu-dai-nhan-lai-doi-danh-phan.html",
+    type: "cotrang",
+    desc: `Sau tiệc mừng công, thuộc hạ rủ ta đi hưởng thử thú vui cực lạc nhất chốn nhân gian.
+
+Ta tỉnh dậy sau cơn say, nam hoa khôi đã hẹn từ trước chẳng thấy đâu. Thay vào đó, Thương Hạc Vũ, thủ phụ nội các, đang nằm trọn trong vòng tay ta, khắp người hằn đỏ những dấu vết hoan lạc.
+
+Vừa mở mắt, vẻ mặt hắn đã khiến người ta khiếp vía: “Thành thân hoặc chết, tướng quân tự chọn lấy một đường.”`
   },
 
 
