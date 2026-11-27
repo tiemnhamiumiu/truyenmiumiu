@@ -25993,6 +25993,211 @@ Không đúng, cái gọi là “bệnh khó nói” của anh ta hóa ra lại 
 Ta tỉnh dậy sau cơn say, nam hoa khôi đã hẹn từ trước chẳng thấy đâu. Thay vào đó, Thương Hạc Vũ, thủ phụ nội các, đang nằm trọn trong vòng tay ta, khắp người hằn đỏ những dấu vết hoan lạc.
 
 Vừa mở mắt, vẻ mặt hắn đã khiến người ta khiếp vía: “Thành thân hoặc chết, tướng quân tự chọn lấy một đường.”`
+  },{
+    id: 1265,
+    title: "Chồng Mất Trí Nhớ Giả Vờ Quên Tôi Để Đến Với Tình Cũ",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/0a569f20d6c95b36001d385d534c59e5.jpg",
+    link: "ngontinh/chong-mat-tri-nho-gia-vo-quen-toi-de-den-voi-tinh-cu.html",
+    type: "ngontinh",
+    desc: `Ba ngày sau khi chồng tôi mất trí nhớ, chính tôi là người mở lời xin ly hôn.
+
+Anh gật đầu đồng ý ngay, không chần chừ một giây.
+
+Bởi trong trí nhớ của anh lúc này chẳng còn lấy một bóng dáng của tôi. Thứ anh còn nhớ rành rành chỉ là người con gái anh từng yêu, người cũng vừa bước ra khỏi cuộc hôn nhân của mình chưa bao lâu.
+
+Tôi mở lời như thế cũng coi như thuận nước đẩy thuyền, vô tình trải sẵn cho hai người họ một con đường thông thoáng để đến với nhau.
+
+Một tháng sau, anh cầm tập hồ sơ bệnh án đến tìm tôi.
+
+“Giữa chúng ta từng có một đứa con.”
+
+Tôi gật đầu rất khẽ rồi đáp: “Ừ, đúng là từng có một đứa.”
+
+Mắt anh đỏ hoe, giọng nghẹn lại khi cất lời hỏi: “Vậy đứa bé giờ ở đâu?”
+
+Tôi bật cười thành tiếng: “Ngay cả anh tôi còn không cần nữa, giữ lại đứa trẻ này để làm gì? Buổi chiều hôm làm thủ tục ở cục dân chính, tôi đã bỏ nó rồi.”
+`
+  },{
+    id: 1266,
+    title: "Danh Phận Của Kẻ Đeo Bám",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/6e86a39a4de0125126a67503dd329cfe.jpg",
+    link: "dammy/danh-phan-cua-ke-deo-bam.html",
+    type: "dammy",
+    desc: `Tôi thầm thích cậu bạn cùng phòng ngủ giường trên, người vốn được mệnh danh là nam thần của cả trường.
+
+Suốt hai năm qua, tôi tự nguyện mua cơm, giặt giũ quần áo, thậm chí còn cố gắng đi làm thêm kiếm tiền chỉ để đưa cho cậu ấy chi tiêu.
+
+Đến cả khi cậu ấy đi mở phòng với con gái, tôi cũng sẵn sàng chạy tới tận nơi đưa đồ tránh thai, không quên nhắc cậu ấy chú ý vệ sinh sức khỏe.
+
+Mọi chuyện cứ thế kiên trì diễn ra suốt hai năm trời.
+
+Những người xung quanh đều rất ngưỡng mộ Dụ Hành, ai cũng bảo cậu ấy thật may mắn khi có được một “anh em tốt” chu đáo như tôi.
+
+Những lúc ấy, tôi chỉ cười đáp: “Không phải anh em gì đâu, tôi thực chất là chó của cậu ấy thì đúng hơn!”
+
+Lý do rất đơn giản, vì cứ vào ngày đầu mỗi tháng, Dụ Hành lại chuyển thẳng vào tài khoản của tôi hai vạn tiền công.
+
+Thế nhưng đến kỳ chuyển tiền đầu tháng lần này, cậu ấy không gửi cho tôi một đồng nào. Thay vào đó, trong lúc hơi men còn ngà ngà, cậu ấy siết chặt lấy tôi, đôi mắt đỏ ngầu như chực khóc, cất giọng hỏi:
+
+“Yêu tôi… rốt cuộc khó đến vậy sao?”
+
+Tôi sững người trong vài giây, rồi bình tĩnh và lạnh lùng đẩy cậu ấy ra: “Cậu đây là muốn dùng chùa miễn phí đúng không?”
+`
+  },{
+    id: 1267,
+    title: "Trò Chơi Săn Mồi",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/580130924628324ea099cb7e90b03071.jpg",
+    link: "cotrang/tro-choi-san-moi.html",
+    type: "cotrang",
+    desc: `Ta cùng tỷ tỷ ruột gặp sơn tặc giữa đường, vậy mà vị hôn phu của ta lại chọn cứu tỷ ấy trước.
+
+Ta mạng lớn, tuy ngất đi nhưng vẫn may mắn được một vị quý nhân ra tay cứu giúp.
+
+Về sau, vị hôn phu dẫn ta đến gặp quý nhân ấy để tạ ơn.
+
+Vừa trông thấy vị quý nhân kia, mặt ta tái mét, người run như cầy sấy.
+
+Vị hôn phu dịu dàng trấn an: “Đừng sợ, Hằng Vương là huynh đệ tốt của ta, nàng cứ tự nhiên.”
+
+Ta nào phải sợ bình thường, ta sợ đến mất cả hồn vía!
+
+Ôi chao, phu quân đáng mến của ta ơi, ta từng lên giường với huynh đệ tốt của chàng rồi, giờ biết làm sao đây?
+
+Hằng Vương nhìn ta bằng ánh mắt lạnh lẽo: “Chẳng phải ngươi muốn tạ ơn bổn vương sao? Cớ gì lại không nói một lời?”
+`
+  },{
+    id: 1268,
+    title: "Mẹ Kẻ Bắt Nạt Là Bạch Nguyệt Quang Của Ba",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/f7f8230b3f59b2ba13febd2deae6aef7.jpg",
+    link: "ngontinh/me-ke-bat-nat-la-bach-nguyet-quang-cua-ba.html",
+    type: "ngontinh",
+    desc: `Mẹ của kẻ bắt nạt tôi lại chính là bạch nguyệt quang trong lòng ba tôi.
+
+Người đã ra tay làm hại một bên mắt của tôi là cô ta.
+
+Vậy mà ba lại tự quyết định thay tôi, rộng lượng tha thứ cho cô ta.
+
+“Cháu lớn lên giống mẹ cháu lắm.”
+
+“Chú không nỡ nhìn cháu bị phạt.”
+
+Về sau...
+
+Ông ta còn tình nguyện đứng ra nuôi dưỡng kẻ từng hành hạ tôi.
+
+Ngày nào ông ta cũng đưa đón cô ta đi học.
+
+Quần áo mới, ông ta mua cho cô ta hết bộ này đến bộ khác.
+
+Rồi ông ta dẫn cô ta đi chơi khắp nơi.
+
+Thứ tình thương ấm áp của một người cha mà tôi chưa từng được hưởng lấy một lần, ông ta dồn hết cho cô ta.
+
+Chính vì thế, tôi đã nhấc máy, bấm một số điện thoại...
+
+“Chú ơi, chú làm ba mới của cháu được không ạ?”`
+  },{
+    id: 1269,
+    title: "Giúp Nữ Thần Đưa Thư Lại Bị Nam Thần Theo Đuổi Ngược Lại",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/e98f4bab3c4d25947aad9c475def731b.jpg",
+    link: "dammy/giup-nu-than-dua-thu-lai-bi-nam-than-theo-duoi-nguoc-lai.html",
+    type: "dammy",
+    desc: `Tin vui: nữ thần cuối cùng cũng chủ động liên lạc với tôi!
+
+Tin xấu: cô ấy nhờ tôi giúp cô ấy theo đuổi crush!
+
+Là kẻ si tình số một của nữ thần được công nhận toàn Nam Thành Nhất Trung, tôi đâu có lý do gì để từ chối?
+
+Cắn răng nhận nhiệm vụ, tôi trở thành cái loa truyền tin giữa cô nàng lạnh lùng thanh cao Trần Niệm và nam thần học bá băng sơn Giang Lẫm Xuyên.
+
+Giúp nữ thần đưa bữa sáng, chuyển vở ghi, hao hết tâm tư nghĩ cách làm ấm trái tim băng giá kia, tôi luôn mặc định hắn là tảng đá không biết rung động.
+
+Cho đến một lần, trong một hoạt động nào đó, tôi vô tình liếc thấy màn hình khóa điện thoại của hắn. Trên đó rõ ràng là bộ dạng ngốc nghếch của tôi trên vòng quay khổng lồ!
+
+Còn chưa kịp hoàn hồn, tôi đã bị hắn kéo mạnh vào cầu thang rồi ôm chặt.
+
+Giọng hắn trầm thấp, mang theo hơi thở bá đạo: “Ngôn Ôn, tôi có thể theo đuổi cậu không?”
+
+Não tôi nóng lên, buột miệng: “Biến! Tôi không phải gay!”
+
+Ai hiểu cho nỗi bất lực của tôi chứ, giúp người lại tự đẩy mình vào chiến trường tình ái!`
+  },{
+    id: 1270,
+    title: "Kế Hoạch Giả Trà Xanh Ôm Đùi Nữ Chính",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/48ca46c47532fa3a5575043324a740a7.jpg",
+    link: "cotrang/ke-hoach-gia-tra-xanh-om-dui-nu-chinh.html",
+    type: "cotrang",
+    desc: `Hệ thống trà xanh bắt ta phải nói đủ một nghìn câu trà xanh thì mới coi như hoàn thành chỉ tiêu.
+
+Từ hôm đó, ngày nào ta cũng xuất chiêu liên tục, không cho mình nghỉ lấy một hơi.
+
+Ta chớp mắt nhìn nữ chính, giọng ngọt ngào đầy vẻ vô tội: “Tỷ tỷ, có phải vị hôn phu của tỷ vốn không hề thích muội không?”
+
+Nói xong, ta lại làm ra bộ lo lắng, bồi thêm một câu: “Muội chỉ sợ tỷ tỷ phải chịu thiệt thòi ở đây thôi, chứ hoàn toàn không có ý nói xấu chàng ta đâu nha.”
+
+Lúc ấy, nam chính cao ngạo đang đứng ngay bên cạnh. Sắc mặt hắn xanh mét, hận không thể nuốt sống ta vào bụng.
+
+Ta vội diễn tròn vai một đóa bạch liên hoa nhát gan, rụt rè nép sau lưng nữ chính.
+
+Ta nhìn nàng bằng ánh mắt vô tội hết mức, hạ giọng thì thầm: “Tỷ tỷ, vị hôn phu của tỷ đáng sợ quá, vừa rồi trong mắt chàng ta còn lóe lên tia sáng lạnh lẽo nữa đó.”
+
+Dứt lời, ta lại ngọt ngào nịnh nọt: “Muội thì không giống chàng ta đâu, vì trong mắt muội từ đầu đến cuối chỉ có mình tỷ tỷ thôi.”
+`
+  },{
+    id: 1271,
+    title: "Vụng Trộm Yêu Con Trai Giáo Sư",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/dcdfe91eacdc62d874d010a6412076b8.jpg",
+    link: "ngontinh/vung-trom-yeu-con-trai-giao-su.html",
+    type: "ngontinh",
+    desc: `Đầu năm mới, chú cún con nhà tôi bỗng nghiện đăng trạng thái lên mạng xã hội.
+
+Một hôm, thầy giáo hướng dẫn nhìn tôi bằng ánh mắt đầy nghi ngờ rồi hỏi:
+
+“Thằng nhóc thối nhà thầy, dạo này có phải đang yêu đương không đấy?”
+
+Tôi giật thót, ấp úng đáp:
+
+“Dạ? Chuyện này em chưa nghe ai nói bao giờ hết ạ!”
+
+Thầy chỉ mỉm cười, không hỏi thêm câu nào nữa.`
+  },{
+    id: 1272,
+    title: "Ám Vệ Mang Thái Trốn Chạy",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/a08aad94d4e5591ecde4a28527ba609a.jpg",
+    link: "dammy/am-ve-mang-thai-tron-chay.html",
+    type: "dammy",
+    desc: `Lương tháng ở Ám Vệ Doanh quá ít ỏi, tôi đành lén ra ngoài nhận thêm việc để kiếm thêm thu nhập.
+
+Lần đó, tôi nhận chữa độc cho một vị quý nhân.
+
+Chẳng ai ngờ giải độc qua giải độc lại thế nào mà tôi lại mang thai luôn.
+
+Đã vậy, tôi còn vô tình nghe được thuộc hạ của vị quý nhân ấy bàn nhau chuyện giết mình diệt khẩu.
+
+Tôi sợ hãi bò lê bò toài chạy về vương phủ, nào ngờ lại phát hiện chủ tử của mình chính là vị quý nhân kia.
+
+Thế là xong đời tôi rồi!
+
+Nếu để hắn nhận ra tôi, chắc chắn tôi sẽ rơi vào cảnh sống không bằng chết.
+
+Cùng đường bí lối, tôi chỉ còn cách ôm bụng giả chết rồi tìm đường chạy trốn.
+
+Nào ngờ chưa kịp tẩu thoát thì gáy đã bị hắn tóm chặt, giọng nói lạnh lẽo vang lên ngay trên đỉnh đầu: “Thập Thất, ngươi đang mang giọt máu của ta, định trốn đi đâu?”`
+  },{
+    id: 1273,
+    title: "Thái Tử Phi Không Làm Kẻ Ngốc Não Yêu Đương",
+    image: "https://ia600704.us.archive.org/34/items/tiemnhamiumiu_anh1/0d2f0be331f598e355b86681010f9ae3.jpg",
+    link: "cotrang/thai-tu-phi-khong-lam-ke-ngoc-nao-yeu-duong.html",
+    type: "cotrang",
+    desc: `Phu quân của ta vốn là Thái tử điện hạ. Sáu năm trước, chàng bị thích khách ám sát, từ đó bặt vô âm tín.
+
+Đến ngày gặp lại, chàng đã chẳng còn là vị Thái tử cao cao tại thượng năm xưa, mà trở thành một gã chăn trâu nơi thôn dã. Bên cạnh chàng là một thôn nữ đang mang thai, còn bản thân chàng thì không nhớ nổi mình là ai.
+
+Thuộc hạ dè dặt hỏi ta: “Thái tử phi, người có muốn nhận lại vị này không ạ?”
+
+Ta liếc nhìn lớp lông bò bám đầy trên y phục chàng, lặng lẽ lùi về sau vài bước.
+
+Thái tử là phu quân của ta. Còn gã chăn trâu này là ai, ta vốn không quen biết.`
   },
 
 

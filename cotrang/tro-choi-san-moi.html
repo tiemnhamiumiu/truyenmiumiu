@@ -1,0 +1,2069 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trò Chơi Săn Mồi</title>
+
+  <link rel="stylesheet" href="../codetruyen/style.css">
+<link rel="icon" type="image/png" href="../codetruyen/icon.jpg">
+</head>
+
+<body>
+<header class="menu">
+  <a href="../index.html">Trang chủ</a>
+  <a href="../ngontinh.html">Ngôn tình</a>
+  <a href="../dammy.html">Đam mỹ</a>
+    <a href="../cotrang.html">Cổ trang</a>
+  <a href="https://tiemnhamiumiu.neocities.org/" id="xoiThitLink">Xôi Thịt</a>
+</header>
+
+<div class="topbar">
+  Trò Chơi Săn Mồi
+</div>
+<div class="container">
+<div id="lockedContent">
+
+<div class="audio-card" id="audioCard" data-audio="https://ia601909.us.archive.org/17/items/tiemnhamiumiu_cotrang/tro-choi-san-moi.mp3" data-marker="14:08" data-marker-label="14:08">
+
+<div class="audio-header">
+<div class="audio-icon">🎧</div>
+<div class="audio-title">
+<div class="audio-name">Trò Chơi Săn Mồi</div>
+<div class="audio-subtitle">Nghe truyện bằng audio</div>
+</div>
+</div>
+
+<div id="storyAudio" aria-hidden="true">
+<div id="youtubePlayer"></div>
+</div>
+
+<div class="audio-progress-wrap">
+<div id="audioTimeBubble" class="audio-time-bubble">14:08</div>
+<input id="audioProgress" class="audio-progress" type="range" min="0" max="1" value="0" step="0.1">
+</div>
+
+<div class="audio-time">
+<span id="currentTime">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="audio-main-controls">
+<button id="back10Btn" class="audio-control-btn" type="button">↶ <span>10s</span></button>
+<button id="playPauseBtn" class="audio-play" type="button">▶</button>
+<button id="forward10Btn" class="audio-control-btn" type="button"><span>10s</span> ↷</button>
+</div>
+
+<div class="audio-speed">
+<span class="speed-title">Tốc độ</span>
+<button class="speed-btn active" data-speed="1" type="button">1x</button>
+<button class="speed-btn" data-speed="1.25" type="button">1.25x</button>
+<button class="speed-btn" data-speed="1.5" type="button">1.5x</button>
+<button class="speed-btn" data-speed="2" type="button">2x</button>
+</div>
+
+
+<!-- =========================
+     THẺ NHẠC NỀN
+========================= -->
+
+<div class="background-music">
+
+<button id="musicToggleBtn" class="music-toggle-btn" type="button">
+<span class="music-toggle-left">🎵 <span>Chọn Nhạc nền</span></span>
+
+<span id="musicArrow" class="music-arrow">▼</span>
+</button>
+
+<div id="musicPanel" class="music-panel" style="display:none;">
+
+<div class="music-panel-title">🎶 Chọn nhạc nền</div>
+
+<div id="musicList" class="music-list"></div>
+
+<div id="selectedMusic" class="selected-music">
+Chưa chọn nhạc nền
+</div>
+
+<div class="music-volume-row">
+<span class="music-volume-icon">🔊</span>
+
+<input id="musicVolume" class="music-volume" type="range" min="0" max="1" step="0.01" value="0.35">
+
+<span id="musicVolumeValue" class="music-volume-value">35%</span>
+</div>
+
+<div class="music-controls">
+<button id="musicPlayPauseBtn" class="music-control-btn" type="button" disabled>▶ Phát nhạc</button>
+
+<button id="musicUseBtn" class="music-control-btn music-use-btn" type="button" disabled>☑ Dùng nhạc nền</button>
+</div>
+
+</div>
+</div>
+
+<div class="audio-marker">
+<div class="marker-info">
+<div class="marker-icon">📍</div>
+<div>
+<div class="marker-title">Mốc nghe</div>
+<div class="marker-description">Nhấn để nghe từ đoạn được chia sẻ từ TikTok/Facebook</div>
+</div>
+</div>
+
+<button id="markerBtn" class="marker-btn" type="button">
+▶ <span id="markerTime">14:08</span>
+</button>
+</div>
+
+</div>
+
+<div id="facebook-read" class="facebook-read">
+<a href="#facebook-point" class="fb-btn">👉 Nhấn vào đây để đọc truyện tiếp nếu bạn từ Facebook sang</a>
+</div>
+<div id="story">Ta cùng tỷ tỷ ruột gặp sơn tặc giữa đường, vậy mà vị hôn phu của ta lại chọn cứu tỷ ấy trước.
+
+Ta mạng lớn, tuy ngất đi nhưng vẫn may mắn được một vị quý nhân ra tay cứu giúp.
+
+Về sau, vị hôn phu dẫn ta đến gặp quý nhân ấy để tạ ơn.
+
+Vừa trông thấy vị quý nhân kia, mặt ta tái mét, người run như cầy sấy.
+
+Vị hôn phu dịu dàng trấn an: “Đừng sợ, Hằng Vương là huynh đệ tốt của ta, nàng cứ tự nhiên.”
+
+Ta nào phải sợ bình thường, ta sợ đến mất cả hồn vía!
+
+Ôi chao, phu quân đáng mến của ta ơi, ta từng lên giường với huynh đệ tốt của chàng rồi, giờ biết làm sao đây?
+
+Hằng Vương nhìn ta bằng ánh mắt lạnh lẽo: “Chẳng phải ngươi muốn tạ ơn bổn vương sao? Cớ gì lại không nói một lời?”
+
+-----
+
+“Chửi cả mười tám đời tổ tông nhà ngươi!”
+
+Khi ta quen Hằng Vương, hắn là một kẻ mù lòa.
+
+Hắn chưa một lần thấy mặt ta, nhưng giọng của ta thì chắc chắn hắn nhận ra được.
+
+Ta chỉ cần cất lời là mọi chuyện sẽ bại lộ.
+
+Ta cúi đầu làm bộ sợ hãi, nấp ra sau lưng Tề Thịnh, còn trong bụng thì mắng cả trời cả đất, không chừa thứ gì.
+
+Được lắm, được lắm! Ông trời già kia, ngươi lại dám đùa giỡn với ta như vậy sao!
+
+Ai ngờ được, người đàn ông ta từng qua đêm cùng cách đây một năm, lại chính là huynh đệ thân thiết của vị hôn phu ta!
+
+Tề Thịnh bất đắc dĩ lên tiếng: “Huyền Hạc, ngươi dọa muội muội ta sợ rồi. Nàng từ nhỏ lớn lên nơi thôn dã, chưa từng gặp nhân vật quyền quý như ngươi.”
+
+Phó Huyền Hạc nhìn ta chằm chằm, giọng lạnh lùng: “Quả là trùng hợp. Sau khi mất trí nhớ, ngươi lưu lạc về vùng nông thôn, lại được Sở tiểu thư cứu giúp.
+
+“Trùng hợp hơn nữa, Sở tiểu thư lại chính là nhị tiểu thư thất lạc nhiều năm của nhà họ Sở.
+
+“Bao nhiêu chuyện trùng hợp chồng chất như vậy, duyên phận quả thật không nhỏ.
+
+“Người không biết còn tưởng có kẻ cố ý bày mưu, muốn lừa tiền của tiểu hầu gia đây.”
+
+Lòng ta chợt lạnh đi, ta ngước lên nhìn Phó Huyền Hạc.
+
+Đôi mắt đen thẳm của hắn đang khóa chặt vào ta.
+
+Rõ ràng đây là một lời cảnh cáo.
+
+Hắn nhận ra ta rồi!
+
+Ta kéo tay áo Tề Thịnh, dịu giọng nói: “Tề ca ca, huynh ra cửa bẻ giúp muội hai nhành đào được không?”
+
+Tề Thịnh xưa nay chưa từng từ chối điều ta nhờ.
+
+Hắn vừa đi khuất, Phó Huyền Hạc lập tức ném trước mặt ta một nút kết bình an.
+
+Nút kết ấy là lúc hai chúng ta nằm trên giường, ta tiện tay lấy sợi chỉ đỏ bện thành.
+
+Thứ đồ nhỏ chẳng đáng giá gì, vậy mà hắn lại luôn mang theo bên người.
+
+Phó Huyền Hạc đứng trước mặt ta, ánh mắt lạnh băng, nghiêm giọng hỏi: “Thôn nữ mồ côi, nhị tiểu thư Sở gia, hay kiếm khách giang hồ, rốt cuộc thân phận thật của ngươi là gì?”
+
+Ta xoa xoa hai tay, cười gượng, cúi đầu nịnh nọt: “Ôi chao ôi chao, vương gia, ta chỉ là một kẻ lang bạt đi lừa đảo trong giang hồ thôi. Ngài đại nhân đại lượng, xin đừng chấp tiểu nhân, chừa cho ta một con đường sống được không?”
+
+Người giang hồ mang nhiều thân phận vốn là chuyện thường.
+
+Vị vương gia này chấp nhặt như vậy để làm gì chứ?
+
+Haizz, ta chỉ là một vai nhỏ trong “Phong Vũ Lâu”, sao số mệnh lại gian truân thế này.
+
+“Phong Vũ Lâu” là tổ chức ngầm nổi danh trong giang hồ, tự xưng “vạn năng vô đối”.
+
+Chỉ cần chủ nhân bỏ đủ vàng, nhiệm vụ nào chúng ta cũng nhận.
+
+Nghe thì oai phong lẫm liệt, nhưng thực ra chỉ là một ổ lừa đảo bịp bợm, chưa từng làm nên trò trống gì lớn.
+
+Hai năm trước, ta làm nhiệm vụ ở Định Châu thì bị thương nặng.
+
+Lúc ấy Định Châu đang giới nghiêm toàn thành, ta không cách nào rời đi.
+
+Nhờ đồng nghiệp trong “Phong Vũ Lâu” giúp sức, ta trốn vào Minh Nguyệt Sơn Trang để dưỡng thương.
+
+Trang chủ nơi ấy là một kẻ mù, trầm mặc ít lời, ngày ngày chỉ đàn hát và uống trà.
+
+Ta trăm phương nghìn kế van nài, mong hắn cho mượn một gốc nhân sâm ngàn năm trong trang để chữa thương.
+
+Thế nhưng hắn chẳng những không đồng ý, còn tỏ ra bực bội, đòi đuổi ta đi.
+
+Đồng nghiệp khuyên ta: “Này này, trang chủ có vô tình đến đâu thì cũng là đàn ông.
+
+“Ngươi chẳng phải từng nhận một nhiệm vụ ở thanh lâu, giả làm hoa khôi giúp họ thắng cuộc thi sao?
+
+“Đem mấy chiêu học được ở thanh lâu ra dùng, đảm bảo hắn khuất phục ngươi ngay!”
+
+Hết cách, ta đành dùng đến mỹ nhân kế.
+
+Không ngờ chiêu này lại hiệu nghiệm thật.
+
+Giữa chúng ta cũng coi như đã có một đoạn tình ý ngọt ngào.
+
+Tính hắn tuy có chút đáng ghét, nhưng đối với ta vẫn dịu dàng và chu đáo.
+
+Hắn thậm chí còn mở cả bảo khố trong sơn trang, cho ta tùy ý lấy các loại dược liệu quý hiếm.
+
+Thương thế vừa lành, ta liền chuồn thẳng.
+
+Ta cứ tưởng giang hồ rộng lớn, từ nay khó mà gặp lại.
+
+Ai ngờ chúng ta lại tái ngộ ở kinh thành!
+
+Hắn vậy mà lại là Hằng Vương vang danh thiên hạ!
+
+Hằng Vương Phó Huyền Hạc là hoàng đệ út của đương kim Hoàng thượng, rất được thánh sủng.
+
+Dây dưa với hắn thì khó lòng thoát thân yên ổn.
+
+Nếu hắn vạch trần thân phận của ta trước mặt Tề Thịnh, mọi chuyện coi như chấm hết.
+
+Bởi hắn đoán không sai, chuyện Tề Thịnh mất trí nhớ rồi gặp ta ở nơi thôn dã chỉ là một vở kịch được dàn dựng.
+
+Hai năm trước, phu nhân của Thượng thư đương triều, tức Sở phu nhân, tìm đến Phong Vũ Lâu, muốn chúng ta làm cho bà hai việc.
+
+Việc thứ nhất là giết phu quân của bà, nhưng không được để bà bị liên lụy.
+
+Việc thứ hai là buộc Tề Thịnh sớm cưới vợ, để con gái bà là Sở Vận dứt hẳn mộng tưởng.
+
+Hai việc này quả thực không dễ làm.
+
+Sở súc sinh là mệnh quan triều đình, nếu chết không rõ ràng thì chắc chắn sẽ có người truy xét đến cùng.
+
+Còn Tề Thịnh, đường đường là tiểu hầu gia, hôn sự của hắn nào đến lượt kẻ giang hồ như chúng ta định đoạt.
+
+Muốn làm xong cả hai, phải có kế sách vẹn toàn.
+
+Bằng không, chẳng những không lấy được tiền, chúng ta còn rước họa vào thân.
+
+Nguyên tắc đầu tiên của Phong Vũ Lâu là: Kiếm tiền để sống, không liều mạng vì tiền!
+
+Có tiền mà không có mạng để tiêu thì khác gì trắng tay.
+
+Người trong lâu vốn không muốn nhận vụ này, nhưng khổ nỗi Sở phu nhân trả giá quá cao!
+
+Sau nhiều lần cân nhắc, chúng ta nghĩ ra được một kế.
+
+Nếu Tề Thịnh một lòng sống chết đòi cưới một nữ tử nào đó, phủ Hầu gia chắc chắn sẽ vì người con trai độc nhất mà nhắm mắt đồng ý.
+
+Chúng ta bàn bạc kỹ lưỡng rồi lập ra kế hoạch.
+
+Chuyện Tề Thịnh mất trí nhớ rồi lưu lạc đến thôn Thạch Đầu hoàn toàn không phải ngẫu nhiên.
+
+Chúng ta cố ý thúc đẩy để hắn ra ngoài du ngoạn, rồi trên đường đi hạ dược khiến hắn mất trí nhớ.
+
+Còn ta thì nhân lúc hắn quên sạch mọi chuyện, ở bên cạnh vun đắp tình cảm với hắn.
+
+Khi ấy, ta giả làm một cô nhi ở thôn Thạch Đầu, tiêu hết tài sản vào việc “chữa bệnh” cho Tề Thịnh.
+
+Hai chúng ta sớm chiều bên nhau suốt nửa năm, Tề Thịnh đã yêu ta sâu đậm.
+
+Sau khi phủ Hầu gia tìm được chúng ta, ban đầu họ định cho ta ít bạc để đuổi đi.
+
+Nhưng Tề Thịnh sống chết đòi đưa ta về kinh thành.
+
+Hắn nhất quyết muốn cưới ta, nên phủ Hầu gia đành phải tìm cách ban cho ta một thân phận cao quý.
+
+Ta bèn úp mở tiết lộ rằng năm xưa mẫu thân ta từ kinh thành lưu lạc đến thôn Thạch Đầu.
+
+Ta còn lấy ra một tín vật, nói đó là món đồ cha ta để lại cho mẹ ta.
+
+Phủ Hầu gia mang tín vật đi tra xét, ôi chao, hóa ra lại là đồ của phủ Thượng thư!
+
+Thật trùng hợp làm sao, cha ta chính là vị Thượng thư Sở Tàng Phong nổi danh phẩm hạnh thanh cao, chính trực ấy.
+
+Sở Thượng thư vốn nổi tiếng thanh liêm, giữ mình cẩn trọng.
+
+Dù ở ngôi cao, ông chỉ có một chính thê đã già, chưa từng vướng vào chuyện phong hoa tuyết nguyệt.
+
+Vậy mà vị Sở Thượng thư này lại có một nữ nhi dòng thứ.
+
+Tin này vừa lan ra, cả nhà họ Sở đều xôn xao.
+
+Sở phu nhân buộc phải ra mặt, đón ta về Sở gia.
+
+Ta lễ độ nói: “Sở phu nhân, rất vui được gặp bà. Ta là người cầm ô của Phong Vũ Lâu, Tang Vị Vãn. Nhiệm vụ lần này do ta phụ trách. Ta sẽ tận tâm che chắn mọi mưa gió cho bà, mong hai bên hợp tác vui vẻ.”
+
+Sở phu nhân vừa kinh ngạc vừa phẫn nộ: “Ngươi đến để giết Sở Tàng Phong, đó là tội đại nghịch bất đạo, phải đọa địa ngục Vô Gián! Đổi người, ta muốn đổi người phụ trách!”
+
+Ta mỉm cười, nhẹ nhàng đáp: “Lần này ta mượn thân phận nhị tiểu thư nhà họ Sở chẳng qua để nhiệm vụ thuận lợi hơn. Phu nhân không cần lo lắng gì cả. Với lại, chuyện nghịch tử giết cha nghe đã thấy kích thích, bà nói xem có phải không?”
+
+Sở phu nhân trừng mắt nhìn ta, lạnh giọng hỏi: “Tề Thịnh tính tình hòa nhã, xuất thân cao quý, đối với ngươi lại rất tốt. Hắn không ngại đối đầu cả phủ Hầu gia chỉ để cưới ngươi. Ngươi đã yêu hắn rồi chứ? Hai người ở thôn Thạch Đầu, có từng vượt quá lễ giáo không?”
+
+Ta vội đáp: “Phu nhân yên tâm, người làm nghề như ta tuyệt đối kiêng kỵ nảy sinh tình cảm với mục tiêu lừa gạt. Huống chi, ta đâu đến mức vì bạc mà bán rẻ thân thể. Giữa ta và Tề Thịnh hoàn toàn trong sạch, không hề có hành vi nào vượt quá khuôn phép.”
+
+Không rõ Sở phu nhân đã nghĩ thông suốt hay chưa, chỉ biết từ đó bà không nhắc đến chuyện đổi người phụ trách nữa.
+
+Theo thỏa thuận với Sở phu nhân, chỉ cần ta gả thuận lợi cho Tề Thịnh, khiến con gái bà hết hy vọng, ta sẽ nhận ba ngàn lượng bạc.
+
+Nếu tiện tay giết luôn được phu quân của bà, bà sẽ trả thêm năm ngàn lượng.
+
+Cộng lại là tám ngàn lượng bạc trắng!
+
+Nhiệm vụ đã xong được nửa chặng đường, ta nhất định không thể bỏ dở giữa chừng.
+
+Cho dù phải quỳ xuống ôm chân Hằng Vương cầu xin, ta cũng phải khiến hắn im miệng và tha cho ta.
+
+Ta tự véo mình một cái thật đau, nước mắt rơi như hoa lê gặp mưa: “Vương gia, trước đây là ta mắt không thấy núi Thái Sơn, đã mạo phạm ngài.
+
+“Bây giờ ta thật lòng muốn gả cho Tề Thịnh, cùng chàng sống qua ngày.
+
+“Xét đến duyên phận giữa chúng ta ngày trước, xin ngài rủ lòng từ bi, chừa cho ta một con đường sống.”
+
+Vừa khóc, ta vừa lén quan sát sắc mặt Phó Huyền Hạc.
+
+Mặt hắn tối sầm, giọng trầm xuống: “Ngươi... thật sự muốn gả cho Tề Thịnh đến vậy sao?”
+
+Ta vội đáp: “Ta lưu lạc giang hồ bao năm, nếm đủ mọi đắng cay. Nếu được làm hầu phu nhân thì tất nhiên là điều tốt đẹp nhất.”
+
+Phó Huyền Hạc im lặng rất lâu.
+
+Một lát sau, hắn nói một câu gì đó mà ta nghe không rõ.
+
+Ta dè dặt hỏi: “Vương gia vừa nói gì vậy?”
+
+Hắn nghiến răng, từng chữ như rít qua kẽ răng: “Ngươi chưa từng nghĩ đến chuyện làm vương phi sao?”
+
+Ta sững người.
+
+Không phải chứ? Ngài đang nói thật đấy à?
+
+Nhất thời ta không biết phản ứng ra sao.
+
+Phó Huyền Hạc trừng mắt nhìn ta, nghiêm giọng: “Ngươi có biết bọn sơn tặc ở Hàn Sơn Tự là do cha ngươi phái người giả trang không? Cha ngươi cố ý muốn ngươi chết, còn tỷ tỷ ngươi thì hạ Thiên Kim Tán vào ngươi.
+
+“Đến lúc hiểm nguy nhất, Tề Thịnh lại dẫn tỷ tỷ ngươi rời đi trước. Nếu ta không đến kịp, giờ này ngươi đã chết không chốn dung thân.”
+
+Thiên Kim Tán là loại độc khiến người ta mê loạn, nổi danh trong giang hồ.
+
+Tỷ tỷ ta hạ loại độc này, còn cha ta thì thuê sơn tặc chặn đường.
+
+Rõ ràng họ muốn ta chết nhục nhã trong tay bọn sơn tặc.
+
+Người cha khốn nạn kia mượn danh đạo đức, từ ngày ta bước chân về nhà đã muốn ta chết ngay lập tức.
+
+Hắn tự cho mình là người thấm nhuần đạo thánh hiền, được vô số người tôn kính.
+
+Xuất thân nghèo hèn, hắn leo một mạch lên chức Thượng thư hình bộ.
+
+Hắn từng bán sạch gia sản để cứu giúp sĩ tử nghèo.
+
+Hắn không sợ quyền uy, từ chối kết thông gia với các nhà quyền quý.
+
+Với chính thê kết tóc, hắn một lòng thủy chung, vinh hoa rồi vẫn không quên thuở khởi đầu.
+
+Hoàng thượng từng khen ngợi: “Sở Khanh chính là bậc thánh nhân.”
+
+Nhưng vị “thánh nhân” này lại bí mật có một nữ nhi dòng thứ.
+
+Từ ngày ta về Sở gia, Hoàng thượng nổi trận lôi đình, mắng cha ta tội lừa dối quân vương.
+
+Hắn bị giáng hai cấp quan, phải đóng cửa tự kiểm điểm.
+
+Sự tồn tại của ta chính là vết nhơ của hắn.
+
+Vì thế, việc hắn phái người giả dạng sơn tặc để giết ta cũng chẳng có gì lạ.
+
+Thấy ta im lặng, Phó Huyền Hạc nói tiếp: “Ngươi chỉ dựa vào chút võ công lẻ tẻ mà xem thường hiểm nguy. Hôm ấy ngươi trúng Thiên Kim Tán, vết thương cũ lại phát tác nên mới ngất đi.
+
+“Nói ta nghe, nếu ta không xuất hiện thì ngươi vượt qua kiếp nạn đó bằng cách nào?
+
+“Tề Thịnh biết rõ ngươi sẽ gặp chuyện gì, vậy mà vẫn ưu tiên cứu tỷ tỷ ngươi trước. Người như thế, ngươi cũng dám gả sao?”
+
+Hắn từng bước ép sát: “Nhân lúc hôn kỳ chưa đến, mau từ hôn với hắn đi.”
+
+Nghe đến đây, ta cuối cùng cũng hiểu ra.
+
+Nói cho cùng, Phó Huyền Hạc chỉ muốn ta từ hôn với Tề Thịnh.
+
+Nực cười!
+
+Ta làm sao có thể vì hắn mà bỏ số bạc sắp đến tay.
+
+Hắn bày trò như vậy, cứ như thể vì tình mà u mê không bằng.
+
+Ta thử thăm dò: “Vương gia, chẳng lẽ ngài vẫn còn tình cũ với ta?”
+
+Phó Huyền Hạc không đáp, chỉ ngước mắt nhìn ta.
+
+Ta vội vàng nói: “Ngài thấy thế này được không, dù ta có gả cho Tề Thịnh, chúng ta vẫn có thể lén lút gặp nhau.”
+
+Chân mày Phó Huyền Hạc hơi nhướng lên, hắn thốt ra từng chữ: “Ý ngươi là, vụng trộm với ta?”
+
+Ta gật đầu, nháy mắt với hắn: “Kích thích chứ.”
+
+Ở thanh lâu, ta đã học được nhiều điều, hiểu rõ đàn ông đều một giuộc như nhau.
+
+Vợ không bằng thiếp, thiếp không bằng vụng trộm.
+
+Hừ, đàn ông mà, vì chút lạc thú cũng sẵn sàng làm kẻ hèn hạ.
+
+Phó Huyền Hạc bây giờ lải nhải với ta nhiều như vậy, chẳng qua vì cảm thấy trước kia ta với hắn từng hợp ý trên giường mà thôi.
+
+Cứ dùng lời ngon ngọt dỗ hắn trước đã.
+
+Đợi ta hoàn thành nhiệm vụ, ta sẽ phủi tay bỏ đi.
+
+Từ xa, ta thấy Tề Thịnh đang cầm nhành đào đi về.
+
+Ta hơi sốt ruột, hạ giọng hỏi: “Vương gia, ngài đồng ý chứ?”
+
+Phó Huyền Hạc khẽ hừ một tiếng, đầy ẩn ý đáp: “Được.”
+
+Dỗ yên Phó Huyền Hạc xong, ta lại cùng Tề Thịnh diễn một màn tình thâm ý trọng trước mặt mọi người.
+
+Về đến nhà, trong nhà đã náo loạn cả lên.
+
+Nghe nói tỷ tỷ ruột của ta khóc lóc đòi gả cho Tề Thịnh, còn bảo làm thiếp cũng cam lòng.
+
+Ta còn nghe đám hạ nhân thì thầm rằng đại tiểu thư không còn màng đến thể diện nữa rồi.
+
+Có người lại nói phu nhân thật khổ, sinh ra một cô con gái như vậy.
+
+Cha ta sai người đưa ta vào thư phòng.
+
+Vừa đến cửa, ta đã nghe tỷ tỷ vừa khóc vừa nói: “Chắc chắn Sở Vãn không còn trong sạch! Hôm đi Hàn Sơn Tự, con đã hạ Thiên Kim Tán vào ả!”
+
+Tỷ tỷ trừng mắt nhìn ta, nói như thể chính mắt thấy ta làm điều ô nhục.
+
+Cha ta giơ tay định đánh, nhưng ta nghiêng đầu né được, suýt nữa ông bị trật lưng.
+
+Ta rưng rưng nước mắt nói: “Cha, nữ nhi thật sự vẫn còn trong sạch!”
+
+Tỷ tỷ cười lạnh, gằn giọng: “Ngươi đừng giả nhân giả nghĩa nữa! Hôm đó ngươi trúng Thiên Kim Tán, lại còn được chính tay Hằng Vương bế về! Ta nghĩ Hằng Vương chắc chắn có ý với ngươi! Ngài ấy vốn nổi danh cao ngạo, thanh khiết, chưa bao giờ dính líu đến nữ nhân. Không ngờ Sở Vãn ngươi lại có thủ đoạn như vậy!”
+
+Từng câu từng chữ của tỷ tỷ đều ngầm ám chỉ Phó Huyền Hạc có tư tình với ta.
+
+Thiên Kim Tán là thuốc mê tình, nếu trúng phải mà không giải kịp thì mạch máu sẽ nổ tung.
+
+Thế nhưng bây giờ ta vẫn bình an vô sự.
+
+Vậy mà tỷ tỷ cứ khăng khăng nói ta đã không còn trong sạch.
+
+Cha ta trừng mắt nhìn ta, chờ ta trả lời.
+
+Ta thản nhiên nói: “Cha! Thật ra con đã có quan hệ da thịt với Hằng Vương. Hôm nay con đến đòi ngài ấy một lời giải thích, nhưng Hằng Vương chỉ đưa cho con một lượng bạc, coi con như kỹ nữ thanh lâu mà đuổi đi.”
+
+Cha ta nghe xong giận tím mặt, quát: “Hắn, Phó Huyền Hạc, thật là khinh người quá đáng!”
+
+Tỷ tỷ quay phắt sang nhìn ta, hai mắt đỏ ngầu vì tức giận.
+
+*****
+
+Sở phu nhân cau mày thật chặt, không biết đang nghĩ gì.
+
+Ta bình thản nói: “Cha, nếu người thật sự muốn làm lớn chuyện này, thì con không gả được cho Tề Thịnh cùng lắm làm nha đầu sưởi giường cho Hằng Vương. Con không sao cả, chỉ sợ người ngoài dị nghị, bảo rằng Sở đại nhân người bán con gái để cầu vinh mà thôi.”
+
+Hiện giờ danh tiếng của cha ta đã bị bôi nhọ, lại còn bị Hoàng thượng cấm túc.
+
+Ông làm sao chịu nổi thêm bất cứ sóng gió nào nữa.
+
+Cha ta nhìn chằm chằm vào ta, im lặng rất lâu mới nói: “Cút về đóng cửa suy ngẫm cho ta!”
+
+Ta vừa về đến phòng thì chẳng bao lâu sau Sở phu nhân đã hối hả tìm tới.
+
+Bà nói gấp gáp: “Ngươi có phải ngốc không! Sao ngươi lại có thể thừa nhận rằng Hằng Vương không có ý với ngươi chứ? Cha ngươi vốn đã ngấm ngầm nghi ngờ ngươi và Hằng Vương có tư tình, nên kiêng dè chưa dám ra tay, định chờ xem rồi mới xử lý ngươi. Giờ thì hay rồi, không còn mối liên hệ với Hằng Vương, hắn nhất định sẽ tìm cách hại ngươi!”
+
+Thì ra từ khi ta được Hằng Vương cứu ở Hàn Sơn Tự, những ngày qua trong nhà yên ả là vì lý do này.
+
+Hóa ra lão cha súc sinh của ta toan tính như vậy.
+
+Hằng Vương bao năm nay không gần nữ sắc, nếu ta làm thiếp cho ngài ấy, biết đâu Hoàng thượng vui mừng mà cho cha ta phục chức.
+
+Ôi, ta thật ngốc, sao lại không nghĩ ra chuyện này chứ.
+
+Biết vậy, lúc nãy ta đã nói quá lên, bảo rằng Hằng Vương si mê ta, yêu đến chết đi sống lại rồi.
+
+Ta làm bộ khó xử, nói: “Phu nhân, những điều người nói ta đều hiểu. Nhưng nếu ta không phủ nhận, cha ta sẽ tìm mọi cách dâng ta cho Hằng Vương, như vậy sẽ cản trở việc ta gả cho Tề Thịnh. Nhiệm vụ mà thất bại, chẳng phải làm mất uy danh của ‘Phong Vũ Lâu’ chúng ta sao?”
+
+Sắc mặt Sở phu nhân lập tức biến đổi, bà giận dữ nói: “Uy danh của các ngươi chẳng lẽ còn quan trọng hơn mạng sống của ngươi? Chỉ cần ngươi ỡm ờ vài câu trước mặt cha ngươi, rằng Hằng Vương đã thân mật với ngươi và đối đãi với ngươi đặc biệt, hắn sẽ không dám tùy tiện giết ngươi. Vậy mà ta không ngờ, cơ hội tốt như thế ngươi cũng không biết nắm lấy!”
+
+Ta lặng lẽ nghe hết, rồi bình thản hỏi lại: “Vậy ra phu nhân đã sớm biết cha ta bày mưu cho người giả sơn tặc để giết ta. Thế nhưng hôm đó, khi đến Hàn Sơn Tự thắp hương cầu phúc cho người, người lại không hé nửa lời. Còn Sở Vận thì hạ Thiên Kim Tán vào ta. Nếu không gặp được Hằng Vương, chẳng phải ta đã chết nhục nhã trong tay bọn sơn tặc rồi sao?”
+
+Mặt Sở phu nhân tái mét, bà cứng giọng đáp: “Nếu ngươi chết như thế thì là do ngươi vô dụng!”
+
+“Người nói phải.” Ta mỉm cười, vỗ tay nhè nhẹ. “Thật cảm ơn phu nhân đã đích thân đến đây quan tâm ta.”
+
+Sở phu nhân nghiến răng: “Đừng mỉa mai nữa! Mau gả cho Tề Thịnh, cắt đứt hy vọng của Vận Vận đi!”
+
+Ta tò mò hỏi: “Tề Thịnh dù có nhu nhược nhưng dẫu sao cũng mang thân phận cao quý. Phu nhân, ta rất tò mò, vì sao người sẵn sàng bỏ khoản tiền lớn tìm đến ‘Phong Vũ Lâu’, mà lại không muốn gả Sở Vận cho Tề Thịnh?”
+
+Sở phu nhân không trả lời, chỉ lạnh lùng để lại một câu: “Cứ làm tốt việc của ngươi đi.”
+
+Trong phòng, phải một lúc lâu sau mới yên tĩnh trở lại.
+
+Ta nhặt một quả trái cây, ném về phía tủ quần áo dưới chân tường, lạnh giọng: “Ra đây.”
+
+Cửa tủ mở ra, Sở Vận bước ra từ bên trong.
+
+Nàng cúi đầu, nhỏ giọng nói: “Vãn Vãn, thật ra mẹ rất quan tâm đến muội.”
+
+Sở Vận không dám nhìn ta, cứ lẩm bẩm một mình hồi lâu.
+
+Cha ta ép Sở phu nhân ra tay giết ta, bà không dám trái ý ông, nhưng cũng không nỡ lấy mạng ta.
+
+Vì vậy, Sở phu nhân mới cố ý bảo ta và Sở Vận cùng đến Hàn Sơn Tự thắp hương.
+
+Bà biết rằng đúng giờ đó, Hằng Vương nhất định sẽ đi ngang qua Hàn Sơn Tự.
+
+Như thế vừa đối phó được cha ta, vừa giữ được mạng cho ta.
+
+Hằng Vương vốn là người cao ngạo, thanh khiết, tuyệt đối sẽ không nhân cơ hội làm nhục ta.
+
+Huống chi, lúc Sở Vận hạ độc ta, nàng cố tình để Sở phu nhân nhìn thấy.
+
+Nhưng Sở phu nhân đã âm thầm đổi Thiên Kim Tán thành một loại thuốc khác.
+
+Sở Vận giải thích hồi lâu, thấy ta vẫn không nói gì, nàng bước lại gần, ghé sát tai ta thì thầm: “Hơn nữa hôm nay, ta cố tình làm ầm ĩ trước mặt cha, nói rằng muội không còn trong sạch. Việc này cũng là do mẹ ám chỉ. Bà muốn cha hiểu lầm rằng muội và Hằng Vương đã có tư tình, để ông không dám tùy tiện ra tay. Nhưng mà...”
+
+Nhưng bà không ngờ rằng ta lại hoàn toàn không thừa nhận, còn nói thẳng với cha rằng Hằng Vương chẳng đoái hoài gì đến ta.
+
+Ta nhìn Sở Vận, dịu giọng: “Nghe lời, từ nay về sau, hai người đừng làm những chuyện ngu ngốc này nữa.”
+
+Nàng hiểu ý ta muốn nói gì.
+
+Ai cũng nghĩ hôm ở Hàn Sơn Tự gặp sơn tặc, Tề Thịnh đã cứu Sở Vận trước.
+
+Nhưng thật ra, chính Sở Vận làm ngựa của Tề Thịnh hoảng sợ, khiến nó phi đi trước khi hắn kịp phản ứng.
+
+Tin đồn Tề Thịnh cứu Sở Vận lan ra bên ngoài cũng là do nàng cố ý bôi nhọ danh tiếng hắn.
+
+Mắt Sở Vận đỏ hoe, nước mắt lăn dài, nàng nghẹn ngào: “Ta chỉ là không muốn mỗi ngày đều phải nhìn muội và Tề Thịnh diễn trò. Hôm đó ta cố ý làm ngựa của hắn hoảng sợ để dạy cho hắn một bài học. Ai ngờ mạng hắn lớn, chẳng xảy ra chuyện gì cả.”
+
+Ta cau mày: “Ta đã nói rồi, đừng xen vào chuyện của ta.”
+
+Sở Vận ôm chặt lấy ta: “Vãn Vãn, ta không có tài cán gì, nhưng ta vẫn còn mạng này. Muội là muội muội của ta, ta sẽ bảo vệ muội.”
+
+Ta đẩy nàng ra, lạnh lùng nói: “Đây là mối thù của ta, không liên quan đến ngươi. Đừng làm những chuyện thừa thãi.”
+
+Nghe xong, Sở Vận khóc càng dữ hơn: “Vãn Vãn, ‘Phong Vũ Lâu’ vốn không nhận nhiệm vụ ám sát quan triều đình. Chẳng phải muội vì mẹ và ta nên mới tự mình quyết định đến đây giết người đó sao? Muội đừng hòng lừa ta! Muội là muội muội song sinh của ta, ta cảm nhận được cảm xúc của muội!”
+
+“Phong Vũ Lâu” từ trước đến nay không nhận nhiệm vụ nào liên quan đến quan triều đình.
+
+Bởi giang hồ và triều đình vốn nước sông không phạm nước giếng, đây là quy tắc ngầm đã tồn tại hàng trăm năm.
+
+Lần này ta đến đây quả thật không liên quan gì đến “Phong Vũ Lâu”.
+
+Có điều, Sở Vận đã nói sai một chuyện.
+
+Ta hành động không phải vì nàng hay mẫu thân nàng.
+
+Hừ, năm ta năm tuổi đã viết thư gửi Sở Vận, để nàng biết thân thế của hai chúng ta và bộ mặt thật của Sở Tàng Phong.
+
+Bởi ta không muốn tỷ tỷ mình nhận kẻ thù làm cha, vô tư vô lo sống đời tiểu thư quyền quý.
+
+Nàng phải giống ta, mang mối hận trong lòng.
+
+Còn mẹ nàng, Sở phu nhân, ta chẳng cần làm gì cả, bà sẽ tự chọn con đường cho mình.
+
+Ngày nhận được ủy thác của Sở phu nhân, sư phụ gọi ta vào phòng.
+
+Người vẫn luôn biết ta đang chờ một cơ hội.
+
+Bà nhìn ta rồi nói: “Ngươi vào ‘Phong Vũ Lâu’ năm năm tuổi và chọn ta làm sư phụ.
+
+“Hồi đó ta hỏi vì sao ngươi chọn ta, ngươi bảo vì kiếm của ta nhanh nhất. Lúc ấy ta đã nghĩ, cô bé có đôi mắt sáng ngời này giấu trong lòng một mối hận sâu đến nhường nào.
+
+“Vì luyện kiếm, ngươi đã uống Nam Cương bí dược ‘Ái Biệt Ly’ để tăng công lực. Mỗi lần dược phát tác, ngươi đau đớn vô cùng, chỉ có thể nhờ dược liệu đắt tiền để kìm chế phản phệ của công pháp.”
+
+Ta lặng lẽ nghe, rồi mỉm cười hỏi: “Sư phụ, người đang thương con sao?”
+
+Sư phụ thở dài, bất đắc dĩ nói: “Ngươi đó, lúc nào cũng mang bộ dạng tươi cười như thế, cứ như chỉ cần cười mãi thì không ai nhìn thấy nỗi đau trong lòng ngươi.
+
+“Cô nương à, ‘Phong Vũ Lâu’ không dính dáng đến quan triều đình, ta sẽ không vì ngươi mà phá quy tắc này.”
+
+Dù sư phụ không nói, ta cũng quyết không để “Phong Vũ Lâu” bị liên lụy.
+
+Bởi nơi này là nhà, là nhà của rất nhiều người, ta không thể phá hủy nó.
+
+Từ rất nhiều năm trước, ba cô gái tình cờ gặp nhau, mỗi người mang theo một câu chuyện riêng.
+
+Cô gái thứ nhất có trí tuệ hơn người, từng làm mưu sĩ cho chính phụ thân mình. Thế nhưng phụ thân thà giao gia sản cho người ca ca ngu ngốc quản lý còn hơn để nàng can dự. Cuối cùng, nàng bỏ nhà ra đi, vì nàng không muốn gả chồng, càng không muốn sống mờ mịt nơi hậu viện cả đời.
+
+Cô gái thứ hai có tài kiếm thuật vượt trội, nhưng vì là nữ nhi nên sư phụ không chịu truyền tuyệt kỹ. Nàng bôn ba giang hồ, tự sáng tạo kiếm pháp của riêng mình, đánh bại tất cả sư huynh đệ rồi dứt khoát rời khỏi sư môn. Nàng nhận ra trời đất bao la, không cần tự giam mình trong một góc nhỏ.
+
+Cô gái thứ ba có phụ thân là đại phu nổi tiếng trong vùng. Khi nàng xin học y, phụ thân mắng nàng không biết trời cao đất dày, bảo trên đời làm gì có nữ nhân nào làm đại phu.
+
+Nàng bèn ra ngoài tìm thầy học y, chịu bao nhiêu khổ cực mới trở về. Nhưng khi đứng trước tiệm thuốc của gia đình, thấy phụ thân bị người nhà bệnh nhân sỉ nhục, nàng chợt nghĩ: “Thật ra ta không cần chứng minh điều gì với bất kỳ ai.”
+
+Ba người họ cùng bước vào giang hồ và lập nên “Phong Vũ Lâu”.
+
+Biểu tượng của “Phong Vũ Lâu” là ba chiếc ô.
+
+Mưa gió có lớn đến đâu, cũng luôn có người cầm ô đến.
+
+Họ đã mang lại tia ấm áp cuối cùng cho biết bao người đang tuyệt vọng.
+
+Ta vào “Phong Vũ Lâu” năm năm tuổi, khi mẹ bị người ta hành hạ đến chết.
+
+Trên đường ta gánh xác mẹ từ bãi tha ma vào thành, có một thiếu niên tình cờ đi ngang và nhìn thấy.
+
+Hắn đưa cho ta hai mươi lượng bạc, rồi dặn: “Chôn cất mẹ ngươi xong, hãy đi về phía nam. Nếu trên đường gặp một cô nương có thêu ba chiếc ô trên áo, hãy bám theo nàng. Dù dùng cách nào cũng phải đi theo cho bằng được. Nếu ngươi đủ may mắn và đủ kiên cường, ngươi sẽ tìm được một nơi để học bản lĩnh.”
+
+Ta làm theo lời hắn, bám riết một cô nương cho đến tận bờ sông Tú Thủy ở Giang Nam.
+
+Ở đó có một tòa lâu lặng lẽ đứng, bảng hiệu khắc ba chữ với ba nét bút hoàn toàn khác nhau: “Phong Vũ Lâu”.
+
+Từ ngày ấy, ta lại có một mái nhà.
+
+Mười mấy năm nay, ngôi nhà này đã che chắn cho ta khỏi bao nhiêu mưa gió, ta không thể phá hủy nó.
+
+Vì vậy, sau khi quyết tâm báo thù, ta chọn cách rời đi.
+
+Ta nói với sư phụ: “Từ hôm nay, con và ‘Phong Vũ Lâu’ không còn liên quan gì nữa.”
+
+Ta cắt ba chiếc ô thêu trên vạt áo, đặt lên bàn, rồi quay người bước ra ngoài.
+
+Ta chưa kịp ra khỏi cửa “Phong Vũ Lâu” thì các tỷ muội đã vây quanh, líu ríu nói: “Ta tình cờ có một nhiệm vụ ở kinh thành.”
+
+“Thật trùng hợp, ta cũng có nhiệm vụ ở kinh thành.”
+
+“Ta học y bao năm, đang muốn thử xem thuốc này có làm người ta mất trí được không.”
+
+“Ngươi cứ thử, nếu đúng là tiểu hầu gia thì hắn xui xẻo thôi!”
+
+“Ta dạy một người thuật lừa gạt bao năm, không biết nàng có lừa được người mất trí không.”
+
+Ta chạm vào vạt áo giờ đã trống trơn, thầm nghĩ:
+
+Thì ra dù không còn ba chiếc ô trên áo, vẫn có người vì ta mà che mưa chắn gió.
+
+“Mưa lớn thế này, sao lại không che ô?”
+
+Những ký ức cũ lướt qua tâm trí ta, hết đoạn này đến đoạn khác.
+
+Ta đứng lặng trong mưa, trầm ngâm suy nghĩ.
+
+Bỗng có người giương ô che cho ta.
+
+Tề Thịnh dịu dàng nói: “Nhạc phụ và nhạc mẫu đã xem qua danh sách sính lễ. Hai ngày nữa ta sẽ đến rước nàng. Vãn Vãn, chẳng bao lâu nữa chúng ta sẽ được ở bên nhau trọn đời.”
+
+Giọng hắn vẫn ôn hòa như trước, ánh mắt nhìn ta đong đầy tình ý.
+
+Đột nhiên ta nhớ lại lần đầu gặp hắn nửa năm trước ở thôn Thạch Đầu.
+
+Khi ấy Tề Thịnh mất trí nhớ, lại còn gãy một chân.
+
+Người bình thường tỉnh lại ở một nơi xa lạ hẳn sẽ hoảng hốt bối rối.
+
+Nhưng Tề Thịnh thì không.
+
+Hắn chỉ ngồi lặng một lát, rồi lịch sự hỏi: “Cô nương, đây là nơi nào vậy?”
+
+Ở thôn Thạch Đầu, hắn học chẻ củi, học nhóm lửa, thậm chí học cả việc khâu vá quần áo.
+
+Đêm khuya yên tĩnh, hai chúng ta quây quần bên bếp lửa, ăn khoai lang nướng.
+
+Tề Thịnh nghiêm túc nói: “Vãn Vãn, tuy ta mất trí nhớ nhưng không thể cứ để nàng chăm sóc mãi. Ngày mai ta sẽ đến hiệu sách trong trấn nhận chép thuê, từ nay ta sẽ kiếm tiền nuôi gia đình.”
+
+Lúc ấy ta đã nghĩ, chẳng có ngày mai nào cả.
+
+Đêm nay ta sẽ cho hắn uống thuốc giải, sáng mai hắn sẽ nhớ lại tất cả.
+
+Sau khi Tề Thịnh khôi phục ký ức, người của phủ Vĩnh An Hầu tìm đến.
+
+Hắn nắm chặt tay ta, không dám buông lơi chút nào.
+
+Gương mặt tái nhợt, Tề Thịnh nói: “Vãn Vãn, hãy theo ta.”
+
+Hắn nhìn ta chăm chú, như sợ ta sẽ từ chối.
+
+Đồ ngốc, làm sao ta có thể từ chối hắn được.
+
+Dù sao mọi tính toán bấy lâu nay của ta cũng chỉ để được gả cho hắn.
+
+Mưa thu lạnh lẽo luôn khiến lòng ta chùng xuống.
+
+Mẹ ta cũng qua đời vào một ngày mưa rét buốt như thế.
+
+Ngày thường, ta vẫn dịu dàng trò chuyện với Tề Thịnh về chuyện thành thân.
+
+Nhưng hôm nay, chẳng hiểu vì sao ta lại không có chút hứng thú nào.
+
+Ta quay sang nhìn hắn, hỏi: “Tề Thịnh, thật ra ở thôn Thạch Đầu, chàng đã sớm khôi phục trí nhớ rồi phải không?”
+
+Hôm qua gặp Phó Huyền Hạc, hắn đã hờ hững nhắc đến một chuyện.
+
+Hắn nói: “Tề Thịnh từ nhỏ được Thái hậu hết mực yêu thương, từng được ban cho một viên ngọc hộ độc. Nhờ viên ngọc đó, những loại độc thông thường đều vô hiệu với hắn.
+
+“Hắn giả vờ mất trí để sống cùng ngươi ở thôn Thạch Đầu nửa năm. Ngươi nghĩ trong đó có bao nhiêu chân tình, bao nhiêu giả dối?
+
+“Ta biết ngươi không thích ta can thiệp vào chuyện riêng của ngươi. Nhưng ta sợ ngươi một lòng lao vào cạm bẫy, tự hủy hoại chính mình.”
+
+Hôn lễ của ta và Tề Thịnh vẫn diễn ra như dự định.
+
+Hôm ấy Tề Thịnh không trả lời câu hỏi của ta.
+
+Ta cũng giả vờ như chưa từng hỏi gì.
+
+Ngồi trước gương trang điểm, ta thấy Sở phu nhân đứng phía sau, chải tóc cho ta.
+
+Qua gương, ta thấy gương mặt bà đầy vẻ lo âu và buồn bã.
+
+Sở phu nhân nói: “Ngươi gả cho Tề Thịnh là đã hoàn thành việc đầu tiên ta giao, hai ngàn lượng bạc đã được đặt vào của hồi môn của ngươi. Còn việc thứ hai, ta hủy bỏ.
+
+“Địa bàn của Tề Thịnh ở Định Châu. Sau khi thành thân, hắn sẽ đưa ngươi về đó. Nhớ cho kỹ, đêm tân hôn tuyệt đối không được thân mật với hắn, nếu không ta sẽ không giao phần tiền còn lại.
+
+“Trên đường đi Định Châu, hãy tìm cơ hội mang của hồi môn mà trốn. Có số tiền đó, ngươi sống sung túc cả đời cũng được, đừng quay lại ‘Phong Vũ Lâu’ nữa.”
+
+Ta khẽ cười: “Phu nhân đã chuẩn bị của hồi môn cho ta, còn lo cả cho tương lai của ta nữa. Nghe lời người nói, ta chợt nhớ đến mẫu thân mình.”
+
+Sở phu nhân nắm chặt cây lược, hồi lâu mới nhẹ giọng hỏi: “Nhắc đến mẹ ngươi, bà ấy... sao lại để ngươi vào ‘Phong Vũ Lâu’? Hai mẹ con ngươi sống khó khăn lắm sao?”
+
+Thật thú vị, đúng là thú vị.
+
+Từ khi ta trở về Sở gia, đây là lần đầu tiên Sở phu nhân hỏi đến mẫu thân ta.
+
+Trong kinh thành, nhiều người quyền quý đều tò mò không biết mẫu thân ta là người thế nào.
+
+Dù sao, người khiến một vị Sở Thượng thư thanh tâm quả dục động lòng ắt phải phi thường.
+
+Có người đoán mẹ ta là tuyệt thế mỹ nhân.
+
+Cũng có người đoán mẹ ta tài hoa xuất chúng.
+
+Đáng tiếc, tất cả đều sai.
+
+Mẹ ta chỉ là một người bình thường.
+
+Dung mạo miễn cưỡng coi là ưa nhìn, chữ nghĩa thì chẳng biết được mấy.
+
+Nếu phải nói bà có điều gì đặc biệt...
+
+Thì đó là bà rất giỏi chịu đựng đau khổ.
+
+Thấy ta không đáp, Sở phu nhân siết chặt cây lược, mặt tái nhợt, gặng hỏi: “Sao ngươi không nói gì?”
+
+Ta bình thản đáp: “Mẹ ta đã chết từ lâu, nên không quản được ta nữa.”
+
+Rắc một tiếng, cây lược rơi xuống đất.
+
+Chiếc lược khắc chữ “Bách niên hảo hợp” vỡ tan thành từng mảnh.
+
+Ta khẽ cười: “Nói đến đây, ta có một điều không hiểu. Ta tên là Tang Vị Vãn. Mẹ ta trước lúc lâm chung cứ nắm chặt tay ta, miệng gọi ‘A Uyển’. Rõ ràng ta ở ngay trước mặt, vậy mà bà vẫn gọi mãi, ‘A Uyển, A Uyển’, gọi cho đến khi trút hơi thở cuối cùng.”
+
+Nghe xong, Sở phu nhân run rẩy toàn thân.
+
+Bà như bị ai bẻ gãy một chiếc xương sườn, đau đến mức không thở nổi.
+
+Lại như một chiếc bong bóng dưới nắng, chỉ cần chạm nhẹ là bụp một tiếng, nổ tung.
+
+Mặt đầy nước mắt, Sở phu nhân nghẹn ngào hỏi: “Mẹ ngươi... chết như thế nào?”
+
+Ta cười càng rạng rỡ, từng chữ rõ ràng: “Bị Vĩnh An Hầu hành hạ đến chết.”
+
+Nghe xong, Sở phu nhân lặng đi rất lâu.
+
+Bà nhặt cây lược lên, chậm rãi chải lại tóc cho ta cho ngay ngắn.
+
+Phu nhân nhìn ta hồi lâu, lau nước mắt, giọng khàn đặc: “Vận Vận đòi mặc bộ y phục giống hệt ngươi, ta không còn cách nào khác nên cũng chuẩn bị cho nó một bộ.
+
+“Đứa trẻ này từ nhỏ rất ngoan ngoãn hiểu chuyện, nhưng chuyện của Tề Thịnh thì lại cố chấp. Sau này nếu nó đến tìm ngươi, ngươi... ngươi...”
+
+Ta cắt ngang, lạnh lùng nói: “Con gái người có cha có mẹ, tốt đẹp như vậy, sao lại đi tìm ta? Với lại ta với nàng chẳng có máu mủ gì, dù nàng có tìm, ta cũng không rảnh mà quan tâm.”
+
+“Sao lại không có máu mủ...” Sở phu nhân thì thầm. “Nó tên là Vận Vận mà.”
+
+Bên ngoài, đoàn rước dâu đang giục giã.
+
+Phu nhân lau nước mắt rồi mở cửa bước ra.
+
+Bà không ngoảnh lại, chỉ đột nhiên nói một câu khó hiểu: “Ta không phải Sở phu nhân. Tên ta là Lâm Tĩnh Uyển.”
+
+Cánh cửa khẽ khàng khép lại.
+
+Ta quay về phía khoảng không trống rỗng, thì thầm: “Lâm Tĩnh Uyển, ta lừa bà đấy.
+
+“Mẹ ta trước khi lâm chung chưa từng gọi ‘A Uyển’.”
+
+Mẹ ta chết thảm vô cùng.
+
+Bà gắng giữ hơi thở cuối cùng để nở một nụ cười với ta.
+
+Như muốn nói: “Tang Tang, phải sống thật tốt.”
+
+Mẹ ta luôn gọi ta là Tang Tang, chưa từng gọi ta là A Uyển.
+
+Bởi bà từng nghiêm túc nói với ta: “A Uyển là tên của một người khác. Ta và nàng ấy đã có một lời hứa.
+
+“Nàng ấy sẽ đến tìm ta. Tang Tang, ta vẫn luôn chờ nàng ấy.”
+
+Nhưng cho đến chết, mẹ ta vẫn không đợi được người đó.
+
+Ta cùng Tề Thịnh thuận lợi bái đường thành thân.
+
+Đêm xuống, ta lặng lẽ ngồi trong tân phòng.
+
+Tề Thịnh dịu dàng nói: “Ta ra ngoài dự tiệc rượu, nàng chờ ta trở về.”
+
+Hắn vừa đi, căn phòng lập tức tĩnh lặng.
+
+Ta khẽ đá vào chân giường.
+
+Từ dưới gầm giường, một người bò ra.
+
+Nàng mặc bộ hỉ phục giống hệt ta, trang điểm cũng giống ta như đúc.
+
+Dưới ánh nến lập lòe, gương mặt hai chúng ta thoạt nhìn chẳng khác gì nhau.
+
+Nàng sợ hãi, nhưng vẫn nhận lấy khăn voan từ tay ta và ngồi lên giường cưới.
+
+Ta cởi hỉ phục, bình thản nói: “Nếu sau một khắc ta không quay lại, ngươi hãy rời đi.”
+
+“Muội nhất định sẽ quay lại!” Sở Vận nắm chặt tay ta, liên tục nói. “Muội sẽ sống mà trở về! Nhất định là vậy!”
+
+Nàng căng thẳng đến mức đôi tay lạnh như băng.
+
+Hai năm trước, ta ám sát Vĩnh An Hầu ở Định Châu nhưng thất bại.
+
+Từ đó hắn hồi kinh, được Thái hậu ban cho mấy ám vệ, bảo vệ nghiêm ngặt đến mức không có kẽ hở.
+
+Ta gửi thư nhờ Sở Vận giúp ta dò la tin tức.
+
+Sở Vận giả vờ si mê Tề Thịnh, thường xuyên đến Vĩnh An Hầu phủ để thăm dò.
+
+Nàng nhiều lần gặp Vĩnh An Hầu và luôn cảm thấy hắn có điều kỳ quái.
+
+Sau nhiều lần quan sát, Sở Vận phát hiện Vĩnh An Hầu có rất nhiều thế thân.
+
+Biết được điều này, ta không dám liều lĩnh ra tay.
+
+Sau khi cân nhắc nhiều lần, ta quyết định thực hiện kế hoạch gả cho Tề Thịnh.
+
+Vĩnh An Hầu chỉ có một đứa con trai bảo bối là Tề Thịnh, vô cùng yêu thương, cưng chiều hắn.
+
+Hơn nữa, đêm nay có rất nhiều quan lại quyền quý đến dự hôn lễ, hắn nhất định sẽ xuất hiện.
+
+Lần này, ta tuyệt đối không nhận sai người.
+
+Bởi đêm nay Lâm Tĩnh Uyển chắc chắn sẽ bám sát Vĩnh An Hầu, không để hắn có cơ hội đổi thế thân.
+
+Trước khi ta rời đi, Sở Vận khóc nấc lên: “Muội muội! Muội nhất định sẽ sống sót, đúng không?”
+
+Tỷ tỷ ta lúc nào cũng thích khóc.
+
+Cho dù ta có chết, thì có gì đáng để nàng khóc chứ.
+
+Ta đưa tay chạm vào thanh kiếm giắt bên hông.
+
+Thanh kiếm này là sư phụ tặng cho ta.
+
+Nó tên là “Độc Hành”, là thanh kiếm sắc bén nhất giang hồ.
+
+“Ngàn núi ta đi một mình. Không cần ai tiễn bước.”
+
+Đêm nay, ta sẽ dùng thanh kiếm này để kết thúc ân oán.
+
+“Tiểu Hầu gia thành thân, Hầu gia cũng coi như đã toại nguyện một mong ước.”
+
+“Chờ đợi bao lâu, cuối cùng đứa trẻ này cũng chịu cưới vợ. Ta chỉ còn đợi bồng cháu trai vàng nữa thôi.”
+
+Ta ẩn mình giữa đám nha hoàn hầu cận, lặng lẽ quan sát Vĩnh An Hầu.
+
+Hắn đã ngoài bốn mươi, để râu dài, phong thái hào hoa tuấn tú.
+
+Vĩnh An Hầu vỗ vai Tề Thịnh, vẻ mặt đầy mãn nguyện.
+
+Theo lý thì đêm nay hắn uống rất nhiều rượu, hẳn phải có chút men say.
+
+Nhưng sắc mặt hắn vẫn bình thường, bước đi vững vàng, đủ thấy thứ hắn uống chỉ là nước.
+
+Tên tiểu tư đứng cạnh luôn tay rót rượu cho hắn có bàn tay thô ráp và ánh mắt sắc bén.
+
+Vĩnh An Hầu dường như thoải mái đi lại giữa các quan khách, để lộ nhiều sơ hở.
+
+Nhưng ta cảm nhận được xung quanh có ám vệ ẩn nấp.
+
+Chỉ e rằng Vĩnh An Hầu cũng đang chờ ta.
+
+Đêm nay Tề Thịnh thành thân, quan khách đông đúc, kẻ tốt người xấu lẫn lộn.
+
+Nếu sát thủ từng ám sát hắn ở Định Châu muốn ra tay lần nữa, đêm nay là cơ hội tốt nhất.
+
+Ta đang đợi một cơ hội.
+
+Vĩnh An Hầu cũng vậy, hắn cũng đang đợi một cơ hội.
+
+Ta thấy Sở phu nhân đứng cạnh cha ta, tay bà nắm chặt ống tay áo, ánh mắt không rời khỏi Vĩnh An Hầu.
+
+Bà cũng đang đợi một cơ hội.
+
+Bỗng nhiên, đám khách khứa xôn xao.
+
+“Hằng Vương?”
+
+“Sao ngài ấy lại đến? Hằng Vương và Vĩnh An Hầu xưa nay vốn không hòa hợp.”
+
+“Ngươi quên rồi sao? Hằng Vương và Tiểu Hầu gia quan hệ rất tốt.”
+
+“Phải rồi, dù không muốn gặp Vĩnh An Hầu, nhưng ngày vui của Tiểu Hầu gia thì ngài ấy cũng nên có mặt.”
+
+Phó Huyền Hạc cùng một đoàn thị vệ xuất hiện tại yến tiệc.
+
+Thị vệ của hắn âm thầm chiếm giữ các vị trí trọng yếu, sẵn sàng bảo vệ hắn bất cứ lúc nào.
+
+Những thị vệ này vô tình che khuất tầm nhìn của đám ám vệ do Vĩnh An Hầu bố trí.
+
+Ta khẽ thở phào, tay đặt lên chuôi kiếm bên hông.
+
+“Hằng Vương giá lâm, thật là vinh hạnh!” Vĩnh An Hầu cười lớn, nâng chén rượu tiến lên nghênh đón.
+
+Ánh mắt của tất cả mọi người đều đổ dồn về phía Phó Huyền Hạc và Vĩnh An Hầu.
+
+Ta lặng lẽ ném ra một quả lôi đạn.
+
+BÙM!
+
+Tiếng nổ vang lên, khách khứa bị lôi đạn hất ngã nhào, la hét ầm ĩ.
+
+Ta thấy Sở phu nhân kêu thất thanh: “Mặt ta! Mặt ta!”
+
+Bà che mặt, loạng choạng lao về phía Vĩnh An Hầu.
+
+Ta bắn ra một viên đá nhỏ, trúng ngay chân Sở phu nhân.
+
+Bà đau đến mức không đứng dậy nổi, nên không còn cơ hội rút dao găm ám sát Vĩnh An Hầu.
+
+Giữa cảnh hỗn loạn, Vĩnh An Hầu hoảng sợ gọi lớn người đến bảo vệ mình.
+
+Đám ám vệ ẩn nấp lập tức lao ra hành động.
+
+Thị vệ của Phó Huyền Hạc liền hét lên: “Có thích khách! Bảo vệ Vương gia!”
+
+Trong cảnh hỗn độn ấy, đám thị vệ này che khuất tầm nhìn của bọn ám vệ.
+
+Mười tám năm luyện kiếm, chỉ chờ đúng ngày hôm nay!
+
+Kiếm của ta xé ngang màn đêm.
+
+Phập! Mũi kiếm đâm xuyên ngực Vĩnh An Hầu.
+
+“Mau! Bảo vệ Hầu gia!”
+
+Ám vệ ùa tới tấn công ta.
+
+“Cha!” Tề Thịnh đỡ lấy Vĩnh An Hầu đang ngã xuống.
+
+Vĩnh An Hầu ôm ngực, bật cười ha hả: “Hahaha! Ngươi không ngờ đúng không? Ta có hộ tâm kính Thái hậu ban tặng, ngươi không giết được ta đâu!”
+
+Hắn dựa vào Tề Thịnh, từ từ gượng đứng dậy, ánh mắt đầy âm độc: “Từ khi trở về từ Định Châu, ngày đêm ta lo sợ ngươi sẽ từ đâu đó xuất hiện để ám sát ta. Đêm nay ta đã giăng thiên la địa võng, nhất định bắt được ngươi, băm thây ngươi thành vạn mảnh!”
+
+Ta liếc hắn một cái, không dây dưa thêm mà lập tức phá vòng vây.
+
+Quả không hổ là ám vệ do Thái hậu phái tới, ai nấy đều là cao thủ hàng đầu.
+
+Ta phải dùng bí dược, thúc đẩy công pháp đến cực hạn mới thoát được sự truy sát của chúng.
+
+Phía sau vọng lại tiếng Tề Thịnh hoảng loạn kêu lên: “Cha! Cha không sao chứ! Cha!”
+
+Ta bật cười.
+
+Chuyện Thái hậu ban hộ tâm kính cho Vĩnh An Hầu, cả triều đình ai cũng biết.
+
+Trước khi ra tay, một chuyện quan trọng như vậy, sao ta có thể không điều tra kỹ lưỡng?
+
+Vĩnh An Hầu, đêm nay ta chưa từng nghĩ sẽ một kiếm lấy mạng ngươi.
+
+Bởi có những lúc, sống sót còn đau khổ hơn cái chết.
+
+“Muội bị thương rồi sao?” Vừa thấy ta, Sở Vận đã bật dậy.
+
+Ta cởi bộ y phục nhuốm máu, nhanh chóng thay vào hỉ phục.
+
+Sở Vận rất lanh lẹ, lập tức đốt bộ y phục ấy rồi chôn tro vào chậu hoa.
+
+Bên ngoài vang lên tiếng bước chân của gia đinh phủ Hầu gia.
+
+“Mau! Phải lục soát thật kỹ từng nơi!”
+
+“Tất cả các cửa đều đã bị phong tỏa, tên thích khách này có mọc cánh cũng không thoát được!”
+
+“Đây là tân phòng của Tiểu Hầu gia, chúng ta cũng phải kiểm tra sao?”
+
+Họ chưa kịp đẩy cửa thì ta đã lao ra ngoài.
+
+“Cứu mạng! Tề ca ca, cứu mạng! Sở Vận muốn giết ta!”
+
+Ta ôm vết thương, loạng choạng chạy ra cửa.
+
+Sở Vận cầm dao, điên cuồng gào lên: “Ta phải giết con tiện nhân ngươi! Chỉ cần giết ngươi, Tề Thịnh sẽ là của ta!”
+
+Nghe tiếng ta kêu cứu, gia đinh vội xông vào phòng bảo vệ ta.
+
+Sở Vận bị khống chế, nhưng vẫn không ngừng gào thét đòi giết ta.
+
+Ta nhắm mắt, ngã xuống đất, giả vờ ngất đi.
+
+“Sở Vận, ngươi điên rồi sao?” Ta nghe thấy giọng Tề Thịnh đầy phẫn nộ.
+
+Chàng bế ta lên, vội vã rời đi.
+
+Có người nghi hoặc nói: “Phu nhân không bị thương nặng, chỉ không rõ vì sao lại ngất đi.”
+
+Tề Thịnh nắm lấy tay ta, nhẹ giọng nói: “Vãn Vãn mắc chứng sợ máu. Trước kia ở thôn Thạch Đầu, có lần nàng thấy hàng xóm giết gà liền ngất ngay tại chỗ.”
+
+Lại có người khẽ nói: “Tiểu Hầu gia, kinh mạch của Hầu gia đã bị chấn đứt, dù có tỉnh lại thì cả đời cũng chỉ nằm trên giường được thôi.”
+
+Lần này Tề Thịnh im lặng rất lâu.
+
+Trong phòng bỗng vang lên nhiều tiếng bước chân.
+
+“Hầu gia tỉnh rồi! Đại hoàn đan thánh thượng ban quả nhiên lợi hại!” Một người phấn khởi nói.
+
+Ta nghe Tề Thịnh thở phào nhẹ nhõm.
+
+Nhưng rồi hắn lại bối rối hỏi: “Vì sao hộ tâm kính lại vỡ?”
+
+Hộ tâm kính này vô cùng kiên cố, là bảo vật độc nhất vô nhị trong hoàng gia bảo khố.
+
+Đã được cất vào bảo khố thì tất nhiên đã qua thử nghiệm, không loại vũ khí nào phá hủy được.
+
+Phó Huyền Hạc thản nhiên nói: “Bản vương vừa phái người điều tra. Hộ tâm kính của Vĩnh An Hầu là đồ giả.”
+
+Tề Thịnh đau đớn lẩm bẩm: “Giả? Sao có thể là giả được? Hai năm nay cha ta chưa từng tháo nó ra, trừ phi...”
+
+“Trừ phi lúc nhận được, hộ tâm kính đã là giả rồi.” Phó Huyền Hạc như đang ngẫm nghĩ điều gì, chậm rãi đáp.
+
+Tề Thịnh bật thốt: “Nhưng hai năm trước chính Sở Thượng thư là người lấy hộ tâm kính từ hoàng gia bảo khố ra. Làm sao có thể...”
+
+Nói đến đây, hắn chợt im bặt.
+
+Hai năm trước, Thái hậu xin Hoàng thượng lấy hộ tâm kính từ hoàng gia bảo khố để ban cho Vĩnh An Hầu.
+
+Hôm đó đúng vào sinh thần của Vĩnh An Hầu.
+
+Hoàng thượng muốn làm dịu quan hệ giữa Phó Huyền Hạc và Vĩnh An Hầu, nên đặc biệt bảo Hằng Vương đi lấy hộ tâm kính và đích thân trao tặng.
+
+Nhưng Hằng Vương lạnh lùng từ chối.
+
+Hắn chán nản nói: “Nếu thần đệ đi tặng, Vĩnh An Hầu dám dùng sao? Hắn chẳng phải tri kỷ của Sở Thượng thư sao? Vậy cứ để Sở Thượng thư đến bảo khố lấy hộ tâm kính đưa cho hắn là được.”
+
+Hoàng thượng không làm gì được người hoàng đệ duy nhất này, đành tùy tiện chỉ định Sở Tàng Phong đi lấy hộ tâm kính.
+
+Căn phòng chìm vào im lặng, mỗi người đều mang một suy nghĩ riêng.
+
+Đúng lúc này, Sở Tàng Phong vội vã bước vào.
+
+Hắn lo lắng hỏi: “Hầu gia thế nào rồi?”
+
+Sở phu nhân theo sát phía sau, vẻ bồn chồn hiện rõ trên mặt.
+
+Bầu không khí trong phòng căng thẳng đến kỳ quặc, không ai đáp lời.
+
+Giọng Sở Tàng Phong bỗng trở nên gấp gáp, hắn ngập ngừng hỏi: “Sao các ngươi lại nhìn ta như vậy?”
+
+Vĩnh An Hầu bị ám sát ngay trong hôn lễ của con trai, kinh mạch toàn thân bị một kiếm của thích khách chấn đứt.
+
+May nhờ đại hoàn đan Hoàng thượng ban tặng bảo vệ tâm mạch nên hắn mới giữ được mạng.
+
+Thái hậu nổi trận lôi đình, ra lệnh cho Thái y viện cứu Vĩnh An Hầu từ tay Diêm Vương trở về.
+
+Nhưng trong lòng ai cũng thầm nghĩ, với bộ dạng thê thảm hiện giờ, hắn thà chết còn hơn.
+
+Mỗi khi trời trở mưa, toàn thân hắn ngứa ngáy, đau đớn không chịu nổi, chỉ biết gào lên trong tuyệt vọng.
+
+Chỉ cần ăn chút đồ khó tiêu là hắn nôn mãi không ngừng, đành sống nhờ cháo trắng loãng.
+
+Hắn thậm chí không còn sức ngồi dậy, ngày qua ngày nằm trên giường như một cái xác biết thở.
+
+Mỗi lần nhìn ánh sáng ngoài cửa sổ, ngửi mùi hôi thối từ chính cơ thể mình, mặt hắn lại méo mó, hắn gào lên: “Đưa tên tiện nhân Sở Tàng Phong lên đây cho ta!”
+
+Đám hạ nhân cúi đầu, không ai dám thở mạnh.
+
+Vị Sở Thượng thư từng ngồi trên cao nay đã bị cắt lưỡi, chặt đôi chân, chỉ còn là một kẻ tàn phế.
+
+Hắn bò lê dưới đất như một con giun, thảm hại đến không chịu nổi.
+
+Theo lệnh của Vĩnh An Hầu, gã bộ hình chuyên tra tấn thi thể của hình bộ đã dùng dao sắc, chậm rãi hành hạ Sở Tàng Phong.
+
+Nhát dao nào của gã cũng chuẩn xác, đẩy nỗi đau của Sở Tàng Phong lên đến cực hạn mà vẫn không để hắn chết.
+
+Một tháng trước, Thái hậu ra lệnh điều tra toàn diện vụ ám sát Vĩnh An Hầu.
+
+Khi điều tra đến Sở Tàng Phong, hắn thề thốt rằng mình chưa từng tráo đổi hộ tâm kính.
+
+Thế nhưng Sở phu nhân đã để lại một phong thư tuyệt mệnh trước khi treo cổ tự vẫn.
+
+Trong thư, bà viết rằng Sở Tàng Phong có một quý thiếp, người này bị Vĩnh An Hầu hành hạ đến chết.
+
+Sở Tàng Phong ôm hận trong lòng nên đã tráo đổi hộ tâm kính trong bảo khố, chỉ mong một ngày Vĩnh An Hầu bị ám sát mà bỏ mạng.
+
+Lá thư tuyệt mệnh này vừa được công bố, cả kinh thành liền xôn xao bàn tán.
+
+“Sở Thượng thư từng được Hoàng thượng ca ngợi là ‘thánh nhân’, vì từ chốn bần hàn bước lên địa vị cao mà không bị quyền thế làm mê muội, một lòng một dạ với chính thất, chưa từng dây dưa chuyện ong bướm. Vậy mà ông ta không tiếc hủy hoại danh tiếng bậc hiền nhân, liều lĩnh sinh con với một quý thiếp, đủ thấy tình cảm sâu đậm đến thế nào!”
+
+“Sở phu nhân từ lúc Sở Thượng thư còn tay trắng đã ở bên ông ta. Vậy mà giờ lại phản bội ông, chắc chắn trong lòng bà hận ông ta thay lòng đổi dạ. Sở phu nhân quả là người mạnh mẽ, cái chết này đã chứng thực tội danh của Sở Thượng thư.”
+
+“Nói đến nhị tiểu thư Sở gia, đúng là số khổ. Mẹ ruột bị cha chồng hành hạ đến chết, giờ sự thật phơi bày, sau này nàng làm sao đối diện với Tiểu Hầu gia đây?”
+
+“Thật là số phận trêu ngươi! Đời người khó lường, chẳng thể nào kiểm soát nổi!”
+
+Nghe những lời này, ta thầm nghĩ, không, số phận có thể kiểm soát được.
+
+Chỉ cần đủ kiên định, không ngừng tích lũy sức mạnh để bản thân trở nên mạnh mẽ.
+
+Chỉ cần đủ nhẫn nại, dù gánh mối hận sâu đến đâu cũng không để bản thân lạc lối.
+
+Khi đó, số phận sẽ nằm trong tay mình.
+
+Ta đẩy cửa phòng bước vào.
+
+Mùi hôi thối từ cơ thể Vĩnh An Hầu quyện với mùi máu tanh từ thân thể Sở Tàng Phong xộc thẳng vào mũi.
+
+“Ra ngoài hết đi.”
+
+Đám hạ nhân vừa rời đi, trong phòng chỉ còn lại ba người chúng ta.
+
+Đây là lần đầu tiên sau một tháng ta bước vào phòng của Vĩnh An Hầu.
+
+Sở Tàng Phong, như một con giòi bọ, trừng mắt nhìn ta đầy oán hận, cổ họng phát ra những tiếng khò khè như bễ lò rách.
+
+Hắn hận không thể uống máu ta, ăn thịt ta.
+
+Nhưng hắn chỉ có thể bò lê trên đất, dùng chút sức tàn để dán mắt vào ta.
+
+Còn Vĩnh An Hầu, một kẻ phế nhân, nằm trên giường, ngạc nhiên nhìn ta: “Tề nhi nói ngươi sợ máu, chưa bao giờ để ngươi đến chăm sóc ta. Sao hôm nay ngươi không ngất đi?”
+
+Trong ánh mắt hắn nhìn ta, chỉ toàn là thắc mắc.
+
+Dù cả thiên hạ đều biết Vĩnh An Hầu là kẻ đã giết mẹ ta, riêng hắn lại không hay biết.
+
+Bởi Tề Thịnh chưa từng nói cho hắn biết về bức thư tuyệt mệnh của Sở phu nhân.
+
+Đến giờ Vĩnh An Hầu vẫn cho rằng Sở Tàng Phong muốn hại chết hắn là vì sợ hắn phơi bày những tội ác hai người từng cùng nhau gây ra.
+
+Hắn từng giận dữ mắng Sở Tàng Phong: “Ngươi tưởng bản Hầu chết thì ngươi sẽ trong sạch sao? Sở Tàng Phong, ta nay sống không bằng chết, ngươi cũng đừng mong sống yên!”
+
+Vì thế, ngày nào hắn cũng hành hạ Sở Tàng Phong, hai kẻ phế nhân trong căn phòng này cứ mãi nhìn nhau chịu đựng nỗi đau.
+
+Trong ánh mắt nghi hoặc của Vĩnh An Hầu, ta đặt bức thư tuyệt mệnh trước mặt hắn.
+
+Đọc xong, Vĩnh An Hầu vừa kinh ngạc vừa phẫn nộ, gào lên: “Tề nhi đã lừa ta! Hóa ra Sở Tàng Phong, tên tiểu nhân đó, vì một tiện thiếp mà mưu hại ta!”
+
+Nghe vậy, ta cười đến chảy cả nước mắt.
+
+Nghe tiếng cười của ta, Vĩnh An Hầu bực bội nói: “Đáng lẽ ta nên điều tra rõ thân thế ngươi trước khi để Tề nhi cưới ngươi. Gọi Tề nhi đến đây! Ta sẽ bảo nó bỏ ngươi! Con gái của kẻ thù như ngươi mà ở trong phủ Hầu gia, ta không thể nào an tâm!”
+
+Trên đời sao lại có kẻ ngu ngốc đến thế!
+
+Đến giờ này mà hắn vẫn chưa nhận ra chân tướng sự việc.
+
+Ngay cả Sở Tàng Phong, như một con giòi bò trên đất, cũng thôi cựa quậy, ánh mắt lộ rõ vẻ mỉa mai.
+
+“Hai năm trước, ta ám sát ngươi ở Định Châu vốn là một trận tất thắng. Nhưng ai ngờ lúc nguy cấp, ngươi lại kéo chính phu nhân của mình ra đỡ kiếm.” Ta chậm rãi nói. “Sau đó ta nghĩ, trời không để ngươi chết, có lẽ là muốn nhắn nhủ ta rằng không thể để ngươi chết dễ dàng.
+
+“Nay nhìn ngươi bị bệnh tật hành hạ đến người không ra người, quỷ không ra quỷ, ta mới thấy mãn nguyện.”
+
+Gân xanh nổi trên trán, Vĩnh An Hầu muốn lao về phía ta nhưng lại ngã sấp xuống đất.
+
+“Thích khách hôm đó... là ngươi!” Hắn trừng mắt nhìn ta, gào lên trong cơn giận dữ: “Người đâu! Mau đến đây!”
+
+Ta đạp một cước vào mặt hắn, làm rụng cả hàm răng.
+
+Hắn đau đến thét lên thảm thiết, miệng đầy máu tươi.
+
+Hắn và Sở Tàng Phong nằm trên đất, chẳng khác gì hai con bọ hôi từ cống rãnh chui ra.
+
+“Ơ kìa, ngươi đã đọc thư của Lâm Tĩnh Uyển, sao lại không tò mò xem mẹ ta là ai?” Ta cúi xuống, bóp cằm hắn, nhẹ giọng hỏi.
+
+Chậc, cú đá vừa rồi của ta còn quá nhẹ, vẫn sót lại vài cái răng.
+
+Ta rút từ trong tay áo ra một chiếc kìm, tiện tay nhổ thêm một chiếc răng của hắn.
+
+Vĩnh An Hầu đau đến co giật, không kiểm soát được mà bài tiết ngay tại chỗ.
+
+Sở Tàng Phong mở to mắt nhìn, ánh mắt lộ rõ vẻ sợ hãi.
+
+Ta mỉm cười với hắn: “Cha à, đừng lo, lát nữa sẽ đến lượt ngươi.”
+
+Miệng đầy máu, Vĩnh An Hầu vẫn không quên mắng ta: “Đồ tiện nhân!”
+
+“Phải rồi, ngươi và lão cha súc sinh của ta đã hành hạ bao nhiêu nữ nhân, làm sao còn nhớ mẹ ta là ai.” Ta thở dài, tiếc nuối nói.
+
+Thấy hơi mệt, ta ngồi xuống xếp bằng.
+
+Ta chống cằm, mỉm cười, thong thả nói: “Mẹ ta tên là Tang Vân Vân, bà chủ tiệm đậu hũ trên phố Bình An. Mẹ ta làm đậu hũ rất ngon, tính tình hiền lành, trắng trẻo dịu dàng, người đời gọi bà là ‘Tây Thi đậu hũ’.
+
+“Một ngày nọ, có hai lão súc sinh chơi cờ trong sân, tình cờ nghe đám hạ nhân bàn tán về Tây Thi đậu hũ. Một lão tò mò không biết Tây Thi đậu hũ đẹp đến mức nào, bèn sai người bắt bà về phủ.”
+
+Nghe đến đây, cuối cùng Vĩnh An Hầu cũng có phản ứng.
+
+Hắn trừng mắt, nói mơ hồ: “Là bà ta... người đàn bà chịu đựng giỏi giang đó.”
+
+Nghe vậy, ta lấy búa đập gãy một ngón tay hắn, nhẹ giọng lẩm bẩm: “Phải rồi, mẹ ta rất giỏi chịu đựng.
+
+“Từ nhỏ bà đã phải sống trong đau khổ: bị người cha nghiện rượu đánh đập, bị người mẹ thiên vị dùng kim đâm, bị người ca ca cờ bạc dùng lửa đốt tóc. Nhưng bà vẫn chịu đựng, kiên cường mà trưởng thành.
+
+“Bà trốn khỏi địa ngục ấy, vượt qua bao khó khăn để đến kinh thành, mở một tiệm đậu hũ. Vậy mà số phận vì sao vẫn không buông tha, lại để bà gặp những kẻ súc sinh như các ngươi?”
+
+Vĩnh An Hầu đau đớn đến sắp ngất, ta ném một viên thuốc vào miệng hắn, khiến hắn lập tức tỉnh táo trở lại.
+
+Sở Tàng Phong nằm bên cạnh nhắm mắt, nghe được lời ta nói nhưng không hề lộ chút biểu cảm nào.
+
+Ta chống cằm, tò mò hỏi: “Cha, khi ngươi nhìn thấy Tây Thi đậu hũ, người con gái mà ngươi từng thầm mến thuở thiếu thời, trong lòng ngươi nghĩ gì? Ngươi mang tâm trạng ra sao khi cùng lão súc sinh kia hành hạ nàng?”
+
+Sở Tàng Phong mở mắt, cố dùng máu viết lên sàn hai chữ: “Giết ta.”
+
+Ta như chợt nhớ ra: “Ồ, suýt quên mất, lưỡi của ngươi đã bị cắt, làm gì còn nói được nữa.
+
+“Thôi vậy, ta cũng không tò mò đến thế.” Ta đứng dậy, mỉm cười: “Hai người nhất định phải sống lâu trăm tuổi nhé. Nhớ cho kỹ, mẹ ta tên là Tang Vân Vân.
+
+“Mỗi năm ta sẽ quay lại hỏi các ngươi. Nếu quên, ta sẽ nhắc cho mà nhớ.”
+
+Ta mở cửa, không khí lạnh buốt khiến ta hơi khó chịu.
+
+Không biết từ lúc nào, bên ngoài đã có tuyết rơi.
+
+Thời gian trôi nhanh thật, lúc ta đến kinh thành vẫn còn là mùa xuân rực rỡ.
+
+Chớp mắt một cái, mùa đông đã về.
+
+Ta không thích mùa đông, vì nó quá lạnh.
+
+Nhưng không sao, mùa đông có kéo dài đến đâu thì xuân rồi cũng sẽ tới.
+
+Chỉ cần đủ kiên nhẫn, sẽ có ngày thấy hoa nở.
+
+Trước cửa có một người đứng lặng. Ta không quay đầu lại, chỉ hỏi một câu: “Thật ra ngay lần đầu thấy ta ở thôn Thạch Đầu, ngươi đã biết ta đến để báo thù, đúng không?”
+
+Người đứng trước cửa không đáp.
+
+Ta mỉm cười, không ngoảnh lại, bước thẳng vào cơn gió tuyết.
+
+Ra khỏi kinh thành, tuyết rơi mỗi lúc một lớn.
+
+Ta xoa hai bàn tay tê cóng, hối hận vì lúc xuất thành đã không mua một cỗ xe ngựa.
+
+Đúng lúc ấy, một cỗ xe ngựa lướt qua bên cạnh ta rồi dừng lại cách đó không xa.
+
+Người đánh xe cất tiếng: “Cô nương, công tử nhà ta hỏi cô có cần giúp đỡ không?”
+
+Ta lập tức bước tới, leo lên xe.
+
+Bên trong là một công tử tuấn tú, dung mạo lạnh lùng, cao ngạo.
+
+Tim ta bất giác đập thình thịch. Ôi chao, đúng là kiểu người ta thích!
+
+Ta dịu dàng nói: “Công tử, tiểu nữ muốn đến Giang Nam nương nhờ họ hàng, không biết có cùng đường không?”
+
+Công tử nhàn nhạt đáp: “Cùng đường.”
+
+Khéo quá đi! Đường dài như vậy, đủ để xảy ra chút chuyện gì đó.
+
+Công tử chu đáo nhét vào tay ta một lò sưởi tay cho ấm, lại còn rót cho ta một chén trà nóng.
+
+Lòng ta lập tức mềm đi, hơi ấm lan tỏa khắp người.
+
+Thấy trong xe có sợi chỉ đỏ, ta bèn tết thành một chiếc bình an kết để tặng hắn.
+
+“Công tử, tiểu nữ xin tặng ngài chiếc bình an kết này.” Ta nhỏ nhẹ nói. “Tiểu nữ tên là Hồ Nguyệt Ngôn, không biết quý danh của công tử là gì?”
+
+Nếu hắn nhận lấy thì nghĩa là vẫn độc thân, ta có thể “dò đường” thêm chút nữa.
+
+Đúng lúc xe ngựa lắc mạnh, ta liền thuận thế ngã vào lòng hắn.
+
+Công tử đẩy ta ra, lạnh lùng nói: “Ta là Ngô Ngữ.”
+
+Ta sững lại, gặp cao thủ rồi.
+
+Ta nói bừa tên, hắn thì “ngô ngữ” (cạn lời).
+
+Chẳng lẽ hắn cũng là một kẻ lừa đảo trong giang hồ?
+
+Nhưng nhìn khí chất này thì lại không giống.
+
+Ta âm thầm quan sát hắn.
+
+Bỗng thấy công tử rút từ trong ngực ra ba chiếc bình an kết, cùng với chiếc ta vừa tặng, bày hết lên lòng bàn tay.
+
+Trong khoảnh khắc, ta á khẩu.
+
+Ta nhớ lại một lần trò chuyện với sư phụ.
+
+“Tiểu nha đầu, ngươi vì luyện công mà uống bí dược ‘Ái Biệt Ly’. Cái tên này không phải đặt chơi đâu. Một khi ngươi có người trong lòng, sau khi toàn lực thúc đẩy công pháp, dược lực sẽ phản phệ, khiến ký ức của ngươi mơ hồ, dần dần quên đi người mình từng yêu. Nếu ngươi yêu rồi quên hết, không biết sẽ gây ra bao nhiêu nợ đào hoa.”
+
+Khi ấy ta cười nói: “Không sợ, sau này nếu gặp người trong lòng, con sẽ tặng hắn một chiếc bình an kết.
+
+“Rồi bảo hắn rằng lần sau gặp lại, hãy trả bình an kết cho con, như vậy con sẽ biết mình từng yêu hắn. Ha ha, đến lúc đó con xoay người chạy mất, nợ đào hoa này cũng không đuổi kịp con.”
+
+“Hồ cô nương, sao tự dưng không nói gì nữa?” Công tử bình tĩnh nhìn ta.
+
+Ta gãi đầu: “À... à...”
+
+Công tử cúi đầu, trân trọng vuốt ve chiếc bình an kết, rồi ngước mắt nhìn ta: “Tang Tang, Thanh Thanh, Lãnh Nguyệt, Sở Vãn, cái nào là tên thật của cô?”
+
+Tang Tang là cái tên mẹ gọi ta hồi nhỏ, từ sau năm năm tuổi chưa từng có ai biết đến nữa.
+
+Thanh Thanh là tên giả ta dùng khi làm hoa khôi. Lần đó, một thanh lâu trên sông Tần Hoài bỏ ra năm trăm lượng bạc nhờ “Phong Vũ Lâu” phái người giúp họ tranh danh hiệu hoa khôi, và ta đã nhận nhiệm vụ ấy.
+
+Còn Lãnh Nguyệt, nếu ta nhớ không nhầm thì là cái tên ta dùng khi làm nhiệm vụ ở Định Châu.
+
+Sở Vãn thì chẳng phải mới đây ta vừa dùng hay sao?
+
+Người này biết rõ từng cái tên của ta, lại còn giữ nhiều chiếc bình an kết thế này.
+
+Ta thầm nghĩ, chẳng lẽ mắt ta chưa từng nhìn nhầm người, và từ trước đến nay ta chỉ yêu duy nhất một người?
+
+“Thôi, không quan trọng.” Hắn nhìn ta, bình thản nói: “Ta là Phó Huyền Hạc, tự Nhàn Vân. Hồ cô nương, đường còn dài dằng dặc, chúng ta có nhiều thời gian để nói chuyện quá khứ.”
+
+Ngoại Truyện
+
+Thuở nhỏ, ta từng đến Giang Nam thăm di mẫu, trên đường đi qua Ninh Châu thì tiện thể ghé thăm Tề Thịnh.
+
+Năm ấy Tề Thịnh đang cùng Vĩnh An Hầu du ngoạn ở Ninh Châu.
+
+Lúc ta gặp, sắc mặt Tề Thịnh tái nhợt, hắn khẩn cầu ta làm giúp một việc: “Huyền Hạc, ngươi đến ngay bãi tha ma ở phía nam thành, tìm một tiểu cô nương buộc sợi dây đỏ trên đầu, rồi đưa nàng rời khỏi Ninh Châu.”
+
+Tề Thịnh không giải thích lý do, hắn rất ít khi có dáng vẻ hoang mang như vậy.
+
+Ta không hỏi nhiều, vì ai cũng có những bí mật không muốn nói ra.
+
+Ta đến bãi tha ma, vừa khéo trông thấy một tiểu cô nương đang gắng sức cõng một thi thể, từng bước đi về phía thành.
+
+Hôm ấy trời mưa rất lớn, cả người nàng ướt sũng.
+
+Máu từ thi thể thấm đẫm y phục khiến nàng trông như vừa bò ra từ địa ngục.
+
+Vừa đi, nàng vừa nói: “Mẹ, con đưa mẹ về nhà. Về đến nhà thì mọi chuyện sẽ ổn thôi.”
+
+So với thi thể của người lớn, thân hình nàng quá bé nhỏ, bước đi loạng choạng, ngã rất nhiều lần.
+
+Nàng mệt đến kiệt sức, ngồi thừ trên đất, ánh mắt ngây dại.
+
+Ta bước đến, giương ô che trên đầu nàng.
+
+Khắp người nàng dính đầy máu, nhưng trên gương mặt nhỏ nhắn lại hiện lên nét ngây thơ đến lạ.
+
+Ta đoán nàng chỉ chừng năm, sáu tuổi.
+
+Một đứa trẻ nhỏ như vậy, tận mắt thấy mẹ ruột qua đời thê thảm, lẽ ra phải sợ hãi mà khóc lóc mới đúng.
+
+Nhưng nàng không khóc, cũng chẳng kêu gào.
+
+Dù vậy, chuyện này không liên quan đến ta. Ta chỉ đến để giúp Tề Thịnh một việc.
+
+Ta nghĩ một lát rồi đưa cho nàng hai mươi lượng bạc, và để lại cả chiếc ô cho nàng.
+
+Ta nói: “Chôn cất mẹ ngươi xong, cứ đi thẳng về phía Giang Nam. Nếu trên đường gặp những cô nương có ba chiếc ô thêu trên áo, hãy bám theo họ. Dùng cách nào ngươi cũng phải đi theo họ cho bằng được. Nếu ngươi đủ may mắn và đủ kiên cường, ngươi sẽ tìm được một nơi để học bản lĩnh.”
+
+Nàng nhìn ta một lúc, như đang suy nghĩ điều gì.
+
+Rồi nàng lấy từ trong ngực ra một chiếc bình an kết, trịnh trọng nói: “Ta tên là Tang Tang. Cảm ơn ngài đã giúp đỡ. Chiếc bình an kết này là tín vật, nếu sau này ta may mắn sống sót và có thể gặp lại ngài, chỉ cần ngài đưa chiếc bình an kết này ra, ta nhất định sẽ báo đáp ân tình của ngài.”
+
+Ta thầm nghĩ, Ninh Châu cách Giang Nam ngàn dặm, nàng có sống sót đến được Giang Nam hay không còn chưa biết, nói gì đến báo đáp.
+
+Không ngờ ba tháng sau, ta thật sự gặp lại nàng ở “Phong Vũ Lâu”.
+
+Căn cốt nàng rất tốt, bái vị chủ lầu thứ ba làm sư phụ, học thứ kiếm thuật nhanh nhất.
+
+Chẳng bao lâu, nàng trở thành đệ tử chăm chỉ nhất ở “Phong Vũ Lâu”.
+
+Năm năm sau, ta đến “Phong Vũ Lâu” thăm di mẫu và gặp lại nàng lần thứ hai.
+
+Nàng đang tụm lại cùng các cô nương trong lâu, không biết kể chuyện gì mà ai nấy đều cười rộ lên.
+
+Năm năm không gặp, nàng đã lớn thành một thiếu nữ, gương mặt rạng rỡ.
+
+Nụ cười trên gương mặt còn chút non nớt, cùng chiếc váy hồng phấn mềm mại, khiến nàng trông vô hại.
+
+Nếu không biết rõ quá khứ của nàng, ai nhìn vào cũng sẽ nghĩ nàng được nuông chiều, lớn lên trong êm ấm hạnh phúc.
+
+Nhìn dáng vẻ cười đùa ấy, ai mà ngờ nàng đã bước ra từ núi thây biển máu.
+
+“Di mẫu ơi, năm nay đến sinh thần mẫu hậu, di mẫu có về không?” Gặp di mẫu, ta hỏi như thường lệ.
+
+Di mẫu ta khoát tay, chán nản nói: “Ta đã cắt đứt quan hệ với nhà họ Tề từ lâu rồi, về làm gì nữa?”
+
+Ta biết trước câu trả lời này, nhưng cứ vài năm lại hỏi một lần, coi như kiếm cớ ra ngoài hít thở không khí.
+
+Di mẫu nhìn ta, ánh mắt thoáng chút thương cảm: “Mẫu hậu ngươi vẫn như cũ à?”
+
+Như cũ là thế nào?
+
+Là lo lắng cho ta từng chút một, dùng đủ mọi cách để lấy lòng ta?
+
+Như hôm nào ta ăn ít hơn thường lệ, bà liền hạ lệnh đánh các đầu bếp của Ngự Thiện Phòng.
+
+Hoặc khi bà thấy ta mặc lại một bộ y phục, toàn bộ cung nữ của Thượng Y Cục đều phải chịu phạt.
+
+Bà sợ người khác lơ là với ta.
+
+Ừm, vẫn như thế, ta gật đầu.
+
+Di mẫu thở dài: “Năm xưa, để tranh sủng, mẹ ngươi cứ ba ngày hai lượt bỏ thuốc làm ngươi đổ bệnh, lấy cớ để Tiên đế đến thăm cung bà ta. Về sau, vì muốn lật đổ Lý Quý phi, suýt nữa bà ta hại chết ngươi.
+
+“Bà ta áy náy với ngươi nên muốn bù đắp mọi thứ. Nhưng chính sự bù đắp đó, đến bà ta cũng không nhận ra, lại là một kiểu tổn thương khác.”
+
+Ta nhớ đến đêm cung biến, khi Lý Quý phi dẫn Tam Hoàng huynh tạo phản.
+
+Mẫu hậu hoảng loạn dắt Hoàng huynh chạy vào mật đạo.
+
+Lúc di mẫu và ngoại công tìm thấy, ta đang nắm chặt một thanh chủy thủ, trốn dưới một thi thể.
+
+Mùi tanh hôi của thi thể bao trùm lấy ta, nhiều lần trong cơn mộng mị ta vẫn bị ám ảnh đến không ngủ nổi.
+
+Di mẫu giận dữ mắng: “Mẹ ngươi đúng là không có trái tim! Sao lại quên mang theo ngươi chứ?”
+
+Phải rồi, sao bà lại quên ta?
+
+Rõ ràng lúc dắt Hoàng huynh vào mật đạo, bà còn ngoảnh lại nhìn ta.
+
+Có lẽ bà không quên, mà cố ý để ta lại để cản đường Lý Quý phi.
+
+Về sau, mẫu hậu dè dặt nhắc lại chuyện cũ với ta.
+
+Ta nhàn nhạt đáp rằng đã quên rồi.
+
+Nhưng thật sự quên được sao?
+
+Ta nhìn tiểu cô nương đang cười rạng rỡ kia, thầm nghĩ: Còn ngươi, đã quên mối thù của mình rồi chăng?
+
+Ta gặp lại nàng khi nàng đang tranh danh hiệu hoa khôi ở một thanh lâu bên sông Tần Hoài.
+
+Có thể thấy những năm qua nàng đã học được không ít bản lĩnh.
+
+Một điệu múa kiếm của nàng đẹp đến mê hồn, khiến nhiều người ngẩn ngơ ngắm nhìn.
+
+Ta bỏ ra ba nghìn lượng bạc, giúp nàng trở thành hoa khôi.
+
+Chỉ sau một đêm, cái tên Thanh Thanh đã vang danh khắp sông Tần Hoài.
+
+Nàng che mặt bằng một tấm lụa mỏng, đích thân đến cảm tạ ta: “Công tử, thiếp là Thanh Thanh, đa tạ công tử đã thương yêu.”
+
+Nàng vòng tay ôm lấy cổ ta, ngồi lên đùi ta.
+
+Hương thơm dịu nhẹ từ người nàng bao quanh, khiến ta thoáng chút mê mẩn.
+
+Đến khi giật mình tỉnh lại thì ta đã cúi đầu uống cạn chén rượu trong tay nàng.
+
+Ta ở lại Tần Hoài suốt hai tháng, ngày nào cũng cùng nàng du sơn ngoạn thủy.
+
+Có lần leo núi mệt, nàng nhảy lên lưng ta, nũng nịu bắt ta cõng.
+
+Một hôm khác, khi hai chúng ta du thuyền trên hồ thì bất chợt gặp mưa lớn.
+
+Nàng gối đầu lên chân ta, còn ta ngồi bóc hạt sen cho nàng ăn.
+
+“Chàng thế này, quả thật là chạm đến tim ta.”
+
+Nàng giơ tay vuốt nhẹ gương mặt ta, trong mắt ánh lên vẻ luyến tiếc.
+
+Ta còn chưa kịp nói gì, nàng đã bất ngờ vòng tay qua cổ ta mà hôn.
+
+Đó là khoảnh khắc thân mật nhất giữa chúng ta trong suốt hai tháng.
+
+Ta hỏi nàng: “Nếu hôm đó có người khác giúp nàng giành được danh hiệu hoa khôi, nàng cũng sẽ đối xử với hắn như vậy sao?”
+
+Nàng không chút do dự đáp: “Tất nhiên là không! Thiếp vừa gặp chàng đã đem lòng yêu mến rồi mà.”
+
+Ta tin nàng.
+
+Tối hôm đó, nàng băng qua đám đông, bước về phía ta.
+
+Ánh mắt nàng tràn đầy tình ý cuồn cuộn, như ngọn lửa thiêu đốt, suýt nữa làm ta bỏng rát.
+
+Khoảnh khắc ấy, ta bị mê hoặc.
+
+Ta thật sự tin rằng trên đời này có người yêu ta mãnh liệt và thẳng thắn đến vậy.
+
+“Trang chủ, ta đi ngang qua nơi này, muốn xin một chút nhân sâm ngàn năm trên núi. Giá cả thế nào, ngài cứ ra điều kiện.”
+
+Sau khi mù, ta không muốn ở lại kinh thành nên đến Minh Nguyệt Sơn Trang ở Định Châu để tĩnh dưỡng.
+
+Hôm ấy, nàng bước đến trước mặt ta. Nàng vừa cất tiếng, ta đã nhận ra giọng nàng ngay.
+
+Kẻ lừa đảo này.
+
+Nàng đã quên ta rồi.
+
+Ta nén cơn giận, lạnh giọng: “Cút.”
+
+Ta nghe nàng lẩm bẩm: “Trời ơi, vị trang chủ này đúng là hợp ý ta, tiếc là tính khí lại tệ đến thế.”
+
+Lần này nàng bị thương rất nặng, nên cứ bám riết lấy ta.
+
+Ta sai người dò la tin tức thì biết Vĩnh An Hầu vừa bị ám sát.
+
+Lúc ấy Định Châu đã bị phong tỏa, binh lính khắp nơi truy bắt thích khách, nàng chắc chắn không còn chỗ nào để đi.
+
+Vì muốn chữa thương, nàng tìm đủ cách quấn lấy ta.
+
+Rốt cuộc ta vẫn đem nhân sâm ấy cho nàng.
+
+Khi sức khỏe ổn định, nàng lại phát bệnh ong bướm như trước.
+
+“Trang chủ, ta tên Lãnh Nguyệt, là một kiếm khách giang hồ. Ngài tên gì vậy?”
+
+Giỏi lắm, lần này tiến bộ rồi, biết hỏi tên ta.
+
+Ta hờ hững đáp: “Nhàn Vân.”
+
+Nàng tựa vào ta, dịu giọng nói: “Nhàn Vân trang chủ, ngài không nhìn thấy, hẳn là buồn chán lắm nhỉ. Ta hát cho ngài nghe nhé?”
+
+Nàng đem hết những kỹ nghệ từng học khi làm hoa khôi ra dùng với ta.
+
+Ta biết rõ nàng chỉ ở lại tạm thời, vậy mà đáng buồn thay, ta vẫn sa vào lưới tình.
+
+Bởi mối tình ngắn ngủi mà nàng trao cho ta thật sự chân thành và mãnh liệt, quấn quýt đến khắc cốt ghi tâm, muốn thoát cũng không thoát được.
+
+Nàng ôm lấy ta, hôn mãi không dứt, rồi nồng nàn nói: “Chàng nói xem, phải chăng chúng ta có duyên từ kiếp trước? Ngay từ cái nhìn đầu tiên, ta đã yêu chàng đến tan chảy cả cõi lòng. Ta thấy chàng cái gì cũng tốt, thậm chí ôm chàng còn có chút quen thuộc. Nhàn Vân, ta chắc chắn chúng ta được định sẵn là phu thê.”
+
+Có những lúc, ta cảm giác mình sắp bị nàng làm cho phát điên.
+
+Đã yêu ta đến thế, sao lúc rời đi lại chẳng chút lưu luyến?
+
+Lúc nàng để lại chiếc bình an kết thứ ba rồi bỏ đi không lời từ biệt, ta đã tìm đến “Phong Vũ Lâu” và cuối cùng biết được sự thật.
+
+Vì luyện kiếm, nàng đã uống bí dược Nam Cương “Ái Biệt Ly”.
+
+Nàng không thể khống chế bản thân mà yêu ta.
+
+Nhưng vì báo thù, nàng sẽ bỏ rơi ta, rồi quên ta.
+
+Về lại kinh thành, ta nhìn ba chiếc bình an kết, thường xuyên mất ngủ.
+
+Hoàng huynh triệu ta vào cung nói chuyện, vẻ mặt ngập ngừng, như có rất nhiều điều muốn nói mà không biết bắt đầu từ đâu.
+
+Đôi mắt ta bị mù là do mẫu hậu hạ độc.
+
+Hoàng huynh từng bị ám toán, trúng kịch độc nên mất thị lực.
+
+Thái y nói loại độc này đến từ Tây Vực, có ba cách giải, phải thử từng cách một.
+
+Mẫu hậu nổi trận lôi đình, sai Thái y nhanh chóng tìm người thử thuốc.
+
+Thái y ấp úng nói: “Cần người thân thích ruột thịt thử thuốc, nếu không khó xác định hiệu quả.”
+
+Người thân thích của hoàng huynh, ngoài mẫu hậu thì chỉ còn mình ta.
+
+Mẫu hậu dâng lên một chén rượu độc, tay run rẩy nói: “Nhàn Vân, đừng trách mẫu hậu.”
+
+Ta bình thản uống cạn chén rượu, thầm nghĩ cũng nên quen rồi.
+
+Trở lại kinh thành, hoàng huynh muốn bù đắp cho ta nên hỏi ta muốn gì.
+
+Ta suy nghĩ một lát rồi nói: “Hoàng huynh, ta muốn hộ tâm kính trong bảo khố.”
+
+Hoàng huynh ngạc nhiên: “Sao hết người này đến người khác đều muốn hộ tâm kính vậy?”
+
+Ta biết mẫu hậu từng nhắc đến hộ tâm kính.
+
+Bà muốn nhân dịp sinh thần của Vĩnh An Hầu, hoàng huynh sẽ ban chiếc kính này cho hắn.
+
+Ta mở lời thì hoàng huynh chưa bao giờ từ chối.
+
+Ngài đưa cho ta hộ tâm kính thật, rồi chế tạo thêm một chiếc giả.
+
+Hoàng huynh lén nói riêng với ta: “Cữu phụ của chúng ta từ sau lần bị ám sát ở Định Châu thì sợ đến mất cả hồn vía. Ông ta xin mẫu hậu không ít thị vệ, còn làm thêm vài tên thế thân, cả ngày cứ như chim sợ cành cong. Haiz, dù không ra gì, ông ta vẫn là cữu phụ của chúng ta.
+
+“Mai là sinh thần của ông ta, đệ đi tặng hộ tâm kính, hòa giải chút quan hệ đi.”
+
+Hôm sau, ta chán ghét nói: “Nếu thần đệ mang đi tặng, Vĩnh An Hầu dám dùng sao? Hắn chẳng phải bạn chí thân của Sở Thượng thư sao? Vậy để Sở Thượng thư tự đến bảo khố lấy rồi đưa cho hắn là được.”
+
+Khi chính mắt thấy Sở Thượng thư dâng chiếc hộ tâm kính giả cho Vĩnh An Hầu, lòng ta dần bình tĩnh lại.
+
+Trong thư, Tề Thịnh viết: “Huyền Hạc, ta đang ở một nơi gọi là thôn Thạch Đầu thuộc Ninh Châu.
+
+“Ngươi còn nhớ năm xưa ta nhờ ngươi tìm cô bé buộc dây đỏ ở bãi tha ma phía nam thành Ninh Châu không?
+
+“Ta lại gặp nàng rồi.
+
+“Ta muốn xem nàng định làm gì, mà không muốn bị phụ thân ta tìm thấy, nên nhờ ngươi giúp che giấu tung tích.”
+
+Ta phái Chu Tước Vệ đến thôn Thạch Đầu giám sát Tề Thịnh.
+
+Nếu hắn định làm hại nàng, ta sẽ ra tay.
+
+Không ngờ Tề Thịnh lại gửi thêm một bức thư nữa.
+
+“Huyền Hạc, hình như ta đã yêu nàng rồi, làm sao đây? Nhưng ta và nàng vốn không có khả năng.
+
+“Năm đó ở Ninh Châu, ta chỉ tò mò vì sao phụ thân lại đến nhà một người bán đậu phụ.
+
+“Nhưng ta tận mắt thấy ông ấy dùng thủ đoạn tàn bạo giết hại một nữ nhân.
+
+“Ta và cô bé đó cùng trốn trong tủ quần áo, nàng cắn chặt miệng ta, không để ta phát ra tiếng động.
+
+“Khi ấy, để phân tán sự chú ý, ta dán mắt vào nốt ruồi đỏ trên cổ tay nàng qua một khe hở nhỏ.
+
+“Lúc tỉnh lại ở thôn Thạch Đầu, thấy nốt ruồi đỏ đó, ta liền nhận ra nàng.
+
+“Nàng chắc chắn đến để báo thù phụ thân ta. Huyền Hạc, ngươi bảo ta phải làm sao đây?”
+
+Phải làm sao ư? Mẹ nàng bị phụ thân ngươi giết hại, vậy mà ngươi còn hỏi ta phải làm sao?
+
+Tề Thịnh vốn là người mềm yếu, do dự không quyết, sớm muộn gì hắn cũng phải trả giá cho sự chần chừ hôm nay.
+
+Ta không chút biểu cảm xé nát lá thư, rồi ra lệnh cho Chu Tước Vệ báo tin cho Vĩnh An Hầu phủ rằng đã tìm thấy Tề Thịnh.
+
+Tề Thịnh đưa nàng trở về.
+
+Lần này nàng trở thành nhị tiểu thư của phủ Sở Thượng thư, lấy tên là Sở Vãn.
+
+Nàng làm vị hôn thê của Tề Thịnh, dịu dàng khoác tay hắn, cười nhẹ nhàng với hắn.
+
+Ta tức đến đau nhói trong tim, nhưng chẳng làm được gì.
+
+Điều đáng mừng duy nhất là lần này nàng không quên ta.
+
+Nàng biết thân phận thật của ta, nhưng chưa từng nghĩ đến chuyện nhờ sức ta để báo thù.
+
+Về sau, ta hỏi nàng: “Vì sao không để ta giúp nàng?”
+
+Nàng dứt khoát đáp: “Ta không bao giờ đặt hy vọng vào người khác. Trên đời này, chỉ có bản thân mình là đáng tin cậy nhất.”
+
+Phải rồi, ta sớm nên biết nàng là người kiên định và rất tự chủ.
+
+Suốt mười tám năm, nàng chưa từng dao động trước mối thù sâu như biển.
+
+Nói ra, e rằng chẳng ai dám tin.
+
+Một cô nhi lại có thể báo thù thành công, khiến một Thượng thư đương triều và một vị Quốc cữu gia sống không bằng chết.
+
+Nàng mang theo thù hận, bước đi trong bóng tối.
+
+Nàng không cần ngước nhìn sao trời, vì sự kiên định trong lòng nàng chưa bao giờ mờ nhạt.
+
+Nàng cũng chẳng cần ai sưởi ấm, vì chính nàng đã đủ nhiệt huyết.
+
+Nếu mặt trời mãi không mọc, thế gian chỉ còn lại tia sáng cuối cùng, thì tia sáng ấy chắc chắn mang tên Tang Vị Vãn.
+
+Còn ta là con thiêu thân, sẽ không ngừng lao vào ánh sáng ấy.
+
+Ngoại Truyện
+
+Khi Sở Tàng Phong vẫn còn là một thư sinh nghèo, ta đã nhận ra sau này hắn sẽ hiển đạt.
+
+Ta mạnh dạn, thẳng thắn theo đuổi hắn, mong sau này có thể làm một vị quan phu nhân.
+
+Nhưng hắn lại là người không biết nhìn người.
+
+Hắn bỏ qua ta, một tiểu thư nhà buôn lụa, để đi thích cô gái làm đậu phụ vừa câm lặng vừa quê mùa kia.
+
+Tang Vân Vân quả là mệnh khổ, từ nhỏ đã phải chịu khổ cực dưới tay cha mẹ vô tình.
+
+Có lẽ bị đánh quá nhiều nên đầu óc nàng cũng trở nên chậm chạp.
+
+Sở Tàng Phong lúc nào cũng dành cho nàng sự thương cảm.
+
+Ta nghĩ, nếu nàng sống dễ chịu hơn thì Sở Tàng Phong sẽ bớt để ý đến nàng.
+
+“Ê, làm bộ đáng thương cho ai xem thế? Đây, lấy thuốc mỡ này bôi lên mặt đi, đừng để Tàng Phong nhìn thấy lại đau lòng.”
+
+“Nhìn ngươi mặc kìa, nghèo xác xơ. Đây là quần áo cũ của ta, mau thay đi. Nếu không, Tàng Phong thấy bộ dạng thảm hại này lại thêm thương cảm cho ngươi.”
+
+“Sao lại bị đánh đến mức này nữa? Ngươi ngốc à, không biết tránh sao? Cầm mấy cái bánh bao này đi, kẻo ngươi chết đói, Tàng Phong lo cho ngươi rồi lại chẳng học hành được gì.”
+
+Ta ghét việc Sở Tàng Phong cứ phải hao tâm tổn trí vì một Tang Vân Vân đáng ghét.
+
+Mỗi lần nhìn bộ dạng tội nghiệp của nàng, ta lại tức không chịu nổi.
+
+Đáng ghét thật! Nàng cướp mất người ta yêu, vậy mà ta còn phải ngày ngày giúp nàng.
+
+Hầy, nhưng chẳng còn cách nào, ai bảo ta vừa xinh đẹp vừa tốt bụng chứ.
+
+Một ngày nọ, Tang Vân Vân đột nhiên hỏi ta: “Nếu Tàng Phong cưới cô, cô vẫn đối xử tốt với ta như vậy sao?”
+
+“Hắn đâu có thích ta.” Ta lầm bầm, rồi chợt nhận ra mình vừa nói gì, bèn quát: “Ta tốt với ngươi hồi nào chứ? Đừng có tưởng bở!”
+
+Cuối cùng, Sở Tàng Phong cũng đến cầu thân với ta.
+
+Nghe nói Tang Vân Vân đã từ chối hắn, còn để lại lời tuyệt tình rằng nếu Sở Tàng Phong tiếp tục dây dưa, nàng sẽ tự vẫn.
+
+Ta nghĩ, con người này quả thật đầu óc không bình thường.
+
+Về sau ta trở thành Sở phu nhân. Mỗi khi nhớ lại những ngày tháng ấy, ta đều thấy chúng xa xôi như chuyện kiếp trước.
+
+Sở Tàng Phong vốn là người định sẵn sẽ bay cao.
+
+Cha ta dốc cạn gia tài cho hắn ăn học, và hắn cũng không phụ lòng kỳ vọng của chúng ta.
+
+Hắn thăng tiến từng bước, giữa cả triều văn võ, chỉ mình hắn, một thư sinh hàn môn, thăng quan nhanh đến vậy.
+
+Mãi sau này ta mới biết hắn đã giao nộp tín vật cho Vĩnh An Hầu.
+
+Ta giả vờ không biết những chuyện bẩn thỉu ấy, an phận làm một Sở phu nhân.
+
+Cho đến ngày Sở Tàng Phong bế về một nữ nhân thương tích đầy mình, giọng hắn run rẩy: “Nàng tìm người cứu nàng ấy đi.”
+
+Nữ nhân ấy là Tang Vân Vân.
+
+Dù nhiều năm không gặp, ta vừa nhìn đã nhận ra nàng.
+
+Tang Vân Vân hôn mê suốt ba ngày mới tỉnh lại, ta từng nghĩ nàng sẽ chết.
+
+Khi tỉnh, nàng nhìn ta hồi lâu rồi nhẹ giọng nói: “A Uyển, cuối cùng ta cũng gặp được cô rồi.”
+
+Khoảnh khắc ấy, nước mắt ta rơi như mưa.
+
+Ta thầm nghĩ, ta nhận ra nàng ngay lập tức vì ta chưa bao giờ quên nàng.
+
+Tang Vân Vân, ta thật sự ghét ngươi.
+
+Một đứa ngốc như ngươi, sao lại đáng để một phu nhân như ta bận lòng?
+
+Biết nàng bỏ trốn khỏi nhà, một mình đến kinh thành tìm ta, ta vừa giận vừa xót xa.
+
+Lúc ta và Sở Tàng Phong rời quê, ta có để lại cho nàng chút bạc.
+
+Nàng lưu luyến nhìn ta, hỏi: “A Uyển, ta có thể đến kinh thành tìm cô không?”
+
+Ta quát: “Ngươi tìm ta làm gì? Ta đi làm phu nhân quan lớn rồi!”
+
+Không ngờ một người nhút nhát, chẳng thông minh như nàng lại thật sự đến được kinh thành.
+
+Thậm chí nàng còn mở một quán bán đậu phụ, chỉ vì trước khi đi ta từng nói một câu: “Rời quê rồi, không còn được ăn đậu phụ nhà họ Tang nữa đâu.”
+
+Thảo nào một năm nay đậu phụ nhà ta ăn ngon hơn hẳn. Thì ra nàng vẫn lặng lẽ mang đến.
+
+Tang Vân Vân tỉnh lại mà chẳng hề nhận ra mình đã phải chịu bao đau đớn.
+
+Nàng còn tựa vào ta, vui vẻ nói: “A Uyển, sau này ta sống ở nhà cô, hai ta cùng nhau trải qua những ngày vui vẻ nhé.”
+
+Tên súc sinh Vĩnh An Hầu biết Vân Vân chưa chết nên bắt Sở Tàng Phong đem nàng đi.
+
+Hết lần này đến lần khác, Vân Vân luôn trở về với thân mình đầy thương tích.
+
+Về sau Vân Vân mang thai, Vĩnh An Hầu mới chịu buông tha nàng.
+
+Hắn chỉ có một đứa con trai, vô cùng quý trọng huyết mạch, nên cuối cùng cũng để Vân Vân yên ổn.
+
+Năm ấy, lúc Vân Vân an thai là khoảng thời gian yên bình nhất mà chúng ta từng có.
+
+Ta giúp nàng trang điểm, dạy nàng đọc sách, viết chữ.
+
+Đêm khuya, hai chúng ta trốn trong chăn, thì thầm trò chuyện.
+
+Nàng tựa vào vai ta, nghiêm túc nói: “Đại phu bảo ta mang song thai. A Uyển, sau khi sinh con, ta sẽ tặng cô một đứa để nuôi. Như vậy cô sẽ có con cái, sau này không còn sợ cô quạnh.”
+
+Ta vô sinh, chữa trị nhiều năm vẫn không có tiến triển gì.
+
+Ta biết tất cả đều là báo ứng.
+
+Vân Vân à, trước đây ta hay cười ngươi ngốc.
+
+Nhưng bây giờ ta thấy ngươi ngốc cũng tốt, như thế ngươi sẽ đỡ đau khổ.
+
+Đôi khi sống lơ mơ một chút lại có thể sống lâu hơn.
+
+“Ngươi ngốc thật. Có ai làm mẹ lại đem con mình cho người khác nuôi không chứ?” Ta lặng lẽ lau nước mắt, trêu nàng.
+
+Vân Vân mỉm cười, nhẹ nhàng đáp: “A Uyển, của ta cũng là của cô. Cô sống tốt thì ta mới vui lòng.”
+
+Đêm giao thừa năm đó, nàng hạ sinh một đôi song sinh nữ nhi.
+
+Hai đứa trẻ chẳng giống nhau. Tỷ tỷ thấp hơn, hơi mập mạp, còn muội muội cao hơn, gầy guộc hơn.
+
+Vân Vân nhìn hai đứa trẻ, nghiêm túc nói: “Tỷ tỷ giống cô, muội muội giống ta.”
+
+Nghe vậy, ta không biết nên khóc hay nên cười.
+
+Đêm ấy, ta phóng một trận lửa lớn, đưa Vân Vân và một đứa bé rời khỏi nơi này.
+
+Sở Tàng Phong ngầm đồng thuận chuyện đó.
+
+Về sau, khi Vĩnh An Hầu hỏi thăm Vân Vân, Sở Tàng Phong đáp: “Phu nhân ta ghen ghét, lại nhiều năm không con. Nàng ngỡ đứa trẻ kia là con của ta nên đã phóng hỏa thiêu chết nữ nhân ấy, không muốn ai đe dọa địa vị của nàng.”
+
+Không biết Vĩnh An Hầu có tin hay không, nhưng hắn không truy cứu thêm.
+
+Hắn là ác quỷ đội lốt người, là hiện thân của tội ác đi lại giữa nhân gian.
+
+Vĩnh An Hầu lấy việc tra tấn nữ nhân làm thú vui, lần nào hành hạ cũng gọi Sở Tàng Phong đến.
+
+Hắn cười ngạo nghễ nói: “Thằng cháu nhỏ khó ưa kia của ta hình như biết ta đang làm gì, cứ nhìn ta chằm chằm. Nếu bị nó nắm thóp thì phiền phức lắm. Nếu chuyện vỡ lở, đành nhờ Sở huynh gánh tội thay ta vậy.”
+
+Vĩnh An Hầu là đệ đệ ruột của đương kim Thái hậu, được sủng ái hết mực, quyền thế ngút trời, ai dám động đến hắn.
+
+Trong lòng ta khinh bỉ hạng súc sinh như hắn.
+
+Năm xưa, lão Hầu gia cùng đại tiểu thư nhà họ Tề là Tề Minh Lý đã chinh chiến sa trường, lập công lao hiển hách.
+
+Sau khi chiến sự lắng xuống, Tiên đế ban cho hắn tước vị Vĩnh An Hầu.
+
+Trước khi qua đời, lão Hầu gia đã truyền lại tước vị này cho con quái vật đó.
+
+Tề đại tiểu thư lòng nguội như tro.
+
+Nhiều người kể rằng vào một ngày mưa, Tề đại tiểu thư che một chiếc ô, mang theo một tay nải nhỏ rồi rời khỏi Hầu phủ.
+
+Từ đó về sau, không ai gặp lại nàng nữa.
+
+Sở Tàng Phong dần được Hoàng thượng trọng dụng, số lần đến Vĩnh An Hầu phủ cũng ngày một ít đi.
+
+Con gái ta, Vận Vận, cũng dần khôn lớn.
+
+Năm Vận Vận lên năm tuổi, con bé bỗng hỏi ta: “Mẹ, con có phải có một muội muội không?”
+
+Ta ngẩn người, hỏi lại: “Sao con lại hỏi thế?”
+
+Con bé ôm ngực, khẽ nói: “Con cũng không biết nữa, chỉ là tự dưng thấy đau lòng quá. Có phải muội muội của con đang buồn không?”
+
+Ta không trả lời.
+
+Nha hoàn hầu hạ con bé lén kể với ta rằng hôm nay Vận Vận nhận được một lá thư, rồi ngồi lặng trong phòng rất lâu.
+
+Từ đó, mỗi tháng đều có một lá thư gửi đến cho con bé, kèm theo vài món đồ nhỏ.
+
+Ta giả vờ như không hay biết.
+
+Sở Tàng Phong cuối cùng cũng ngồi lên vị trí Thượng thư, từ đó không đặt chân đến Vĩnh An Hầu phủ nữa.
+
+Hắn từng rất thích ăn đậu phụ, nhưng từ khi Vận Vận lên năm, hắn không còn đụng đến món ấy.
+
+Lớn lên, Vận Vận say mê tiểu hầu gia Tề Thịnh, ngày nào cũng khóc lóc đòi gả cho hắn.
+
+Nhìn con bé suốt ngày chạy tới chạy lui giữa nhà mình và Hầu phủ, lòng ta vừa đau khổ vừa bất lực.
+
+Tình cờ, ta nghe Huyền Hạc vương gia nhắc đến một nơi gọi là “Phong Vũ Lâu”.
+
+Nghe nói chỉ cần trả giá cao, bọn họ có thể làm được mọi thứ.
+
+Lòng ta run rẩy.
+
+Ta cầu xin Huyền Hạc vương gia chỉ cho cách liên lạc với “Phong Vũ Lâu”.
+
+Ta dùng tay trái viết thư, nhờ “Phong Vũ Lâu” khiến Tề Thịnh sớm lấy vợ, để Vận Vận dứt bỏ ý niệm ấy.
+
+Viết xong, ta ngồi thật lâu rồi thêm một dòng: “Giết Thượng thư bộ Hình Sở Tàng Phong.”
+
+Cuối cùng, “Phong Vũ Lâu” cũng bắt đầu hành động.
+
+Tề Thịnh mất tích nửa năm, trở về cùng một nữ tử và nhất quyết đòi cưới nàng.
+
+Chuyện này làm cả thành xôn xao. Hầu phủ chê nàng xuất thân thấp kém.
+
+Không ngờ nàng lấy ra tín vật, chứng minh mình là con gái của Sở Tàng Phong.
+
+Ta gặp nàng.
+
+Chỉ một ánh mắt, ta đã biết nàng là ai.
+
+Nàng cười dịu dàng, thanh nhã mà mềm mại, giống hệt Tang Vân Vân.
+
+Nàng mỉm cười lễ phép với ta: “Sở phu nhân, rất vui được gặp bà. Ta là Tang Vị Vãn, người cầm ô của ‘Phong Vũ Lâu’. Nhiệm vụ lần này do ta phụ trách. Ta sẽ dốc toàn lực che gió chắn mưa cho bà. Hy vọng chúng ta hợp tác vui vẻ.”
+
+Vân Vân đã đặt tên cho nàng là Tang Vị Vãn.
+
+Nghe đến đó, ta ngẩn ngơ xuất thần.
+
+Vân Vân, ngươi vẫn đang chờ ta đi tìm ngươi sao?
+
+May thay, mọi chuyện vẫn chưa muộn.
+
+Chờ Sở Tàng Phong chết rồi, ta sẽ đưa Vận Vận và Vị Vãn đến tìm ngươi.
+
+Khi Vị Vãn trở về, Sở Tàng Phong mất ăn mất ngủ.
+
+Hắn độc ác nói: “Tìm cách giết nàng! Nàng nhất định trở về để báo thù. Ta đã từ bỏ tất cả mới có được vị trí hôm nay, không thể để nàng phá hủy!”
+
+Ta cầu xin hắn: “Tàng Phong, Vị Vãn chỉ là một cô gái nhỏ, tình cờ được Tề Thịnh mang về, làm sao có thể đe dọa ngài?”
+
+Hắn lạnh lùng nhìn ta: “Lâm Tĩnh Uyển, ngươi giả bộ cái gì. Cha và ca ca ngươi bao năm nay dựa vào thế lực của ta mà độc chiếm việc buôn lụa ở kinh thành, tiền bạc đầy túi. Nếu ta xảy ra chuyện, ai sẽ bảo vệ họ? Mấy năm nay, ngươi chẳng phải đã giúp ta xử lý không ít xác chết sao? Sao bây giờ lại muốn làm thánh nhân?”
+
+Hắn cười gằn: “Lâm Tĩnh Uyển, chúng ta không còn đường quay lại.”
+
+Chờ hắn đi khỏi, ta thầm nghĩ:
+
+Sở Tàng Phong, chỉ có ngươi là không còn đường quay lại.
+
+Ngươi chết rồi, ta sẽ được giải thoát, có thể đi tìm Vân Vân.
+
+Về sau, ta gom hết can đảm hỏi tung tích Vân Vân, nhưng lại nghe tin nàng đã chết.
+
+Vân Vân bị Vĩnh An Hầu hành hạ đến chết.
+
+Người biết tung tích của Vân Vân, ngoài ta và Sở Tàng Phong thì chẳng còn ai.
+
+Ha, thảo nào Sở Tàng Phong nói chúng ta không còn đường quay lại.
+
+Chúng ta bị danh lợi mê hoặc, bị cuốn theo dòng chảy.
+
+Chúng ta sa vào vũng bùn, bỏ mặc chính mình.
+
+Mà Vân Vân là lương tri duy nhất còn sót lại của chúng ta.
+
+Nhưng Vân Vân đã chết.
+
+Vậy thì tất cả chúng ta cùng xuống địa ngục đi.
+
+Ta từng muốn giết Vĩnh An Hầu để báo thù cho Vân Vân, nhưng nàng thậm chí không cho ta cơ hội ấy.
+
+Ta chỉ còn cách dùng cái mạng vô dụng này để lại một lá thư tuyệt mệnh, kéo Sở Tàng Phong xuống ngựa.
+
+Ta đá chiếc ghế dưới chân, bật cười.
+
+Vân Vân, ta đến tìm ngươi đây.
+
+Từ nay, chúng ta sẽ mãi mãi bên nhau.
+    
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- ==================================================
+     JAVASCRIPT TRUYỆN
+================================================== -->
+
+<script src="../codetruyen/script.js"></script>
+<script src="../codetruyen/audio.js"></script>
+
+
+<!-- ==================================================
+     POPUP XÔI THỊT
+================================================== -->
+
+<div id="xoiThitPopup" class="xoi-thit-overlay" style="display:none;">
+
+<div class="xoi-thit-box">
+
+<!-- ICON WEB CŨ -->
+
+<img src="../codetruyen/icon.jpg" alt="Truyện Mới Miu Miu" class="xoi-thit-icon">
+
+
+<!-- MŨI TÊN -->
+
+<span class="xoi-thit-arrow">→</span>
+
+
+<!-- ICON XÔI THỊT -->
+
+<img src="../codetruyen/iconxoi.jpg" alt="Xôi Thịt Nhà Mui Miu" class="xoi-thit-icon">
+
+
+<!-- NỘI DUNG -->
+
+<div class="xoi-thit-text">
+Bạn đang chuyển qua web
+<strong>Xôi Thịt Nhà Mui Miu</strong>
+</div>
+
+<div class="xoi-thit-question">
+Bạn có muốn tiếp tục không?
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="xoi-thit-buttons">
+
+<button id="xoiThitYes" class="xoi-thit-yes" type="button">Có</button>
+
+<button id="xoiThitNo" class="xoi-thit-no" type="button">Không</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ==================================================
+     POPUP SCRIPT
+================================================== -->
+
+<script>
+
+const xoiThitLink = document.getElementById("xoiThitLink");
+const xoiThitPopup = document.getElementById("xoiThitPopup");
+const xoiThitYes = document.getElementById("xoiThitYes");
+const xoiThitNo = document.getElementById("xoiThitNo");
+
+
+/* ==================================================
+   KIỂM TRA PHẦN TỬ
+================================================== */
+
+if (
+  xoiThitLink &&
+  xoiThitPopup &&
+  xoiThitYes &&
+  xoiThitNo
+) {
+
+
+  /* ==================================================
+     ẤN XÔI THỊT
+  ================================================== */
+
+  xoiThitLink.addEventListener("click", function(event) {
+
+    event.preventDefault();
+
+    xoiThitPopup.style.display = "flex";
+
+  });
+
+
+  /* ==================================================
+     CÓ → CHUYỂN WEB
+  ================================================== */
+
+  xoiThitYes.addEventListener("click", function() {
+
+    window.location.href = "https://tiemnhamiumiu.neocities.org/";
+
+  });
+
+
+  /* ==================================================
+     KHÔNG → ĐÓNG BẢNG
+  ================================================== */
+
+  xoiThitNo.addEventListener("click", function() {
+
+    xoiThitPopup.style.display = "none";
+
+  });
+
+
+  /* ==================================================
+     ẤN RA NGOÀI BẢNG → ĐÓNG
+  ================================================== */
+
+  xoiThitPopup.addEventListener("click", function(event) {
+
+    if (
+      event.target ===
+      xoiThitPopup
+    ) {
+
+      xoiThitPopup.style.display = "none";
+
+    }
+
+  });
+
+}
+
+</script>
+
+
+</body>
+</html>
